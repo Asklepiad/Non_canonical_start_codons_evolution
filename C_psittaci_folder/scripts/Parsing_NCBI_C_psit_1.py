@@ -24,6 +24,7 @@ from Bio.SeqRecord import SeqRecord
 from Bio import Entrez
 from itertools import chain
 from tqdm import tqdm
+import json
 #from google.colab import files   # For working with colab only
 #from google.colab import drive   # For working with colab only
 
@@ -123,7 +124,7 @@ for link in tqdm(links):
 
 # Creating a dictionary, which makes matching berween number of record and type of DNA source: chromosome or plasmid
 plasmid_code = {}
-for record_number in range(len(gb_records)):
+for record_number in tqdm(range(len(gb_records))):
     if "plasmid" in gb_records[record_number][0].description:
         plasmid_code[record_number] = "plasmid"
     else:
@@ -131,7 +132,7 @@ for record_number in range(len(gb_records)):
 
 source_list = []   # Creating list for identyfing the number of every assemblie DNA molecules (chromosome and any plasmids)
 name = "C_psittaci"
-for rec in gb_records:
+for rec in tqdm(gb_records):
     source = rec[1] # Number of assembly
     source_list.append(source)
     number  = source_list.count(source) # Counting the DNA molecule of assembly
@@ -142,3 +143,8 @@ for rec in gb_records:
         for_prokka_fasta.write("\n")
         for_prokka_fasta.write(str(rec[0].seq))
         for_prokka_fasta.write("\n")
+
+# Saving plasmid_code
+jsonpc = json.dumps(plasmid_code)
+with open(f"../data/{name}_plasmid_code.json", "w") as jspc:
+    jspc.write(jsonpc)
