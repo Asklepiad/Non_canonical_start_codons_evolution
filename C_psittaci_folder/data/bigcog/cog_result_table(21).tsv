@@ -1,0 +1,258 @@
+Organism	Protein	COG	Cat	Annotation
+998	1410	COG0001	H	Glutamate-1-semialdehyde aminotransferase
+958	1479	COG0007	H	Uroporphyrinogen-III methylase (siroheme synthase)
+405	447	COG0011	H	Thiamin-binding stress-response protein YqgV, UPF0045 family
+1142	3418	COG0028	E H	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme
+864	951	COG0029	H	Aspartate oxidase
+642	851	COG0043	H	3-polyprenyl-4-hydroxybenzoate decarboxylase
+1149	1222	COG0054	H	6,7-dimethyl-8-ribityllumazine synthase (Riboflavin synthase beta chain)
+1092	1128	COG0059	E H	Ketol-acid reductoisomerase
+1250	1442	COG0061	H	NAD kinase
+550	823	COG0095	H	Lipoate-protein ligase A
+1136	1288	COG0108	H	3,4-dihydroxy-2-butanone 4-phosphate synthase
+851	919	COG0109	H I	Polyprenyltransferase (heme O synthase)
+1165	3214	COG0111	H	Phosphoglycerate dehydrogenase or related dehydrogenase
+1088	1115	COG0113	H	Delta-aminolevulinic acid dehydratase, porphobilinogen synthase
+1183	2815	COG0115	E H	Branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase
+1026	1060	COG0117	H	Riboflavin biosynthesis protein RibD, pyrimidine deaminase domain
+728	802	COG0132	H	Dethiobiotin synthetase
+1259	2718	COG0142	H	Geranylgeranyl pyrophosphate synthase
+1142	2131	COG0147	E H	Anthranilate/para-aminobenzoate synthases component I
+964	1842	COG0156	H	7-keto-8-aminopelargonate synthetase or related enzyme
+996	1103	COG0157	H	Nicotinate-nucleotide pyrophosphorylase
+848	1720	COG0161	H	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase
+624	681	COG0163	H	Flavin prenyltransferase UbiX
+1230	1386	COG0171	H	NH3-dependent NAD+ synthetase
+904	1828	COG0175	E H	Phosphoadenylyl sulfate (PAPS) reductase/FAD synthetase or related enzyme
+1094	1111	COG0181	H	Porphobilinogen deaminase
+918	2049	COG0189	J E H Q	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily
+1227	1353	COG0190	H	5,10-methylene-tetrahydrofolate dehydrogenase/Methenyl tetrahydrofolate cyclohydrolase
+1156	1272	COG0192	H	S-adenosylmethionine synthetase
+1135	1175	COG0196	H	FAD synthase
+1100	1176	COG0212	H	5-formyltetrahydrofolate cyclo-ligase
+446	457	COG0214	H	Pyridoxal 5'-phosphate synthase subunit PdxS
+1263	1298	COG0237	H	Dephospho-CoA kinase
+692	792	COG0259	H	Pyridoxine/pyridoxamine 5'-phosphate oxidase
+964	2168	COG0262	H	Dihydrofolate reductase
+931	995	COG0276	H	Protoheme ferro-lyase (ferrochelatase)
+1173	1254	COG0285	H	Folylpolyglutamate synthase/Dihydropteroate synthase
+1174	1442	COG0294	H	Dihydropteroate synthase
+448	471	COG0301	J H	Adenylyl- and sulfurtransferase ThiI (thiamine and tRNA 4-thiouridine biosynthesis)
+902	1068	COG0302	H	GTP cyclohydrolase I
+993	1770	COG0303	H	Molybdopterin Mo-transferase (molybdopterin biosynthesis)
+1084	1122	COG0307	H	Riboflavin synthase alpha chain
+420	422	COG0311	H	Pyridoxal 5'-phosphate synthase subunit PdxT (glutamine amidotransferase)
+879	904	COG0314	H	Molybdopterin synthase catalytic subunit MoaE
+981	995	COG0315	H	Molybdenum cofactor biosynthesis enzyme MoaC
+982	1054	COG0320	H	Lipoate synthase
+865	879	COG0321	H	Lipoate-protein ligase B
+1100	1151	COG0325	H	Pyridoxal 5'-phosphate homeostasis protein YggS, UPF0001 family
+901	968	COG0327	H	Putative GTP cyclohydrolase 1 type 2, NIF3 family
+1208	1286	COG0340	H	Biotin-protein ligase
+1022	1225	COG0351	H	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+1001	1546	COG0352	H	Thiamine monophosphate synthase
+716	731	COG0368	H	Cobalamin synthase CobS (adenosylcobinamide-GDP ribazoletransferase)
+942	986	COG0373	H	Glutamyl-tRNA reductase
+909	928	COG0379	H	Quinolinate synthase
+1003	1665	COG0382	H	4-hydroxybenzoate polyprenyltransferase
+591	691	COG0391	G H	Archaeal 2-phospho-L-lactate transferase/Bacterial gluconeogenesis factor, CofD/UPF0052 family
+995	1423	COG0407	H	Uroporphyrinogen-III decarboxylase HemE
+558	567	COG0408	H	Coproporphyrinogen-III oxidase HemH, oxygen-dependent
+1003	1054	COG0413	H	Ketopantoate hydroxymethyltransferase
+938	960	COG0414	H	Panthothenate synthetase
+833	913	COG0422	H	4-amino-2-methyl-5-hydroxymethylpyrimidine (HMP) synthase ThiC
+832	1439	COG0425	J O H	Sulfur carrier protein TusA (tRNA thiolation, molybdenum cofactor biosynthesis)
+712	937	COG0432	H	Thiamin phosphate synthase YjbQ, UPF0047 family
+510	535	COG0447	H	1,4-Dihydroxy-2-naphthoyl-CoA synthase
+1196	1338	COG0452	H	Phosphopantothenoylcysteine synthetase/decarboxylase CoaBC
+1066	1643	COG0476	H	Molybdopterin or thiamine biosynthesis adenylyltransferase
+931	1021	COG0499	H	S-adenosylhomocysteine hydrolase
+895	1050	COG0502	H	Biotin synthase or related enzyme
+356	498	COG0510	H	Thiamine kinase or a related kinase
+1136	1514	COG0512	E H	Anthranilate/para-aminobenzoate synthase component II (glutamine amidotransferase)
+956	1096	COG0521	H	Molybdopterin adenylyltransferase MoaB/MogA
+868	2625	COG0535	D H	Radical SAM superfamily maturase, SkfB/NifB/PqqE family
+804	1452	COG0543	C H	NAD(P)H-flavin reductase
+939	2463	COG0561	H R	Hydroxymethylpyrimidine pyrophosphatase and other HAD family phosphatases
+1186	13171	COG0596	H R	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH and related esterases, alpha/beta hydrolase fold
+922	1117	COG0602	H	Organic radical activating enzyme NrdG/QueE
+939	953	COG0611	H	Thiamine monophosphate kinase
+661	1467	COG0619	H	ECF-type transporter transmembrane protein EcfT
+1127	1959	COG0635	H	Coproporphyrinogen-III oxidase HemN (oxygen-independent) or related Fe-S oxidoreductase
+785	4109	COG0654	C H	2-polyprenyl-6-methoxyphenol hydroxylase and related FAD-dependent oxidoreductases
+937	1511	COG0661	T H	Predicted protein kinase regulating ubiquinone biosynthesis, AarF/ABC1/UbiB family
+997	4764	COG0667	H R	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family
+1127	1142	COG0669	H	Phosphopantetheine adenylyltransferase
+900	1189	COG0720	H	6-pyruvoyl-tetrahydropterin synthase
+923	980	COG0746	H	Molybdopterin-guanine dinucleotide biosynthesis protein A
+757	1090	COG0775	F H	Nucleoside phosphorylase/nucleosidase, includes 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase MtnN and futalosine hydrolase MqnB
+1068	1217	COG0801	H	7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase (folate biosynthesis)
+1048	1450	COG0807	H	GTP cyclohydrolase II
+361	477	COG0819	H	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)
+691	714	COG0853	H	Aspartate 1-decarboxylase
+690	697	COG0854	H	Pyridoxine 5'-phosphate synthase PdxJ
+506	536	COG1010	H	Precorrin-3B methylase
+1054	2983	COG1011	H	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)
+93	102	COG1019	H	Phosphopantetheine adenylyltransferase
+886	1756	COG1052	C H R	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase
+299	348	COG1056	H	Nicotinamide mononucleotide adenylyltransferase
+1102	1141	COG1057	H	Nicotinate-nucleotide adenylyltransferase NadD
+579	1062	COG1060	H	2-iminoacetate synthase ThiH/Menaquinone biosynthesis enzymes MqnC and MqnE
+398	504	COG1072	H	Pantothenate kinase
+994	2462	COG1120	H P	ABC-type cobalamin/Fe3+-siderophores transport system, ATPase component
+1003	1080	COG1154	H I	Deoxyxylulose-5-phosphate synthase
+476	483	COG1165	H	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase
+515	593	COG1169	H Q	Isochorismate synthase EntC
+547	761	COG1232	H	Protoporphyrinogen oxidase HemY/PPOX
+399	626	COG1239	H	Mg-chelatase subunit ChlI
+688	1297	COG1240	H	vWFA (von Willebrand factor type A) domain of Mg and Co chelatases
+566	663	COG1268	H	Biotin transporter BioY
+699	771	COG1270	H	Cobalamin biosynthesis protein CobD/CbiB
+1019	2871	COG1335	H R	Nicotinamidase-related amidase
+122	124	COG1339	H	Archaeal CTP-dependent riboflavin kinase
+271	411	COG1348	H P	Nitrogenase ATPase subunit NifH/coenzyme F430 biosynthesis subunit CfbC
+468	741	COG1402	H	Creatinine amidohydrolase/Fe(II)-dependent FAPy formamide hydrolase (riboflavin and F420 biosynthesis)
+42	44	COG1424	H	Pimeloyl-CoA synthetase
+177	179	COG1427	H	Chorismate dehydratase (menaquinone biosynthesis, futalosine pathway)
+386	612	COG1429	H	Cobalamin biosynthesis protein CobN, Mg-chelatase
+97	98	COG1441	H	O-succinylbenzoate synthase
+380	403	COG1469	H	GTP cyclohydrolase FolE2
+759	1102	COG1477	O H	FAD:protein FMN transferase ApbE
+230	273	COG1478	H	F420-0:Gamma-glutamyl ligase (F420 biosynthesis)
+944	1039	COG1488	H	Nicotinic acid phosphoribosyltransferase
+671	724	COG1492	H	Cobyric acid synthase
+828	863	COG1521	H	Pantothenate kinase type III
+954	1054	COG1539	H	Dihydroneopterin aldolase
+679	1415	COG1541	H	Phenylacetate-coenzyme A ligase PaaK, adenylate-forming domain family
+1099	1224	COG1546	H	Nicotinamide mononucleotide (NMN) deamidase PncC
+86	86	COG1548	H	Methanofuran synthetase MfnF, hydantoinase/oxoprolinase family
+348	352	COG1564	H	Thiamine pyrophosphokinase
+638	749	COG1575	H	1,4-dihydroxy-2-naphthoate polyprenyltransferase
+1104	1357	COG1587	H	Uroporphyrinogen-III synthase
+715	763	COG1612	H	Heme A synthase
+116	117	COG1634	H	6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase MptE (tetrahydrofolate and tetrahydromethanopterin biosynthesis)
+122	126	COG1635	G H	Thiazole synthase/Archaeal ribulose 1,5-bisphosphate synthetase
+314	364	COG1641	H	CTP-dependent cyclometallase, nickel-pincer nucleotide (NPN) cofactor biosynthesis
+783	872	COG1648	H	Siroheme synthase (precorrin-2 oxidase/ferrochelatase domain)
+106	106	COG1701	H	Archaeal phosphopantothenate synthetase
+57	57	COG1731	H	Archaeal riboflavin synthase
+506	540	COG1763	H	Molybdopterin-guanine dinucleotide biosynthesis protein
+285	335	COG1767	H	Triphosphoribosyl-dephospho-CoA synthetase
+605	695	COG1797	H	Cobyrinic acid a,c-diamide synthase
+107	117	COG1809	H	Phosphosulfolactate synthase, CoM biosynthesis protein A
+133	142	COG1812	H	Archaeal S-adenosylmethionine synthetase
+73	75	COG1821	H	Tyramine-glutamate ligase MfnD (methanofuran biosynthesis), ATP-grasp superfamily
+124	137	COG1827	K H	Transcriptional regulator of NAD metabolism, contains HTH and 3H domains
+113	116	COG1829	H	Archaeal pantoate kinase
+687	1544	COG1840	G H	ABC-type transport systems for B6 and hexose phosphate, periplasmic component
+192	212	COG1865	H	Adenosylcobinamide amidohydrolase
+93	93	COG1891	H	4-(hydroxymethyl)-2-furancarboxaldehyde phosphate synthase MfnB
+697	1106	COG1893	H	Ketopantoate reductase
+380	384	COG1903	H	Cobalt-precorrin-5B methyltransferase
+148	167	COG1907	H	Beta-ribofuranosylaminobenzene 5'-phosphate synthase (methanopterin biosynthesis)
+118	118	COG1909	H	Archaeal dephospho-CoA kinase
+370	397	COG1912	V H	Stereoselective (R,S)-S-adenosylmethionine hydrolase (adenosine-forming)
+186	191	COG1920	H	2-phospho-L-lactate guanylyltransferase, coenzyme F420 biosynthesis enzyme, CobY/MobA/RfbA family
+844	887	COG1932	E H	Phosphoserine aminotransferase
+205	270	COG1953	F H	Cytosine/uracil/thiamine/allantoin permease
+49	63	COG1962	H	Tetrahydromethanopterin S-methyltransferase, subunit H
+165	184	COG1964	H	C-terminal domain of the GTP 3',8'-cyclase MoaA, radical SAM superfamily (molybdenum cofactor biosynthesis)
+905	1308	COG1977	H	Molybdopterin synthase sulfur carrier subunit MoaD
+475	520	COG1981	H	Protoporphyrinogen oxidase HemJ (unrelated to HemG or HemY)
+1142	1478	COG1985	H	Pyrimidine reductase, riboflavin biosynthesis
+771	932	COG1995	H	4-hydroxy-L-threonine phosphate dehydrogenase PdxA
+754	772	COG2022	H	Thiazole synthase ThiGH, ThiG subunit (thiamin biosynthesis)
+710	781	COG2038	H	NaMN:DMB phosphoribosyltransferase
+261	281	COG2045	H	Phosphosulfolactate phosphohydrolase or related enzyme
+86	86	COG2054	H	5-(aminomethyl)-3-furanmethanol-phosphate kinase MfnE (methanofuran biosynthesis)
+585	659	COG2068	H	CTP:molybdopterin cytidylyltransferase MocA
+386	430	COG2073	H	Cobalt-precorrin 5A hydrolase
+507	571	COG2082	H	Precorrin-8X methylmutase CbiC/CobH
+599	635	COG2087	H	Adenosyl cobinamide kinase/adenosyl cobinamide phosphate guanylyltransferase
+560	744	COG2091	H	Phosphopantetheinyl transferase
+735	804	COG2096	H	Cob(II)alamin adenosyltransferase
+78	78	COG2098	H	7,8-dihydroneopterin aldolase MptD (tetrahydrofolate and tetrahydromethanopterin biosynthesis)
+383	400	COG2099	H	Precorrin-6x reductase
+835	910	COG2104	H	Sulfur carrier protein ThiS (thiamine biosynthesis)
+170	172	COG2107	H	1,4-dihydroxy-6-naphtoate synthase (menaquinone biosynthesis, futalosine pathway)
+664	785	COG2109	H	ATP:corrinoid adenosyltransferase
+495	665	COG2138	H	Sirohydrochlorin ferrochelatase
+731	5205	COG2141	H R	Flavin-dependent oxidoreductase, luciferase family (includes alkanesulfonate monooxygenase SsuD and methylene tetrahydromethanopterin reductase)
+401	422	COG2145	H	Hydroxyethylthiazole kinase, sugar kinase family
+690	806	COG2154	H	Pterin-4a-carbinolamine dehydratase
+1256	10804	COG2226	H	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG
+1079	4498	COG2227	H	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase
+411	478	COG2236	H	Hypoxanthine phosphoribosyltransferase
+327	364	COG2240	H	Pyridoxal/pyridoxine/pyridoxamine kinase
+518	539	COG2241	H	Precorrin-6B methylase 1
+566	727	COG2242	H	Precorrin-6B methylase 2
+511	637	COG2243	H	Precorrin-2 methylase
+134	140	COG2266	H	GTP:adenosylcobinamide-phosphate guanylyltransferase
+561	894	COG2329	H	Heme-degrading monooxygenase HmoA and related ABM domain proteins
+283	318	COG2510	H	Riboflavin transporter RibN, EamA domain
+240	1066	COG2710	H P	Nitrogenase Mo-Fe protein NifD/coenzyme F430 biosynthesis subunit CfbD
+517	539	COG2875	H	Precorrin-4 methylase
+979	1122	COG2896	H	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)
+266	275	COG2918	H	Gamma-glutamylcysteine synthetase
+230	244	COG2941	H	Demethoxyubiquinone hydroxylase, CLK1/Coq7/Cat5 family (ubiquinone biosynthesis)
+404	404	COG2960	H	Ubiquinone biosynthesis accessory factor UbiK
+181	250	COG2978	H	p-Aminobenzoyl-glutamate transporter AbgT
+191	192	COG3154	H	Ubiquinone biosynthesis accessory factor UbiT, lipid carrier SCP2 domain
+327	330	COG3161	H	4-hydroxybenzoate synthetase (chorismate-pyruvate lyase)
+292	295	COG3165	H	Ubiquinone biosynthesis protein UbiJ, contains SCP2 domain
+226	245	COG3172	H	Nicotinamide riboside kinase
+377	433	COG3201	H	Nicotinamide riboside transporter PnuC
+164	197	COG3236	V H	N-glycosidase YbiA/RibX (riboflavin biosynthesis, damage control), NADAR superfamily
+122	124	COG3252	H	Methenyltetrahydromethanopterin cyclohydrolase
+283	287	COG3253	H P	Coproheme decarboxylase/chlorite dismutase
+76	73	COG3445	H	Autonomous glycyl radical cofactor GrcA
+270	283	COG3572	H	Gamma-glutamylcysteine synthetase
+438	594	COG3585	H	Molybdopterin-binding protein MopI
+168	178	COG3601	H	Riboflavin transporter FmnP
+98	109	COG3697	H I	Phosphoribosyl-dephospho-CoA transferase (holo-ACP synthetase)
+144	145	COG3840	H	ABC-type thiamine transport system, ATPase component ThiQ
+118	121	COG3859	H	Thiamine transporter ThiT
+146	160	COG3961	G H R	TPP-dependent 2-oxoacid decarboxylase, includes indolepyruvate decarboxylase
+13	13	COG4016	H	Iron-guanylylpyridinol (FeGP) cofactor biosynthesis protein HcgF, CinA family
+12	12	COG4017	H	Iron-guanylylpyridinol (FeGP) cofactor biosynthesis protein, methyltransferase HcgC
+13	13	COG4018	H	Iron-guanylylpyridinol (FeGP) cofactor biosynthesis protein, fibrillarin family
+12	12	COG4019	H	Iron-guanylylpyridinol (FeGP) cofactor biosynthesis protein HcgB, guanylyltransferase
+101	122	COG4032	H	Sulfopyruvate decarboxylase, TPP-binding subunit (coenzyme M biosynthesis)
+33	42	COG4054	H	Methyl coenzyme M reductase, beta subunit
+33	41	COG4055	H	Methyl coenzyme M reductase, subunit D
+33	33	COG4056	H	Methyl coenzyme M reductase, subunit C
+33	42	COG4057	H	Methyl coenzyme M reductase, gamma subunit
+33	43	COG4058	H	Methyl coenzyme M reductase, alpha subunit
+27	27	COG4059	H	Tetrahydromethanopterin S-methyltransferase, subunit E
+27	27	COG4060	H	Tetrahydromethanopterin S-methyltransferase, subunit D
+28	28	COG4061	H	Tetrahydromethanopterin S-methyltransferase, subunit C
+28	28	COG4062	H	Tetrahydromethanopterin S-methyltransferase, subunit B
+46	71	COG4063	H	Tetrahydromethanopterin S-methyltransferase, subunit A
+21	21	COG4064	H	Tetrahydromethanopterin S-methyltransferase, subunit G
+64	65	COG4138	H	ABC-type cobalamin transport system, ATPase component BtuD
+76	78	COG4139	H	ABC-type cobalamin transport system, permease component BtuC
+274	284	COG4143	H	ABC-type thiamine transport system, periplasmic component TbpA
+148	154	COG4145	H	Na+/panthothenate symporter
+575	2194	COG4206	H	Outer membrane cobalamin receptor protein BtuB
+24	24	COG4218	H	Tetrahydromethanopterin S-methyltransferase, subunit F
+203	211	COG4256	H	Hemin uptake protein HemP
+210	224	COG4547	H	Cobalamin biosynthesis cobaltochelatase CobT subunit
+269	314	COG4635	H	Protoporphyrinogen IX oxidase, menaquinone-dependent (flavodoxin domain)
+149	197	COG4720	H	ECF-type riboflavin transporter, membrane (S) component
+128	140	COG4721	H	ABC-type thiamine/hydroxymethylpyrimidine transport system, permease component
+75	75	COG4732	H	ECF-type thiazole transporter, membrane (S) component ThiW
+119	148	COG4822	H	Cobalamin biosynthesis protein CbiK, Co2+ chelatase
+59	109	COG5031	H	Ubiquinone biosynthesis protein Coq4
+30	30	COG5146	H	Pantothenate kinase
+120	146	COG5398	H	Heme oxygenase
+251	324	COG5424	H	Pyrroloquinoline quinone (PQQ) biosynthesis protein C
+102	107	COG5590	H	Ubiquinone biosynthesis protein COQ9
+83	349	COG5598	H	Trimethylamine:corrinoid methyltransferase
+64	64	COG5746	H	Light-independent protochlorophyllide reductase subunit B, BchB (= ChlB)
+69	69	COG5747	H	Light-independent protochlorophyllide reductase subunit N, BchN (=ChlN)
+43	49	COG5748	H	Light-dependent NADPH-protochlorophyllide oxidoreductase
+41	120	COG5749	H	Chlorophyllide a oxygenase/letal leaf spot protein
+47	47	COG5753	H	Bacteriochlorophyllide reductase subunit BchX
+47	47	COG5754	H	Bacteriochlorophyllide reductase subunit BchY
+47	47	COG5755	H	Bacteriochlorophyllide reductase subunit BchZ
+70	97	COG5759	H	Mg-protoporphyrin IX monomethyl ester cyclase BchE, aerobic (=Ycf59)

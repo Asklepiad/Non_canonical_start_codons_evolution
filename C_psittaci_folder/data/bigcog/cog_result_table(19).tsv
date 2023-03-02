@@ -1,0 +1,291 @@
+Organism	Protein	COG	Cat	Annotation
+1081	1142	COG0002	E	N-acetyl-gamma-glutamylphosphate reductase
+1262	2907	COG0006	E	Xaa-Pro aminopeptidase
+853	1695	COG0010	E	Arginase/agmatinase family enzyme
+981	1037	COG0014	E	Gamma-glutamyl phosphate reductase
+1159	1981	COG0019	E	Diaminopimelate decarboxylase
+1142	3418	COG0028	E H	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme
+1183	2653	COG0031	E	Cysteine synthase
+1098	1116	COG0040	E	ATP phosphoribosyltransferase
+1092	1128	COG0059	E H	Ketol-acid reductoisomerase
+1096	1372	COG0065	E	Homoaconitase/3-isopropylmalate dehydratase large subunit
+1099	1369	COG0066	E	3-isopropylmalate dehydratase small subunit
+956	1098	COG0067	E	Glutamate synthase domain 1
+1013	1625	COG0069	E	Glutamate synthase domain 2
+960	1119	COG0070	E	Glutamate synthase domain 3
+749	1136	COG0075	E F	Archaeal aspartate aminotransferase or a related aminotransferase, includes purine catabolism protein PucG
+602	1005	COG0076	E	Glutamate or tyrosine decarboxylase or a related PLP-dependent protein
+1124	1181	COG0077	E	Prephenate dehydratase
+1187	1400	COG0078	E	Ornithine carbamoyltransferase
+1161	2440	COG0079	E	Histidinol-phosphate/aromatic aminotransferase or cobyric acid decarboxylase
+1190	1206	COG0082	E	Chorismate synthase
+673	676	COG0083	E	Homoserine kinase
+1102	1129	COG0106	E	Phosphoribosylformimino-5-aminoimidazole carboxamide ribonucleotide (ProFAR) isomerase
+1107	1190	COG0107	E	Imidazole glycerol phosphate synthase subunit HisF
+1255	1480	COG0112	E	Glycine/serine hydroxymethyltransferase
+1183	2815	COG0115	E H	Branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase
+1100	1163	COG0118	E	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH
+1140	3103	COG0119	E	Isopropylmalate/homocitrate/citramalate synthases
+1189	1234	COG0128	E	5-enolpyruvylshikimate-3-phosphate synthase
+1094	2009	COG0129	G E	Dihydroxyacid dehydratase/phosphogluconate dehydratase
+1098	1096	COG0131	E	Imidazoleglycerol phosphate dehydratase HisB
+1100	1232	COG0133	E	Tryptophan synthase beta chain
+1103	1149	COG0134	E	Indole-3-glycerol phosphate synthase
+994	1059	COG0135	E	Phosphoribosylanthranilate isomerase
+1225	1401	COG0136	E	Aspartate-semialdehyde dehydrogenase
+1139	1164	COG0137	E	Argininosuccinate synthase
+1103	1131	COG0139	E	Phosphoribosyl-AMP cyclohydrolase
+1021	1032	COG0140	E	Phosphoribosyl-ATP pyrophosphohydrolase
+1096	1250	COG0141	E	Histidinol dehydrogenase
+514	996	COG0145	E Q	N-methylhydantoinase A/oxoprolinase/acetone carboxylase, beta subunit
+410	709	COG0146	E Q	N-methylhydantoinase B/oxoprolinase/acetone carboxylase, alpha subunit
+1142	2131	COG0147	E H	Anthranilate/para-aminobenzoate synthases component I
+1109	1145	COG0159	E	Tryptophan synthase alpha chain
+685	1393	COG0160	E	Acetylornithine aminotransferase/4-aminobutyrate aminotransferase/amino acid racemase
+1137	1247	COG0165	E	Argininosuccinate lyase
+1188	1539	COG0169	E	Shikimate 5-dehydrogenase
+1128	2249	COG0174	E	Glutamine synthetase
+904	1828	COG0175	E H	Phosphoadenylyl sulfate (PAPS) reductase/FAD synthetase or related enzyme
+588	613	COG0182	E	5-methylthioribose/5-deoxyribulose 1-phosphate isomerase (methionine salvage pathway), a paralog of eIF-2B alpha subunit
+918	2049	COG0189	J E H Q	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily
+917	1822	COG0235	G E	5-methylthioribulose/5-deoxyribulose/Fuculose 1-phosphate aldolase (methionine salvage, sugar degradation)
+677	858	COG0241	E	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily
+779	974	COG0252	J E	L-asparaginase/archaeal Glu-tRNAGln amidotransferase subunit D
+1079	1132	COG0253	E	Diaminopimelate epimerase
+901	1308	COG0260	E	Leucyl aminopeptidase
+987	1031	COG0263	E	Glutamate 5-kinase
+1111	1167	COG0287	E	Prephenate dehydrogenase
+1147	1207	COG0289	E	4-hydroxy-tetrahydrodipicolinate reductase
+865	1889	COG0308	E	Aminopeptidase N, contains DUF3458 domain
+1205	2849	COG0329	M E	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase
+963	1580	COG0334	E	Glutamate dehydrogenase/leucine dehydrogenase
+1092	1226	COG0337	E	3-dehydroquinate synthetase
+1126	1310	COG0345	E	Pyrroline-5-carboxylate reductase
+924	1834	COG0347	T E	Nitrogen regulatory protein PII
+837	1667	COG0367	E	Asparagine synthetase B (glutamine-hydrolyzing)
+928	967	COG0403	E	Glycine cleavage system protein P (pyridoxal-binding), N-terminal domain
+962	1808	COG0404	E	Glycine cleavage system protein T (aminomethyltransferase)
+747	1397	COG0405	E	Gamma-glutamyltranspeptidase
+751	3003	COG0410	E	ABC-type branched-chain amino acid transport system, ATPase component LivF
+703	2629	COG0411	E	ABC-type branched-chain amino acid transport system, ATPase component LivG
+837	1351	COG0421	E	Spermidine synthase (polyamine aminopropyltransferase)
+1242	4817	COG0436	E	Aspartate/methionine/tyrosine aminotransferase
+1035	1129	COG0440	E	Acetolactate synthase, small subunit
+858	4190	COG0444	E P	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
+1184	1545	COG0458	E F	Carbamoylphosphate synthase large subunit
+1157	1391	COG0460	E	Homoserine dehydrogenase
+1133	1843	COG0473	C E	Isocitrate/isopropylmalate dehydrogenase
+514	1465	COG0477	G E P R	MFS family permease, includes anhydromuropeptide permease AmpG
+1026	2303	COG0493	E R	NADPH-dependent glutamate synthase beta chain or related oxidoreductase
+1171	1656	COG0498	E	Threonine synthase
+1164	1216	COG0505	E F	Carbamoylphosphate synthase small subunit
+764	855	COG0506	E	Proline dehydrogenase
+1010	1205	COG0509	E	Glycine cleavage system protein H (lipoate-binding)
+1136	1514	COG0512	E H	Anthranilate/para-aminobenzoate synthase component II (glutamine amidotransferase)
+1116	2354	COG0520	E	Selenocysteine lyase/Cysteine desulfurase
+1221	1894	COG0527	E	Aspartate kinase
+1004	4004	COG0531	E	Serine transporter YbeC, amino acid:H+ symporter family
+1106	1402	COG0547	E	Anthranilate phosphoribosyltransferase, glycosyltransferase domain
+1079	1378	COG0548	E	N-acetylglutamate kinase
+305	373	COG0549	E	Carbamate kinase
+752	3052	COG0559	E	Branched-chain amino acid ABC-type transport system, permease component
+940	1754	COG0560	E	Phosphoserine phosphatase
+926	2283	COG0591	E	Na+/proline symporter
+1048	4806	COG0601	E P	ABC-type dipeptide/oligopeptide/nickel transport system, permease component
+738	1108	COG0620	E	Methionine synthase II (cobalamin-independent)
+1147	4485	COG0624	E	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase
+961	2189	COG0626	E	Cystathionine beta-lyase/cystathionine gamma-synthase
+883	1021	COG0646	E	Methionine synthase I (cobalamin-dependent), methyltransferase domain
+999	4835	COG0665	E	Glycine/D-amino acid oxidase (deaminating)
+913	4796	COG0683	E	ABC-type branched-chain amino acid transport system, periplasmic component
+1041	1283	COG0685	E	5,10-methylenetetrahydrofolate reductase
+680	911	COG0686	E	Alanine dehydrogenase (includes sporulation protein SpoVN)
+641	1701	COG0687	E	Spermidine/putrescine-binding periplasmic protein
+1173	7837	COG0697	G E R	Permease of the drug/metabolite transporter (DMT) superfamily
+1119	1345	COG0703	E	Shikimate kinase
+496	515	COG0709	E	Selenophosphate synthase
+286	298	COG0710	E	3-dehydroquinate dehydratase
+469	710	COG0722	E	3-deoxy-D-arabino-heptulosonate 7-phosphate (DAHP) synthase
+1019	5257	COG0747	E	ABC-type transport system, periplasmic component
+238	281	COG0754	E	Glutathionylspermidine synthase, CHAP domain
+937	1024	COG0757	E	3-dehydroquinate dehydratase
+823	3967	COG0765	E	ABC-type amino acid transport system, permease component
+232	281	COG0786	E	Na+/glutamate symporter
+412	446	COG0804	E	Urease alpha subunit
+158	501	COG0814	E	Amino acid permease
+417	452	COG0831	E	Urease gamma subunit
+416	452	COG0832	E	Urease beta subunit
+208	310	COG0833	E	Amino acid permease
+990	6092	COG0834	T E	ABC-type amino acid transport/signal transduction system, periplasmic component/domain
+928	968	COG1003	E	Glycine cleavage system protein P (pyridoxal-binding), C-terminal domain
+417	468	COG1027	E	Aspartate ammonia-lyase
+1036	1637	COG1045	E	Serine acetyltransferase
+945	3242	COG1063	E R	Threonine dehydrogenase or related Zn-dependent dehydrogenase
+1125	1846	COG1104	E	Cysteine desulfurase/Cysteine sulfinate desulfinase IscS or related enzyme, NifS family
+310	921	COG1113	E	L-asparagine transporter or related permease
+276	401	COG1114	E	Branched-chain amino acid permease
+585	1030	COG1115	E	Na+/alanine symporter
+197	275	COG1124	E P	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
+444	562	COG1125	E	ABC-type proline/glycine betaine transport system, ATPase component
+840	2749	COG1126	E	ABC-type polar amino acid transport system, ATPase component
+576	802	COG1135	E	ABC-type methionine transport system, ATPase component
+540	826	COG1164	E	Oligoendopeptidase F
+389	394	COG1166	E	Arginine decarboxylase (spermidine biosynthesis)
+842	2890	COG1167	K E	DNA-binding transcriptional regulator, MocR family, contains an aminotransferase domain
+492	591	COG1168	E R	Bifunctional PLP-dependent enzyme with beta-cystathionase and maltose regulon repressor activities
+982	1888	COG1171	E	Threonine deaminase
+1042	4764	COG1173	E P	ABC-type dipeptide/oligopeptide/nickel transport system, permease component
+465	960	COG1174	E	ABC-type proline/glycine betaine transport system, permease component
+623	1506	COG1176	E	ABC-type spermidine/putrescine transport system, permease component I
+656	1721	COG1177	E	ABC-type spermidine/putrescine transport system, permease component II
+356	593	COG1231	E	Monoamine oxidase
+920	1904	COG1246	E	N-acetylglutamate synthase or related acetyltransferase, GNAT family
+818	1881	COG1247	E	L-amino acid N-acyltransferase MnaT
+400	421	COG1279	E	Arginine exporter protein ArgO
+825	2963	COG1280	E	Threonine/homoserine/homoserine lactone efflux protein
+608	778	COG1296	E	Predicted branched-chain amino acid permease (azaleucine resistance)
+274	294	COG1350	E	Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB)
+301	356	COG1362	E	Aspartyl aminopeptidase
+508	846	COG1363	G E	Putative aminopeptidase FrvX
+782	806	COG1364	E	Glutamate N-acetyltransferase (ornithine transacetylase)
+623	1005	COG1387	E R	Histidinol phosphatase or related hydrolase of the PHP family
+875	1072	COG1410	E	Methionine synthase I, cobalamin-binding domain
+404	502	COG1446	E	Isoaspartyl peptidase or L-asparaginase, Ntn-hydrolase superfamily
+347	475	COG1448	E	Aspartate/aromatic aminotransferase
+119	124	COG1465	E	3-dehydroquinate synthase, class II
+351	421	COG1505	E	Prolyl endopeptidase PreP, S9A serine peptidase family
+928	3764	COG1506	E	Dipeptidyl aminopeptidase/acylaminoacyl peptidase
+539	687	COG1509	E	L-lysine 2,3-aminomutase (EF-P beta-lysylation pathway)
+517	602	COG1540	E	5-oxoprolinase subunit A
+529	607	COG1586	E	S-adenosylmethionine decarboxylase
+1082	1456	COG1605	E	Chorismate mutase
+101	101	COG1685	E	Archaeal shikimate kinase
+98	100	COG1687	E	Branched-chain amino acid transport protein AzlD
+159	173	COG1712	E	L-aspartate dehydrogenase, NAD(P)-dependent
+520	662	COG1748	E	Saccharopine dehydrogenase, NADP-dependent
+746	1074	COG1760	E	L-serine deaminase
+412	455	COG1770	E	Protease II
+164	394	COG1775	E Q	Benzoyl-CoA reductase/2-hydroxyglutaryl-CoA dehydratase subunit, BcrC/BadD/HgdB
+187	192	COG1791	E	Acireductone dioxygenase (methionine salvage), cupin superfamily
+152	160	COG1823	E	L-cystine transporter TcyP, sodium:dicarboxylate symporter family
+338	441	COG1834	E	N-Dimethylarginine dimethylaminohydrolase
+595	979	COG1878	E	Kynurenine formamidase
+337	340	COG1897	E	Homoserine O-succinyltransferase
+120	149	COG1900	E	Sulfur incorporation enzyme MA1821 (anaerobic homocysteine biosynthesis), HcyBio/DUF39 family
+844	887	COG1932	E H	Phosphoserine aminotransferase
+154	171	COG1945	E	Pyruvoyl-dependent arginine decarboxylase
+530	633	COG1966	C E	Carbon starvation protein CstA (peptide/pyruvate transporter)
+455	685	COG1982	E	Arginine/lysine/ornithine decarboxylase
+558	720	COG1984	E	5-oxoprolinase subunit C/Allophanate hydrolase subunit 2
+685	812	COG2008	E	Threonine aldolase
+536	755	COG2011	E	ABC-type methionine transport system, permease component
+673	805	COG2021	E	Homoserine O-acetyltransferase
+224	252	COG2040	E	Homocysteine/selenocysteine methylase (S-methylmethionine-dependent)
+567	736	COG2049	E	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1
+118	133	COG2056	E	Predicted histidine transporter YuiF, NhaC family
+381	448	COG2066	E	Glutaminase
+541	696	COG2071	E	Gamma-glutamyl-gamma-aminobutyrate hydrolase PuuD (putrescine degradation), contains GATase1-like domain
+721	1065	COG2095	E	Small neutral amino acid transporter SnatA, MarC family
+354	408	COG2105	E	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family
+397	778	COG2113	E	ABC-type proline/glycine betaine transport system, periplasmic component
+876	899	COG2171	E	Tetrahydrodipicolinate N-succinyltransferase
+517	887	COG2195	E	Di- or tripeptidase
+92	93	COG2232	E	Pyrrolysine biosynthesis ligase PylC and related enzymes, ATP-grasp superfamily
+541	1635	COG2234	O E	Zn-dependent amino- or carboxypeptidase, M28 family
+270	309	COG2235	E	Arginine deiminase
+393	625	COG2309	E	Leucyl aminopeptidase (aminopeptidase T)
+523	798	COG2355	O E	Zn-dependent dipeptidase, microsomal dipeptidase homolog
+151	174	COG2362	E	D-aminopeptidase
+468	896	COG2423	E	Ornithine cyclodeaminase/archaeal alanine dehydrogenase, mu-crystallin family
+188	194	COG2431	E	Lysine export protein LysO/YbjE, DUF340 family
+155	156	COG2502	E	Asparagine synthetase A
+391	476	COG2515	E	1-aminocyclopropane-1-carboxylate deaminase/D-cysteine desulfhydrase, PLP-dependent ACC family
+261	307	COG2716	E	Glycine cleavage system regulator GcvR
+765	1069	COG2873	E	O-acetylhomoserine/O-acetylserine sulfhydrylase, pyridoxal phosphate-dependent
+491	681	COG2876	E	3-deoxy-D-arabino-heptulosonate 7-phosphate (DAHP) synthase
+327	351	COG2902	E	NAD-specific glutamate dehydrogenase
+167	232	COG2939	E	Carboxypeptidase C (cathepsin A)
+385	448	COG2957	E	Agmatine/peptidylarginine deiminase
+364	364	COG2981	E P	Sulfate transporter CysZ
+553	742	COG2986	E	Histidine ammonia-lyase
+509	532	COG2987	E	Urocanate hydratase
+190	218	COG2988	E	Succinylglutamate desuccinylase
+170	203	COG3033	E	Tryptophanase
+129	132	COG3048	E	D-serine dehydratase
+103	98	COG3060	K E	Transcriptional regulator MetJ (met regulon)
+125	130	COG3075	E	Anaerobic glycerol-3-phosphate dehydrogenase
+445	770	COG3104	E	Dipeptide/tripeptide permease
+153	210	COG3138	E	Arginine/ornithine N-succinyltransferase beta subunit
+577	822	COG3185	E R	4-hydroxyphenylpyruvate dioxygenase and related hemolysins
+227	232	COG3186	E	Phenylalanine-4-hydroxylase
+371	502	COG3191	E	L-aminopeptidase/D-esterase
+64	71	COG3192	E	Ethanolamine transporter EutH, required for ethanolamine utilization at low pH
+360	394	COG3200	E	3-deoxy-D-arabino-heptulosonate 7-phosphate (DAHP) synthase, class II
+148	169	COG3232	E	5-carboxymethyl-2-hydroxymuconate isomerase
+118	127	COG3283	K E	Transcriptional regulator TyrR of aromatic amino acids metabolism
+194	267	COG3314	D E	Spore dipicolinate transporter SpoVV/YjiH/YlbJ, contains nucleoside recognition GATE domain
+261	307	COG3340	E	Peptidase E
+205	241	COG3404	E	Formiminotetrahydrofolate cyclodeaminase
+123	144	COG3457	E	Predicted amino acid racemase
+287	331	COG3483	E	Tryptophan 2,3-dioxygenase (vermilion)
+118	160	COG3579	E	Aminopeptidase C
+367	531	COG3616	E	D-serine deaminase, pyridoxal phosphate-dependent
+166	174	COG3633	E	Na+/serine and Na+/threonine symporter SstT
+111	120	COG3643	E	Glutamate formiminotransferase
+146	169	COG3681	E	L-cysteine desulfidase YhaM
+499	499	COG3705	E	ATP phosphoribosyltransferase regulatory subunit HisZ
+130	135	COG3724	E	Succinylarginine dihydrolase
+274	384	COG3741	E	N-formylglutamate amidohydrolase
+52	56	COG3799	E	Methylaspartate ammonia-lyase
+980	3001	COG3842	E	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component
+313	330	COG3844	E	Kynureninase
+164	225	COG3931	E	Predicted N-formylglutamate amidohydrolase
+261	356	COG3938	E	Proline racemase/hydroxyproline epimerase
+238	263	COG3968	E	Glutamine synthetase type III
+114	115	COG3977	E	Alanine-alpha-ketoisovalerate (or valine-pyruvate) aminotransferase
+108	107	COG3978	E	Acetolactate synthase small subunit, contains ACT domain
+153	176	COG4091	E	Predicted homoserine dehydrogenase, contains C-terminal SAF domain
+235	369	COG4126	E	Asp/Glu/hydantoin racemase
+205	343	COG4160	E	ABC-type arginine/histidine transport system, permease component
+76	77	COG4161	E	ABC-type arginine transport system, ATPase component
+583	1324	COG4166	E	ABC-type oligopeptide transport system, periplasmic component
+375	519	COG4175	E	ABC-type proline/glycine betaine transport system, ATPase component
+374	525	COG4176	E	ABC-type proline/glycine betaine transport system, permease component
+752	3021	COG4177	E	ABC-type branched-chain amino acid transport system, permease component
+61	72	COG4187	E	Arginine utilization protein RocB
+220	366	COG4215	E	ABC-type arginine transport system, permease component
+138	139	COG4229	E	Enolase-phosphatase E1 involved in merthionine salvage
+368	391	COG4230	E	Delta 1-pyrroline-5-carboxylate dehydrogenase
+229	243	COG4302	E	Ethanolamine ammonia-lyase, small subunit
+226	241	COG4303	E	Ethanolamine ammonia-lyase, large subunit
+150	249	COG4311	E	Sarcosine oxidase delta subunit
+117	123	COG4359	E	2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase (methionine salvage)
+278	305	COG4392	E	Branched-chain amino acid transport protein
+180	183	COG4401	E	Chorismate mutase AroH
+81	85	COG4413	E	Urea transporter
+265	281	COG4448	E	L-asparaginase II
+144	237	COG4583	E	Sarcosine oxidase gamma subunit
+233	275	COG4597	E	ABC-type amino acid transport system, permease component
+167	214	COG4598	E	ABC-type histidine transport system, ATPase component
+280	363	COG4608	E	ABC-type oligopeptide transport system, ATPase component
+136	188	COG4690	E	Dipeptidase
+79	92	COG4766	E	Ethanolamine utilization protein EutQ, cupin superfamily (function unknown)
+69	89	COG4810	E	Ethanolamine utilization protein EutS, microcompartment shell protein
+44	50	COG4812	E	Ethanolamine utilization protein EutT, cobalamin adenosyltransferase
+81	102	COG4816	E	Ethanolamine utilization protein EutL, microcompartment shell protein
+64	68	COG4819	E	Ethanolamine utilization protein EutA, possible chaperonin
+68	75	COG4820	E	Ethanolamine utilization protein EutJ, possible chaperonin
+140	154	COG4857	E	5-Methylthioribose/5-deoxyribose kinase, methionine salvage pathway
+70	74	COG4865	E	Glutamate mutase epsilon subunit
+67	88	COG4917	E	Ethanolamine utilization protein EutP, contains a P-loop NTPase domain
+1131	1769	COG4992	E	Acetylornithine/succinyldiaminopimelate/putrescine aminotransferase
+304	392	COG5006	E	Threonine/homoserine efflux transporter RhtA
+21	21	COG5630	E	N-acetylglutamate synthase (arginine biosynthesis)
+34	34	COG5834	D E	Stage V sporulation protein SpoVAA, subunit of dipicolinate uptake complex
+35	35	COG5835	D E	Stage V sporulation protein SpoVAB, subunit of dipicolinate uptake complex
+107	126	COG5836	D E	Stage V sporulation protein SpoVAC, subunit of dipicolinate uptake complex
+108	129	COG5837	D E	Stage V sporulation protein SpoVAD, subunit of dipicolinate uptake complex
+106	122	COG5839	D E	Stage V sporulation protein SpoVAEB, subunit of dipicolinate uptake complex
+69	69	COG5840	D E	Stage V sporulation protein SpoVAF, subunit of dipicolinate uptake complex, GerA superfamily
+92	94	COG5842	D E	Dipicolinate synthase subunit A (sporulation protein SpoVFA)
+88	88	COG5843	D E	Dipicolinate synthase subunit B (sporulation protein SpoVFB)

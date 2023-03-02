@@ -1,0 +1,213 @@
+Organism	Protein	COG	Cat	Annotation
+1300	1377	COG0085	K	DNA-directed RNA polymerase, beta subunit/140 kD subunit
+1298	1455	COG0086	K	DNA-directed RNA polymerase, beta' subunit/160 kD subunit
+1289	1330	COG0195	K	Transcription antitermination factor NusA, contains S1 and KH domains
+1304	1336	COG0202	K	DNA-directed RNA polymerase, alpha subunit/40 kD subunit
+1154	1253	COG0217	J K	Transcriptional and/or translational regulatory protein YebC/TACO1
+1299	1643	COG0250	K	Transcription termination/antitermination protein NusG
+517	667	COG0271	K T	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation
+1133	1849	COG0317	K T	(p)ppGpp synthase/hydrolase, HD superfamily
+71	77	COG0454	K R	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)
+856	1713	COG0553	K L	Superfamily II DNA or RNA helicase, SNF2 family
+1035	1273	COG0557	K	Exoribonuclease R
+1183	2890	COG0568	K	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)
+1170	1220	COG0571	K	dsRNA-specific ribonuclease
+1068	21908	COG0583	K	DNA-binding transcriptional regulator, LysR family
+1167	6304	COG0640	K	DNA-binding transcriptional regulator, ArsR family
+1021	1095	COG0718	K	DNA-binding nucleoid-associated protein YbaB/EfbC
+1181	15210	COG0745	K T	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain
+1235	1418	COG0750	K O	Membrane-associated protease RseP, regulator of RpoE activity
+1176	1641	COG0781	K	Transcription antitermination protein NusB
+1121	2031	COG0782	K	Transcription elongation factor, GreA/GreB family
+1070	5757	COG0789	K	DNA-binding transcriptional regulator, MerR family
+1129	1175	COG0816	J K L	YqgF/RuvX protein, pre-16S rRNA maturation RNase/Holliday junction resolvase/anti-termination factor
+377	540	COG0864	K	Metal-responsive transcriptional regulator, contains CopG/Arc/MetJ DNA-binding domain
+821	1608	COG1061	K L	Superfamily II DNA or RNA helicase
+122	122	COG1095	K	DNA-directed RNA polymerase, subunit E'/Rpb7
+1061	1121	COG1158	K	Transcription termination factor Rho
+842	2890	COG1167	K E	DNA-binding transcriptional regulator, MocR family, contains an aminotransferase domain
+655	1225	COG1191	K	DNA-directed RNA polymerase specialized sigma subunit
+1115	1135	COG1197	K L	Transcription-repair coupling factor (superfamily II helicase)
+122	190	COG1221	K T	Transcriptional regulators containing an AAA-type ATPase domain and a DNA-binding domain
+37	37	COG1224	K	DNA helicase TIP49, TBP-interacting protein
+1071	3439	COG1278	K	Cold shock protein, CspA family
+129	132	COG1308	K	Transcription factor homologous to NACalpha-BTF3
+1157	18838	COG1309	K	DNA-binding protein, AcrR family, includes nucleoid occlusion protein SlmA
+50	58	COG1318	K	Predicted transcriptional regulator
+726	1167	COG1321	K	Mn-dependent transcriptional regulator MntR, DtxR family
+954	973	COG1327	K	Transcriptional regulator NrdR, contains Zn-ribbon and ATP-cone domains
+465	505	COG1329	K	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family
+713	2368	COG1349	K G	DNA-binding transcriptional regulator of sugar metabolism, DeoR/GlpR family
+54	60	COG1356	K	Transcriptional regulator
+234	583	COG1378	K	Sugar-specific transcriptional regulator TrmB
+912	972	COG1386	K	Chromosome segregation and condensation protein ScpB
+121	125	COG1395	K	Predicted transcriptional regulator
+1082	8492	COG1396	K	Transcriptional regulator, contains XRE-family HTH domain
+123	503	COG1405	K	Transcription initiation factor TFIIIB, Brf1 subunit/Transcription initiation factor TFIIB
+709	3804	COG1414	K	DNA-binding transcriptional regulator, IclR family
+793	793	COG1420	K	Transcriptional regulator of heat shock response
+445	502	COG1438	K	Arginine repressor
+118	118	COG1460	K	DNA-directed RNA polymerase, subunit F
+719	1806	COG1476	K	DNA-binding transcriptional regulator, XRE-family HTH domain
+362	360	COG1481	K	DNA-binding transcriptional regulator WhiA, involved in cell division
+78	81	COG1497	K	Predicted transcriptional regulator MJ0558, contains a CRP-type HTH domain
+763	832	COG1508	K	DNA-directed RNA polymerase specialized sigma subunit, sigma54 homolog
+304	414	COG1510	K	DNA-binding transcriptional regulator GbsR, MarR family
+1015	5581	COG1522	K	DNA-binding transcriptional regulator, Lrp family
+76	126	COG1581	K	DNA/RNA-binding protein AlbA/Ssh10b
+126	199	COG1594	K	DNA-directed RNA polymerase, subunit M/Transcription elongation factor TFIIS
+1036	12319	COG1595	K	DNA-directed RNA polymerase specialized sigma subunit, sigma24 family
+780	7629	COG1609	K	DNA-binding transcriptional regulator, LacI/PurR family
+121	120	COG1644	K	DNA-directed RNA polymerase, subunit N (RpoN/RPB10)
+506	536	COG1654	K	Biotin operon repressor
+107	109	COG1675	K	Transcription initiation factor IIE, alpha subunit
+667	677	COG1678	K	Putative transcriptional regulator, AlgH/UPF0301 family
+46	67	COG1693	K	Repressor of nif and glnA expression
+801	2800	COG1695	K	DNA-binding transcriptional regulator, PadR family
+118	118	COG1709	K	Predicted transcriptional regulator,contains XRE-type HTH domain
+514	1057	COG1725	K	DNA-binding transcriptional regulator YhcF, GntR family
+833	3023	COG1733	K	DNA-binding transcriptional regulator, HxlR family
+903	1541	COG1734	K	RNA polymerase-binding transcription factor DksA
+545	1679	COG1737	K	DNA-binding transcriptional regulator, MurR/RpiR family, contains HTH and SIS domains
+1068	1058	COG1758	K	DNA-directed RNA polymerase, subunit K/omega
+122	122	COG1761	K	DNA-directed RNA polymerase, subunit L/RPAC2
+138	206	COG1777	K	Predicted transcriptional regulator, ArsR family
+714	4062	COG1802	K	DNA-binding transcriptional regulator, GntR family
+124	137	COG1827	K H	Transcriptional regulator of NAD metabolism, contains HTH and 3H domains
+544	747	COG1842	K T	Phage shock protein A
+1122	9345	COG1846	K	DNA-binding transcriptional regulator, MarR family
+624	1020	COG1937	K	DNA-binding transcriptional regulator, FrmR family
+976	3554	COG1940	K G	Sugar kinase of the NBD/HSP70 family, may contain an N-terminal HTH domain
+124	155	COG1954	K	Glycerol-3-phosphate responsive antiterminator (mRNA-binding)
+116	209	COG1958	K	Small nuclear ribonucleoprotein (snRNP) homolog
+1012	2474	COG1959	K	DNA-binding transcriptional regulator, IscR family
+985	1628	COG1974	K T	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)
+512	805	COG1983	K T	Phage shock protein PspC (stress-responsive transcriptional regulator)
+179	188	COG1996	K	DNA-directed RNA polymerase, subunit RPC12/RpoP, contains C4-type Zn-finger
+427	840	COG2002	K V	Bifunctional DNA-binding transcriptional regulator of stationary/sporulation/toxin gene expression and antitoxin component of the YhaV-PrlF toxin-antitoxin module
+461	585	COG2005	K	DNA-binding transcriptional regulator ModE (molybdenum-dependent)
+121	121	COG2012	K	DNA-directed RNA polymerase, subunit H, RpoH/RPB5
+186	221	COG2088	K D	DNA- and RNA-binding protein SpoVG, cell septation regulator
+131	136	COG2093	K	RNA polymerase subunit RPABC4/transcription elongation factor Spt4
+122	193	COG2101	K	TATA-box binding protein (TBP), component of TFIID and TFIIIB
+754	764	COG2183	K	Transcriptional accessory protein Tex/SPT6
+666	2581	COG2186	K	DNA-binding transcriptional regulator, FadR family
+739	2685	COG2188	K	DNA-binding transcriptional regulator, GntR family
+1052	10240	COG2197	K T	DNA-binding response regulator, NarL/FixJ family, contains REC and HTH domains
+951	12177	COG2207	K	AraC-type DNA-binding domain and AraC-containing proteins
+586	2063	COG2208	K T	Phosphoserine phosphatase RsbU, regulator of sigma subunit
+113	138	COG2214	K	Curved DNA-binding protein CbpA, contains a DnaJ-like domain
+417	486	COG2315	K	Predicted DNA-binding protein with Ã¢â‚¬Ëœdouble-wingÃ¢â‚¬â„¢ structural motif, MmcQ/YjbR family
+332	379	COG2344	K	NADH/NAD ratio-sensing transcriptional regulator Rex
+346	546	COG2345	K	Predicted transcriptional regulator, ArsR family
+830	2127	COG2378	K	Predicted DNA-binding transcriptional regulator YobV, contains HTH and WYL domains
+373	730	COG2390	K	DNA-binding transcriptional regulator LsrR, DeoR family
+280	1020	COG2508	K	DNA-binding transcriptional regulator, PucR/PutR family
+123	189	COG2522	K	Predicted transcriptional regulator, contains HTH domain
+636	1168	COG2524	K	Predicted transcriptional regulator, contains C-terminal CBS domains
+143	160	COG2732	K	Barstar, RNAse (barnase) inhibitor
+195	197	COG2739	K	Predicted DNA-binding protein YlxM, UPF0122 family
+310	324	COG2747	K N	Negative regulator of flagellin synthesis (anti-sigma28 factor)
+529	1488	COG2771	K	DNA-binding transcriptional regulator, CsgD family
+414	810	COG2865	K	Predicted transcriptional regulator, contains HTH domain
+328	306	COG2901	K	DNA-binding protein Fis (factor for inversion stimulation)
+398	949	COG2909	K	ATP-, maltotriose- and DNA-dependent transcriptional regulator MalT
+237	429	COG2916	K	DNA-binding protein H-NS
+407	708	COG2944	K	DNA-binding transcriptional regulator YiaG, XRE-type HTH domain
+214	283	COG2964	K	Predicted transcriptional regulator YheO, contains PAS and DNA-binding HTH domains
+91	90	COG2973	K	Trp operon repressor
+103	98	COG3060	K E	Transcriptional regulator MetJ (met regulon)
+259	278	COG3070	K	Transcriptional regulator of competence genes, TfoX/Sxy family
+111	111	COG3160	K	Regulator of sigma D
+678	1290	COG3177	K	Fic family protein
+184	390	COG3226	K	DNA-binding transcriptional regulator YbjK
+704	2799	COG3279	K T	DNA-binding response regulator, LytR/AlgR family
+118	127	COG3283	K E	Transcriptional regulator TyrR of aromatic amino acids metabolism
+350	645	COG3284	K	Transcriptional regulator DhaR of acetoin/glycerol metabolism
+540	1076	COG3311	K X	DNA-binding transcriptional regulator AlpA
+188	255	COG3327	K	DNA-binding transcriptional regulator PaaX (phenylacetic acid degradation)
+95	95	COG3343	K	DNA-directed RNA polymerase, delta subunit
+99	255	COG3355	K	Predicted transcriptional regulator
+84	84	COG3357	K	Predicted transcriptional regulator, contains HTH and Zn-ribbon domains
+12	16	COG3373	K	Predicted transcriptional regulator, contains HTH domain
+68	77	COG3388	K	Predicted transcriptional regulator
+70	173	COG3398	K	Predicted transcriptional regulator, contains two HTH domains
+107	218	COG3423	K	Predicted transcriptional regulator, lambda repressor-like DNA-binding domain
+62	210	COG3432	K	Predicted transcriptional regulator
+484	1070	COG3604	K T	FhlA-type transcriptional regulator, contains GAF, AAA-type ATPase, and DNA-binding Fis domains
+366	687	COG3609	K	Transcriptional regulator, contains Arc/MetJ-type RHH (ribbon-helix-helix) DNA-binding domain
+657	1019	COG3620	K	Predicted transcriptional regulator, contains an XRE-type HTH domain (archaeal members contain CBS pair)
+272	1258	COG3629	K	DNA-binding transcriptional regulator DnrI/AfsR/EmbR, SARP family, contains BTAD domain
+435	734	COG3655	K	DNA-binding transcriptional regulator, XRE family
+440	918	COG3682	K	Transcriptional regulator, CopY/TcrY family
+476	500	COG3695	K	Alkylated DNA nucleotide flippase Atl1, participates in nucleotide excision repair, Ada-like DNA-binding domain
+658	2883	COG3706	K T	Two-component response regulator, PleD family, consists of two REC domains and a diguanylate cyclase (GGDEF) domain
+516	865	COG3707	K T	Two-component response regulator, AmiR/NasT family, consists of REC and RNA-binding antiterminator (ANTAR) domains
+310	472	COG3708	K	Predicted transcriptional regulator YdeE, contains AraC-type DNA-binding domain
+264	764	COG3710	K	DNA-binding winged helix-turn-helix (wHTH) domain
+205	701	COG3711	K	Transcriptional antiterminator
+65	72	COG3722	K	DNA-binding transcriptional regulator, MltR family
+156	156	COG3820	K	Cell cycle regulator TrcR, DUF1013 family
+572	1801	COG3829	K T	RocR-type transcriptional regulator, contains PAS, AAA-type ATPase, and DNA-binding Fis domains
+134	215	COG3831	K	WGR domain, predicted DNA-binding domain in MolR
+273	457	COG3835	K T	Sugar diacid utilization regulator CdaR
+120	135	COG3877	K	Predicted DNA-binding transcriptional regulator with XRE-family HTH domain, DUF2089 family
+23	24	COG3888	K	Predicted transcriptional regulator
+97	118	COG3901	K	Transcriptional regulator NosR of nitric oxide reductase
+172	227	COG3905	K	Predicted transcriptional regulator, contains ribbon-helix-helix (RHH_1) domain
+64	122	COG3933	K	Transcriptional regulatory protein LevR, contains PRD, AAA+ and EIIA domains
+146	200	COG3947	K T	Two-component response regulator, SAPR family, consists of REC, wHTH and BTAD domains
+27	27	COG4008	K	Predicted metal-binding transcription factor, methanogenesis marker domain 9
+250	302	COG4109	K	Predicted transcriptional regulator containing CBS domains
+123	152	COG4189	K	Predicted transcriptional regulator, ArsR family
+106	175	COG4190	K	Predicted transcriptional regulator, contains HTH domain
+88	112	COG4197	K	DNA-binding transcriptional regulator YdaS, prophage-encoded, Cro superfamily
+34	36	COG4344	K	Predicted transciptional regulator, contains HTH domain
+149	149	COG4463	K	Transcriptional regulator CtsR
+135	145	COG4465	K	GTP-sensing pleiotropic transcriptional regulator CodY
+61	103	COG4512	K T	Accessory gene regulator protein AgrB
+82	133	COG4533	K	DNA-binding transcriptional regulator SgrR of sgrS sRNA, contains a MarR-type HTH domain and a periplasmic-type solute-binding domain
+407	664	COG4565	K T	DNA-binding response regulator DpiB of citrate/malate metabolism
+364	1003	COG4566	K T	DNA-binding response regulator, FixJ family, consists of REC and HTH domains
+315	409	COG4567	K T	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains
+100	99	COG4568	K	Transcriptional antiterminator Rof (Rho-off)
+116	127	COG4578	K	DNA-binding transcriptional regulator of glucitol operon
+82	85	COG4650	K T	Sigma54-dependent transcription regulator containing an AAA-type ATPase domain and a DNA-binding domain
+32	66	COG4738	K	Predicted transcriptional regulator
+83	352	COG4742	K	Predicted transcriptional regulator, contains HTH domain
+523	1370	COG4753	K T	Two-component response regulator, YesN/AraC family, consists of REC and AraC-type DNA-binding domains
+100	101	COG4776	K	Exoribonuclease II
+29	30	COG4800	K	Predicted transcriptional regulator with an HTH domain
+31	31	COG4860	K	Predicted DNA-binding transcriptional regulator, ArsR family
+94	120	COG4862	K T N	Negative regulator MecA of genetic competence, sporulation and motility
+36	45	COG4871	K	Metal-binding trascriptional regulator, contains Fe-S cluster and ArsR family DNA binding domain
+311	739	COG4886	K	Leucine-rich repeat (LRR) protein
+28	28	COG4888	K	Transcription elongation factor Elf1, contains Zn-ribbon domain
+39	60	COG4903	K	Competence transcription factor ComK
+78	82	COG4933	K	Predicted transcriptional regulator, contains an HTH and PUA-like domains
+263	599	COG4941	K	Predicted RNA polymerase sigma factor, contains C-terminal TPR domain
+129	319	COG4957	K	Predicted transcriptional regulator
+664	2549	COG4977	K	Transcriptional regulator GlxA, contains an amidase domain and an AraC-type DNA-binding HTH domain
+7	8	COG5108	K	Mitochondrial DNA-directed RNA polymerase
+4	4	COG5164	K	Transcription elongation factor SPT5
+15	16	COG5190	K	TFIIF-interacting CTD phosphatase, includes NLI-interacting factor
+65	90	COG5304	K	Predicted DNA binding protein, CopG/RHH family
+64	101	COG5419	K	Hexameric transcriptional regulator RovC, contains DUF2285 domain
+110	121	COG5450	K	Transcription regulator of the Arc/MetJ class
+61	61	COG5503	K V	DNA-dependent RNA polymerase auxiliary subunit epsilon
+62	84	COG5566	K X	Transcriptional regulator, middle operon regulator (Mor) family
+17	19	COG5625	K	Predicted DNA-binding transcriptional regulator, contains HTH domain
+73	79	COG5631	K	Predicted transcription regulator, contains HTH domain, MarR family
+301	433	COG5662	K	Transmembrane transcriptional regulator RsiW (anti-sigma-W factor)
+6	6	COG5665	K	CCR4-NOT transcriptional regulation complex, NOT5 subunit
+107	106	COG5811	K D	Sporulation sigma factor SigE (mother cell-specific, SpoIIGB)
+101	102	COG5812	K D	Sporulation sigma factor SigF (forespore-specific, SpoIIAC)
+108	108	COG5813	K D	Sporulation sigma factor SigG (forespore-specific, SpoIIIG)
+102	107	COG5814	K D	Sporulation sigma factor SigK (mother cell-specific, SpoIIIC/SpoIVCB)
+107	107	COG5818	K D O	Stage II sporulation protein SpoIIGA (protease, processing of pro-sigma-E to active sigma-E)
+107	111	COG5830	K D	Stage III sporulation protein SpoIIID, transcriptional regulator of sigma-E- and sigma-K-dependent genes
+108	117	COG5845	K D	Stage V sporulation protein SpoVT, regulator of stationary/sporulation gene expression
+36	70	COG5850	K D	Prespore-specific transcriptional regulator RsfA
+43	43	COG5865	K D	Forespore-specific anti-sigma-G factor CsfB/Gin
+12	12	COG5870	K D	Uncharacterized sporulation protein YbaK, contains DUF2521 domain (not related to E. coli deacylase YbaK, COG2606)
+69	73	COG5905	K D	Spore transcriptional regulator GerE (stand-alone HTH domain)

@@ -3,6 +3,8 @@
 
 mask="C_psittaci"
 mkdir ../${mask}_annotate
+mkdir ../for_prokka_fasta
+mkdir ../orto_rows
 
 for f in $(ls ./${mask}*.fasta); do
         prokka --outdir ./${f%.fasta} --prefix ${f%.fasta} ./${f};

@@ -1,0 +1,726 @@
+Organism	Protein	COG	Cat	Annotation
+495	594	COG0393	S	Uncharacterized pentameric protein YbjQ, UPF0145 family
+604	989	COG0398	S	Uncharacterized membrane protein YdjX, related to fungal oxalate transporter, TVP38/TMEM64 family
+281	294	COG0700	S	Spore maturation protein SpmB (function unknown)
+561	783	COG0701	S	Uncharacterized membrane protein YraQ, UPF0718 family
+505	639	COG1238	S	Uncharacterized membrane protein YqaA, VTT domain
+460	891	COG1284	S	Uncharacterized membrane-anchored protein YitT, contains DUF161 and DUF2179 domains
+436	920	COG1289	S	Uncharacterized membrane protein YccC
+985	1663	COG1295	S	Uncharacterized membrane protein, BrkB/YihY/UPF0761 family (not an RNase)
+300	682	COG1302	S	Uncharacterized conserved protein YloU, alkaline shock protein (Asp23) family
+144	161	COG1340	S	Uncharacterized coiled-coil protein, contains DUF342 domain
+678	2630	COG1357	S	Uncharacterized conserved protein YjbI, contains pentapeptide repeats
+103	104	COG1415	S	Uncharacterized conserved protein, DUF763 domain
+17	22	COG1417	S	Uncharacterized conserved protein, DUF22 domain
+540	644	COG1430	S	Uncharacterized conserved membrane protein, UPF0127 family
+195	283	COG1470	S	Uncharacterized membrane protein
+39	42	COG1504	S	Uncharacterized conserved protein, DUF498 domain
+174	173	COG1507	S	Uncharacterized conserved protein, DUF501 family
+283	507	COG1511	S	Uncharacterized membrane protein YhgE, phage infection protein (PIP) family
+511	625	COG1512	S	Uncharacterized membrane protein YgcG, contains a TPM-fold domain
+57	57	COG1531	S	Uncharacterized conserved protein, UPF0248 family
+17	19	COG1542	S	Uncharacterized conserved protein, DUF505 domain
+166	194	COG1547	S	Predicted metal-dependent hydrolase
+265	265	COG1550	S	Stress-induced protein YlxP, DUF503 family
+271	283	COG1615	S	Uncharacterized membrane protein, UPF0182 family
+295	564	COG1649	S	Uncharacterized lipoprotein YddW, UPF0748 family
+85	89	COG1655	S	Uncharacterized conserved protein, DUF2225 family
+6	7	COG1667	S	Uncharacterized conserved protein AF1501, DUF2226 family
+471	472	COG1671	S	Uncharacterized conserved protein YaiI, UPF0178 family
+354	432	COG1683	S	Uncharacterized conserved protein YbbK, DUF523 family
+86	86	COG1698	S	Uncharacterized conserved protein, UPF0147 family
+589	875	COG1714	S	Uncharacterized membrane protein YckC, RDD family
+905	2081	COG1721	S	Uncharacterized conserved protein, DUF58 family, contains vWF domain
+112	112	COG1728	S	Uncharacterized conserved protein YaaR, TM1646/DUF327 family
+60	114	COG1745	S	Uncharacterized metal-binding protein MJ1132, UPF0058 family
+28	28	COG1747	S	Uncharacterized N-terminal domain of the transcription elongation factor GreA
+567	568	COG1754	S	Uncharacterized C-terminal domain of topoisomerase IA
+106	108	COG1755	S	Uncharacterized conserved protein YpbQ, isoprenylcysteine carboxyl methyltransferase (ICMT) family
+13	13	COG1771	S	Uncharacterized conserved protein, contains N-terminal Zn-finger domain
+23	23	COG1772	S	Uncharacterized conserved protein, DUF531 domain
+12	12	COG1790	S	Uncharacterized conserved protein, DUF483 domain
+289	368	COG1808	S	Uncharacterized membrane protein AF0785, contains DUF389 domain
+30	56	COG1810	S	Uncharacterized conserved protein, DUF166 domain
+243	269	COG1811	S	Uncharacterized membrane protein YqgA, affects biofilm formation
+22	22	COG1844	S	Uncharacterized conserved protein, DUF356 domain
+119	119	COG1849	S	Uncharacterized conserved protein
+9	9	COG1851	S	Uncharacterized conserved protein, UPF0128 family
+545	552	COG1872	S	Uncharacterized conserved protein YggU, UPF0235/DUF167 family
+62	96	COG1885	S	Uncharacterized conserved protein, UPF0212 family
+80	80	COG1888	S	Uncharacterized conserved protein, DUF211 domain
+134	145	COG1915	S	Uncharacterized conserved protein AF1278, contains saccharopine dehydrogenase N-terminal (SDHN) domain
+167	176	COG1916	S	Pheromone shutdown protein TraB, contains GTxH motif (function unknown)
+29	29	COG1935	S	Uncharacterized conserved protein, DUF473 domain
+473	556	COG1950	S	Uncharacterized membrane protein YvlD, DUF360 family
+68	111	COG1967	S	Uncharacterized membrane protein
+199	344	COG2006	S	Uncharacterized conserved protein, DUF362 family
+128	160	COG2014	S	Uncharacterized conserved protein, contains DUF4213 and DUF364 domains
+35	35	COG2029	S	Uncharacterized conserved protein, DUF366 domain
+44	54	COG2034	S	Uncharacterized membrane protein, DUF131 family
+287	337	COG2035	S	Uncharacterized membrane protein, DUF368 family
+106	174	COG2043	S	Uncharacterized conserved protein, DUF169 family
+45	46	COG2083	S	Uncharacterized conserved protein, UPF0216 family
+99	100	COG2090	S	Uncharacterized conserved protein, DUF371 domain
+116	121	COG2108	S	Uncharacterized radical SAM domain-containing protein
+202	213	COG2121	S	Uncharacterized conserved protein, lysophospholipid acyltransferase (LPLAT) superfamily
+116	121	COG2122	S	Uncharacterized conserved protein, UPF0280 family, ApbE superfamily
+264	306	COG2149	S	Uncharacterized membrane protein YidH, DUF202 family
+142	158	COG2155	S	Uncharacterized membrane protein YuzA, DUF378 family
+108	140	COG2237	S	Uncharacterized membrane protein
+27	36	COG2245	S	Uncharacterized membrane protein, contains DUF996 domain
+667	1341	COG2259	S	Uncharacterized membrane protein YphA, DoxX/SURF4 family
+353	420	COG2268	S	Uncharacterized membrane protein YqiK, contains Band7/PHB/SPFH domain
+427	629	COG2307	S	Uncharacterized conserved protein, Alpha-E superfamily
+294	464	COG2311	S	Uncharacterized membrane protein YeiB
+392	673	COG2323	S	Uncharacterized membrane protein YcaP, DUF421 family
+178	184	COG2324	S	Uncharacterized membrane protein
+306	427	COG2343	S	Uncharacterized conserved protein, DUF427 family
+143	194	COG2359	S	Stage V sporulation protein SpoVS, predicted DNA-binding, AlbA superfamily
+473	498	COG2363	S	Uncharacterized membrane protein YgdD, TMEM256/DUF423 family
+248	326	COG2364	S	Uncharacterized membrane protein YczE
+43	44	COG2383	S	Uncharacterized membrane protein, Fun14 family
+63	63	COG2389	S	Uncharacterized metal-binding protein, DUF2227 family
+105	105	COG2412	S	Uncharacterized conserved protein, DUF424 domain
+301	393	COG2425	S	Uncharacterized conserved protein, contains a von Willebrand factor type A (vWA) domain
+104	113	COG2426	S	Uncharacterized membrane protein
+113	172	COG2427	S	Uncharacterized conserved protein YjgD, DUF1641 family
+47	53	COG2430	S	Uncharacterized conserved protein, DUF432 domain
+57	57	COG2456	S	Uncharacterized conserved protein, DUF2304 domain
+136	139	COG2457	S	Uncharacterized conserved protein, DUF447 domain
+123	188	COG2604	S	Uncharacterized conserved protein
+136	146	COG2707	S	Uncharacterized membrane protein, DUF441 family
+241	257	COG2733	S	Uncharacterized membrane-anchored protein YjiN, DUF445 family
+236	424	COG2768	S	Uncharacterized Fe-S cluster protein
+467	476	COG2802	S	Uncharacterized conserved protein, LON_N-like domain, ASCH/PUA-like superfamily
+42	42	COG2830	S	Uncharacterized conserved protein, DUF452 domain
+374	407	COG2832	S	Uncharacterized membrane protein YbaN, DUF454 family
+220	226	COG2833	S	Uncharacterized protein, contains ferritin-like DUF455 domain
+395	436	COG2836	S	Uncharacterized membrane protein, DsbD domain
+206	206	COG2839	S	Uncharacterized conserved protein YqgC, DUF456 family
+195	213	COG2841	S	Uncharacterized conserved protein YdcH, DUF465 family
+587	701	COG2855	S	Uncharacterized membrane protein YadS, UPF0324 family
+697	793	COG2860	S	Uncharacterized membrane protein YeiH
+308	332	COG2862	S	Uncharacterized membrane protein YqhA
+189	190	COG2868	S	Uncharacterized conserved protein YsxB, DUF464 family
+197	220	COG2879	S	Uncharacterized short protein YbdD, DUF466 family
+338	345	COG2900	S	Uncharacterized coiled-coil protein SlyX (sensitive to lysis X)
+208	207	COG2922	S	Uncharacterized conserved protein Smg, DUF494 family
+80	78	COG2926	S	Uncharacterized conserved protein YeeX, DUF496 family
+464	549	COG2928	S	Uncharacterized membrane protein
+48	52	COG2952	S	Uncharacterized conserved protein, DUF507 domain
+40	40	COG2958	S	Uncharacterized conserved protein
+399	479	COG2966	S	Uncharacterized membrane protein YjjP, DUF1212 family
+585	657	COG2968	S	Uncharacterized conserved protein YggE, contains kinase-interacting SIMPL domain
+167	180	COG2979	S	Uncharacterized membrane protein YebE, DUF533 family
+98	132	COG2990	S	Outer membrane protein VirK/YbjX involved in antimicrobial peptide resistance, DUF535 family
+459	487	COG3012	S	Uncharacterized conserved protein YchJ, contains N- and C-terminal SEC-C domains
+74	73	COG3013	S	Uncharacterized conserved protein YfbU, UPF0304 family
+115	119	COG3014	S	Uncharacterized conserved protein
+255	346	COG3019	S	Uncharacterized metal-binding protein, DUF411 family
+107	107	COG3056	S	Uncharacterized lipoprotein YajG
+109	108	COG3068	S	Uncharacterized conserved protein YjaG, DUF416 family
+375	454	COG3071	S	Uncharacterized protein HemY, contains HemY_N domain and TPR repeats (unrelated to protoporphyrinogen oxidase HemY)
+197	198	COG3079	S	Uncharacterized conserved protein YgfB, UPF0149 family
+91	88	COG3082	S	Uncharacterized conserved protein YejL, UPF0352 family
+75	76	COG3084	S	Uncharacterized conserved protein YihD, DUF1040 family
+108	117	COG3085	S	Uncharacterized conserved protein YifE, UPF0438 family
+137	137	COG3089	S	Uncharacterized conserved protein YheU, UPF0270 family
+93	91	COG3092	S	Uncharacterized membrane protein YfbV, UPF0208 family
+169	175	COG3094	S	Uncharacterized membrane protein SirB2
+58	58	COG3097	S	Uncharacterized conserved protein YqfB, UPF0267 family
+141	141	COG3098	S	Uncharacterized conserved protein YqcC, DUF446 family
+73	73	COG3099	S	Uncharacterized conserved protein YciU, UPF0263 family
+167	166	COG3100	S	Uncharacterized conserved protein YcgL, UPF0745 family
+317	453	COG3108	S	Uncharacterized conserved protein YcbK, DUF882 family
+71	83	COG3110	S	Uncharacterized conserved protein YccT, UPF0319 family
+106	152	COG3111	S	Predicted periplasmic protein YdeI with OB-fold, BOF family
+91	90	COG3112	S	Uncharacterized conserved protein YacL, UPF0231 family
+151	166	COG3122	S	Uncharacterized conserved protein YaiL, DUF2058 family
+141	151	COG3126	S	Uncharacterized lipoprotein YbaY
+185	188	COG3132	S	Uncharacterized conserved protein YceH, UPF0502 family
+137	173	COG3134	S	Uncharacterized conserved protein YcfJ, contains glycine zipper 2TM domain
+53	53	COG3136	S	Dual-topology membrane protein YdgC, GlpM family
+117	117	COG3139	S	Uncharacterized conserved protein YeaC, DUF1315 family
+73	73	COG3140	S	Uncharacterized conserved protein YoaH, UPF0181 family
+156	156	COG3151	S	Uncharacterized conserved protein YqiB, DUF1249 family
+357	539	COG3152	S	Uncharacterized membrane protein YhaH, DUF805 family
+334	366	COG3159	S	Uncharacterized conserved protein YigA, DUF484 family
+294	350	COG3162	S	Uncharacterized membrane protein, DUF485 family
+251	256	COG3169	S	Uncharacterized membrane protein, DMT/DUF486 family
+103	108	COG3171	S	Uncharacterized conserved protein YggL, DUF469 family
+457	985	COG3182	S	PepSY-associated TM region
+160	174	COG3184	S	Uncharacterized conserved protein, contains DUF2059 domain
+369	394	COG3189	S	Uncharacterized conserved protein YeaO, DUF488 family
+142	143	COG3198	S	Uncharacterized conserved protein
+171	179	COG3205	S	Uncharacterized membrane protein, DUF2061 family
+356	389	COG3216	S	Uncharacterized conserved protein, DUF2062 family
+126	141	COG3219	S	Uncharacterized conserved protein, DUF2063 family
+293	393	COG3220	S	Uncharacterized conserved protein, UPF0276 family
+273	306	COG3222	S	Uncharacterized conserved protein, glycosyltransferase A (GT-A) superfamily, DUF2064 family
+28	29	COG3234	S	Uncharacterized conserved protein YfaT, DUF1175 family
+98	97	COG3235	S	Uncharacterized membrane protein
+523	762	COG3237	S	Uncharacterized conserved protein YjbJ, UPF0337 family
+360	498	COG3238	S	Uncharacterized membrane protein YdcZ, DUF606 family
+230	227	COG3242	S	Uncharacterized conserved protein YjeT, DUF2065 family
+304	600	COG3246	S	Uncharacterized conserved protein, DUF849 family
+102	103	COG3249	S	Uncharacterized conserved protein, DUF2066 domain
+200	277	COG3268	S	Uncharacterized conserved protein, related to short-chain dehydrogenases
+225	237	COG3272	S	Uncharacterized conserved protein YbgA, DUF1722 family
+26	26	COG3286	S	Uncharacterized conserved protein, DUF2067 domain
+304	1079	COG3291	S	Uncharacterized conserved protein, PKD repeat domain
+131	136	COG3295	S	Uncharacterized conserved protein
+257	260	COG3304	S	Uncharacterized membrane protein YccF, DUF307 family
+60	66	COG3305	S	Uncharacterized membrane protein, DUF2068 family
+157	158	COG3308	S	Uncharacterized membrane protein
+152	152	COG3310	S	Uncharacterized conserved protein, DUF1415 family
+336	457	COG3318	S	Uncharacterized conserved protein YecA, UPF0149 family, contains C-terminal Zn-binding SEC-C motif
+341	349	COG3323	S	PII-like insert in the uncharacterized protein YqfO, YbgI/NIF3 family
+311	321	COG3326	S	Uncharacterized membrane protein YsdA, DUF1294 family
+125	156	COG3330	S	Uncharacterized conserved protein BH1414
+430	548	COG3339	S	Uncharacterized membrane protein YkvA, DUF1232 family
+210	292	COG3358	S	Uncharacterized conserved protein, DUF1684 family
+142	161	COG3361	S	Uncharacterized conserved protein YqjF, DUF2071 family
+58	58	COG3365	S	Uncharacterized conserved protein, DUF2073 family
+60	83	COG3366	S	Uncharacterized membrane protein
+301	342	COG3369	S	Uncharacterized conserved protein, contains Zn-finger domain of CDGSH type
+55	75	COG3371	S	Uncharacterized membrane protein
+30	35	COG3374	S	Uncharacterized membrane protein
+66	68	COG3377	S	Uncharacterized conserved protein YunC, DUF1805 family
+26	28	COG3399	S	Uncharacterized conserved protein
+268	339	COG3402	S	Uncharacterized membrane protein YdbS, contains bPH2 (bacterial pleckstrin homology) domain
+76	84	COG3403	S	Uncharacterized conserved protein YcgG, contains conserved FPC and CPF motifs
+107	119	COG3410	S	Uncharacterized conserved protein, DUF2075 family
+118	125	COG3416	S	Uncharacterized conserved protein, DUF2076 domain
+267	333	COG3422	S	Uncharacterized conserved protein YegP, UPF0339 family
+324	450	COG3428	S	Uncharacterized membrane protein YdbT, contains bPH2 (bacterial pleckstrin homology) domain
+94	136	COG3431	S	Uncharacterized membrane protein, DUF373 family
+370	577	COG3439	S	Uncharacterized conserved protein, DUF302 family
+91	96	COG3461	S	Uncharacterized conserved protein
+185	256	COG3462	S	Uncharacterized protein, contains short C-terminal (SHOCT) domain
+102	149	COG3463	S	Uncharacterized membrane protein
+56	59	COG3465	S	Uncharacterized conserved protein YwgA
+114	117	COG3471	S	Predicted secreted (periplasmic) protein
+131	141	COG3472	S	Uncharacterized conserved protein domain, often C-terminal to DUF262
+63	69	COG3477	S	Uncharacterized membrane protein YagU, involved in acid resistance, DUF1440 family
+74	93	COG3482	S	Uncharacterized conserved protein
+150	159	COG3487	S	Imelysin-like iron-regulated protein IrpA, duplicated M75 peptidase-like domain
+115	117	COG3490	S	Uncharacterized conserved protein, DUF1513 domain
+175	176	COG3492	S	Uncharacterized conserved protein, DUF1244 family
+239	240	COG3494	S	Uncharacterized conserved protein, DUF1009 family
+114	144	COG3495	S	Uncharacterized conserved protein, DUF3299 family
+284	286	COG3496	S	Uncharacterized conserved protein, DUF1365 family
+234	238	COG3502	S	Uncharacterized conserved protein, DUF952 family
+245	291	COG3503	S	Uncharacterized membrane protein, DUF1624 family
+152	171	COG3506	S	Regulation of enolase protein 1 (function unknown), concanavalin A-like superfamily
+132	150	COG3528	S	Uncharacterized conserved protein, DUF2219 family
+239	241	COG3530	S	Uncharacterized conserved protein, DUF3820 family
+119	182	COG3535	S	Uncharacterized conserved protein, DUF917 family
+303	338	COG3536	S	Uncharacterized conserved protein, DUF971 family
+102	111	COG3538	S	Meiotically up-regulated gene 157 (Mug157) protein (function unknown)
+74	76	COG3543	S	Uncharacterized conserved protein, DUF1284 domain
+332	619	COG3544	S	Uncharacterized conserved protein, DUF305 family
+176	241	COG3548	S	Uncharacterized membrane protein
+87	109	COG3551	S	Uncharacterized conserved protein
+222	326	COG3552	S	Uncharacterized protein CoxE, contains von Willebrand factor type A (vWA) domain
+100	112	COG3553	S	Uncharacterized conserved protein, DUF2218 domain
+92	99	COG3554	S	Uncharacterized conserved protein
+65	66	COG3556	S	Uncharacterized membrane protein
+109	117	COG3557	S	Uncharacterized conserved protein associated with RNAses G and E, UPF0374/DUF402 family
+230	249	COG3558	S	Uncharacterized conserved protein, nuclear transport factor 2 (NTF2) superfamily
+238	248	COG3564	S	Uncharacterized conserved protein, DUF779 family
+47	62	COG3566	S	Uncharacterized conserved protein, DUF2213 domain
+59	79	COG3567	S	Uncharacterized conserved protein, DUF1073 domain
+116	121	COG3575	S	Uncharacterized conserved protein
+231	300	COG3583	S	Uncharacterized conserved protein YabE, contains G5 and tandem DUF348 domains
+203	367	COG3584	S	3D (Asp-Asp-Asp) domain, usually in lytic transglycosylases
+69	105	COG3589	S	Uncharacterized conserved protein, DUF871 domain
+123	132	COG3592	S	Uncharacterized Fe-S cluster protein YjdI
+156	203	COG3595	S	Uncharacterized conserved protein YvlB, contains DUF4097 and DUF4098 domains
+167	252	COG3597	S	Uncharacterized conserved protein, DUF697 family
+385	441	COG3610	S	Uncharacterized membrane protein YjjB, DUF3815 family
+67	67	COG3612	S	Predicted DNA-binding protein AF1194, contains HTH domain, DUF2240 family
+324	403	COG3619	S	Uncharacterized membrane protein YoaK, UPF0700 family
+82	86	COG3644	S	Uncharacterized conserved protein, DUF2239 domain
+140	151	COG3647	S	Uncharacterized membrane protein YjdF
+101	104	COG3650	S	Uncharacterized membrane protein
+209	212	COG3651	S	Uncharacterized conserved protein, DUF2237 family
+185	301	COG3652	S	Predicted outer membrane protein, contains DUF4142 domain
+98	103	COG3656	S	Predicted periplasmic protein
+179	310	COG3662	S	Uncharacterized conserved protein, DUF2236 family
+228	436	COG3665	S	Uncharacterized conserved protein YcgI, DUF1989 family
+158	169	COG3671	S	Uncharacterized membrane protein
+135	166	COG3673	S	Uncharacterized conserved protein, PA2063/DUF2235 family
+34	34	COG3680	S	Uncharacterized protein, contains GIY-YIG domain
+209	247	COG3686	S	Uncharacterized conserved protein, MAPEG superfamily
+155	167	COG3689	S	Uncharacterized membrane protein YcgQ, UPF0703/DUF1980 family
+74	87	COG3691	S	Uncharacterized conserved protein YfcZ, UPF0381/DUF406 family
+29	29	COG3692	S	Uncharacterized conserved protein YifN, PemK superfamily
+100	101	COG3698	S	Uncharacterized conserved protein YigE, DUF2233 family
+177	181	COG3714	S	Uncharacterized membrane protein YhhN
+95	96	COG3726	S	Uncharacterized membrane protein Smp affecting hemolysin expression
+316	387	COG3735	S	Uncharacterized conserved protein YbaP, TraB family
+269	269	COG3737	S	Uncharacterized protein, contains Mth938-like domain
+68	69	COG3738	S	Uncharacterized conserved protein YijF, DUF1287 family
+107	107	COG3739	S	Uncharacterized membrane protein YoaT, DUF817 family
+212	227	COG3748	S	Uncharacterized membrane protein
+238	247	COG3749	S	Uncharacterized conserved protein, DUF934 family
+151	204	COG3750	S	Uncharacterized conserved protein, UPF0335 family
+137	160	COG3753	S	Uncharacterized conserved protein YidB, DUF937 family
+237	317	COG3755	S	Uncharacterized conserved protein YecT, DUF1311 family
+31	45	COG3756	S	Uncharacterized conserved protein YdaU, DUF1376 family
+189	197	COG3758	S	Various environmental stresses-induced protein Ves (function unknown)
+223	228	COG3759	S	Uncharacterized membrane protein
+278	286	COG3762	S	Uncharacterized membrane protein
+81	80	COG3763	S	Uncharacterized conserved protein YneF, UPF0154 family
+126	152	COG3766	S	Uncharacterized membrane protein YjfL, UPF0719 family
+49	53	COG3767	S	Uncharacterized low-complexity protein
+204	207	COG3768	S	Uncharacterized membrane protein YcjF, UPF0283 family
+71	70	COG3776	S	Uncharacterized conserved protein YhhL, DUF1145 family
+46	52	COG3779	S	Uncharacterized conserved protein YegJ, DUF2314 family
+106	106	COG3782	S	Uncharacterized conserved protein, DUF1853 domain
+164	165	COG3784	S	Uncharacterized conserved protein YdbL, DUF1318 family
+95	99	COG3787	S	Uncharacterized conserved protein YhbP, UPF0306 family
+145	153	COG3788	S	Uncharacterized membrane protein YecN, MAPEG domain
+55	59	COG3789	S	Uncharacterized conserved protein YjfI, DUF2170 family
+77	76	COG3790	S	Predicted membrane protein, encoded in cydAB operon
+377	1241	COG3791	S	Uncharacterized conserved protein
+12	25	COG3792	S	Uncharacterized conserved protein, DUF596 domain
+253	278	COG3797	S	Uncharacterized conserved protein, DUF1697 family
+54	70	COG3798	S	Uncharacterized conserved protein, DUF2171 domain
+94	144	COG3801	S	Uncharacterized conserved protein
+63	66	COG3802	S	Uncharacterized conserved protein GguC, FAA hydrolase family
+297	322	COG3803	S	Uncharacterized conserved protein, DUF924 family
+118	172	COG3804	S	Uncharacterized conserved protein
+235	241	COG3807	S	SH3-like domain
+67	69	COG3811	S	Uncharacterized conserved protein YjhX, UPF0386/DUF2084 family
+149	190	COG3812	S	Uncharacterized conserved protein, DUF1993 domain
+115	115	COG3813	S	Uncharacterized conserved protein, DUF1272 domain
+58	65	COG3815	S	Uncharacterized membrane protein
+186	186	COG3816	S	Uncharacterized conserved protein, DUF1285 family
+110	112	COG3817	S	Uncharacterized membrane protein
+111	114	COG3819	S	Uncharacterized membrane protein
+141	145	COG3821	S	Uncharacterized membrane protein
+260	268	COG3825	S	Uncharacterized CoxE-like protein, contains von Willebrand factor type A (vWA) domain
+97	108	COG3826	S	Uncharacterized conserved protein
+402	614	COG3837	S	Uncharacterized conserved protein, cupin superfamily
+145	145	COG3856	S	Small basic protein Sbp (function unknown), DUF1290 domain
+142	165	COG3860	S	Uncharacterized conserved protein, DUF2087 family
+110	198	COG3861	S	Stress response protein YsnF (function unknown)
+90	119	COG3862	S	Uncharacterized conserved protein with two CxxC motifs
+65	66	COG3863	S	Uncharacterized conserved protein YycO, NlpC/P60 family
+354	529	COG3871	S	General stress protein 26 (function unknown)
+191	201	COG3872	S	Uncharacterized conserved protein YqhQ, DUF1385 family
+136	161	COG3874	S	Uncharacterized spore protein YtfJ
+89	121	COG3878	S	Uncharacterized conserved protein YwqG, DUF1963 family
+151	355	COG3879	S	Uncharacterized conserved protein YlxW, UPF0749 family
+97	137	COG3881	S	Uncharacterized conserved protein YrrD, contains PRC-barrel domain
+215	326	COG3883	S	Uncharacterized N-terminal coiled-coil domain of peptidoglycan hydrolase CwlO
+209	328	COG3894	S	Uncharacterized 2Fe-2S and 4Fe-4S clusters-containing protein, contains DUF4445 domain
+145	146	COG3898	S	Uncharacterized protein HemY, contains HemY_N domain and TPR repeats (unrelated to HemY-type protoporphyrinogen oxidase)
+46	59	COG3900	S	Predicted periplasmic protein
+96	146	COG3904	S	Predicted periplasmic protein
+106	118	COG3906	S	Uncharacterized conserved protein YrzB, UPF0473 family
+80	82	COG3908	S	Uncharacterized conserved protein, DUF2093 domain
+126	170	COG3915	S	Uncharacterized conserved protein
+52	57	COG3918	S	Uncharacterized membrane protein
+162	237	COG3921	S	Uncharacterized conserved protein, contains Extensin-like_C domain
+103	104	COG3924	S	Uncharacterized membrane protein YhdT
+92	103	COG3930	S	Uncharacterized conserved protein, DUF1704 domain
+228	337	COG3943	S	Uncharacterized protein RhuM, Salmonella virulence factor
+147	193	COG3949	S	Uncharacterized membrane protein YkvI
+17	17	COG4001	S	Uncharacterized conserved protein
+13	13	COG4003	S	Uncharacterized conserved protein, DUF2095 family
+33	33	COG4004	S	Uncharacterized protein, contains DUF5611 domain
+10	10	COG4009	S	Uncharacterized conserved protein, DUF749 domain
+11	11	COG4010	S	Uncharacterized conserved protein, DUF2096 domain
+9	10	COG4013	S	Uncharacterized conserved protein, DUF2097 domain
+33	33	COG4014	S	Uncharacterized protein MTH814, DUF2098 family
+33	42	COG4022	S	Uncharacterized conserved protein, DUF2099 domain
+8	8	COG4024	S	Uncharacterized conserved protein, DUF2100 domain
+33	35	COG4029	S	Uncharacterized conserved protein MJ0498
+53	53	COG4031	S	Uncharacterized metal-binding protein, DUF2103 family
+27	34	COG4033	S	Uncharacterized conserved protein MJ0453
+36	37	COG4034	S	Uncharacterized conserved protein, DUF1152 domain
+46	46	COG4044	S	Uncharacterized conserved protein, DUF2110 domain
+41	42	COG4046	S	Uncharacterized protein, contains DUF1512 domain
+30	33	COG4048	S	Uncharacterized conserved protein, DUF2111 domain
+33	34	COG4050	S	Uncharacterized conserved protein, DUF2112 domain
+33	33	COG4051	S	Uncharacterized conserved protein MJ0802, methanogenesis marker protein 17, contains DUF2113 domain
+10	10	COG4053	S	Uncharacterized conserved protein
+28	28	COG4065	S	Uncharacterized conserved protein MJ1451
+24	38	COG4066	S	Uncharacterized conserved protein MTH_811, UPF0305 family
+283	371	COG4067	S	Uncharacterized conserved protein
+20	24	COG4069	S	Uncharacterized conserved protein, DUF2117 domain
+15	15	COG4072	S	Uncharacterized conserved protein, DUF2118 domain
+14	14	COG4073	S	Uncharacterized conserved protein MJ0501
+10	12	COG4075	S	Uncharacterized conserved protein MJ1244, distantly related to nitrogen regulatory protein PII
+10	10	COG4077	S	Uncharacterized conserved protein MJ0491
+15	15	COG4079	S	Uncharacterized conserved protein, DUF2121 domain
+20	22	COG4081	S	Uncharacterized conserved protein MJ0452
+89	92	COG4086	S	Uncharacterized conserved protein YpuA, DUF1002 family
+100	113	COG4089	S	Uncharacterized membrane protein
+23	25	COG4090	S	Uncharacterized conserved protein MTH_862
+102	102	COG4093	S	Uncharacterized conserved protein, DUF2125 domain
+192	225	COG4094	S	Uncharacterized membrane protein
+256	780	COG4102	S	Uncharacterized conserved protein, DUF1501 family
+330	425	COG4111	S	Uncharacterized conserved protein
+157	175	COG4125	S	Uncharacterized membrane protein
+272	408	COG4129	S	Uncharacterized membrane protein YgaE, UPF0421/DUF939 family
+59	63	COG4194	S	Uncharacterized membrane protein, DUF1648 family
+196	201	COG4196	S	Uncharacterized conserved protein, DUF2126 family
+322	328	COG4198	S	Uncharacterized conserved protein, DUF1015 family
+224	321	COG4222	S	Uncharacterized conserved protein, contains a phytase-like domain
+119	120	COG4223	S	Uncharacterized conserved protein
+132	145	COG4224	S	Uncharacterized conserved protein YnzC, UPF0291/DUF896 family
+129	129	COG4241	S	Uncharacterized conserved protein YybS, DUF2232 family
+181	272	COG4244	S	Uncharacterized membrane protein
+169	249	COG4245	S	Uncharacterized conserved protein YegL, contains vWA domain of TerY type
+113	113	COG4246	S	Uncharacterized conserved protein, contains a phytase-like domain
+75	251	COG4253	S	Uncharacterized conserved protein, DUF2345 family
+145	145	COG4255	S	Uncharacterized conserved protein
+66	68	COG4259	S	Uncharacterized conserved protein, DUF4810 domain
+59	60	COG4267	S	Uncharacterized membrane protein
+125	133	COG4269	S	Uncharacterized membrane protein YjgN, DUF898 family
+238	324	COG4270	S	Uncharacterized membrane protein
+74	78	COG4272	S	Uncharacterized membrane protein
+75	89	COG4273	S	Uncharacterized conserved protein, contains metal-binding DGC domain
+97	127	COG4274	S	Uncharacterized conserved protein, contains GYD domain
+98	113	COG4278	S	Uncharacterized conserved protein
+155	187	COG4279	S	Uncharacterized protein, contains SWIM-type Zn finger domain
+31	32	COG4280	S	Uncharacterized membrane protein
+64	66	COG4286	S	Uncharacterized conserved protein, UPF0160 family
+51	58	COG4288	S	Uncharacterized conserved protein
+113	138	COG4289	S	Uncharacterized conserved protein, DUF2264 domain
+177	187	COG4291	S	Uncharacterized membrane protein
+139	201	COG4292	S	Low temperature requirement protein LtrA (function unknown)
+63	75	COG4293	S	Uncharacterized conserved protein, DUF1802 family
+26	30	COG4296	S	Uncharacterized conserved protein, DUF2262 domain
+84	87	COG4297	S	Uncharacterized conserved protein YjlB, cupin superfamily
+89	89	COG4298	S	Uncharacterized conserved protein, YiaAB domain
+14	14	COG4304	S	Uncharacterized conserved protein, DUF2247 domain
+9	9	COG4306	S	Uncharacterized conserved protein, DUF2321 domain
+154	171	COG4307	S	Uncharacterized conserved protein, DUF2248 family
+169	220	COG4315	S	Predicted lipoprotein with conserved Yx(FWY)xxD motif (function unknown)
+27	28	COG4316	S	Uncharacterized conserved protein, DUF2251 domain
+53	60	COG4318	S	Uncharacterized conserved protein
+162	223	COG4320	S	Uncharacterized conserved protein, DUF2252 family
+45	47	COG4322	S	Uncharacterized protein, contains DUF2272 domain
+120	125	COG4323	S	Uncharacterized conserved protein, DUF962 domain
+240	268	COG4325	S	Uncharacterized membrane protein
+293	313	COG4327	S	Uncharacterized membrane protein, DUF4212 domain
+87	89	COG4329	S	Uncharacterized membrane protein, DUF2243 domain
+97	103	COG4330	S	Uncharacterized membrane protein, DUF1361 domain
+24	24	COG4331	S	Uncharacterized membrane protein, DUF2127 domain
+41	42	COG4332	S	Uncharacterized conserved protein, DUF1062 domain
+120	126	COG4333	S	Uncharacterized conserved protein, DUF1643 domain
+50	57	COG4334	S	Uncharacterized conserved protein, DUF2255 domain
+162	167	COG4336	S	Uncharacterized conserved protein YcsI, UPF0317/DUF1446 family
+40	46	COG4337	S	Uncharacterized conserved protein
+225	225	COG4338	S	Uncharacterized conserved protein, DUF2256 family
+89	103	COG4347	S	Uncharacterized membrane protein YpjA
+84	115	COG4354	S	Uncharacterized conserved protein, contains GBA2_N and DUF608 domains
+69	69	COG4357	S	Uncharacterized conserved protein, contains Zn-finger domain of CHY type
+15	15	COG4367	S	Uncharacterized conserved protein, DUF2316 domain
+53	75	COG4370	S	Uncharacterized conserved protein
+40	48	COG4371	S	Uncharacterized membrane protein
+179	213	COG4372	S	Uncharacterized protein, contains DUF3084 domain
+67	74	COG4378	S	Uncharacterized conserved protein, DUF2325 domain
+79	83	COG4380	S	Uncharacterized conserved protein, DUF799 domain
+60	60	COG4390	S	Uncharacterized conserved protein, DUF2322 domain
+293	293	COG4391	S	Uncharacterized protein, contains Zn-finger domain
+58	61	COG4393	S	Uncharacterized membrane protein
+193	218	COG4399	S	Uncharacterized membrane protein YheB, UPF0754 family
+57	74	COG4402	S	Uncharacterized conserved protein, DUF2330 domain
+10	10	COG4408	S	Uncharacterized conserved protein
+274	309	COG4420	S	Uncharacterized membrane protein
+68	101	COG4423	S	Uncharacterized conserved protein
+76	97	COG4425	S	Uncharacterized membrane protein
+116	132	COG4427	S	Uncharacterized conserved protein, DUF2332 domain
+323	509	COG4430	S	Uncharacterized conserved protein YdeI, YjbR/CyaY-like superfamily, DUF1801 family
+71	81	COG4443	S	Uncharacterized conserved protein
+192	232	COG4446	S	Uncharacterized conserved protein, DUF1499 family
+195	319	COG4453	S	Uncharacterized conserved protein, DUF1778 family
+167	240	COG4456	S	Virulence-associated protein VagC (function unknown)
+45	47	COG4460	S	Uncharacterized conserved protein, DUF4440 domain
+143	144	COG4466	S	Uncharacterized conserved protein Veg, DUF1021 family
+73	74	COG4470	S	Uncharacterized conserved protein YutD, DUF1027 family
+70	70	COG4471	S	Uncharacterized conserved protein YlbG, UPF0298 family
+174	176	COG4472	S	Uncharacterized conserved protein, UPF0297 family
+94	94	COG4475	S	Uncharacterized conserved protein YwlG, UPF0340 family
+58	58	COG4476	S	Uncharacterized conserved protein YktA, UPF0223 family
+76	80	COG4478	S	Uncharacterized membrane protein
+60	60	COG4479	S	Uncharacterized conserved protein YozE, UPF0346 family
+187	187	COG4481	S	Uncharacterized conserved protein, DUF951 family
+62	62	COG4483	S	Uncharacterized conserved protein YqgQ, DUF910 family
+94	127	COG4485	S	Uncharacterized membrane protein YfhO
+97	102	COG4487	S	Uncharacterized conserved protein, contains DUF2130 domain
+55	55	COG4493	S	Uncharacterized conserved protein YktB, UPF0637 family
+21	35	COG4495	S	Uncharacterized conserved protein, DUF4176 domain
+136	136	COG4506	S	Uncharacterized beta-barrel protein YwiB, DUF1934 family
+61	101	COG4509	S	Uncharacterized conserved protein
+95	95	COG4517	S	Uncharacterized conserved protein, DUF1820 domain
+39	42	COG4519	S	Uncharacterized conserved protein
+141	143	COG4530	S	Uncharacterized conserved protein
+69	77	COG4538	S	Uncharacterized conserved protein, contains SnoaL-like domain
+84	99	COG4541	S	Uncharacterized membrane protein
+230	269	COG4544	S	Uncharacterized conserved protein
+149	169	COG4549	S	Uncharacterized conserved protein YcnI, contains cohesin/reeler-like domain
+236	554	COG4625	S	Uncharacterized conserved protein, contains a C-terminal beta-barrel porin domain
+218	241	COG4628	S	Uncharacterized conserved protein, DUF2132 family
+47	62	COG4640	S	Uncharacterized protein YvbJ, contains N-terminal Zn ribbon domain
+151	207	COG4642	S	Uncharacterized conserved protein
+126	129	COG4648	S	Uncharacterized membrane protein
+159	159	COG4649	S	TPR-like repeat domain
+42	61	COG4652	S	Uncharacterized conserved protein, DUF1430 domain
+93	135	COG4676	S	Uncharacterized conserved protein YfaP, DUF2135 family
+241	244	COG4681	S	Uncharacterized conserved protein YaeQ, suppresses RfaH defect
+69	77	COG4682	S	Uncharacterized membrane protein YiaA
+88	114	COG4683	S	Uncharacterized conserved protein
+97	105	COG4684	S	Uncharacterized membrane protein
+11	11	COG4685	S	Uncharacterized conserved protein YfaA, DUF2138 family
+43	44	COG4687	S	Uncharacterized conserved protein
+24	29	COG4688	S	Uncharacterized conserved protein
+14	15	COG4697	S	Uncharacterized conserved protein, DUF2139 domain
+52	52	COG4698	S	Uncharacterized conserved protein YpmS, DUF2140 family
+29	29	COG4699	S	Uncharacterized conserved protein, DUF1033 domain
+73	75	COG4700	S	Uncharacterized conserved protein ECs_4300, contains TPR-like domain
+108	108	COG4701	S	Uncharacterized conserved protein
+102	109	COG4702	S	Uncharacterized conserved protein, UPF0303 family
+32	33	COG4703	S	Uncharacterized conserved protein YkuJ, DUF1797 family
+157	229	COG4704	S	Uncharacterized conserved protein, DUF2141 family
+92	125	COG4705	S	Uncharacterized membrane-anchored protein
+115	137	COG4709	S	Uncharacterized membrane protein
+83	93	COG4711	S	Uncharacterized membrane protein
+37	42	COG4713	S	Uncharacterized membrane protein
+48	48	COG4714	S	Uncharacterized membrane-anchored protein
+220	251	COG4715	S	Uncharacterized protein, contains SWIM-type Zn finger domain
+120	139	COG4716	S	Myosin-crossreactive antigen (function unknown)
+262	290	COG4717	S	Uncharacterized conserved protein YhaN, contains AAA domain
+50	60	COG4719	S	Uncharacterized conserved protein, UCP014979 family
+50	59	COG4727	S	Uncharacterized conserved protein, DUF2145 domain
+176	181	COG4728	S	Uncharacterized conserved protein, DUF1653 family
+138	148	COG4729	S	Uncharacterized conserved protein, DUF1850 family
+280	379	COG4731	S	Uncharacterized conserved protein, DUF2147 family
+58	61	COG4735	S	Uncharacterized conserved protein YaaW, UPF0174 family
+102	133	COG4737	S	Uncharacterized conserved protein
+64	70	COG4739	S	Uncharacterized conserved protein, contains ferredoxin domain
+68	127	COG4743	S	Uncharacterized membrane protein, DUF1616 domain
+85	102	COG4744	S	Uncharacterized conserved protein, DUF2149 domain
+53	66	COG4746	S	Uncharacterized conserved protein
+146	160	COG4748	S	Uncharacterized conserved protein, contains restriction enzyme R protein N terminal (HSDR_N) domain
+53	53	COG4749	S	Uncharacterized conserved protein, DUF2150 domain
+92	92	COG4752	S	Uncharacterized conserved protein
+23	23	COG4755	S	Uncharacterized conserved protein, DUF2153 domain
+205	211	COG4760	S	Uncharacterized membrane protein, YccA/Bax inhibitor family
+78	86	COG4762	S	Uncharacterized conserved protein, UPF0548 family
+64	71	COG4763	S	Uncharacterized membrane protein YcfT
+140	140	COG4765	S	Uncharacterized conserved protein, DUF2155 domain
+85	106	COG4768	S	Uncharacterized conserved protein YoxC, contains an MCP-like domain
+158	161	COG4769	S	Uncharacterized membrane protein
+115	151	COG4803	S	Uncharacterized membrane protein
+292	616	COG4805	S	Uncharacterized conserved protein, DUF885 family
+177	180	COG4807	S	Uncharacterized conserved protein YehS, DUF1456 family
+27	32	COG4808	S	Uncharacterized lipoprotein YehR, DUF1307 family
+59	59	COG4811	S	Uncharacterized membrane protein YobD, UPF0266 family
+30	67	COG4814	S	Uncharacterized conserved protein with an alpha/beta hydrolase fold
+55	59	COG4815	S	Uncharacterized conserved protein
+77	99	COG4818	S	Uncharacterized membrane protein MJ1443, UPF0132 family
+146	162	COG4828	S	Uncharacterized membrane protein
+32	38	COG4834	S	Uncharacterized conserved protein, DUF2184 domain
+16	16	COG4835	S	Uncharacterized conserved protein
+58	58	COG4836	S	Uncharacterized membrane protein YwzB
+52	52	COG4838	S	Uncharacterized conserved protein YlaN, UPF0358 family
+46	46	COG4840	S	Uncharacterized conserved protein YfkK, UPF0435 family
+54	61	COG4841	S	Uncharacterized conserved protein YneR, related to HesB/YadR/YfhF family
+133	150	COG4843	S	Uncharacterized conserved protein YebE, UPF0316/DUF2179 family
+55	81	COG4844	S	Uncharacterized conserved protein YuzB, UPF0349 family
+19	19	COG4847	S	Uncharacterized conserved protein, DUF2175 family
+100	103	COG4852	S	Uncharacterized membrane protein
+17	22	COG4854	S	Uncharacterized membrane protein AF1626, predicted component of bacteriocin or quorum sensing system, DUF2178 family
+36	37	COG4858	S	Uncharacterized membrane-anchored protein
+50	52	COG4859	S	Uncharacterized protein, contains DUF2185 domain
+59	62	COG4861	S	Uncharacterized conserved protein
+169	178	COG4864	S	Uncharacterized conserved protein YqfA, UPF0365 family
+121	131	COG4866	S	Uncharacterized protein, contains DUF2156 domain
+168	171	COG4867	S	Uncharacterized conserved protein, contains von Willebrand factor type A (vWFA) domain
+88	89	COG4868	S	Uncharacterized conserved protein, UPF0371 family
+92	93	COG4872	S	Uncharacterized membrane protein
+26	29	COG4873	S	Uncharacterized conserved protein YkvS, DUF2187 family
+123	126	COG4874	S	Uncharacterized conserved protein
+36	36	COG4876	S	Uncharacterized conserved protein YdaT
+180	182	COG4877	S	Uncharacterized conserved protein
+18	18	COG4878	S	Uncharacterized conserved protein, DUF2194 domain
+25	25	COG4879	S	Uncharacterized protein, contains DUF2192 domain
+20	22	COG4883	S	Uncharacterized conserved protein, DUF2193 domain
+22	22	COG4884	S	Uncharacterized conserved protein YfeS, contains WGR domain
+28	28	COG4885	S	Uncharacterized conserved protein
+61	66	COG4887	S	Uncharacterized metal-binding protein MJ0455, DUF1847 family
+196	205	COG4890	S	Predicted outer membrane lipoprotein
+82	94	COG4891	S	Uncharacterized conserved protein
+10	10	COG4893	S	Uncharacterized conserved protein, DUF2195 domain
+126	132	COG4895	S	Uncharacterized conserved protein YwbE, DUF2196 family
+37	37	COG4896	S	Uncharacterized conserved protein YlaI, DUF2197 family
+20	20	COG4897	S	General stress protein CsbA (function unknown)
+167	172	COG4898	S	Uncharacterized conserved protein
+43	46	COG4899	S	Uncharacterized conserved protein, DUF2199 domain
+4	4	COG4904	S	Uncharacterized conserved protein
+85	148	COG4905	S	Uncharacterized membrane protein
+16	19	COG4906	S	Uncharacterized membrane protein
+76	84	COG4907	S	Uncharacterized membrane protein
+92	93	COG4911	S	Uncharacterized conserved protein, DUF2203 domain
+161	185	COG4913	S	Uncharacterized conserved protein, contains a C-terminal ATPase domain
+38	44	COG4916	S	Uncharacterized conserved protein
+25	25	COG4920	S	Uncharacterized membrane protein
+16	16	COG4921	S	Uncharacterized conserved protein, DUF2209 domain
+85	93	COG4924	S	Uncharacterized conserved protein
+97	105	COG4925	S	Uncharacterized conserved protein
+132	136	COG4929	S	Uncharacterized membrane-anchored protein
+50	51	COG4939	S	Membrane-anchored lipoprotein Tpp15, major membrane immunogen
+90	105	COG4944	S	Uncharacterized conserved protein
+159	242	COG4946	S	Uncharacterized N-terminal domain of tricorn protease, contains WD40 repeats
+166	172	COG4949	S	Uncharacterized membrane-anchored protein
+93	114	COG4950	S	N-terminal domain of uncharacterized protein YciW (function unknown)
+68	73	COG4951	S	Uncharacterized conserved protein
+74	75	COG4954	S	Uncharacterized conserved protein, DUF2000 domain
+70	72	COG4955	S	Uncharacterized conserved protein YpbB, contains C-terminal HTH domain
+42	42	COG4984	S	Uncharacterized membrane protein
+143	214	COG4991	S	Uncharacterized conserved protein YraI
+87	95	COG4994	S	Uncharacterized protein CV0675, UCP033623 family
+268	1120	COG4995	S	Uncharacterized conserved protein, contains CHAT domain
+264	265	COG5011	S	Uncharacterized conserved protein, DUF2344 family
+43	43	COG5135	S	Uncharacterized conserved protein
+4	4	COG5148	S	vWFA (von Willebrand factor type A) domain-containing protein
+36	37	COG5255	S	Uncharacterized conserved protein
+236	360	COG5267	S	Uncharacterized conserved protein, DUF1800 family
+256	399	COG5276	S	Uncharacterized secreted protein, contains LVIVD repeats, choice-of-anchor domain
+69	70	COG5293	S	Uncharacterized conserved protein YydD, contains DUF2326 domain
+35	64	COG5294	S	Uncharacterized conserved protein YxeA, DUF1093 family
+131	155	COG5316	S	Uncharacterized protein, contains DUF4139 domain
+80	82	COG5317	S	Uncharacterized conserved protein, DUF1465 domain
+196	202	COG5319	S	Uncharacterized conserved protein, DUF1178 domain
+125	125	COG5321	S	Uncharacterized conserved protein
+129	129	COG5328	S	Uncharacterized conserved protein, UPF0262 family
+70	190	COG5330	S	Uncharacterized conserved protein, DUF2336 family
+96	114	COG5331	S	Uncharacterized conserved protein
+127	147	COG5338	S	Uncharacterized conserved protein
+144	154	COG5339	S	Uncharacterized conserved protein YdgA, DUF945 family
+160	176	COG5341	S	Uncharacterized conserved protein
+102	106	COG5345	S	Uncharacterized conserved protein, DUF2333 domain
+33	33	COG5346	S	Uncharacterized membrane protein
+147	265	COG5349	S	Uncharacterized conserved protein, DUF983 family
+79	261	COG5351	S	Uncharacterized conserved protein, DUF2169 domain
+140	176	COG5352	S	Uncharacterized conserved protein
+61	61	COG5353	S	Uncharacterized conserved protein YpmB, contains C-terminal PepSY domain
+201	204	COG5373	S	Uncharacterized membrane protein
+147	148	COG5375	S	Uncharacterized conserved protein
+27	36	COG5381	S	Uncharacterized conserved protein
+103	135	COG5388	S	Uncharacterized conserved protein
+162	162	COG5389	S	Uncharacterized conserved protein, DUF721 domain
+128	133	COG5393	S	Uncharacterized membrane protein YqjE
+71	76	COG5395	S	Uncharacterized membrane protein
+53	59	COG5397	S	Uncharacterized conserved protein
+20	20	COG5399	S	Uncharacterized conserved protein, DUF2286 domain
+86	89	COG5400	S	Uncharacterized conserved protein
+64	66	COG5402	S	Uncharacterized protein, contains DUF1214 domain
+134	138	COG5403	S	Uncharacterized conserved protein, DUF937 domain
+91	117	COG5410	S	Uncharacterized conserved protein
+53	53	COG5413	S	Uncharacterized integral membrane protein
+169	176	COG5416	S	Uncharacterized integral membrane protein YrvD
+43	46	COG5418	S	Predicted secreted protein
+61	64	COG5420	S	Uncharacterized protein, UPF0437 family
+83	123	COG5423	S	Predicted metal-binding protein
+99	107	COG5425	S	Usg protein (tryptophan operon, function unknown)
+54	75	COG5427	S	Predicted membrane glycosyltransferase AF0583, Arch_YYY/DUF2298 family
+154	163	COG5429	S	Uncharacterized conserved protein, DUF1223 domain
+54	99	COG5435	S	Uncharacterized conserved protein
+61	63	COG5436	S	Uncharacterized membrane protein
+168	239	COG5438	S	Uncharacterized membrane protein
+10	11	COG5445	S	Uncharacterized conserved protein YfaQ, DUF2300 domain
+135	135	COG5447	S	Uncharacterized conserved protein, DUF1491 domain
+104	122	COG5448	S	Uncharacterized conserved protein, DUF2460 domain
+112	133	COG5449	S	Uncharacterized conserved protein, DUF2163 domain
+57	58	COG5451	S	Predicted secreted protein
+89	89	COG5452	S	Uncharacterized conserved protein
+71	71	COG5453	S	Uncharacterized conserved protein
+125	125	COG5454	S	Predicted secreted protein
+139	357	COG5457	S	Uncharacterized conserved protein YjiS, DUF1127 family
+127	129	COG5458	S	Uncharacterized conserved protein, DUF1489 domain
+110	111	COG5460	S	Uncharacterized conserved protein, DUF2164 family
+124	124	COG5462	S	Predicted secreted (periplasmic) protein
+108	120	COG5463	S	Uncharacterized conserved protein YgiB, UPF0441/DUF1190 family, involved in bioifilm formation
+64	80	COG5466	S	Predicted small metal-binding protein
+122	133	COG5467	S	Uncharacterized conserved protein, DUF1476 domain
+131	131	COG5468	S	Predicted lipoprotein involved in lipopolysaccharide assembly
+100	152	COG5469	S	Predicted metal-binding protein
+271	476	COG5470	S	Uncharacterized conserved protein, DUF1330 family
+57	60	COG5472	S	Predicted small integral membrane protein
+225	327	COG5473	S	Uncharacterized membrane protein
+65	69	COG5475	S	Uncharacterized conserved protein YodC, DUF2158 family
+108	112	COG5477	S	Predicted small integral membrane protein
+74	91	COG5480	S	Uncharacterized membrane protein
+161	161	COG5481	S	Uncharacterized conserved protein, DUF465 domain
+66	66	COG5482	S	Uncharacterized conserved protein, DUF2161 domain
+215	249	COG5483	S	Uncharacterized conserved protein, DUF488 family
+76	97	COG5484	S	Uncharacterized conserved protein YjcR, contains N-terminal HTH domain
+89	112	COG5486	S	Predicted metal-binding membrane protein
+304	385	COG5487	S	Uncharacterized membrane protein YtjA, UPF0391 family
+163	166	COG5488	S	Uncharacterized membrane protein
+99	295	COG5489	S	Uncharacterized conserved protein, DUF736 family
+96	188	COG5490	S	Predicted polyhydroxyalkanoate (PHA)-binding protein, phasin family
+31	32	COG5497	S	Predicted secreted protein
+116	142	COG5500	S	Uncharacterized membrane protein
+177	292	COG5501	S	Sulfur oxidation protein SoxY
+148	227	COG5502	S	Uncharacterized conserved protein, DUF2267 family
+140	172	COG5505	S	Uncharacterized membrane protein YjcL
+49	52	COG5506	S	Uncharacterized conserved protein YueI, DUF2278 family
+171	185	COG5507	S	Uncharacterized conserved protein YbaA, DUF1428 family
+148	148	COG5508	S	Uncharacterized conserved protein, DUF1674 domain
+73	73	COG5509	S	Uncharacterized small protein, DUF1192 family
+195	266	COG5510	S	Predicted small secreted protein
+31	31	COG5514	S	Uncharacterized conserved protein, DUF1794 domain
+100	99	COG5515	S	Uncharacterized conserved protein, DUF1737 domain
+63	69	COG5522	S	Uncharacterized membrane protein YwaF
+63	81	COG5523	S	Uncharacterized membrane protein
+89	95	COG5528	S	Uncharacterized membrane protein
+62	82	COG5530	S	Uncharacterized membrane protein
+27	28	COG5532	S	Uncharacterized conserved protein YfdQ, DUF2303 family
+49	49	COG5544	S	Uncharacterized conserved protein YfiM, DUF2279 family
+22	31	COG5546	S	Uncharacterized membrane protein
+45	47	COG5547	S	Uncharacterized membrane protein
+31	31	COG5548	S	Uncharacterized membrane protein, UPF0136 family
+118	118	COG5552	S	Uncharacterized conserved protein, DUF2277 domain
+17	21	COG5556	S	Uncharacterized conserved protein
+37	42	COG5559	S	Uncharacterized conserved protein, DUF2281 domain
+64	89	COG5561	S	Predicted metal-binding protein, contains CGGC domain
+64	116	COG5563	S	Uncharacterized conserved protein CPn0794, contains PKD-like HAF repeats
+96	121	COG5564	S	Predicted TIM-barrel enzyme
+122	123	COG5567	S	Small periplasmic lipoprotein YifL (function unknown)
+105	106	COG5568	S	Uncharacterized conserved protein, DUF1150 family
+124	132	COG5570	S	Uncharacterized conserved protein, DUF465 domain
+130	160	COG5572	S	Uncharacterized membrane protein
+73	118	COG5578	S	Uncharacterized membrane protein YesL
+122	132	COG5579	S	Uncharacterized conserved protein, DUF1810 family
+53	57	COG5582	S	Uncharacterized conserved protein YpiB, UPF0302 family
+73	77	COG5583	S	Uncharacterized conserved protein YezD
+52	52	COG5584	S	Uncharacterized conserved protein YtzB
+34	35	COG5586	S	Uncharacterized protein, contains DUF2293 domain
+263	296	COG5587	S	Uncharacterized protein, contains DUF2461 domain
+83	109	COG5588	S	Uncharacterized conserved protein, DUF1326 domain
+77	78	COG5589	S	Uncharacterized conserved protein, DUF2390 domain
+87	119	COG5591	S	Uncharacterized conserved protein
+325	351	COG5607	S	CHAD domain, binds inorganic polyphosphates
+102	107	COG5615	S	Uncharacterized membrane protein
+62	72	COG5618	S	Predicted periplasmic lipoprotein
+13	13	COG5619	S	Uncharacterized conserved protein, DUF2290 domain
+42	56	COG5620	S	Uncharacterized conserved protein, DUF1851 domain
+97	97	COG5626	S	Uncharacterized protein Ssr3000, DUF2288 family
+88	87	COG5633	S	Uncharacterized conserved protein YcfL
+35	37	COG5634	S	Uncharacterized conserved protein YukJ, DUF2278 family
+220	341	COG5637	S	Uncharacterized protein, contains SRPBCC domain
+84	148	COG5639	S	Uncharacterized conserved protein, DUF2274 domain
+70	108	COG5645	S	Uncharacterized conserved protein YceK
+158	213	COG5649	S	Uncharacterized conserved protein, DUF1801 domain
+92	119	COG5650	S	Uncharacterized membrane protein
+27	273	COG5651	S	PPE-repeat protein
+264	288	COG5652	S	VanZ-like family protein (function unknown)
+16	16	COG5876	S	Uncharacterized sporulation protein YozQ

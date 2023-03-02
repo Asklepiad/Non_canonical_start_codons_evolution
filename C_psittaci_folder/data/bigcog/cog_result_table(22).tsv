@@ -1,0 +1,132 @@
+Organism	Protein	COG	Cat	Annotation
+1271	1544	COG0020	I	Undecaprenyl pyrophosphate synthase
+851	919	COG0109	H I	Polyprenyltransferase (heme O synthase)
+976	4763	COG0183	I	Acetyl-CoA acetyltransferase
+1152	3769	COG0204	I	1-acyl-sn-glycerol-3-phosphate acyltransferase
+1158	4127	COG0236	I	Acyl carrier protein
+988	988	COG0245	I	2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+1115	2826	COG0304	I Q	3-oxoacyl-(acyl-carrier-protein) synthase
+1070	7189	COG0318	I	O-succinylbenzoic acid-CoA ligase MenE or related acyl-CoA synthetase (AMP-forming)
+1106	1355	COG0331	I	Malonyl CoA-acyl carrier protein transacylase
+1081	2076	COG0332	I	3-oxoacyl-[acyl-carrier-protein] synthase III
+843	996	COG0344	I	Phospholipid biosynthesis protein PlsY, probable glycerol-3-phosphate acyltransferase
+999	2805	COG0365	I	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase
+636	863	COG0386	V I	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides
+877	924	COG0416	I	Acyl-ACP:phosphate acyltransferase (fatty acid/phospholipid biosynthesis)
+644	960	COG0439	I	Biotin carboxylase
+820	1629	COG0446	I	NADPH-dependent 2,4-dienoyl-CoA reductase, sulfur reductase, or a related oxidoreductase
+994	1501	COG0511	I	Biotin carboxyl carrier protein
+1174	2166	COG0558	I	Phosphatidylglycerophosphate synthase
+1107	1107	COG0575	I	CDP-diglyceride synthetase
+983	2037	COG0584	I	Glycerophosphoryl diester phosphodiesterase
+806	1031	COG0623	I	Enoyl-[acyl-carrier-protein] reductase FabI
+832	2911	COG0657	I	Acetyl esterase/lipase
+894	1554	COG0671	I	Membrane-associated phospholipid phosphatase
+856	957	COG0688	I	Phosphatidylserine decarboxylase
+876	912	COG0736	I	Phosphopantetheinyl transferase (holo-ACP synthase)
+957	965	COG0743	I	1-deoxy-D-xylulose 5-phosphate reductoisomerase
+979	1046	COG0761	I	4-Hydroxy-3-methylbut-2-enyl diphosphate reductase IspH
+982	1713	COG0764	I	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase
+922	1035	COG0777	I	Acetyl-CoA carboxylase beta subunit
+679	736	COG0818	I	Diacylglycerol kinase
+980	993	COG0821	I	4-hydroxy-3-methylbut-2-enyl diphosphate synthase IspG/GcpE
+1048	2712	COG0824	I	Acyl-CoA thioesterase FadM
+920	959	COG0825	I	Acetyl-CoA carboxylase alpha subunit
+1164	9156	COG1012	I	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase
+715	1365	COG1022	I	Long-chain acyl-CoA synthetase (AMP-forming)
+914	7350	COG1024	I	Enoyl-CoA hydratase/carnithine racemase
+1248	20713	COG1028	I	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family
+410	730	COG1075	I	Triacylglycerol esterase/lipase EstA, alpha/beta hydrolase fold
+1003	1080	COG1154	H I	Deoxyxylulose-5-phosphate synthase
+782	979	COG1183	I	Phosphatidylserine synthase
+1002	1087	COG1211	I	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+189	224	COG1213	I	Choline kinase
+874	2673	COG1250	I	3-hydroxyacyl-CoA dehydrogenase
+337	363	COG1257	I	Hydroxymethylglutaryl-CoA reductase
+278	336	COG1260	I	Myo-inositol-1-phosphate synthase
+579	607	COG1267	I	Phosphatidylglycerophosphatase A
+765	1246	COG1304	C I R	FMN-dependent dehydrogenase, includes L-lactate dehydrogenase and type II isopentenyl diphosphate isomerase
+336	858	COG1307	I	Fatty acid-binding protein DegV (function unknown)
+355	547	COG1398	I	Fatty-acid desaturase
+475	587	COG1443	I	Isopentenyldiphosphate isomerase
+1033	2270	COG1502	I	Phosphatidylserine/phosphatidylglycerophosphate/cardiolipin synthase
+763	1243	COG1560	I	Palmitoleoyl-ACP: Kdo2-lipid-IV acyltransferase (lipid A biosynthesis)
+648	1021	COG1562	I	Phytoene/squalene synthetase
+287	435	COG1577	I	Mevalonate kinase
+779	1437	COG1597	I R	Phosphatidylglycerol kinase, diacylglycerol kinase family
+748	1193	COG1607	I	Acyl-CoA hydrolase
+129	130	COG1608	I	Isopentenyl phosphate kinase
+226	246	COG1646	I	Glycerol-1-phosphate heptaprenyltransferase
+167	211	COG1657	I	Terpene cyclase SqhC
+142	149	COG1679	I	Mevalonate 5-phosphate dehydratase subunit 1, aconitase superfamily (modified mevalonate pathway)
+140	144	COG1786	I	Mevalonate 5-phosphate dehydratase subunit 2, swiveling domain (modified mevalonate pathway)
+584	925	COG1788	I	Acyl CoA:acetate/3-ketoacid CoA transferase, alpha subunit
+602	2718	COG1804	I	Crotonobetainyl-CoA:carnitine CoA-transferase CaiB and related acyl-CoA transferases
+592	1238	COG1884	I	Methylmalonyl-CoA mutase, N-terminal domain/subunit
+234	459	COG1887	M I	CDP-glycerol glycerophosphotransferase, TagB/SpsB family
+276	539	COG1924	I	Activator of 2-hydroxyglutaryl-CoA dehydratase (HSP70-class ATPase domain)
+406	590	COG1946	I	Acyl-CoA thioesterase
+1007	1012	COG1947	I	4-diphosphocytidyl-2C-methyl-D-erythritol kinase
+969	9450	COG1960	I	Acyl-CoA dehydrogenase related to the alkylation response protein AidB
+1112	1221	COG1968	I	Undecaprenyl pyrophosphate phosphatase
+705	2635	COG2030	I	Acyl-CoA dehydratase PaaZ
+170	197	COG2031	I	Short chain fatty acids transporter
+583	924	COG2057	I	Acyl-CoA:acetate/3-ketoacid CoA transferase, beta subunit
+497	795	COG2067	I	Long-chain fatty acid transport protein
+47	54	COG2074	G I	2-phosphoglycerate kinase/Mevalonate-3-phosphate 5-kinase
+816	2168	COG2084	I	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase
+73	82	COG2134	I	CDP-diacylglycerol pyrophosphatase
+616	1133	COG2185	I	Methylmalonyl-CoA mutase, C-terminal domain/subunit (cobalamin-binding)
+774	1745	COG2230	I	Cyclopropane fatty-acyl-phospholipid synthase and related methyltransferases
+542	779	COG2246	I	Putative flippase GtrA (transmembrane translocase of bactoprenol-linked glucose)
+893	2155	COG2267	I	Lysophospholipase, alpha-beta hydrolase superfamily
+283	628	COG2272	I	Carboxylesterase type B
+648	2262	COG2303	I R	Choline dehydrogenase or related flavoprotein
+945	3054	COG2755	D I	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK
+281	365	COG2898	I	Lysylphosphatidylglycerol synthetase MprF, lysyl-tRNA-binding C-terminal domain
+211	259	COG2930	I	Lipid-binding SYLF domain, Ysc84/FYVE family
+234	262	COG2937	I	Glycerol-3-phosphate O-acyltransferase
+424	1035	COG3000	I	Sterol desaturase/sphingolipid hydroxylase, fatty acid hydroxylase superfamily
+146	152	COG3007	I	Trans-2-enoyl-CoA reductase
+220	220	COG3124	I	Acyl carrier protein phosphodiesterase
+503	1156	COG3239	I	Fatty acid desaturase
+178	246	COG3240	I	Phospholipase/lecithinase/hemolysin, may have acyltransferase activity
+380	755	COG3243	I	Poly-beta-hydroxybutyrate synthase
+234	295	COG3255	I	Putative sterol carrier protein, contains SCP2 domain
+78	79	COG3356	I	Predicted membrane-associated lipid hydrolase, neutral ceramidase superfamily
+209	220	COG3407	I	Mevalonate pyrophosphate decarboxylase
+277	321	COG3425	I	3-hydroxy-3-methylglutaryl CoA synthase
+175	238	COG3433	I Q	Acyl carrier protein/domain
+89	92	COG3470	M I	Uncharacterized conserved protein probably involved in high-affinity Fe2+ transport
+88	139	COG3475	I	Phosphorylcholine metabolism protein LicD
+22	25	COG3675	I	Predicted lipase
+98	109	COG3697	H I	Phosphoribosyl-dephospho-CoA transferase (holo-ACP synthetase)
+119	149	COG3777	I	Hydroxyacyl-ACP dehydratase HTD2, hotdog domain
+490	1824	COG3832	I	Chalcone/flavanone-binding protein YndB, AHSA1/START/SRPBCC domain
+104	136	COG3882	I	Predicted enzyme involved in methoxymalonyl-ACP biosynthesis
+154	164	COG3884	I	Acyl-ACP thioesterase
+10	10	COG3890	I	Phosphomevalonate kinase
+198	253	COG3963	I	Phosphatidylethanolamine N-methyltransferase
+132	163	COG3967	M I	Short-chain dehydrogenase involved in D-alanine esterification of teichoic acids
+133	141	COG4247	I	3-phytase (myo-inositol-hexaphosphate 3-phosphohydrolase)
+124	128	COG4281	I	Acyl-CoA-binding protein
+328	395	COG4395	I	Predicted lipid-binding transport protein, Tim44 family
+130	137	COG4539	I	2-hydroxy fatty acid dioxygenase MPO1 (alpha-oxidation of fatty acids)
+195	249	COG4553	I	Poly-beta-hydroxyalkanoate depolymerase
+245	282	COG4667	I	Predicted phospholipase, patatin/cPLA2 family
+197	264	COG4670	I	Acyl CoA:acetate/3-ketoacid CoA transferase
+127	210	COG4677	G I	Pectin methylesterase and related acyl-CoA thioesterases
+167	179	COG4706	I	Predicted 3-hydroxylacyl-ACP dehydratase, HotDog domain
+34	47	COG4750	M I	CTP:phosphocholine cytidylyltransferase LicC
+1048	2274	COG4770	I	Acetyl/propionyl-CoA carboxylase, alpha subunit
+44	47	COG4781	I	Membrane-anchored glycerophosphoryl diester phosphodiesterase (GDPDase), membrane domain
+786	1697	COG4799	I	Acetyl-CoA carboxylase, carboxyltransferase component
+180	210	COG4850	I	Phosphatidate phosphatase APP1
+94	105	COG4894	I	Putative phospholipid scramblase YxjI, Tubby2 superfamily
+26	27	COG4981	I	Enoyl reductase domain of yeast-type fatty acid synthase
+28	30	COG4982	I	3-oxoacyl-ACP reductase domain of yeast-type fatty acid synthase FAS1
+16	18	COG5029	O I	Prenyltransferase, beta subunit
+19	19	COG5050	I	sn-1,2-diacylglycerol ethanolamine- and cholinephosphotranferases
+12	13	COG5083	I	Phosphatidate phosphatase PAH1, contains Lipin and LNS2 domains. can be involved in plasmid maintenance
+32	35	COG5274	C I	Cytochrome b involved in lipid metabolism
+79	82	COG5379	I	S-adenosylmethionine:diacylglycerol 3-amino-3-carboxypropyl transferase

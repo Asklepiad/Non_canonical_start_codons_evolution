@@ -1,0 +1,389 @@
+Organism	Protein	COG	Cat	Annotation
+799	1700	COG0022	C	Pyruvate/2-oxoglutarate/acetoin dehydrogenase complex, dehydrogenase (E1) component, beta subunit
+1068	1369	COG0039	C	Malate/lactate dehydrogenase
+1026	1143	COG0045	C	Succinyl-CoA synthetase, beta subunit
+1106	1196	COG0055	C	FoF1-type ATP synthase, beta subunit
+1106	1194	COG0056	C	FoF1-type ATP synthase, alpha subunit
+1046	1233	COG0074	C	Succinyl-CoA synthetase, alpha subunit
+858	895	COG0114	C	Fumarate hydratase class II
+923	994	COG0221	C	Inorganic pyrophosphatase
+1109	1200	COG0224	C	FoF1-type ATP synthase, gamma subunit
+1106	1254	COG0240	C	Glycerol-3-phosphate dehydrogenase
+807	2752	COG0243	C	Anaerobic selenocysteine-containing dehydrogenase
+984	2809	COG0247	C	Fe-S cluster-containing oxidoreductase, includes glycolate oxidase subunit GlcF
+1056	4293	COG0277	C	FAD/FMN-containing lactate dehydrogenase/glycolate oxidase
+919	1587	COG0280	C	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)
+1076	1544	COG0281	C	Malic enzyme
+849	1016	COG0282	C	Acetate kinase
+708	1299	COG0348	C	Polyferredoxin NapH
+1109	1216	COG0355	C	FoF1-type ATP synthase, epsilon subunit
+1107	1203	COG0356	C	FoF1-type ATP synthase, membrane subunit a
+420	570	COG0371	C	Glycerol dehydrogenase or related enzyme, iron-containing ADH family
+1065	1771	COG0372	C	Citrate synthase
+295	473	COG0374	C	Ni,Fe-hydrogenase I large subunit
+853	986	COG0377	C	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase
+197	224	COG0401	C	Membrane potential modulator PMP3/YqaE, plasma membrane proteolipid 3 (PMP3)/Esi3/RCI2/UPF0057 family
+487	814	COG0426	C	Flavorubredoxin
+450	658	COG0427	C	Propionyl CoA:succinate CoA transferase
+811	1869	COG0431	C	NAD(P)H-dependent FMN reductase
+382	450	COG0435	C	Glutathionyl-hydroquinone reductase
+707	2094	COG0437	C	Fe-S-cluster-containing dehydrogenase component (DMSO reductase)
+1133	1843	COG0473	C E	Isocitrate/isopropylmalate dehydrogenase
+1034	1328	COG0479	C	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit
+1050	3185	COG0508	C	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component
+723	751	COG0538	C	Isocitrate dehydrogenase
+804	1452	COG0543	C H	NAD(P)H-flavin reductase
+1089	2893	COG0546	C	Phosphoglycolate phosphatase, HAD superfamily
+870	1079	COG0554	C	Glycerol kinase
+792	809	COG0567	C	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes
+759	1136	COG0578	C	Glycerol-3-phosphate dehydrogenase
+944	4956	COG0604	C R	NADPH:quinone reductase or related Zn-dependent oxidoreductase
+805	3229	COG0633	C	Ferredoxin
+1048	1172	COG0636	C	FoF1-type ATP synthase, membrane subunit c/Archaeal/vacuolar-type H+-ATPase, subunit K
+929	2468	COG0644	C	Dehydrogenase (flavoprotein)
+851	1015	COG0649	C	NADH:ubiquinone oxidoreductase 49 kD subunit (chain D)
+239	307	COG0650	C	Formate hydrogenlyase subunit HyfC
+713	1356	COG0651	C P	Formate hydrogenlyase subunit 3/Multisubunit Na+/H+ antiporter, MnhD subunit
+785	4109	COG0654	C H	2-polyprenyl-6-methoxyphenol hydroxylase and related FAD-dependent oxidoreductases
+776	1757	COG0655	C	Multimeric flavodoxin WrbA, includes NAD(P)H:quinone oxidoreductase
+706	1517	COG0674	C	Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, alpha subunit
+411	653	COG0680	C	Ni,Fe-hydrogenase maturation factor
+1103	1471	COG0711	C	FoF1-type ATP synthase, membrane subunit b or b'
+1095	1118	COG0712	C	FoF1-type ATP synthase, delta subunit
+830	948	COG0713	C	NADH:ubiquinone oxidoreductase subunit 11 or 4L (chain K)
+516	1103	COG0716	C	Flavodoxin
+809	1207	COG0723	C	Rieske Fe-S protein
+1160	3746	COG0778	C	Nitroreductase
+592	882	COG0785	O C	Cytochrome c biogenesis protein CcdA
+838	965	COG0838	C	NADH:ubiquinone oxidoreductase subunit 3 (chain A)
+823	945	COG0839	C	NADH:ubiquinone oxidoreductase subunit 6 (chain J)
+840	1515	COG0843	C	Heme/copper-type cytochrome/quinol oxidase, subunit 1
+875	1066	COG0852	C	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)
+847	991	COG1005	C	NADH:ubiquinone oxidoreductase subunit 1 (chain H)
+840	982	COG1007	C	NADH:ubiquinone oxidoreductase subunit 2 (chain N)
+821	1134	COG1008	C	NADH:ubiquinone oxidoreductase subunit 4 (chain M)
+992	1800	COG1009	C	Membrane H+-translocase/NADH:ubiquinone oxidoreductase subunit 5 (chain L)/Multisubunit Na+/H+ antiporter, MnhA subunit
+705	1526	COG1013	C	Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, beta subunit
+851	2109	COG1014	C	Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, gamma subunit
+393	511	COG1017	C	Hemoglobin-like flavoprotein
+796	2327	COG1018	C	Flavodoxin/ferredoxin--NADP reductase
+88	133	COG1029	C	Formylmethanofuran dehydrogenase subunit B
+726	871	COG1034	C	NADH dehydrogenase/NADH:ubiquinone oxidoreductase 75 kD subunit (chain G)
+199	326	COG1035	C	Coenzyme F420-reducing hydrogenase, beta subunit
+67	77	COG1036	C	Archaeal flavoprotein
+392	455	COG1038	C	Pyruvate carboxylase
+626	1057	COG1042	C	Acyl-CoA synthetase (NDP forming)
+954	1163	COG1048	C	Aconitase A
+359	370	COG1049	C	Aconitase B
+886	1756	COG1052	C H R	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase
+1106	2325	COG1053	C	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit
+556	949	COG1062	C	Zn-dependent alcohol/formaldehyde dehydrogenase
+799	1741	COG1071	C	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha
+507	584	COG1138	O C	Cytochrome c biogenesis protein CcmF
+469	593	COG1139	C	L-lactate utilization protein LutB, contains a ferredoxin-type domain
+263	310	COG1140	C P	Nitrate reductase beta subunit
+457	769	COG1141	C	Ferredoxin
+257	468	COG1142	C	Fe-S-cluster-containing hydrogenase component 2
+1079	2800	COG1143	C	Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I)
+399	613	COG1144	C	Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, delta subunit
+394	663	COG1145	C	Ferredoxin
+225	575	COG1148	C	Heterodisulfide reductase, subunit A (polyferredoxin)
+141	269	COG1150	C	Heterodisulfide reductase, subunit C
+338	539	COG1151	C	Hydroxylamine reductase (hybrid-cluster protein)
+94	115	COG1152	C	CO dehydrogenase/acetyl-CoA synthase alpha subunit
+37	75	COG1153	C	Formylmethanofuran dehydrogenase subunit D
+266	310	COG1155	C	Archaeal/vacuolar-type H+-ATPase catalytic subunit A/Vma1
+266	310	COG1156	C	Archaeal/vacuolar-type H+-ATPase subunit B/Vma2
+451	631	COG1182	C	FMN-dependent NADH-azoreductase
+298	305	COG1227	C	Inorganic pyrophosphatase/exopolyphosphatase
+90	111	COG1229	C	Formylmethanofuran dehydrogenase subunit A
+1228	4203	COG1249	C	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase
+780	1711	COG1251	C	NAD(P)H-nitrite reductase, large subunit
+939	1821	COG1252	C	NADH dehydrogenase, FAD-containing subunit
+729	795	COG1254	C	Acylphosphatase
+266	319	COG1269	C	Archaeal/vacuolar-type H+-ATPase subunit I/STV1
+822	1100	COG1271	C	Cytochrome bd-type quinol oxidase, subunit 1
+304	319	COG1274	C	Phosphoenolpyruvate carboxykinase, GTP-dependent
+586	629	COG1282	C	NAD/NADP transhydrogenase beta subunit
+710	898	COG1290	C	Cytochrome b subunit of the bc complex
+795	1032	COG1294	C	Cytochrome bd-type quinol oxidase, subunit 2
+784	1482	COG1301	C	Na+/H+-dicarboxylate symporter
+765	1246	COG1304	C I R	FMN-dependent dehydrogenase, includes L-lactate dehydrogenase and type II isopentenyl diphosphate isomerase
+446	1105	COG1319	C	Aldehyde, CO, or xanthine dehydrogenase, FAD-binding subunit
+383	423	COG1333	O C	Cytochrome c biogenesis protein ResB
+239	239	COG1347	C	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrD
+631	1295	COG1359	C	Quinol monooxygenase YgiN
+212	238	COG1390	C	Archaeal/vacuolar-type H+-ATPase subunit E/Vma4
+269	319	COG1394	C	Archaeal/vacuolar-type H+-ATPase subunit D/Vma8
+205	239	COG1436	C	Archaeal/vacuolar-type H+-ATPase subunit F/Vma7
+807	1812	COG1454	C	Alcohol dehydrogenase, class IV
+86	143	COG1456	C	CO dehydrogenase/acetyl-CoA synthase gamma subunit (corrinoid Fe-S protein)
+635	733	COG1526	C	Formate dehydrogenase assembly factor FdhD, a sulfurtransferase
+203	244	COG1527	C	Archaeal/vacuolar-type H+-ATPase subunit C/Vma6
+598	2080	COG1529	C	Aldehyde, CO or xanthine dehydrogenase, Mo-binding subunit
+406	461	COG1556	C	L-lactate utilization protein LutC, contains LUD domain
+220	248	COG1584	C	Succinate-acetate transporter SatP
+393	740	COG1592	C	Rubrerythrin
+73	91	COG1614	C	CO dehydrogenase/acetyl-CoA synthase beta subunit
+401	512	COG1620	C	L-lactate permease
+849	1444	COG1622	C	Heme/copper-type cytochrome/quinol oxidase, subunit 2
+165	170	COG1625	C	Fe-S oxidoreductase, related to NifB/MoaA family
+509	661	COG1668	C P	ABC-type Na+ efflux pump, permease component NatB
+227	231	COG1726	C	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrA
+293	457	COG1740	C	Ni,Fe-hydrogenase I small subunit
+394	831	COG1757	C	Na+/H+ antiporter NhaC/MleN
+97	172	COG1795	C	Formaldehyde-activating enzyme (5,6,7,8-tetrahydromethanopterin hydrolyase)
+264	265	COG1805	C	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrB
+673	767	COG1838	C	Tartrate dehydratase beta subunit/Fumarate hydratase class I, C-terminal domain
+831	1421	COG1845	C	Heme/copper-type cytochrome/quinol oxidase, subunit 3
+975	2386	COG1853	C	FMN reductase RutF, DIM6/NTAB family
+576	605	COG1866	C	Phosphoenolpyruvate carboxykinase, ATP-dependent
+29	33	COG1880	C	CO dehydrogenase/acetyl-CoA synthase epsilon subunit
+351	610	COG1882	C	Pyruvate-formate lyase
+255	336	COG1883	C	Na+-transporting oxaloacetate/methylmalonyl-CoA decarboxylase, beta subunit
+855	1437	COG1894	C	NADH:ubiquinone oxidoreductase, NADH-binding 51 kD subunit (chain F)
+945	2568	COG1902	C	2,4-dienoyl-CoA reductase or related NADH-dependent reductase, Old Yellow Enzyme (OYE) family
+837	1501	COG1905	C	NADH:ubiquinone oxidoreductase 24 kD subunit (chain E)
+137	306	COG1908	C	Coenzyme F420-reducing hydrogenase, delta subunit
+30	30	COG1927	C	F420-dependent methylenetetrahydromethanopterin dehydrogenase
+215	267	COG1941	C	Coenzyme F420-reducing hydrogenase, gamma subunit
+672	761	COG1951	C	Tartrate dehydratase alpha subunit/Fumarate hydratase class I, N-terminal domain
+530	633	COG1966	C E	Carbon starvation protein CstA (peptide/pyruvate transporter)
+152	166	COG1969	C	Ni,Fe-hydrogenase I cytochrome b subunit
+330	394	COG1979	C	Alcohol dehydrogenase YqhD, Fe-dependent ADH family
+647	667	COG2009	C	Succinate dehydrogenase/fumarate reductase, cytochrome b subunit
+741	2937	COG2010	C	Cytochrome c, mono- and diheme variants
+425	572	COG2013	C	AIM24 protein, required for mitochondrial respiration
+874	1359	COG2025	C	Electron transfer flavoprotein, alpha subunit FixB
+224	262	COG2033	C	Desulfoferrodoxin, superoxide reductase-like (SORL) domain
+87	100	COG2037	C	Formylmethanofuran:tetrahydromethanopterin formyltransferase
+684	1397	COG2041	C	Molybdopterin-dependent catalytic subunit of periplasmic DMSO/TMAO and protein-methionine-sulfoxide reductases
+204	344	COG2048	C	Heterodisulfide reductase, subunit B
+363	575	COG2055	C	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family
+72	76	COG2069	C	CO dehydrogenase/acetyl-CoA synthase delta subunit (corrinoid Fe-S protein)
+610	1870	COG2080	C	Aldehyde, CO, or xanthine dehydrogenase, Fe-S subunit, CoxS/CutS family
+867	1332	COG2086	C	Electron transfer flavoprotein, alpha and beta subunits
+564	575	COG2142	C	Succinate dehydrogenase, hydrophobic anchor subunit
+236	271	COG2180	O C P	Nitrate reductase assembly protein NarJ, required for insertion of molybdenum cofactor
+315	407	COG2181	C P	Nitrate reductase gamma subunit
+144	219	COG2191	C	Formylmethanofuran dehydrogenase subunit E
+237	243	COG2209	C	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrE
+278	378	COG2210	C	Peroxiredoxin family protein
+89	124	COG2218	C	Formylmethanofuran dehydrogenase subunit C
+435	445	COG2224	C	Isocitrate lyase
+513	579	COG2225	C	Malate synthase
+697	1023	COG2326	C	Polyphosphate kinase 2, PPK2 family
+498	508	COG2332	O C	Cytochrome c biogenesis protein CcmE
+640	665	COG2352	C	Phosphoenolpyruvate carboxylase
+212	567	COG2414	C	Aldehyde:ferredoxin oxidoreductase
+321	501	COG2421	C	Acetamidase/formamidase
+474	601	COG2440	C	Ferredoxin-like protein FixX
+546	645	COG2609	C	Pyruvate dehydrogenase complex, dehydrogenase (E1) component
+385	423	COG2717	C	Heme-binding membrane subunit of periplasmic DMSO/TMAO and protein-methionine-sulfoxide reductases
+539	1339	COG2764	C	Zn-dependent glyoxalase, PhnB family
+76	77	COG2811	C	Archaeal/vacuolar-type H+-ATPase subunit H
+234	299	COG2828	C	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)
+348	352	COG2838	C	Monomeric isocitrate dehydrogenase
+130	156	COG2851	C	Mg2+/citrate symporter
+426	491	COG2857	C	Cytochrome c1
+461	1465	COG2863	C	Cytochrome c553
+295	405	COG2864	C	Cytochrome b subunit of formate dehydrogenase
+237	244	COG2869	C	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrC
+297	336	COG2871	C	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrF
+549	714	COG2878	C	Na+-translocating ferredoxin:NAD+ oxidoreductase RNF, RnfB subunit
+128	134	COG2991	O C	Na+-NQR maturation protein NqrM
+444	540	COG2993	C	Cbb3-type cytochrome oxidase, cytochrome c subunit FixO
+168	187	COG3002	C	Na+-translocating membrane potential-generating system subunit MpsB, UPF0753/DUF2309 family
+504	649	COG3004	C P	Na+/H+ antiporter NhaA
+282	479	COG3005	C	Tetraheme cytochrome c subunit NapC of nitrate or TMAO reductase
+92	92	COG3029	C	Fumarate reductase subunit C
+403	729	COG3038	C	Cytochrome b561
+148	154	COG3043	C P	Nitrate reductase cytochrome c-type subunit NapB
+114	141	COG3051	C	Citrate lyase, alpha subunit
+116	140	COG3052	C	Acyl-carrier protein (citrate lyase gamma subunit)
+102	114	COG3053	C	Citrate lyase synthetase CitC
+189	204	COG3058	O C	Formate dehydrogenase maturation protein FdhE
+99	101	COG3067	C P	Na+/H+ antiporter NhaB
+80	140	COG3069	C	C4-dicarboxylate transporter DcuC
+91	91	COG3080	C	Fumarate reductase subunit D
+416	473	COG3088	O C	Cytochrome c-type biogenesis protein CcmH/NrfF
+254	301	COG3125	C	Heme/copper-type cytochrome/quinol oxidase, subunit 4
+278	279	COG3175	O C	Cytochrome c oxidase assembly protein Cox11
+347	4277	COG3181	C	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC
+137	224	COG3202	C	ATP/ADP translocase
+116	152	COG3241	C	Azurin
+220	317	COG3245	C	Cytochrome c5
+218	285	COG3259	C	Coenzyme F420-reducing hydrogenase, alpha subunit
+250	323	COG3260	C	Ni,Fe-hydrogenase III small subunit
+251	325	COG3261	C	Ni,Fe-hydrogenase III large subunit
+169	190	COG3262	C	Ni,Fe-hydrogenase III component G
+375	413	COG3263	C P	NhaP-type Na+/H+ and K+/H+ antiporter with C-terminal TrkAC and CorC domains
+434	529	COG3278	C	Cbb3-type cytochrome oxidase, subunit 1
+589	1016	COG3288	C	NAD/NADP transhydrogenase alpha subunit
+192	284	COG3302	C	DMSO reductase anchor subunit DmsC
+157	156	COG3312	C	FoF1-type ATP synthase accessory protein AtpI
+175	197	COG3329	C	Na+-dependent bicarbonate transporter SbtA
+287	428	COG3336	O C	Cytochrome c oxidase assembly protein CtaG
+479	830	COG3411	C	2Fe-2S ferredoxin
+120	183	COG3426	C	Butyrate kinase
+281	458	COG3427	C	Carbon monoxide dehydrogenase subunit CoxG
+334	789	COG3474	C	Cytochrome c2
+92	133	COG3493	C	Na+/citrate or Na+/malate symporter
+100	108	COG3630	C	Na+-transporting oxaloacetate/methylmalonyl-CoA decarboxylase, gamma subunit
+218	313	COG3658	C	Cytochrome b subunit of Ni2+-dependent hydrogenase
+148	148	COG3761	C	NADH:ubiquinone oxidoreductase NDUFA12 subunit (Leigh syndrome)
+59	62	COG3783	C	Soluble cytochrome b562
+363	897	COG3794	C	Plastocyanin
+569	614	COG3808	C	Na+ or H+-translocating membrane pyrophosphatase
+212	274	COG3909	C	Cytochrome c556
+8	8	COG4035	C	Energy-converting hydrogenase Eha subunit L
+13	13	COG4036	C	Energy-converting hydrogenase Eha subunit G
+13	13	COG4037	C	Energy-converting hydrogenase Eha subunit F
+12	12	COG4038	C	Energy-converting hydrogenase Eha subunit E
+11	11	COG4039	C	Energy-converting hydrogenase Eha subunit D
+13	13	COG4040	C	Energy-converting hydrogenase Eha subunit C
+13	13	COG4041	C	Energy-converting hydrogenase Eha subunit B
+8	8	COG4042	C	Energy-converting hydrogenase Eha subunit A
+11	11	COG4074	C	5,10-methenyltetrahydromethanopterin hydrogenase
+13	13	COG4078	C	Energy-converting hydrogenase Eha subunit H
+8	8	COG4084	C	Energy-converting hydrogenase A subunit M
+573	910	COG4106	C	Trans-aconitate methyltransferase
+561	794	COG4147	C	Na+(or H+)/acetate symporter ActP
+828	2428	COG4221	C	NADP-dependent 3-hydroxy acid dehydrogenase YdfG
+642	1363	COG4231	C	TPP-dependent indolepyruvate ferredoxin oxidoreductase, alpha subunit
+249	275	COG4233	O C	Thiol-disulfide interchange protein, contains DsbC and DsbD domains
+595	915	COG4235	O C	Cytochrome c-type biogenesis protein CcmH/NrfG
+160	167	COG4237	C	Hydrogenase-4 membrane subunit HyfE
+56	62	COG4459	C	Periplasmic nitrate reductase system, NapE component
+90	95	COG4555	C P	ABC-type Na+ transport system, ATPase component NatA
+187	288	COG4576	C Q	Carboxysome shell and ethanolamine utilization microcompartment protein CcmK/EutM
+191	704	COG4577	C Q	Carboxysome shell and ethanolamine utilization microcompartment protein CcmL/EutN
+185	534	COG4624	C	Iron only hydrogenase large subunit, C-terminal domain
+203	445	COG4654	C	Cytochrome c551/c552
+418	599	COG4656	C	Na+-translocating ferredoxin:NAD+ oxidoreductase RNF, RnfC subunit
+348	402	COG4657	C	Na+-translocating ferredoxin:NAD+ oxidoreductase RNF, RnfA subunit
+358	434	COG4658	C	Na+-translocating ferredoxin:NAD+ oxidoreductase RNF, RnfD subunit
+371	456	COG4659	C	Na+-translocating ferredoxin:NAD+ oxidoreductase RNF, RnfG subunit
+348	403	COG4660	C	Na+-translocating ferredoxin:NAD+ oxidoreductase RNF, RnfE subunit
+235	253	COG4736	C	Cbb3-type cytochrome oxidase, subunit 3
+103	126	COG4802	C	Ferredoxin-thioredoxin reductase, catalytic subunit
+48	55	COG4846	O C	Cytochrome c biogenesis protein CcdC
+418	437	COG4987	O C	ABC-type transport system involved in cytochrome bd biosynthesis, fused ATPase and permease components
+455	508	COG4988	O C	ABC-type transport system involved in cytochrome bd biosynthesis, ATPase and permease components
+387	889	COG5012	C	Methanogenic corrinoid protein MtbC1
+243	287	COG5013	C P	Nitrate reductase alpha subunit
+354	415	COG5016	C	Pyruvate/oxaloacetate carboxyltransferase
+32	35	COG5274	C I	Cytochrome b involved in lipid metabolism
+278	279	COG5336	C	FoF1-type ATP synthase AtpZ/Atp1/AtpQ subunit, putative Ca2+/Mg2+ transporter
+46	47	COG5474	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast-specific assembly factor CRR6
+67	105	COG5524	T C	Bacteriorhodopsin
+323	528	COG5557	C	Ni/Fe-hydrogenase 2 integral membrane subunit HybB
+70	70	COG5605	C	Cytochrome c oxidase subunit IV
+76	112	COG5609	C	Na+-translocating membrane potential-generating system subunit MpsC, DUF2294 family
+39	39	COG5671	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast subunit L
+40	39	COG5672	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast subunit M
+40	40	COG5673	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast subunit N
+40	42	COG5674	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast subunit O
+41	43	COG5675	C	Ferredoxin-NADP+ oxidoreductase PetH, often fused with N-terminal CpcD domain
+41	40	COG5676	C	Cytochrome cM
+40	79	COG5677	C	Cytochrome c6
+40	40	COG5678	C	Cytochrome b6f complex cytochrome f subunit, PetA
+41	43	COG5679	C	Cytochrome b6f complex subunit IV, PetD, 17 kd cytochrome b
+36	36	COG5680	C	Cytochrome b6f complex subunit V, PetG
+35	34	COG5681	C	Cytochrome b6f complex subunit VI, PetL/Ycf7
+39	37	COG5682	C	Cytochrome b6f complex subunit VII, PetM/Ycf31
+39	34	COG5683	C	Cytochrome b6f complex subunit VIII, PetN/Ycf6
+35	109	COG5684	C	Allophycocyanin alpha chain
+39	90	COG5685	C	Allophycocyanin beta chain
+36	35	COG5686	C	Phycobilisome linker polypeptide
+39	71	COG5687	C	Phycocyanin alpha chain, CpcA/CpeB
+39	71	COG5688	C	Phycocyanin/phycoerythrin beta chain, CpcB/CpeB
+34	40	COG5689	C	Phycobilisome linker protein CpcD
+39	129	COG5690	C	Phycocyanobilin lyase CpeS/CpcS (= Ycf58)
+47	86	COG5691	C	Phycocyanobilin lyase CpeT/CpcT
+40	75	COG5692	C	Phycocyanobilin:ferredoxin oxidoreductase
+38	45	COG5693	C	Phycobilisome linker protein ApcE
+33	47	COG5694	C	Phycobilisome linker ApcECpcD fusion protein
+31	31	COG5695	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast subunit P
+32	32	COG5696	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast subunitQ
+41	47	COG5701	C	Photosystem I reaction center subunit A1, PsaA
+45	58	COG5702	C	Photosystem I reaction center subunit A2, PsaB
+39	32	COG5703	C	Photosystem I reaction center iron-sulfur center subunit VII, PsaC
+40	40	COG5704	C	Photosystem I reaction center subunit II, PsaD
+40	42	COG5705	C	Photosystem I reaction center subunit IV, PsaE
+40	45	COG5706	C	Photosystem I reaction center subunit III, PsaF
+38	43	COG5707	C	Photosystem I reaction center subunit VIII, PsaI
+39	46	COG5708	C	Photosystem I reaction center subunit IX, PsaJ
+39	66	COG5709	C	Photosystem I reaction center subunit X, PsaK
+40	47	COG5710	C	Photosystem I reaction center subunit XI, PsaL
+40	40	COG5711	C	Photosystem I reaction center subunit XII, PsaM
+40	40	COG5712	C	Photosystem I assembly protein Ycf4
+40	40	COG5713	C	Photosystem I assembly protein Ycf3, contains TPR repeats
+40	40	COG5714	C	Photosystem I assembly protein Ycf37, contains TPR repeats
+40	40	COG5715	C	Photosystem I auxiliary component Ycf33, involved in cyclic electron transport
+59	141	COG5716	C	Photosystem II reaction center D1, PsbA
+39	43	COG5717	C	Photosystem II reaction center chlorophyll a-binding protein CP47, PsbB
+39	44	COG5718	C	Photosystem II reaction center chlorophyll a-binding protein CP43, PsbC
+77	109	COG5719	C	Photosystem II reaction center D2, PsbD
+39	39	COG5720	C	Photosystem II cytochrome b559 alpha subunit, PsbE
+39	41	COG5721	C	Photosystem II cytochrome b559 beta chain, PsbF
+39	42	COG5722	C	Photosystem II reaction center 10 kDa phosphoprotein, PsbH
+38	36	COG5723	C	Photosystem II reaction center protein I, PsbI, oxygen-evolving center
+38	37	COG5724	C	Photosystem II reaction center protein J, PsbJ
+38	34	COG5725	C	Photosystem II reaction center protein K, PsbK
+37	35	COG5726	C	Photosystem II reaction center protein L, PsbL
+39	38	COG5727	C	Photosystem II reaction center protein M, PsbM
+39	39	COG5728	C	Photosystem II reaction center protein N, PsbN
+39	40	COG5729	C	Photosystem II reaction center Mn-stabilizing protein, PsbO
+39	39	COG5730	C	Photosystem II reaction center protein P, PsbP
+39	38	COG5731	C	Photosystem II reaction center protein T, PsbT/Ycf8
+39	58	COG5732	C	Photosystem II assembly factor Psb28/Ycf79
+38	37	COG5733	C	Photosystem II reaction center protein X, PsbX
+38	37	COG5734	C	Photosystem II reaction center protein Y, PsbY
+38	38	COG5735	C	Photosystem II reaction center protein Z, PsbZ/Ycf9
+38	38	COG5736	C	Photosystem II assembly protein Psb27
+38	41	COG5737	C	Photosystem II 12 kDa extrinsic protein PsbU
+38	51	COG5738	C	Photosystem II cytochrome c550, PsbV
+35	35	COG5739	C	Photosystem II oxygen-evolving enhancer PsbQ/CyanoQ
+40	40	COG5740	C	Photosystem II biogenesis protein Psb29 (thylakoid formation protein THF1)
+37	36	COG5741	C	Photosystem II subunit Psb30 (=Ycf12)
+26	64	COG5742	C	Chlorophyll-binding protein PcbABC/IsiA
+38	148	COG5743	C	Photosystem I light harvesting complex protein, LHCA5/LHCA6/HLI5/Ycf17 family
+13	13	COG5744	C	PsbC-PsaL fusion protein
+18	17	COG5745	C	Photosystem I protein PsaX
+38	38	COG5756	C	FoF1-type ATP synthase subunit Atp1, cyanobacterial family
+62	63	COG5757	C	Na+-translocating membrane ATPase (N-ATPase) assembly subunit AtpR
+40	70	COG5758	J C	RNA-binding protein Tab2, reqiured for psaB translation
+39	41	COG5760	C	Cyanobacterial/red algae cytochrome b6f complex subunit PetP (= Ycf86), DUF2862 (PF11061) family
+39	58	COG5761	C	Cyanobacterial/chloroplast protein CP12, regulates Calvin cycle by forming a complex with GAPDH and phosphoribulokinase
+40	76	COG5762	C	Uncharacterized cyanobacterial/plant protein PM23 (seed maturation protein), contains DUF760 (PF05542) domain
+38	39	COG5763	C	Cyanobacterial/chloroplast protein Ycf20, involved in dissipation of absorbed light energy, DUF565 (PF04483) domain
+40	40	COG5764	T C	Cyanobacterial/chloroplast FeS cluster protein Ycf34, regulator of photosynthetic electron transport, PF10718 domain
+47	101	COG5765	C	Uncharacterized cyanobacterial/chloroplast stress-induced protein Ycf35, DUF1257 domain
+38	38	COG5766	C	Uncharacterized cyanobacterial/chloroplast membrane protein Ycf36, DUF1230 (PF06799) domain
+40	40	COG5767	C	Uncharacterized cyanobacterial/chloroplast membrane protein Ycf51, DUF2518 (PF10726) domain
+38	38	COG5768	T C	Cyanobacterial response regulator with REC-Ycf55 domain architecture
+40	46	COG5769	C	Cyanobacterial/chloroplast membrane protein Tic20/Ycf60, involved in chloroplast protein import
+39	53	COG5770	C	Uncharacterized cyanobacterial protein with Ycf66_N domain
+40	54	COG5771	C	Uncharacterized cyanobacterial/chloroplast protein Pro0776, algal eyespot protein with methylated Arg, DUF1350 (PF07082) domain
+40	64	COG5772	C	Cyanobacterial/chloroplast membrane protein Tic21, involved in chloroplast protein import, DUF3611 (PF12263) domain
+39	39	COG5773	C	Uncharacterized cyanobacterial/plant membrane protein Pro0765, DUF3082 (PF11282) domain
+40	40	COG5774	O C	Cytochrome b6 maturation protein CCB1
+40	41	COG5775	C	Thylakoid membrane protein DAC/CCR2, involved in assembly of b6/f complex and response to cold stress, DUF3007 (PF11460) family
+39	39	COG5776	C	Bacterial PH (pleckstrin homology) domain
+38	39	COG5777	C	Uncharacterized cyanobacterial/plant membrane protein Pro0498, contains N-terminal TPR repeats
+39	39	COG5778	C	Photosystem II assembly factor PAM68, DUF3464 (PF11947) domain
+38	38	COG5779	C	Thylakoid acid phosphatase, contains TAP/TPM domain
+39	39	COG5780	T C	Acclimation of photosynthesis to environment protein APE1, affects chlorophyll fluorescence, DUF2854 (PF11016) domain
+40	40	COG5781	O C	Cytochrome b6 maturation protein CCB2
+40	40	COG5782	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast-specific subunit NdhV, DUF2996 (PF11210) domain
+40	46	COG5783	C	Chloroplast senescence-associated protein CSAP, DUF1997 (PF09366) domain
+40	40	COG5784	C	Uncharacterized cyanobacterial/plant protein Pro1025, DUF3531 (PF12049) domain
+37	38	COG5785	C	Uncharacterized cyanobacterial/chloroplast protein CR066, DUF3172 (PF11371) domain
+40	41	COG5786	C	Cyanobacterial/plant protein LPA3, possible role in PSII assembly, DUF1995 (PF09353) domain
+38	38	COG5787	C	Uncharacterized cyanobacterial/plant protein Alr2454, DUF3067 (PF11267) family
+39	39	COG5788	T C	Cyanobacterial/chloroplast protein SipA, regulator of sensor kinase NblS (Hik33), DUF3148 (PF11347) family
+39	39	COG5789	C	Uncharacterized cyanobacterial/plant protein Pro1627, DUF3143 (PF11341) family
+40	40	COG5790	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast-specific subunit S (CRR31)
+40	40	COG5791	C	NAD(P)H dehydrogenase cyanobacteria/chloroplast-specific auxiliary subunit CRR7
+22	31	COG5792	T C	Fusion of CP12 with N-terminal CBS domain pair

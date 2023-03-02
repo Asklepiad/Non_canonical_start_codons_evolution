@@ -161,12 +161,12 @@ for key in tqdm(cog_dict.keys()):   # Passing over COG categories
 
 
 
-C_psittaci_df1.to_csv("../data/First_table.csv")
+C_psittaci_df1.to_csv("../data/First_table.csv", index=False)
 
 
 for source in tqdm(set(C_psittaci_df1["p_c_unity"])):
     subset = C_psittaci_df1[C_psittaci_df1["p_c_unity"] == source]
-    with open ("../data/for_aligner_fasta/C_psittaci" + str(source) + ".fasta", "w") as protein_fasta:
+    with open ("../data/orto_rows/C_psittaci" + str(source) + ".fasta", "w") as protein_fasta:
         for index, row in subset.iterrows():
             if row['type_of_the_gene'] != "pseudogene":
                 protein_fasta.write(">")

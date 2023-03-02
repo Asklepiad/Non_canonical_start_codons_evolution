@@ -1,0 +1,352 @@
+Organism	Protein	COG	Cat	Annotation
+1306	2618	COG0008	J	Glutamyl- or glutaminyl-tRNA synthetase
+1276	1893	COG0009	J	tRNA A37 threonylcarbamoyladenosine synthetase subunit TsaC/SUA5/YrdC
+1291	1337	COG0012	J	Ribosome-binding ATPase YchF, GTP1/OBG family
+1294	1434	COG0013	J	Alanyl-tRNA synthetase
+1301	1331	COG0016	J	Phenylalanyl-tRNA synthetase alpha subunit
+729	854	COG0017	J	Aspartyl/asparaginyl-tRNA synthetase
+1293	1379	COG0018	J	Arginyl-tRNA synthetase
+464	484	COG0023	J	Translation initiation factor 1 (eIF-1/SUI1)
+1300	1848	COG0024	J	Methionine aminopeptidase
+1291	1477	COG0030	J	16S rRNA A1518 and A1519 N6-dimethyltransferase RsmA/KsgA/DIM1 (may also have DNA glycosylase/AP lyase activity)
+1288	2034	COG0037	J	tRNA(Ile)-lysidine synthase TilS/MesJ
+1177	1895	COG0042	J	tRNA-dihydrouridine synthase
+1305	1243	COG0048	J	Ribosomal protein S12
+1308	1299	COG0049	J	Ribosomal protein S7
+1185	1399	COG0050	J	Translation elongation factor EF-Tu, a GTPase
+1308	1188	COG0051	J	Ribosomal protein S10
+1303	1303	COG0052	J	Ribosomal protein S2
+1292	1323	COG0060	J	Isoleucyl-tRNA synthetase
+1066	1092	COG0064	J	Asp-tRNAAsn/Glu-tRNAGln amidotransferase B subunit
+1294	1300	COG0072	J	Phenylalanyl-tRNA synthetase beta subunit
+1289	2386	COG0073	J	tRNA-binding EMAP/Myf domain
+1306	1309	COG0080	J	Ribosomal protein L11
+1303	1299	COG0081	J	Ribosomal protein L1
+1305	1302	COG0087	J	Ribosomal protein L3
+1307	1296	COG0088	J	Ribosomal protein L4
+1302	1286	COG0089	J	Ribosomal protein L23
+1306	1295	COG0090	J	Ribosomal protein L2
+1304	1288	COG0091	J	Ribosomal protein L22
+1305	1287	COG0092	J	Ribosomal protein S3
+1306	1254	COG0093	J	Ribosomal protein L14
+1307	1299	COG0094	J	Ribosomal protein L5
+1307	1299	COG0096	J	Ribosomal protein S8
+1305	1302	COG0097	J	Ribosomal protein L6P/L9E
+1307	1297	COG0098	J	Ribosomal protein S5
+1305	1297	COG0099	J	Ribosomal protein S13
+1309	1259	COG0100	J	Ribosomal protein S11
+1239	1351	COG0101	J	tRNA U38,U39,U40 pseudouridine synthase TruA
+1304	1296	COG0102	J	Ribosomal protein L13
+1304	1294	COG0103	J	Ribosomal protein S9
+710	749	COG0116	J	23S rRNA G2445 N2-methylase RlmL
+1298	1405	COG0124	J	Histidyl-tRNA synthetase
+1262	1280	COG0130	J	tRNA U55 pseudouridine synthase TruB, may also work on U342 of tmRNA
+1288	1376	COG0143	J	Methionyl-tRNA synthetase
+1133	1726	COG0144	J	16S rRNA C967 or C1407 C5-methylase, RsmB/RsmF family
+1157	3357	COG0154	J	Asp-tRNAAsn/Glu-tRNAGln amidotransferase A subunit or related amidase
+1300	1352	COG0162	J	Tyrosyl-tRNA synthetase
+1304	1369	COG0172	J	Seryl-tRNA synthetase
+1151	1173	COG0173	J	Aspartyl-tRNA synthetase
+1304	1416	COG0180	J	Tryptophanyl-tRNA synthetase
+1304	1295	COG0184	J	Ribosomal protein S15P/S13E
+1305	1256	COG0185	J	Ribosomal protein S19
+1307	1297	COG0186	J	Ribosomal protein S17
+918	2049	COG0189	J E H Q	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily
+1168	1177	COG0193	J	Peptidyl-tRNA hydrolase
+1307	1287	COG0197	J	Ribosomal protein L16/L10AE
+1294	1289	COG0198	J	Ribosomal protein L24
+1293	1367	COG0199	J	Ribosomal protein S14
+1302	1301	COG0200	J	Ribosomal protein L15
+1182	1169	COG0203	J	Ribosomal protein L17
+1182	1199	COG0211	J	Ribosomal protein L27
+1278	1481	COG0215	J	Cysteinyl-tRNA synthetase
+1181	1222	COG0216	J	Protein chain release factor RF1
+1154	1253	COG0217	J K	Transcriptional and/or translational regulatory protein YebC/TACO1
+817	852	COG0219	J	tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain
+995	1106	COG0220	J	tRNA G46 N7-methylase TrmB
+1182	1225	COG0222	J	Ribosomal protein L7/L12
+1194	1651	COG0223	J	Methionyl-tRNA formyltransferase
+1175	1213	COG0227	J	Ribosomal protein L28
+1179	1170	COG0228	J	Ribosomal protein S16
+1153	1074	COG0230	J	Ribosomal protein L34
+1294	1437	COG0231	J	Translation elongation factor P (EF-P)/translation initiation factor 5A (eIF-5A)
+1177	1175	COG0233	J	Ribosome recycling factor
+1181	1141	COG0238	J	Ribosomal protein S18
+1179	1833	COG0242	J	Peptide deformylase
+1303	1295	COG0244	J	Ribosomal protein L10
+779	974	COG0252	J E	L-asparaginase/archaeal Glu-tRNAGln amidotransferase subunit D
+1177	1311	COG0254	J	Ribosomal protein L31
+1267	1244	COG0255	J	Ribosomal protein L29
+1306	1296	COG0256	J	Ribosomal protein L18
+1164	1064	COG0257	J	Ribosomal protein L36
+1175	1164	COG0261	J	Ribosomal protein L21
+1178	1184	COG0264	J	Translation elongation factor EF-Ts
+1178	1284	COG0267	J	Ribosomal protein L33
+1179	1168	COG0268	J	Ribosomal protein S20
+1170	1263	COG0275	J	16S rRNA C1402 N4-methylase RsmH
+1174	1196	COG0290	J	Translation initiation factor IF-3
+1171	1141	COG0291	J	Ribosomal protein L35
+1186	1165	COG0292	J	Ribosomal protein L20
+621	625	COG0293	J	23S rRNA U2552 (ribose-2'-O)-methylase RlmE/FtsJ
+448	471	COG0301	J H	Adenylyl- and sulfurtransferase ThiI (thiamine and tRNA 4-thiouridine biosynthesis)
+1121	1327	COG0313	J	16S rRNA C1402 (ribose-2'-O) methylase RsmI
+1165	1163	COG0319	J	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme
+1159	1211	COG0324	J	tRNA A37 N6-isopentenylltransferase MiaA
+1132	1139	COG0333	J	Ribosomal protein L32
+1179	1171	COG0335	J	Ribosomal protein L19
+1172	1172	COG0336	J	tRNA G37 N-methylase TrmD
+1174	1250	COG0343	J	Queuine/archaeosine tRNA-ribosyltransferase
+667	867	COG0349	J	Ribonuclease D
+1112	1120	COG0357	J	16S rRNA G527 N7-methylase RsmG (former glucose-inhibited division protein B)
+1167	1167	COG0359	J	Ribosomal protein L9
+1178	1174	COG0360	J	Ribosomal protein S6
+1304	1296	COG0361	J	Translation initiation factor IF-1
+539	539	COG0423	J	Glycyl-tRNA synthetase, class II
+832	1439	COG0425	J O H	Sulfur carrier protein TusA (tRNA thiolation, molybdenum cofactor biosynthesis)
+1291	1449	COG0441	J	Threonyl-tRNA synthetase
+1295	1354	COG0442	J	Prolyl-tRNA synthetase
+981	1016	COG0445	J	tRNA U34 5-carboxymethylaminomethyl modifying enzyme MnmG/GidA
+1233	7941	COG0456	J	Ribosomal protein S18 acetylase RimI and related acetyltransferases
+1304	2093	COG0480	J	Translation elongation factor EF-G, a GTPase
+1169	1181	COG0481	J	Translation elongation factor EF-4, membrane-bound GTPase
+1175	1314	COG0482	J	tRNA U34 2-thiouridine synthase MnmA/TrmU, contains the PP-loop ATPase domain
+1029	1122	COG0486	J	tRNA U34 5-carboxymethylaminomethyl modifying GTPase MnmE/TrmE
+1296	1339	COG0495	J	Leucyl-tRNA synthetase
+1304	1350	COG0522	J	Ribosomal protein S4 or related protein
+1292	1327	COG0525	J	Valyl-tRNA synthetase
+1294	1298	COG0532	J	Translation initiation factor IF-2, a GTPase
+1291	1340	COG0533	J	tRNA A37 threonylcarbamoyltransferase TsaD
+1164	1358	COG0539	J	Ribosomal protein S1
+1186	3403	COG0564	J	Pseudouridine synthase RluA, 23S rRNA- or tRNA-specific
+654	725	COG0565	J	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase
+1171	2967	COG0566	J	tRNA G18 (ribose-2'-O)-methylase SpoU
+380	408	COG0585	J	tRNA(Glu) U13 pseudouridine synthase TruD
+1158	1794	COG0590	J	tRNA(Arg) A34 adenosine deaminase TadA
+1086	1080	COG0594	J	RNase P protein component
+774	946	COG0595	J	mRNA degradation ribonuclease J1/J2
+786	866	COG0603	J	7-cyano-7-deazaguanine synthase (queuosine biosynthesis)
+1153	1687	COG0617	J	tRNA nucleotidyltransferase/poly(A) polymerase
+1228	2602	COG0621	J	tRNA A37 methylthiotransferase MiaB
+564	1110	COG0684	J	RNA degradosome component RraA (regulator of RNase E activity)
+920	922	COG0689	J	Ribonuclease PH
+1034	1043	COG0721	J	Asp-tRNAAsn/Glu-tRNAGln amidotransferase C subunit
+327	751	COG0724	J	RNA recognition motif (RRM) domain
+282	338	COG0731	J	Wyosine [tRNA(Phe)-imidazoG37] synthetase, radical SAM superfamily
+1125	1153	COG0742	J	16S rRNA G966 N2-methylase RsmD
+770	773	COG0751	J	Glycyl-tRNA synthetase, beta subunit
+769	765	COG0752	J	Glycyl-tRNA synthetase, alpha subunit
+1035	1035	COG0779	J	Ribosome maturation factor RimP
+660	667	COG0780	J	NADPH-dependent 7-cyano-7-deazaguanine reductase QueF, C-terminal domain, T-fold superfamily
+1112	1110	COG0799	J	Ribosomal silencing factor RsfS, regulates association of 30S and 50S subunits
+1153	1153	COG0802	J	tRNA A37 threonylcarbamoyladenosine biosynthesis protein TsaE
+1101	1102	COG0806	J	Ribosomal 30S subunit maturation factor RimM, required for 16S rRNA processing
+980	1056	COG0809	J	S-adenosylmethionine:tRNA-ribosyltransferase-isomerase (queuine synthetase)
+1129	1175	COG0816	J K L	YqgF/RuvX protein, pre-16S rRNA maturation RNase/Holliday junction resolvase/anti-termination factor
+1094	1225	COG0820	J	Adenine C2-methylase RlmN of 23S rRNA A2503 and tRNA A37
+669	1359	COG0826	J	23S rRNA C2501 and tRNA U34 5'-hydroxylation protein RlhA/YrrN/YrrO, U32 peptidase family
+971	977	COG0828	J	Ribosomal protein S21
+1164	1180	COG0858	J	Ribosome-binding factor RbfA
+241	276	COG1041	J	tRNA G10 N-methylase Trm11
+552	568	COG1054	J	tRNA U34 5'-hydroxylase TrhO, rhodanese family
+707	1083	COG1092	J	23S rRNA G2069 N7-methylase RlmK or C1962 C5-methylase RlmI
+122	122	COG1093	J	Translation initiation factor 2, alpha subunit (eIF-2alpha)
+358	359	COG1094	J	rRNA processing protein Krr1/Pno1, contains KH domain
+29	40	COG1103	J	Archaeal Cys-tRNA synthase (O-phospho-L-seryl-tRNA:Cys-tRNA synthase)
+1131	1309	COG1159	J	GTPase Era, involved in 16S rRNA processing
+1171	1463	COG1160	J	Double Era-like domain GTPase Der
+428	531	COG1161	J	Ribosome biogenesis GTPase RbgA
+922	1110	COG1162	J	Ribosome biogenesis GTPase RsgA
+140	141	COG1163	J	Ribosome-interacting GTPase RBG1
+564	656	COG1179	J	tRNA A37 threonylcarbamoyladenosine dehydratase
+107	168	COG1184	J	Translation initiation factor 2B subunit, eIF-2B alpha/beta/delta family
+1150	1155	COG1185	J	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)
+1068	1608	COG1186	J	Protein chain release factor PrfB
+1146	2325	COG1187	J	Pseudouridylate synthase RsuA, specific for 16S rRNA U516 and 23S rRNA U2605
+788	789	COG1188	J	Ribosomal 50S subunit-recycling heat shock protein, contains S4 domain
+673	679	COG1189	J	Predicted rRNA methylase YqxC, contains S4 and FtsJ domains
+1029	1083	COG1190	J	Lysyl-tRNA synthetase, class II
+383	394	COG1206	J	Folate-dependent tRNA-U54 methylase TrmFO/GidA
+887	1753	COG1208	J M	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s
+1161	1160	COG1214	J	tRNA A37 threonylcarbamoyladenosine modification protein TsaB
+834	1258	COG1234	J	Ribonuclease BN, tRNA processing enzyme
+611	854	COG1236	J	RNA processing exonuclease, beta-lactamase fold, Cft2 family
+220	220	COG1243	J	tRNA U34 5-carboxymethylaminomethylation enzyme Elp3 (RNA elongator complex protein 3), contains radical SAM and acetyltransferase domains
+109	112	COG1244	J	Archaeosine formation enzyme, radical SAM superfamily
+132	147	COG1245	J	Translation initiation factor RLI1, contains Fe-S and AAA+ ATPase domains
+120	120	COG1258	J	tRNA U54 and U55 pseudouridine synthase Pus10
+469	482	COG1293	J O	Ribosome quality control (RQC) protein RqcH, Rqc2/NEMF/Tae2 family, contains fibronectin-(FbpA) and RNA- (NFACT) binding domains
+112	112	COG1303	J	tRNA C56-2-O'-methylase, SpoU family
+181	185	COG1323	J	tRNA-Met C34-N4-acetylcytidine synthase TmcAL
+59	65	COG1341	J	Polynucleotide 5'-kinase, involved in rRNA processing
+341	434	COG1358	J	Ribosomal protein L7Ae or related RNA K-turn-binding protein
+92	92	COG1369	J	RNase P/RNase MRP subunit POP5
+116	118	COG1370	J	tRNA-guanine transglycosylase, archaeosine-15-forming, contains TGT and PUA domains
+224	227	COG1371	J	Archease, activates RNA ligation by RtcB (tRNA splicing)
+25	25	COG1374	J	Rbosome biogenesis protein Nip4, contains PUA domain
+121	126	COG1383	J	Ribosomal protein S17E
+283	285	COG1384	J	Lysyl-tRNA synthetase, class I
+1086	1169	COG1385	J	16S rRNA U1498 N3-methylase RsmE
+948	945	COG1399	J	23S rRNA accumulation protein YceD (essential in plants, uncharacterized in bacteria)
+119	121	COG1412	J	rRNA-processing protein FCF1
+713	1161	COG1418	J R	HD superfamily phosphodieaserase, includes HD domain of RNase Y
+35	38	COG1431	J V	PIWI domain, catalyzes dsRNA-guided hydrolysis of ssRNA, involved in RNA silencing, RNA metabolism and antiviral defense
+119	120	COG1439	J	rRNA maturation endonuclease Nob1
+209	229	COG1444	J	tRNA(Met) C34 N-acetyltransferase TmcA
+122	122	COG1471	J	Ribosomal protein S4E
+857	856	COG1490	J	D-aminoacyl-tRNA deacylase
+121	121	COG1498	J	Box C/D ribonucleoprotein Nop56/Prp31/SIK1 subunit
+115	120	COG1499	J	NMD protein affecting ribosome stability and mRNA decay
+121	121	COG1500	J	Ribosome maturation protein Sdo1
+162	201	COG1503	J	Peptide chain release factor 1 (eRF1)
+829	1063	COG1514	J	RNA 2',3'-cyclic phosphodiesterase (2'-5' RNA ligase)
+1046	1423	COG1530	J	Ribonuclease G or E
+579	577	COG1534	J	RNA-binding protein YhbY
+124	124	COG1537	J	Stalled ribosome rescue protein Dom34, pelota family
+1093	1324	COG1544	J	Ribosome-associated translation inhibitor RaiA
+90	112	COG1549	J	Archaeosine tRNA-ribosyltransferase, contains uracil-DNA-glycosylase and PUA domains
+131	141	COG1552	J	Ribosomal protein L40E
+767	772	COG1561	J	Endoribonuclease YloC, YicC family
+119	172	COG1571	J	tRNA(Ile2) C34 agmatinyltransferase TiaS
+836	842	COG1576	J	23S rRNA pseudoU1915 N3-methylase RlmH
+118	119	COG1588	J	RNase P/RNase MRP subunit p29
+41	50	COG1590	J	tRNA(Phe) wybutosine-synthesizing methylase Tyw3
+772	1043	COG1600	J	Epoxyqueuosine reductase QueG (queuosine biosynthesis)
+121	138	COG1601	J	Translation initiation factor 2, beta subunit (eIF-2beta)/eIF-5 N-terminal domain
+90	90	COG1603	J	RNase P/RNase MRP subunit p30
+85	85	COG1617	J	tRNA threonylcarbamoyladenosine modification (KEOPS) complex, Cgi121 subunit
+122	122	COG1631	J	Ribosomal protein L44E
+121	124	COG1632	J	Ribosomal protein L15E
+273	275	COG1636	J	Epoxyqueuosine reductase QueH (tRNA modification)
+644	917	COG1643	J	HrpA-like RNA helicase
+119	119	COG1650	J	D-tyrosyl-tRNA(Tyr) deacylase
+191	239	COG1658	J	5S rRNA maturation ribonuclease M5, contains TOPRIM domain
+1083	6267	COG1670	J O	Protein N-acetyltransferase, RimJ/RimL family
+121	157	COG1676	J	tRNA splicing endonuclease subunit SEN34
+555	695	COG1690	J	RNA-splicing ligase RtcB, repairs tRNA damage
+121	121	COG1717	J	Ribosomal protein L32E
+423	530	COG1720	J	tRNA (Thr-GGU) A37 N6-methylase
+103	105	COG1723	J	Mitochondrial translation protein, Rmd1/RMND1/DUF155 family
+122	124	COG1727	J	Ribosomal protein L18E
+121	122	COG1736	J	Diphthamide synthase subunit DPH2
+549	588	COG1738	J	Queuosine precursor transporter YhhQ, DUF165 family
+124	126	COG1746	J	tRNA nucleotidyltransferase (CCA-adding enzyme)
+55	58	COG1756	J	rRNA pseudouridine-1189 N-methylase Emg1, Nep1/Mra1 family
+120	120	COG1798	J	Diphthamide biosynthesis methyltransferase
+296	386	COG1813	J	Archaeal ribosome-binding protein aMBF1, putative translation factor, contains Zn-ribbon and HTH domains
+51	70	COG1818	J	tRNA(Ser,Leu) C12 N-acetylase TAN1, contains THUMP domain
+1078	1087	COG1825	J	Ribosomal protein L25 (general stress protein Ctc)
+1144	1112	COG1841	J	Ribosomal protein L30/L7E
+194	200	COG1859	J	RNA:NAD 2'-phosphotransferase, TPT1/KptA family
+137	140	COG1867	J	tRNA G26 N,N-dimethylase Trm1
+121	121	COG1889	J	Fibrillarin-like rRNA 2'-O-methylase NOP1
+122	122	COG1890	J	Ribosomal protein S3AE
+284	339	COG1899	J O	Deoxyhypusine synthase
+87	89	COG1901	J	tRNA pseudouridine-54 N-methylase
+85	85	COG1911	J	Ribosomal protein L30E
+376	444	COG1921	J	Seryl-tRNA(Sec) selenium transferase
+214	214	COG1939	J	23S rRNA maturation mini-RNase III
+365	484	COG1944	J	Ribosomal protein S12 methylthiotransferase accessory factor YcaO
+121	121	COG1976	J	Translation initiation factor 6 (eIF-6)
+167	172	COG1990	J	Peptidyl-tRNA hydrolase
+127	134	COG1997	J	Ribosomal protein L37AE/L43A
+117	117	COG1998	J	Ribosomal protein S27AE
+915	922	COG2001	J	MraZ, DNA-binding transcriptional regulator and inhibitor of RsmH methyltransferase activity
+119	121	COG2004	J	Ribosomal protein S24E
+122	122	COG2007	J	Ribosomal protein S8E
+118	120	COG2016	J	Predicted ribosome-associated RNA-binding protein Tma20, contains PUA domain
+113	113	COG2023	J	Ribonuclease P protein subunit RPR2
+32	32	COG2024	J	O-phosphoseryl-tRNA(Cys) synthetase
+105	105	COG2042	J	Ribosome biogenesis protein Tsr3 (rRNA maturation)
+129	128	COG2051	J	Ribosomal protein S27E
+121	119	COG2053	J	Ribosomal protein S28E/S33
+123	123	COG2058	J	Ribosomal protein L12E/L44/L45/RPP1/RPP2
+123	125	COG2075	J	Ribosomal protein L24E
+121	121	COG2092	J	Translation elongation factor EF-1beta
+120	120	COG2097	J	Ribosomal protein L31E
+255	287	COG2102	J	Diphthamide synthase (EF-2-diphthine--ammonia ligase)
+639	835	COG2110	J	O-acetyl-ADP-ribose deacetylase (regulator of RNase III), contains Macro domain
+61	61	COG2117	J	Predicted subunit of tRNA(5-methylaminomethyl-2-thiouridylate) methyltransferase, contains the PP-loop ATPase domain
+121	121	COG2125	J	Ribosomal protein S6E (S10)
+116	116	COG2126	J	Ribosomal protein L37E
+47	47	COG2136	J	rRNA maturation protein Rpf1, contains Brix/IMP4 (anticodon-binding) domain
+121	121	COG2139	J	Ribosomal protein L21E
+122	122	COG2147	J	Ribosomal protein L19E
+92	92	COG2157	J	Ribosomal protein L20A (L18A)
+125	125	COG2163	J	Ribosomal protein L14E/L6E/L27E
+114	111	COG2167	J	Ribosomal protein L39E
+194	195	COG2168	J	Sulfur transfer complex TusBCD TusB component, DsrH family
+42	42	COG2174	J	Ribosomal protein L34E
+122	122	COG2238	J	Ribosomal protein S19E (S16A)
+123	141	COG2260	J	rRNA maturation protein Nop10, contains Zn-ribbon domain
+1149	1261	COG2262	J	50S ribosomal subunit-associated GTPase HflX
+927	1042	COG2264	J	Ribosomal protein L11 methylase PrmA
+1089	1639	COG2265	J	tRNA/tmRNA/rRNA uracil-C5-methylase, TrmA/RlmC/RlmD family
+332	331	COG2269	J	Elongation factor P--beta-lysine ligase (EF-P beta-lysylation pathway)
+201	202	COG2384	J	tRNA A22 N1-methylase
+139	158	COG2404	J T	Oligoribonuclease NrnA/c-di-AMP phosphodiesterase DhhP, DHH superfamily
+30	30	COG2419	J	tRNA (A,G)9-N-methylase TRM10
+16	16	COG2428	J	Rps3 or RNA methylase involved in ribosome biogenesis, SPOUT family
+16	16	COG2451	J	Ribosomal protein L35AE/L33A
+446	442	COG2501	J	Ribosome-associated protein YbcJ, S4-like RNA-binding protein
+132	134	COG2511	J	Archaeal Glu-tRNAGln amidotransferase subunit E, contains GAD domain
+405	442	COG2519	J	tRNA A58 N-methylase Trm61
+157	274	COG2520	J	tRNA G37 N-methylase Trm5
+284	289	COG2603	J	tRNA 2-selenouridine synthase SelU, contains rhodanese domain
+751	1309	COG2606	J	Cys-tRNA(Pro) deacylase, prolyl-tRNA editing enzyme YbaK/EbsC
+548	731	COG2813	J	16S rRNA G1207 or 23S rRNA G1835 methylase RsmC/RlmG
+733	768	COG2835	J	RNA methyltransferase activator Trm112/YbaR
+342	424	COG2850	J	Ribosomal protein L16 Arg81 hydroxylase, contains JmjC domain
+570	612	COG2867	J	Ribosome association toxin PasT (RatA) of the RatAB toxin-antitoxin module
+286	326	COG2872	J	Ser-tRNA(Ala) deacylase AlaX (editing enzyme)
+1283	2138	COG2890	J	Methylase of polypeptide chain release factors
+89	90	COG2892	J	tRNA threonylcarbamoyladenosine modification (KEOPS) complex, Pcc1 subunit
+229	233	COG2904	J	NADPH-dependent 7-cyano-7-deazaguanine reductase QueF, N-terminal domain
+259	399	COG2920	J	Sulfur transfer complex TusBCD TusE component, DsrC family (tRNA 2-thiouridine synthesizing protein C)
+207	209	COG2923	J	Sulfur transfer complex TusBCD TusC component, DsrF family
+190	192	COG2933	J	23S rRNA C2498 (ribose-2'-O)-methylase RlmM
+386	389	COG2961	J	23S rRNA A2030 N6-methylase RlmJ
+291	291	COG3028	J	Ribosomal 50S subunit-associated protein YjgA, DUF615 family
+81	82	COG3036	J	Stalled ribosome alternative rescue factor ArfA
+178	245	COG3041	J V	mRNA-degrading endonuclease YafQ (mRNA interferase), toxin component of the YafQ-DinJ toxin-antitoxin module
+100	103	COG3076	J	Regulator of RNase E activity RraB
+96	96	COG3078	J	Ribosome assembly protein YihI, activator of Der GTPase
+122	124	COG3101	J	Elongation factor P hydroxylase EpmC (EF-P beta-lysylation pathway)
+150	152	COG3129	J	23S rRNA A1618 N6-methylase RlmF
+110	115	COG3130	J	Ribosome modulation factor
+186	265	COG3148	J	tRNA U47 aminocarboxypropyltransferaseTapT/TuaA/ YfiP, DTW domain
+72	78	COG3231	J	Aminoglycoside phosphotransferase
+206	211	COG3270	J	Ribosome biogenesis protein, NOL1/NOP2/FMU family
+354	366	COG3276	J	Selenocysteine-specific translation elongation factor SelB
+107	107	COG3277	J	rRNA processing protein Gar1
+255	287	COG3481	J	3'-5' exoribonuclease YhaM, can participate in 23S rRNA maturation, HD superfamily
+253	318	COG3642	J	tRNA A-37 threonylcarbamoyl transferase component Bud32
+271	271	COG3688	J	EndoRNase involved in mRNA decay, NYN (Nedd4-BP1/Rae1/YacP nuclease) family, contains PIN domain
+188	196	COG3719	J	Ribonuclease I
+234	291	COG3751	J O	Proline 4-hydroxylase (includes Rps23 Pro-64 3,4-dihydroxylase Tpa1), contains SM-20 domain
+72	75	COG4021	J	tRNA(His) 5'-end guanylyltransferase
+29	30	COG4080	J	SpoU rRNA methylase family enzyme
+18	18	COG4088	J V	tRNA uridine 5-carbamoylmethylation protein Kti12 (Killer toxin insensitivity protein)
+777	782	COG4108	J	Peptide chain release factor RF-3
+462	464	COG4121	J	tRNA U34 5-methylaminomethyl-2-thiouridine-forming methyltransferase MnmC
+736	1191	COG4122	J	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM
+669	770	COG4123	J	tRNA1(Val) A37 N6-methylase TrmN6
+15	16	COG4352	J	Ribosomal protein L13E
+119	119	COG4394	J	Elongation factor P Arg32-rhamnosyltransferase EarP
+225	253	COG4445	J	tRNA isopentenyl-2-thiomethyl-A-37 hydroxylase MiaE (synthesis of 2-methylthio-cis-ribozeatin)
+237	364	COG4575	J	Membrane-anchored ribosome-binding protein ElaB, inhibits growth in stationary phase, YqjD/DUF883 family
+166	239	COG4680	J V	mRNA-degrading endonuclease (mRNA interferase) HigB, toxic component of the HigAB toxin-antitoxin module
+128	137	COG4694	J	Wobble nucleotide-excising tRNase
+125	135	COG4708	J F	ECF-type transporter of queuosine precursor, membrane (S) component
+94	113	COG4725	J	N6-adenosine-specific RNA methylase IME4
+39	39	COG4830	J	Ribosomal protein S26e
+28	29	COG4901	J	Ribosomal protein S25e
+37	37	COG4919	J	Archaeal ribosomal protein RPS30/eS30
+17	18	COG4937	J	Ferredoxin-fold anticodon binding domain
+10	18	COG5238	J	Ran GTPase-activating protein (RanGAP) involved in mRNA processing and transport
+124	134	COG5256	J	Translation elongation factor EF-1alpha (GTPase)
+122	122	COG5257	J	Translation initiation factor 2, gamma subunit (eIF-2gamma; GTPase)
+47	74	COG5270	J	PUA domain (predicted RNA-binding domain)
+107	135	COG5271	J	Midasin, AAA ATPase with vWA domain, involved in ribosome maturation
+8	8	COG5324	J	tRNA splicing ligase
+112	115	COG5459	J	Ribosomal protein RSM22 (predicted mitochondrial rRNA methylase)
+40	70	COG5758	J C	RNA-binding protein Tab2, reqiured for psaB translation

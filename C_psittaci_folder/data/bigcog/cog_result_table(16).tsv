@@ -1,0 +1,127 @@
+Organism	Protein	COG	Cat	Annotation
+445	976	COG0582	L X	Integrase/recombinase, includes phage integrase
+323	2616	COG0675	X	Transposase
+177	330	COG1372	L X	Intein/homing endonuclease
+62	639	COG1662	X	Transposase and inactivated derivatives, IS1 family
+124	165	COG1783	X	Phage terminase large subunit
+586	1729	COG1943	X	REP element-mobilizing transposase RayT
+170	226	COG2369	X	Uncharacterized protein, contains phage Mu head morphogenesis gpF-like domain
+186	431	COG2452	X	Predicted site-specific integrase-resolvase
+684	3016	COG2801	X	Transposase InsO and inactivated derivatives
+313	1043	COG2826	X	Transposase and inactivated derivatives, IS30 family
+120	147	COG2842	X	Bacteriophage DNA transposition protein, AAA+ family ATPase
+195	195	COG2915	T X	Regulator of phage lambda lysogenization HflD, binds to CII and stimulates its degradation
+455	741	COG2932	X	Phage repressor protein C, contains Cro/C1-type HTH and peptisase s24 domains
+435	1553	COG2963	X	Transposase InsE and inactivated derivatives
+149	375	COG3039	X	Transposase and inactivated derivatives, IS5 family
+278	1028	COG3293	X	Transposase
+192	257	COG3299	X	Uncharacterized phage protein gp47/JayE
+540	1076	COG3311	K X	DNA-binding transcriptional regulator AlpA
+163	584	COG3316	X	Transposase (or an inactivated derivative), DDE domain
+342	1181	COG3328	X	Transposase (or an inactivated derivative)
+195	816	COG3335	X	Transposase
+381	1173	COG3344	X	Retron-type reverse transcriptase
+258	363	COG3378	X	DNA primase, phage- or plasmid-associated
+85	305	COG3385	X	IS4 transposase InsG
+243	1075	COG3436	X	Transposase
+291	1009	COG3464	X	Transposase
+16	18	COG3466	X	Putative transposon-encoded protein
+271	411	COG3497	X	Phage tail sheath protein FI
+104	142	COG3498	X	Phage tail tube protein FII
+97	131	COG3499	X	Phage protein U
+201	269	COG3500	X	Phage protein D
+309	991	COG3501	U X R	Uncharacterized conserved protein VgrG, implicated in type VI secretion and phage assembly
+540	1833	COG3547	X	Transposase
+64	82	COG3561	X	Phage anti-repressor protein Ant
+143	204	COG3600	X	Uncharacterized phage-associated protein, contains DUF4065 domain
+178	266	COG3617	X	Prophage antirepressor
+251	339	COG3628	X	Phage baseplate assembly protein W
+196	300	COG3636	X	Uncharacterized Zn-binding protein, DUF971 domain
+105	139	COG3645	X	Phage antirepressor protein YoqD, KilAC domain
+116	172	COG3646	X	Phage regulatory protein Rha
+398	448	COG3654	X	Prophage maintenance system killer protein
+280	722	COG3666	X	Transposase, IS1182 family
+440	1116	COG3668	X	Plasmid stabilization system protein ParE
+46	98	COG3676	X	Transposase and inactivated derivatives
+221	914	COG3677	X	Transposase InsA
+107	128	COG3728	X	Phage terminase, small subunit
+211	276	COG3740	X	Phage head maturation protease
+123	169	COG3747	X	Phage terminase, small subunit
+55	66	COG3778	X	Uncharacterized conserved protein YmfQ in lambdoid prophage, DUF2313 family
+67	78	COG3941	X	Phage tail tape-measure protein, controls tail length
+110	148	COG3948	X	Phage-related baseplate assembly protein
+50	78	COG3953	X	SLT domain protein
+43	63	COG4195	X	Phage-related replication protein YjqB, UPF0714/DUF867 family
+40	50	COG4220	X	Phage DNA packaging protein, Nu1 subunit of terminase
+54	65	COG4228	X	Mu-like prophage DNA circulation protein
+16	34	COG4342	X	Phage integrase/recombinase
+84	101	COG4373	X	Mu-like prophage FluMu protein gp28
+57	64	COG4379	X	Mu-like prophage tail protein gpP
+56	63	COG4381	X	Mu-like prophage protein gp46
+57	75	COG4382	X	Mu-like prophage protein gp16
+118	155	COG4383	X	Mu-like prophage protein gp29
+55	63	COG4384	X	Mu-like prophage protein gp45
+140	183	COG4385	X	Bacteriophage P2-related tail formation protein
+60	70	COG4386	X	Mu-like prophage tail sheath protein gpL
+89	103	COG4387	X	Mu-like prophage protein gp36
+77	100	COG4388	X	Mu-like prophage I protein
+29	31	COG4396	X	Mu-like prophage host-nuclease inhibitor protein Gam
+66	81	COG4397	X	Mu-like prophage major head subunit gpT
+24	26	COG4416	X	Mu-like prophage FluMu protein Com
+162	194	COG4422	X	Bacteriophage protein gp37
+74	85	COG4474	X	Uncharacterized SPBc2 prophage-derived protein YoqJ
+15	15	COG4518	X	Mu-like prophage FluMu protein gp41
+81	85	COG4537	X	Competence protein ComGC
+109	155	COG4540	X	Phage P2 baseplate assembly protein gpV
+309	850	COG4584	X	Transposase
+244	352	COG4626	X	Phage terminase-like protein, large subunit, contains N-terminal HTH domain
+147	203	COG4643	X	Uncharacterized domain associated with phage/plasmid primase
+137	266	COG4644	X	Transposase and inactivated derivatives, TnpA family
+243	348	COG4653	X	Predicted phage phi-C31 gp36 major capsid-like protein
+55	96	COG4672	X	Phage tail protein
+209	477	COG4675	X	Phage tail collar domain
+74	97	COG4678	M X	Muramidase (phage lambda lysozyme)
+219	315	COG4679	V X	Phage-related protein gp49, toxin component of the Tad-Ata toxin-antitoxin system
+299	429	COG4695	X	Phage portal protein BeeE
+15	17	COG4707	X	Prophage pi2 protein 07
+55	92	COG4718	X	Phage tail protein
+57	84	COG4722	X	Phage-related protein YomH
+54	93	COG4723	X	Phage-related protein, tail assembly protein I
+118	195	COG4733	X	Phage-related protein, tail protein J
+86	137	COG4824	X	Phage-related holin (Lysis protein)
+41	59	COG4926	X	Phage-related protein
+56	56	COG4940	X	Competence protein ComGF
+54	70	COG4983	X	Primase-polymerase (Primpol) domain protein
+22	25	COG5003	X	Mu-like prophage protein gp37
+88	113	COG5004	X	P2-like prophage tail protein X
+101	137	COG5005	X	Mu-like prophage protein gpG
+89	107	COG5280	X	Phage-related minor tail protein
+164	228	COG5281	X	Phage-related minor tail protein
+126	172	COG5283	X	Phage-related tail protein
+69	112	COG5301	X	Phage-related tail fiber protein
+93	107	COG5302	X	Post-segregation antitoxin (ccd killing mechanism protein) encoded by the F plasmid
+112	186	COG5314	X	Conjugal transfer/entry exclusion protein
+102	108	COG5323	X	Phage large terminase packaging protein
+154	351	COG5361	X	Uncharacterized conserved protein
+88	113	COG5362	X	Phage terminase large subunit
+95	121	COG5377	X	Phage-related protein, predicted endonuclease
+119	151	COG5412	X	Phage-related protein
+153	602	COG5421	X	Transposase
+112	446	COG5433	X	Predicted transposase YbfD/YdcC associated with H repeats
+95	99	COG5437	X	Phage tail protein, TP901-1 family
+52	60	COG5471	X	Predicted phage recombinase, RecA/RadA family
+135	194	COG5511	X	Phage capsid protein
+68	96	COG5518	X	Phage capsid portal protein XkdE
+134	201	COG5525	X	Phage terminase, large subunit GpA
+91	164	COG5527	X	Protein involved in initiation of plasmid replication
+61	80	COG5529	X	Phage-encoded DNA-binding protein ECs1768, contains HTH and DnaT DNA-binding domains
+114	193	COG5534	X	Plasmid replication initiator protein
+119	168	COG5545	X	Predicted P-loop ATPase and inactivated derivatives
+10	11	COG5558	X	Transposase
+51	54	COG5562	X	Prophage-encoded protein YbcV, DUF1398 family
+11	11	COG5565	X	Phage terminase large (ATPase) subunit and inactivated derivatives
+62	84	COG5566	K X	Transcriptional regulator, middle operon regulator (Mor) family
+18	29	COG5585	X	Putative phage head morphogenesis protein, F of phage Mu or gp7 of SPP1
+172	229	COG5614	X	Phage head-tail adaptor
+22	24	COG5655	X	Replication initiaton protein REP (rolling circle plasmid replication)
+119	326	COG5659	X	SRSO17 transposase

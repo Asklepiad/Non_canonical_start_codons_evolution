@@ -1,0 +1,36 @@
+Organism	Protein	COG	Cat	Annotation
+763	1480	COG1459	N W U	Type II secretory pathway, component PulF
+115	116	COG1855	W U	Predicted ATPase, PilT family, contains N-terminal PIN domain
+358	450	COG2064	W	Flp pilus assembly protein TadC
+656	3374	COG2165	N W U	Type II secretory pathway, pseudopilin PulG
+764	1768	COG2804	N W U	Type II secretory pathway ATPase GspE/PulE or T4P pilus assembly pathway ATPase PilB
+592	938	COG2805	N W	Type IV pilus assembly protein PilT, pilus retraction ATPase
+826	2786	COG3063	N W	Type IV pilus assembly protein PilF/PilW
+186	662	COG3121	W	P pilus assembly protein, chaperone PapD
+385	417	COG3166	N W	Type IV pilus assembly protein PilN
+325	336	COG3167	N W	Type IV pilus assembly protein PilO
+221	223	COG3168	N W	Type IV pilus assembly protein PilP
+270	344	COG3170	N W	Type IV pilus assembly protein FimV
+187	582	COG3188	N W	Outer membrane usher protein FimD/PapC
+180	210	COG3215	N W	Type IV pilus assembly protein PilZ
+338	631	COG3267	W U	Type II secretory pathway ATPase component GspA/ExeA/MshM
+215	308	COG3419	N W	Type IV pilus assembly protein, tip-associated adhesin PilY1
+342	452	COG3745	W U	Flp pilus assembly protein CpaB
+200	372	COG3847	W U	Flp pilus assembly protein, pilin Flp
+147	181	COG4726	N W	Type IV pilus assembly protein PilX
+277	706	COG4961	W U	Flp pilus assembly protein TadG, includes N-terminal TadE domain
+581	1133	COG4962	W U	Pilus assembly protein, ATPase of CpaF family
+310	398	COG4963	W U	Flp pilus assembly ATPase CpaE/TadZ, contains N-terminal REC/TadZ_N domain
+259	373	COG4964	W U	Flp pilus assembly protein, secretin CpaC
+494	850	COG4965	W U	Flp pilus assembly protein TadB
+267	352	COG4966	N W	Type IV pilus assembly protein PilW
+310	408	COG4967	N W	Type IV pilus assembly protein PilV
+290	534	COG4968	N W	Type IV pilus assembly protein PilE
+256	334	COG4969	N W	Type IV pilus assembly protein, major pilin PilA
+350	581	COG4970	N W	Type IV pilus assembly protein FimT
+532	684	COG4972	N W	Type IV pilus assembly protein, ATPase PilM
+192	322	COG5008	N W	Type IV pilus assembly protein, ATPase PilU
+786	2111	COG5010	W U	Flp pilus assembly protein TadD, contains TPR repeats
+104	250	COG5295	W U	Autotransporter adhesin
+97	250	COG5430	W	Fimbrial subunit ScuA/B, ScuA/B/SCPU domain
+74	78	COG5461	W	Type IV pilus biogenesis protein CpaD/CtpE

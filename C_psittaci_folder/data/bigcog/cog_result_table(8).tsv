@@ -1,0 +1,176 @@
+Organism	Protein	COG	Cat	Annotation
+1153	3675	COG0251	V	Enamine deaminase RidA/Endoribonuclease Rid7C, YjgF/YER057c/UK114 family
+861	1878	COG0286	V	Type I restriction-modification system, DNA methylase subunit
+636	863	COG0386	V I	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides
+1167	3580	COG0388	V	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione
+982	1481	COG0450	V	Alkyl hydroperoxide reductase subunit AhpC (peroxiredoxin)
+1140	3344	COG0494	V	8-oxo-dGTP pyrophosphatase MutT and related house-cleaning NTP pyrophosphohydrolases, NUDIX family
+1052	3254	COG0534	V	Na+-driven multidrug efflux pump, DinF/NorM/MATE family
+935	3370	COG0577	V	ABC-type antimicrobial peptide transport system, permease component
+587	875	COG0610	V	Type I site-specific restriction-modification system, R (restriction) subunit and related helicases ...
+582	854	COG0627	V	S-formylglutathione hydrolase FrmB
+920	1861	COG0693	V	Protein/nucleotide deglycase, PfpI/YajL/DJ-1 family (repair of methylglyoxal-glycated proteins and nucleic acids)
+713	1385	COG0732	V	Restriction endonuclease S subunit
+782	1524	COG0737	V F	2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'- or 3'-nucleotidase, 5'-nucleotidase family
+951	986	COG0756	V F	dUTP pyrophosphatase (dUTPase)
+760	1035	COG0783	V P	DNA-binding ferritin-like protein (oxidative damage protectant)
+938	4947	COG0841	V	Multidrug efflux pump subunit AcrB
+1085	3770	COG0842	V	ABC-type multidrug transport system, permease component
+975	6816	COG0845	V M	Multidrug efflux pump subunit AcrA (membrane-fusion protein)
+112	128	COG1002	V	Type II restriction/modification system, endonuclease and methylase domains
+60	60	COG1059	L V	Thermostable 8-oxoguanine DNA glycosylase
+1213	8423	COG1131	V	ABC-type multidrug transport system, ATPase component
+1210	7067	COG1132	V	ABC-type multidrug transport system, ATPase and permease component
+75	75	COG1133	V	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family
+496	672	COG1203	V	CRISPR-Cas type I system-associated endonuclease/helicase Cas3
+305	347	COG1275	V	Tellurite resistance protein TehA and related permeases
+76	79	COG1332	V	CRISPR-Cas system type III CSM-effector complex subunit Csm5, RAMP superfamily Cas7 group
+125	154	COG1336	V	CRISPR-Cas system type III CMR-effector complex subunit Cmr4, RAMP superfamily Cas7 group
+149	324	COG1337	V	CRISPR-Cas system type III CSM-effector complex subunit Csm3, RAMP superfamily Cas7 group
+487	736	COG1343	V	CRISPR/Cas system-associated endoribonuclease Cas2
+189	238	COG1353	V	CRISPR/Cas system-associated protein Cas10, large subunit of type III CRISPR-Cas systems, contains HD superfamily nuclease domain
+81	87	COG1367	V	CRISPR-Cas system type III CMR-effector complex subunit Cmr1, RAMP superfamily Cas7 group
+257	291	COG1401	V	5-methylcytosine-specific restriction endonuclease McrBC, GTP-binding regulatory subunit McrB
+719	1475	COG1403	V	5-methylcytosine-specific restriction endonuclease McrA
+49	52	COG1421	V	CRISPR-Cas system type III CSM-effector complex small subunit Csm2
+35	38	COG1431	J V	PIWI domain, catalyzes dsRNA-guided hydrolysis of ssRNA, involved in RNA silencing, RNA metabolism and antiviral defense
+386	547	COG1468	V	CRISPR/Cas system-associated exonuclease Cas4, RecB family
+390	538	COG1479	V	DNAse/DNA nickase specific for phosphorothioated or glycosylated phage DNA, GmrSD/DndB/SspE family, contains DUF262 and HNH nuclease domains
+509	1363	COG1487	V	Ribonuclease/mRNA interferase VapC, contains PIN domain
+28	37	COG1517	V	CRISPR/Cas system-associated protein Csx1, contains CARF domain
+582	897	COG1518	V	CRISPR-Cas system-associated integrase Cas1
+867	4581	COG1566	V	Multidrug resistance efflux pump EmrA
+76	79	COG1567	V	CRISPR-Cas system type III CSM-effector complex subunit Csm4, RAMP superfamily Cas5 group
+143	156	COG1578	V	House-cleaning carbohydrate phosphatase, DUF89 family
+172	230	COG1583	V	CRISPR/Cas system endoribonuclease Cas6, RAMP superfamily
+371	1042	COG1598	V	Antitoxin component HicB of the HicAB toxin-antitoxin system
+109	122	COG1604	V	CRISPR/Cas system CMR subunit Cmr6, Cas7 group, RAMP superfamily
+132	134	COG1659	V	Bacteriocin, linocin/CFP29 family
+831	4078	COG1680	V	CubicO group peptidase, beta-lactamase class C family
+106	116	COG1688	V	CRISPR/Cas system-associated protein Cas5, RAMP superfamily
+463	557	COG1694	V	NTP pyrophosphatase, house-cleaning of non-canonical NTPs
+43	45	COG1700	V	Predicted anti-virus defense system component AQ645, contains DUF2357 and PD-(D/E)xK nuclease domains
+289	350	COG1715	V	Restriction endonuclease Mrr
+39	64	COG1753	V	Predicted antitoxin, CopG family
+612	1184	COG1764	V	Organic hydroperoxide reductase OsmC/OhrA
+74	77	COG1769	V	CRISPR-Cas system type III CMR-effector complex subunit Cmr3, RAMP superfamily Cas5 group
+99	129	COG1787	V	Endonuclease, HJR/Mrr/RecB family
+249	564	COG1848	V	VapC family ribonuclease, toxin component of the VapBC toxin-antitoxin module, contains PIN domain
+102	115	COG1857	V	CRISPR-Cas system type I effector complex subunit Cas7, RAMP superfamily
+111	147	COG1895	V	HEPN domain protein, predicted toxin of MNT-HEPN system
+370	397	COG1912	V H	Stereoselective (R,S)-S-adenosylmethionine hydrolase (adenosine-forming)
+522	605	COG1956	V T	GAF domain-containing protein, putative methionine-R-sulfoxide reductase
+197	202	COG1986	V F	Non-canonical (house-cleaning) NTP pyrophosphatase, all-alpha NTP-PPase family
+427	840	COG2002	K V	Bifunctional DNA-binding transcriptional regulator of stationary/sporulation/toxin gene expression and antitoxin component of the YhaV-PrlF toxin-antitoxin module
+428	769	COG2026	V	mRNA-degrading endonuclease RelE, toxin component of the RelBE toxin-antitoxin system
+722	1454	COG2076	V	Multidrug transporter EmrE and related cation transporters
+527	2971	COG2124	V Q	Cytochrome P450
+354	583	COG2161	V	Antitoxin component YafN of the YafNO toxin-antitoxin module, PHD/YefM family
+141	390	COG2250	V	HEPN domain protein, predicted toxin of MNT-HEPN system
+221	293	COG2253	V	Predicted nucleotidyltransferase component of viral defense system
+25	31	COG2254	V	CRISPR/Cas system-associated endonuclease Cas3-HD
+580	745	COG2258	V F	N-hydroxylaminopurine reductase YiiM, contains MOSC domain
+626	1426	COG2274	V	ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain
+232	305	COG2336	V	Antitoxin component MazE of the MazEF toxin-antitoxin module
+498	843	COG2337	V	mRNA-degrading endonuclease MazF, toxin component of the MazEF toxin-antitoxin module
+268	474	COG2361	V	HEPN domain protein, predicted toxin of MNT-HEPN system
+479	804	COG2367	V	Beta-lactamase class A
+187	626	COG2442	V	Predicted antitoxin component of a toxin-antitoxin system, DUF433 family
+134	149	COG2602	V	Beta-lactamase class D
+257	389	COG2720	V	Vancomycin resistance protein YoaR (function unknown), contains peptidoglycan-binding and VanW domains
+131	149	COG2746	V	Aminoglycoside N3'-acetyltransferase
+50	54	COG2810	V	Predicted type IV restriction endonuclease
+209	544	COG2849	V	Antitoxin component YwqK of the YwqJK toxin-antitoxin module
+312	346	COG2914	V	Putative antitoxin component PasI (RatB) of the RatAB toxin-antitoxin module, ubiquitin-RnfH superfamily
+201	400	COG2929	V	Ribonuclease BrnT, toxin component of the BrnT-BrnA toxin-antitoxin system
+119	128	COG3015	V M	Uncharacterized lipoprotein NlpE involved in copper resistance
+178	245	COG3041	J V	mRNA-degrading endonuclease YafQ (mRNA interferase), toxin component of the YafQ-DinJ toxin-antitoxin module
+80	97	COG3059	V	Reactive chlorine resistance protein RclC/YkgB, DUF417 family
+220	374	COG3077	V	Antitoxin component of the RelBE or YafQ-DinJ toxin-antitoxin module
+432	752	COG3093	V	Plasmid maintenance system antidote protein VapI/HigA, contains XRE-type HTH domain
+132	133	COG3155	V	Glyoxalase ElbB, DJ-1 superfamily
+150	158	COG3183	V	Predicted restriction endonuclease, HNH family
+423	475	COG3217	V F	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain
+164	197	COG3236	V H	N-glycosidase YbiA/RibX (riboflavin biosynthesis, damage control), NADAR superfamily
+22	24	COG3309	V	Virulence-associated protein VapD, endoribonuclease
+60	62	COG3337	V	CRISPR-Cas system type III CMR-effector complex small subunit Cmr5
+391	1452	COG3415	V	CRISPR-associated protein Csa3, CARF domain
+27	30	COG3421	V	Type III restriction endonuclease
+256	303	COG3440	V	Predicted restriction endonuclease
+465	866	COG3467	V	Nitroimidazole reductase NimA or a related FMN-containing flavoprotein, pyridoxamine 5'-phosphate oxidase superfamily
+79	91	COG3510	V	Cephalosporin hydroxylase
+104	115	COG3513	V	CRISPR-Cas system type-II protein Cas9
+161	259	COG3514	V	Antitoxin component of the BrnT-BrnA toxin-antitoxin system
+265	406	COG3549	V	Plasmid maintenance system killer protein
+135	163	COG3570	V	Streptomycin 6-kinase
+52	64	COG3582	V	CDC48-associated ubiquitin-like protein CUZ1, contains AN1-type Zn-finger (protection from As/Sb toxicity)
+170	189	COG3587	V	Restriction endonuclease, type III RM system
+390	416	COG3634	V	Alkyl hydroperoxide reductase subunit AhpF
+214	238	COG3649	V	CRISPR-Cas system type I effector complex subunit Cas7, RAMP superfamily
+171	233	COG3657	V	Putative component of the toxin-antitoxin plasmid stabilization module
+115	115	COG3725	V	Membrane protein AmpE required for beta-lactamase induction
+82	135	COG3742	V	VapC family ribonuclease, contains PIN domain
+198	385	COG3744	V	PIN domain nuclease, a component of toxin-antitoxin system (PIN domain)
+226	253	COG3853	V	Uncharacterized conserved protein YaaN involved in tellurite resistance
+42	49	COG3896	V	Chloramphenicol 3-O-phosphotransferase
+49	57	COG4006	V	CRISPR-Cas system-associated protein Csm6, contains CARF domain
+18	18	COG4088	J V	tRNA uridine 5-carbamoylmethylation protein Kti12 (Killer toxin insensitivity protein)
+305	376	COG4096	V	Type I site-specific restriction endonuclease, part of a restriction-modification system
+68	76	COG4110	V	Tellurium resistance protein TerA/TerD
+214	373	COG4113	V	RNA interferase (RNase) VapC, contains PIN domain
+269	377	COG4115	V	Toxin component of the Txe-Axe toxin-antitoxin module, Txe/YoeB family
+326	700	COG4118	V	Antitoxin component of toxin-antitoxin stability system, DNA-binding transcriptional repressor
+91	91	COG4167	V	ABC-type antimicrobial peptide export system, ATPase component SapF
+90	91	COG4168	V	ABC-type antimicrobial peptide export system, permease component SapB
+97	98	COG4170	V	ABC-type antimicrobial peptide export system, ATPase component SapD
+98	100	COG4171	V	ABC-type antimicrobial peptide export system, permease component SapC
+69	103	COG4200	V	Predicted lantabiotic-exporting membrane pepmease, EfiE/EfiG/ABC2 family
+177	263	COG4257	V	Streptogramin lyase
+194	211	COG4268	V	5-methylcytosine-specific restriction endonuclease McrBC, regulatory subunit McrC
+34	42	COG4343	V	CRISPR/Cas system-associated exonuclease Cas4, RecB family
+47	61	COG4374	V	PIN domain nuclease, a component of toxin-antitoxin system (PIN domain)
+109	194	COG4403	V	Lantibiotic modifying enzyme
+128	130	COG4452	V	Inner membrane protein CreD involved in colicin E2 resistance
+128	165	COG4461	V	Lysozyme inhibitor LprI
+219	315	COG4679	V X	Phage-related protein gp49, toxin component of the Tad-Ata toxin-antitoxin system
+166	239	COG4680	J V	mRNA-degrading endonuclease (mRNA interferase) HigB, toxic component of the HigAB toxin-antitoxin module
+145	180	COG4691	V	Plasmid stability protein StbC1, contains ribbon-helix-helix domain
+41	47	COG4734	V	Antirestriction protein ArdA
+183	283	COG4767	V	Glycopeptide antibiotics resistance protein
+160	188	COG4823	V	Abortive infection bacteriophage resistance protein
+144	146	COG4832	V T	Cyclopropanoid cyclopropyl hydrolase, GyrI-like domain
+147	418	COG4842	V	Secreted virulence factor YukE/EsxA, WXG100 family
+123	145	COG4845	V	Chloramphenicol O-acetyltransferase
+236	325	COG5340	V	Abortive phage infection protein AbiEi, antitoxin conponent of an AbiEi-AbiEii TA system
+92	134	COG5428	V	Predicted antitoxin component YuzE of a toxin-antitoxin system, DUF2283 family
+127	142	COG5441	V	ATP-binding helicase-inhibiting domain, Tm-1/UPF0261 family
+22	71	COG5444	V	Predicted ribonuclease, toxin component of the YeeF-YezG toxin-antitoxin module
+201	292	COG5499	V	Antitoxin component HigA of the HigAB toxin-antitoxin module, contains an N-terminal HTH domain
+61	61	COG5503	K V	DNA-dependent RNA polymerase auxiliary subunit epsilon
+122	178	COG5551	V	CRISPR/Cas system endoribonuclease Cas6, RAMP superfamily
+156	212	COG5606	V	Antitoxin component of the Tad-Ata toxin-antitoxin system, contains XRE-type HTH domain
+131	150	COG5608	V	Dessication stress tolerance protein, LEA/WHy domain
+153	211	COG5642	V	Predicted antitoxin component of a toxin-antitoxin system, contains Xre-type HTH domain
+169	238	COG5654	V	Predicted toxin component of a toxin-antitoxin system, contains RES domain
+122	132	COG5658	V	Bacterial immunity/signal transduction membrane protein SdpI, SdpI/YbgB/DUF1648 family
+25	25	COG5930	V	CRISPR-Cas system type I-D effector complex large subunit Cas10d/Csc3, contains HD superfamily nuclease domain
+6	6	COG5931	V	CRISPR-Cas system type-V protein Cas12a
+49	54	COG5932	V	CRISPR-Cas type I-F system-associated endonuclease/helicase Cas3f, fused to Cas2 domain
+50	52	COG5933	V	CRISPR-Cas system type I-F effector complex subunit Cas5f/Csy2, RAMP superfamily
+134	149	COG5934	V	CRISPR-Cas system endoribonuclease Cas6e, RAMP superfamily
+49	50	COG5935	V	CRISPR-Cas system endoribonuclease Cas6f/Csy4, RAMP superfamily
+50	52	COG5936	V	CRISPR-Cas system type I-F effector complex subunit Cas7f/Csy3, RAMP superfamily
+8	8	COG5937	V	CRISPR-Cas system type I-A effector complex large subunit Cas8a4
+71	78	COG5938	V	CRISPR-Cas system type I-B effector complex large subunit Cas8b1
+42	44	COG5939	V	CRISPR-Cas system type I-B effector complex large subunit Cas8b2
+9	10	COG5940	V	CRISPR-Cas system type I-B effector complex large subunit Cas8b3
+117	121	COG5941	V	CRISPR-Cas system type I-C effector complex large subunit Cas8c
+129	142	COG5942	V	CRISPR-Cas system type I-E effector complex large subunit Cas8e
+50	53	COG5943	V	CRISPR-Cas system type I-F effector complex large subunit Cas8f
+24	28	COG5944	V	CRISPR-Cas system type I-G effector complex large subunit Cas8g1
+24	29	COG5945	V	CRISPR-Cas system type I-G effector complex subunit Csb1, RAMP superfamily Cas7 group
+25	34	COG5946	V	CRISPR-Cas system type I-G effector complex subunit Csb5, RAMP superfamily Cas5 group
+34	35	COG5947	V	CRISPR-Cas system type I-D effector complex subunit Csc1, RAMP superfamily Cas5 group
+43	44	COG5948	V	CRISPR-Cas system type I-D effector complex subunit Csc2, RAMP superfamily Cas7 group
+128	135	COG5949	V	CRISPR-Cas system type I-E effector complex small subunit Cse2
+42	47	COG5950	V	CRISPR-Cas system type II-D effector complex subunit Csx10, RAMP superfamily Cas5 group

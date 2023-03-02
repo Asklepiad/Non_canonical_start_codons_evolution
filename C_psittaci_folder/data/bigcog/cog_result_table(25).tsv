@@ -1,0 +1,560 @@
+Organism	Protein	COG	Cat	Annotation
+931	2394	COG0110	R	Acetyltransferase, isoleucine patch superfamily
+430	538	COG0121	R	Predicted glutamine amidotransferase YafJ
+1050	5430	COG0300	R	Short-chain dehydrogenase
+735	1864	COG0312	R	Zn-dependent protease PmbA/TldA or its inactivated homolog
+640	903	COG0384	R	Predicted epimerase YddE/YHI9, PhzF superfamily
+623	907	COG0385	R	Predicted Na+-dependent transporter YfeH
+686	995	COG0400	R	Predicted esterase
+934	2518	COG0402	F R	Cytosine/adenosine deaminase or related metal-dependent hydrolase
+378	403	COG0429	R	Predicted hydrolase of the alpha/beta-hydrolase fold
+71	77	COG0454	K R	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)
+867	4828	COG0457	R	Tetratricopeptide (TPR) repeat
+514	1465	COG0477	G E P R	MFS family permease, includes anhydromuropeptide permease AmpG
+1100	4204	COG0488	R	ATPase components of ABC transporters with duplicated ATPase domains
+1216	6424	COG0491	R	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II
+1026	2303	COG0493	E R	NADPH-dependent glutamate synthase beta chain or related oxidoreductase
+102	110	COG0500	Q R	SAM-dependent methyltransferase
+688	1533	COG0523	R	Zinc metallochaperone YeiR/ZagA and related GTPases, G3E family
+1278	2350	COG0537	F R	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family
+939	2463	COG0561	H R	Hydroxymethylpyrimidine pyrophosphatase and other HAD family phosphatases
+1186	13171	COG0596	H R	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH and related esterases, alpha/beta hydrolase fold
+787	1529	COG0599	R	Uncharacterized conserved protein YurZ, alkylhydroperoxidase/carboxymuconolactone decarboxylase family
+944	4956	COG0604	C R	NADPH:quinone reductase or related Zn-dependent oxidoreductase
+1032	2759	COG0612	R	Predicted Zn-dependent peptidase, M16 family
+785	1362	COG0622	R	Predicted phosphodiesterase, calcineurin family
+1200	3265	COG0628	R	Predicted PurR-regulated permease PerM
+414	530	COG0645	R	Predicted kinase, contains AAA domain
+925	1378	COG0663	R	Carbonic anhydrase or acetyltransferase, isoleucine patch superfamily
+997	4764	COG0667	H R	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family
+1053	6984	COG0673	R	Predicted dehydrogenase
+820	1444	COG0679	R	Predicted permease, AEC (auxin efflux carrier) family
+1173	7837	COG0697	G E R	Permease of the drug/metabolite transporter (DMT) superfamily
+825	2674	COG0702	R	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains
+1103	3998	COG0714	R	MoxR-like ATPase
+490	752	COG0727	R	Uncharacterized protein YkgJ, contains CxxCxxCC motif
+485	789	COG0733	R	Na+-dependent transporter, SNF family
+567	1886	COG0790	R	TPR repeat
+397	426	COG0857	R	BioD-like N-terminal domain of phosphotransacetylase
+104	104	COG1031	R	Radical SAM superfamily enzyme with C-terminal helix-hairpin-helix motif
+792	2529	COG1032	R	Radical SAM superfamily enzyme YgiQ, UPF0313 family
+456	911	COG1033	R	Predicted exporter protein, RND superfamily
+1101	1179	COG1040	R	DNA utilization protein ComFC/GntX, contains phosphoribosyltransferase domain
+886	1756	COG1052	C H R	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase
+945	3242	COG1063	E R	Threonine dehydrogenase or related Zn-dependent dehydrogenase
+416	497	COG1078	R	HD superfamily phosphohydrolase
+109	110	COG1084	R	GTP-binding protein, GTP1/Obg family
+592	702	COG1090	R	NAD dependent epimerase/dehydratase family enzyme
+176	234	COG1098	R	Predicted RNA-binding protein, contains ribosomal protein S1 (RPS1) domain
+133	143	COG1099	R	Predicted metal-dependent hydrolase, TIM-barrel fold
+163	291	COG1100	R	GTPase SAR1 family domain
+234	275	COG1101	R	ABC-type uncharacterized transport system, ATPase component
+226	327	COG1106	R	ATPase/GTPase, AAA15 family
+640	1354	COG1122	P R	Energy-coupling factor transporter ATP-binding protein EcfA2
+385	917	COG1149	R	MinD superfamily P-loop ATPase, contains an inserted ferredoxin domain
+492	591	COG1168	E R	Bifunctional PLP-dependent enzyme with beta-cystathionase and maltose regulon repressor activities
+1150	1961	COG1181	M R	D-alanine-D-alanine ligase or related ATP-grasp enzyme
+111	128	COG1223	R	Predicted ATPase, AAA+ superfamily
+250	327	COG1237	R	Metal-dependent hydrolase, beta-lactamase superfamily II
+301	318	COG1242	R	Radical SAM superfamily enzyme
+1112	2529	COG1253	R	Hemolysin-related protein, contains CBS domains, UPF0053 family
+55	55	COG1255	R	Predicted small methyltransferase MTH1000, UPF0146 family
+478	511	COG1259	R	Bifunctional DNase/RNase
+212	287	COG1288	R	Predicted membrane transporter YfcC, affects glyoxylate shunt
+232	300	COG1297	R	Predicted oligopeptide transporter, OPT family
+765	1246	COG1304	C I R	FMN-dependent dehydrogenase, includes L-lactate dehydrogenase and type II isopentenyl diphosphate isomerase
+93	103	COG1306	R	Predicted glycosyl hydrolase, alpha amylase family
+176	188	COG1313	R	Radical SAM superfamily enzyme PflX
+74	76	COG1326	R	Uncharacterized archaeal Zn-finger protein
+582	838	COG1331	R	Uncharacterized conserved protein YyaL, SSP411 family, contains thoiredoxin and six-hairpin glycosidase-like domains
+288	302	COG1334	R	Uncharacterized conserved protein, FlaG/YvyC family
+1019	2871	COG1335	H R	Nicotinamidase-related amidase
+188	235	COG1342	R	Predicted DNA-binding protein, UPF0251 family
+285	317	COG1355	R	Predicted class III extradiol dioxygenase, MEMO1 family
+142	277	COG1361	R	S-layer protein MJ0795, predicted component of type IV pili-like system
+14	15	COG1365	R	Predicted ATPase, PP-loop superfamily
+371	1002	COG1373	R	Predicted ATPase, AAA+ superfamily
+157	171	COG1379	R	PHP family phosphoesterase with a Zn ribbon
+396	472	COG1380	R	Putative effector of murein hydrolase LrgA, UPF0299 family
+623	1005	COG1387	E R	Histidinol phosphatase or related hydrolase of the PHP family
+335	394	COG1407	R	Metallophosphoesterase superfamily enzyme
+666	1001	COG1408	R	Predicted phosphohydrolase, MPP superfamily
+85	85	COG1411	R	Uncharacterized conserved protein related to proFAR isomerase (HisA)
+440	1525	COG1413	R	HEAT repeat
+713	1161	COG1418	J R	HD superfamily phosphodieaserase, includes HD domain of RNase Y
+669	975	COG1432	R	NYN domain, predicted PIN-related RNAse, tRNA/rRNA maturation
+216	237	COG1437	T R	Adenylate cyclase class IV, CYTH domain (includes archaeal enzymes of unknown function)
+795	1012	COG1451	R	UTP pyrophosphatase, metal-dependent hydrolase family
+226	429	COG1453	R	Predicted oxidoreductase of the aldo/keto reductase family
+65	65	COG1458	R	Predicted RNase MK1237, contains PIN domain, UPF0278 family
+309	333	COG1461	R	Predicted kinase related to dihydroxyacetone kinase
+879	2322	COG1473	R	Metal-dependent amidase/aminoacylase/carboxypeptidase
+127	154	COG1483	R	Predicted ATPase, AAA+ superfamily
+128	129	COG1491	R	Predicted nucleic acid-binding OB-fold protein
+44	50	COG1532	R	Predicted RNA-binding protein
+302	821	COG1545	R	Uncharacterized OB-fold protein, contains Zn-ribbon domain
+178	203	COG1563	R	Uncharacterized MnhB-related membrane protein, DUF4040 domain
+454	458	COG1565	R	SAM-dependent methyltransferase, MidA family
+233	380	COG1569	R	Predicted nucleic acid-binding protein, contains PIN domain
+606	1123	COG1574	R	Predicted amidohydrolase YtcJ
+466	494	COG1579	R	Predicted nucleic acid-binding protein DR0291, contains C4-type Zn-ribbon domain
+779	1437	COG1597	I R	Phosphatidylglycerol kinase, diacylglycerol kinase family
+329	348	COG1606	R	ATP-utilizing enzyme, PP-loop superfamily
+810	816	COG1610	R	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity
+14	14	COG1627	R	Uncharacterized conserved protein MJ0835, predicted component of type IV pili-like system, DUF1515 family
+129	131	COG1628	R	Endonuclease V homolog, UPF0215 family
+113	114	COG1645	R	Uncharacterized Zn-finger containing protein, UPF0148 family
+206	211	COG1656	R	Uncharacterized conserved protein, contains PIN-related Mut7-C RNAse domain
+254	287	COG1661	R	Predicted DNA-binding protein with PD1-like DNA-binding motif, PPC/DUF296 domain
+57	65	COG1665	R	Predicted nucleotidyltransferase AF1967
+467	1236	COG1669	R	Predicted nucleotidyltransferase MJ0435
+204	445	COG1672	R	Predicted ATPase, archaeal AAA+ ATPase superfamily
+42	47	COG1673	R	Predicted RNA-binding protein, contains PUA-like EVE domain
+29	32	COG1689	R	Class II terpene cyclase family protein AF1543
+33	36	COG1707	R	Uncharacterized protein, contains ACT and PBP-like DUF5612 domains, MJ1458 family
+214	386	COG1708	R	Predicted nucleotidyltransferase, MJ0604 family
+20	27	COG1710	R	Predicted DNA-binding protein MJ1475, contains C-terminal HTH domain
+257	269	COG1713	T R	Diadenosine tetraphosphatase YqeK or a related HD superfamily phosphohydrolase
+189	302	COG1719	R	Predicted hydrocarbon binding protein, contains 4VR domain
+302	586	COG1724	R	Predicted RNA binding protein YcfA, dsRBD-like fold, HicA-like mRNA interferase family
+141	183	COG1735	R	Predicted metal-dependent hydrolase, phosphotriesterase family
+751	752	COG1739	R	Putative translation regulator, IMPACT (imprinted ancient) protein family
+784	1585	COG1741	R	Redox-sensitive bicupin YhaK, pirin superfamily
+325	361	COG1742	R	Uncharacterized inner membrane protein YnfA, drug/metabolite transporter superfamily
+51	64	COG1750	R	Predicted archaeal serine protease, S18 family
+833	1953	COG1752	R	Predicted acylesterase/phospholipase RssA, containd patatin domain
+808	1368	COG1765	R	Uncharacterized OsmC-related protein
+99	101	COG1768	R	Predicted phosphohydrolase, DR1119 family, metallophosphatase superfamily
+573	623	COG1778	M R	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC and related HAD superfamily phosphatases
+66	66	COG1779	R	C4-type Zn-finger protein
+220	247	COG1782	R	Predicted metal-dependent RNase, contains metallo-beta-lactamase and KH domains
+77	80	COG1784	R	TctA family transporter
+418	531	COG1785	P R	Alkaline phosphatase
+11	16	COG1800	R	Predicted transglutaminase-like protease, UPF0252 family
+579	811	COG1801	R	Sugar isomerase-related protein YecE, UPF0759/DUF72 family
+92	126	COG1817	R	Predicted glycosyltransferase
+91	91	COG1831	R	Predicted metal-dependent hydrolase, urease superfamily
+645	684	COG1832	R	Predicted CoA-binding protein
+159	160	COG1833	R	Uri superfamily endonuclease
+185	186	COG1836	R	Cytidylyltransferase family enzyme
+521	544	COG1837	R	Predicted RNA-binding protein YlqC, contains KH domain, UPF0109 family
+489	516	COG1847	R	Predicted RNA-binding protein Jag (SpoIIIJ-associated), conains KH and R3H domains
+106	117	COG1852	R	Predicted redox protein with CxxCxxC motif, DUF116 family
+56	59	COG1856	R	Uncharacterized conserved protein, radical SAM superfamily
+267	458	COG1873	R	Sporulation protein YlmC, YlmC/YmxH family, contains PRC-barrel domain
+479	497	COG1875	R	Predicted ribonuclease YlaK, contains NYN-type RNase and PhoH-family ATPase domains
+594	777	COG1881	R	Uncharacterized conserved protein, phosphatidylethanolamine-binding protein (PEBP) family
+525	667	COG1896	F R	5'-deoxynucleotidase YfbR and related HD superfamily hydrolases
+47	49	COG1906	R	Predicted GntP-related membrane permease AF0261, DUF401 family
+125	152	COG1913	R	Predicted Zn-dependent protease
+1050	3895	COG1917	R	Cupin domain protein related to quercetin dioxygenase
+313	383	COG1926	R	Predicted phosphoribosyltransferase
+102	102	COG1931	R	Predicted RNA binding protein with dsRBD fold, UPF0201 family
+216	304	COG1938	R	Predicted ATP-dependent carboligase, ATP-grasp superfamily
+176	190	COG1963	R	Acid phosphatase family membrane protein YuiD
+85	88	COG1978	R	Predicted RNase H-related nuclease YkuK, DUF458 family
+353	440	COG1988	R	Membrane-bound metal-dependent hydrolase YbcI, DUF457 family
+7	11	COG1991	R	Uncharacterized conserved protein MJ0832_1, predicted component of type IV pili-like system, UPF0333 family
+116	183	COG1992	R	Predicted transcriptional regulator fused phosphomethylpyrimidine kinase (thiamin biosynthesis)
+46	51	COG2000	R	Uncharacterized Fe-S cluster-containing protein
+6	6	COG2028	R	ASCH domain, putative RNA-binding protein, DUF365 family
+158	211	COG2044	R	Predicted peroxiredoxin, DsrE/DsrF-like family
+131	147	COG2047	R	Proteasome assembly chaperone (PAC2) family protein
+162	169	COG2061	R	Uncharacterized conserved protein, contains ACT domain
+793	1648	COG2070	R	NAD(P)H-dependent flavin oxidoreductase YrpB, nitropropane dioxygenase family
+339	357	COG2078	R	Predicted RNA modification protein, AMMECR1 domain
+771	999	COG2081	R	Predicted flavoprotein YhiN
+355	618	COG2085	R	Predicted dinucleotide-binding enzyme
+39	40	COG2100	R	Uncharacterized Fe-S cluster-containing enzyme, radical SAM superfamily
+85	85	COG2106	R	Predicted RNA methylase MTH1, SPOUT superfamily
+123	127	COG2118	R	DNA-binding TFAR19-related protein, PDSD5 family
+350	425	COG2119	R	Putative Ca2+/H+ antiporter, TMEM165/GDT1 family
+323	458	COG2129	R	Predicted phosphoesterase, related to the Icc protein
+394	544	COG2130	Q R	NADPH-dependent curcumin reductase CurA
+731	5205	COG2141	H R	Flavin-dependent oxidoreductase, luciferase family (includes alkanesulfonate monooxygenase SsuD and methylene tetrahydromethanopterin reductase)
+102	110	COG2144	R	Selenophosphate synthetase-related protein
+82	89	COG2150	R	Predicted regulator of amino acid metabolism, contains ACT domain
+678	1004	COG2153	R	Predicted N-acyltransferase, GNAT family
+78	87	COG2158	R	Uncharacterized conserved protein, contains a Zn-finger-like domain
+68	77	COG2164	R	Uncharacterized protein with cyclophilin fold, contains DUF369 domain
+86	86	COG2178	R	Predicted RNA- or ssDNA-binding protein, translin family
+226	232	COG2179	R	Predicted phosphohydrolase YqeG, HAD superfamily
+240	266	COG2187	R	Aminoglycoside phosphotransferase family enzyme
+233	342	COG2192	R	Predicted carbamoyl transferase, NodU family
+48	51	COG2248	R	Predicted hydrolase, metallo-beta-lactamase superfamily
+480	920	COG2249	R	Putative NADPH-quinone reductase (modulator of drug activity B)
+180	200	COG2251	R	Predicted nuclease, RecB family
+485	685	COG2261	R	Uncharacterized membrane protein YeaQ/YmgE, transglycosylase-associated protein family
+163	176	COG2263	R	Predicted RNA methylase
+518	581	COG2270	R	MFS-type transporter involved in bile tolerance, Atg22 family
+205	205	COG2302	R	RNA-binding protein YlmH, contains S4-like domain
+648	2262	COG2303	I R	Choline dehydrogenase or related flavoprotein
+327	531	COG2304	R	Secreted protein containing bacterial Ig-like domain and vWFA domain
+79	98	COG2306	R	Predicted RNA-binding protein, associated with RNAse of E/G family, DUF402 domain
+459	688	COG2308	R	Circularly permuted ATP-grasp protein
+231	286	COG2314	R	Uncharacterized membrane protein YozV, TM2 domain, contains pTyr
+188	201	COG2316	R	Predicted hydrolase, HD superfamily
+422	2074	COG2319	R	WD40 repeat
+284	359	COG2320	R	GrpB domain, predicted nucleotidyltransferase, UPF0157 family
+451	597	COG2321	R	Predicted metalloprotease
+516	704	COG2331	R	Predicted nucleic acid-binding protein, contains Zn-ribbon domain
+381	769	COG2335	R	Uncaracterized surface protein containing fasciclin (FAS1) repeats
+594	1091	COG2340	D R	Spore germination protein YkwD and related proteins with CAP (CSP/antigen 5/PR1) domain
+621	901	COG2350	Q R	YciI superfamily enzyme, includes 5-CHQ dehydrochlorinase, contains active-site pHis
+655	1435	COG2353	R	Polyisoprenoid-binding periplasmic protein YceI
+431	941	COG2358	R	TRAP-type uncharacterized transport system, periplasmic component
+441	638	COG2373	R	Uncharacterized conserved protein YfaS, alpha-2-macroglobulin family
+432	585	COG2374	R	Predicted extracellular nuclease
+35	36	COG2380	R	NurA-like predicted nuclease, RNAse H fold
+469	637	COG2388	R	Predicted acetyltransferase, GNAT superfamily
+369	496	COG2391	R	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains
+41	44	COG2401	R	ABC-type ATPase fused to a predicted acetyltransferase domain
+125	243	COG2402	R	Predicted nucleic acid-binding protein, contains PIN domain
+127	221	COG2405	R	Predicted nucleic acid-binding protein, contains PIN domain
+242	829	COG2409	R	Predicted lipid transporter YdfJ, MMPL/SSD domain, RND superfamily
+52	52	COG2410	R	Predicted nuclease (RNAse H fold)
+51	65	COG2411	R	Predicted RNA-binding protein, contains PUA-like ASCH domain
+31	32	COG2413	R	Predicted nucleotidyltransferase
+99	100	COG2433	R	Possible nuclease of RNase H fold, RuvC/YqgF family
+29	31	COG2441	R	Predicted butyrate kinase, DUF1464 family
+186	293	COG2445	R	Uncharacterized HEPN domain protein YutE, UPF0331/DUF86 family
+64	65	COG2454	R	Predicted nuclease, contains PIN domain
+126	144	COG2461	R	Uncharacterized conserved protein AF0170, contains SAB, hemerythrin HHE, and PAS domains
+132	142	COG2503	R	Predicted secreted acid phosphatase
+443	512	COG2509	R	FAD-dependent dehydrogenase
+131	339	COG2512	R	Predicted transcriptional regulator, contains CW (cell wall-binding) repeats and an HTH domain
+141	154	COG2516	R	Biotin synthase-related protein, radical SAM superfamily
+19	19	COG2517	R	Predicted RNA-binding protein, contains C-terminal EMAP domain
+57	61	COG2521	R	Predicted archaeal methyltransferase
+127	151	COG2605	R	Predicted kinase related to galactokinase and mevalonate kinase
+394	399	COG2607	R	Predicted ATPase, AAA+ superfamily
+231	233	COG2715	R	Spore maturation protein SpmA (function unknown)
+336	343	COG2718	R	Uncharacterized conserved protein YeaH/YhbH, required for sporulation, DUF444 family
+589	588	COG2740	R	Nucleoid-associated protein YlxR, Predicted RNA-binding, DUF448 family
+309	509	COG2819	R	Predicted hydrolase of the alpha/beta superfamily
+523	539	COG2824	R	Uncharacterized Zn-ribbon-containing protein
+26	73	COG2880	R	Predicted DNA-binding protein, potential antitoxin AbrB/MazE fold
+41	56	COG2881	R	GTPase-interacting Yip1 domain
+88	163	COG2886	R	Predicted antitoxin, contains HTH domain
+181	222	COG2888	R	Predicted RNA-binding protein involved in translation, contains Zn-ribbon domain, DUF1610 family
+328	380	COG2907	R	Predicted flavin-containing amine oxidase
+393	608	COG2910	R	Putative NADH-flavin reductase
+401	762	COG2936	R	Predicted acyl esterase
+201	264	COG2940	R	SET domain-containing protein (function unknown)
+450	515	COG2945	R	Alpha/beta superfamily hydrolase
+448	454	COG2947	R	Predicted RNA-binding protein, contains EVE domain
+272	292	COG2954	R	CYTH domain, found in class IV adenylate cyclase and various triphosphatases
+271	271	COG2959	R	Proteobacterial HemX domain, involved in 2-ketogluconate production (unrelated to B. subtilis HemX, COG0755, no evidence of involvement in heme biosynthesis)
+486	560	COG2962	R	Membrane protein RarD, contains two EamA domains, drug/metabolite transporter family
+325	325	COG2983	R	Uncharacterized cysteine cluster protein YcgN, CxxCxxCC family
+387	707	COG2984	R	ABC-type uncharacterized transport system, periplasmic component
+241	343	COG2985	R	Uncharacterized membrane protein YbjL, putative transporter
+134	156	COG2992	R	Uncharacterized FlgJ-related protein
+298	298	COG2996	R	Predicted RNA-binding protein YitL, contains S1 domains, virulence factor B family
+448	538	COG3011	R	Predicted thiol-disulfide oxidoreductase YuxK, DCC family
+251	270	COG3016	R	Putative heme-binding protein PhuW
+336	411	COG3021	R	Uncharacterized conserved protein YafD, endonuclease/exonuclease/phosphatase (EEP) superfamily
+478	480	COG3030	R	FxsA protein affecting phage T7 exclusion by the F plasmid, UPF0716 family
+105	141	COG3042	R	Putative hemolysin
+118	119	COG3044	R	Predicted ATPase of the ABC class
+282	289	COG3046	R	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase
+220	311	COG3049	M R	Penicillin V acylase or related amidase, Ntn superfamily
+76	89	COG3054	R	Predicted transcriptional regulator YtfJ
+234	241	COG3091	R	Predicted Zn-dependent metalloprotease, SprT family
+79	81	COG3102	R	Uncharacterized conserved protein YecM, predicted metalloenzyme
+391	591	COG3103	R	Uncharacterized conserved protein YgiM, contains N-terminal SH3 domain, DUF1202 family
+261	327	COG3128	R	Predicted 2-oxoglutarate- and Fe(II)-dependent dioxygenase YbiX
+386	428	COG3146	R	Predicted N-acyltransferase
+248	305	COG3150	R	Predicted esterase YcpF, UPF0227 family
+738	1503	COG3153	R	Predicted N-acetyltransferase YhbS
+521	1241	COG3173	R	Predicted kinase, aminoglycoside phosphotransferase (APT) family
+476	634	COG3176	R	Putative hemolysin
+421	422	COG3178	R	Predicted phosphotransferase, aminoglycoside/choline kinase (APH/ChoK) family
+269	341	COG3180	R	Uncharacterized membrane protein AbrB, regulator of aidB expression
+577	822	COG3185	E R	4-hydroxyphenylpyruvate dioxygenase and related hemolysins
+25	27	COG3196	R	Colicin E2 tolerance protein CbrC, UPF0167 family
+85	108	COG3204	R	Uncharacterized Ca-binding beta-propeller protein YjiK
+397	1456	COG3209	R	Uncharacterized conserved protein RhaS, contains 28 RHS repeats
+414	581	COG3211	R	Secreted phosphatase, PhoX family
+227	235	COG3218	R	ABC-type uncharacterized transport system, auxiliary component
+126	129	COG3223	R	Phosphate starvation-inducible membrane PsiE (function unknown)
+148	175	COG3224	R	Antibiotic biosynthesis monooxygenase (ABM) superfamily enzyme
+84	90	COG3233	R	Predicted deacetylase
+397	516	COG3247	R	Acid resistance membrane protein HdeD, DUF308 family
+112	311	COG3269	R	Predicted RNA-binding protein, contains TRAM domain
+146	191	COG3273	R	Uncharacterized protein, contains PhoU and TrkA_C domains
+111	119	COG3294	R	Metal-dependent phosphatase/phosphodiesterase, HD supefamily
+230	297	COG3296	R	Uncharacterized Tic20-related protein, DUF4870 domain
+321	442	COG3313	R	Predicted Fe-S protein YdhL, DUF1289 family
+615	1689	COG3324	R	Lactoylglutathione lyase-related enzyme, vicinal oxygen chelate (VOC) family
+101	116	COG3331	R	Penicillin-binding protein-related factor A, putative recombinase
+260	261	COG3332	R	Uncharacterized stress-responsive protein, TANGO2 (Transport and Golgi organisation 2) family, contains NRDE motif
+332	983	COG3333	R	TctA family transporter
+116	120	COG3341	R	Ribonuclease HI-related protein, contains viroplasmin and RNaseH domains
+220	255	COG3342	R	Uncharacterized conserved protein, Ntn-hydrolase superfamily
+239	372	COG3349	R	Uncharacterized protein, contains NAD-binding domain and a Fe-S cluster
+206	219	COG3359	R	Uncharacterized conserved protein YprB, contains RNaseH-like and TPR domains
+291	343	COG3360	R	Flavin-binding protein dodecin
+61	61	COG3364	R	Predicted nucleic acid-binding protein, contains Zn-ribbon domain
+205	232	COG3367	R	Uncharacterized conserved protein, NAD-dependent epimerase/dehydratase family
+13	15	COG3368	R	Predicted permease
+70	89	COG3370	R	Uncharacterized conserved protein AF1964, DsrE/DsrF-like family
+110	124	COG3372	R	Predicted nuclease of restriction endonuclease-like (RecB) superfamily, implicated in nucleotide excision repair
+84	104	COG3375	R	Predicted acetyltransferase, GNAT superfamily
+125	257	COG3379	R	Predicted phosphohydrolase or phosphomutase, AlkP superfamily
+209	219	COG3380	R	Predicted NAD/FAD-dependent oxidoreductase
+190	225	COG3382	R	B3/B4 domain (DNA/RNA-binding domain of Phe-tRNA-synthetase)
+757	1446	COG3383	R	Predicted molibdopterin-dependent oxidoreductase YjgC
+645	1731	COG3391	R	DNA-binding beta-propeller fold protein YncE
+372	635	COG3393	R	Predicted acetyltransferase, GNAT family
+110	225	COG3397	R	Predicted carbohydrate-binding protein, contains CBM5 and CBM33 domains
+19	19	COG3400	R	Uncharacterized protein AQ_414, contains TrkA and USP-like domains
+133	179	COG3401	R	Fibronectin type 3 domain
+69	1012	COG3413	R	Predicted transcriptional regulator, contains HTH domain
+218	219	COG3442	R	Glutamine amidotransferase related to the GATase domain of CobQ
+233	359	COG3450	R	Predicted enzyme of the cupin superfamily
+241	329	COG3453	R	Predicted phosphohydrolase, protein tyrosine phosphatase (PTP) superfamily, DUF442 family
+73	75	COG3478	R	Predicted nucleic-acid-binding protein, contains Zn-ribbon domain
+209	289	COG3488	R	Uncharacterized conserved protein with two CxxC motifs, DUF1111 family
+175	196	COG3489	R	Imelysin-like iron-regulated protein IrpA, duplicated M75 peptidase-like domain
+309	991	COG3501	U X R	Uncharacterized conserved protein VgrG, implicated in type VI secretion and phage assembly
+204	205	COG3526	R	Predicted selenoprotein, Rdx family
+119	117	COG3529	R	Predicted nucleic-acid-binding protein, contains Zn-ribbon domain
+184	242	COG3541	R	Predicted nucleotidyltransferase YcgL
+282	295	COG3542	R	Predicted sugar epimerase, cupin superfamily
+262	356	COG3545	R	Predicted esterase of the alpha/beta hydrolase fold
+109	120	COG3560	R	Fatty acid repression mutant protein (predicted oxidoreductase)
+208	228	COG3565	R	Predicted dioxygenase of extradiol dioxygenase family
+738	1455	COG3568	R	Metal-dependent hydrolase, endonuclease/exonuclease/phosphatase family
+193	200	COG3571	R	Predicted hydrolase of the alpha/beta-hydrolase fold
+154	180	COG3573	R	Predicted oxidoreductase
+354	563	COG3576	R	Predicted flavin-nucleotide-binding protein, pyridoxine 5'-phosphate oxidase superfamily
+312	447	COG3577	R	Predicted aspartyl protease
+187	256	COG3580	R	Predicted nucleotide-binding protein, sugar kinase/HSP70/actin superfamily
+182	252	COG3581	R	Predicted nucleotide-binding protein, sugar kinase/HSP70/actin superfamily
+72	73	COG3586	R	Uncharacterized protein domain, C-terminal to COG1479 DNAse/DNA nickase
+154	207	COG3596	R	Predicted GTPase
+337	488	COG3607	R	Lactoylglutathione lyase-related enzyme, vicinal oxygen chelate (VOC) family
+453	782	COG3608	R	Predicted deacylase
+358	691	COG3618	R	Predicted metal-dependent hydrolase, TIM-barrel fold
+138	186	COG3621	R	Patatin-like phospholipase/acyl hydrolase, includes sporulation protein CotR
+425	891	COG3631	R	Ketosteroid isomerase-related protein
+161	168	COG3683	R	ABC-type uncharacterized transport system, periplasmic component
+82	199	COG3687	R	Predicted metal-dependent hydrolase
+191	253	COG3694	R	ABC-type uncharacterized transport system, permease component
+49	50	COG3700	P R	Acid phosphatase, class B
+60	102	COG3729	R	General stress protein YciG, contains tandem KGG domains
+181	203	COG3752	R	Steroid 5-alpha reductase family enzyme
+143	160	COG3760	R	Predicted aminoacyl-tRNA deacylase, YbaK-like aminoacyl-tRNA editing domain
+260	382	COG3800	R	Predicted transcriptional regulator
+207	257	COG3809	R	Predicted nucleic acid-binding protein, contains Zn-finger domain
+51	56	COG3818	R	Predicted N-acetyltransferase, GNAT superfamily
+220	556	COG3828	R	Type 1 glutamine amidotransferase (GATase1)-like domain
+158	178	COG3864	R	Predicted metal-dependent peptidase
+347	435	COG3865	R	Glyoxalase superfamily enzyme, possible 3-demethylubiquinone-9 3-methyltransferase
+58	64	COG3889	R	Extracellular solute-binding protein, contains Ig-fold domain
+328	1605	COG3899	R	Predicted ATPase
+163	871	COG3903	R	Predicted ATPase
+127	138	COG3907	R	Membrane-associated enzyme, PAP2 (acid phosphatase) superfamily
+164	185	COG3910	R	Predicted ATPase
+149	167	COG3911	R	Predicted ATPase
+214	262	COG3919	R	Predicted ATP-dependent carboligase, ATP-grasp superfamily
+149	197	COG3926	R	Lysozyme family protein
+200	257	COG3945	R	Hemerythrin domain
+187	287	COG3950	R	Predicted ATP-binding protein involved in virulence
+128	135	COG3952	R	Uncharacterized N-terminal domain of lipid-A-disaccharide synthase
+882	915	COG3956	R	Uncharacterized conserved protein YabN, contains tetrapyrrole methylase and MazG-like pyrophosphatase domain
+146	160	COG3961	G H R	TPP-dependent 2-oxoacid decarboxylase, includes indolepyruvate decarboxylase
+124	157	COG3964	R	Predicted amidohydrolase
+49	54	COG3969	R	Predicted phosphoadenosine phosphosulfate sulfurtransferase, contains C-terminal DUF3440 domain
+167	176	COG3970	R	Fumarylacetoacetate (FAA) hydrolase family protein
+338	454	COG3975	R	Predicted metalloprotease, contains C-terminal PDZ domain
+148	301	COG3976	R	Uncharacterized conserved protein, contains FMN-binding domain
+161	188	COG3981	R	Predicted acetyltransferase
+34	34	COG4002	R	Predicted methyltransferase MtxX, methanogen marker protein 4
+9	13	COG4007	R	Predicted dehydrogenase related to H2-forming N5,N10-methylenetetrahydromethanopterin dehydrogenase
+35	35	COG4012	R	Uncharacterized protein, DUF1786 family, actin-like ATPase superfamily
+13	13	COG4015	R	Predicted dinucleotide-utilizing enzyme of the ThiF/HesA family
+27	27	COG4020	R	Predicted ATPase/kinase of ASKHA (acetate and sugar kinases, HSC70, actin) superfamily
+8	8	COG4025	R	Uncharacterized conserved protein MTH423, predicted component of type IV pili-like system, DUF2101 family
+13	13	COG4026	R	Uncharacterized conserved protein, contains TOPRIM domain, potential nuclease
+39	39	COG4028	R	Predicted P-loop ATPase/GTPase
+20	20	COG4030	R	Predicted phosphohydrolase, HAD superfamily
+31	37	COG4043	R	ASC-1 homology (ASCH) domain, predicted RNA-binding domain
+9	9	COG4049	R	Uncharacterized conserved protein, contains archaeal-type C2H2 Zn-finger
+33	36	COG4052	R	Uncharacterized conserved protein related to methyl-CoM reductase subunit C, methanogenesis marker protein 7
+27	33	COG4068	R	Predicted nucleic acid-binding protein, contains Zn-ribbon domain
+33	33	COG4070	R	Cyclophilin family protein MJ1412, methanogenesis marker protein 3
+15	15	COG4071	R	Gamma-glutamyl ligase family protein MJ1361
+58	61	COG4076	R	Predicted RNA methylase
+84	86	COG4087	R	Soluble P-type ATPase
+190	305	COG4099	R	Predicted peptidase
+186	190	COG4100	P R	Cystathionine beta-lyase family protein involved in aluminum resistance
+119	136	COG4101	R	Uncharacterized conserved protein, RmlC-like cupin domain
+43	43	COG4112	R	Predicted phosphoesterase YmaB, NUDIX family
+62	62	COG4116	R	Predicted triphosphatase or cyclase YjbK, contains CYTH domain
+102	107	COG4119	F R	Predicted NTP pyrophosphohydrolase, NUDIX family
+237	283	COG4120	R	ABC-type uncharacterized transport system, permease component
+96	102	COG4127	R	Predicted restriction endonuclease, Mrr-cat superfamily
+31	41	COG4128	R	Zona occludens toxin, predicted ATPase
+116	121	COG4132	R	ABC-type uncharacterized transport system, permease component
+162	185	COG4134	R	ABC-type uncharacterized transport system YnjBCD, periplasmic component
+80	81	COG4135	R	ABC-type uncharacterized transport system YnjBCD, permease component
+81	81	COG4136	R	ABC-type uncharacterized transport system YnjBCD, ATPase component
+365	364	COG4137	R	ABC-type uncharacterized transport system, permease component
+179	323	COG4146	R	Uncharacterized membrane permease YidK, sodium:solute symporter family
+352	473	COG4152	R	ABC-type uncharacterized transport system, ATPase component
+61	62	COG4158	R	Predicted ABC-type sugar transport system, permease component
+217	327	COG4178	R	ABC-type uncharacterized transport system, permease and ATPase components
+147	173	COG4185	R	Predicted ABC-type ATPase or kinase
+81	96	COG4186	R	Uncharacterized conserved protein MJ1445, calcineurin-like phosphoesterase superfamily
+284	498	COG4188	R	Predicted dienelactone hydrolase
+180	221	COG4226	R	Predicted nuclease of the RNAse H fold, HicB family
+91	94	COG4240	R	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)
+201	296	COG4242	Q R	Cyanophycinase and related exopeptidases
+225	262	COG4243	R	Vitamin K epoxide reductase (VKOR) family protein, predicted involvement in disulfide bond formation
+106	134	COG4248	R	Uncharacterized conserved protein YegI with protein kinase and helix-hairpin-helix DNA-binding domains
+228	568	COG4249	R	Uncharacterized conserved protein, contains caspase domain
+213	345	COG4254	R	Uncharacterized peptidoglycan binding protein, contains LysM and FecR domains
+178	183	COG4258	R	Predicted exporter
+176	180	COG4261	R	Predicted acyltransferase, LPLAT superfamily
+194	233	COG4262	R	Predicted spermidine synthase with an N-terminal membrane domain
+82	93	COG4271	R	Predicted nucleotide-binding protein containing TIR -like domain
+264	318	COG4276	R	Ligand-binding SRPBCC domain
+256	258	COG4277	R	Predicted DNA modification or repair protein, contains radical SAM and helix-hairpin-helix domains
+99	108	COG4283	R	Uncharacterized conserved protein DfsB/IRC4, DUF1706 (PF08020) domain
+46	56	COG4285	R	Uncharacterized conserved protein, conains N-terminal glutamine amidotransferase (GATase1)-like domain
+54	57	COG4287	R	PhoPQ-activated pathogenicity-related protein
+66	68	COG4295	R	Predicted RNA repair component, a phosphatase of H2Macro superfamily, DUF2263 family
+141	256	COG4299	R	Predicted acyltransferase, DUF1624 domain
+345	374	COG4301	R	Uncharacterized protein, contains predicted SAM-dependent methyltransferase domain
+152	209	COG4309	R	SirA-like two-layered alpha/beta sandwich domain, DUF2249 family
+50	52	COG4310	R	Uncharacterized conserved protein, cotains an aminopeptidase-like domain
+133	226	COG4312	R	Predicted dithiol-disulfide oxidoreductase, DUF899 family
+390	773	COG4319	R	Ketosteroid isomerase homolog YybH
+179	261	COG4321	R	Predicted DNA-binding protein, contains ribbon-helix-helix (RHH) domain
+91	91	COG4324	R	Predicted aminopeptidase
+61	63	COG4328	R	Predicted nuclease (RNAse H fold)
+199	244	COG4339	R	Predicted metal-dependent phosphohydrolase, HD superfamily
+135	144	COG4340	R	Predicted dioxygenase, 2-oxoglutarate and Fe-dependent (2OG-Fe) dioxygenase superfamily
+104	127	COG4341	R	Predicted HD phosphohydrolase
+26	27	COG4345	R	Predicted DNA binding protein, Pae2254/DUF2258 family
+17	17	COG4353	R	Acetyltransferase superfamily protein, DUF1122 family
+38	43	COG4377	R	Predicted metal-dependent membrane protease YhfC, DUF2324 family
+180	201	COG4405	R	Predicted RNA-binding protein YhfF, contains PUA-like ASCH domain
+414	1011	COG4447	R	Uncharacterized conserved protein related to plant photosystem II stability/assembly factor
+34	40	COG4449	R	Predicted protease, Abi (CAAX) family
+164	218	COG4454	R	Uncharacterized copper-binding protein, cupredoxin-like subfamily
+73	75	COG4455	R	Protein of avirulence locus involved in temperature-dependent protein secretion
+121	129	COG4469	R	Competence protein CoiA, contains predicted nuclease domain
+113	114	COG4492	R	ACT domain-containing protein, UPF0735 family
+193	202	COG4496	R	Predicted DNA-binding transcriptional regulator YerC, contains ArsR-like HTH domain
+240	337	COG4529	R	Uncharacterized NAD(P)/FAD-binding protein YdhS
+71	77	COG4551	R	Predicted protein tyrosine phosphatase
+272	386	COG4552	R	Predicted acetyltransferase
+207	275	COG4586	R	ABC-type uncharacterized transport system, ATPase component
+191	253	COG4587	R	ABC-type uncharacterized transport system, permease component
+204	217	COG4589	R	Predicted CDP-diglyceride synthetase/phosphatidate cytidylyltransferase
+97	97	COG4590	R	ABC-type uncharacterized transport system, permease component
+133	163	COG4627	R	Predicted SAM-depedendent methyltransferase
+107	140	COG4633	R	Plastocyanin domain containing protein
+114	218	COG4634	R	Predicted nuclease, contains PIN domain, potential toxin-antitoxin system component
+238	2887	COG4636	R	Endonuclease, Uma2 family (restriction endonuclease fold)
+317	526	COG4637	R	Predicted ATPase
+465	1707	COG4638	P R	Phenylpropionate dioxygenase or related ring-hydroxylating dioxygenase, large terminal subunit
+198	290	COG4639	R	Predicted kinase
+131	162	COG4645	R	Predicted acyltransferase
+71	76	COG4655	R	Uncharacterized conserved protein, contains TadX/Tad_C domain
+294	604	COG4666	R	TRAP-type uncharacterized transport system, fused permease components
+146	223	COG4671	R	Predicted glycosyl transferase
+279	352	COG4674	R	ABC-type uncharacterized transport system, ATPase component
+103	123	COG4710	R	Predicted DNA-binding protein with an HTH domain
+9	9	COG4740	R	Predicted metalloprotease
+57	92	COG4745	R	Predicted membrane-bound mannosyltransferase, involved in protein glycosylation
+215	264	COG4747	R	ACT domain-containing protein
+129	133	COG4754	R	Extracellular substrate-binding protein
+20	33	COG4756	R	Predicted cation transporter
+156	181	COG4757	R	Predicted alpha/beta hydrolase
+82	111	COG4759	R	Uncharacterized conserved protein, contains thioredoxin-like domain
+150	154	COG4764	R	Predicted transglycosylase, contains SLT domain
+147	223	COG4782	R	Esterase/lipase superfamily enzyme
+143	154	COG4784	R	Putative Zn-dependent protease
+34	41	COG4797	R	Predicted regulatory domain of a methyltransferase
+127	180	COG4798	R	Predicted methyltransferase
+53	58	COG4801	R	Predicted acyltransferase, contains DUF342 domain
+182	292	COG4804	R	Predicted nuclease of restriction endonuclease-like (RecB) superfamily, DUF1016 family
+123	163	COG4821	R	Uncharacterized conserved protein, contains SIS (Sugar ISomerase) phosphosugar binding domain
+122	122	COG4825	R	Uncharacterized conserved protein, contains thiamine pyrophosphokinase N- and C- domains
+23	27	COG4827	R	Predicted transporter
+73	77	COG4848	R	YtpQ protein involved in methylglyoxal resistance, DUF1444/UPF0354 family
+40	41	COG4849	R	Predicted nucleotidyltransferase
+55	59	COG4851	R	Uncharacterized conserved protein involved in sex pheromone biosynthesis
+115	124	COG4880	R	Secreted protein containing C-terminal beta-propeller domain distantly related to WD-40 repeats
+17	20	COG4882	R	Predicted aminopeptidase, Iap family
+125	177	COG4889	R	Predicted helicase
+71	79	COG4892	R	Predicted heme/steroid binding protein
+23	23	COG4900	R	Predicted metallopeptidase
+73	87	COG4902	R	Ferritin-like protein MJ0754, DUF2202 family
+218	468	COG4908	R	Uncharacterized conserved protein, contains a NRPS condensation (elongation) domain
+25	25	COG4914	R	Predicted nucleotidyltransferase
+62	69	COG4915	Q R	5-bromo-4-chloroindolyl phosphatase XpaC
+30	30	COG4918	R	Predicted Fe-S cluster biosynthesis protein YqkB
+152	205	COG4922	R	Predicted SnoaL-like aldol condensation-catalyzing enzyme
+73	77	COG4923	R	Predicted nuclease (RNAse H fold)
+120	143	COG4927	R	Predicted choloylglycine hydrolase
+158	176	COG4928	R	Predicted P-loop ATPase, KAP-like
+125	174	COG4938	R	Predicted ATPase
+97	109	COG4947	R	Esterase/lipase superfamily enzyme
+833	2985	COG4948	M R	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily
+267	267	COG4956	R	Uncharacterized conserved protein YacL, contains PIN and TRAM domains
+305	398	COG4976	R	Predicted methyltransferase, contains TPR repeat
+212	282	COG4980	R	Gas vesicle protein YhaH
+275	281	COG4989	R	Predicted oxidoreductase YdhF
+72	106	COG4990	R	Predicted cysteine peptidase, C39 family
+17	18	COG4996	R	Predicted phosphatase
+86	91	COG4997	R	Predicted house-cleaning noncanonical NTP pyrophosphatase, all-alpha NTP-PPase (MazG) superfamily
+18	23	COG5014	R	Uncharacterized conserved protein TM0948, MoaA-related, radical SAM superfamily
+88	110	COG5015	R	Pyridoxamine 5'-phosphate oxidase (PNPOx-like) family protein
+26	25	COG5119	R	Uncharacterized conserved protein, contains ParB-like nuclease domain
+13	13	COG5207	R	Uncharacterized Zn-finger protein, UBP-type
+48	48	COG5258	R	GTPase
+241	348	COG5266	R	Uncharacterized protein, contains GH25 family domain
+5	5	COG5275	R	BRCT domain type II
+46	50	COG5298	R	Predicted metal-dependent carbohydrate esterase YdaL, contains NodB-like catalytic (CE4) domain
+148	272	COG5305	R	Uncharacterized membrane protein PF0508, contains N-terminal glycosyltransferase domain of PMT family
+57	67	COG5306	R	Uncharacterized conserved protein MJ1470, contains DUF2341 domain, predicted component of type IV pili-like system
+2	2	COG5307	R	Guanine-nucleotide exchange factor YEL1, contains Sec7 domain
+118	123	COG5322	R	Predicted amino acid dehydrogenase
+129	259	COG5342	R	Invasion protein IalB, involved in pathogenesis
+70	85	COG5350	R	Predicted protein tyrosine phosphatase
+192	207	COG5360	R	Uncharacterized conserved protein, heparinase superfamily
+39	57	COG5378	R	Predicted nucleic acid-binding protein, contains PIN domain
+84	86	COG5383	R	Uncharacterized metalloenzyme YdcJ, glyoxalase superfamily
+172	235	COG5426	R	Uncharacterized protein STM3548, contains class I glutamine amidotransferase domain
+70	70	COG5431	R	Predicted nucleic acid-binding protein, contains SWIM-type Zn-finger domain
+27	41	COG5439	R	STAS domain
+174	185	COG5465	R	Uncharacterized conserved protein YbjN, helps stabilize unstable proteins
+163	242	COG5476	R	Microcystin degradation protein MlrC, contains DUF1485 domain
+275	480	COG5485	R	Predicted ester cyclase
+161	400	COG5492	R	Uncharacterized conserved protein YjdB, contains Ig-like domain
+29	66	COG5493	R	Uncharacterized protein, contains PD-(D/E)XK nuclease domain
+343	348	COG5495	R	Predicted oxidoreductase, contains short-chain dehydrogenase (SDR) and DUF2520 domains
+199	218	COG5496	R	Predicted thioesterase
+61	73	COG5504	R	Predicted Zn-dependent protease YjaZ, DUF2268 family
+200	201	COG5512	R	Predicted nucleic acid-binding protein, contains Zn-ribbon domain (includes truncated derivatives)
+174	425	COG5516	R	Uncharacterized conserved protein containing a Zn-ribbon-like motif, possibly RNA-binding
+99	137	COG5519	R	Predicted ATPase domain of Cch-like helicases, DUF927 family
+13	16	COG5526	R	Lysozyme family protein
+124	157	COG5553	R	Predicted metal-dependent enzyme of the double-stranded beta helix superfamily
+87	96	COG5571	R	Uncharacterized conserved protein YhjY, contains autotransporter beta-barrel domain
+113	140	COG5573	R	Predicted nucleic acid-binding protein, contains PIN domain
+35	43	COG5592	R	Hemerythrin domain-containing protein
+35	37	COG5595	R	Predicted nucleic acid-binding protein, contains Zn-ribbon domain
+72	78	COG5610	R	Predicted sugar hydrolase, contains GT1 and HAD domains
+110	138	COG5611	R	Predicted nucleic-acid-binding protein, contains PIN domain
+53	66	COG5617	R	Predicted membrane glycosyltransferase TK1552, contains 6-pyruvoyl-tetrahydropterin synthase (PTPS)-related domain
+175	182	COG5621	R	Predicted lipocalin, contains AttH/CrtC domain
+56	60	COG5628	R	Predicted acetyltransferase
+12	18	COG5643	R	Uncharacterized conserved protein containing a metal-binding domain
+76	86	COG5663	R	Uncharacterized conserved protein YqfW, HAD superfamily
+29	29	COG5877	R	Predicted amidase domain
