@@ -3,15 +3,34 @@
 
 import sys
 import os
+import argparse
+import shutil
 import re
 from tqdm import tqdm
 
-current_path = "../data/multialignments/"
-multialigns = [align for align in os.listdir(current_path) if align[-3:] == "afa"]
+parser = argparse.ArgumentParser()
+
+parser.add_argument("folder_name", type=str)
+parser.add_argument("aligner", type=str)
+
+arguments = parser.parse_args()
+
+folder_name = arguments.folder_name
+aligner = arguments.aligner
+
+if aligner == "prank":
+    num1 = 9
+    word = ".best.fas"
+elif aligner == "muscle":
+    num1 = 4
+    word = ".afa"
+
+current_path = f"../{folder_name}/data/multialignments/"
+multialigns = [align for align in os.listdir(current_path) if align[-num1:] == word]
 
 pattern = r">[\w]+"
 for align in tqdm(multialigns):
-    with open(f"../data/configs/{align[:-4]}.txt", "w") as writed_align:
+    with open(f"../{folder_name}/data/configs/{align[:-num1]}.txt", "w") as writed_align:
         writed_align.write("DATASET_BINARY\n")
         writed_align.write("SEPARATOR COMMA\n")
         writed_align.write("DATASET_LABEL,start codons\n")

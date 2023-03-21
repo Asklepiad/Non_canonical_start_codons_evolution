@@ -5,6 +5,8 @@
 
 import os
 import sys
+import argparse
+import shutil
 import json
 import re
 import numpy as np
@@ -18,6 +20,13 @@ from Bio import Entrez
 from IPython import get_ipython
 Entrez.email = "bogdan.sotnikov.1999@mail.ru"
 
+parser = argparse.ArgumentParser()
+
+parser.add_argument("folder_name", type=str)
+
+arguments = parser.parse_args()
+
+folder_name = arguments.folder_name
 
 # Function for parsing assembly number
 def get_assembly_number(pre_pattern1, string):
@@ -29,9 +38,8 @@ def get_assembly_number(pre_pattern1, string):
 
 
 # Uploading the data 
-#current_path = "../data/C_psittaci_annotate/" # Path directory
-current_path = "../../../C_psittaci/new_ass/C_psittaci/"
-pre_pattern1 = r"C_psittaci" # This pre_pattern1 may be used onle for C_psittaci assembly
+current_path = f"../{folder_name}/data/{folder_name}_annotate/" # Path directory
+pre_pattern1 = f"{folder_name}"
 gb_records= []  # Reasserting the gb_records list
 gbk_files = os.listdir(current_path)
 
@@ -41,15 +49,18 @@ for gbk in tqdm(gbk_files):
     gbk_object = SeqIO.read(link, 'genbank')
     gb_records.append((gbk_object, assembly_number))
 
-
-# ### Creating first table
-
 # Uploading info about which DNA is plasmid
-with open("../data/C_psittaci_plasmid_code.json", "r") as dictionary:
-    plasmid_code = json.load(dictionary)
+with open(f"../{folder_name}/data//{folder_name}_plasmid_code1.json", "r") as tuples:
+    tuples = json.load(tuples)
+with open(f"../{folder_name}/data/{folder_name}_plasmid_code2.json", "r") as dna_type:
+    dna_type = json.load(dna_type)
+tuples = [tuple(x) for x in tuples]
+plasmid_code = dict(zip(tuples, dna_type))
 
 # Parsing
-locus_tag, start_codone, source, n_sequence, aa_sequence, DNA_source, gene_pseudogene, product, cog, p_c_unity, additional_info = [], [], [], [], [], [], [], [], [], [], []
+locus_tag, start_codone, source, n_sequence, aa_sequence, DNA_source, gene_pseudogene, \
+product, cog, p_c_unity, additional_info, first_n, last_n, strand_n, \
+length_n = [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
 for record_number in tqdm(range(len(gb_records))):
     for feature_number in range(1, len(gb_records[record_number][0].features)):
         if gb_records[record_number][0].features[feature_number].type == "CDS":
@@ -67,6 +78,10 @@ for record_number in tqdm(range(len(gb_records))):
             first = gb_records[record_number][0].features[feature_number].location.start
             last = gb_records[record_number][0].features[feature_number].location.end
             strand = gb_records[record_number][0].features[feature_number].location.strand
+            first_n.append(first)
+            last_n.append(last)
+            strand_n.append(strand)
+            length_n.append(last - first)
             if strand == 1:
                 sequence = str(gb_records[record_number][0].seq[first:last])
                 n_sequence.append(sequence)
@@ -83,12 +98,14 @@ for record_number in tqdm(range(len(gb_records))):
                 aa_sequence.append(gb_records[record_number][0].features[feature_number].qualifiers['translation'][0])
             else:
                 aa_sequence.append("absent")
-                
-#             ## Column 5 -- plasmid or chromosome
-#             if plasmid_code[str(gb_records[record_number][1])] == "plasmid":
-#                 DNA_source.append("plasmid")
-#             else:
-#                 DNA_source.append("chromosome")
+            
+            ## Column 5 -- plasmid or chromosome
+            index = re.search(r"[\d]+?_[\d]+$", gb_records[record_number][0].name)
+            pc_key = tuple([int(i) for i in index.group().split("_")])
+            if plasmid_code[pc_key] == "plasmid":
+                DNA_source.append("plasmid")
+            else:
+                DNA_source.append("chromosome")
 
 #             ## Column 6 -- gene or pseudogene
             
@@ -111,7 +128,7 @@ for record_number in tqdm(range(len(gb_records))):
             additional_info.append((record_number, feature_number))
 
 
-C_psittaci_df1 = pd.DataFrame(
+df1 = pd.DataFrame(
     {
         "id": pd.Series(locus_tag),
         "source": pd.Series(source),
@@ -124,6 +141,10 @@ C_psittaci_df1 = pd.DataFrame(
         "cog": pd.Series(cog),
         "p_c_unity": pd.Series(p_c_unity),
         "additional_info": pd.Series(additional_info),
+        "first": pd.Series(first_n),
+        "last": pd.Series(last_n),
+        "strand": pd.Series(strand_n),
+        "length": pd.Series(length_n),
     }
 )
 
@@ -157,16 +178,16 @@ for key in tqdm(cog_dict.keys()):   # Passing over COG categories
             cog_list.append(0)              # Mark it
         else:                               
             cog_list.append(1)              # Else mark another
-    C_psittaci_df1[key] = pd.Series(cog_list)   # Creating 25 new columns
+    df1[key] = pd.Series(cog_list)   # Creating 25 new columns
 
 
 
-C_psittaci_df1.to_csv("../data/First_table.csv", index=False)
+df1.to_csv(f"../{folder_name}/data/First_table.csv", index=False)
 
 
-for source in tqdm(set(C_psittaci_df1["p_c_unity"])):
-    subset = C_psittaci_df1[C_psittaci_df1["p_c_unity"] == source]
-    with open ("../data/orto_rows/C_psittaci" + str(source) + ".fasta", "w") as protein_fasta:
+for source in tqdm(set(df1["p_c_unity"])):
+    subset = df1[df1["p_c_unity"] == source]
+    with open (f"../{folder_name}/data/orto_rows/{folder_name}{str(source)}.fasta", "w") as protein_fasta:
         for index, row in subset.iterrows():
             if row['type_of_the_gene'] != "pseudogene":
                 protein_fasta.write(">")

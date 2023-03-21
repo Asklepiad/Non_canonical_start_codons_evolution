@@ -1,9 +1,19 @@
 # !/bin/bash
 
-mkdir ../evolution_models
-for f in $(ls C_psittaci*.afa); do
-	modeltest-ng static -i ${f} -o ../evolution_models/${f%.afa}modeltest;
-done
+input=$1
+radiobutton=$2
 
 
-#modeltest-ng static -i C_psittaci_non_uni2_736.afa -o C_psittaci_non_uni2_736.afa_modeltest
+if [[ radiobutton=="prank" ]]
+then
+	for f in $(ls ../${input}/data/multialignments/*_prank.best.fas); do
+		g=${f#../${input}/data/multialignments/};
+        	modeltest-ng static -i ${f} -o ../${input}/data/evolution_models/${g%.best.fas}_modeltest;
+	done
+elif [[ radiobutton=="muscle" ]]
+then
+	for f in $(ls ../${input}/data/multialignments/{input}*.afa); do
+		g=${f#../${input}/data/multialignments/};
+        	modeltest-ng static -i ${f} -o ../${input}/data/evolution_models/${g%.afa}modeltest;
+	done
+fi
