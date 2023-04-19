@@ -1,0 +1,241 @@
+Organism	Protein	COG	Cat	Annotation
+177	209	COG0170	M O	Dolichol kinase
+1205	2849	COG0329	M E	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase
+766	1122	COG0381	M	UDP-N-acetylglucosamine 2-epimerase
+538	777	COG0392	M	Predicted membrane flippase AglD2/YbhN, UPF0104 family
+1001	2677	COG0399	M	dTDP-4-amino-4,6-dideoxygalactose transaminase
+169	188	COG0434	M	Membrane biogenesis protein, BtpA/SgcQ family
+1243	16297	COG0438	M	Glycosyltransferase involved in cell wall bisynthesis
+1221	1494	COG0449	M	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains
+1209	9020	COG0451	M	Nucleoside-diphosphate-sugar epimerase
+1244	9697	COG0463	M	Glycosyltransferase involved in cell wall bisynthesis
+708	1597	COG0464	D T M	AAA+-type ATPase, SpoVK/Ycf46/Vps4 family
+1207	2191	COG0472	M	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase
+257	272	COG0562	M	UDP-galactopyranose mutase
+935	2119	COG0586	M	Membrane integrity protein DedA, putative transporter, DedA/Tvp38 family
+1147	1325	COG0597	M U	Lipoprotein signal peptidase
+292	318	COG0615	M	Glycerol-3-phosphate cytidylyltransferase, cytidylyltransferase family
+1091	2439	COG0668	M	Small-conductance mechanosensitive channel
+745	1001	COG0677	M	UDP-N-acetyl-D-mannosaminuronate dehydrogenase
+1148	1371	COG0682	M	Prolipoprotein diacylglyceryltransferase
+1171	1309	COG0706	M	Membrane protein insertase Oxa1/YidC/SpoIIIJ
+1174	1572	COG0707	M	UDP-N-acetylglucosamine:LPS N-acetylglucosamine transferase
+1033	3492	COG0726	M G	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family
+938	1142	COG0728	M	Lipid II flippase MurJ/MviN (peptidoglycan biosynthesis)
+479	545	COG0729	M	Outer membrane translocation and assembly module TamA
+1080	4097	COG0739	M	Murein DD-endopeptidase MepM and murein hydrolase activator NlpD, contains LysM domain
+895	2626	COG0741	M	Soluble lytic murein transglycosylase or regulatory protein s ( may contain LysM/invasin domain)
+977	1992	COG0744	M	Penicillin-binding protein 1B/1F, peptidoglycan transglycosylase/transpeptidase
+1114	1176	COG0759	M	Membrane-anchored protein YidD, putatitve component of membrane protein insertase Oxa1/YidC/SpoIIIJ
+743	795	COG0763	M	Lipid A disaccharide synthetase
+1137	1366	COG0766	M	UDP-N-acetylglucosamine enolpyruvyl transferase
+773	1389	COG0767	M	Permease subunit MlaE of the ABC-type intermembrane phospholipid transporter Mla
+1142	2798	COG0768	D M	Cell division protein FtsI, peptidoglycan transpeptidase (Penicillin-binding protein 2)
+1152	1690	COG0769	M	UDP-N-acetylmuramyl tripeptide synthase
+1170	1322	COG0770	M	UDP-N-acetylmuramyl pentapeptide synthase
+1139	1170	COG0771	M	UDP-N-acetylmuramoylalanine-D-glutamate ligase
+1142	1596	COG0773	M	UDP-N-acetylmuramate-alanine ligase MurC and related ligases, MurC/Mpl family
+747	752	COG0774	M	UDP-3-O-acyl-N-acetylglucosamine deacetylase
+1101	1351	COG0787	M	Alanine racemase
+925	2456	COG0791	M	Cell wall-associated hydrolase, NlpC_P60 family
+831	974	COG0794	M G	D-arabinose 5-phosphate isomerase GutQ
+789	1588	COG0795	M N	Lipopolysaccharide export LptBFGC system, permease protein LptF
+982	1025	COG0796	M	Glutamate racemase
+619	861	COG0797	M	Peptidoglycan lytic transglycosylase RlpA, contains C-terminal SPOR domain
+745	2470	COG0810	M	Periplasmic protein TonB, links inner and outer membranes
+1141	1187	COG0812	M	UDP-N-acetylenolpyruvoylglucosamine reductase
+810	928	COG0815	M	Apolipoprotein N-acyltransferase
+839	990	COG0836	M	Mannose-1-phosphate guanylyltransferase
+975	6816	COG0845	V M	Multidrug efflux pump subunit AcrA (membrane-fusion protein)
+645	2053	COG0859	M	ADP-heptose:LPS heptosyltransferase
+988	1889	COG0860	M	N-acetylmuramoyl-L-alanine amidase
+961	1255	COG1004	M	UDP-glucose 6-dehydrogenase
+773	875	COG1043	M	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase
+847	1110	COG1044	M	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase
+316	383	COG1083	M	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family
+875	1586	COG1086	M O	NDP-sugar epimerase, includes UDP-GlcNAc-inverting 4,6-dehydratase FlaA1 and capsular polysaccharide biosynthesis protein EpsC
+1024	1326	COG1087	M	UDP-glucose 4-epimerase
+949	1159	COG1088	M	dTDP-D-glucose 4,6-dehydratase
+529	717	COG1089	M	GDP-D-mannose dehydratase
+886	1158	COG1091	M	dTDP-4-dehydrorhamnose reductase
+767	1135	COG1127	M	ATPase subunit MlaF of the ABC-type intermembrane phospholipid transporter Mla
+1259	5627	COG1136	M	ABC-type lipoprotein export system, ATPase component
+779	798	COG1137	M	ABC-type lipopolysaccharide export system, ATPase component
+1150	1961	COG1181	M R	D-alanine-D-alanine ligase or related ATP-grasp enzyme
+1120	1311	COG1207	M	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase
+887	1753	COG1208	J M	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s
+968	1355	COG1209	M	dTDP-glucose pyrophosphorylase
+869	1061	COG1210	M	UTP-glucose-1-phosphate uridylyltransferase
+711	745	COG1212	M	CMP-2-keto-3-deoxyoctulosonic acid synthetase
+657	665	COG1286	M F	Colicin V production accessory protein CvpA, regulator of purF expression and biofilm formation
+467	975	COG1292	M	Choline-glycine betaine transporter
+439	1272	COG1316	M	Anionic cell wall polymer biosynthesis enzyme TagV/TagU, LytR-Cps2A-Psr (LCP) family (peptidoglycan teichoic acid transferase)
+397	484	COG1346	M	Putative effector of murein hydrolase
+453	746	COG1368	M	Phosphoglycerol transferase MdoB/OpgB, AlkP superfamily
+702	2009	COG1376	M	Lipoprotein-anchoring transpeptidase ErfK/SrfK
+754	1637	COG1388	M	LysM repeat
+97	106	COG1422	M	Archaeal YidC/Oxa1-related membrane protein, DUF106 family
+743	1173	COG1434	M	Lipid carrier protein ElyC involved in cell wall biogenesis, DUF218 family
+204	305	COG1442	M	Lipopolysaccharide biosynthesis protein, LPS:glycosyltransferase
+765	807	COG1452	M	LPS assembly outer membrane protein LptD (organic solvent tolerance protein OstA)
+212	236	COG1462	M	Curli biogenesis system outer membrane secretion channel CsgG
+775	1880	COG1463	M	Periplasmic subunit MlaD of the ABC-type intermembrane phospholipid transporter Mla
+686	746	COG1519	M	3-deoxy-D-manno-octulosonic-acid transferase
+711	1545	COG1520	M	Outer membrane protein assembly factor BamB, contains PQQ-like beta-propeller repeat
+831	5990	COG1538	M	Outer membrane protein TolC
+1041	1115	COG1559	M	Endolytic transglycosylase MltG, terminates peptidoglycan polymerization
+637	1415	COG1596	M	Periplasmic protein Wza involved in polysaccharide export, contains SLBB domain of the beta-grasp fold
+550	706	COG1619	M	Muramoyltetrapeptide carboxypeptidase LdcA (peptidoglycan recycling)
+693	697	COG1663	M	Tetraacyldisaccharide-1-P 4'-kinase (Lipid A 4'-kinase)
+804	1742	COG1686	M	D-alanyl-D-alanine carboxypeptidase
+421	649	COG1696	M	D-alanyl-lipoteichoic acid acyltransferase DltB, MBOAT superfamily
+693	887	COG1704	M	Magnetosome formation protein MamQ, lipoprotein antigen LemA family
+379	515	COG1705	M N	Flagellum-specific peptidoglycan hydrolase FlgJ
+470	630	COG1732	M	Periplasmic glycine betaine/choline-binding (lipo)protein of an ABC-type transport system (osmoprotectant binding protein)
+573	623	COG1778	M R	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC and related HAD superfamily phosphatases
+420	540	COG1794	M	Amino acid racemase YgeA
+710	1711	COG1807	M	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA
+12	20	COG1822	M	Uncharacterized membrane protein MJ0419, predicted role in archaeal polysaccharide biosynthesis
+698	1978	COG1835	M	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains
+146	162	COG1861	M	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family
+418	575	COG1876	M	LD-carboxypeptidase LdcB, LAS superfamily
+234	459	COG1887	M I	CDP-glycerol glycerophosphotransferase, TagB/SpsB family
+875	1205	COG1898	M	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme
+562	724	COG1922	M	UDP-N-acetyl-D-mannosaminuronic acid transferase, WecB/TagA/CpsF family
+636	644	COG1934	M	Lipopolysaccharide export system protein LptA
+795	845	COG1970	M	Large-conductance mechanosensitive channel
+600	740	COG2027	M	D-alanyl-D-alanine carboxypeptidase
+193	200	COG2052	M	Regulator of extracellular matrix RemA, YlzA/DUF370 family
+397	492	COG2089	M	Sialic acid synthase SpsE, contains C-terminal SAF domain
+450	514	COG2103	M	N-acetylmuramic acid 6-phosphate (MurNAc-6-P) etherase
+683	1526	COG2132	D M P	Multicopper oxidase with three cupredoxin domains (includes cell division protein FtsP and spore coat protein CotA)
+989	2198	COG2148	M	Sugar transferase involved in LPS biosynthesis (colanic, teichoic acid)
+323	356	COG2173	M	D-alanyl-D-alanine dipeptidase
+255	454	COG2194	M	Phosphoethanolamine transferase for periplasmic glucans OpgE, AlkP superfamily
+328	444	COG2222	M	Fructoselysine-6-P-deglycase FrlB or related protein, duplicated sugar isomerase (SIS) domain
+1041	2805	COG2244	M	Membrane protein involved in the export of O-antigen and teichoic acid
+49	505	COG2247	M	Putative cell wall-binding domain (amidase enhancer), LytB superfamily
+417	512	COG2327	M	Polysaccharide pyruvyl transferase family protein WcaK (colanic acid biosynthesis)
+256	383	COG2348	M	Lipid II:glycine glycyltransferase (Peptidoglycan interpeptide bridge formation enzyme)
+605	617	COG2377	M	1,6-Anhydro-N-acetylmuramate kinase
+289	483	COG2385	M	Peptidoglycan hydrolase (amidase) enhancer domain SpoIID
+524	899	COG2815	M	PASTA domain, binds beta-lactams
+387	411	COG2821	M	Membrane-bound lytic murein transglycosylase
+501	1065	COG2823	M	Phospholipid-binding membrane integrity protein DolP/YraP/OsmY, contains BON domain
+627	824	COG2825	M O	Periplasmic chaperone for outer membrane proteins, Skp family
+223	231	COG2829	M	Outer membrane phospholipase A
+812	1020	COG2834	M	Outer membrane lipoprotein-sorting protein
+390	549	COG2843	M	Poly-gamma-glutamate biosynthesis protein CapA/YwtB (capsule formation), metallophosphatase superfamily
+104	111	COG2845	M	Peptidoglycan O-acetyltransferase, SGNH hydrolase family
+419	470	COG2853	M	Lipoprotein subunit MlaA of the ABC-type intermembrane phospholipid transporter Mla
+440	540	COG2854	M	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla
+150	155	COG2859	M	Outer membrane channel-forming protein BP26/OMP28, SIMPL family
+359	515	COG2866	M	Murein tripeptide amidase MpaA
+552	834	COG2870	M	ADP-heptose synthase, bifunctional sugar kinase/adenylyltransferase
+705	715	COG2877	M	3-deoxy-D-manno-octulosonic acid (KDO) 8-phosphate synthase
+816	4381	COG2885	M	Outer membrane protein OmpA and related peptidoglycan-associated (lipo)proteins
+386	385	COG2891	M	Cell shape-determining protein MreD
+587	817	COG2908	M	UDP-2,3-diacylglucosamine pyrophosphatase LpxH
+660	826	COG2911	M	Phospholipid transport to the outer membrane protein TamB
+472	563	COG2913	M	Outer membrane protein assembly factor BamE, lipoprotein component of the BamABCDE complex
+234	260	COG2943	M G	Membrane glycosyltransferase
+276	307	COG2949	M	Uncharacterized periplasmic protein SanA, affects membrane permeability for vancomycin
+556	979	COG2951	M	Membrane-bound lytic murein transglycosylase B
+535	797	COG2956	M	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain
+312	312	COG2980	M	Outer membrane lipoprotein LptE/RlpB (LPS assembly)
+479	741	COG2982	M	Uncharacterized conserved protein AsmA involved in outer membrane biogenesis
+349	514	COG2989	M	Murein L,D-transpeptidase YcbB/YkuD
+268	464	COG2995	M	Intermembrane transporter PqiABC subunit PqiA
+256	330	COG3008	M	Intermembrane transporter PqiABC subunit PqiB
+240	268	COG3009	M	Intermembrane transporter PqiABC lipoprotein subunit PqiC
+119	128	COG3015	V M	Uncharacterized lipoprotein NlpE involved in copper resistance
+295	297	COG3017	M	Outer membrane lipoprotein LolB, involved in outer membrane biogenesis
+655	954	COG3023	M	N-acetyl-anhydromuramyl-L-alanine amidase AmpD
+367	472	COG3034	M	Murein L,D-transpeptidase YafK
+269	320	COG3040	M	Bacterial lipocalin Blc
+314	413	COG3047	M	Outer membrane protein OmpW
+220	311	COG3049	M R	Penicillin V acylase or related amidase, Ntn superfamily
+184	306	COG3055	M	N-acetylneuraminic acid mutarotase
+386	607	COG3064	M	Membrane protein TolA involved in colicin uptake
+123	167	COG3065	M	Starvation-inducible outer membrane lipoprotein Slp
+139	164	COG3083	T M	Periplasmic protein PbgA/YejM, regulator of the LPS biosynthesis, AlkP superfamily
+238	243	COG3107	M	Outer membrane lipoprotein LpoA, binds and activates PBP1a
+290	320	COG3113	M	Binding protein subunit MlaB of the ABC-type intermembrane phospholipid transporter Mla, contains STAS domain
+367	369	COG3117	M	Lipopolysaccharide export system protein LptC
+218	344	COG3131	M	Periplasmic glucan biosynthesis protein OpgG
+199	242	COG3133	M	Outer membrane lipoprotein SlyB
+217	266	COG3137	M	Putative salt-induced outer membrane protein YdiY
+357	369	COG3164	M	Phospholipid transport to the outer membrane protein YhdP, contains DUF3971 and AsmA2 domains
+289	1236	COG3203	M	Outer membrane porin OmpC/OmpF/PhoE
+622	1499	COG3206	M	Exopolysaccharide export protein/domain GumC/Wzc1
+100	122	COG3248	M	Nucleoside-specific outer membrane channel protein Tsx
+273	376	COG3254	M	L-rhamnose mutarotase
+797	1566	COG3264	M	Small-conductance mechanosensitive channel MscK
+172	211	COG3274	M	Surface polysaccharide O-acyltransferase WecH
+162	240	COG3306	M	Glycosyltransferase involved in LPS biosynthesis, GR25 family
+501	768	COG3307	M	O-antigen ligase
+269	275	COG3317	M	Outer membrane beta-barrel protein assembly factor BamC
+498	1217	COG3409	M	Peptidoglycan-binding (PGRP) domain of peptidoglycan hydrolases
+149	156	COG3417	M	Outer membrane lipoprotein LpoB, binds and activates PBP1b
+110	375	COG3468	M U	Autotransporter adhesin AidA
+89	92	COG3470	M I	Uncharacterized conserved protein probably involved in high-affinity Fe2+ transport
+186	370	COG3511	M	Phospholipase C
+166	216	COG3524	M	Capsule polysaccharide export protein KpsE/RkpR
+127	146	COG3562	M	Capsule polysaccharide modification protein KpsS
+112	126	COG3563	M	Capsule polysaccharide export protein KpsC/LpsZ
+267	835	COG3637	M	Opacity protein LomR and related surface antigens
+167	316	COG3659	M	Carbohydrate-selective porin OprB
+253	407	COG3713	M	Outer membrane scaffolding protein for murein synthesis, MipA/OmpV family
+152	200	COG3754	M	Lipopolysaccharide biosynthesis protein
+280	469	COG3757	M	Lyzozyme M1 (1,4-beta-N-acetylmuramidase), GH25 family
+312	734	COG3764	M	Sortase (surface protein transpeptidase)
+120	177	COG3765	M	LPS O-antigen chain length determinant protein, WzzB/FepE family
+191	219	COG3770	M	Murein endopeptidase MepA (D-alanyl-D-alanine-endopeptidase)
+102	102	COG3771	M	Lipopolysaccharide assembly protein YciS/LapA, DUF1049 family
+251	433	COG3772	M	Phage-related lysozyme (muramidase), GH24 family
+263	528	COG3773	D M	Cell wall hydrolase CwlJ, involved in spore germination
+146	188	COG3774	M	Mannosyltransferase OCH1 or related enzyme
+201	213	COG3786	M	L,D-peptidoglycan transpeptidase YkuD, ErfK/YbiS/YcfS/YnhG family
+193	282	COG3875	M	Nickel-dependent lactate racemase
+298	362	COG3876	M	Exo-beta-N-acetylmuramidase YbbC/NamZ, DUF1343 family
+146	154	COG3895	M	Membrane-bound inhibitor of C-type lysozyme
+183	265	COG3932	M	Exopolysaccharide synthesis protein ExoD
+104	189	COG3942	M	Surface antigen
+237	379	COG3944	M	Capsular polysaccharide biosynthesis protein YveK
+17	19	COG3955	M	Uncharacterized conserved protein, DUF1919 family
+46	50	COG3966	M	Poly-D-alanine transfer protein DltD, involved in esterification of teichoic acids
+132	163	COG3967	M I	Short-chain dehydrogenase involved in D-alanine esterification of teichoic acids
+186	197	COG3980	M	Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase
+9	9	COG4092	M	Predicted glycosyltransferase involved in capsule biosynthesis
+725	835	COG4105	M	Outer membrane protein assembly factor BamD, BamD/ComL family
+87	82	COG4238	M	Outer membrane murein-binding lipoprotein Lpp
+64	90	COG4282	M	Cell wall assembly regulator SMI1 (Killer toxin-resistance protein 4)
+44	54	COG4305	M	Peptidoglycan-binding domain, expansin YoaJ
+135	212	COG4313	M	Sphingosine uptake channel SphA-related outer membrane channel
+100	153	COG4409	M G	Neuraminidase (sialidase) NanH, contains C-terminal autotransporter domain
+120	204	COG4421	M	Capsular polysaccharide biosynthesis protein
+56	73	COG4424	M	LPS sulfotransferase NodH
+105	140	COG4520	M	Surface antigen
+40	46	COG4571	M	Outer membrane protease
+26	28	COG4588	M	Accessory colonization factor AcfC, contains ABC-type periplasmic domain
+1132	3439	COG4591	M	ABC-type transport system involved in lipoprotein release, permease component LolC
+379	576	COG4623	T M	Membrane-bound lytic murein transglycosylase MltF
+74	97	COG4678	M X	Muramidase (phage lambda lysozyme)
+117	168	COG4692	M G	Predicted neuraminidase (sialidase)
+34	47	COG4750	M I	CTP:phosphocholine cytidylyltransferase LicC
+809	1674	COG4775	M	Outer membrane protein assembly factor BamA
+905	3378	COG4783	M O	Outer membrane protein chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains
+207	236	COG4785	M	Lipoprotein NlpI, contains TPR repeats
+175	359	COG4932	M	Clumping factor A-related surface protein, MSCRAMM (microbial surface components recognizing adhesive matrix molecules) family, DEv-IgG fold
+833	2985	COG4948	M R	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily
+183	203	COG4952	M	L-rhamnose isomerase
+327	348	COG4953	M	Membrane carboxypeptidase/penicillin-binding protein PbpC
+672	816	COG5009	M	Membrane carboxypeptidase/penicillin-binding protein
+64	75	COG5039	M G	Exopolysaccharide biosynthesis protein EpsI, predicted pyruvyl transferase
+129	198	COG5337	M	Spore coat protein CotH
+98	204	COG5479	M	LGFP repeat-containing protein, may be involved in cell wall binding
+166	324	COG5520	M	O-Glycosyl hydrolase
+64	102	COG5577	M	Spore coat protein CotF
+17	18	COG5597	M	N-acetylglucosaminyl transferase
+187	216	COG5622	M	Protein required for attachment to host cells
+85	154	COG5632	M	N-acetylmuramoyl-L-alanine amidase CwlA

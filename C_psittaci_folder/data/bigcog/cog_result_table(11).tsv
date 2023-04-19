@@ -1,0 +1,86 @@
+Organism	Protein	COG	Cat	Annotation
+1240	1785	COG0084	N	3'->5' ssDNA/RNA exonuclease TatD
+605	969	COG0455	D N	MinD-like ATPase FlhG/YlxH, activator of the FlhF-type GTPase
+175	402	COG0630	N U	Type IV secretory pathway ATPase VirB11/Archaellum biosynthesis ATPase ArlI/FlaI
+789	1588	COG0795	M N	Lipopolysaccharide export LptBFGC system, permease protein LptF
+614	751	COG1157	N U	Flagellar biosynthesis/type III secretory pathway ATPase FliI
+1145	3702	COG1192	D N	ParA-like ATPase involved in chromosome/plasmid partitioning or cellulose biosynthesis protein BcsQ
+1076	3715	COG1215	N	Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase
+592	671	COG1256	N	Flagellar hook-associated protein FlgK
+460	509	COG1261	N	Flagellar basal body P-ring formation protein FlgA
+599	888	COG1291	N	Flagellar motor component MotA
+598	661	COG1298	N	Flagellar biosynthesis protein FlhA
+187	254	COG1315	N	Flagellar assembly protein FapA, interacts with EIIAGlc
+508	590	COG1317	N U	Flagellar biosynthesis/type III secretory pathway protein FliH
+600	652	COG1338	N	Flagellar biosynthesis protein FliP
+596	1832	COG1344	N	Flagellin and related hook-associated protein FlgL
+497	559	COG1345	N	Flagellar capping protein FliD
+752	1492	COG1360	N	Flagellar motor protein MotB
+617	747	COG1377	N	Flagellar biosynthesis protein FlhB
+163	241	COG1406	N	Chemotaxis protein CheX, a CheY~P-specific phosphatase
+398	404	COG1419	N	Flagellar biosynthesis GTPase FlhF
+763	1480	COG1459	N W U	Type II secretory pathway, component PulF
+492	557	COG1516	N U	Flagellin-specific chaperone FliS
+595	689	COG1536	N	Flagellar motor switch protein FliG
+598	662	COG1558	N	Flagellar basal body rod protein FlgC
+516	631	COG1580	N	Flagellar basal body-associated protein FliL
+155	160	COG1582	N	Swarming motility protein SwrD
+596	652	COG1677	N	Flagellar hook-basal body complex protein FliE
+73	202	COG1681	N	Archaellin (archaeal flagellin)
+601	653	COG1684	N	Flagellar biosynthesis protein FliR
+231	240	COG1699	N	Flagellar assembly factor FliW
+379	515	COG1705	M N	Flagellum-specific peptidoglycan hydrolase FlgJ
+468	529	COG1706	N	Flagellar basal body P-ring protein FlgI
+533	642	COG1749	N	Flagellar hook protein FlgE
+592	652	COG1766	N U	Flagellar biosynthesis/type III secretory pathway M-ring protein FliF/YscJ
+596	661	COG1815	N	Flagellar basal body rod protein FlgB
+606	709	COG1843	N	Flagellar hook-capping protein FlgD
+592	659	COG1868	N	Flagellar motor switch protein FliM
+617	866	COG1886	N U	Flagellar motor switch/type III secretory pathway protein FliN
+97	253	COG1955	N	Archaellum biogenesis protein ArlJ/FlaJ, TadC family
+610	669	COG1987	N	Flagellar biosynthesis protein FliQ
+727	786	COG1989	N U	Prepilin signal peptidase PulO (type II secretory pathway) or related peptidase
+459	524	COG2063	N	Flagellar basal body L-ring protein FlgH
+656	3374	COG2165	N W U	Type II secretory pathway, pseudopilin PulG
+310	324	COG2747	K N	Negative regulator of flagellin synthesis (anti-sigma28 factor)
+764	1768	COG2804	N W U	Type II secretory pathway ATPase GspE/PulE or T4P pilus assembly pathway ATPase PilB
+592	938	COG2805	N W	Type IV pilus assembly protein PilT, pilus retraction ATPase
+73	79	COG2874	N	Archaellum biogenesis ATPase ArlH/FlaH
+295	301	COG2882	N	Flagellar biosynthesis chaperone FliJ
+76	80	COG3018	N	Flagellar basal body lipoprotein FlgP, LPP20 family
+826	2786	COG3063	N W	Type IV pilus assembly protein PilF/PilW
+250	311	COG3143	T N	Phosphoaspartate phosphatase CheZ, dephosphorylates CheY~P
+425	464	COG3144	N	Flagellar hook-length control protein FliK
+385	417	COG3166	N W	Type IV pilus assembly protein PilN
+325	336	COG3167	N W	Type IV pilus assembly protein PilO
+221	223	COG3168	N W	Type IV pilus assembly protein PilP
+270	344	COG3170	N W	Type IV pilus assembly protein FimV
+187	582	COG3188	N W	Outer membrane usher protein FimD/PapC
+426	440	COG3190	N	Flagellar biogenesis protein FliO
+180	210	COG3215	N W	Type IV pilus assembly protein PilZ
+277	320	COG3225	N	ABC-type uncharacterized transport system involved in gliding motility, auxiliary component
+219	234	COG3334	N	Flagellar motility protein MotE, a chaperone for MotC folding
+46	84	COG3351	N	Archaellum component ArlD/FlaD/FlaE
+28	28	COG3352	N	Archaellum component ArlC/FlaC
+42	44	COG3353	N	Archaellum component FlaF, FlaF/FlaG flagellin family
+45	49	COG3354	N	Archaellum component FlaG, FlaF/FlaG flagellin family
+162	171	COG3418	N U	Flagellar biosynthesis/type III secretory pathway chaperone FlgN
+215	308	COG3419	N W	Type IV pilus assembly protein, tip-associated adhesin PilY1
+56	157	COG3430	N	Archaeal flagellin (archaellin), FlaG/FlaF family
+82	953	COG3539	N	Pilin (type 1 fimbrial protein)
+376	410	COG3951	N	Rod binding protein domain
+147	181	COG4726	N W	Type IV pilus assembly protein PilX
+576	1077	COG4786	N	Flagellar basal body rod protein FlgG
+237	267	COG4787	N	Flagellar basal body rod protein FlgF
+94	120	COG4862	K T N	Negative regulator MecA of genetic competence, sporulation and motility
+267	352	COG4966	N W	Type IV pilus assembly protein PilW
+310	408	COG4967	N W	Type IV pilus assembly protein PilV
+290	534	COG4968	N W	Type IV pilus assembly protein PilE
+256	334	COG4969	N W	Type IV pilus assembly protein, major pilin PilA
+350	581	COG4970	N W	Type IV pilus assembly protein FimT
+532	684	COG4972	N W	Type IV pilus assembly protein, ATPase PilM
+192	322	COG5008	N W	Type IV pilus assembly protein, ATPase PilU
+103	115	COG5442	N	Flagellar biosynthesis regulator FlaF
+104	119	COG5443	N	Flagellar biosynthesis regulator FlbT
+272	330	COG5581	N	Cyclic di-GMP-binding flagellar brake protein FlgZ/YcgR, contains PilZNR(YcgR) and PilZ domains
+254	487	COG5653	N	Acetyltransferase involved in cellulose biosynthesis, CelD/BcsL family

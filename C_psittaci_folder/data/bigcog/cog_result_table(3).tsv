@@ -1,0 +1,190 @@
+Organism	Protein	COG	Cat	Annotation
+735	1018	COG0122	L	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase
+1233	1247	COG0164	L	Ribonuclease HII
+1230	1458	COG0177	L	Endonuclease III
+1216	1870	COG0178	L	Excinuclease UvrABC ATPase subunit
+1243	2111	COG0187	L	DNA gyrase/topoisomerase IV, subunit B
+1247	2132	COG0188	L	DNA gyrase/topoisomerase IV, subunit A
+1227	2976	COG0210	L	Superfamily I DNA or RNA helicase
+1019	1349	COG0249	L	DNA mismatch repair ATPase MutS
+1284	1578	COG0258	L	5'-3' exonuclease Xni/ExoIX (flap endonuclease)
+924	1395	COG0266	L	Formamidopyrimidine-DNA glycosylase
+648	1271	COG0270	L	DNA-cytosine methylase
+1187	1391	COG0272	L	NAD-dependent DNA ligase
+1181	1530	COG0305	L	Replicative DNA helicase
+1202	1553	COG0322	L	Excinuclease UvrABC, nuclease subunit
+1018	1102	COG0323	L	DNA mismatch repair ATPase MutL
+1082	1292	COG0328	L	Ribonuclease HI
+478	713	COG0338	L	DNA-adenine methylase
+1159	1729	COG0350	L	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)
+1128	1126	COG0353	L	Recombinational DNA repair protein RecR
+1290	1731	COG0358	L	DNA primase (bacterial type)
+1056	2020	COG0389	L	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair
+779	1071	COG0415	L	Deoxyribodipyrimidine photolyase
+318	419	COG0417	L	DNA polymerase B elongation subunit
+856	1249	COG0419	L	DNA repair exonuclease SbcCD ATPase subunit
+888	1179	COG0420	L	DNA repair exonuclease SbcCD nuclease subunit
+811	1373	COG0433	L	Archaeal DNA helicase HerA or a related bacterial ATPase, contains HAS-barrel and ATPase domains
+1278	1463	COG0468	L	RecA/RadA recombinase
+700	819	COG0470	L	DNA polymerase III, delta prime subunit
+885	1002	COG0496	L	Broad specificity polyphosphatase and 5'/3'-nucleotidase SurE
+1079	1120	COG0497	L	DNA repair ATPase RecN
+877	1445	COG0507	L	ATPase/5Ã¢â‚¬â„¢-3Ã¢â‚¬â„¢ helicase helicase subunit RecD of the DNA repair enzyme RecBCD (exonuclease V)
+1170	3707	COG0513	L	Superfamily II DNA and RNA helicase
+924	1572	COG0514	L	Superfamily II DNA helicase RecQ
+1168	1168	COG0536	L D	GTPase involved in cell partioning and DNA repair
+1276	1859	COG0550	L	DNA topoisomerase IA
+658	933	COG0551	L	DNA topoisomerase I, ssDNA-binding Zn-finger and Zn-ribbon domains
+856	1713	COG0553	K L	Superfamily II DNA or RNA helicase, SNF2 family
+1204	1220	COG0556	L	Excinuclease UvrABC helicase subunit UvrB
+445	976	COG0582	L X	Integrase/recombinase, includes phage integrase
+1174	1827	COG0587	L	DNA polymerase III, alpha subunit
+1297	1474	COG0592	L	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog
+1151	1733	COG0593	L	Chromosomal replication initiation ATPase DnaA
+1093	1249	COG0608	L	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation
+1176	2146	COG0629	L	Single-stranded DNA-binding protein
+1151	1148	COG0632	L	Holliday junction resolvasome RuvABC DNA-binding subunit
+595	653	COG0648	L	Endonuclease IV
+740	759	COG0692	L	Uracil-DNA glycosylase
+8	9	COG0699	L	Replication fork clamp-binding protein CrfC (dynamin-like GTPase family)
+1063	1683	COG0708	L	Exonuclease III
+1131	1323	COG0749	L	DNA polymerase I, 3'-5' exonuclease and polymerase domains
+1114	1264	COG0758	L	Predicted Rossmann fold nucleotide-binding protein DprA/Smf involved in DNA uptake
+1143	3043	COG0776	L	Bacterial nucleoid DNA-binding protein IHF-alpha
+1033	1043	COG0792	L	Predicted endonuclease distantly related to archaeal Holliday junction resolvase, YraN/UPF0102 family
+1129	1175	COG0816	J K L	YqgF/RuvX protein, pre-16S rRNA maturation RNase/Holliday junction resolvase/anti-termination factor
+1055	1086	COG0817	L	Holliday junction resolvasome RuvABC endonuclease subunit RuvC
+115	126	COG0827	L	Adenine-specific DNA N6-methylase
+951	1998	COG0847	L	DNA polymerase III, epsilon subunit or related 3'-5' exonuclease
+646	1285	COG0863	L	DNA modification methylase
+108	110	COG1039	L	Ribonuclease HIII
+862	925	COG1058	L	ADP-ribose pyrophosphatase domain of DNA damage- and competence-inducible protein CinA
+60	60	COG1059	L V	Thermostable 8-oxoguanine DNA glycosylase
+821	1608	COG1061	K L	Superfamily II DNA or RNA helicase
+1075	1103	COG1066	L	DNA repair protein RadA/Sms, contains AAA+ ATPase domain
+1017	1185	COG1074	L	3Ã¢â‚¬â„¢-5Ã¢â‚¬â„¢ helicase subunit RecB of the DNA repair enzyme RecBCD (exonuclease V)
+72	103	COG1107	L	Archaea-specific RecJ-like exonuclease, contains DnaJ-type Zn finger domain
+64	84	COG1110	L	Reverse gyrase
+136	136	COG1111	L	ERCC4-related helicase
+557	840	COG1112	L	Superfamily I DNA and/or RNA helicase
+529	617	COG1193	L	dsDNA-specific endonuclease/ATPase MutS2
+1009	1034	COG1194	L	Adenine-specific DNA glycosylase, acts on AG and A-oxoG pairs
+965	1005	COG1195	L	Recombinational DNA repair ATPase RecF
+1115	1135	COG1197	K L	Transcription-repair coupling factor (superfamily II helicase)
+1139	1150	COG1198	L	Primosomal protein N' (replication factor Y) - superfamily II helicase
+864	1189	COG1199	L	Rad3-related DNA helicase DinG
+1083	1110	COG1200	L	RecG-like helicase
+562	754	COG1201	L	Lhr-like helicase
+68	107	COG1202	L	Superfamily II helicase, archaea-specific
+270	338	COG1204	L	Replicative superfamily II helicase
+452	598	COG1205	L	ATP-dependent helicase YprA, contains C-terminal metal-binding DUF1998 domain
+120	164	COG1241	L	DNA replicative helicase MCM subunit Mcm2, Cdc46/Mcm family
+319	407	COG1273	L	Non-homologous end joining protein Ku, dsDNA break repair
+96	96	COG1311	L	Archaeal DNA polymerase II, small subunit/DNA polymerase delta, subunit B
+787	803	COG1322	L	DNA anti-recombination protein (rearrangement mutator) RmuC
+304	309	COG1330	L	Scaffold subunit RecC of the DNA repair enzyme RecBCD (exonuclease V)
+946	953	COG1354	L	Chromatin segregation and condensation protein Rec8/ScpA/Scc1, kleisin family
+177	330	COG1372	L X	Intein/homing endonuclease
+1093	1093	COG1381	L	Recombinational DNA repair protein RecO (RecF pathway)
+126	128	COG1389	L	DNA topoisomerase VI, subunit B
+71	71	COG1423	L	ATP-dependent RNA circularization protein, DNA/RNA ligase (PAB1020) family
+1150	1168	COG1466	L	DNA polymerase III, delta subunit
+119	124	COG1467	L	Eukaryotic-type DNA primase, catalytic (small) subunit
+197	593	COG1474	L	Cdc6-related protein, AAA superfamily ATPase
+575	1496	COG1484	L	DNA replication protein DnaC
+364	375	COG1515	L	Deoxyinosine 3'-endonuclease (endonuclease V)
+598	1003	COG1525	L	Endonuclease YncB, thermonuclease family
+627	815	COG1533	L	DNA repair photolyase
+881	1051	COG1555	L	DNA uptake protein ComE or related DNA-binding protein
+1035	1053	COG1570	L	Exonuclease VII, large subunit
+905	1545	COG1573	L	Uracil-DNA glycosylase
+93	101	COG1591	L	Holliday junction resolvase Hjc, archaeal type
+116	239	COG1599	L	ssDNA-binding replication factor A, large subunit
+117	132	COG1602	L	Archaeal DNA repair protein NreA
+39	40	COG1630	L	ssDNA and dsDNA 5'-3' nuclease NurA, repair of double-stranded DNA breaks
+265	309	COG1637	L	Endonuclease NucS, RecB family
+136	139	COG1697	L	DNA topoisomerase VI, subunit A
+85	87	COG1711	L	DNA replication initiation complex subunit, GINS family
+984	986	COG1722	L	Exonuclease VII small subunit
+173	223	COG1743	L	Adenine-specific DNA methylase, contains a Zn-ribbon domain
+627	1117	COG1793	L	ATP-dependent DNA ligase
+324	352	COG1796	L	DNA polymerase/3'-5' exonuclease PolX
+84	84	COG1860	L F	Predicted metal-binding protein, contains two cysteine clusters, UPF0179 family
+95	95	COG1933	L	Archaeal DNA polymerase II, large subunit
+133	149	COG1948	L	ERCC4-type crossover junction endonuclease
+797	2599	COG1961	L	Site-specific DNA recombinase SpoIVCA/DNA invertase PinE
+917	1281	COG2003	L	DNA repair protein RadC, contains a helix-hairpin-helix DNA-binding motif
+426	429	COG2094	L	3-methyladenine DNA glycosylase Mpg
+611	836	COG2135	L	ssDNA abasic site-binding protein YedK/HMCES, SRAP family
+493	606	COG2169	L	Methylphosphotriester-DNA--protein-cysteine methyltransferase (N-terminal fragment of Ada), contains Zn-binding and two AraC-type DNA-binding domains
+545	763	COG2176	L	DNA polymerase III, alpha subunit (gram-positive type)
+363	486	COG2189	L	Adenine specific DNA methylase Mod
+117	122	COG2219	L	Eukaryotic-type DNA primase, large subunit
+173	173	COG2231	L	3-Methyladenine DNA glycosylase, HhH-GPD/Endo3 superfamily
+1142	1161	COG2255	L	Holliday junction resolvasome RuvABC, ATP-dependent DNA helicase subunit RuvB
+1105	1163	COG2256	L	Replication-associated recombination protein RarA (DNA-dependent ATPase)
+345	346	COG2354	L	Membrane protein MutK/YedI, may be involved in DNA repair
+231	309	COG2356	L	Endonuclease I
+90	109	COG2406	L	Ferritin-like DNA-binding protein, DPS (DNA Protection under Starvation) family
+1186	1795	COG2812	L	DNA polymerase III, gamma/tau subunits
+699	810	COG2818	L	3-methyladenine DNA glycosylase Tag
+623	1007	COG2827	L	Predicted endonuclease, GIY-YIG superfamily
+495	563	COG2840	L	DNA-nicking endonuclease, Smr domain
+403	719	COG2852	L	Very-short-patch-repair endonuclease
+479	668	COG2887	L	RecB family exonuclease
+253	257	COG2925	L	Exonuclease I (degrades ssDNA)
+460	460	COG2927	L	DNA polymerase III, chi subunit
+44	61	COG2946	L	DNA relaxase NicK
+193	191	COG2965	L	Primosomal replication protein N
+267	299	COG2974	L	DNA recombination-dependent growth factor RdgC
+546	550	COG3022	L	DNA-binding protein YaaA associated with the oxidative stress response
+436	437	COG3024	L	Endogenous inhibitor of DNA gyrase, YacG/DUF329 family
+85	85	COG3050	L	DNA polymerase III, psi subunit
+96	97	COG3057	L	Negative regulator of replication initiation SeqA
+126	126	COG3066	L	DNA mismatch repair protein MutH
+136	144	COG3081	L	dsDNA-binding nucleoid-associated protein YejK/NdpA
+74	75	COG3120	L	Macrodomain Ter protein organizer, MatP/YcbG family
+89	91	COG3141	L	dsDNA-binding SOS-regulon protein YebG, induction by DNA damage requires cAMP
+455	526	COG3145	L	Alkylated DNA repair dioxygenase AlkB
+304	331	COG3214	L	DNA glycosylase YcaQ, repair of DNA interstrand crosslinks
+330	554	COG3285	L	Eukaryotic-type DNA primase
+89	89	COG3298	L	Predicted 3'-5' exonuclease related to the exonuclease domain of PolB
+72	124	COG3390	L	Replication protein A (RPA) family protein
+93	103	COG3392	L	Adenine-specific DNA methylase
+233	301	COG3449	L	DNA gyrase inhibitor GyrI/SbmC
+241	246	COG3569	L	DNA topoisomerase IB
+476	650	COG3593	L	Predicted ATP-dependent endonuclease of the OLD family, contains P-loop ATPase and TOPRIM domains
+183	238	COG3598	L	RecA-family ATPase
+85	86	COG3611	L	Replication initiation and membrane attachment protein DnaB
+402	415	COG3663	L	G:T/U-mismatch repair DNA glycosylase
+76	87	COG3723	L	Recombinational DNA repair protein RecT
+303	345	COG3727	L	G:T-mismatch repair DNA endonuclease Vsr, very short patch repair protein
+213	384	COG3743	L	Predicted 5' DNA nuclease, flap endonuclease-1-like, helix-3-turn-helix (H3TH) domain
+8	10	COG3780	L	DNA endonuclease related to intein-encoded endonucleases
+385	398	COG3857	L	ATP-dependent helicase/DNAse subunit B
+182	200	COG3886	L	HKD family nuclease
+311	313	COG3893	L	Inactivated superfamily I helicase
+75	75	COG3923	L	Primosomal replication protein N''
+172	256	COG3935	L	DNA replication protein DnaD
+90	97	COG3972	L	Superfamily I DNA and RNA helicases
+256	421	COG3973	L	DNA helicase IV
+35	35	COG4047	L	N-glycosylase/DNA lyase (8-oxoguanine DNA glycosylase)
+90	91	COG4098	L	Superfamily II DNA/RNA helicase required for DNA uptake (late competence protein)
+71	71	COG4199	L	ssDNA-specific exonuclease RecJ
+207	383	COG4227	L	Antirestriction protein ArdC
+103	109	COG4294	L	UV DNA damage repair endonuclease
+177	189	COG4335	L	3-methylpurine DNA glycosylase AlkC
+94	98	COG4389	L	Site-specific recombinase
+95	97	COG4467	L	Regulator of replication initiation timing YabA
+145	181	COG4570	L	Holliday junction resolvase RusA (prophage-encoded endonuclease)
+383	542	COG4581	L	Superfamily II RNA helicase
+105	132	COG4646	L	Adenine-specific DNA methylase, N12 class
+33	41	COG4712	L	Predicted ssDNA annealing protein, contains HHH motif, Rad42/Rad22/RecT/erf family
+52	76	COG4817	L	DNA-binding ferritin-like protein (Dps family)
+357	438	COG4912	L	3-methyladenine DNA glycosylase AlkD
+459	618	COG4973	L	Site-specific recombinase XerC
+1246	7290	COG4974	L	Site-specific recombinase XerD
+17	17	COG4998	L	Predicted endonuclease, RecB family
+5	5	COG5055	L	Recombinational DNA repair protein (RAD52 pathway)
+146	673	COG5464	L	Recombination-promoting DNA endonuclease RpnC/YadD
+28	35	COG5851	L D	Stage 0 sporulation inhibitor Sda, checkpoint for initiation of sporulation and replication

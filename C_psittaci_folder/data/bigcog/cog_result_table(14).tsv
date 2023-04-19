@@ -1,0 +1,110 @@
+Organism	Protein	COG	Cat	Annotation
+1298	1320	COG0201	U	Preprotein translocase subunit SecY
+1153	1213	COG0341	U	Preprotein translocase subunit SecF
+1156	1254	COG0342	U	Preprotein translocase subunit SecD
+1261	1261	COG0541	U	Signal recognition particle GTPase
+1241	1241	COG0552	U	Signal recognition particle GTPase FtsY
+1147	1325	COG0597	M U	Lipoprotein signal peptidase
+175	402	COG0630	N U	Type IV secretory pathway ATPase VirB11/Archaellum biosynthesis ATPase ArlI/FlaI
+1169	1311	COG0653	U	Preprotein translocase subunit SecA (ATPase, RNA helicase)
+1070	1072	COG0658	U	DNA uptake channel protein ComEC, N-terminal domain
+1188	1717	COG0681	U	Signal peptidase I
+1077	1068	COG0690	U	Preprotein translocase subunit SecE
+1053	1164	COG0805	U	Twin-arginine protein secretion pathway component TatC
+802	2429	COG0811	U	Biopolymer transport protein ExbB/TolQ
+832	2129	COG0823	U	Periplasmic component TolB of the Tol biopolymer transport system
+774	2551	COG0848	U	Biopolymer transport protein ExbD
+75	75	COG1096	U	Exosome complex RNA-binding protein Csl4, contains S1 and Zn-ribbon domains
+75	75	COG1097	U	Exosome complex RNA-binding protein Rrp4, contains S1 and KH domains
+614	751	COG1157	N U	Flagellar biosynthesis/type III secretory pathway ATPase FliI
+640	683	COG1272	U	Predicted membrane channel-forming protein YqfA, hemolysin III family
+817	814	COG1314	U	Protein translocase subunit SecG
+508	590	COG1317	N U	Flagellar biosynthesis/type III secretory pathway protein FliH
+108	111	COG1325	U	Exosome subunit, RNA binding protein with dsRBD fold
+116	116	COG1400	U	Signal recognition particle subunit SEC65
+501	992	COG1450	U	Type II secretory pathway component GspD/PulD (secretin)
+763	1480	COG1459	N W U	Type II secretory pathway, component PulF
+492	557	COG1516	N U	Flagellin-specific chaperone FliS
+592	652	COG1766	N U	Flagellar biosynthesis/type III secretory pathway M-ring protein FliF/YscJ
+1018	1895	COG1826	U	Twin-arginine protein secretion pathway components TatA and TatB
+115	116	COG1855	W U	Predicted ATPase, PilT family, contains N-terminal PIN domain
+1047	1051	COG1862	U	Protein translocase subunit YajC
+617	866	COG1886	N U	Flagellar motor switch/type III secretory pathway protein FliN
+482	493	COG1952	U	Preprotein translocase subunit SecB
+727	786	COG1989	N U	Prepilin signal peptidase PulO (type II secretory pathway) or related peptidase
+78	79	COG2123	U	Exosome complex RNA-binding protein Rrp42, RNase PH superfamily
+656	3374	COG2165	N W U	Type II secretory pathway, pseudopilin PulG
+200	482	COG2229	U	Signal recognition particle receptor subunit beta, a GTPase
+284	294	COG2257	U	Type III secretion system substrate exporter, FlhB-like
+796	1074	COG2333	U	DNA uptake channel protein ComEC C-terminal domain, metallo-beta-lactamase superfamily
+102	102	COG2443	U	Preprotein translocase subunit Sss1
+764	1768	COG2804	N W U	Type II secretory pathway ATPase GspE/PulE or T4P pilus assembly pathway ATPase PilB
+335	665	COG2831	U	Hemolysin activation/secretion protein
+195	356	COG2948	U	Type IV secretory pathway, VirB10 component
+172	200	COG3031	U	Type II secretory pathway, component PulC
+198	202	COG3114	U	Heme exporter protein D
+154	162	COG3149	U	Type II secretory pathway, component PulM
+290	334	COG3156	U	Type II secretory pathway, component PulK
+214	458	COG3157	U	Type VI protein secretion system component Hcp (secreted cytotoxin)
+255	845	COG3210	U	Large exoprotein involved in heme utilization or adhesion
+338	631	COG3267	W U	Type II secretory pathway ATPase component GspA/ExeA/MshM
+105	129	COG3271	U	Predicted double-glycine leader peptidase, C39-like (CLD) domain
+173	178	COG3297	U	Type II secretory pathway, component PulL
+162	171	COG3418	N U	Flagellar biosynthesis/type III secretory pathway chaperone FlgN
+520	983	COG3451	U	Type IV secretory pathway, VirB4 component
+202	290	COG3455	U	Type VI protein secretion system component TssL/VasF/DotU
+152	182	COG3456	T U	Predicted component of the type VI protein secretion system, contains a FHA domain
+110	375	COG3468	M U	Autotransporter adhesin AidA
+309	991	COG3501	U X R	Uncharacterized conserved protein VgrG, implicated in type VI secretion and phage assembly
+180	345	COG3504	U	Type IV secretory pathway, VirB9 components
+556	1138	COG3505	U	Type IV secretory pathway, VirD4 component, TraG/TraD family ATPase
+188	288	COG3515	U	Type VI protein secretion system component TssA1/VasJ/EvfE, contains ImpA_N domain
+201	292	COG3516	U	Predicted component TssA of the type VI protein secretion system
+199	331	COG3517	U	Predicted component TssB of the type VI protein secretion system, VipA/VipB/TssB family
+197	263	COG3518	U	Predicted component of the type VI protein secretion system
+197	281	COG3519	U	Type VI protein secretion system component VasA
+199	272	COG3520	U	Predicted component of the type VI protein secretion system
+154	215	COG3521	U	Type VI secretion system component TssJ/Cytochrome oxidase assembly protein CtaK
+205	285	COG3522	U	Predicted component of the type VI protein secretion system
+197	306	COG3523	U	Type VI protein secretion system component VasK
+117	158	COG3559	U	Putative exporter of oligosaccharides and polyketide antibiotics DrrB/NodJ, ABC-2 family
+120	209	COG3701	U	Type IV secretory pathway, TrbF component
+94	116	COG3702	U	Type IV secretory pathway, VirB3 component
+98	166	COG3704	U	Type IV secretory pathway, VirB6 component
+94	133	COG3736	U	Type IV secretory pathway, component VirB8
+342	452	COG3745	W U	Flp pilus assembly protein CpaB
+125	236	COG3838	U	Type IV secretory pathway, VirB2 component (pilin)
+92	171	COG3843	U	Type IV secretory pathway, VirD2 component (relaxase)
+114	189	COG3846	U	Type IV secretory pathway, TrbL components
+200	372	COG3847	W U	Flp pilus assembly protein, pilin Flp
+120	134	COG3913	T U	Regulator of T6SS expression TagF, TagF/ImpM/SciT family (unrelated to teichoic acid polymerase TagF of B.subtilis, COG1887)
+61	72	COG3946	U	Type IV secretory pathway, VirJ component
+93	93	COG4023	U	Preprotein translocase subunit SecG (Sec61beta)
+58	61	COG4083	U	Exosortase/Archaeosortase
+217	448	COG4104	U	Zn-binding Pro-Ala-Ala-Arg (PAAR) domain, involved in Type VI secretion
+73	79	COG4473	U	Predicted ABC-type exoprotein transport system, permease component
+25	25	COG4499	U	ESX protein secretion system component YukC
+181	284	COG4618	U	ABC-type protease/lipase transport system, ATPase and permease components
+82	111	COG4669	U	Type III secretory pathway, lipoprotein EscJ
+81	110	COG4789	U	Type III secretory pathway, component EscV
+80	108	COG4790	U	Type III secretory pathway, EscR/YscR component
+75	96	COG4791	U	Type III secretory pathway, EscT/YscT component
+27	31	COG4792	U	Type III secretory pathway, EscU/YscU component
+69	91	COG4794	U	Type III secretory pathway, EscS/YscS component
+323	400	COG4795	U	Type II secretory pathway, PulJ/GspJ component
+365	407	COG4796	U	Type II secretory pathway, component HofQ
+287	410	COG4959	U O	Type IV secretory pathway, protease TraF
+277	706	COG4961	W U	Flp pilus assembly protein TadG, includes N-terminal TadE domain
+581	1133	COG4962	W U	Pilus assembly protein, ATPase of CpaF family
+310	398	COG4963	W U	Flp pilus assembly ATPase CpaE/TadZ, contains N-terminal REC/TadZ_N domain
+259	373	COG4964	W U	Flp pilus assembly protein, secretin CpaC
+494	850	COG4965	W U	Flp pilus assembly protein TadB
+786	2111	COG5010	W U	Flp pilus assembly protein TadD, contains TPR repeats
+27	27	COG5036	U P	SPX domain-containing protein involved in vacuolar polyphosphate accumulation
+4	4	COG5153	U	Putative lipase ATG15 (essential for vacuolar disintegration of autophagic bodies)
+102	178	COG5268	U	Type IV secretory pathway, TrbD component
+104	250	COG5295	W U	Autotransporter adhesin
+30	32	COG5407	U	Preprotein translocase subunit Sec63
+18	18	COG5417	U	ESX protein secretion system component YukD
+12	15	COG5555	U	Cytolysin, a secreted calcineurin-like phosphatase
+17	17	COG5613	U	Type III secretion system effector SseC (host membrane pore formation)

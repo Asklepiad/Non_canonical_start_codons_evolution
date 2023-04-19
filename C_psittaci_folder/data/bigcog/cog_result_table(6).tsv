@@ -1,0 +1,192 @@
+Organism	Protein	COG	Cat	Annotation
+1226	1532	COG0206	D	Cell division GTPase FtsZ
+963	981	COG0218	D	GTP-binding protein EngB required for normal cell division
+948	1284	COG0239	D P	Fluoride ion exporter CrcB/FEX, affects chromosome condensation
+605	969	COG0455	D N	MinD-like ATPase FlhG/YlxH, activator of the FlhF-type GTPase
+708	1597	COG0464	D T M	AAA+-type ATPase, SpoVK/Ycf46/Vps4 family
+1214	2985	COG0489	D	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family
+868	2625	COG0535	D H	Radical SAM superfamily maturase, SkfB/NifB/PqqE family
+1168	1168	COG0536	L D	GTPase involved in cell partioning and DNA repair
+1142	2798	COG0768	D M	Cell division protein FtsI, peptidoglycan transpeptidase (Penicillin-binding protein 2)
+1142	2430	COG0772	D	Peptodoglycan polymerase FtsW/RodA/SpoVE
+894	969	COG0849	D	Cell division ATPase FtsA
+517	534	COG0850	D	Septum site-determining protein MinC
+460	460	COG0851	D	Septum formation topological specificity factor MinE
+945	1213	COG1077	D Z	Cell shape-determining ATPase MreB, actin-like superfamily
+1145	3702	COG1192	D N	ParA-like ATPase involved in chromosome/plasmid partitioning or cellulose biosynthesis protein BcsQ
+1140	2650	COG1196	D	Chromosome segregation ATPase Smc
+406	476	COG1300	D	Stage II sporulation protein SpoIIM, component of the engulfment complex
+763	920	COG1426	D	Cytoskeletal protein RodZ, contains Xre-like HTH and DUF4115 domains
+1112	2532	COG1475	D	Chromosome segregation protein Spo0J, contains ParB-like nuclease domain
+490	538	COG1485	D	Cell division protein ZapE (Z ring-associated ATPase), AFG1 superfamily
+1004	1006	COG1589	D	Cell division septal protein FtsQ
+1097	1803	COG1674	D	DNA segregation ATPase FtsK/SpoIIIE or related protein
+754	1387	COG1729	D	Cell division protein CpoB, coordinates peptidoglycan biosynthesis and outer membrane constriction
+919	926	COG1792	D Z	Cell shape-determining protein MreC
+380	424	COG1799	D	Cell division protein SepF/YlmF, interacts with FtsZ
+186	221	COG2088	K D	DNA- and RNA-binding protein SpoVG, cell septation regulator
+683	1526	COG2132	D M P	Multicopper oxidase with three cupredoxin domains (includes cell division protein FtsP and spore coat protein CotA)
+902	926	COG2177	D	Cell division protein FtsX
+594	1091	COG2340	D R	Spore germination protein YkwD and related proteins with CAP (CSP/antigen 5/PR1) domain
+88	88	COG2450	D	Predicted archaeal cell division protein, SepF family
+335	344	COG2719	D	Stage V sporulation protein SpoVR/YcgB, involved in spore cortex formation (function unknown)
+945	3054	COG2755	D I	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK
+232	243	COG2848	D	Uncharacterized conserved protein, UPF0210 family
+888	902	COG2884	D	Cell division ATPase FtsE
+527	538	COG2894	D	Septum site-determining ATPase MinD
+397	410	COG2917	D	Intracellular septation protein A
+741	745	COG2919	D	Cell division protein FtsB
+84	84	COG3006	D	Chromosome condensin MukBEF, kleisin-like MukF subunit
+590	595	COG3027	D	Cell division protein ZapA, inhibits GTPase activity of FtsZ
+165	229	COG3061	D	Cell division protein YtfB/OapA (opacity-associated protein A)
+130	131	COG3074	D	Cell division protein ZapB, interacts with FtsZ
+492	669	COG3087	D	Cell division protein FtsN
+84	82	COG3095	D	Chromosome condensin MukBEF, MukE localization factor
+85	92	COG3096	D	Chromosome condensin MukBEF, ATPase and DNA-binding subunit MukB
+138	137	COG3105	D	Membrane-anchored cell division protein YhcB, DUF1043 family
+265	271	COG3115	D	Cell division protein ZipA, interacts with FtsZ
+318	314	COG3116	D	Cell division protein FtsL, interacts with FtsB and FtsQ
+382	464	COG3147	D	Cell division protein DedD (periplasmic protein involved in septation)
+244	291	COG3266	D	Cell division protein DamX, binds to the septal ring, contains C-terminal SPOR domain
+194	267	COG3314	D E	Spore dipicolinate transporter SpoVV/YjiH/YlbJ, contains nucleoside recognition GATE domain
+328	443	COG3599	D	Cell division septum initiation protein DivIVA, interacts with FtsZ and MinD
+131	155	COG3660	D	Mitochondrial fission protein ELM1
+263	528	COG3773	D M	Cell wall hydrolase CwlJ, involved in spore germination
+120	121	COG3827	D	Cell pole-organizing protein PopZ
+172	175	COG3854	D	Stage III sporulation protein SpoIIIAA
+247	470	COG3858	D	Spore cortex hydrolase SleL/YaaH, N-acetylglucosaminidase of GH18 family
+91	147	COG4326	D	Stage 0 sporulation-control protein Spo0M
+78	78	COG4477	D	Septation ring formation regulator EzrA
+220	220	COG4582	D	Cell division protein ZapD, interacts with FtsZ
+192	352	COG4641	D	Spore maturation protein CgeB
+83	83	COG4839	D	Cell division protein FtsL
+810	1123	COG4942	D	Septal ring factor EnvC, activator of murein hydrolases AmiA and AmiB
+183	655	COG5184	D Z	Alpha-tubulin suppressor ATS1 and related RCC1 domain-containing proteins
+15	19	COG5185	D	Chromosome segregation protein NDC80, interacts with SMC proteins
+107	153	COG5279	D	Cytokinesis protein 3, contains TGc (transglutaminase/protease-like) domain
+188	235	COG5401	D	Spore germination protein GerM
+86	87	COG5404	D	Cell division inhibitor SulA, prevents FtsZ ring assembly
+32	89	COG5491	D	Archaeal cell division protein CdvB, Snf7/Vps24/ESCRT-III family
+115	128	COG5801	D T	Stage 0 sporulation initiation regulator Spo0A (response regulator, REC-HTH domains)
+61	62	COG5802	D T	Stage 0 sporulation initiation phosphotransferase Spo0B
+74	77	COG5803	D T	Stage 0 sporulation initiation response regulator Spo0F
+76	197	COG5804	D T	Stage 0 sporulation regulatory phosphatase Spo0E
+20	20	COG5805	D T	Sporulation sensor histidine kinase A (Stage II sporulation protein SpoIIF/SpoIIJ)
+19	40	COG5806	D T	Sporulation sensor histidine kinase B
+16	16	COG5807	D T	Sporulation sensor histidine kinase C
+11	12	COG5808	D T	Sporulation sensor histidine kinase D
+30	41	COG5809	D T	Sporulation sensor histidine kinase E
+35	35	COG5810	D T	Sporulation protein KbaA, activator of histidine kinase KinB
+107	106	COG5811	K D	Sporulation sigma factor SigE (mother cell-specific, SpoIIGB)
+101	102	COG5812	K D	Sporulation sigma factor SigF (forespore-specific, SpoIIAC)
+108	108	COG5813	K D	Sporulation sigma factor SigG (forespore-specific, SpoIIIG)
+102	107	COG5814	K D	Sporulation sigma factor SigK (mother cell-specific, SpoIIIC/SpoIVCB)
+105	107	COG5815	D T	Stage II sporulation protein SpoIIAA (antagonist of anti-sigma F factor)
+18	18	COG5816	D	Stage II sporulation protein SpoIIB (spatial and temporal regulation of the dissolution of septal peptidoglycan during engulfment)
+109	127	COG5817	D	Stage II sporulation protein SpoIIE/SpoIIH (serine phosphatase - sigma-F activation)
+107	107	COG5818	K D O	Stage II sporulation protein SpoIIGA (protease, processing of pro-sigma-E to active sigma-E)
+106	154	COG5819	D	Stage II sporulation protein SpoIIP, required for dissolution of the septal cell wall
+37	37	COG5820	D	Stage II sporulation protein SpoIIQ, required for engulfement
+57	65	COG5821	D	Stage II sporulation protein SpoIIQ, clostridial version, metallopeptidase M23 family
+107	110	COG5822	D	Stage II sporulation protein SpoIIR, required for processing of pro-sigma-E
+93	93	COG5823	D	Stage III sporulation protein SpoIIIAB, component of the engulfment complex
+107	108	COG5824	D	Stage III sporulation protein SpoIIIAC, component of the engulfment complex
+101	101	COG5825	D	Stage III sporulation protein SpoIIIAD, component of the engulfment complex
+107	107	COG5826	D	Stage III sporulation protein SpoIIIAE, component of the engulfment complex
+90	90	COG5827	D	Stage III sporulation protein SpoIIIAF, component of the engulfment complex
+106	106	COG5828	D	Stage III sporulation protein SpoIIIAG, component of the engulfment complex
+103	103	COG5829	D	Stage III sporulation protein SpoIIIAH, component of the engulfment complex
+107	111	COG5830	K D	Stage III sporulation protein SpoIIID, transcriptional regulator of sigma-E- and sigma-K-dependent genes
+107	108	COG5831	D	Stage IV sporulation protein SpoIVA, required for spore cortex formation and coat assembly
+108	114	COG5832	D O	Stage IV sporulation protein SpoIVB, serine protease, degrades SpoIIQ, SpoIVFA
+36	36	COG5833	D	Stage IV sporulation protein SpoIVFA, regulates SpoIVFB
+34	34	COG5834	D E	Stage V sporulation protein SpoVAA, subunit of dipicolinate uptake complex
+35	35	COG5835	D E	Stage V sporulation protein SpoVAB, subunit of dipicolinate uptake complex
+107	126	COG5836	D E	Stage V sporulation protein SpoVAC, subunit of dipicolinate uptake complex
+108	129	COG5837	D E	Stage V sporulation protein SpoVAD, subunit of dipicolinate uptake complex
+31	31	COG5838	D	Stage V sporulation protein SpoVAEA, mutants lead to the production of immature spores
+106	122	COG5839	D E	Stage V sporulation protein SpoVAEB, subunit of dipicolinate uptake complex
+69	69	COG5840	D E	Stage V sporulation protein SpoVAF, subunit of dipicolinate uptake complex, GerA superfamily
+164	345	COG5841	D	Stage V sporulation protein SpoVB/SpoIIIF, required for spore cortex synthesis
+92	94	COG5842	D E	Dipicolinate synthase subunit A (sporulation protein SpoVFA)
+88	88	COG5843	D E	Dipicolinate synthase subunit B (sporulation protein SpoVFB)
+31	28	COG5844	D	Stage V sporulation protein SpoVM, required for spore cortex and coat synthesis
+108	117	COG5845	K D	Stage V sporulation protein SpoVT, regulator of stationary/sporulation gene expression
+28	28	COG5846	D	Stage VI sporulation protein SpoVID (LysM domain), required for assembly of the spore coat
+31	34	COG5847	D	Stage VI sporulation protein SpoVIF, required for heat resistance
+85	89	COG5848	D T	SigmaK-processing regulatory protein BofA (Bypass-of-forespore protein A)
+38	38	COG5849	D T	SigmaK checkpoint regulator BofC (Bypass-of-forespore protein C)
+36	70	COG5850	K D	Prespore-specific transcriptional regulator RsfA
+28	35	COG5851	L D	Stage 0 sporulation inhibitor Sda, checkpoint for initiation of sporulation and replication
+107	263	COG5852	D	Small acid-soluble spore protein SspA/SspB/SspC/SspD (alpha/beta-type)
+28	29	COG5853	D	Small acid-soluble spore protein SspE (gamma-type)
+74	85	COG5854	D	Small acid-soluble spore protein SspF (alpha/beta-type)
+33	45	COG5855	D	Small acid-soluble spore protein SspH/YfjU
+38	38	COG5856	D	Small acid-soluble spore protein SspI
+13	14	COG5857	D	Small acid-soluble spore protein SspK
+8	8	COG5858	D	Small acid-soluble spore protein SspL
+11	11	COG5859	D	Small acid-soluble spore protein SspN
+10	10	COG5860	D	Small acid-soluble spore protein SspO/CotK
+19	19	COG5861	D	Small acid-soluble spore protein SspP/CotL
+6	6	COG5862	D	Small acid-soluble spore protein CsgA
+43	43	COG5863	D	Small acid-soluble spore protein Tlp (thioredoxin-like protein)
+46	57	COG5864	D	Small acid-soluble spore protein SAS2, clostridial type
+43	43	COG5865	K D	Forespore-specific anti-sigma-G factor CsfB/Gin
+68	73	COG5866	D O	Sporulation-specific protease YabG
+40	40	COG5867	D T	Anti-sigma-F factor Fin
+107	112	COG5868	D	Sporulation protein YabP
+92	92	COG5869	D	Spore cortex formation membrane protein YabQ
+12	12	COG5870	K D	Uncharacterized sporulation protein YbaK, contains DUF2521 domain (not related to E. coli deacylase YbaK, COG2606)
+91	91	COG5871	D	Spore cortex protein YqfC, YabP family
+105	105	COG5872	D	Stage IV sporulation protein YqfD
+25	32	COG5873	D	Uncharacterized sporulation protein YqzE
+74	74	COG5874	D	Uncharacterized sporulation protein YtxC
+90	91	COG5875	D	Uncharacterized sporulation protein YunB
+97	126	COG5878	D	Uncharacterized sporulation protein YyaC,contains DUF1256 domain
+20	24	COG5879	D	Spore coat protein CotD
+42	47	COG5880	D	Spore coat protein CotE
+45	106	COG5881	D	Spore coat protein CotI/CotS, protein kinase superfamily
+24	24	COG5882	D	Spore coat protein CotJA, required for the assembly of CotJC
+76	78	COG5883	D	Spore coat protein CotJB
+17	32	COG5884	D	Spore coat protein CotN/TasA
+10	10	COG5885	D	Spore coat protein CotO/YjbX
+14	22	COG5886	D	Spore coat protein CotV/CotX (outer spore coat)
+8	8	COG5887	D	Spore coat protein CotW (outer spore coat)
+19	32	COG5888	D	Spore coat protein CotY/CotZ (outer spore coat)
+36	36	COG5889	D	Spore coat protein GerQ/YwdL (inner spore coat)
+77	96	COG5890	D	Uncharacterized sporulation proteins YjcM and YhbB, contain C-terminal amidase domain
+36	149	COG5891	D	Spore coat protein YheC/YheD, ATP-grasp superfamily
+20	20	COG5892	D	Spore coat protein YlbD, FlgN family
+20	24	COG5893	D	Spore coat protein YmaG
+18	20	COG5894	D	Spore coat protein YppG
+9	9	COG5895	D	Uncharacterized sporulation protein YpzA, contains DUF2564 domain
+13	19	COG5896	D	Spore coat protein YraE/YraG
+22	22	COG5897	D	Spore coat protein YsxE, aminoglycoside phosphotransferase family
+10	10	COG5898	D	Spore coat protein YuzC (inner spore coat)
+6	12	COG5899	D	Spore coat protein YwqH
+31	43	COG5900	D	Spore coat protein YybI (inner spore coat)
+104	339	COG5901	D	Spore germination receptor GerABC, GerA subunit (L-alanine receptor)
+99	352	COG5902	D	Spore germination receptor GerABC, GerB subunit (amino acid transporter)
+98	336	COG5903	D	Spore germination receptor GerABC, GerC subunit
+36	36	COG5904	D	Spore germination receptor GerD
+69	73	COG5905	K D	Spore transcriptional regulator GerE (stand-alone HTH domain)
+18	52	COG5906	D	Spore germination protein GerPA/GerPF (inner spore coat)
+16	16	COG5907	D	Spore germination protein GerPB, DUF2539 family (inner spore coat)
+14	14	COG5908	D	Spore germination protein GerPC (inner spore coat)
+15	16	COG5909	D	Spore germination protein GerPD (inner spore coat)
+15	15	COG5910	D	Spore germination protein GerPE (inner spore coat)
+106	110	COG5911	D	Spore germination protease Gpr
+51	78	COG5912	D	Spore cortex protein CoxA (YrbB), YhcN/YlaJ family
+83	89	COG5914	D	Spore germination protein YpeB, HAD superfamily, activates cortex-lytic enzyme SleB
+20	20	COG5915	D	Transglutaminase
+19	19	COG5916	D	Uncharacterized sporulation protein YfkD
+19	19	COG5917	D	Uncharacterized sporulation protein YjbA, contains UPF0736/DUF3603 domain
+52	65	COG5918	D	Uncharacterized sporulation protein YmfJ, contains DUF3243 domain
+15	15	COG5919	D	Uncharacterized sporulation protein YodI
+19	19	COG5920	D	Uncharacterized sporulation protein YqfT, contains DUF2624 domain
+37	41	COG5921	D	Uncharacterized sporulation protein YqfX, contains DUF308 domain
+34	34	COG5922	D	Uncharacterized sporulation protein YqhG
+60	60	COG5923	D	Uncharacterized sporulation membrane protein YrzE, contains DUF3792 domain
+60	60	COG5924	D	Uncharacterized sporulation protein YtfI, contains DUF2953 domain
+51	51	COG5925	D	Uncharacterized sporulation membrane protein YtrH/SpoVIGA
+23	24	COG5926	D	Uncharacterized sporulation protein YtrI

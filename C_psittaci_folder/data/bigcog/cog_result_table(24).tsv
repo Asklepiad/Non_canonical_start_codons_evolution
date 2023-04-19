@@ -1,0 +1,99 @@
+Organism	Protein	COG	Cat	Annotation
+788	1263	COG0123	Q	Acetoin utilization deacetylase AcuC or a related deacetylase
+514	996	COG0145	E Q	N-methylhydantoinase A/oxoprolinase/acetone carboxylase, beta subunit
+410	709	COG0146	E Q	N-methylhydantoinase B/oxoprolinase/acetone carboxylase, alpha subunit
+990	2660	COG0179	Q	2-keto-4-pentenoate hydratase/2-oxohepta-3-ene-1,7-dioic acid hydratase (catechol pathway)
+918	2049	COG0189	J E H Q	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily
+1115	2826	COG0304	I Q	3-oxoacyl-(acyl-carrier-protein) synthase
+1025	4763	COG0346	Q	Catechol 2,3-dioxygenase or related enzyme, vicinal oxygen chelate (VOC) family
+753	1814	COG0412	Q	Dienelactone hydrolase
+1053	1477	COG0424	Q	7-methyl-GTP pyrophosphatase and related NTP pyrophosphatases, Maf/HAM1 superfamily
+102	110	COG0500	Q R	SAM-dependent methyltransferase
+726	1506	COG0656	Q	Aldo/keto reductase, related to diketogulonate reductase
+447	2435	COG1020	Q	EntF, seryl-AMP synthase component of non-ribosomal peptide synthetase
+172	199	COG1021	Q	EntE, 2,3-dihydroxybenzoate-AMP synthase component of non-ribosomal peptide synthetase
+515	593	COG1169	H Q	Isochorismate synthase EntC
+738	2043	COG1228	Q	Imidazolonepropionase or related amidohydrolase
+653	1700	COG1233	Q	Phytoene dehydrogenase-related protein
+188	218	COG1535	Q	Isochorismate hydrolase
+69	71	COG1568	Q	Aminopropyltransferase BpsA, N(4)-bis(aminopropyl)spermidine biosynthesis
+394	512	COG1647	Q	Esterase/lipase
+164	394	COG1775	E Q	Benzoyl-CoA reductase/2-hydroxyglutaryl-CoA dehydratase subunit, BcrC/BadD/HgdB
+496	749	COG1942	Q	Phenylpyruvate tautomerase PptA, 4-oxalocrotonate tautomerase family
+140	191	COG2015	Q	Alkyl sulfatase BDS1 and related hydrolases, metallo-beta-lactamase superfamily
+926	2750	COG2050	Q	Acyl-CoA thioesterase PaaI, contains HGG motif
+527	2971	COG2124	V Q	Cytochrome P450
+394	544	COG2130	Q R	NADPH-dependent curcumin reductase CurA
+749	1794	COG2146	P Q	Ferredoxin subunit of nitrite reductase or a ring-hydroxylating dioxygenase
+191	251	COG2162	Q	Arylamine N-acetyltransferase
+299	695	COG2175	Q	Taurine dioxygenase, alpha-ketoglutarate-dependent
+169	244	COG2312	Q	Erythromycin esterase homolog
+328	672	COG2318	Q	Bacillithiol/mycothiol S-transferase BstA/DinB, DinB/YfiT family (unrelated to E. coli DinB)
+621	901	COG2350	Q R	YciI superfamily enzyme, includes 5-CHQ dehydrochlorinase, contains active-site pHis
+419	663	COG2366	Q	Acyl-homoserine lactone (AHL) acylase PvdQ
+191	284	COG2368	Q	Aromatic ring hydroxylase
+494	1005	COG2514	Q	Catechol-2,3-dioxygenase
+365	1982	COG2931	Q	Ca2+-binding protein, RTX toxin-related
+180	195	COG2977	Q	4'-phosphopantetheinyl transferase EntD (siderophore biosynthesis)
+568	726	COG3127	Q	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component
+225	261	COG3135	Q	Predicted benzoate:H+ symporter BenE
+28	31	COG3207	Q	Pyoverdine/dityrosine biosynthesis protein Dit1
+209	447	COG3208	Q	Surfactin synthase thioesterase subunit
+174	289	COG3251	Q	MbtH family protein, regulates adenylation domains of NRPSs
+244	545	COG3315	Q	O-Methyltransferase involved in polyketide biosynthesis
+340	802	COG3319	Q	Thioesterase domain of type I polyketide synthase or non-ribosomal peptide synthetase
+253	428	COG3320	Q	Thioester reductase domain of alpha aminoadipate reductase Lys2 and NRPSs
+306	1603	COG3321	Q	Acyl transferase domain in polyketide synthase (PKS) enzymes
+461	685	COG3384	Q	Aromatic ring-opening dioxygenase, catalytic subunit, LigB family
+269	593	COG3396	Q	1,2-phenylacetyl-CoA epoxidase, catalytic subunit
+228	255	COG3424	Q	Predicted naringenin-chalcone synthase
+175	238	COG3433	I Q	Acyl carrier protein/domain
+152	217	COG3435	Q	Gentisate 1,2-dioxygenase
+174	259	COG3458	Q	Cephalosporin-C deacetylase or related acetyl esterase
+233	243	COG3460	Q	1,2-phenylacetyl-CoA epoxidase, PaaB subunit
+186	322	COG3473	Q	Maleate cis-trans isomerase
+42	42	COG3479	Q	Phenolic acid decarboxylase
+339	820	COG3485	Q	Protocatechuate 3,4-dioxygenase beta subunit
+206	264	COG3486	Q	Lysine/ornithine N-monooxygenase
+322	464	COG3491	Q	Isopenicillin N synthase and related dioxygenases
+330	349	COG3508	Q	Homogentisate 1,2-dioxygenase
+148	165	COG3527	Q	Alpha-acetolactate decarboxylase
+82	86	COG3648	Q	Uricase (urate oxidase)
+263	473	COG3653	Q	N-acyl-D-aspartate/D-glutamate deacylase
+158	315	COG3670	Q	Carotenoid cleavage dioxygenase or a related enzyme
+98	125	COG3733	Q	Cu2+-containing amine oxidase
+303	967	COG3795	Q	5-chloro-2-hydroxyhydroquinone dehydrochlorinase TtfG, YCII superfamily
+54	56	COG3805	Q	Aromatic ring-cleaving dioxygenase
+97	102	COG3885	Q	Aromatic ring-opening dioxygenase, LigB subunit
+235	371	COG3917	Q	2-hydroxychromene-2-carboxylate isomerase
+159	197	COG3937	T Q	Polyhydroxyalkanoate synthesis regulator phasin
+93	96	COG3960	Q	Glyoxylate carboligase
+341	634	COG3971	Q	2-keto-4-pentenoate hydratase
+347	459	COG4172	Q	ABC-type microcin C transport system, duplicated ATPase component YejF
+253	266	COG4174	Q	ABC-type microcin C transport system, permease component YejB
+345	345	COG4181	Q	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, ATPase component
+263	274	COG4239	Q	ABC-type microcin C transport system, permease component YejE
+201	296	COG4242	Q R	Cyanophycinase and related exopeptidases
+46	65	COG4308	Q	Limonene-1,2-epoxide hydrolase LimA/EphG
+169	170	COG4365	Q	Putative cysteine ligase BshC/YllA (bacillithiol biosynthesis)
+53	55	COG4457	Q	Virulence factor SrfB-related protein
+51	53	COG4458	Q	Virulence factor SrfC-related protein
+105	111	COG4542	Q	PduX protein involved in propanediol utilization and related proteins
+150	212	COG4569	Q	Acetaldehyde dehydrogenase (acetylating)
+187	288	COG4576	C Q	Carboxysome shell and ethanolamine utilization microcompartment protein CcmK/EutM
+191	704	COG4577	C Q	Carboxysome shell and ethanolamine utilization microcompartment protein CcmL/EutN
+46	54	COG4647	Q	Acetone carboxylase, gamma subunit
+303	711	COG4663	Q	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component
+298	640	COG4664	Q	TRAP-type mannitol/chloroaromatic compound transport system, large permease component
+307	690	COG4665	Q	TRAP-type mannitol/chloroaromatic compound transport system, small permease component
+115	137	COG4689	Q	Acetoacetate decarboxylase
+96	111	COG4829	Q	Muconolactone delta-isomerase
+133	171	COG4869	Q	Propanediol utilization protein
+44	52	COG4909	Q	Propanediol dehydratase, large subunit
+44	50	COG4910	Q	Propanediol dehydratase, small subunit
+62	69	COG4915	Q R	5-bromo-4-chloroindolyl phosphatase XpaC
+388	885	COG5285	Q	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family
+86	88	COG5310	Q	Homospermidine synthase
+285	291	COG5394	T Q	Polyhydroxyalkanoate (PHA) synthesis regulator protein, binds DNA and PHA
+143	370	COG5517	Q	3-phenylpropionate/cinnamic acid dioxygenase, small subunit
+104	106	COG5554	Q	Nitrogen fixation protein NifT

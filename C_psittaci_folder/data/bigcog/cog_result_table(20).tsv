@@ -1,0 +1,130 @@
+Organism	Protein	COG	Cat	Annotation
+924	1145	COG0005	F	Purine nucleoside phosphorylase
+1221	1496	COG0015	F	Adenylosuccinate lyase
+907	923	COG0026	F	Phosphoribosylaminoimidazole carboxylase (NCAIR synthetase)
+323	329	COG0027	F	Formate-dependent phosphoribosylglycinamide formyltransferase (GAR transformylase)
+1181	1258	COG0034	F	Glutamine phosphoribosylpyrophosphate amidotransferase
+937	974	COG0035	F	Uracil phosphoribosyltransferase
+1188	1207	COG0041	F	Phosphoribosylcarboxyaminoimidazole (NCAIR) mutase
+1106	1924	COG0044	F	Dihydroorotase or related cyclic amidohydrolase
+1170	1184	COG0046	F	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain
+1171	1174	COG0047	F	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain
+1042	1056	COG0062	F	NAD(P)H-hydrate repair enzyme Nnr, NAD(P)H-hydrate epimerase domain
+1137	1194	COG0063	F	NAD(P)H-hydrate repair enzyme Nnr, NAD(P)H-hydrate dehydratase domain
+749	1136	COG0075	E F	Archaeal aspartate aminotransferase or a related aminotransferase, includes purine catabolism protein PucG
+1215	1285	COG0104	F	Adenylosuccinate synthase
+1162	1185	COG0105	F	Nucleoside diphosphate kinase
+1183	1427	COG0125	F	Thymidylate kinase
+1243	1293	COG0127	F	Inosine/xanthosine triphosphate pyrophosphatase, all-alpha NTP-PPase family
+1145	1221	COG0138	F	AICAR transformylase/IMP cyclohydrolase PurH
+1176	1183	COG0150	F	Phosphoribosylaminoimidazole (AIR) synthetase
+1177	1231	COG0151	F	Phosphoribosylamine-glycine ligase
+1188	1249	COG0152	F	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+1222	1627	COG0167	F	Dihydroorotate dehydrogenase
+1144	1200	COG0194	F	Guanylate kinase
+862	900	COG0207	F	Thymidylate synthase
+834	983	COG0208	F	Ribonucleotide reductase beta subunit, ferritin-like domain
+1179	1641	COG0209	F	Ribonucleotide reductase alpha subunit
+644	685	COG0213	F	Thymidine phosphorylase
+845	961	COG0232	F	dGTP triphosphohydrolase
+973	1464	COG0248	T F	Exopolyphosphatase/pppGpp-phosphohydrolase
+799	947	COG0274	F	Deoxyribose-phosphate aldolase
+1122	1128	COG0283	F	Cytidylate kinase
+1216	1259	COG0284	F	Orotidine-5'-phosphate decarboxylase
+788	856	COG0295	F	Cytidine deaminase
+1098	1128	COG0299	F	Folate-dependent phosphoribosylglycinamide formyltransferase PurN
+433	581	COG0369	F P	Flavoprotein (flavin reductase) subunit CysJ of sulfite and N-hydroxylaminopurine reductases
+934	2518	COG0402	F R	Cytosine/adenosine deaminase or related metal-dependent hydrolase
+358	360	COG0418	F	Dihydroorotase
+1184	1545	COG0458	E F	Carbamoylphosphate synthase large subunit
+1221	1302	COG0461	F	Orotate phosphoribosyltransferase
+1274	1554	COG0462	F	Phosphoribosylpyrophosphate synthetase
+1037	1565	COG0503	F	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein
+1239	1292	COG0504	F	CTP synthase (UTP-ammonia lyase)
+1164	1216	COG0505	E F	Carbamoylphosphate synthase small subunit
+1190	1634	COG0516	F	IMP dehydrogenase/GMP reductase
+1236	2128	COG0518	F	GMP synthase, glutamine amidotransferase domain
+1229	1256	COG0519	F	GMP synthase, PP-ATPase domain/subunit
+1272	1317	COG0528	F	Uridylate kinase
+1278	2350	COG0537	F R	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family
+1185	1218	COG0540	F	Aspartate carbamoyltransferase, catalytic subunit
+1239	1704	COG0563	F	Adenylate kinase or related kinase
+649	885	COG0572	F	Uridine kinase
+833	1304	COG0613	F	5'-3' exoribonuclease TrpH/YciV (RNase AM), contains PHP domain
+682	1013	COG0618	T F	nanoRNase/pAp phosphatase, hydrolyzes c-di-AMP and oligoRNAs
+918	983	COG0634	F	Hypoxanthine-guanine phosphoribosyltransferase
+622	911	COG0647	F	Ribonucleotide monophosphatase NagD, HAD superfamily
+872	986	COG0717	F	dCTP deaminase
+782	1524	COG0737	V F	2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'- or 3'-nucleotidase, 5'-nucleotidase family
+951	986	COG0756	V F	dUTP pyrophosphatase (dUTPase)
+757	1090	COG0775	F H	Nucleoside phosphorylase/nucleosidase, includes 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase MtnN and futalosine hydrolase MqnB
+650	775	COG0788	F	Formyltetrahydrofolate hydrolase
+348	372	COG0813	F	Purine-nucleoside phosphorylase
+66	69	COG0856	F	Orotate phosphoribosyltransferase homolog
+388	490	COG1001	F	Adenine/N6-methyladenosine deaminase
+1195	5150	COG1051	F	ADP-ribose pyrophosphatase YjhB, NUDIX family
+549	928	COG1079	F	ABC-type guanosine uptake system NupNOPQ, permease subunit NupQ
+267	365	COG1102	F	Cytidylate kinase
+637	1004	COG1146	F	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit
+657	665	COG1286	M F	Colicin V production accessory protein CvpA, regulator of purF expression and biofilm formation
+603	741	COG1328	F	Anaerobic ribonucleoside-triphosphate reductase
+452	465	COG1351	F	Thymidylate synthase ThyX, FAD-dependent family
+298	445	COG1428	F	Deoxyadenosine/deoxycytidine kinase
+626	638	COG1435	F	Thymidine kinase
+437	731	COG1457	F	Purine-cytosine permease or related protein
+1033	1624	COG1611	F	Nucleotide monophosphate nucleosidase PpnN/YdgH, Lonely Guy (LOG) family
+120	125	COG1618	F	Nucleoside-triphosphatase THEP1
+316	329	COG1691	F	NCAIR mutase (PurE)-related protein
+65	122	COG1759	F	5-formaminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate synthetase (purine biosynthesis)
+199	220	COG1780	F	Flavodoxin NrdI, NrdF-interacting activator of class Ib ribonucleotide reductase
+280	280	COG1781	F	Aspartate carbamoyltransferase, regulatory subunit
+531	781	COG1816	F	Adenosine/6-amino-6-deoxyfutalosine deaminase
+636	634	COG1828	F	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit
+116	116	COG1839	F	Adenosine/AMP kinase
+84	84	COG1860	L F	Predicted metal-binding protein, contains two cysteine clusters, UPF0179 family
+249	330	COG1864	F	DNA/RNA endonuclease G, NUC1
+525	667	COG1896	F R	5'-deoxynucleotidase YfbR and related HD superfamily hydrolases
+147	152	COG1936	F	Broad-specificity NMP kinase
+205	270	COG1953	F H	Cytosine/uracil/thiamine/allantoin permease
+501	877	COG1957	F	Inosine-uridine nucleoside N-ribohydrolase
+358	497	COG1972	F	Nucleoside permease NupC
+197	202	COG1986	V F	Non-canonical (house-cleaning) NTP pyrophosphatase, all-alpha NTP-PPase family
+83	91	COG2019	F	Archaeal adenylate kinase
+635	722	COG2065	F	Pyrimidine operon attenuation protein PyrR/uracil phosphoribosyltransferase
+504	522	COG2131	F	Deoxycytidylate deaminase
+664	1168	COG2233	F	Xanthine/uracil permease
+702	968	COG2252	F	Xanthine/guanine/uracil/vitamin C permease GhxP/GhxQ, nucleobase:cation symporter 2 ( NCS2) family
+580	745	COG2258	V F	N-hydroxylaminopurine reductase YiiM, contains MOSC domain
+242	250	COG2313	F	Pseudouridine-5'-phosphate glycosidase (pseudoU degradation)
+339	386	COG2351	F	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family
+306	408	COG2357	T F	ppGpp synthetase catalytic domain (RelA/SpoT-type nucleotidyltranferase)
+69	73	COG2429	F	Archaeal GTP cyclohydrolase III
+489	512	COG2759	F	Formyltetrahydrofolate synthetase
+559	636	COG2816	F	NADH pyrophosphatase NudC, Nudix superfamily
+381	519	COG2820	F	Uridine phosphorylase
+242	243	COG3123	F	Pyrimidine/purine nucleoside phosphorylase YaiE/PpnP, UPF0345/DUF1255 family
+179	211	COG3194	F	Ureidoglycolate hydrolase (allantoin degradation)
+307	344	COG3195	F	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)
+176	197	COG3199	F	NAD kinase
+423	475	COG3217	V F	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain
+168	187	COG3257	F	Ureidoglycine aminohydrolase
+77	77	COG3363	F	Archaeal IMP cyclohydrolase
+169	193	COG3613	F	Nucleoside 2-deoxyribosyltransferase
+542	915	COG3845	F	ABC-type guanosine uptake system NupNOPQ, ATPase component NupO
+12	13	COG4027	F	3'-phosphoadenosine 5'-phosphosulfate sulfotransferase
+102	107	COG4119	F R	Predicted NTP pyrophosphohydrolase, NUDIX family
+89	99	COG4266	F	Allantoicase
+165	179	COG4290	F	Guanyl-specific ribonuclease Sa
+104	126	COG4317	F	Xanthosine utilization system component, XapX domain
+66	67	COG4360	F	ATP adenylyltransferase (5',5'''-P-1,P-4-tetraphosphate phosphorylase II)
+100	103	COG4502	F	5'(3')-deoxyribonucleotidase
+64	74	COG4508	F	Dimeric dUTPase, all-alpha-NTP-PPase (MazG) superfamily
+547	921	COG4603	F	ABC-type guanosine uptake system NupNOPQ, permease component NupP
+235	252	COG4630	F	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA
+232	246	COG4631	F	Xanthine dehydrogenase, molybdopterin-binding subunit XdhB
+98	98	COG4696	F	NTP pyrophosphatase, MazG superfamily
+125	135	COG4708	J F	ECF-type transporter of queuosine precursor, membrane (S) component
+27	27	COG4741	F	Predicted secreted endonuclease distantly related to archaeal Holliday junction resolvase
+27	35	COG4855	F	Uncharacterized conserved protein
+57	76	COG5042	F	Purine nucleoside permease
+4	5	COG5371	F	Nucleoside diphosphatase, GDA1/CD39 family

@@ -1,0 +1,226 @@
+Organism	Protein	COG	Cat	Annotation
+973	1464	COG0248	T F	Exopolyphosphatase/pppGpp-phosphohydrolase
+517	667	COG0271	K T	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation
+1133	1849	COG0317	K T	(p)ppGpp synthase/hydrolase, HD superfamily
+924	1834	COG0347	T E	Nitrogen regulatory protein PII
+1074	2242	COG0394	T	Protein-tyrosine-phosphatase
+708	1597	COG0464	D T M	AAA+-type ATPase, SpoVK/Ycf46/Vps4 family
+306	850	COG0467	T	RecA-superfamily ATPase, KaiC/GvpD/RAD55 family
+153	158	COG0478	T	RIO-like serine/threonine protein kinase fused to N-terminal HTH domain
+284	326	COG0490	T P	K+/H+ antiporter KhtSTU, c-di-AMP-binding regulatory subunit KhtT, contains RCK_C (TrkA_C) domain
+897	8872	COG0515	T	Serine/threonine protein kinase
+968	1783	COG0517	T	CBS domain
+1106	2991	COG0569	T P	Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain
+1079	5709	COG0589	T	Nucleotide-binding universal stress protein, UspA family
+682	1013	COG0618	T F	nanoRNase/pAp phosphatase, hydrolyzes c-di-AMP and oligoRNAs
+777	1682	COG0631	T	Serine/threonine protein phosphatase PrpC
+191	192	COG0639	T	Diadenosine tetraphosphatase ApaH/serine/threonine protein phosphatase, PP2A family
+1184	18976	COG0642	T	Signal transduction histidine kinase
+705	1559	COG0643	T	Chemotaxis protein histidine kinase CheA
+937	1511	COG0661	T H	Predicted protein kinase regulating ubiquinone biosynthesis, AarF/ABC1/UbiB family
+1064	6706	COG0664	T	cAMP-binding domain of CRP or a regulatory subunit of cAMP-dependent protein kinases
+675	2106	COG0666	T	Ankyrin repeat
+1181	15210	COG0745	K T	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain
+1008	13538	COG0784	T	CheY-like REC (receiver) domain, includes chemotaxis protein CheY and sporulation regulator Spo0F
+990	6092	COG0834	T E	ABC-type amino acid transport/signal transduction system, periplasmic component/domain
+706	2311	COG0835	T	Chemotaxis signal transduction protein CheW
+768	9480	COG0840	T	Methyl-accepting chemotaxis protein (MCP)
+377	526	COG1073	T	Fermentation-respiration switch esterase FrsA, DUF1100 family
+1092	1093	COG1217	T	Predicted membrane GTPase TypA/BipA involved in stress response
+122	190	COG1221	K T	Transcriptional regulators containing an AAA-type ATPase domain and a DNA-binding domain
+725	1561	COG1352	T	Methylase of chemotaxis methyl-accepting proteins
+619	2462	COG1366	T	Anti-anti-sigma regulatory factor (antagonist of anti-sigma factor)
+843	1922	COG1409	T	3',5'-cyclic AMP phosphodiesterase CpdA
+216	237	COG1437	T R	Adenylate cyclase class IV, CYTH domain (includes archaeal enzymes of unknown function)
+325	327	COG1480	T	Cyclic di-AMP-specific phosphodiesterase PgpH, HD superfamily
+444	459	COG1489	T G	DNA-binding protein, stimulates sugar fermentation
+546	627	COG1493	T	Serine kinase of the HPr protein, regulates carbohydrate metabolism
+595	969	COG1524	T	c-di-AMP phosphodiesterase AtaC or nucleotide pyrophosphatase, AlkP superfamily
+435	557	COG1551	T	sRNA-binding carbon storage regulator CsrA
+165	165	COG1623	T	c-di-AMP synthetase DisA, contains DisA_N, linker and DNA-binding domains
+520	557	COG1624	T	c-di-AMP synthetase, contains DisA_N domain
+273	1081	COG1639	T	HD-like signal output (HDOD) domain, no enzymatic activity
+809	813	COG1660	T	RNase adaptor protein RapZ for GlmZ sRNA degradation, contains a P-loop ATPase domain
+574	572	COG1666	T	Cyclic di-GMP-binding protein YajQ, UPF0234 family
+378	383	COG1692	T	2',3'- and 3',5'-cNMP phosphodiesterase YmdB, calcineurin family
+1044	1118	COG1702	T	Phosphate starvation-inducible protein PhoH, predicted ATPase
+257	269	COG1713	T R	Diadenosine tetraphosphatase YqeK or a related HD superfamily phosphohydrolase
+557	2759	COG1716	T	Forkhead associated (FHA) domain, binds pSer, pThr, pTyr
+277	298	COG1718	T	Serine/threonine-protein kinase RIO1
+583	1131	COG1744	T	Lipoprotein Med, regulator of KinD/Spo0A, PBP1-ABC superfamily, includes NupN
+67	72	COG1751	T G	Ligand-binding C-terminal domain of pyruvate kinase, DUF1867
+715	1720	COG1762	T G	Phosphotransferase system mannitol/fructose-specific IIA domain (Ntr-type)
+418	428	COG1774	T	Cell fate regulator YaaT, PSP1 superfamily (controls sporulation, competence, biofilm development)
+307	532	COG1776	T	Phosphoaspartate phosphatase CheC, specific for CheY-P
+533	565	COG1806	T	Regulator of PEP synthase PpsR, kinase-PPPase family (combines ADP:protein kinase and phosphorylase activities)
+544	747	COG1842	K T	Phage shock protein A
+266	274	COG1854	T	S-ribosylhomocysteine lyase LuxS, autoinducer biosynthesis
+413	508	COG1871	T	Chemotaxis receptor (MCP) glutamine deamidase CheD
+612	648	COG1923	T	sRNA-binding regulator protein Hfq
+854	1475	COG1925	T G	HPr or related phosphotransfer protein
+522	605	COG1956	V T	GAF domain-containing protein, putative methionine-R-sulfoxide reductase
+985	1628	COG1974	K T	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)
+512	805	COG1983	K T	Phage shock protein PspC (stress-responsive transcriptional regulator)
+247	274	COG1993	T	PII-like signaling protein
+200	554	COG2018	T	Predicted regulator of Ras-like GTPase activity, Roadblock/LC7/MglB family
+799	992	COG2062	T	Phosphohistidine phosphatase SixA
+81	82	COG2112	T	Predicted Ser/Thr protein kinase
+570	2361	COG2114	T	Adenylate cyclase, class 3
+554	1551	COG2172	T	Anti-sigma regulatory factor (Ser/Thr protein kinase)
+209	240	COG2184	T	Fido, protein-threonine AMPylation domain
+1052	10240	COG2197	K T	DNA-binding response regulator, NarL/FixJ family, contains REC and HTH domains
+566	1657	COG2198	T	HPt (histidine-containing phosphotransfer) domain
+816	9665	COG2199	T	GGDEF domain, diguanylate cyclase (c-di-GMP synthetase) or its enzymatically inactive variants
+720	4128	COG2200	T	EAL domain, c-di-GMP-specific phosphodiesterase class I (or its enzymatically inactive variant)
+735	1612	COG2201	T	Chemotaxis response regulator CheB, contains REC and protein-glutamate methylesterase domains
+967	13407	COG2202	T	PAS domain
+862	5079	COG2203	T	GAF domain
+890	6790	COG2204	T	DNA-binding transcriptional response regulator, NtrC family, contains REC, AAA-type ATPase, and a Fis-type DNA-binding domains
+991	4087	COG2205	T	K+-sensing histidine kinase KdpD
+540	2060	COG2206	T	HD-GYP domain, c-di-GMP phosphodiesterase class II (or its inactivated variant)
+586	2063	COG2208	K T	Phosphoserine phosphatase RsbU, regulator of sigma subunit
+127	531	COG2310	T	Stress response protein SCP2
+693	1171	COG2334	T	Ser/Thr protein kinase RdoA involved in Cpx stress response, MazF antagonist
+282	352	COG2339	T	Membrane proteinase PrsW, cleaves anti-sigma factor RsiW, M82 family
+306	408	COG2357	T F	ppGpp synthetase catalytic domain (RelA/SpoT-type nucleotidyltranferase)
+340	490	COG2365	T	Protein tyrosine/serine phosphatase Oca4
+139	158	COG2404	J T	Oligoribonuclease NrnA/c-di-AMP phosphodiesterase DhhP, DHH superfamily
+325	393	COG2453	T	Protein-tyrosine phosphatase
+43	80	COG2469	T	Archaeal chemotaxis protein CheF
+263	618	COG2703	T	Hemerythrin
+333	386	COG2766	T	Predicted Ser/Thr protein kinase
+512	979	COG2770	T	HAMP domain
+323	360	COG2808	T	Predicted FMN-binding regulatory protein PaiB
+579	597	COG2844	T O	UTP:GlnB (protein PII) uridylyltransferase
+983	2401	COG2905	T	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains
+291	302	COG2912	T	Regulator of sirC expression, contains transglutaminase-like and TPR domains
+195	195	COG2915	T X	Regulator of phage lambda lysogenization HflD, binds to CII and stimulates its degradation
+361	357	COG2921	T	Putative lipoate-binding regulatory protein, UPF0250 family
+270	647	COG2972	T	Sensor histidine kinase YesM
+383	401	COG2976	T	Putative negative regulator of RcsB-dependent stress response, UPF0070 family
+250	252	COG3026	T	RseB, negative regulator of sigma E activity
+223	223	COG3045	T	Periplasmic catabolite regulation protein CreA (function unknown)
+130	135	COG3072	T	Adenylate cyclase, class I
+247	246	COG3073	T	RseA, negative regulator of sigma E activity
+139	164	COG3083	T M	Periplasmic protein PbgA/YejM, regulator of the LPS biosynthesis, AlkP superfamily
+283	309	COG3086	T	RseC, positive regulator of sigma E activity
+197	199	COG3106	T	Ras-like GTP-binding stress-induced protein YcjX, DUF463 family
+172	187	COG3109	T	sRNA-binding protein ProQ
+250	311	COG3143	T N	Phosphoaspartate phosphatase CheZ, dephosphorylates CheY~P
+416	688	COG3193	T	Formaldehyde-binding sensor protein EfgA, GlcG/HbpS family
+240	319	COG3213	T	Nitric oxide response protein NnrS
+277	305	COG3228	T	Mlc titration factor MtfA, regulates ptsG expression
+502	1646	COG3275	T	Sensor histidine kinase, LytS/YehU family
+704	2799	COG3279	K T	DNA-binding response regulator, LytR/AlgR family
+258	363	COG3287	T	FIST domain protein MJ1623, contains FIST_N and FIST_C domains
+357	710	COG3290	T	Sensor histidine kinase DipB regulating citrate/malate metabolism
+247	1165	COG3292	T	Periplasmic ligand-binding sensor domain
+219	309	COG3300	T	MHYT domain, NO-binding membrane sensor
+150	212	COG3322	T	Extracellular (periplasmic) sensor domain CHASE (specificity unknown)
+206	220	COG3412	T	Phosphotransferase subunit DhaM of the dihydroxyacetone kinase DhaKLM complex, contains PTS-EIIA, HPr, and PEP-utilizing domains
+213	378	COG3434	T	c-di-GMP phosphodiesterase YuxH/PdeH, contains EAL and HDOD domains
+502	1300	COG3437	T	Response regulator c-di-GMP phosphodiesterase, RpfG family, contains REC and HD-GYP domains
+228	335	COG3447	T	Integral membrane sensor domain MASE1
+684	1251	COG3448	T	CBS-domain-containing membrane protein
+156	182	COG3452	T	Extracellular (periplasmic) sensor domain CHASE (specificity unknown)
+152	182	COG3456	T U	Predicted component of the type VI protein secretion system, contains a FHA domain
+369	429	COG3476	T	Tryptophan-rich sensory protein TspO/CrtK (mitochondrial benzodiazepine receptor homolog)
+218	226	COG3480	T	Predicted secreted protein YlbL, contains PDZ domain
+401	779	COG3550	T	Serine/threonine protein kinase HipA, toxin component of the HipAB toxin-antitoxin module
+92	94	COG3602	T	ACT domain, ACT-3 family
+85	88	COG3603	T	ACT domain, ACT-7 family
+484	1070	COG3604	K T	FhlA-type transcriptional regulator, contains GAF, AAA-type ATPase, and DNA-binding Fis domains
+400	471	COG3605	T	Signal transduction protein containing GAF and PtsI domains
+223	351	COG3614	T	Extracytoplasmic sensor domain CHASE1 (specificity unknown)
+104	133	COG3641	T	Membrane regulatory protein PfoR, PTS_EIIC_2 domain (does not regulate perfringolysin expression)
+163	240	COG3679	T	Cell fate regulator YlbF, YheA/YmcA/DUF963 family (controls sporulation, competence, biofilm development)
+658	2883	COG3706	K T	Two-component response regulator, PleD family, consists of two REC domains and a diguanylate cyclase (GGDEF) domain
+516	865	COG3707	K T	Two-component response regulator, AmiR/NasT family, consists of REC and RNA-binding antiterminator (ANTAR) domains
+289	1785	COG3712	T P	Periplasmic ferric-dicitrate binding protein FecR, regulates iron transport
+207	283	COG3806	T	Anti-sigma factor ChrR, cupin superfamily
+572	1801	COG3829	K T	RocR-type transcriptional regulator, contains PAS, AAA-type ATPase, and DNA-binding Fis domains
+327	336	COG3830	T	ACT domain, binds amino acids and other small ligands
+273	457	COG3835	K T	Sugar diacid utilization regulator CdaR
+222	231	COG3848	T	Phosphohistidine swiveling domain of PEP-utilizing enzymes
+419	710	COG3850	T	Signal transduction histidine kinase NarQ, nitrate/nitrite-specific
+70	91	COG3851	T	Signal transduction histidine kinase UhpB, glucose-6-phosphate specific
+550	823	COG3852	T	Signal transduction histidine kinase NtrB, nitrogen specific
+130	155	COG3870	T	Cyclic di-AMP receptor DarA/PstA
+143	143	COG3887	T	Cyclic di-AMP phosphodiesterase GdpP, contains GGDEF-like and DHH domains
+120	134	COG3913	T U	Regulator of T6SS expression TagF, TagF/ImpM/SciT family (unrelated to teichoic acid polymerase TagF of B.subtilis, COG1887)
+189	296	COG3916	T	N-acyl-homoserine lactone synthase LasI (autoinducer biosynthesis)
+489	1479	COG3920	T	Two-component sensor histidine kinase, HisKA and HATPase domains
+54	54	COG3925	T G	N-terminal domain of the PTS fructose-specific IIB component
+159	197	COG3937	T Q	Polyhydroxyalkanoate synthesis regulator phasin
+146	200	COG3947	K T	Two-component response regulator, SAPR family, consists of REC, wHTH and BTAD domains
+657	4202	COG4191	T	Signal transduction histidine kinase regulating C4-dicarboxylate transport system
+36	38	COG4192	T	Signal transduction histidine kinase regulating phosphoglycerate transport system
+254	620	COG4219	T	Signal transducer regulating beta-lactamase production, contains metallopeptidase domain
+76	130	COG4250	T	DICT sensory domain found in diguanylate cyclases and two-component systems
+438	1827	COG4251	T	Bacteriophytochrome (light-regulated signal transduction histidine kinase)
+302	648	COG4252	T	Extracytoplasmic sensor domain CHASE2 (specificity unknown)
+124	127	COG4398	T	Small ligand-binding sensory domain FIST
+234	266	COG4464	T	Tyrosine-protein phosphatase YwqE
+61	103	COG4512	K T	Accessory gene regulator protein AgrB
+61	63	COG4550	T	Cell fate regulator YmcA, YheA/YmcA/DUF963 family (controls sporulation, competence, biofilm development)
+283	602	COG4564	T	Signal transduction histidine kinase
+407	664	COG4565	K T	DNA-binding response regulator DpiB of citrate/malate metabolism
+364	1003	COG4566	K T	DNA-binding response regulator, FixJ family, consists of REC and HTH domains
+315	409	COG4567	K T	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains
+160	160	COG4579	T	Isocitrate dehydrogenase kinase/phosphatase
+728	4585	COG4585	T	Signal transduction histidine kinase ComP
+379	576	COG4623	T M	Membrane-bound lytic murein transglycosylase MltF
+82	85	COG4650	K T	Sigma54-dependent transcription regulator containing an AAA-type ATPase domain and a DNA-binding domain
+523	1370	COG4753	K T	Two-component response regulator, YesN/AraC family, consists of REC and AraC-type DNA-binding domains
+84	95	COG4758	T	Membrane protein LiaF, inhibitor of the LiaRS two-component envelope stress sensory system
+17	32	COG4831	T	Roadblock/LC7 domain
+144	146	COG4832	V T	Cyclopropanoid cyclopropyl hydrolase, GyrI-like domain
+85	85	COG4853	T	YycI protein, regulator of the WalKR two-component signal transduction system
+259	263	COG4856	T	Cyclic di-AMP synthase regulator CdaR, YbbR domain
+94	120	COG4862	K T N	Negative regulator MecA of genetic competence, sporulation and motility
+79	79	COG4863	T	YycH protein, regulator of the WalKR two-component signal transduction system
+127	217	COG4936	T	Ligand-binding sensor domain
+85	126	COG4943	T	Redox-sensing c-di-GMP phosphodiesterase, contains CSS-motif and EAL domains
+49	63	COG4945	T G	Carbohydrate-binding DOMON domain
+188	220	COG4960	T O	Flp pilus assembly protein, peptidase CpaA
+267	421	COG4978	T	GyrI-like small molecule binding domain
+60	60	COG4999	T	Uncharacterized domain of signal transduction histidine kinase BarA
+691	1412	COG5000	T	Signal transduction histidine kinase NtrY involved in nitrogen fixation and metabolism regulation
+590	3416	COG5001	T	Cyclic di-GMP metabolism protein, combines GGDEF and EAL domains with a 6TM membrane domain
+1055	3361	COG5002	T	Sensor histidine kinase WalK
+358	359	COG5007	T	Acid stress protein IbaG/YrbA, BolA-like family
+109	120	COG5018	T	3'-5' exonuclease KapD, inhibitor of KinA-controlled sporulation
+99	153	COG5126	T	Ca2+-binding protein, EF-hand superfamily
+63	63	COG5212	T	cAMP phosphodiesterase
+366	710	COG5278	T	Extracytoplasmic sensor domain CHASE3 (specificity unknown)
+244	290	COG5343	T	Anti-sigma-K factor RskA
+136	136	COG5385	T	Histidine phosphotransfer protein ChpT, HPt domain
+285	291	COG5394	T Q	Polyhydroxyalkanoate (PHA) synthesis regulator protein, binds DNA and PHA
+26	33	COG5440	T	Global stress regulator YbjN, DUF2299 family
+67	105	COG5524	T C	Bacteriorhodopsin
+13	18	COG5599	T	Protein tyrosine phosphatase
+182	514	COG5616	T	TolB amino-terminal domain (function unknown)
+185	612	COG5635	T	Predicted NTPase, NACHT family domain
+73	86	COG5660	T	Anti-sigma-YlaC factor YlaD, contains Zn-finger domain
+33	125	COG5750	T	Chlorophyll biosynthesis regulator GUN4/Ycf53 domain
+36	36	COG5751	T	Photosynthetic regulator, contains GUN4/Ycf53 domain and N-terminal all-alpha domain
+22	40	COG5752	T	Signaling protein combining a Ser/Thr protein kinase domain and the GUN4/Ycf53 porphyrin-binding domain
+40	40	COG5764	T C	Cyanobacterial/chloroplast FeS cluster protein Ycf34, regulator of photosynthetic electron transport, PF10718 domain
+38	38	COG5768	T C	Cyanobacterial response regulator with REC-Ycf55 domain architecture
+39	39	COG5780	T C	Acclimation of photosynthesis to environment protein APE1, affects chlorophyll fluorescence, DUF2854 (PF11016) domain
+39	39	COG5788	T C	Cyanobacterial/chloroplast protein SipA, regulator of sensor kinase NblS (Hik33), DUF3148 (PF11347) family
+22	31	COG5792	T C	Fusion of CP12 with N-terminal CBS domain pair
+115	128	COG5801	D T	Stage 0 sporulation initiation regulator Spo0A (response regulator, REC-HTH domains)
+61	62	COG5802	D T	Stage 0 sporulation initiation phosphotransferase Spo0B
+74	77	COG5803	D T	Stage 0 sporulation initiation response regulator Spo0F
+76	197	COG5804	D T	Stage 0 sporulation regulatory phosphatase Spo0E
+20	20	COG5805	D T	Sporulation sensor histidine kinase A (Stage II sporulation protein SpoIIF/SpoIIJ)
+19	40	COG5806	D T	Sporulation sensor histidine kinase B
+16	16	COG5807	D T	Sporulation sensor histidine kinase C
+11	12	COG5808	D T	Sporulation sensor histidine kinase D
+30	41	COG5809	D T	Sporulation sensor histidine kinase E
+35	35	COG5810	D T	Sporulation protein KbaA, activator of histidine kinase KinB
+105	107	COG5815	D T	Stage II sporulation protein SpoIIAA (antagonist of anti-sigma F factor)
+85	89	COG5848	D T	SigmaK-processing regulatory protein BofA (Bypass-of-forespore protein A)
+38	38	COG5849	D T	SigmaK checkpoint regulator BofC (Bypass-of-forespore protein C)
+40	40	COG5867	D T	Anti-sigma-F factor Fin

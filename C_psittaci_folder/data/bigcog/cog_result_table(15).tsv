@@ -1,0 +1,212 @@
+Organism	Protein	COG	Cat	Annotation
+421	445	COG0068	O	Hydrogenase maturation factor HypF (carbamoyltransferase)
+1049	2461	COG0071	O	Small heat shock protein IbpA, HSP20 family
+177	209	COG0170	M O	Dolichol kinase
+1093	1586	COG0225	O	Peptide methionine sulfoxide reductase MsrA
+1041	1359	COG0229	O	Peptide methionine sulfoxide reductase MsrB
+1184	1437	COG0234	O	Co-chaperonin GroES (HSP10)
+1215	3940	COG0265	O	Periplasmic serine protease, S1-C subfamily, contain C-terminal PDZ domain
+568	607	COG0278	O	Glutaredoxin-related protein
+427	528	COG0298	O	Hydrogenase maturation factor HybG, HypC/HupF family
+503	604	COG0309	O	Carbamoyl dehydratase HypE (hydrogenase maturation factor)
+964	2023	COG0316	O	Fe-S cluster assembly iron-binding protein IscA
+789	936	COG0326	O	Molecular chaperone, HSP90 family
+1163	3060	COG0330	O	Regulator of protease activity HflC, stomatin/prohibitin superfamily
+670	869	COG0339	O	Zn-dependent oligopeptidase, M3 family
+690	697	COG0354	O	Folate-binding protein YgfZ, synthesis and repair of Fe-S clusters
+444	506	COG0375	O	Hydrogenase maturation factor HypA/HybF, metallochaperone involved in Ni insertion
+687	947	COG0378	O	Hydrogenase/urease maturation factor HypB, Ni2+-binding GTPase
+1000	1038	COG0396	O	Fe-S cluster assembly ATPase SufC
+531	560	COG0397	O	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)
+424	439	COG0409	O	Hydrogenase maturation factor HypD
+832	1439	COG0425	J O H	Sulfur carrier protein TusA (tRNA thiolation, molybdenum cofactor biosynthesis)
+1263	2652	COG0443	O	Molecular chaperone DnaK (HSP70)
+1295	1892	COG0459	O	Chaperonin GroEL (HSP60 family)
+1172	1777	COG0465	O	ATP-dependent Zn proteases
+943	1278	COG0466	O	ATP-dependent Lon protease, bacterial type
+1260	3406	COG0484	O	DnaJ-class molecular chaperone with C-terminal Zn finger domain
+1280	3109	COG0492	O	Thioredoxin reductase
+1008	2119	COG0501	O	Zn-dependent protease with chaperone function
+1005	2959	COG0526	O	Thiol-disulfide isomerase or thioredoxin
+1172	3035	COG0542	O	ATP-dependent Clp protease, ATP-binding subunit ClpA
+1158	1209	COG0544	O	FKBP-type peptidyl-prolyl cis-trans isomerase (trigger factor)
+707	1561	COG0545	O	FKBP-type peptidyl-prolyl cis-trans isomerase
+1260	1389	COG0576	O	Molecular chaperone GrpE (heat shock protein HSP-70)
+1011	1191	COG0606	O	Predicted Mg-chelatase, contains ChlI-like and ATPase domains, YifB family
+965	1572	COG0616	O	Periplasmic serine protease, ClpP class
+570	4926	COG0625	O	Glutathione S-transferase
+218	538	COG0638	O	20S proteasome, alpha and beta subunits
+399	736	COG0641	O	Sulfatase maturation enzyme AslB, radical SAM superfamily
+1107	2246	COG0652	O	Peptidyl-prolyl cis-trans isomerase (rotamase) - cyclophilin family
+353	426	COG0678	O	Peroxiredoxin
+1181	1189	COG0691	O	tmRNA-binding protein
+769	1019	COG0694	O	Fe-S cluster biogenesis protein NfuA, 4Fe-4S-binding domain
+971	1875	COG0695	O	Glutaredoxin
+972	1833	COG0705	O	Membrane-associated serine protease, rhomboid family
+1003	1941	COG0719	O	Fe-S cluster assembly scaffold protein SufB
+1160	2108	COG0740	O	ATP-dependent protease ClpP, protease subunit
+1235	1418	COG0750	K O	Membrane-associated protease RseP, regulator of RpoE activity
+928	1112	COG0755	O	ABC-type transport system involved in cytochrome c biogenesis, permease component
+943	2381	COG0760	O	Peptidyl-prolyl isomerase, parvulin family
+677	712	COG0762	O	Cytochrome b6 maturation protein CCB3/Ycf19 and related maturases, YggT family
+592	882	COG0785	O C	Cytochrome c biogenesis protein CcdA
+1044	2673	COG0793	O	C-terminal processing protease CtpA/Prc, contains a PDZ domain
+1024	1274	COG0822	O	Fe-S cluster assembly scaffold protein IscU, NifU family
+406	435	COG0829	O	Urease accessory protein UreH
+408	436	COG0830	O	Urease accessory protein UreF
+848	1109	COG0846	O	NAD-dependent protein deacetylase, SIR2 family
+123	143	COG1025	O	Secreted/periplasmic Zn-dependent peptidases, insulinase-like
+140	147	COG1026	O	Zn-dependent peptidase, M16 (insulinase) family
+392	477	COG1030	O	Membrane-bound serine protease NfeD, ClpP class
+690	1131	COG1047	O	Peptidyl-prolyl cis-trans isomerase, FKBP type
+418	536	COG1067	O	Predicted ATP-dependent protease
+435	571	COG1076	O	DnaJ domain-containing protein
+875	1586	COG1086	M O	NDP-sugar epimerase, includes UDP-GlcNAc-inverting 4,6-dehydratase FlaA1 and capsular polysaccharide biosynthesis protein EpsC
+886	2984	COG1123	O	ABC-type glutathione transport system ATPase component, contains duplicated ATPase domain
+507	584	COG1138	O C	Cytochrome c biogenesis protein CcmF
+651	1367	COG1180	O	Pyruvate-formate lyase-activating enzyme
+1137	1268	COG1219	O	ATP-dependent protease Clp, ATPase subunit ClpX
+700	702	COG1220	O	ATP-dependent protease HslVU (ClpYQ), ATPase subunit HslU
+320	457	COG1222	O	ATP-dependent 26S proteasome regulatory subunit
+1131	4137	COG1225	O	Peroxiredoxin
+678	2312	COG1262	O	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain
+604	1082	COG1266	O	Membrane protease YdiL, CAAX protease family
+529	939	COG1277	O	ABC-type transport system involved in multi-copper enzyme maturation, permease component
+690	699	COG1281	O	Redox-regulated molecular chaperone, HSP33 family
+158	216	COG1287	O	Asparagine N-glycosylation enzyme, membrane subunit Stt3
+469	482	COG1293	J O	Ribosome quality control (RQC) protein RqcH, Rqc2/NEMF/Tae2 family, contains fibronectin-(FbpA) and RNA- (NFACT) binding domains
+898	2389	COG1305	O	Transglutaminase-like enzyme, putative cysteine protease
+385	494	COG1310	O	Proteasome lid subunit RPN8/RPN11, contains Jab1/MPN domain metalloenzyme (JAMM) motif
+383	423	COG1333	O C	Cytochrome c biogenesis protein ResB
+132	133	COG1382	O	Prefoldin, chaperonin cofactor
+608	616	COG1391	O	Glutamine synthetase adenylyltransferase
+524	857	COG1397	O	ADP-ribosylglycohydrolase
+806	2868	COG1404	O	Serine protease, subtilisin family
+355	736	COG1433	O	Predicted Fe-Mo cluster-binding protein, NifX family
+759	1102	COG1477	O H	FAD:protein FMN transferase ApbE
+518	600	COG1495	O	Disulfide bond formation protein DsbB
+100	152	COG1572	O	Serine protease, subtilase family
+602	617	COG1585	O	Membrane protein implicated in regulation of membrane protease activity
+870	2028	COG1651	O	Protein thiol-disulfide isomerase DsbC
+1083	6267	COG1670	J O	Protein N-acetyltransferase, RimJ/RimL family
+551	809	COG1703	O	GTPase of the G3E family (not a periplasmic protein kinase)
+123	126	COG1730	O	Prefoldin subunit 5
+471	1110	COG1858	O	Cytochrome c peroxidase
+284	339	COG1899	J O	Deoxyhypusine synthase
+199	215	COG1928	O	Dolichyl-phosphate-mannose--protein O-mannosyl transferase
+39	39	COG1973	O	Hydrogenase maturation factor HypE
+629	1031	COG1975	O	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family
+754	1044	COG1994	O	Zn-dependent protease (includes sporulation protein SpoIVFB)
+634	1263	COG1999	O	Cytochrome oxidase Cu insertion factor, SCO1/SenC/PrrC family
+590	954	COG2020	O	Protein-S-isoprenylcysteine O-methyltransferase Ste14
+296	315	COG2039	O	Pyrrolidone-carboxylate peptidase (N-terminal pyroglutamyl peptidase)
+462	484	COG2077	O	Peroxiredoxin
+770	843	COG2127	O	ATP-dependent Clp protease adapter protein ClpS
+898	908	COG2137	O	SOS response regulatory protein OraA/RecX, interacts with RecA
+194	279	COG2143	O	Thioredoxin-related protein SoxW
+829	1313	COG2151	O	Metal-sulfur cluster biosynthetic enzyme
+577	642	COG2166	O	Sulfur transfer protein SufE, Fe-S cluster assembly
+419	597	COG2170	O	Gamma-glutamyl:cysteine ligase YbdK, ATP-grasp superfamily
+236	271	COG2180	O C P	Nitrate reductase assembly protein NarJ, required for insertion of molybdenum cofactor
+541	1635	COG2234	O E	Zn-dependent amino- or carboxypeptidase, M28 family
+362	389	COG2317	O	Zn-dependent carboxypeptidase, M32 family
+211	248	COG2322	O	Cytochrome oxidase assembly protein CtaM/YozB, DUF420 family
+498	508	COG2332	O C	Cytochrome c biogenesis protein CcmE
+523	798	COG2355	O E	Zn-dependent dipeptidase, microsomal dipeptidase homolog
+642	653	COG2360	O	Leu/Phe-tRNA-protein transferase
+195	241	COG2370	O	Hydrogenase/urease accessory protein HupE
+342	360	COG2371	O	Urease accessory protein UreE
+495	500	COG2386	O	ABC-type transport system involved in cytochrome c biogenesis, permease component
+809	1355	COG2518	O	Protein-L-isoaspartate O-methyltransferase
+330	335	COG2738	O	Zn-dependent membrane protease YugP
+643	913	COG2761	O	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)
+627	824	COG2825	M O	Periplasmic chaperone for outer membrane proteins, Skp family
+579	597	COG2844	T O	UTP:GlnB (protein PII) uridylyltransferase
+250	284	COG2846	O	Iron-sulfur cluster repair protein YtfE, RIC family, contains ScdAN and hemerythrin domains
+511	810	COG2856	O	Zn-dependent peptidase ImmA, M78 family
+353	355	COG2924	O P	Fe-S cluster biosynthesis and repair protein YggX
+384	390	COG2935	O	Arginyl-tRNA--protein-N-Asp/Glu arginylyltransferase
+438	434	COG2938	O	Succinate dehydrogenase flavin-adding protein, antitoxin component of the CptAB toxin-antitoxin module
+314	314	COG2969	O	Stringent starvation protein B, binds SsrA peptide
+200	199	COG2975	O	Fe-S-cluster formation regulator IscX/YfhJ
+128	134	COG2991	O C	Na+-NQR maturation protein NqrM
+50	64	COG2994	O	ACP:hemolysin acyltransferase (hemolysin-activating protein)
+79	88	COG2999	O	Glutaredoxin 2
+189	204	COG3058	O C	Formate dehydrogenase maturation protein FdhE
+151	156	COG3062	O	Cytoplasmic chaperone NapD for the signal peptide of periplasmic nitrate reductase NapAB
+416	473	COG3088	O C	Cytochrome c-type biogenesis protein CcmH/NrfF
+1255	3504	COG3118	O	Chaperedoxin CnoX, contains thioredoxin-like and TPR-like domains, YbbN/TrxSC family
+278	279	COG3175	O C	Cytochrome c oxidase assembly protein Cox11
+402	530	COG3187	O	Heat shock protein HslJ
+388	404	COG3197	O	Cytochrome oxidase maturation protein, CcoS/FixS family
+289	388	COG3212	O	PepSY domain containing protein, regulator of zincin peptidase activity
+217	435	COG3227	O	Zn-dependent metalloprotease (Neutral protease B)
+287	428	COG3336	O C	Cytochrome c oxidase assembly protein CtaG
+424	571	COG3346	O	Cytochrome oxidase assembly protein ShyY1
+280	555	COG3381	O	Cytoplasmic chaperone TorD involved in molybdoenzyme TorA maturation
+61	61	COG3389	O	Presenilin-like membrane protease, A22 family
+238	247	COG3484	O	Predicted proteasome-type protease
+132	154	COG3531	O	Predicted protein-disulfide isomerase, contains CxxC motif
+158	213	COG3555	O	Aspartyl/asparaginyl beta-hydroxylase, cupin superfamily
+336	478	COG3590	O	Predicted metalloendopeptidase
+298	543	COG3591	O	V8-like Glu-specific endopeptidase
+135	248	COG3640	O	CO dehydrogenase nickel-insertion accessory protein CooC1
+185	278	COG3672	O	Predicted transglutaminase-like protein
+225	308	COG3678	O	Periplasmic chaperone Spy, Spy/CpxP family
+234	291	COG3751	J O	Proline 4-hydroxylase (includes Rps23 Pro-64 3,4-dihydroxylase Tpa1), contains SM-20 domain
+187	185	COG3785	O	Heat shock protein HspQ
+153	154	COG3814	O	SspB-like protein, predicted to bind SsrA peptide
+205	217	COG3823	O	Glutamine cyclotransferase
+270	306	COG3824	O	Predicted Zn-dependent protease, minimal metalloprotease (MMP)-like domain
+172	173	COG3869	O	Protein-arginine kinase McsB
+180	187	COG3880	O	Protein-arginine kinase activator protein McsA
+189	225	COG3897	O	Protein N-terminal and lysine N-methylase, NNT1/EFM7 family
+212	428	COG3914	O	Predicted O-linked N-acetylglucosamine transferase, SPINDLY family
+478	507	COG4133	O	ABC-type transport system involved in cytochrome c biogenesis, ATPase component
+658	1006	COG4232	O	Thiol:disulfide interchange protein DsbD
+249	275	COG4233	O C	Thiol-disulfide interchange protein, contains DsbC and DsbD domains
+595	915	COG4235	O C	Cytochrome c-type biogenesis protein CcmH/NrfG
+257	277	COG4260	O	Membrane protease subunit, stomatin/prohibitin family, contains C-terminal Zn-ribbon domain
+35	36	COG4346	O	Predicted membrane-bound dolichyl-phosphate-mannose-protein mannosyltransferase
+132	187	COG4412	O	Bacillopeptidase F, M6 metalloprotease family
+37	39	COG4545	O	Glutaredoxin-related protein
+64	63	COG4574	O	Serine protease inhibitor ecotin
+905	3378	COG4783	M O	Outer membrane protein chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains
+174	236	COG4826	O	Serine protease inhibitor
+44	44	COG4837	O	Disulfide oxidoreductase YuzD
+48	55	COG4846	O C	Cytochrome c biogenesis protein CcdC
+163	263	COG4870	O	Cysteine protease, C1A family
+66	73	COG4875	O	Protein kinase association domain CaMKII_AD, NTF2-like superfamily
+102	110	COG4930	O	Predicted ATP-dependent Lon-type protease
+92	260	COG4934	O	Serine protease, subtilase family
+152	298	COG4935	O	Regulatory P domain of the subtilisin-like proprotein convertases and other proteases
+287	410	COG4959	U O	Type IV secretory pathway, protease TraF
+188	220	COG4960	T O	Flp pilus assembly protein, peptidase CpaA
+418	437	COG4987	O C	ABC-type transport system involved in cytochrome bd biosynthesis, fused ATPase and permease components
+455	508	COG4988	O C	ABC-type transport system involved in cytochrome bd biosynthesis, ATPase and permease components
+16	18	COG5029	O I	Prenyltransferase, beta subunit
+19	22	COG5078	O	Ubiquitin-protein ligase
+12	12	COG5131	O	Ubiquitin-like protein
+4	4	COG5160	O	Protease, Ulp1 family
+4	5	COG5206	O	Glycosylphosphatidylinositol transamidase (GPIT), subunit GPI8
+290	302	COG5265	O	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components
+9	13	COG5272	O	Ubiquitin
+181	276	COG5282	O	Zn-dependent metallopeptidase, zincin/DUF2342 superfamily
+47	67	COG5380	O	Lipase chaperone LimK
+140	140	COG5387	O	Mitochondrial FoF1-type ATP synthase assembly chaperone ATP12
+704	723	COG5405	O	ATP-dependent protease HslVU (ClpYQ), peptidase subunit
+19	19	COG5494	O	Predicted thioredoxin/glutaredoxin
+86	106	COG5513	O	Chagasin-like inhibitor of cysteine peptidase, I42 family
+7	12	COG5533	O	Ubiquitin C-terminal hydrolase
+65	72	COG5549	O	Predicted Zn-dependent protease
+41	90	COG5550	O	Predicted aspartyl protease
+23	23	COG5580	O	Activator of HSP90 ATPase
+128	363	COG5640	O	Secreted trypsin-like serine protease
+179	224	COG5646	O P	Iron-binding protein Fra/YdhG, frataxin family (Fe-S cluster biosynthesis)
+47	47	COG5661	O	Predicted secreted Zn-dependent protease
+15	16	COG5664	O	Predicted secreted Zn-dependent protease
+40	40	COG5774	O C	Cytochrome b6 maturation protein CCB1
+40	40	COG5781	O C	Cytochrome b6 maturation protein CCB2
+107	107	COG5818	K D O	Stage II sporulation protein SpoIIGA (protease, processing of pro-sigma-E to active sigma-E)
+108	114	COG5832	D O	Stage IV sporulation protein SpoIVB, serine protease, degrades SpoIIQ, SpoIVFA
+68	73	COG5866	D O	Sporulation-specific protease YabG

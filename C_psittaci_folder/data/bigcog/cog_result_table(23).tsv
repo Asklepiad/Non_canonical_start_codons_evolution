@@ -1,0 +1,242 @@
+Organism	Protein	COG	Cat	Annotation
+385	739	COG0003	P	Anion-transporting ATPase, ArsA/GET3 family
+982	1565	COG0004	P	Ammonia channel protein AmtB
+744	1333	COG0025	P	NhaP-type Na+/H+ or K+/H+ antiporter
+762	1240	COG0038	P	H+/Cl- antiporter ClcA
+1063	1589	COG0053	P	Divalent metal cation (Fe/Co/Zn/Cd) efflux pump
+769	1094	COG0155	P	Sulfite reductase, beta subunit (hemoprotein)
+929	1439	COG0168	P	Trk-type K+ transport system, membrane component
+1092	1882	COG0226	P	ABC-type phosphate transport system, periplasmic component
+948	1284	COG0239	D P	Fluoride ion exporter CrcB/FEX, affects chromosome condensation
+936	1469	COG0288	P	Carbonic anhydrase
+873	1197	COG0306	P	Phosphate/sulfate permease
+373	489	COG0310	P	ABC-type Co2+ transport system, permease component
+433	581	COG0369	F P	Flavoprotein (flavin reductase) subunit CysJ of sulfite and N-hydroxylaminopurine reductases
+760	1072	COG0370	P	Fe2+ transporter FeoB
+517	575	COG0376	P	Catalase (peroxidase I)
+262	299	COG0387	P	Cation (Ca2+/Na+/K+)/H+ antiporter ChaA
+350	359	COG0390	P	ABC-type iron transport system FetAB, permease component
+664	918	COG0428	P	Zinc transporter ZupT
+858	4190	COG0444	E P	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
+832	1688	COG0474	P	Magnesium-transporting ATPase (P-type)
+953	1942	COG0475	P	Kef-type K+ transport system, membrane component KefB
+514	1465	COG0477	G E P R	MFS family permease, includes anhydromuropeptide permease AmpG
+284	326	COG0490	T P	K+/H+ antiporter KhtSTU, c-di-AMP-binding regulatory subunit KhtT, contains RCK_C (TrkA_C) domain
+656	818	COG0529	P	Adenylylsulfate kinase or related kinase
+684	983	COG0530	P	Ca2+/Na+ antiporter
+509	632	COG0555	P	ABC-type sulfate transport system, permease component
+1106	2991	COG0569	T P	Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain
+999	1190	COG0573	P	ABC-type phosphate transport system, permease component
+1053	1280	COG0581	P	ABC-type phosphate transport system, permease component
+984	1577	COG0598	P	Mg2+ and Co2+ transporter CorA
+872	3411	COG0600	P	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component
+1048	4806	COG0601	E P	ABC-type dipeptide/oligopeptide/nickel transport system, permease component
+1073	1390	COG0605	P	Superoxide dismutase
+1157	4854	COG0607	P	Rhodanese-related sulfurtransferase
+1005	2996	COG0609	P	ABC-type Fe3+-siderophore transport system, permease component
+1044	3357	COG0614	P	ABC-type Fe3+-hydroxamate transport system, periplasmic component
+713	1356	COG0651	C P	Formate hydrogenlyase subunit 3/Multisubunit Na+/H+ antiporter, MnhD subunit
+852	1834	COG0659	P	Sulfate permease or related transporter, MFS superfamily
+657	755	COG0670	P	Integral membrane protein YbhL, putative Ca2+ regulator, Bax inhibitor (BI-1)/TMBIM family
+379	425	COG0672	P	High-affinity Fe2+/Pb2+ permease
+1037	1457	COG0704	P	Phosphate uptake regulator PhoU
+941	4028	COG0715	P	ABC-type nitrate/sulfonate/bicarbonate transport system, periplasmic component
+893	1280	COG0725	P	ABC-type molybdate transport system, periplasmic Mo-binding protein ModA
+1100	3154	COG0730	P	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family
+1161	2786	COG0735	P	Fe2+ or Zn2+ uptake regulation protein Fur/Zur
+262	285	COG0748	P	Putative heme iron utilization protein, contains PNPOx domain
+594	965	COG0753	P	Catalase
+760	1035	COG0783	V P	DNA-binding ferritin-like protein (oxidative damage protectant)
+635	780	COG0798	P	Arsenite efflux pump ArsB, ACR3 family
+941	1443	COG0803	P	ABC-type Zn uptake system ZnuABC, Zn-binding component ZnuA
+863	925	COG0855	P	Polyphosphate kinase
+795	1428	COG0861	P	Tellurite resistance membrane protein TerC
+552	685	COG1006	P	Multisubunit Na+/H+ antiporter, MnhC subunit
+770	1174	COG1055	P	Na+/H+ antiporter NhaD or related arsenite permease
+1005	1819	COG1108	P	ABC-type Mn2+/Zn2+ transport system, permease component
+897	3110	COG1116	P	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component
+1059	1421	COG1117	P	ABC-type phosphate transport system, ATPase component
+469	579	COG1118	P	ABC-type sulfate/molybdate transport systems, ATPase component
+416	456	COG1119	P	ABC-type molybdenum transport system, ATPase component ModF/photorepair protein PhrA
+994	2462	COG1120	H P	ABC-type cobalamin/Fe3+-siderophores transport system, ATPase component
+978	1496	COG1121	P	ABC-type Mn2+/Zn2+ transport system, ATPase component
+640	1354	COG1122	P R	Energy-coupling factor transporter ATP-binding protein EcfA2
+197	275	COG1124	E P	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
+263	310	COG1140	C P	Nitrate reductase beta subunit
+1042	4764	COG1173	E P	ABC-type dipeptide/oligopeptide/nickel transport system, permease component
+672	1265	COG1178	P	ABC-type Fe3+ transport system, permease component
+544	614	COG1218	P	3'-Phosphoadenosine 5'-phosphosulfate (PAPS) 3'-phosphatase
+571	911	COG1226	P	Voltage-gated potassium channel Kch
+788	1252	COG1230	P	Co/Zn/Cd efflux system component
+860	1278	COG1235	P	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase
+323	424	COG1276	P	Putative copper export protein
+477	618	COG1283	P	Na+/phosphate symporter
+564	735	COG1285	P	Magnesium uptake protein YhiD/SapB, involved in acid resistance
+510	635	COG1320	P	Multisubunit Na+/H+ antiporter, MnhG subunit
+506	520	COG1324	P	Divalent cation tolerance protein CutA
+271	411	COG1348	H P	Nitrogenase ATPase subunit NifH/coenzyme F430 biosynthesis subunit CfbC
+515	602	COG1392	P	Phosphate transport regulator YkaA, distantly related to PhoU, UPF0111/DUF47 family
+803	1551	COG1393	P	Arsenate reductase or related protein, glutaredoxin family
+264	429	COG1416	P	Intracellular sulfur oxidation protein, DsrE/DsrF family
+535	983	COG1464	P	ABC-type metal ion transport system, periplasmic component/surface antigen
+923	944	COG1496	P	Copper oxidase (laccase) domain
+179	188	COG1513	P	Cyanate lyase
+417	471	COG1528	P	Ferritin
+271	345	COG1553	P	Sulfur relay (sulfurtransferase) complex TusBCD TusD component, DsrE family
+352	452	COG1613	P	ABC-type sulfate transport system, periplasmic component
+580	6034	COG1629	P	Outer membrane receptor protein, Fe transport
+349	593	COG1633	P	Rubrerythrin, includes spore coat protein YhjR
+611	859	COG1652	P	Cytoplasmic potassium-binding protein Kbp/XkdP/YgaU, contains LysM domain
+509	661	COG1668	C P	ABC-type Na+ efflux pump, permease component NatB
+579	883	COG1773	P	Flavorubredoxin
+418	531	COG1785	P R	Alkaline phosphatase
+501	610	COG1814	P	Predicted Fe2+/Mn2+ transporter, VIT1/CCC1 family
+68	112	COG1824	P	Permease, similar to cation transporters
+521	653	COG1863	P	Multisubunit Na+/H+ antiporter, MnhE subunit
+304	379	COG1910	P	Periplasmic molybdate-binding protein/domain
+669	1054	COG1914	P	Mn2+ or Fe2+ transporter, NRAMP family
+757	1210	COG1918	P	Fe2+ transport protein FeoA
+157	164	COG1930	P	ABC-type cobalt transport system, periplasmic component
+213	213	COG1965	P	Fe-S cluster assembly protein CyaY, frataxin homolog
+333	438	COG1971	P	Putative Mn2+ efflux pump MntP
+340	378	COG2032	P	Cu/Zn superoxide dismutase
+306	340	COG2046	P	ATP sulfurylase (sulfate adenylyltransferase)
+590	1086	COG2059	P	Chromate transport protein ChrA
+406	431	COG2060	P	K+-transporting ATPase, KdpA subunit
+477	1485	COG2072	P	Predicted flavoprotein CzcO associated with the cation diffusion facilitator CzcD
+490	714	COG2111	P	Multisubunit Na+/H+ antiporter, MnhB subunit
+472	672	COG2116	P	Formate/nitrite transporter FocA, FNT family
+653	1720	COG2128	P	Alkylhydroperoxidase family enzyme, contains CxxC motif
+683	1526	COG2132	D M P	Multicopper oxidase with three cupredoxin domains (includes cell division protein FtsP and spore coat protein CotA)
+749	1794	COG2146	P Q	Ferredoxin subunit of nitrite reductase or a ring-hydroxylating dioxygenase
+412	431	COG2156	P	K+-transporting ATPase, KdpC subunit
+236	271	COG2180	O C P	Nitrate reductase assembly protein NarJ, required for insertion of molybdenum cofactor
+315	407	COG2181	C P	Nitrate reductase gamma subunit
+541	756	COG2193	P	Bacterioferritin (cytochrome b1)
+494	593	COG2212	P	Multisubunit Na+/H+ antiporter, MnhF subunit
+227	291	COG2215	P	ABC-type nickel/cobalt efflux system, permease component RcnA
+402	425	COG2216	P	K+ transport ATPase, ATPase subunit KdpB
+1207	3800	COG2217	P	Cation-transporting P-type ATPase
+261	583	COG2221	P	Dissimilatory sulfite reductase (desulfoviridin), alpha and beta subunits
+716	1361	COG2223	P	Nitrate/nitrite transporter NarK
+955	1330	COG2239	P	Mg/Co/Ni transporter MgtE (contains CBS domain)
+596	905	COG2346	P	Truncated hemoglobin YjbI
+337	497	COG2372	P	Copper-binding protein CopC (methionine-rich)
+343	655	COG2375	P	NADPH-dependent ferric siderophore reductase, contains FAD-binding and SIP domains
+374	747	COG2382	P	Enterochelin esterase or related enzyme
+82	86	COG2403	P	Zn/Ni/Co-binding GTPase YjiA, predicted metallochaperone, CobW/Nha3/YciC family
+1034	2248	COG2608	P	Copper chaperone CopZ
+240	1066	COG2710	H P	Nitrogenase Mo-Fe protein NifD/coenzyme F430 biosynthesis subunit CfbD
+411	615	COG2807	P	Cyanate permease
+163	195	COG2822	P	Iron uptake system EfeUOB, periplasmic (or lipoprotein) component EfeO/EfeM
+375	545	COG2837	P	Periplasmic deferrochelatase/peroxidase EfeB
+451	571	COG2847	P	Copper(I)-binding protein
+604	684	COG2895	P	Sulfate adenylyltransferase subunit 1, EFTu-like GTPase family
+787	1421	COG2897	P	3-mercaptopyruvate sulfurtransferase SseA, contains two rhodanese domains
+117	128	COG2899	P	Uncharacterized TerC-related membrane protein, DUF475 domain
+458	632	COG2906	P	Bacterioferritin-associated ferredoxin
+353	355	COG2924	O P	Fe-S cluster biosynthesis and repair protein YggX
+449	448	COG2967	P	Uncharacterized conserved protein ApaG affecting Mg2+/Co2+ transport
+364	364	COG2981	E P	Sulfate transporter CysZ
+220	251	COG2998	P	ABC-type tungstate transport system, permease component
+504	649	COG3004	C P	Na+/H+ antiporter NhaA
+294	310	COG3025	P	Inorganic triphosphatase YgiF, contains CYTH and CHAD domains
+148	154	COG3043	C P	Nitrate reductase cytochrome c-type subunit NapB
+99	101	COG3067	C P	Na+/H+ antiporter NhaB
+547	3474	COG3119	P	Arylsulfatase A or related enzyme, AlkP superfamily
+339	353	COG3142	P	Copper homeostasis protein CutC
+382	514	COG3158	P	K+ uptake protein Kup
+222	244	COG3174	P	Membrane component of predicted Mg2+ transport system, contains DUF4010 domain
+555	1168	COG3221	P	ABC-type phosphate/phosphonate transport system, periplasmic component
+132	142	COG3230	P	Heme oxygenase
+283	287	COG3253	H P	Coproheme decarboxylase/chlorite dismutase
+261	297	COG3256	P	Nitric oxide reductase large subunit
+314	538	COG3258	P	Thiosulfate dehydrogenase TsdA, contains C-terminal cytochrome c domain
+375	413	COG3263	C P	NhaP-type Na+/H+ and K+/H+ antiporter with C-terminal TrkAC and CorC domains
+157	217	COG3301	P	Nitrite/polysulfide reductase, membrane component NrfD/PsrC
+154	181	COG3303	P	Formate-dependent nitrite reductase, periplasmic cytochrome c552 subunit
+168	186	COG3338	P	Carbonic anhydrase
+424	660	COG3350	P	Heavy metal-bindng TRASH/YHS domain, predicted Cu/Ag metallochaperone
+126	134	COG3376	P	High-affinity nickel/cobalt permease
+282	455	COG3420	P	Nitrous oxide reductase accessory protein NosD, contains tandem CASH domains
+75	76	COG3443	P	Periplasmic Zn/Cd-binding protein ZinT
+178	257	COG3454	P	Alpha-D-ribose 1-methylphosphonate 5-triphosphate diphosphatase PhnM
+372	697	COG3540	P	Phosphodiesterase/alkaline phosphatase D
+240	324	COG3546	P	Mn-containing catalase (includes spore coat protein CotJC)
+105	137	COG3615	P	Tellurite resistance protein TehB, SAM-dependent methylase, cupin superfamily
+152	163	COG3624	P	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG
+161	173	COG3625	P	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH
+157	170	COG3626	P	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI
+154	166	COG3627	P	Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase PhnJ
+374	515	COG3638	P	ABC-type phosphate/phosphonate transport system, ATPase component
+376	756	COG3639	P	ABC-type phosphate/phosphonate transport system, permease component
+153	235	COG3667	P	Uncharacterized conserved protein involved in copper resistance
+96	107	COG3684	G P	Tagatose-1,6-bisphosphate/sulfofructosephosphate aldolase
+193	390	COG3685	P	Ferritin-like metal-binding protein YciE
+485	1371	COG3696	P	Cu/Ag efflux pump CusA
+49	50	COG3700	P R	Acid phosphatase, class B
+254	316	COG3703	P	Gamma-glutamylcyclotransferase ChaC2 (glutathione degradation)
+289	1785	COG3712	T P	Periplasmic ferric-dicitrate binding protein FecR, regulates iron transport
+185	187	COG3720	P	Putative heme degradation protein
+77	81	COG3721	P	Putative heme iron utilization protein
+174	288	COG3746	P	Phosphate-selective porin
+231	344	COG3781	P	Predicted membrane chloride channel, bestrophin family
+130	147	COG3793	P	Tellurite resistance protein TerB
+72	80	COG3965	P	Predicted Co/Zn/Cd cation transporter, cation efflux family
+175	211	COG4097	P	Predicted ferric reductase
+186	190	COG4100	P R	Cystathionine beta-lyase family protein involved in aluminum resistance
+264	307	COG4103	P	Tellurite resistance protein TerB
+156	166	COG4107	P	ABC-type phosphonate transport system, ATPase component PhnK
+123	140	COG4114	P	Ferric iron reductase protein FhuF, involved in iron transport
+224	268	COG4117	P	Thiosulfate reductase cytochrome b subunit
+377	397	COG4148	P	ABC-type molybdate transport system, ATPase component ModC
+760	819	COG4149	P	ABC-type molybdate transport system, permease component ModB
+90	90	COG4150	P	ABC-type sulfate transport system, periplasmic component
+357	394	COG4208	P	ABC-type sulfate transport system, permease component
+148	152	COG4263	P	Nitrous oxide reductase
+187	350	COG4264	P	Siderophore synthetase component IucA/IucC/SbnC
+113	133	COG4275	P	Chromate resistance protein ChrB1
+98	141	COG4300	P	Cadmium resistance protein CadD, predicted permease
+163	240	COG4314	P	Nitrous oxide reductase accessory protein NosL
+61	73	COG4362	P	Nitric oxide synthase, oxygenase domain
+140	155	COG4521	P	ABC-type taurine transport system, periplasmic component
+79	82	COG4525	P	ABC-type taurine transport system, ATPase component
+212	224	COG4531	P	ABC-type Zn2+ transport system, periplasmic component/surface adhesin ZnuA
+309	307	COG4535	P	Mg2+ and Co2+ transporter CorC, contains CBS pair and CorC-HlyC domains
+389	392	COG4536	P	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains
+234	313	COG4548	P	Nitric oxide reductase activation protein
+90	95	COG4555	C P	ABC-type Na+ transport system, ATPase component NatA
+299	317	COG4558	P	ABC-type hemin transport system, periplasmic component
+168	174	COG4559	P	ABC-type hemin transport system, ATPase component
+96	113	COG4572	P	Cation transport regulator ChaB
+69	72	COG4592	P	ABC-type Fe2+-enterobactin transport system, periplasmic component
+86	113	COG4594	P	ABC-type Fe3+-citrate transport system, periplasmic component
+193	196	COG4604	P	ABC-type enterochelin transport system, ATPase component
+193	198	COG4605	P	ABC-type enterochelin transport system, permease component
+191	195	COG4606	P	ABC-type enterochelin transport system, permease component
+212	239	COG4607	P	ABC-type enterochelin transport system, periplasmic component
+140	182	COG4615	P	ABC-type siderophore export system, fused ATPase and permease components
+156	161	COG4619	P	ABC-type iron transporter FetAB, ATPase component
+465	1707	COG4638	P R	Phenylpropionate dioxygenase or related ring-hydroxylating dioxygenase, large terminal subunit
+399	473	COG4651	P	Predicted Kef-type K+ transport protein, K+/H+ antiporter domain
+210	220	COG4662	P	ABC-type tungstate transport system, periplasmic component
+30	31	COG4693	P	Oxidoreductase (NAD-binding), involved in siderophore biosynthesis
+576	4929	COG4771	P	Outer membrane receptor for ferrienterochelin and colicins
+252	386	COG4772	P	Outer membrane receptor for Fe3+-dicitrate
+331	1016	COG4773	P	Outer membrane receptor for ferric coprogen and ferric-rhodotorulic acid
+343	808	COG4774	P	Outer membrane receptor for monomeric catechols
+158	170	COG4778	P	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnL
+199	334	COG4779	P	ABC-type enterobactin transport system, permease component
+12	16	COG4881	P	Predicted membrane anchor for polysulfide/nitrite-type reductase, PsrC/NrfD syperfamily
+92	91	COG4985	P	ABC-type phosphate transport system, auxiliary component PstA
+131	135	COG4986	P	ABC-type anion transport system, duplicated permease component
+243	287	COG5013	C P	Nitrate reductase alpha subunit
+27	27	COG5036	U P	SPX domain-containing protein involved in vacuolar polyphosphate accumulation
+25	59	COG5386	P	Heme-binding NEAT domain
+63	64	COG5446	P	Putative cobalt transporter membrane subunit CbtA
+103	138	COG5455	P	Periplasmic regulator RcnB of Ni and Co efflux
+141	144	COG5456	P	Nitrogen fixation protein FixH
+97	123	COG5478	P	Low affinity Fe/Cu permease
+205	363	COG5569	P	Periplasmic Cu and Ag efflux protein CusF
+36	36	COG5612	P	Ni/Co/Cd-binding protein CnrX (heavy-metal resistance)
+179	224	COG5646	O P	Iron-binding protein Fra/YdhG, frataxin family (Fe-S cluster biosynthesis)
