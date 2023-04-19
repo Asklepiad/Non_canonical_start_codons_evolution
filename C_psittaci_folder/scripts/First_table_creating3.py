@@ -16,17 +16,17 @@ from Bio.Seq import Seq
 from itertools import chain
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
-from Bio import Entrez
 from IPython import get_ipython
-Entrez.email = "bogdan.sotnikov.1999@mail.ru"
 
 parser = argparse.ArgumentParser()
 
 parser.add_argument("folder_name", type=str)
+#parser.add_argument("cog_source", type=str, default="https://www.ncbi.nlm.nih.gov/research/cog/cogcategory/")
 
 arguments = parser.parse_args()
 
 folder_name = arguments.folder_name
+#cog_url = arguments.cog_source
 
 # Function for parsing assembly number
 def get_assembly_number(pre_pattern1, string):
@@ -58,9 +58,9 @@ tuples = [tuple(x) for x in tuples]
 plasmid_code = dict(zip(tuples, dna_type))
 
 # Parsing
-locus_tag, start_codone, source, n_sequence, aa_sequence, DNA_source, gene_pseudogene, \
-product, cog, p_c_unity, additional_info, first_n, last_n, strand_n, \
-length_n = [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+locus_tag, start_codone, source, n_sequence, aa_sequence, DNA_source, \
+product, cog, p_c_unity, first_n, last_n, strand_n, \
+length_n = [], [], [], [], [], [], [], [], [], [], [], [], []
 for record_number in tqdm(range(len(gb_records))):
     for feature_number in range(1, len(gb_records[record_number][0].features)):
         if gb_records[record_number][0].features[feature_number].type == "CDS":
@@ -106,28 +106,22 @@ for record_number in tqdm(range(len(gb_records))):
                 DNA_source.append("plasmid")
             else:
                 DNA_source.append("chromosome")
-
-#             ## Column 6 -- gene or pseudogene
-            
-            # Column 7 -- protein, coding by this gene
+         
+            # Column 6 -- protein, coding by this gene
             if 'product' in gb_records[record_number][0].features[feature_number].qualifiers.keys():
                 product.append(gb_records[record_number][0].features[feature_number].qualifiers['product'][0])
             else:
-                product.append("NA")
+                product.append("absent")
                 
-            ## Column 8 -- COG number
+            ## Column 7 -- COG number
             if 'db_xref' in gb_records[record_number][0].features[feature_number].qualifiers.keys():
                 cog.append(gb_records[record_number][0].features[feature_number].qualifiers["db_xref"][0][4:])
             else:
                 cog.append("absent")
             
-            ## Column 9 -- number of molecule (for identification and further plasmid marking)
+            ## Column 8 -- number of molecule (for identification and further plasmid marking)
             p_c_unity.append(gb_records[record_number][1])
             
-            # Column 10 -- Record and feature number
-            additional_info.append((record_number, feature_number))
-
-
 df1 = pd.DataFrame(
     {
         "id": pd.Series(locus_tag),
@@ -135,12 +129,10 @@ df1 = pd.DataFrame(
         "n_sequence": pd.Series(n_sequence),
         "aa_sequence": pd.Series(aa_sequence),
         "type_of_DNA_source": pd.Series(DNA_source),
-        "type_of_the_gene": pd.Series(gene_pseudogene),
         "start_codone": pd.Series(start_codone),
         "product": pd.Series(product),
         "cog": pd.Series(cog),
         "p_c_unity": pd.Series(p_c_unity),
-        "additional_info": pd.Series(additional_info),
         "first": pd.Series(first_n),
         "last": pd.Series(last_n),
         "strand": pd.Series(strand_n),
@@ -189,12 +181,12 @@ for source in tqdm(set(df1["p_c_unity"])):
     subset = df1[df1["p_c_unity"] == source]
     with open (f"../{folder_name}/data/orto_rows/{folder_name}{str(source)}.fasta", "w") as protein_fasta:
         for index, row in subset.iterrows():
-            if row['type_of_the_gene'] != "pseudogene":
-                protein_fasta.write(">")
-                protein_fasta.write(row["id"])
-                protein_fasta.write("_")
-                protein_fasta.write(row["source"])
-                protein_fasta.write("\n")
-                protein_fasta.write(row["aa_sequence"])
-                protein_fasta.write("\n")
+#            if row['type_of_the_gene'] != "pseudogene":
+            protein_fasta.write(">")
+            protein_fasta.write(row["id"])
+            protein_fasta.write("_")
+            protein_fasta.write(row["source"])
+            protein_fasta.write("\n")
+            protein_fasta.write(row["aa_sequence"])
+            protein_fasta.write("\n")
 

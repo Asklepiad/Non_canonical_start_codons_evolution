@@ -26,7 +26,7 @@ folder_name = f"{lst[0][0]}_{lst[1]}"
 # ### Orto rows with singletons, but without paralog-containing rows
 # Uploading and modificating orto rows tables
 orto_rows = pd.read_csv(f"../{folder_name}/data/{folder_name}.proteinortho.tsv", sep="\t") # Uploading dataframe with orto rows
-orto_rows = orto_rows.rename(columns = {"# Species": "Strains"})
+orto_rows = orto_rows.rename(columns = {"# Species": "Species"})
 orto_rows["ortologus_row"] = orto_rows.index + 1 # Creating ortorows numbers
 
 # Uploading first csv-table and creating a new column in it
@@ -43,10 +43,10 @@ for strain in tqdm(set(df1["p_c_unity"])):
         df1.loc[df1[df1["id"] == orrow[index]].index, "ortologus_row"] = index + 1
 
 # Number of the paralogs
-print("Number of the paralogs =", sum(orto_rows.query("Genes > Strains").Genes) - sum(orto_rows.query("Genes > Strains").Strains))
+print("Number of the paralogs =", sum(orto_rows.query("Genes > Species").Genes) - sum(orto_rows.query("Genes > Species").Species))
 
 # Creating a subset without pararows
-pararows_numbers = orto_rows.query("Genes > Strains").ortologus_row
+pararows_numbers = orto_rows.query("Genes > Species").ortologus_row
 df1 = df1.query("ortologus_row not in @pararows_numbers").query("ortologus_row != 0")
 
 # Compiling data about start-codons of ortologus rows
@@ -87,35 +87,34 @@ for row in tqdm(range(len(start_codons))):
 start_codons["uniformity"] = "NA"
 for row in range(len(start_codons)):
     if len(set(start_codons.iloc[row, 1])) == 1:
-        start_codons.iloc[row, 5] = "uniform"
+        start_codons.iloc[row, 5] = "same"
     else:
-        start_codons.iloc[row, 5] = "non-uniform"
+        start_codons.iloc[row, 5] = "different"
 
 # Constructing table withh all data about the ortologus rows (including pararows)
 start_codons2 = start_codons.merge(orto_rows, on="ortologus_row", how="outer")
 
 # Creating a table, combining data about gene and its start-codone
-strain_gene_row = start_codons2[["Strains", "Genes", "ortologus_row", "uniformity", "ATG", "GTG", "TTG"]]   # Other codons deleted
+strain_gene_row = start_codons2[["Species", "Genes", "ortologus_row", "uniformity", "ATG", "GTG", "TTG"]]   # Other codons deleted
 summary_rows = df1.merge(strain_gene_row, on="ortologus_row")
 
-# Identifying non-uniform rows
 # We need to align only rows with different start-codons.
 
-non_uniform_or_list = list(set(start_codons2.query("uniformity == 'non-uniform'").ortologus_row))
+non_uniform_or_list = list(set(start_codons2.query("uniformity == 'different'").ortologus_row))
 for orto_row in tqdm(non_uniform_or_list):
     subset = summary_rows.query("ortologus_row == @orto_row")
     with open (f"../{folder_name}/data/multialignments/{folder_name}_withoutp_{str(orto_row)}.fasta", "w") as nucleotide_fasta:
         for index, row in subset.iterrows():
-            if row['type_of_the_gene'] != "pseudogene":
-                nucleotide_fasta.write(">")
-                nucleotide_fasta.write(row["id"])
-                nucleotide_fasta.write("_")
-                nucleotide_fasta.write(row["source"])
-                nucleotide_fasta.write("_")
-                nucleotide_fasta.write(row["start_codone"])
-                nucleotide_fasta.write("\n")
-                nucleotide_fasta.write(row["n_sequence"])
-                nucleotide_fasta.write("\n")
+            #if row['type_of_the_gene'] != "pseudogene":
+            nucleotide_fasta.write(">")
+            nucleotide_fasta.write(row["id"])
+            nucleotide_fasta.write("_")
+            nucleotide_fasta.write(row["source"])
+            nucleotide_fasta.write("_")
+            nucleotide_fasta.write(row["start_codone"])
+            nucleotide_fasta.write("\n")
+            nucleotide_fasta.write(row["n_sequence"])
+            nucleotide_fasta.write("\n")
 
 
 # #### Saving summary-rows and start-codons2

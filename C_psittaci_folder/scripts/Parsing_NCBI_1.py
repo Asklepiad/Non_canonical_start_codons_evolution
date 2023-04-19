@@ -27,15 +27,16 @@ from tqdm import tqdm
 import json
 
 # Asserting email for Entrez
-Entrez.email = "bogdan.sotnikov.1999@mail.ru"
 
 parser = argparse.ArgumentParser()
 
 parser.add_argument("organism_name", type=str)
+parser.add_argument("mail", type=str)
 
 arguments = parser.parse_args()
 
 organism_name = arguments.organism_name
+Entrez.email = arguments.mail
 
 def extract_insdc(links):
     '''
@@ -55,15 +56,18 @@ def extract_insdc(links):
 organism = organism_name
 db_search = "assembly"
 db_current = "nucleotide"
+print("variables_ok")
 
 # First searching helps to count complete number of links
 search_handle = Entrez.esearch(db=db_search, term=organism)
 search_record = Entrez.read(search_handle)
 count = int(search_record["Count"])
+print("search1_ok")
 
 # Second searching
 search_handle = Entrez.esearch(db=db_search, term=organism, retmax=count)
 search_record = Entrez.read(search_handle)
+print("search2_ok")
 
 # Getting summary about links
 idlist = search_record["IdList"]
@@ -73,6 +77,7 @@ for ids in tqdm(idlist):
     record = Entrez.read(handle)
     if record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyStatus'] == "Complete Genome":
         complete_ids.append(ids)
+print("summaty ok")
 
 # Taking ids for fetching. It collected all non-duplicated links in nucleotide database from assembly database.
 links = []
@@ -91,6 +96,7 @@ for complete_id in tqdm(complete_ids):
             else:
                 cumulative = 0
         n += cumulative
+print("linking_ok")
 
 # Collecting data about assemblies
 gb_records = []
@@ -98,6 +104,7 @@ for link in tqdm(links):
     gb_handle = Entrez.efetch(db=db_current, rettype="gb", retmode="text", id=link[0])
     gb_record = SeqIO.read(gb_handle, 'genbank')
     gb_records.append((gb_record, link[1]))
+print("fetching_ok")
 
 # Creating a dictionary, which makes matching berween number of record and type of DNA source: chromosome or plasmid
 plasmid_code = {}
@@ -109,7 +116,11 @@ for record_number in tqdm(range(len(gb_records))):
 
 dna_type, tuples, source_list = [], [], [] # Creating list for identyfing the number of every assemblie DNA molecules (chromosome and any plasmids)
 orglist = organism.split()
-name = f"{orglist[0][0]}_{orglist[-1]}"
+if len(orglist[-1]) < 10:
+    last_letter = len(orglist[-1])
+else:
+    last_letter = 9
+name = f"{orglist[0][0]}_{orglist[-1][:last_letter]}"
 for rec in tqdm(gb_records):
     source = rec[1] # Number of assembly
     if "plasmid" in rec[0].description:
