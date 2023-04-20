@@ -180,5 +180,4 @@ for key, value in assembly_100_dict.items():
 with open("id_lists.json", "w") as f:
   json.dump(id_lists_dict, f)
 
-print(id_lists_dict['Mycoplasma bovis'])
 print('All strains were downloaded and json file with ID lists was saved in current directory!')
