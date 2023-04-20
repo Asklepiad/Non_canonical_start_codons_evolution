@@ -105,6 +105,10 @@ for row in range(len(assembly_df)):
 
 # Download genomes
 
+# Dict of ID lists by each bacteria:
+
+id_lists_dict = {}
+
 # Complete genome + scaffolds < 100
 for bact in complete_scaffolds_less:
   search_handle_1 = Entrez.esearch(db="assembly", term= bact)
@@ -113,6 +117,7 @@ for bact in complete_scaffolds_less:
 
   search_handle_2 = Entrez.esearch(db="assembly", term= f'{bact}[orgn] AND (("complete genome"[filter] OR "scaffold level"[filter]) AND "latest refseq"[filter])', retmax=count)
   search_record_2 = Entrez.read(search_handle_2)
+  id_lists_dict[bact] = search_record_2['IdList']
 
 
 # Complete genome + scaffolds > 100
@@ -124,11 +129,13 @@ for bact_2 in complete_scaffolds_100:
   # Complete genomes
   search_handle_3 = Entrez.esearch(db="assembly", term= f'{bact_2}[orgn] AND ("complete genome"[filter] AND "latest refseq"[filter])', retmax=count)
   search_record_3 = Entrez.read(search_handle_3)
+  id_lists_dict[bact_2] = search_record_3['IdList']
 
   # Scaffolds
   count_scaff = 100 - assembly_df[assembly_df['Species'] == bact_2]['Complete_genome']
   search_handle_4 = Entrez.esearch(db="assembly", term= f'{bact_2}[orgn] AND ("scaffold level"[filter] AND "latest refseq"[filter])', retmax=count_scaff)
   search_record_4 = Entrez.read(search_handle_4)
+  id_lists_dict[bact_2].append(search_record_4['IdList'])
 
 
 # After panacota
@@ -156,4 +163,22 @@ for key, value in tqdm(file_results_cut.items()):
     assembly_100_dict[back_name].append(search_record_1)
 
 
-print(assembly_100_dict['Bacillus_subtilis'])
+# Add all bacteria to dict:
+
+for key, value in assembly_100_dict.items():
+  id_lists_dict[key] = []
+
+  for res in value:
+    if len(res['IdList']) == 1:
+      id_lists_dict[key].append(res['IdList'][0])
+    else:
+      id_lists_dict[key].append(res['IdList'][0])
+      # id_lists_dict[key].append(res['IdList'][1])
+
+
+# Save dict in json format
+with open("id_lists.json", "w") as f:
+  json.dump(id_lists_dict, f)
+
+print(id_lists_dict['Mycoplasma bovis'])
+print('All strains were downloaded and json file with ID lists was saved in current directory!')
