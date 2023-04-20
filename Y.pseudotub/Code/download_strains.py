@@ -173,7 +173,7 @@ for key, value in assembly_100_dict.items():
       id_lists_dict[key].append(res['IdList'][0])
     else:
       id_lists_dict[key].append(res['IdList'][0])
-      # id_lists_dict[key].append(res['IdList'][1])
+      id_lists_dict[key].append(res['IdList'][1])
 
 
 # Save dict in json format
