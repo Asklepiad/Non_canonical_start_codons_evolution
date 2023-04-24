@@ -16,7 +16,6 @@ from Bio.Seq import Seq
 from itertools import chain
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
-from IPython import get_ipython
 
 parser = argparse.ArgumentParser()
 
