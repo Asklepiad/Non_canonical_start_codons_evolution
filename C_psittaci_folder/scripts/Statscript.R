@@ -1,8 +1,44 @@
 #!/usr/bin/Rscript --vanilla
 print(getwd())
+
+install.packages("ggplot2",repos = "http://cran.us.r-project.org")
+install.packages("dplyr",repos = "http://cran.us.r-project.org")
+install.packages("fastR2",repos = "http://cran.us.r-project.org")
+install.packages("gmodels",repos = "http://cran.us.r-project.org")
+install.packages("stringr",repos = "http://cran.us.r-project.org")
+install.packages("argparser",repos = "http://cran.us.r-project.org")
+install.packages("glue",repos = "http://cran.us.r-project.org")
+install.packages("reshape2",repos = "http://cran.us.r-project.org")
+install.packages("car",repos = "http://cran.us.r-project.org")
+#package_installer <- function(package){
+#  if (!require(package, character.only=T, quietly=T)) {
+#    install.packages(package)
+#    library(package, character.only=T)
+#  }else{library(package, character.only=T)}
+#}
+#lapply(c("ggplot2",
+#         "dplyr",
+#         "fastR2",
+#         "gmodels",
+#         "stringr",
+#         "argparser",
+#         "glue",
+#         "reshape2",
+#         "car"), package_installer)
+
+library(ggplot2)
+library(car)
+library(gmodels)
+library(stringr)
+library(argparser)
+library(glue)
+library(reshape2)
+library(dplyr)
+library(fastR2)
+
 package_installer <- function(package){
   if (!require(package, character.only=T, quietly=T)) {
-    install.packages(package)
+    install.packages(package, repos = "http://cran.us.r-project.org")
     library(package, character.only=T)
   }else{library(package, character.only=T)}
 }

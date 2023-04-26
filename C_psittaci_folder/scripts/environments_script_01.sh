@@ -42,7 +42,7 @@ prank_check=$(conda env list | grep "prank_start_codons" | wc -l)
 if [[ $prank_check -eq 0 ]]
 then
         conda create -n prank_start_codons
-        conda run -n prank_start_codons conda install -c bioconda prank==170427
+        conda run -n prank_start_codons conda install -c bioconda prank==v.170427
 fi
 
 R_check=$(conda env list | grep "R_start_codons" | wc -l)
