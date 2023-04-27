@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 proj=$1
 identity=$2

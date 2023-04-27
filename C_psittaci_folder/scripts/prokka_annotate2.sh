@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # You need to execute this script in folder with assembly fasta files
 
 mask=$1

@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 mask=$1
 radiobutton=$2

@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 input=$1
 curr_dir="../${input}/data/evolution_models"
