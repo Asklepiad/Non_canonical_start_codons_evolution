@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 organism=$1
 aligner=$2
