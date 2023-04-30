@@ -1,8 +1,44 @@
 #!/usr/bin/Rscript --vanilla
 print(getwd())
+
+install.packages("ggplot2",repos = "http://cran.us.r-project.org")
+install.packages("dplyr",repos = "http://cran.us.r-project.org")
+install.packages("fastR2",repos = "http://cran.us.r-project.org")
+install.packages("gmodels",repos = "http://cran.us.r-project.org")
+install.packages("stringr",repos = "http://cran.us.r-project.org")
+install.packages("argparser",repos = "http://cran.us.r-project.org")
+install.packages("glue",repos = "http://cran.us.r-project.org")
+install.packages("reshape2",repos = "http://cran.us.r-project.org")
+install.packages("car",repos = "http://cran.us.r-project.org")
+#package_installer <- function(package){
+#  if (!require(package, character.only=T, quietly=T)) {
+#    install.packages(package)
+#    library(package, character.only=T)
+#  }else{library(package, character.only=T)}
+#}
+#lapply(c("ggplot2",
+#         "dplyr",
+#         "fastR2",
+#         "gmodels",
+#         "stringr",
+#         "argparser",
+#         "glue",
+#         "reshape2",
+#         "car"), package_installer)
+
+library(ggplot2)
+library(car)
+library(gmodels)
+library(stringr)
+library(argparser)
+library(glue)
+library(reshape2)
+library(dplyr)
+library(fastR2)
+
 package_installer <- function(package){
   if (!require(package, character.only=T, quietly=T)) {
-    install.packages(package)
+    install.packages(package, repos = "http://cran.us.r-project.org")
     library(package, character.only=T)
   }else{library(package, character.only=T)}
 }
@@ -107,17 +143,17 @@ uc_wd <- ggplot(start_codons2, aes(x=Species, fill=start_type))+
        y="Number of rows")+
   theme(axis.text=element_text(size=15),
         axis.title=element_text(size=24,face="bold"))
-ggsave("../figures/{org_short}_uc_wd.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_uc_wd.png",  width = 30, height = 20, units = "cm"))
 row_starts <- table(start_codons2$start_type)
 
 # boxplots ####
 violins_scs <- ggplot(summary_rows)+
   geom_violin(aes(x=start_codone, y=Species, fill=start_codone))
-ggsave("../figures/{org_short}_violins_scs.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_violins_scs.png",  width = 30, height = 20, units = "cm"))
 boxplots_scs <- ggplot(summary_rows)+
   geom_boxplot(aes(x=start_codone, y=Species, color=start_codone))
 print(getwd())
-ggsave("../figures/{org_short}_boxplots_scs.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_boxplots_scs.png",  width = 30, height = 20, units = "cm"))
 
 # Sc distributions per assembly
 pc_levels <- levels(summary_rows$p_c_unity)
@@ -202,7 +238,7 @@ cshc_scs <- ggplot(error_bar_df)+
   geom_pointrange(aes(x=name, y=mean, ymin=lower_ci_bound, ymax=upper_ci_bound, group=start_codone, color=start_codone))+
   scale_x_discrete(limits = positions)+
   theme(axis.text.x = element_text(angle = 45))
-ggsave("../figures/{org_short}_CShC_scs_eb.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_CShC_scs_eb.png",  width = 30, height = 20, units = "cm"))
 
 # Uniformity and related information ####
 unif_distr <- prop.table(table(summary_rows$uniformity))
@@ -211,7 +247,7 @@ unif_nc_table <- table(unif_nc$product)   # List of the genes with uniform non-c
 
 list_ncs <- unique(as.data.frame(unif_nc_table))
 write.csv(list_ncs, glue("./{org_short}_noncanonic_products.csv"))
-write.csv(list_ncs, "./{org_short}_noncanonic_products.csv")
+write.csv(list_ncs, glue("./{org_short}_noncanonic_products.csv"))
 
 # COG statistics ####
 ## Creating tibble
@@ -256,7 +292,7 @@ colnames(cog_pivot) <- c("cog_names", "cog_stat_all", "cog_min_all", "cog_max_al
                          "cog_stat_atg", "cog_min_atg", "cog_max_atg",
                          "cog_stat_gtg", "cog_min_gtg", "cog_max_gtg",
                          "cog_stat_ttg", "cog_min_ttg", "cog_max_ttg")
-write.csv(cog_columns_all, "./{org_short}_C_psittaci_COG_precomputed.csv")
+write.csv(cog_columns_all, glue("./{org_short}_C_psittaci_COG_precomputed.csv"))
 
 ## Drawing errorbars
 colors <- c("ATG" = "red", "GTG" = "dark green", "TTG" = "blue", "all" = "black")
@@ -273,7 +309,7 @@ cog_pivot_without_s_and_nulls <- cog_pivot %>%
   filter(cog_names != "unknown",
          cog_stat_all != 0)
 
-write.csv(cog_pivot_without_s_and_nulls, file="./{org_short}_C_psittaci_COG_start.csv")
+write.csv(cog_pivot_without_s_and_nulls, file=glue("./{org_short}_C_psittaci_COG_start.csv"))
 
 cog_sc_eb <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохранить в переменную с именем, как после графика
   geom_pointrange(aes(x=cog_names, y=cog_stat_all, ymin=cog_min_all, ymax=cog_max_all, color="all"), alpha=0.3)+
@@ -289,7 +325,7 @@ cog_sc_eb <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохран�
         axis.title=element_text(size=24,face="bold"),
         axis.title.x = element_text(vjust = 13))
 cog_sc_eb
-ggsave("../figures/{org_short}_cog_sc_eb.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_cog_sc_eb.png",  width = 30, height = 20, units = "cm"))
 
 
 cog_sc_eb_short <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохранить в переменную с именем, как после графика
@@ -305,7 +341,7 @@ cog_sc_eb_short <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сох�
   theme(axis.text=element_text(size=15),
         axis.title=element_text(size=24,face="bold"))
 cog_sc_eb_short
-ggsave("../figures/{org_short}_cog_sc_eb_short.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_cog_sc_eb_short.png",  width = 30, height = 20, units = "cm"))
 ### COG formal test (exact Fisher) #####
 #### Function for COG formal ######
 cog_formal_atg <- sapply(cog_columns_atg, 
@@ -320,7 +356,7 @@ cog_formal <- as.data.frame(cbind(cog_formal_atg,
 ## Excluded rows with 0 values in a row
 cog_formal_without_zeros <- cog_formal %>%     # Initialisation of shorted dataset
   filter(cog_formal_atg+cog_formal_gtg+cog_formal_ttg > 0)
-write.csv(cog_formal_without_zeros, "{org_short}_cogs.csv")
+write.csv(cog_formal_without_zeros, glue("{org_short}_cogs.csv"))
 #fi <- fisher.test(cog_formal_without_zeros, simulate.p.value = TRUE, B=150000)   # Computings for absolute values
 #hi <- chisq.test(cog_formal_without_zeros)
 #hi$expected
@@ -355,13 +391,13 @@ cfwz_percents <- cog_formal_without_zeros %>%   # Dataset with realtive data (pe
 ## Part of non-canonic-starts in orto-rows
 atg_content <- ggplot(start_codons2)+
   geom_point(aes(x=Species, y=ATG), alpha=0.1, color="red")
-ggsave("../figures/{org_short}_atg_content.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_atg_content.png",  width = 30, height = 20, units = "cm"))
 gtg_content <- ggplot(start_codons2)+
   geom_point(aes(x=Species, y=GTG), alpha=0.1, color="green")
-ggsave("../figures/{org_short}_gtg_content.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_gtg_content.png",  width = 30, height = 20, units = "cm"))
 ttg_content <- ggplot(start_codons2)+
   geom_point(aes(x=Species, y=TTG), alpha=0.1, color="blue")
-ggsave("../figures/{org_short}_ttg_content.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_ttg_content.png",  width = 30, height = 20, units = "cm"))
 ## Cogs in non-canons per assembly
 assembly_list <- unique(summary_rows$p_c_unity)
 cog_list <- colnames(cog_columns_all)
@@ -480,7 +516,7 @@ positions = c("core", "shell", "cloud")
 or_bar_abs <-  ggplot(prop_gene_group) +
   scale_x_discrete(limits = positions)+
   geom_col(aes(x = gene_group, y = count, fill = start_type))
-ggsave("../figures/{org_short}_or_bar_abs.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_or_bar_abs.png",  width = 30, height = 20, units = "cm"))
 
 or_bar_rel <- ggplot(prop_gene_group, aes(x = gene_group, y = count, fill = start_type)) +
   geom_bar(stat="identity", position="fill")+
@@ -498,7 +534,7 @@ or_bar_rel <- ggplot(prop_gene_group, aes(x = gene_group, y = count, fill = star
         legend.key.size = unit(1.5, 'cm'),
         legend.text = element_text(size=14))+
   scale_fill_discrete(name = "Start codon")
-ggsave("../figures/{org_short}_or_bar_rel.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_or_bar_rel.png",  width = 30, height = 20, units = "cm"))
 
 
 half_blood_gene <- summary_rows %>%
@@ -511,7 +547,7 @@ half_blood_gene <- summary_rows %>%
 distr_scs_common = as.data.frame(table(summary_rows$start_codone))
 genes_col_abs <- ggplot(distr_scs_common, aes(x=Var1, y=Freq, fill=Var1))+
   geom_bar(stat="identity")
-ggsave("../figures/{org_short}_genes_col_abs.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_genes_col_abs.png",  width = 30, height = 20, units = "cm"))
 
 scs_perrow <- start_codons2 %>% 
   select(ATG:TTG) %>% 
@@ -519,7 +555,7 @@ scs_perrow <- start_codons2 %>%
                                  ifelse(x[2] >= x[3] & x[2] > x[1], "GTG", "TTG")))
 or_col_abs <- ggplot(as.data.frame(table(scs_perrow)), aes(x=scs_perrow, y=Freq, fill=scs_perrow))+
   geom_bar(stat="identity")
-ggsave("../figures/{org_short}_OR_col_abs.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_OR_col_abs.png",  width = 30, height = 20, units = "cm"))
 
 start_codons2$scs_perrow <- scs_perrow
 U_curve_wod <- ggplot(start_codons2, aes(x=Species, fill=scs_perrow))+
@@ -528,7 +564,7 @@ U_curve_wod <- ggplot(start_codons2, aes(x=Species, fill=scs_perrow))+
        y="Number of rows")+
   theme(axis.text=element_text(size=15),
         axis.title=element_text(size=24,face="bold"))
-ggsave("../figures/{org_short}_UC_wod.png",  width = 30, height = 20, units = "cm")
+ggsave(glue("../figures/{org_short}_UC_wod.png",  width = 30, height = 20, units = "cm"))
 
 cog_abs_nc <- summary_rows %>%    # Сколько и каких когов (абс) у неканоник
   filter(start_codone != "ATG") %>% 
@@ -585,7 +621,7 @@ rownames(cog_abs_perc) <- c("cog_abs_nc", "cog_perc_nc", "cog_abs_atg", "cog_per
                             "cog_abs_gtg", "cog_perc_gtg", "cog_abs_ttg", 
                             "cog_perc_ttg", "cog_abs_all", "cog_perc_all")
 cog_abs_perc <- t(cog_abs_perc)
-write.csv(cog_abs_perc, "./{org_short}_cog_stat_per_sc.csv")
+write.csv(cog_abs_perc, glue("./{org_short}_cog_stat_per_sc.csv"))
 
 have_cogs_absolute <- summary_rows %>%         # Сколько генов с когом S
   select(S) %>% 
@@ -664,7 +700,7 @@ bh_corr <- p.adjust(kw_cogs_pval, method = "bonferroni")
 bh_corr_v <- bh_corr[bh_corr<0.05]
 mwu_b_list <- lapply(ass_sc_cog_pre_list, cog_posthoc)
 mwu_df <- as.data.frame(do.call("rbind", mwu_b_list))
-write.csv(mwu_df, "./{org_short}_cog_sc_mwu.csv")
+write.csv(mwu_df, glue("./{org_short}_cog_sc_mwu.csv"))
 
 
 # Report ####  

@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # You need to execute this script in folder with assembly fasta files
 
 mask=$1
@@ -18,7 +18,7 @@ curr_dir3="../${mask}/data/for_prokka_fasta"
 for f in $(ls ${curr_dir3}/${mask}*.fasta); do
 	g=$(echo ${f#${curr_dir3}/});
 	#echo ${g%.fasta};
-        prokka --outdir ${f%.fasta} --prefix ${g%.fasta} ${f};
+        prokka --outdir ${f%.fasta} cpus 0 --prefix ${g%.fasta} ${f};
 done
 #
 for j in $(ls ${curr_dir3}/${mask}*); do
