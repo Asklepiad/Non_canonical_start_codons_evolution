@@ -2,15 +2,13 @@
 
 
 # Variables
-organism=$1
+path=$1
 aligner=$2
 po_parameter=$3
 mail=$4
 threads=$5
-first_name=${organism:0:1}"_"
-presecond_name=$(echo "$organism" | awk -F " " '{print $2}')
-second_name=${presecond_name:0:9}
-short_name=${first_name}${second_name}
+pre_short=${path#../data/jsons/}
+short_name=${pre_short%.json}
 
 
 # Folders
@@ -32,7 +30,7 @@ fi
 
 # Scripts
 echo "script 0 done"
-conda run -n python_start_codons python3 Parsing_NCBI_1.py "$organism" "$mail"
+conda run -n python_start_codons python3 Parsing_NCBI_1.py "$path" "$mail"
 echo "script 1 done"
 conda run -n prokka_start_codons ./prokka_annotate2.sh "$short_name"
 echo "script 2 done"
@@ -40,7 +38,7 @@ conda run -n python_start_codons python3 First_table_creating3.py "$short_name"
 echo "script 3 done"
 conda run -n proteinortho_start_codons ./proteinortho_script4.sh "$short_name" "$po_parameter"
 echo "script 4 done"
-conda run -n python_start_codons python3 Muscle_preparing_5.py "$organism"
+conda run -n python_start_codons python3 Muscle_preparing_5.py "$path"
 echo "script 5 done"
 conda run -n R_start_codons Rscript Statscript.R "$short_name"
 echo "statistics script done"

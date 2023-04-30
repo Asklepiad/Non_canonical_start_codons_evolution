@@ -7,6 +7,7 @@ import os
 import sys
 import argparse
 import shutil
+import json
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
@@ -14,13 +15,23 @@ from tqdm import tqdm
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("organism_name", type=str)
+parser.add_argument("json_path", type=str)
 
 arguments = parser.parse_args()
 
-organism_name = arguments.organism_name
+json_path = arguments.json_path
+with open(json_path, "r") as json_organism:
+    json_organism = json.load(json_organism)
+
+organism_name = json_organism[0]
+
 lst = organism_name.split()
-folder_name = f"{lst[0][0]}_{lst[1]}"
+if len(lst[-1]) < 10:
+    last_letter = len(lst[-1])
+else:
+    last_letter = 9
+name = f"{lst[0][0]}_{lst[-1][:last_letter]}"
+
 
 
 # ### Orto rows with singletons, but without paralog-containing rows

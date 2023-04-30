@@ -30,13 +30,19 @@ import json
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("organism_name", type=str)
+parser.add_argument("path", type=str)
 parser.add_argument("mail", type=str)
 
 arguments = parser.parse_args()
 
-organism_name = arguments.organism_name
+json_path = arguments.path
 Entrez.email = arguments.mail
+with open(json_path, "r") as json_organism:
+    json_organism = json.load(json_organism)
+
+organism_name = json_organism[0]
+complete_ids = list(json_organism[1].values())[0]
+
 
 def extract_insdc(links):
     '''
@@ -58,26 +64,6 @@ db_search = "assembly"
 db_current = "nucleotide"
 print("variables_ok")
 
-# First searching helps to count complete number of links
-search_handle = Entrez.esearch(db=db_search, term=organism)
-search_record = Entrez.read(search_handle)
-count = int(search_record["Count"])
-print("search1_ok")
-
-# Second searching
-search_handle = Entrez.esearch(db=db_search, term=organism, retmax=count)
-search_record = Entrez.read(search_handle)
-print("search2_ok")
-
-# Getting summary about links
-idlist = search_record["IdList"]
-complete_ids = []   # List of full completed genomes' ids
-for ids in tqdm(idlist):
-    handle = Entrez.esummary(db=db_search, id=ids)
-    record = Entrez.read(handle)
-    if record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyStatus'] == "Complete Genome":
-        complete_ids.append(ids)
-print("summaty ok")
 
 # Taking ids for fetching. It collected all non-duplicated links in nucleotide database from assembly database.
 links = []
