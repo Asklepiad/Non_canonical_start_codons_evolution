@@ -2,6 +2,7 @@
 
 mask=$1
 radiobutton=$2
+threads=$3
 curr_dir1="../${mask}/data/raxmlng_trees"
 if [[ ! -e ${curr_dir1} ]]
 then
@@ -38,19 +39,20 @@ then
         mkdir ${curr_dir6};
 fi
 
-if [[ radiobutton=="prank" ]]
+if [ "$radiobutton" = "prank" ]
 then
         for f in $(ls ../${mask}/data/evolution_models/*prank_modeltest.out); do
                 value=$(cat ${f} | grep "raxml-ng" | head -1 | awk 'ORS=" " { print $6 }');
-		g=${f#../${mask}/data/evolution_models/};
-		echo "../${mask}/data/multialignments/${g%_modeltest.out}.best.fas"
-                raxml-ng --msa ../${mask}/data/multialignments/${g%_modeltest.out}.best.fas --model ${value} --threads 7 --prefix ../${mask}/data/raxmlng_trees/${g%_prank_modeltest.out};
+                g=${f#../${mask}/data/evolution_models/};
+                echo "../${mask}/data/multialignments/${g%_modeltest.out}.best.fas"
+                raxml-ng --msa ../${mask}/data/multialignments/${g%_modeltest.out}.best.fas --model ${value} --threads $threads --prefix ../${mask}/data/raxmlng_trees/${g%_prank_modeltest.out};
         done
-elif [[ radiobutton=="muscle" ]]
+elif [ "$radiobutton" = "muscle" ]
 then
-        for f in $(ls ../${mask}/data/evolution_models/*modeltest.out); do
-        	value=$(cat ${f} | grep "raxml-ng" | head -1 | awk 'ORS=" " { print $6 }');
-		g=${f#../${mask}/data/evolution_models/};
-        	raxml-ng --msa ../${mask}/data/multialignments/${g%modeltest.out}.afa --model ${value} --threads 7 --prefix ../${mask}/data/raxmlng_trees/${g%modeltest.out};
-	done
+        for f in $(ls ../${mask}/data/evolution_models/*muscle_modeltest.out); do
+                value=$(cat ${f} | grep "raxml-ng" | head -1 | awk 'ORS=" " { print $6 }');
+                g=${f#../${mask}/data/evolution_models/};
+                raxml-ng --msa ../${mask}/data/multialignments/${g%_muscle_modeltest.out}.afa --model ${value} --threads $threads --prefix ../${mask}/data/raxmlng_trees/${g%_muscle_modeltest.out};
+        done
 fi
+
