@@ -42,6 +42,10 @@ with open(json_path, "r") as json_organism:
 
 organism_name = json_organism[0]
 complete_ids = list(json_organism[1].values())[0]
+if type(complete_ids[len(complete_ids)-1]) == list:
+    scaffs = complete_ids[len(complete_ids)-1]
+    del complete_ids[len(complete_ids)-1]
+    complete_ids += scaffs
 
 
 def extract_insdc(links):
