@@ -9,7 +9,7 @@ mail=$4
 threads=$5
 pre_short=${path#../data/jsons/}
 short_name=${pre_short%.json}
-
+echo "$short_name" "bu-ga-ga"
 
 # Folders
 input="../${short_name}"

@@ -35,10 +35,13 @@ parser.add_argument("mail", type=str)
 
 arguments = parser.parse_args()
 
-json_path = arguments.path
+json_file_name = arguments.path
 Entrez.email = arguments.mail
+
+json_path = os.path.join("../data/jsons", json_file_name)
 with open(json_path, "r") as json_organism:
     json_organism = json.load(json_organism)
+    
 
 organism_name = json_organism[0]
 complete_ids = list(json_organism[1].values())[0]
@@ -55,7 +58,7 @@ def extract_insdc(links):
     :return uids: list of UIDs, located in nuccore
     '''
     linkset = [ls for ls in links[0]['LinkSetDb'] if
-              ls['LinkName'] == 'assembly_nuccore_insdc']
+              ls['LinkName'] == 'assembly_nuccore_refseq']
     if 0 != len(linkset):
         uids = [link['Id'] for link in linkset[0]['Link']]
     else:
@@ -105,7 +108,7 @@ for record_number in tqdm(range(len(gb_records))):
         plasmid_code[record_number] = "chromosome"
 
 dna_type, tuples, source_list = [], [], [] # Creating list for identyfing the number of every assemblie DNA molecules (chromosome and any plasmids)
-orglist = organism.split()
+orglist = re.split(" |_", organism)
 if len(orglist[-1]) < 10:
     last_letter = len(orglist[-1])
 else:
