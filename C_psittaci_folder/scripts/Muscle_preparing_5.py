@@ -25,7 +25,7 @@ with open(json_path, "r") as json_organism:
 
 organism_name = json_organism[0]
 
-lst = organism_name.split()
+lst = re.split(" |_", organism_name)
 if len(lst[-1]) < 10:
     last_letter = len(lst[-1])
 else:
