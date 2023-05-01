@@ -37,12 +37,10 @@ arguments = parser.parse_args()
 
 json_file_name = arguments.path
 Entrez.email = arguments.mail
-
 json_path = os.path.join("../data/jsons", json_file_name)
 with open(json_path, "r") as json_organism:
     json_organism = json.load(json_organism)
-    
-
+ 
 organism_name = json_organism[0]
 complete_ids = list(json_organism[1].values())[0]
 if type(complete_ids[len(complete_ids)-1]) == list:
@@ -51,14 +49,9 @@ if type(complete_ids[len(complete_ids)-1]) == list:
     complete_ids += scaffs
 
 
-def extract_insdc(links):
-    '''
-    Selects only links, refered to nuccore_insdc
-        :param links: list of NCBI links, received by Elinks 
-    :return uids: list of UIDs, located in nuccore
-    '''
+def extract_insdc(links): 
     linkset = [ls for ls in links[0]['LinkSetDb'] if
-              ls['LinkName'] == 'assembly_nuccore_refseq']
+              ls['LinkName'] == 'assembly_nuccore_insdc']
     if 0 != len(linkset):
         uids = [link['Id'] for link in linkset[0]['Link']]
     else:
@@ -90,22 +83,6 @@ for complete_id in tqdm(complete_ids):
                 cumulative = 0
         n += cumulative
 print("linking_ok")
-
-# Collecting data about assemblies
-gb_records = []
-for link in tqdm(links):
-    gb_handle = Entrez.efetch(db=db_current, rettype="gb", retmode="text", id=link[0])
-    gb_record = SeqIO.read(gb_handle, 'genbank')
-    gb_records.append((gb_record, link[1]))
-print("fetching_ok")
-
-# Creating a dictionary, which makes matching berween number of record and type of DNA source: chromosome or plasmid
-plasmid_code = {}
-for record_number in tqdm(range(len(gb_records))):
-    if "plasmid" in gb_records[record_number][0].description:
-        plasmid_code[record_number] = "plasmid"
-    else:
-        plasmid_code[record_number] = "chromosome"
 
 dna_type, tuples, source_list = [], [], [] # Creating list for identyfing the number of every assemblie DNA molecules (chromosome and any plasmids)
 orglist = re.split(" |_", organism)
