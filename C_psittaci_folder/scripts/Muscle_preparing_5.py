@@ -20,7 +20,7 @@ parser.add_argument("json_path", type=str)
 arguments = parser.parse_args()
 
 json_path = arguments.json_path
-with open(json_path, "r") as json_organism:
+with open(os.path.join("../data/jsons", json_path), "r") as json_organism:
     json_organism = json.load(json_organism)
 
 organism_name = json_organism[0]
@@ -30,7 +30,7 @@ if len(lst[-1]) < 10:
     last_letter = len(lst[-1])
 else:
     last_letter = 9
-name = f"{lst[0][0]}_{lst[-1][:last_letter]}"
+folder_name = f"{lst[0][0]}_{lst[-1][:last_letter]}"
 
 
 
