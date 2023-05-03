@@ -68,7 +68,9 @@ print("search2_ok")
 
 # Getting summary about links
 idlist = search_record["IdList"]
-@@ -73,6 +77,7 @@ def extract_insdc(links):
+complete_ids = []   # List of full completed genomes' ids
+for ids in tqdm(idlist):
+    handle = Entrez.esummary(db=db_search, id=ids)
     record = Entrez.read(handle)
     if record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyStatus'] == "Complete Genome":
         complete_ids.append(ids)
