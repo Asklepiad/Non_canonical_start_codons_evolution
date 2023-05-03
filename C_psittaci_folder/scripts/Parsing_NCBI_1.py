@@ -84,6 +84,14 @@ for complete_id in tqdm(complete_ids):
         n += cumulative
 print("linking_ok")
 
+# Collecting data about assemblies
+gb_records = []
+for link in tqdm(links):
+    gb_handle = Entrez.efetch(db=db_current, rettype="gb", retmode="text", id=link[0])
+    gb_record = SeqIO.read(gb_handle, 'genbank')
+    gb_records.append((gb_record, link[1]))
+print("fetching_ok")
+
 dna_type, tuples, source_list = [], [], [] # Creating list for identyfing the number of every assemblie DNA molecules (chromosome and any plasmids)
 orglist = re.split(" |_", organism)
 if len(orglist[-1]) < 10:
