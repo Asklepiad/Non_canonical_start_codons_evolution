@@ -109,32 +109,32 @@ core_sc_distr <- round(prop.table(abs_core),3)
 shell_sc_distr <- round(prop.table(abs_shell),3)
 cloud_sc_distr <- round(prop.table(abs_cloud),3)
 # Percent of uniform non-canonical start-codones 
-core_nc_unif <- round((sum(subset(start_codons2, gene_group=="core" & uniformity=="uniform" & ATG==0)$Genes))/sum(subset(start_codons2, gene_group=="core")$Genes),3)
-shell_nc_unif <- round((sum(subset(start_codons2, gene_group=="shell" & uniformity=="uniform" & ATG==0)$Genes))/sum(subset(start_codons2, gene_group=="shell")$Genes),3)
-cloud_nc_unif <- round((sum(subset(start_codons2, gene_group=="cloud" & uniformity=="uniform" & ATG==0)$Genes))/sum(subset(start_codons2, gene_group=="cloud")$Genes),3)
+core_nc_unif <- round((sum(subset(start_codons2, gene_group=="core" & uniformity=="same" & ATG==0)$Genes))/sum(subset(start_codons2, gene_group=="core")$Genes),3)
+shell_nc_unif <- round((sum(subset(start_codons2, gene_group=="shell" & uniformity=="same" & ATG==0)$Genes))/sum(subset(start_codons2, gene_group=="shell")$Genes),3)
+cloud_nc_unif <- round((sum(subset(start_codons2, gene_group=="cloud" & uniformity=="same" & ATG==0)$Genes))/sum(subset(start_codons2, gene_group=="cloud")$Genes),3)
 # Percent of ortologus rows with at least one nc start-codone
 core_or_wnc <- round((nrow(subset(start_codons2, gene_group=="core" & ATG<Species)))/nrow(subset(start_codons2, gene_group=="core")),3)
 shell_or_wnc <- round((nrow(subset(start_codons2, gene_group=="shell" & ATG<Species)))/nrow(subset(start_codons2, gene_group=="shell")),3)
 cloud_or_wnc <- round((nrow(subset(start_codons2, gene_group=="cloud" & ATG<Species)))/nrow(subset(start_codons2, gene_group=="cloud")),3)
 
 # Some other basic statistics ####
-unif_abs <- length(summary_rows$uniformity[summary_rows$uniformity == "uniform"])
+unif_abs <- length(summary_rows$uniformity[summary_rows$uniformity == "same"])
 unif_perc <- round(unif_abs/length(summary_rows$uniformity), 3)
 core_abs_unif <- core_genes %>% 
-  filter(uniformity=="uniform") %>% 
+  filter(uniformity=="same") %>% 
   nrow
 shell_abs_unif <- shell_genes %>% 
-  filter(uniformity=="uniform") %>% 
+  filter(uniformity=="same") %>% 
   nrow
 cloud_abs_unif <- cloud_genes %>% 
-  filter(uniformity=="uniform") %>% 
+  filter(uniformity=="same") %>% 
   nrow
 core_perc_unif <- round(core_abs_unif/length(core_genes$uniformity), 3)
 shell_perc_unif <- round(shell_abs_unif/length(shell_genes$uniformity), 3)
 cloud_perc_unif <- round(cloud_abs_unif/length(cloud_genes$uniformity), 3)
 # U-curves ####
 ## Computing type of start-codone for ortologus row
-start_codons2$start_type <- as.factor(ifelse(start_codons2$uniformity == "non-uniform", "different", # For colorising the U-curve
+start_codons2$start_type <- as.factor(ifelse(start_codons2$uniformity == "different", "different", # For colorising the U-curve
                                    ifelse(start_codons2$ATG > 0, "ATG",
                                    ifelse(start_codons2$GTG > 0, "GTG", "TTG"))))
 uc_wd <- ggplot(start_codons2, aes(x=Species, fill=start_type))+
@@ -242,7 +242,7 @@ ggsave(glue("../figures/{org_short}_CShC_scs_eb.png",  width = 30, height = 20, 
 
 # Uniformity and related information ####
 unif_distr <- prop.table(table(summary_rows$uniformity))
-unif_nc <- subset(summary_rows, uniformity == "uniform" & start_codone != "ATG")
+unif_nc <- subset(summary_rows, uniformity == "same" & start_codone != "ATG")
 unif_nc_table <- table(unif_nc$product)   # List of the genes with uniform non-canonical genes and their frequencies
 
 list_ncs <- unique(as.data.frame(unif_nc_table))
@@ -416,7 +416,7 @@ smth <- nrow(subset(summary_rows, p_c_unity==0 & S==1 & start_codone!="ATG"))/nr
 # 
 # # Choosing non-uniform genes
 # non_unif_summary_rows <- summary_rows %>% 
-#   filter(uniformity == "non-uniform")
+#   filter(uniformity == "different")
 # 
 # # Counting mdn
 # non_uni <- non_unif_summary_rows %>% 
@@ -428,7 +428,7 @@ smth <- nrow(subset(summary_rows, p_c_unity==0 & S==1 & start_codone!="ATG"))/nr
 # 
 # # Choosing uniform genes
 # unif_summary_rows <- summary_rows %>% 
-#   filter(uniformity == "uniform", Genes>1)
+#   filter(uniformity == "same", Genes>1)
 # 
 # # Counting mdn
 # 
@@ -473,7 +473,7 @@ smth <- nrow(subset(summary_rows, p_c_unity==0 & S==1 & start_codone!="ATG"))/nr
 # ## Changing in length after new alignment
 # # Choosing non-uniform genes
 # non_unif_summary_rows <- summary_rows %>% 
-#   filter(uniformity == "non-uniform")
+#   filter(uniformity == "different")
 # 
 # # Counting mdn
 # non_uni <- non_unif_summary_rows %>% 
