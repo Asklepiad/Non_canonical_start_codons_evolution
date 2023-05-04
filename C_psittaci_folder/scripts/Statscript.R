@@ -59,7 +59,7 @@ org_short = arguments$org_short
 
 # Uploading the data ####
 
-#org_short <- "V_campbellii"  # For starting from RStudio
+#org_short <- "B_bifidum"  # For starting from RStudio
 print(getwd())
 path <- glue("../{org_short}/data/")
 setwd(path)
@@ -143,17 +143,17 @@ uc_wd <- ggplot(start_codons2, aes(x=Species, fill=start_type))+
        y="Number of rows")+
   theme(axis.text=element_text(size=15),
         axis.title=element_text(size=24,face="bold"))
-ggsave(glue("../figures/{org_short}_uc_wd.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_uc_wd.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 row_starts <- table(start_codons2$start_type)
 
 # boxplots ####
 violins_scs <- ggplot(summary_rows)+
   geom_violin(aes(x=start_codone, y=Species, fill=start_codone))
-ggsave(glue("../figures/{org_short}_violins_scs.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_violins_scs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 boxplots_scs <- ggplot(summary_rows)+
   geom_boxplot(aes(x=start_codone, y=Species, color=start_codone))
 print(getwd())
-ggsave(glue("../figures/{org_short}_boxplots_scs.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_boxplots_scs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 # Sc distributions per assembly
 pc_levels <- levels(summary_rows$p_c_unity)
@@ -203,7 +203,7 @@ cloud_gtg_stats <- c(mean(cloud_gtg, na.rm=T), mean(cloud_gtg, na.rm=T)-1.96*se(
 cloud_ttg_stats <- c(mean(cloud_ttg, na.rm=T), mean(cloud_ttg, na.rm=T)-1.96*se(cloud_ttg), mean(cloud_ttg, na.rm=T)+1.96*se(cloud_ttg))
 ###cloud_other_stats <- c(mean(cloud_other, na.rm=T), mean(cloud_other, na.rm=T)-1.96*se(cloud_other), mean(cloud_other, na.rm=T)+1.96*se(cloud_other))
 
-# Visualizing cshc vas scs ####
+# Visualizing cshc vs scs ####
 error_bar_df <- as.data.frame(rbind(common_atg_stats, common_gtg_stats, 
                       common_ttg_stats, 
                       core_atg_stats, core_gtg_stats, 
@@ -238,7 +238,7 @@ cshc_scs <- ggplot(error_bar_df)+
   geom_pointrange(aes(x=name, y=mean, ymin=lower_ci_bound, ymax=upper_ci_bound, group=start_codone, color=start_codone))+
   scale_x_discrete(limits = positions)+
   theme(axis.text.x = element_text(angle = 45))
-ggsave(glue("../figures/{org_short}_CShC_scs_eb.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_CShC_scs_eb3.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 # Uniformity and related information ####
 unif_distr <- prop.table(table(summary_rows$uniformity))
@@ -251,22 +251,28 @@ write.csv(list_ncs, glue("./{org_short}_noncanonic_products.csv"))
 
 # COG statistics ####
 ## Creating tibble
-cog_columns_all <- select(summary_rows, S:L)                 # Choosing all
+cog_columns_all <- summary_rows %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1))                      # Choosing all
 cog_columns_atg <- summary_rows %>%                          # Choosing atg
   filter(start_codone == "ATG") %>% 
-  select(S:L)
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1))
 cog_columns_gtg <- summary_rows %>%                          # Choosing gtg
   filter(start_codone == "GTG") %>% 
-  select(S:L)
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1))
 cog_columns_ttg <- summary_rows %>%                          # Choosing ttg
   filter(start_codone == "TTG") %>% 
-  select(S:L)
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)))
 # Creating function
-cog_names <- c("unknown", "transcription", "cell_cycle", "aminoacid", "inorganic", "motility", 
-               "carbohydrate", "lipid", "protein_posttrans", "translation_and_ribosomes", 
-               "mobilome", "cytosceleton", "secondary_metabolites", "vesiculs_and_secretion",
-               "extracel", "chromatine", "general_function_only", "defense", "nucleotide", 
-               "rna_proc_and_mod",  "energy", "cell_wall", "signal_transduction", "coensime", "repl_reco_repa")
+cog_names <- colnames(cog_columns_all)
+#cog_names <- c("unknown", "transcription", "cell_cycle", "aminoacid", "inorganic", "motility", 
+#               "carbohydrate", "lipid", "protein_posttrans", "translation_and_ribosomes", 
+#               "mobilome", "cytosceleton", "secondary_metabolites", "vesiculs_and_secretion",
+#               "extracel", "chromatine", "general_function_only", "defense", "nucleotide", 
+#               "rna_proc_and_mod",  "energy", "cell_wall", "signal_transduction", "coensime", "repl_reco_repa")
 
 #cog_names <- c("translation_and_ribosomes", "rna_proc_and_mod", "transcription", "repl_reco_repa", "chromatine", 
 #               "cell_cycle", "defense", "signal_transduction", "cell_wall", "motility", 
@@ -306,16 +312,16 @@ ggplot(cog_pivot)+
   theme(axis.text.x = element_text(angle = 45))
 
 cog_pivot_without_s_and_nulls <- cog_pivot %>% 
-  filter(cog_names != "unknown",
+  filter(cog_names != "S",
          cog_stat_all != 0)
 
 write.csv(cog_pivot_without_s_and_nulls, file=glue("./{org_short}_C_psittaci_COG_start.csv"))
 
 cog_sc_eb <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохранить в переменную с именем, как после графика
-  geom_pointrange(aes(x=cog_names, y=cog_stat_all, ymin=cog_min_all, ymax=cog_max_all, color="all"), alpha=0.3)+
-  geom_pointrange(aes(x=cog_names, y=cog_stat_atg, ymin=cog_min_atg, ymax=cog_max_atg, color="ATG"), alpha=0.3)+
-  geom_pointrange(aes(x=cog_names, y=cog_stat_gtg, ymin=cog_min_gtg, ymax=cog_max_gtg, color="GTG"), alpha=0.3)+
-  geom_pointrange(aes(x=cog_names, y=cog_stat_ttg, ymin=cog_min_ttg, ymax=cog_max_ttg, color="TTG"), alpha=0.3)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_all, ymin=cog_min_all, ymax=cog_max_all, color="all"), alpha=1)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_atg, ymin=cog_min_atg, ymax=cog_max_atg, color="ATG"), alpha=1)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_gtg, ymin=cog_min_gtg, ymax=cog_max_gtg, color="GTG"), alpha=1)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_ttg, ymin=cog_min_ttg, ymax=cog_max_ttg, color="TTG"), alpha=1)+
   labs("color" = "Legend")+
   xlab(label = "COG categories")+
   ylab(label = "COG frequency of all genes")+
@@ -323,25 +329,41 @@ cog_sc_eb <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохран�
   theme(axis.text.x = element_text(angle = 35),
         axis.text=element_text(size=20),
         axis.title=element_text(size=24,face="bold"),
-        axis.title.x = element_text(vjust = 13))
+        axis.title.x = element_text(vjust = 13))+
+  scale_x_discrete(labels=c("rna_proc_and_mod", "energy", "cell_cycle", 
+                            "aminoacid", "nucleotide", "carbohydrate", 
+                            "coensime", "lipid", "translation_and_ribosomes",
+                            "transcription", "repl_reco_repa", 
+                            "cell_wall", "inorganic", "protein_posttrans", 
+                            "motility", "secondary_metabolites", "general_function_only",
+                            "unknown", "signal_transduction", "vesiculs_and_secretion", 
+                            "defense", "extracel", "mobilome"))
 cog_sc_eb
-ggsave(glue("../figures/{org_short}_cog_sc_eb.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_cog_sc_eb3.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 
 cog_sc_eb_short <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохранить в переменную с именем, как после графика
-  geom_pointrange(aes(x=cog_names, y=cog_stat_all, ymin=cog_min_all, ymax=cog_max_all, color="all"), alpha=0.3)+
-  geom_pointrange(aes(x=cog_names, y=cog_stat_atg, ymin=cog_min_atg, ymax=cog_max_atg, color="ATG"), alpha=0.3)+
-  geom_pointrange(aes(x=cog_names, y=cog_stat_gtg, ymin=cog_min_gtg, ymax=cog_max_gtg, color="GTG"), alpha=0.3)+
-  geom_pointrange(aes(x=cog_names, y=cog_stat_ttg, ymin=cog_min_ttg, ymax=cog_max_ttg, color="TTG"), alpha=0.3)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_all, ymin=cog_min_all, ymax=cog_max_all, color="all"), alpha=1)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_atg, ymin=cog_min_atg, ymax=cog_max_atg, color="ATG"), alpha=1)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_gtg, ymin=cog_min_gtg, ymax=cog_max_gtg, color="GTG"), alpha=1)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_ttg, ymin=cog_min_ttg, ymax=cog_max_ttg, color="TTG"), alpha=1)+
   labs("color" = "Legend")+
   xlab(label = "COG")+
   ylab(label = "COG frequency of all genes")+
   scale_color_manual(values = colors)+
   theme(axis.text.x = element_text(angle = 45))+
   theme(axis.text=element_text(size=15),
-        axis.title=element_text(size=24,face="bold"))
+        axis.title=element_text(size=24,face="bold"))+
+  scale_x_discrete(labels=c("rna_proc_and_mod", "energy", "cell_cycle", 
+                            "aminoacid", "nucleotide", "carbohydrate", 
+                            "coensime", "lipid", "translation_and_ribosomes",
+                            "transcription", "repl_reco_repa", 
+                            "cell_wall", "inorganic", "protein_posttrans", 
+                            "motility", "secondary_metabolites", "general_function_only",
+                            "signal_transduction", "vesiculs_and_secretion", "defense", 
+                            "extracel", "mobilome"))
 cog_sc_eb_short
-ggsave(glue("../figures/{org_short}_cog_sc_eb_short.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_cog_sc_eb_short.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 ### COG formal test (exact Fisher) #####
 #### Function for COG formal ######
 cog_formal_atg <- sapply(cog_columns_atg, 
@@ -391,13 +413,13 @@ cfwz_percents <- cog_formal_without_zeros %>%   # Dataset with realtive data (pe
 ## Part of non-canonic-starts in orto-rows
 atg_content <- ggplot(start_codons2)+
   geom_point(aes(x=Species, y=ATG), alpha=0.1, color="red")
-ggsave(glue("../figures/{org_short}_atg_content.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_atg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 gtg_content <- ggplot(start_codons2)+
   geom_point(aes(x=Species, y=GTG), alpha=0.1, color="green")
-ggsave(glue("../figures/{org_short}_gtg_content.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_gtg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 ttg_content <- ggplot(start_codons2)+
   geom_point(aes(x=Species, y=TTG), alpha=0.1, color="blue")
-ggsave(glue("../figures/{org_short}_ttg_content.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_ttg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 ## Cogs in non-canons per assembly
 assembly_list <- unique(summary_rows$p_c_unity)
 cog_list <- colnames(cog_columns_all)
@@ -516,7 +538,7 @@ positions = c("core", "shell", "cloud")
 or_bar_abs <-  ggplot(prop_gene_group) +
   scale_x_discrete(limits = positions)+
   geom_col(aes(x = gene_group, y = count, fill = start_type))
-ggsave(glue("../figures/{org_short}_or_bar_abs.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_or_bar_abs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 or_bar_rel <- ggplot(prop_gene_group, aes(x = gene_group, y = count, fill = start_type)) +
   geom_bar(stat="identity", position="fill")+
@@ -534,7 +556,7 @@ or_bar_rel <- ggplot(prop_gene_group, aes(x = gene_group, y = count, fill = star
         legend.key.size = unit(1.5, 'cm'),
         legend.text = element_text(size=14))+
   scale_fill_discrete(name = "Start codon")
-ggsave(glue("../figures/{org_short}_or_bar_rel.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_or_bar_rel.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 
 half_blood_gene <- summary_rows %>%
@@ -547,7 +569,7 @@ half_blood_gene <- summary_rows %>%
 distr_scs_common = as.data.frame(table(summary_rows$start_codone))
 genes_col_abs <- ggplot(distr_scs_common, aes(x=Var1, y=Freq, fill=Var1))+
   geom_bar(stat="identity")
-ggsave(glue("../figures/{org_short}_genes_col_abs.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_genes_col_abs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 scs_perrow <- start_codons2 %>% 
   select(ATG:TTG) %>% 
@@ -555,7 +577,7 @@ scs_perrow <- start_codons2 %>%
                                  ifelse(x[2] >= x[3] & x[2] > x[1], "GTG", "TTG")))
 or_col_abs <- ggplot(as.data.frame(table(scs_perrow)), aes(x=scs_perrow, y=Freq, fill=scs_perrow))+
   geom_bar(stat="identity")
-ggsave(glue("../figures/{org_short}_OR_col_abs.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_OR_col_abs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 start_codons2$scs_perrow <- scs_perrow
 U_curve_wod <- ggplot(start_codons2, aes(x=Species, fill=scs_perrow))+
@@ -564,7 +586,7 @@ U_curve_wod <- ggplot(start_codons2, aes(x=Species, fill=scs_perrow))+
        y="Number of rows")+
   theme(axis.text=element_text(size=15),
         axis.title=element_text(size=24,face="bold"))
-ggsave(glue("../figures/{org_short}_UC_wod.png",  width = 30, height = 20, units = "cm"))
+ggsave(glue("../figures/{org_short}_UC_wod.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 cog_abs_nc <- summary_rows %>%    # Сколько и каких когов (абс) у неканоник
   filter(start_codone != "ATG") %>% 
@@ -642,24 +664,28 @@ rows_numbers <- start_codons2 %>%
 
 ass_cog_atg <- summary_rows %>% 
   filter(start_codone == "ATG") %>% 
-  select(p_c_unity, S:L) %>% 
+  select(p_c_unity, length:ortologus_row) %>% 
+  select(p_c_unity, 3:(ncol(.)-1)) %>% 
   group_by(p_c_unity) %>% 
   summarize_all(sum)
 
 ass_cog_gtg <- summary_rows %>% 
   filter(start_codone == "GTG") %>% 
-  select(p_c_unity, S:L) %>% 
+  select(p_c_unity, length:ortologus_row) %>% 
+  select(p_c_unity, 3:(ncol(.)-1)) %>%
   group_by(p_c_unity) %>% 
   summarize_all(sum)
 
 ass_cog_ttg <- summary_rows %>% 
   filter(start_codone == "TTG") %>% 
-  select(p_c_unity, S:L) %>% 
+  select(p_c_unity, length:ortologus_row) %>% 
+  select(p_c_unity, 3:(ncol(.)-1)) %>%
   group_by(p_c_unity) %>% 
   summarize_all(sum)
 
 cogs_names <- summary_rows %>%
-  select(S:L) %>%
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>%
   summarise_all(sum) %>% 
   t %>% 
   as.data.frame %>% 
@@ -672,6 +698,14 @@ ass_sc_creator <- function(cog){
   colnames(ass_sc) <- c("ATG", "GTG", "TTG")
   ass_sc$GTG <- ass_sc$GTG*coeffs[2]
   ass_sc$TTG <- ass_sc$TTG*coeffs[1]
+  return(ass_sc)
+}
+coeffs <- c(table(summary_rows$start_codone)[1]/table(summary_rows$start_codone)[3], table(summary_rows$start_codone)[2]/table(summary_rows$start_codone)[3])
+ass_sc_creator <- function(cog){
+  ass_sc <- as.data.frame(cbind(pull(ass_cog_atg[cog]), pull(ass_cog_gtg[cog]), pull(ass_cog_ttg[cog])))
+  colnames(ass_sc) <- c("ATG", "GTG", "TTG")
+  ass_sc$GTG <- round(ass_sc$GTG/coeffs[2],5)
+  ass_sc$ATG <- round(ass_sc$ATG/coeffs[1],5)
   return(ass_sc)
 }
 ass_sc_meltor <- function(ass_sc){
