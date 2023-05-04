@@ -8,6 +8,7 @@ import sys
 import argparse
 import shutil
 import json
+import re
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
@@ -15,7 +16,7 @@ from tqdm import tqdm
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("organism_n", type=str)
+parser.add_argument("organism_name", type=str)
 
 
 arguments = parser.parse_args()
