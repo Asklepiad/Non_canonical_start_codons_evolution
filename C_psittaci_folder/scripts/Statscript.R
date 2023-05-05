@@ -64,11 +64,8 @@ print(getwd())
 path <- glue("../{org_short}/data/")
 setwd(path)
 print(getwd())
-# For starting from RStudio
-# setwd("~/bioinf/start_codons/BI_project_2022/C_psittaci_folder/C_psittaci/data/")
 options(scipen = 999)
-#c_psit2 <- read.csv("./c_psittaci2.proteinortho.tsv", sep = "\t")
-#View(c_psit2)
+
 summary_rows = read.csv("summary_rows_prokka.csv")
 start_codons2 = read.csv("start_codons2_prokka.csv")
 summary_rows <- as_tibble(summary_rows)
@@ -80,6 +77,10 @@ se <- function(vector){
   n = length(vector)
   return(sd(vector,na.rm=T)/(n**(1/2)))
 }
+
+
+# Common statistics
+all_sc_distr <- table(summary_rows$start_codone)
 
 
 # Computing core-shell-cloude ####
@@ -99,7 +100,7 @@ summary_rows$p_c_unity <- as.factor(summary_rows$p_c_unity)
 core_genes = subset(summary_rows, gene_group=="core")
 shell_genes = subset(summary_rows, gene_group=="shell")
 cloud_genes = subset(summary_rows, gene_group=="cloud")
-
+cshc_num <- table(summary_rows$gene_group)
 
 # Distributions of sc in cshc ####
 abs_core <- table(core_genes$start_codone)
@@ -147,6 +148,20 @@ ggsave(glue("../figures/{org_short}_uc_wd.png"),  width = 30, height = 20, units
 row_starts <- table(start_codons2$start_type)
 
 # boxplots ####
+for_bp_of_all <- summary_rows %>% 
+  group_by(p_c_unity) %>% 
+  summarise(ATG=sum(start_codone=="ATG"),
+            GTG=sum(start_codone=="GTG"),
+            TTG=sum(start_codone=="TTG")) %>% 
+  melt(.) %>% 
+  mutate(specie=org_short) %>% 
+  rename(start_codon=variable,
+         number=value)
+write.csv(for_bp_of_all, glue("./{org_short}_for_common_boxplot.csv"))
+all_sc_distr_bp <- ggplot()+
+  geom_boxplot(data=for_bp_of_all, aes(x=specie, y=number, color=start_codon))
+ggsave(glue("../figures/{org_short}_boxplot_all.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+
 violins_scs <- ggplot(summary_rows)+
   geom_violin(aes(x=start_codone, y=Species, fill=start_codone))
 ggsave(glue("../figures/{org_short}_violins_scs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
@@ -265,7 +280,7 @@ cog_columns_gtg <- summary_rows %>%                          # Choosing gtg
 cog_columns_ttg <- summary_rows %>%                          # Choosing ttg
   filter(start_codone == "TTG") %>% 
   select(length:ortologus_row) %>% 
-  select(2:(ncol(.)-1)))
+  select(2:(ncol(.)-1))
 # Creating function
 cog_names <- colnames(cog_columns_all)
 #cog_names <- c("unknown", "transcription", "cell_cycle", "aminoacid", "inorganic", "motility", 
@@ -741,17 +756,23 @@ write.csv(mwu_df, glue("./{org_short}_cog_sc_mwu.csv"))
 report_part_basic <- glue("Basic statistics:
                      Number of genes = {nrow(summary_rows)}
                      Number of ortologus rows = {nrow(start_codons2)}
-                     Number of ortologus rows without paralogs = {rows_numbers}")
+                     Number of ortologus rows without paralogs = {rows_numbers}
+                     All genes start-codon distribution: ATG {all_sc_distr[1]}
+                                                         GTG {all_sc_distr[2]}
+                                                         TTG {all_sc_distr[3]}")
 
 report_cshc_1 <- glue("Core, shell and cloud (partitions):
+                     There are {cshc_num[2]} genes in core.
                      Core genes' start-codon distribution: ATG {core_sc_distr[1]} 
                                                            GTG {core_sc_distr[2]} 
-                                                           TTG {core_sc_distr[3]} 
-                     Shell genes' start-codon distribution: ATG {core_sc_distr[1]} 
+                                                           TTG {core_sc_distr[3]}
+                     There are {cshc_num[4]} genes in shell.                                      
+                     Shell genes' start-codon distribution: ATG {shell_sc_distr[1]} 
                                                             GTG {shell_sc_distr[2]} 
-                                                            TTG {cloud_sc_distr[3]}
-                     Cloud genes' start-codon distribution: ATG {core_sc_distr[1]} 
-                                                            GTG {shell_sc_distr[2]} 
+                                                            TTG {shell_sc_distr[3]}
+                     There are {cshc_num[1]} genes in cloud.
+                     Cloud genes' start-codon distribution: ATG {cloud_sc_distr[1]} 
+                                                            GTG {cloud_sc_distr[2]} 
                                                             TTG {cloud_sc_distr[3]}")
 
 
@@ -777,8 +798,8 @@ report_unif <- glue("Unformity of ortologus rows:
 
 report_scs_add <- glue("Additional data about start codons:
                        There are {core_or_wnc} percents of core ortologus rows with at least one start-codon
-                       There are {shell_or_wnc} percents of core ortologus rows with at least one start-codon
-                       There are {cloud_or_wnc} percents of core ortologus rows with at least one start-codon")
+                       There are {shell_or_wnc} percents of shell ortologus rows with at least one start-codon
+                       There are {cloud_or_wnc} percents of cloud ortologus rows with at least one start-codon")
 
 report_cogs2 <- glue("The number of rows without cogs (or with cog 'S') is equal {rows_wcogs[[1]]} or {round(rows_wcogs[[1]]/rows_numbers, 3)*100} percents")
 
