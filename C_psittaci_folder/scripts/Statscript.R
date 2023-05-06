@@ -253,7 +253,7 @@ cshc_scs <- ggplot(error_bar_df)+
   geom_pointrange(aes(x=name, y=mean, ymin=lower_ci_bound, ymax=upper_ci_bound, group=start_codone, color=start_codone))+
   scale_x_discrete(limits = positions)+
   theme(axis.text.x = element_text(angle = 45))
-ggsave(glue("../figures/{org_short}_CShC_scs_eb3.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+ggsave(glue("../figures/{org_short}_CShC_scs_eb.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 # Uniformity and related information ####
 unif_distr <- prop.table(table(summary_rows$uniformity))
@@ -332,7 +332,7 @@ cog_pivot_without_s_and_nulls <- cog_pivot %>%
 
 write.csv(cog_pivot_without_s_and_nulls, file=glue("./{org_short}_C_psittaci_COG_start.csv"))
 
-cog_sc_eb <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохранить в переменную с именем, как после графика
+cog_sc_eb <- ggplot(cog_pivot)+   # Потом сохранить в переменную с именем, как после графика
   geom_pointrange(aes(x=cog_names, y=cog_stat_all, ymin=cog_min_all, ymax=cog_max_all, color="all"), alpha=1)+
   geom_pointrange(aes(x=cog_names, y=cog_stat_atg, ymin=cog_min_atg, ymax=cog_max_atg, color="ATG"), alpha=1)+
   geom_pointrange(aes(x=cog_names, y=cog_stat_gtg, ymin=cog_min_gtg, ymax=cog_max_gtg, color="GTG"), alpha=1)+
@@ -354,7 +354,7 @@ cog_sc_eb <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохран�
                             "unknown", "signal_transduction", "vesiculs_and_secretion", 
                             "defense", "extracel", "mobilome"))
 cog_sc_eb
-ggsave(glue("../figures/{org_short}_cog_sc_eb3.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+ggsave(glue("../figures/{org_short}_cog_sc_eb.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 
 cog_sc_eb_short <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохранить в переменную с именем, как после графика
