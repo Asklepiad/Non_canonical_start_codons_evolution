@@ -10,6 +10,7 @@ install.packages("argparser",repos = "http://cran.us.r-project.org")
 install.packages("glue",repos = "http://cran.us.r-project.org")
 install.packages("reshape2",repos = "http://cran.us.r-project.org")
 install.packages("car",repos = "http://cran.us.r-project.org")
+install.packages("hash",repos = "http://cran.us.r-project.org")
 #package_installer <- function(package){
 #  if (!require(package, character.only=T, quietly=T)) {
 #    install.packages(package)
@@ -26,15 +27,7 @@ install.packages("car",repos = "http://cran.us.r-project.org")
 #         "reshape2",
 #         "car"), package_installer)
 
-library(ggplot2)
-library(car)
-library(gmodels)
-library(stringr)
-library(argparser)
-library(glue)
-library(reshape2)
-library(dplyr)
-library(fastR2)
+
 
 package_installer <- function(package){
   if (!require(package, character.only=T, quietly=T)) {
@@ -50,7 +43,19 @@ lapply(c("ggplot2",
          "argparser",
          "glue",
          "reshape2",
-         "car"), package_installer)
+         "car",
+         "hash"), package_installer)
+
+library(ggplot2)
+library(car)
+library(gmodels)
+library(stringr)
+library(argparser)
+library(glue)
+library(reshape2)
+library(dplyr)
+library(fastR2)
+library(hash)
 
 parser <- arg_parser("Takes folder name")
 parser <- add_argument(parser, arg="org_short", type="character", help="Folder name (short organism name)")
@@ -265,6 +270,19 @@ write.csv(list_ncs, glue("./{org_short}_noncanonic_products.csv"))
 write.csv(list_ncs, glue("./{org_short}_noncanonic_products.csv"))
 
 # COG statistics ####
+# hash
+cog_hash <- hash()
+cog_abbreviations <- LETTERS
+cog_descriptions <- c("rna_proc_and_mod", "chromatin", "energy", "cell_cycle", 
+                     "aminoacid", "nucleotide", "carbohydrate", 
+                     "coensime", "lipid", "translation_and_ribosomes",  
+                     "transcription", "repl_reco_repa",
+                     "cell_wall", "cell_motility", "protein_posttrans", "inorganic",  
+                     "secondary_metabolites", "general_function_only",
+                     "unknown", "signal_transduction", "vesiculs_and_secretion", 
+                     "defense", "extracel", "mobilome", "nuclear structure", "cytoskeleton")
+sapply(1:26, function(x) cog_hash[[cog_abbreviations[x]]] <- cog_descriptions[x])
+
 ## Creating tibble
 cog_columns_all <- summary_rows %>% 
   select(length:ortologus_row) %>% 
@@ -282,7 +300,7 @@ cog_columns_ttg <- summary_rows %>%                          # Choosing ttg
   select(length:ortologus_row) %>% 
   select(2:(ncol(.)-1))
 # Creating function
-cog_names <- colnames(cog_columns_all)
+cog_names <- sapply(colnames(cog_columns_all), function(x) cog_hash[[x]])
 #cog_names <- c("unknown", "transcription", "cell_cycle", "aminoacid", "inorganic", "motility", 
 #               "carbohydrate", "lipid", "protein_posttrans", "translation_and_ribosomes", 
 #               "mobilome", "cytosceleton", "secondary_metabolites", "vesiculs_and_secretion",
@@ -344,15 +362,15 @@ cog_sc_eb <- ggplot(cog_pivot)+   # Потом сохранить в перем�
   theme(axis.text.x = element_text(angle = 35),
         axis.text=element_text(size=20),
         axis.title=element_text(size=24,face="bold"),
-        axis.title.x = element_text(vjust = 13))+
-  scale_x_discrete(labels=c("rna_proc_and_mod", "energy", "cell_cycle", 
-                            "aminoacid", "nucleotide", "carbohydrate", 
-                            "coensime", "lipid", "translation_and_ribosomes",
-                            "transcription", "repl_reco_repa", 
-                            "cell_wall", "inorganic", "protein_posttrans", 
-                            "motility", "secondary_metabolites", "general_function_only",
-                            "unknown", "signal_transduction", "vesiculs_and_secretion", 
-                            "defense", "extracel", "mobilome"))
+        axis.title.x = element_text(vjust = 13))
+  #scale_x_discrete(labels=c("rna_proc_and_mod", "energy", "cell_cycle", 
+  #                          "aminoacid", "nucleotide", "carbohydrate", 
+   #                         "coensime", "lipid", "translation_and_ribosomes",
+    #                        "transcription", "repl_reco_repa", 
+     #                       "cell_wall", "inorganic", "protein_posttrans", 
+      #                      "motility", "secondary_metabolites", "general_function_only",
+       #                     "unknown", "signal_transduction", "vesiculs_and_secretion", 
+        #                    "defense", "extracel", "mobilome"))
 cog_sc_eb
 ggsave(glue("../figures/{org_short}_cog_sc_eb.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
@@ -368,15 +386,15 @@ cog_sc_eb_short <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сох�
   scale_color_manual(values = colors)+
   theme(axis.text.x = element_text(angle = 45))+
   theme(axis.text=element_text(size=15),
-        axis.title=element_text(size=24,face="bold"))+
-  scale_x_discrete(labels=c("rna_proc_and_mod", "energy", "cell_cycle", 
-                            "aminoacid", "nucleotide", "carbohydrate", 
-                            "coensime", "lipid", "translation_and_ribosomes",
-                            "transcription", "repl_reco_repa", 
-                            "cell_wall", "inorganic", "protein_posttrans", 
-                            "motility", "secondary_metabolites", "general_function_only",
-                            "signal_transduction", "vesiculs_and_secretion", "defense", 
-                            "extracel", "mobilome"))
+        axis.title=element_text(size=24,face="bold"))
+  #scale_x_discrete(labels=c("rna_proc_and_mod", "energy", "cell_cycle", 
+   #                         "aminoacid", "nucleotide", "carbohydrate", 
+    #                        "coensime", "lipid", "translation_and_ribosomes",
+     #                       "transcription", "repl_reco_repa", 
+      #                      "cell_wall", "inorganic", "protein_posttrans", 
+       #                     "motility", "secondary_metabolites", "general_function_only",
+        #                    "signal_transduction", "vesiculs_and_secretion", "defense", 
+         #                   "extracel", "mobilome"))
 cog_sc_eb_short
 ggsave(glue("../figures/{org_short}_cog_sc_eb_short.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 ### COG formal test (exact Fisher) #####
