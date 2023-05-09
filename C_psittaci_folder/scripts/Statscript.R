@@ -11,23 +11,6 @@ install.packages("glue",repos = "http://cran.us.r-project.org")
 install.packages("reshape2",repos = "http://cran.us.r-project.org")
 install.packages("car",repos = "http://cran.us.r-project.org")
 install.packages("hash",repos = "http://cran.us.r-project.org")
-#package_installer <- function(package){
-#  if (!require(package, character.only=T, quietly=T)) {
-#    install.packages(package)
-#    library(package, character.only=T)
-#  }else{library(package, character.only=T)}
-#}
-#lapply(c("ggplot2",
-#         "dplyr",
-#         "fastR2",
-#         "gmodels",
-#         "stringr",
-#         "argparser",
-#         "glue",
-#         "reshape2",
-#         "car"), package_installer)
-
-
 
 package_installer <- function(package){
   if (!require(package, character.only=T, quietly=T)) {
@@ -44,7 +27,8 @@ lapply(c("ggplot2",
          "glue",
          "reshape2",
          "car",
-         "hash"), package_installer)
+         "hash",
+         "readr"), package_installer)
 
 library(ggplot2)
 library(car)

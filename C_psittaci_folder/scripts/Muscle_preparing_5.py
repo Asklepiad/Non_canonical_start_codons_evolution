@@ -5,6 +5,8 @@
 
 import os
 import sys
+import re
+import time
 import argparse
 import shutil
 import json
@@ -12,6 +14,8 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
+# Preparing
+start = time.time()
 
 parser = argparse.ArgumentParser()
 
@@ -32,26 +36,33 @@ else:
     last_letter = 9
 folder_name = f"{lst[0][0]}_{lst[-1][:last_letter]}"
 
-
+preparing_finish = time.time()
+print(f"Preparing time = {preparing_finish - start}")
 
 # ### Orto rows with singletons, but without paralog-containing rows
 # Uploading and modificating orto rows tables
 orto_rows = pd.read_csv(f"../{folder_name}/data/{folder_name}.proteinortho.tsv", sep="\t") # Uploading dataframe with orto rows
 orto_rows = orto_rows.rename(columns = {"# Species": "Species"})
 orto_rows["ortologus_row"] = orto_rows.index + 1 # Creating ortorows numbers
+orto_number = time.time()
+print(f"Ortorow number creation = {orto_number - preparing_finish}")
 
 # Uploading first csv-table and creating a new column in it
 orto_rows_list = orto_rows.index
 df1 = pd.read_csv(f"../{folder_name}/data/First_table.csv")
-df1["ortologus_row"] = 0
 
 #Filling orto_row column (sounds like an oxymoron)
-organism = organism_name
-for strain in tqdm(set(df1["p_c_unity"])):
-    maskstring = f"{folder_name}{strain}.fasta"
-    orrow = orto_rows.loc[:, maskstring].str[:14]
-    for index in orto_rows_list:
-        df1.loc[df1[df1["id"] == orrow[index]].index, "ortologus_row"] = index + 1
+assemblies = orto_rows.columns[3:-1]
+row_assigner = pd.melt(orto_rows, id_vars=["ortologus_row"], value_vars=assemblies)
+row_assigner = row_assigner.query("value != '*'")
+row_assigner["value"] = row_assigner["value"].str[:14]
+row_assigner
+row_assigner.drop(["variable"], axis="columns", inplace=True)
+row_assigner.columns = ["ortologus_row", "id"]
+row_assigner
+df1 = df1.merge(row_assigner, on="id")
+sec_orto_number = time.time()
+print(f"Second ortorow number creation = {sec_orto_number - orto_number}")
 
 # Number of the paralogs
 print("Number of the paralogs =", sum(orto_rows.query("Genes > Species").Genes) - sum(orto_rows.query("Genes > Species").Species))
@@ -59,6 +70,8 @@ print("Number of the paralogs =", sum(orto_rows.query("Genes > Species").Genes) 
 # Creating a subset without pararows
 pararows_numbers = orto_rows.query("Genes > Species").ortologus_row
 df1 = df1.query("ortologus_row not in @pararows_numbers").query("ortologus_row != 0")
+paralogs_deleting = time.time()
+print(f"Paralogs deleting = {paralogs_deleting - sec_orto_number}")
 
 # Compiling data about start-codons of ortologus rows
 start_codon_per_row = df1.groupby("ortologus_row", as_index=False).agg({"start_codone": ".".join})
@@ -75,6 +88,10 @@ start_codons = pd.DataFrame(
         "TTG": 0.0,
     }
 )
+ortorow_sc = time.time()
+print(f"Start-codons of ortologus row detecting = {ortorow_sc - paralogs_deleting}")
+
+
 
 # Computing frequencies of exact start-codons
 start_codons.sort_values("ortologus_row", inplace=True)
@@ -93,6 +110,8 @@ for row in tqdm(range(len(start_codons))):
         start_codons["TTG"][row] = freqs["TTG"]
     else:
         start_codons["TTG"][row] = 0
+sc_freqs = time.time()
+print(f"Computing of start-codons in each ortologus row = {sc_freqs - ortorow_sc}")
 
 # Computing uniformity of start-codon per ortologus row
 start_codons["uniformity"] = "NA"
@@ -101,13 +120,27 @@ for row in range(len(start_codons)):
         start_codons.iloc[row, 5] = "same"
     else:
         start_codons.iloc[row, 5] = "different"
+unif_comp=time.time()
+print(f"Computing of uniformity = {unif_comp - sc_freqs}")
 
 # Constructing table withh all data about the ortologus rows (including pararows)
 start_codons2 = start_codons.merge(orto_rows, on="ortologus_row", how="outer")
+first_merging = time.time()
+print(f"First merging = {first_merging - sc_freqs}")
 
 # Creating a table, combining data about gene and its start-codone
 strain_gene_row = start_codons2[["Species", "Genes", "ortologus_row", "uniformity", "ATG", "GTG", "TTG"]]   # Other codons deleted
 summary_rows = df1.merge(strain_gene_row, on="ortologus_row")
+second_merging = time.time()
+print(f"Second merging = {second_merging - first_merging}")
+
+# Assigning cog to orto_row
+row_cog = row_assigner.merge(df1[["id", "cog"]], on="id").groupby("ortologus_row").agg({"cog": "max"})
+start_codons2 = start_codons2.merge(row_cog, on="ortologus_row")
+
+# Adding organism_name to datasets
+summary_rows["organism"] = folder_name
+start_codons2["organism"] = folder_name
 
 # We need to align only rows with different start-codons.
 
@@ -126,10 +159,12 @@ for orto_row in tqdm(non_uniform_or_list):
             nucleotide_fasta.write("\n")
             nucleotide_fasta.write(row["n_sequence"])
             nucleotide_fasta.write("\n")
-
+multial_creating = time.time()
+print(f"Multialignment creating = {multial_creating - second_merging}")
 
 # #### Saving summary-rows and start-codons2
 
 summary_rows.to_csv(f"../{folder_name}/data/summary_rows_prokka.csv", index=False)
 start_codons2.to_csv(f"../{folder_name}/data/start_codons2_prokka.csv", index=False)
-
+saving_datasets = time.time()
+print(f"Saving datsets = {saving_datasets - multial_creating}")

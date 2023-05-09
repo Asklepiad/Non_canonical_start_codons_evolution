@@ -139,6 +139,12 @@ df1 = pd.DataFrame(
     }
 )
 
+# Filtering incomplete assemblies
+assembly_stata = pd.DataFrame(df1.groupby("p_c_unity").apply(lambda x: x.query("start_codone == 'ATG'").shape[0]), )
+assembly_stata.columns = ["atg_number"]
+df1 = df1.merge(assembly_stata, on="p_c_unity")
+k = assembly_stata["atg_number"].median()
+df1 = df1.query("atg_number > @k/2")
 
 # For recoding COGs from ids to categories I have downloaded tsvs with all categories and appropriate COGs and have created python dictionary.
 # Firstly I have uploaded tsvs to folder on google drive.
