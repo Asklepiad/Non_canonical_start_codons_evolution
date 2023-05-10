@@ -142,6 +142,9 @@ start_codons2 = start_codons2.merge(row_cog, on="ortologus_row")
 summary_rows["organism"] = folder_name
 start_codons2["organism"] = folder_name
 
+# Creating dataframe about ortorows with consistent number of columns
+uniq_cog = start_codons2[["ortologus_row", "ATG", "GTG", "TTG", "uniformity", "Species", "Genes", "cog", "organism"]]
+
 # We need to align only rows with different start-codons.
 
 non_uniform_or_list = list(set(start_codons2.query("uniformity == 'different'").ortologus_row))
@@ -166,5 +169,6 @@ print(f"Multialignment creating = {multial_creating - second_merging}")
 
 summary_rows.to_csv(f"../{folder_name}/data/summary_rows_prokka.csv", index=False)
 start_codons2.to_csv(f"../{folder_name}/data/start_codons2_prokka.csv", index=False)
+uniq_cog.to_csv(f"../{folder_name}/data/uniq_cog.csv", index=False)
 saving_datasets = time.time()
 print(f"Saving datsets = {saving_datasets - multial_creating}")
