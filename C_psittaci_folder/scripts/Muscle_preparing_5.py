@@ -169,6 +169,6 @@ print(f"Multialignment creating = {multial_creating - second_merging}")
 
 summary_rows.to_csv(f"../{folder_name}/data/summary_rows_prokka.csv", index=False)
 start_codons2.to_csv(f"../{folder_name}/data/start_codons2_prokka.csv", index=False)
-uniq_cog.to_csv(f"../{folder_name}/data/uniq_cog.csv", index=False)
+uniq_cog.to_csv(f"../{folder_name}/data/{folder_name}_uniq_cog.csv", index=False)
 saving_datasets = time.time()
 print(f"Saving datsets = {saving_datasets - multial_creating}")
