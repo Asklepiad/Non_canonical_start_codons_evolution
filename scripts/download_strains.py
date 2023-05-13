@@ -1,7 +1,12 @@
-
+#!/usr/bin/env python
+# coding: utf-8
 
 import pandas as pd
 import json
+import argparse
+import shutil
+import os
+import sys
 import Bio
 from Bio.Seq import Seq
 from Bio import SeqIO
@@ -10,30 +15,56 @@ from Bio.SeqRecord import SeqRecord
 from Bio import Entrez
 from tqdm import tqdm
 from collections import defaultdict
-Entrez.email = "valeriyakudr98@gmail.com"
+
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("file", type=argparse.FileType("r"), nargs="*", default=sys.stdin)
+parser.add_argument("mail", type=str)
+
+arguments = parser.parse_args()
+
+all_species = arguments.file
+Entrez.email = arguments.mail
+
+
+#Entrez.email = "valeriyakudr98@gmail.com"
 Entrez.api_key = "a676bc7d097855d36e502959d6ef43aa4e08"
 
 
 
-generalists = ['Acinetobacter baumannii', 'Acinetobacter indicus', 'Agrobacterium tumefaciens', 'Bacillus cereus',
-               'Bacillus megaterium', 'Bacillus pumilus', 'Bacillus subtilis', 'Bacillus thuringiensis', 
-               'Clostridium botulinum', 'Enterococcus faecalis', 'Escherichia coli', 'Klebsiella pneumoniae', 
-               'Lactococcus lactis', 'Mycobacterium avium', 'Pseudomonas aeruginosa', 'Pseudomonas fluorescens', 
-               'Pseudomonas putida', 'Stenotrophomonas maltophilia']
+#generalists = ['Acinetobacter baumannii', 'Acinetobacter indicus', 'Agrobacterium tumefaciens', 'Bacillus cereus',
+#               'Bacillus megaterium', 'Bacillus pumilus', 'Bacillus subtilis', 'Bacillus thuringiensis', 
+#               'Clostridium botulinum', 'Enterococcus faecalis', 'Escherichia coli', 'Klebsiella pneumoniae', 
+#               'Lactococcus lactis', 'Mycobacterium avium', 'Pseudomonas aeruginosa', 'Pseudomonas fluorescens', 
+#               'Pseudomonas putida', 'Stenotrophomonas maltophilia']
 
-specialists = ['Bacillus altitudinis', 'Bifidobacterium bifidum', 'Burkholderia cenocepacia', 
-               'Candidatus Carsonella ruddii', 'Chlamydia trachomatis', 'Corynebacterium diphtheriae', 
-               'Corynebacterium pseudotuberculosis', 'Cupriavidus taiwanensis', 'Enterobacter hormaechei',
-               'Francisella tularensis', 'Histophilus somni', 'Levilactobacillus brevis', 'Lactobacillus johnsonii', 
-               'Lactobacillus salivarius', 'Leptospira interrogans', 'Mesoplasma florum', 'Morganella morganii', 
-               'Mycoplasma bovis', 'Neisseria gonorrhoeae', 'Neisseria meningitidis', 'Paenibacillus larvae', 
-               'Pantoea ananatis', 'Pediococcus acidilactici', 'Porphyromonas gingivalis', 
-               'Propionibacterium freudenreichii', 'Rhodopseudomonas palustris', 'Riemerella anatipestifer',
-               'Salinibacter ruber', 'Staphylococcus haemolyticus', 'Staphylococcus simulans', 'Vibrio anguillarum',
-               'Vibrio campbellii', 'Vibrio cholerae', 'Weissella cibaria', 'Xanthomonas campestris', 
-               'Xylella fastidiosa', 'Zymomonas mobilis']
+#specialists = ['Bacillus altitudinis', 'Bifidobacterium bifidum', 'Burkholderia cenocepacia', 
+#               'Candidatus Carsonella ruddii', 'Chlamydia trachomatis', 'Corynebacterium diphtheriae', 
+#               'Corynebacterium pseudotuberculosis', 'Cupriavidus taiwanensis', 'Enterobacter hormaechei',
+#               'Francisella tularensis', 'Histophilus somni', 'Levilactobacillus brevis', 'Lactobacillus johnsonii', 
+#               'Lactobacillus salivarius', 'Leptospira interrogans', 'Mesoplasma florum', 'Morganella morganii', 
+#               'Mycoplasma bovis', 'Neisseria gonorrhoeae', 'Neisseria meningitidis', 'Paenibacillus larvae', 
+#               'Pantoea ananatis', 'Pediococcus acidilactici', 'Porphyromonas gingivalis', 
+#               'Propionibacterium freudenreichii', 'Rhodopseudomonas palustris', 'Riemerella anatipestifer',
+#               'Salinibacter ruber', 'Staphylococcus haemolyticus', 'Staphylococcus simulans', 'Vibrio anguillarum',
+#               'Vibrio campbellii', 'Vibrio cholerae', 'Weissella cibaria', 'Xanthomonas campestris', 
+#               'Xylella fastidiosa', 'Zymomonas mobilis']
 
-all_species = generalists + specialists
+#all_species = generalists + specialists
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("file", type=argparse.FileType("r"), nargs="*", default=sys.stdin)
+
+arguments = parser.parse_args()
+
+all_species = []
+for texts in arguments.file:
+        text = texts.read()
+        result_list = text.strip().split(", ")
+        all_species += (result_list)
+
 
 
 # Count number of strains for each bacteria
@@ -137,7 +168,7 @@ for bact_2 in complete_scaffolds_100:
   search_record_4 = Entrez.read(search_handle_4)
   id_lists_dict[bact_2].append(search_record_4['IdList'])
 
-
+print(id_lists_dict)
 # After panacota
 
 # Read json file with 100 random strains for each bacteria
