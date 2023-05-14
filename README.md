@@ -69,6 +69,12 @@ Project about evolution of non-canonical start-codons in bacteria and connection
 
 ## Authors
 
+ - Rubinova Valeria Sergeevna (Bioinformatics institute)
+ - Sotnikov Bogdan Vladimirovich (Kyrgyz-Russian Slavic university, Bioinformatics institute)
+ - Bochkareva Olga Olegovna* (Institute of Science and Technology Austria)
+
+* project supervisor 
+
 ## Feedback
 
 
