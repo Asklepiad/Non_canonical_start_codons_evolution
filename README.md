@@ -43,6 +43,8 @@ Project about evolution of non-canonical start-codons in bacteria and connection
 
 ## Introduction
 
+It is known procariotes have non only ATG as start-codon. There are about 10% genes in bacterial genome (more strict proportion depends on taxon) with non-canonical start-codons (NCSCs): GTG, TTG and some other in negligibly small proportion. There are not very much data about causes of existance and "gene preferencies" of NCSCs.
+
 ## Aims and objectives
 
 ## Data
@@ -73,7 +75,7 @@ Project about evolution of non-canonical start-codons in bacteria and connection
  - Sotnikov Bogdan Vladimirovich (Kyrgyz-Russian Slavic university, Bioinformatics institute)
  - Bochkareva Olga Olegovna* (Institute of Science and Technology Austria)
 
-* project supervisor 
+\* project supervisor 
 
 ## Feedback
 
