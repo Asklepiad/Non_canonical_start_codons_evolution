@@ -269,19 +269,19 @@ sapply(1:26, function(x) cog_hash[[cog_abbreviations[x]]] <- cog_descriptions[x]
 
 ## Creating tibble
 cog_columns_all <- summary_rows %>% 
-  select(length:ortologus_row) %>% 
+  select(atg_number:ortologus_row) %>% 
   select(2:(ncol(.)-1))                      # Choosing all
 cog_columns_atg <- summary_rows %>%                          # Choosing atg
   filter(start_codone == "ATG") %>% 
-  select(length:ortologus_row) %>% 
+  select(atg_number:ortologus_row) %>% 
   select(2:(ncol(.)-1))
 cog_columns_gtg <- summary_rows %>%                          # Choosing gtg
   filter(start_codone == "GTG") %>% 
-  select(length:ortologus_row) %>% 
+  select(atg_number:ortologus_row) %>% 
   select(2:(ncol(.)-1))
 cog_columns_ttg <- summary_rows %>%                          # Choosing ttg
   filter(start_codone == "TTG") %>% 
-  select(length:ortologus_row) %>% 
+  select(atg_number:ortologus_row) %>% 
   select(2:(ncol(.)-1))
 # Creating function
 cog_names <- sapply(colnames(cog_columns_all), function(x) cog_hash[[x]])
@@ -681,27 +681,27 @@ rows_numbers <- start_codons2 %>%
 
 ass_cog_atg <- summary_rows %>% 
   filter(start_codone == "ATG") %>% 
-  select(p_c_unity, length:ortologus_row) %>% 
+  select(p_c_unity, atg_number:ortologus_row) %>% 
   select(p_c_unity, 3:(ncol(.)-1)) %>% 
   group_by(p_c_unity) %>% 
   summarize_all(sum)
 
 ass_cog_gtg <- summary_rows %>% 
   filter(start_codone == "GTG") %>% 
-  select(p_c_unity, length:ortologus_row) %>% 
+  select(p_c_unity, atg_number:ortologus_row) %>% 
   select(p_c_unity, 3:(ncol(.)-1)) %>%
   group_by(p_c_unity) %>% 
   summarize_all(sum)
 
 ass_cog_ttg <- summary_rows %>% 
   filter(start_codone == "TTG") %>% 
-  select(p_c_unity, length:ortologus_row) %>% 
+  select(p_c_unity, atg_number:ortologus_row) %>% 
   select(p_c_unity, 3:(ncol(.)-1)) %>%
   group_by(p_c_unity) %>% 
   summarize_all(sum)
 
 cogs_names <- summary_rows %>%
-  select(length:ortologus_row) %>% 
+  select(atg_number:ortologus_row) %>% 
   select(2:(ncol(.)-1)) %>%
   summarise_all(sum) %>% 
   t %>% 
