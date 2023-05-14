@@ -40,12 +40,27 @@ Project about evolution of non-canonical start-codons in bacteria and connection
 [Feedback](https://github.com/Asklepiad/BI_project_2022/tree/main#feedback)
 
 ## Structure of repository
+> Data
+
+All data for reproducing of our investigation and json file for test run are situated in `data` folder. You can read more detailed description of the folder content in `data` folder [readme]()  (*in development*).
+``` ```
+> Scripts
+
+Conda environment creator for pipeline, master script, all components of pipeline, some additional scripts and requirements file are located in `scripts` folder. You can read more detailed description of the folder content in `scripts` folder [readme]()  (*in development*).
+``` ```
+> Test output
+
+The test running on *Salinibacter ruber* results are situated in `test output` folder (*in development*). You can read more detailed description of the folder content in  `test output` folder [readme]()  (*in development*).
 
 ## Introduction
 
-It is known procariotes have non only ATG as start-codon. There are about 10% genes in bacterial genome (more strict proportion depends on taxon) with non-canonical start-codons (NCSCs): GTG, TTG and some other in negligibly small proportion. There are not very much data about causes of existance and "gene preferencies" of NCSCs.
+It is known procariotes have non only ATG as start-codon. There are about 10% genes in bacterial genome (more strict proportion depends on taxon) with non-canonical start-codons (NCSCs): GTG, TTG and some other in negligibly small proportion. There are not very much data about causes of existance and "gene preferencies" of NCSCs. The GTG and TTG are usually binds weaker with the ribosome relative to canonical ATG start-codone.
 
 ## Aims and objectives
+
+1. To find the connection between function of genes and canonicity of its start-codone.
+2. To evaluate distribution of non-canonical start-codones in different taxons and ecological niches, find the difference (if it exists) between different groups of bacteria by their function-start-codons patterns.
+3. 
 
 ## Data
 
