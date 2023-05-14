@@ -5,39 +5,39 @@ Project about evolution of non-canonical start-codons in bacteria and connection
 
 ## Table of content
 
-[Short description](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Short description](https://github.com/Asklepiad/BI_project_2022/tree/main#short-description)
 
-[Structure of repository](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Structure of repository](https://github.com/Asklepiad/BI_project_2022/tree/main#structure-of-repository)
 
-[Introduction](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Introduction](https://github.com/Asklepiad/BI_project_2022/tree/main#introduction)
 
-[Aims and objectives](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Aims and objectives](https://github.com/Asklepiad/BI_project_2022/tree/main#aims-and-objectives)
 
-[Data](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Data](https://github.com/Asklepiad/BI_project_2022/tree/main#data)
 
-[Workflow](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Workflow](https://github.com/Asklepiad/BI_project_2022/tree/main#workflow)
 
-[Workflow plan and technical properties](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Workflow plan and technical properties](https://github.com/Asklepiad/BI_project_2022/tree/main#workflow-plan-and-technical-properties)
 
-[Installation](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Installation](https://github.com/Asklepiad/BI_project_2022/tree/main#installation)
 
-[Options](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Options](https://github.com/Asklepiad/BI_project_2022/tree/main#options)
 
-[Example input and output](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Example input and output](https://github.com/Asklepiad/BI_project_2022/tree/main#example-input-and-output)
 
-[Additional info](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Additional info](https://github.com/Asklepiad/BI_project_2022/tree/main#additional-info)
 
-[Results and discussion](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Results and discussion](https://github.com/Asklepiad/BI_project_2022/tree/main#results-and-discussion)
 
-[Future plans](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Future plans](https://github.com/Asklepiad/BI_project_2022/tree/main#future-plans)
 
-[Literature](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Literature](https://github.com/Asklepiad/BI_project_2022/tree/main#literature)
 
-[Links](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Links](https://github.com/Asklepiad/BI_project_2022/tree/main#links)
 
-[Authors](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Authors](https://github.com/Asklepiad/BI_project_2022/tree/main#authors)
 
-[Feedback](https://github.com/Asklepiad/BI_project_2022/tree/main#)
+[Feedback](https://github.com/Asklepiad/BI_project_2022/tree/main#feedback)
 
 ## Structure of repository
 
