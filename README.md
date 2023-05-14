@@ -43,11 +43,15 @@ Project about evolution of non-canonical start-codons in bacteria and connection
 > Data
 
 All data for reproducing of our investigation and json file for test run are situated in `data` folder. You can read more detailed description of the folder content in `data` folder [readme]()  (*in development*).
-``` ```
+
+
+
 > Scripts
 
 Conda environment creator for pipeline, master script, all components of pipeline, some additional scripts and requirements file are located in `scripts` folder. You can read more detailed description of the folder content in `scripts` folder [readme]()  (*in development*).
-``` ```
+
+
+
 > Test output
 
 The test running on *Salinibacter ruber* results are situated in `test output` folder (*in development*). You can read more detailed description of the folder content in  `test output` folder [readme]()  (*in development*).
