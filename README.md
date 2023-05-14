@@ -5,39 +5,39 @@ Project about evolution of non-canonical start-codons in bacteria and connection
 
 ## Table of content
 
-[Short description]()
+[Short description](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Structure of repository]()
+[Structure of repository](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Introduction]()
+[Introduction](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Aims and objectives]()
+[Aims and objectives](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Data]()
+[Data](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Workflow]()
+[Workflow](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Workflow plan and technical properties]()
+[Workflow plan and technical properties](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Installation]()
+[Installation](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Options]()
+[Options](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Example input and output]()
+[Example input and output](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Additional info]()
+[Additional info](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Results and discussion]()
+[Results and discussion](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Future plans]()
+[Future plans](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Literature]()
+[Literature](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Links]()
+[Links](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Authors]()
+[Authors](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
-[Feedback]()
+[Feedback](https://github.com/Asklepiad/BI_project_2022/tree/main#)
 
 ## Structure of repository
 
