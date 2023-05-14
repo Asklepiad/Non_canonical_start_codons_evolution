@@ -71,6 +71,10 @@ It is known procariotes have non only ATG as start-codon. There are about 10% ge
 
 ## Data
 
+First stage of investigation was done on thirty-four bacterial species. Complete list of species is available on `data/all_species.txt` file. Species were selected by material of D. Nikolaeva article preprint about generalists and specialists (*article haven't published yet, therefore we can't post any reference or link*).
+
+The json file with precomputed links is situated in `data/id_lists.json`. This file is a main part complete pipeline's input.
+
 ## Workflow
 
 ### Workflow plan and technical properties
