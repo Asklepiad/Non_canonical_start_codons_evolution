@@ -75,7 +75,7 @@ The json file with precomputed links is situated in `data/id_lists.json`. This f
 
 ## Workflow
 
-The principal scheme of pipeline is on the figure below ![pipeline of investigation](./illustrations/Pipeline.png)
+The principal scheme of pipeline is on the figure below. ![pipeline of investigation](./illustrations/Pipeline.png)
 
 ### Workflow plan and technical properties
 
