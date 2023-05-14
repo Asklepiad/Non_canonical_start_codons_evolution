@@ -44,17 +44,17 @@ Project about evolution of non-canonical start-codons in bacteria and connection
 
 All data for reproducing of our investigation and json file for test run are situated in `data` folder. You can read more detailed description of the folder content in `data` folder [readme]()  (*in development*).
 
-
-
 > Scripts
 
 Conda environment creator for pipeline, master script, all components of pipeline, some additional scripts and requirements file are located in `scripts` folder. You can read more detailed description of the folder content in `scripts` folder [readme]()  (*in development*).
 
-
-
 > Test output
 
 The test running on *Salinibacter ruber* results are situated in `test output` folder (*in development*). You can read more detailed description of the folder content in  `test output` folder [readme]()  (*in development*).
+
+> Illustrations
+
+The images for illustrating repositry's readme files are located in `illustrations` folder (*in development*). You can read more detailed description of the folder content in  `illustrations` folder [readme]()  (*in development*).
 
 ## Introduction
 
@@ -62,9 +62,12 @@ It is known procariotes have non only ATG as start-codon. There are about 10% ge
 
 ## Aims and objectives
 
-1. To find the connection between function of genes and canonicity of its start-codone.
-2. To evaluate distribution of non-canonical start-codones in different taxons and ecological niches, find the difference (if it exists) between different groups of bacteria by their function-start-codons patterns.
-3. 
+#### Aims
+
+1. Find the connection between function of genes and canonicity of its start-codone.
+2. Evaluate distribution of bacterial NCSCs from different taxons and ecological niches, find the difference (if it exists) between different groups of bacteria by their function-start-codons patterns.
+3. Create pipeline for analysing bacteria.
+4. Run pipeline on many organisms from different taxons and ecological niches.
 
 ## Data
 
@@ -83,6 +86,8 @@ It is known procariotes have non only ATG as start-codon. There are about 10% ge
 ## Results and discussion
 
 ## Future plans
+
+Improve quality control and belief in finding position of start-codon.
 
 ## Literature
 
