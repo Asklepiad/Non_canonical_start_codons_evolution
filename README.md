@@ -62,8 +62,6 @@ It is known procariotes have non only ATG as start-codon. There are about 10% ge
 
 ## Aims and objectives
 
-#### Aims
-
 1. Find the connection between function of genes and canonicity of its start-codone.
 2. Evaluate distribution of bacterial NCSCs from different taxons and ecological niches, find the difference (if it exists) between different groups of bacteria by their function-start-codons patterns.
 3. Create pipeline for analysing bacteria.
@@ -91,9 +89,17 @@ The json file with precomputed links is situated in `data/id_lists.json`. This f
 
 ## Future plans
 
-Improve quality control and belief in finding position of start-codon.
+1. Run pipeline on bigger amount of bacteria for verification hypotheses, created on this stage of investigation.
+2. Improve quality control and belief in finding position of start-codon.
+3. Found candidat genes for experimental verification in wet lab.
 
 ## Literature
+
+1. Belinky, F., Rogozin, I. B., & Koonin, E. V. (2017). Selection on start codons in prokaryotes and potential compensatory nucleotide substitutions. Scientific reports, 7(1), 12422. https://doi.org/10.1038/s41598-017-12619-6
+2. Cao, X., & Slavoff, S. A. (2020). Non-AUG start codons: Expanding and regulating the small and alternative ORFeome. Experimental cell research, 391(1), 111973. https://doi.org/10.1016/j.yexcr.2020.111973
+3. Galperin, M. Y., Kristensen, D. M., Makarova, K. S., Wolf, Y. I., & Koonin, E. V. (2019). Microbial genome analysis: the COG approach. Briefings in bioinformatics, 20(4), 1063–1070. https://doi.org/10.1093/bib/bbx117
+4. Moldovan, M. A., & Gelfand, M. S. (2018). Pangenomic Definition of Prokaryotic Species and the Phylogenetic Structure of Prochlorococcus spp. Frontiers in microbiology, 9, 428. https://doi.org/10.3389/fmicb.2018.00428
+5. Costa SS, Guimarães LC, Silva A, Soares SC, Baraúna RA. First Steps in the Analysis of Prokaryotic Pan-Genomes. Bioinformatics and Biology Insights. 2020;14. doi:10.1177/1177932220938064
 
 ## Links
 
