@@ -84,6 +84,20 @@ The principal scheme of pipeline is on the figure below. ![pipeline of investiga
 
 > The pipeline was run on the server with CentOS Linux release 8.5.2111. Package manager was conda 23.3.1 (anaconda). Python version in appropriate virtual environment was 3.9.13. R version was 4.2.2 Bash version was 4.4.20(1)-release (x86_64-redhat-linux-gnu). Workload manager was SLURM 20.11.9-3.1
 
+#### Workflow plan
+ There are thirteen scripts in pipeline properly (including two versions of master-script) and some scripts for preparing data.
+ 
+##### Master scripts
+
+There are two master scripts in pipeline for two modes of computing. 
+- The more flexible variant is ```folder_creators_server0.sh```. It creates all appropriate directories and subdirectories for one bacteria in input. Use script ```server_executor_start_codons.sbatch``` for the running commands on servers with slurm.
+- The more common way is using ```json.sh```.
+- In addition you can use parts of pipeline separately. 
+
+##### Pipeline parts properly
+
+##### Additional scripts
+
 ### Installation
 
 For the start of work you need to clone this repository on the local maschine or on the server. 
