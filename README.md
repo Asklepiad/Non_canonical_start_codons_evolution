@@ -79,13 +79,34 @@ The principal scheme of pipeline is on the figure below. ![pipeline of investiga
 
 ### Workflow plan and technical properties
 
+#### Technical properties
+> The pipeline was run on the local machine with OS Ubuntu 20.04. Package manager was conda 23.3.1 (miniconda). Python version was 3.9.13. R version was 4.2.2 Bash version was 5.0.17(1)-release (x86_64-pc-linux-gnu).
+
+> The pipeline was run on the server with CentOS Linux release 8.5.2111. Package manager was conda 23.3.1 (anaconda). Python version in appropriate virtual environment was 3.9.13. R version was 4.2.2 Bash version was 4.4.20(1)-release (x86_64-redhat-linux-gnu). Workload manager was SLURM 20.11.9-3.1
+
 ### Installation
+
+For the start of work you need to clone this repository on the local maschine or on the server. 
+Firstly you need to have conda on your maschine. You can check existance of conda, if you will type `conda` in the command line. If you haven't conda, download it from the [version archive](https://repo.anaconda.com/archive/). You need to choose your OS for downloading. We recommend you to download 
+
+
+1. You need to clone the repository.
+ 1. Touch the button `code` on the upper right corner of the screen.
+ 2. Copy https address.
+ 3. Open command line with bash.
+ 4. Change directory, using `cd` command, until you open directory, where you want to copy repository.
+ 5. Type ```git clone <https you have copied on the previous stage>```
+2. After repository had been cloned type ```cd BI_project_2022/scripts``` and after then ```./environments_script_01.sh```
+3. When dialog messages will appeared on the screen, you need to push `y` button and enter. It will occurs some times.
+4. You are ready for the analysis.
 
 ### Options
 
 ### Example input and output
 
 ### Additional info
+
+### Problems and errors
 
 ## Results and discussion
 
