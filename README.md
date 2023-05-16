@@ -98,6 +98,12 @@ There are two master scripts in pipeline for two modes of computing.
 
 ##### Additional scripts
 
+- ```check_strains.py``` finds "bad" assemblies with many genes in ortological rows with gaps on start positions. Script will be implemented in the extended version of pipeline, as part of "believer" module.
+
+- ```download_strains_before.py``` downloads genomes from NCBI, dividing organisms by number of assemblies. The script's work's result is an input for a panakota pipeline **(сделать ссылки)**, which excludes evolutionary close organisms.
+
+- ```download_strains_after.py``` 
+
 ### Installation
 
 For the start of work you need to clone this repository on the local maschine or on the server. 
@@ -127,7 +133,7 @@ Firstly you need to have conda on your maschine. You can check existance of cond
 ## Future plans
 
 1. Run pipeline on bigger amount of bacteria for verification hypotheses, created on this stage of investigation.
-2. Improve quality control and belief in finding position of start-codon.
+2. Improve quality control and belief in finding position of start-codon (creating "belivier" module with some checkpoint and data filtering points).
 3. Found candidat genes for experimental verification in wet lab.
 
 ## Literature
