@@ -96,13 +96,25 @@ There are two master scripts in pipeline for two modes of computing.
 
 ##### Pipeline parts properly
 
+1. ```Parsing_NCBI_1.py``` 
+2. ```prokka_annotate2.sh``` **(сделать ссылки)**
+3. ```First_table_creating3.py```
+4. ```proteinortho_script4.sh``` **(сделать ссылки)**
+5. ```Muscle_preparing_5.py```
+6. ```Statscript.R``` 
+7. ```muscle_align6.sh``` **(сделать ссылки)** or prank_align6.sh **(сделать ссылки)**
+8. ```modeltree_maker7.sh``` **(сделать ссылки)**
+9. ```raxml_tree8.sh``` **(сделать ссылки)**
+10. ```Ete3_maker_10.py```
+
 ##### Additional scripts
 
 - ```check_strains.py``` finds "bad" assemblies with many genes in ortological rows with gaps on start positions. Script will be implemented in the extended version of pipeline, as part of "believer" module.
 
 - ```download_strains_before.py``` downloads genomes from NCBI, dividing organisms by number of assemblies. The script's work's result is an input for a panakota pipeline **(сделать ссылки)**, which excludes evolutionary close organisms.
 
-- ```download_strains_after.py``` 
+- ```download_strains_after.py``` processed output of panakota pipeline, returns json file with dictionary, where key is bacteria's name, and value is a list of links.
+- ```environments_script_01.sh``` creates conda virtual environments. If you want to have another virtual environments, or want to set them manually, or run all programms from base conda environment (we highly recommend not to do that), you need to rewrite running scripts and environments names in```folder_creators_server0.sh``` .
 
 ### Installation
 
