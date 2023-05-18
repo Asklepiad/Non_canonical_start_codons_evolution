@@ -165,6 +165,39 @@ There are now problems with ete3 executing on server (local version works good).
 
 ## Results and discussion
 
+We created a **pipeline** that includes all stages of work: selection, filtering and downloading of bacterial assemblies from NCBI, re-annotation of sequences, construction of orthologous rows, alignment of genes within orthologous rows, calculation of statistics, analysis of COG categories, construction of trees.
+
+#### Start codon distribution analysis. 
+We had 3 hypotheses about the dependence of the distribution of start codons on:
+1. the size of the genome
+2. phylogeny
+3. belonging of bacteria to specialists and generalists.
+
+Hypotheses 1 and 3 were not confirmed: no correlation was found between the representation of start codons depending on the size of the genome and whether the bacterium belongs to generalists and specialists. But we were able to identify some dependencies in the analysis of the distribution of start codons in bacteria grouped by taxa. Representatives of taxon Pseudomonadota had a lower percentage of genes with non-canonical start codons compared to representatives of taxon Bacillota considered in this work.
+
+#### Distribution of start codons in genes with different COG category analysis. 
+We analyzed the distribution of genes by COGs within each organism (we took all the genes with a certain start codon (ATG, GTG, TTG) and looked at what proportion of them belonged to one or another COG) (the relative percentage was calculated).
+
+In genes responsible for: 
+* amino acid metabolism
+* carbohydrate metabolism
+* energy production and conversion
+
+the relative percentage of the **canonical ATG start codon** is greater than that of non-canonical ones.
+
+In genes responsible for:
+* the central dogma of molecular biology
+* the cell cycle
+* mobility
+* cell wall
+* intracellular transport
+* vesicle formation
+
+the relative percentage of **non-canonical start codons GTG or TTG** is greater than the canonical one.
+
+This observation provides us with a good basis for further analysis of the preferences of individual genes for non-canonical start codons.
+
+
 ## Future plans
 
 1. Run pipeline on bigger amount of bacteria for verification hypotheses, created on this stage of investigation.
