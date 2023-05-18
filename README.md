@@ -145,7 +145,7 @@ There are slughtly different options, when you run master-script ```folder_creat
 - proteinortho identity parameter. We recommend use value near 75 for analyzys on specie level. 
 - Email. It needs for decreasing limitations of NCBI downloading files.
 - Number of threads for parallelizing some utilities.
-> Example: ./json.sh "../data/id_lists.json" "muscle" 75 "vibrio.choleri.1854@gmail.com" 24
+> Example: ```./json.sh "../data/id_lists.json" "muscle" 75 "vibrio.choleri.1854@gmail.com" 24```
 
 2. If you run ```folder_creators_server0.sh``` you need to send the below defined options:
 - name of json file in "../data/jsons" directory (path has been written relative to folder with scripts)
@@ -153,7 +153,7 @@ There are slughtly different options, when you run master-script ```folder_creat
 - proteinortho identity parameter. We recommend use value near 75 for analyzys on specie level. 
 - Email. It needs for decreasing limitations of NCBI downloading files.
 - Number of threads for parallelizing some utilities.
-> Example: ./folder_creators_server0.sh "S_ruber.json" "muscle" 75 "bogdan.sotnikov.1999@mail.ru" 24
+> Example: ```./folder_creators_server0.sh "S_ruber.json" "muscle" 75 "bogdan.sotnikov.1999@mail.ru" 24```
 
 ### Example input and output
 
