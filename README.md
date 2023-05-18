@@ -96,16 +96,16 @@ There are two master scripts in pipeline for two modes of computing.
 
 ##### Pipeline parts properly
 
-1. ```Parsing_NCBI_1.py``` 
-2. ```prokka_annotate2.sh``` **(сделать ссылки)**
-3. ```First_table_creating3.py```
-4. ```proteinortho_script4.sh``` **(сделать ссылки)**
-5. ```Muscle_preparing_5.py```
-6. ```Statscript.R``` 
-7. ```muscle_align6.sh``` **(сделать ссылки)** or prank_align6.sh **(сделать ссылки)**
-8. ```modeltree_maker7.sh``` **(сделать ссылки)**
-9. ```raxml_tree8.sh``` **(сделать ссылки)**
-10. ```Ete3_maker_10.py```
+1. ```Parsing_NCBI_1.py``` - creates list of genbank assemblies with anootations and data about plasmid files (it is important, because information about type of DNA molecules will vanished on the next stage)
+2. ```prokka_annotate2.sh``` - consistently reannotates assemblies **(сделать ссылки)**
+3. ```First_table_creating3.py``` - creates table about gene features and fasta files with all genes.
+4. ```proteinortho_script4.sh``` - computes ortologus rows and creates table with information about them. **(сделать ссылки)**
+5. ```Muscle_preparing_5.py``` - creates two big summary tables about genes and ortologus rows.
+6. ```Statscript.R``` - computes different statistics, creates filgures and short report.
+7. ```muscle_align6.sh``` **(сделать ссылки)** or prank_align6.sh **(сделать ссылки)** aligns sequences.
+8. ```modeltree_maker7.sh``` **(сделать ссылки)** - chooses the best evolution model for further tree creating.
+9. ```raxml_tree8.sh``` **(сделать ссылки)** - creates phylogenetic trees in Newick format.
+10. ```Ete3_maker_10.py``` - visualizes phylogenetic trees (*unavailable in server version now*)
 
 ##### Additional scripts
 
@@ -114,7 +114,10 @@ There are two master scripts in pipeline for two modes of computing.
 - ```download_strains_before.py``` downloads genomes from NCBI, dividing organisms by number of assemblies. The script's work's result is an input for a panakota pipeline **(сделать ссылки)**, which excludes evolutionary close organisms.
 
 - ```download_strains_after.py``` processed output of panakota pipeline, returns json file with dictionary, where key is bacteria's name, and value is a list of links.
+
 - ```environments_script_01.sh``` creates conda virtual environments. If you want to have another virtual environments, or want to set them manually, or run all programms from base conda environment (we highly recommend not to do that), you need to rewrite running scripts and environments names in```folder_creators_server0.sh``` .
+
+- ```local_statscript.R```  - local analog for semi-hand (target organism name must be written handly) computing statistics of ```Statscript.R```. It is convinient to run script in RStudio.
 
 ### Installation
 
@@ -134,11 +137,31 @@ Firstly you need to have conda on your maschine. You can check existance of cond
 
 ### Options
 
+There are slughtly different options, when you run master-script ```folder_creators_server0.sh``` or ```json.sh```. There are 5 options needed in both cases 
+
+1. If you run ```json.sh``` you need to send the below defined options:
+- path to json file with all ids for every bacteria. 
+- aligner. There are two variants now: muscle and prank
+- proteinortho identity parameter. We recommend use value near 75 for analyzys on specie level. 
+- Email. It needs for decreasing limitations of NCBI downloading files.
+- Number of threads for parallelizing some utilities.
+> Example: ./json.sh "../data/id_lists.json" "muscle" 75 "vibrio.choleri.1854@gmail.com" 24
+
+2. If you run ```folder_creators_server0.sh``` you need to send the below defined options:
+- name of json file in "../data/jsons" directory (path has been written relative to folder with scripts)
+- aligner. There are two variants now: muscle and prank
+- proteinortho identity parameter. We recommend use value near 75 for analyzys on specie level. 
+- Email. It needs for decreasing limitations of NCBI downloading files.
+- Number of threads for parallelizing some utilities.
+> Example: ./folder_creators_server0.sh "S_ruber.json" "muscle" 75 "bogdan.sotnikov.1999@mail.ru" 24
+
 ### Example input and output
 
 ### Additional info
 
 ### Problems and errors
+
+There are now problems with ete3 executing on server (local version works good). It will be solved in future (or we will replace ete3 to another tree visualizer).
 
 ## Results and discussion
 
@@ -168,4 +191,5 @@ Firstly you need to have conda on your maschine. You can check existance of cond
 
 ## Feedback
 
+You can read about any problems or ideas about project improvements on **(вставить контакты)**
 
