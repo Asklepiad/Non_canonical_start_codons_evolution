@@ -96,22 +96,22 @@ There are two master scripts in pipeline for two modes of computing.
 
 ##### Pipeline parts properly
 
-1. ```Parsing_NCBI_1.py``` - creates list of genbank assemblies with anootations and data about plasmid files (it is important, because information about type of DNA molecules will vanished on the next stage)
-2. ```prokka_annotate2.sh``` - consistently reannotates assemblies **(сделать ссылки)**
+1. ```Parsing_NCBI_1.py``` - creates list of genbank assemblies with anootations and data about plasmid files (it is important, because information about type of DNA molecules will vanished on the next stage).
+2. ```prokka_annotate2.sh``` - consistently reannotates assemblies. You can read more about the Prokka tool on [its github](https://github.com/tseemann/prokka)
 3. ```First_table_creating3.py``` - creates table about gene features and fasta files with all genes.
-4. ```proteinortho_script4.sh``` - computes ortologus rows and creates table with information about them. **(сделать ссылки)**
+4. ```proteinortho_script4.sh``` - computes ortologus rows and creates table with information about them. You can read more about the Proteinortho tool on [its gitlub] (https://gitlab.com/paulklemm_PHD/proteinortho)
 5. ```Muscle_preparing_5.py``` - creates two big summary tables about genes and ortologus rows.
 6. ```Statscript.R``` - computes different statistics, creates filgures and short report.
-7. ```muscle_align6.sh``` **(сделать ссылки)** or prank_align6.sh **(сделать ссылки)** aligns sequences.
-8. ```modeltree_maker7.sh``` **(сделать ссылки)** - chooses the best evolution model for further tree creating.
-9. ```raxml_tree8.sh``` **(сделать ссылки)** - creates phylogenetic trees in Newick format.
+7. ```muscle_align6.sh``` or ```prank_align6.sh``` aligns sequences. You can read more about the MUSCLE and PRANK aligners respectively on the [MUSCLE v.5 website](https://www.drive5.com/muscle/) and [PRANK website](http://wasabiapp.org/software/prank/)
+8. ```modeltree_maker7.sh``` **(сделать ссылки)** - chooses the best evolution model for further tree creating. You can read more about the modeltest-ng tool on [its github](https://github.com/ddarriba/modeltest).
+9. ```raxml_tree8.sh``` **(сделать ссылки)** - creates phylogenetic trees in Newick format. You can read more about the RAxML-ng tool on [its github](https://github.com/amkozlov/raxml-ng)
 10. ```Ete3_maker_10.py``` - visualizes phylogenetic trees (*unavailable in server version now*)
 
 ##### Additional scripts
 
 - ```check_strains.py``` finds "bad" assemblies with many genes in ortological rows with gaps on start positions. Script will be implemented in the extended version of pipeline, as part of "believer" module.
 
-- ```download_strains_before.py``` downloads genomes from NCBI, dividing organisms by number of assemblies. The script's work's result is an input for a panakota pipeline **(сделать ссылки)**, which excludes evolutionary close organisms.
+- ```download_strains_before.py``` downloads genomes from NCBI, dividing organisms by number of assemblies. The script's work's result is an input for a panakota pipeline , which excludes evolutionary close organisms. Yoa can read more about PanACoTA on [its github](https://github.com/gem-pasteur/PanACoTA).
 
 - ```download_strains_after.py``` processed output of panakota pipeline, returns json file with dictionary, where key is bacteria's name, and value is a list of links.
 
@@ -178,8 +178,23 @@ There are now problems with ete3 executing on server (local version works good).
 3. Galperin, M. Y., Kristensen, D. M., Makarova, K. S., Wolf, Y. I., & Koonin, E. V. (2019). Microbial genome analysis: the COG approach. Briefings in bioinformatics, 20(4), 1063–1070. https://doi.org/10.1093/bib/bbx117
 4. Moldovan, M. A., & Gelfand, M. S. (2018). Pangenomic Definition of Prokaryotic Species and the Phylogenetic Structure of Prochlorococcus spp. Frontiers in microbiology, 9, 428. https://doi.org/10.3389/fmicb.2018.00428
 5. Costa SS, Guimarães LC, Silva A, Soares SC, Baraúna RA. First Steps in the Analysis of Prokaryotic Pan-Genomes. Bioinformatics and Biology Insights. 2020;14. doi:10.1177/1177932220938064
+6. Seemann T. (2014). Prokka: rapid prokaryotic genome annotation. Bioinformatics (Oxford, England), 30(14), 2068–2069. https://doi.org/10.1093/bioinformatics/btu153
+7. Lechner, M., Findeiss, S., Steiner, L., Marz, M., Stadler, P. F., & Prohaska, S. J. (2011). Proteinortho: detection of (co-)orthologs in large-scale analysis. BMC bioinformatics, 12, 124. https://doi.org/10.1186/1471-2105-12-124
+8. Edgar, Robert. (2021). MUSCLE v5 enables improved estimates of phylogenetic tree confidence by ensemble bootstrapping. bioRxiv10.1101/2021.06.20.449169. 
+9. Löytynoja A. (2014). Phylogeny-aware alignment with PRANK. Methods in molecular biology (Clifton, N.J.), 1079, 155–170. https://doi.org/10.1007/978-1-62703-646-7_10
+10. Darriba, D., Posada, D., Kozlov, A. M., Stamatakis, A., Morel, B., & Flouri, T. (2020). ModelTest-NG: A New and Scalable Tool for the Selection of DNA and Protein Evolutionary Models. Molecular biology and evolution, 37(1), 291–294. https://doi.org/10.1093/molbev/msz189
+11. Kozlov, A. M., Darriba, D., Flouri, T., Morel, B., & Stamatakis, A. (2019). RAxML-NG: a fast, scalable and user-friendly tool for maximum likelihood phylogenetic inference. Bioinformatics (Oxford, England), 35(21), 4453–4455. https://doi.org/10.1093/bioinformatics/btz305
 
 ## Links
+
+[PROKKA github](https://github.com/tseemann/prokka)
+[Proteinortho gitlub] (https://gitlab.com/paulklemm_PHD/proteinortho)
+[MUSCLE v.5 website](https://www.drive5.com/muscle/)
+[PRANK website](http://wasabiapp.org/software/prank/)
+[Modeltest-ng github](https://github.com/ddarriba/modeltest)
+[RAxML-ng github](https://github.com/amkozlov/raxml-ng)
+[PanACoTA github](https://github.com/gem-pasteur/PanACoTA)
+[Conda version archive](https://repo.anaconda.com/archive/)
 
 ## Authors
 
@@ -192,4 +207,3 @@ There are now problems with ete3 executing on server (local version works good).
 ## Feedback
 
 You can read about any problems or ideas about project improvements on **(вставить контакты)**
-
