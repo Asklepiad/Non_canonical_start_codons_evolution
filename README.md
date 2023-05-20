@@ -115,7 +115,7 @@ There are two master scripts in pipeline for two modes of computing.
 
 ##### Sbatch scripts
 
-For working on the server with slurm **(ссылка на мануал)** we have prepared some sbatch scripts. You need to customize some points of script and add some new ones, if you need (time, as example).
+For working on the server with [slurm](https://slurm.schedmd.com/documentation.html) we have prepared some sbatch scripts. You need to customize some points of script and add some new ones, if you need (time, as example).
 
 - ```server_executor_start_codons.sbatch``` runs ```json.sh``` script, which starts analyz of all bacteria in input file.
 
@@ -236,6 +236,7 @@ This observation provides us with a good basis for further analysis of the prefe
 - [RAxML-ng github](https://github.com/amkozlov/raxml-ng)
 - [PanACoTA github](https://github.com/gem-pasteur/PanACoTA)
 - [Conda version archive](https://repo.anaconda.com/archive/)
+- [Slurm documentation](https://slurm.schedmd.com/documentation.html)
 
 ## Authors
 
