@@ -1,0 +1,60 @@
+>Feature S_ruber6_5
+23	187	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00001
+			product	hypothetical protein
+270	578	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00002
+			product	hypothetical protein
+575	2725	CDS
+			EC_number	2.7.7.-
+			gene	dnaG
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00974
+			locus_tag	CPHOJEGO_00003
+			product	DNA primase
+3217	3771	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00004
+			product	hypothetical protein
+3740	4570	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00005
+			product	hypothetical protein
+4563	5258	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00006
+			product	hypothetical protein
+5292	6077	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00007
+			product	hypothetical protein
+6070	6747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00008
+			product	hypothetical protein
+6768	7139	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00009
+			product	hypothetical protein
+7132	9018	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00010
+			product	hypothetical protein
+9359	9075	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00011
+			product	hypothetical protein
+10046	9390	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00012
+			product	hypothetical protein
+10596	10345	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00013
+			product	hypothetical protein
+10767	10997	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CPHOJEGO_00014
+			product	hypothetical protein

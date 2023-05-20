@@ -1,0 +1,70 @@
+>Feature S_ruber1_2
+131	1357	CDS
+			EC_number	3.6.4.12
+			db_xref	COG:COG0305
+			gene	dnaC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37469
+			locus_tag	CDBOIKMB_00001
+			product	Replicative DNA helicase
+1308	3110	CDS
+			EC_number	2.7.7.-
+			gene	dnaG
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00974
+			locus_tag	CDBOIKMB_00002
+			product	DNA primase
+3052	3843	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02040
+			locus_tag	CDBOIKMB_00003
+			product	Iron-sulfur cluster carrier protein
+3836	4279	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00004
+			product	hypothetical protein
+4553	4738	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00005
+			product	hypothetical protein
+4735	4917	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00006
+			product	hypothetical protein
+5026	6045	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00007
+			product	hypothetical protein
+6977	7281	repeat_region
+			note	CRISPR with 5 repeat units
+			rpt_family	CRISPR
+			rpt_type	direct
+			rpt_unit_seq	CTTTCAATACCCCAAGGGTCCGATTCGAAG
+9248	7851	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00008
+			product	hypothetical protein
+10028	10540	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00009
+			product	hypothetical protein
+11289	10735	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00010
+			product	hypothetical protein
+12187	11957	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00011
+			product	hypothetical protein
+12439	13200	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00012
+			product	hypothetical protein
+13266	13583	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00013
+			product	hypothetical protein
+13597	15756	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	CDBOIKMB_00014
+			product	hypothetical protein

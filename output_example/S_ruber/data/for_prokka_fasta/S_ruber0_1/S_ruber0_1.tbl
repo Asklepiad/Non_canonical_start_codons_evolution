@@ -1,0 +1,53 @@
+>Feature S_ruber0_1
+9	542	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00001
+			product	hypothetical protein
+896	1183	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00002
+			product	hypothetical protein
+1183	1779	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00003
+			product	hypothetical protein
+1920	2201	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00004
+			product	hypothetical protein
+2833	2606	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00005
+			product	hypothetical protein
+3226	2996	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00006
+			product	hypothetical protein
+3907	3284	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00007
+			product	hypothetical protein
+4723	5127	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00008
+			product	hypothetical protein
+5130	5408	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00009
+			product	hypothetical protein
+5408	5740	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00010
+			product	hypothetical protein
+6023	7690	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00011
+			product	hypothetical protein
+8713	8519	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00012
+			product	hypothetical protein
+9027	10253	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EFABNNOA_00013
+			product	hypothetical protein

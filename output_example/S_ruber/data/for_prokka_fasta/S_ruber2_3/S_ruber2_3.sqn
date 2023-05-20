@@ -1,0 +1,1666 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 5 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 18 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2023 } } } ,
+        create-date
+          std {
+            year 2023 ,
+            month 5 ,
+            day 18 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "S_ruber2_3" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 11534 ,
+            seq-data
+              iupacna "GCGGCCACTACCGAAAGGTCTGACGCTTACCCGCTTGCATCTTGCACTTGTTGCA
+CTTCGCTTCACATAAGAGGGTATTTTCTTCATAAAGATGAAGGAATATGAAGCGAAGTGCAGTAAATGCAGGATGCAA
+AGGGGGAGGCGTGGAGGGTAAACCAGAGCGTTAAGGGAAAACCGGAAATAGGATGGAGTACCGGCCCTATATCACTGG
+ATACACTGCAAACAAGCGTTAGACAGCTACACGTTCACCGTTACATCCCCTCCTCTCACTGCTATTTCCACACTGGAA
+TAACGCTCCGATGAACGACCCCGATATGGACGGCCGAGAGGCCGCTCGCAAACTCTACGGCGCTCCCGATTCTACCGA
+TCAAAACAACCCCGATTCAATGCCCCATCCGAGCAAACGAAAGGCCAACCGACACGAACGAGAGATCGTCAAGATCGC
+CGAGGCGAAGGGCATGGAGGCCGAGCGTGCATACGCCTCCAACGGCGAGAGTCTCGGCGAGGTGGAGGCGTGTGATTG
+CCTCGTGAGAGGACGCGACAGCGACGTGATGGATGCCCTTCGCATCCAGGCGAAGCGGCGCAAAAGTATCGCCTCCTA
+CCTGGAGCCACCGGAGGGCACCGATTGTGTCGTGGTTCGGGAGGACCGAGCCGACAACCTCGTGGTGCTCGACCTGGA
+GGACTTCCTCGACCTCGTGACAGATACAGAAGAGTAGCACAATCGCCGGAGGCGACGGCCGGCGCCCTCATTCAACCT
+CTAACCGATGCCGCAAGGCAACTGCAACCATGAACACAACAACCCCCAACCTCCTCACCGCCTACCAGACGAAACGGC
+TCGCCGAGCACTCTGAGAAGATGGAGCGAGCGTTTAAGATCCTCAACGGAGGCCGAGCCCTCGGCCTGGAGATGCTCG
+ACCTCGACGTGCTCGGAGGCTTTCGGGCGCGGAGCACTCCCAACGATCCTGGCGAATCCGTGGTGGCCTATGCCCAAC
+AGGGCGCAAAAGGCTCCAATGGGAATCTCGTGACGGCCGGCACTGGCTTCACCGTGATCCGGCGCGATGAAGATCACG
+AGCCGTTGGAGCGGCTCCTCGTGACCGTGGGATACGACACGGAGGCCGGCCGGGAGATGATTAACGTCCTGGATCGCA
+CCGAGGCCGAGGTTCTCTCACCGGCTGACACGGCGATAGAAATGACCGAGGAGGACATATACCCACTGGAGGAGATCG
+CCGAGATGTTCGCTCCGCTCCAGGCGACAGCCAAATACTGCGAGGGACTTGGTGCCGGCACCCTTCCTTTTCTGGAGG
+GCGTTCTCGGTGAGCTTATCCCCTCCTACGGGCACGGCATAGAGCGAGACGGTACCCTCTACGTGATCTCTGACGAAA
+CGGGCACCCTGGAGTTGATCCGGCCGGATGGGACGATCCTTCCGGTGGGGCACAGCATGAACGAGCCGAACGAGGAGC
+TCGACGGCGAGCGCGAGGAGATCATACGTCCCCGCATTGAGGAGCTCCGAGAGCAGATCGAAACGCGCCGGGAGGAGG
+CCCTCGAAGAAATGACCGCCAAAGAGAGAGAGGGCTTTTACATGGCCGAGAACGAGAGAGGCCGCAGGCTAGACCCGG
+AGGAGTGGATGGACTTCATGCCGGACGCAGAGGACTTGATGGGCTCCTAACCTCTCAGTGATGAGGAAAGCTCCCGCC
+GGTCTTAATCCGGTGGAGCCCTAATCCGGTGGGGGCTCCTCATTCAACCCCTACCGATGCAACGCCCACAATTCTACA
+CCGATCCGATGCTCGGAGACGACCCCCTCGACCGGAAGATCAACAAGGCGGCCGTAACCCGTGCCTGGATACTCCGGC
+ACCCCTACTACAACTACCGGCACGCCCCGCCCGATGCCGACGCCGAGGAGTATGCTCGGCGCCAATCGGAGCTCCAAG
+CAACGAGCCTCTCGCACCTACTCAACTGACCGATGCCCGAGCCCGAGCTCGCCCTCCTCCTGGTGGGGATTCTATGCT
+CCCACGTAGGCCCTCCGGCGAGTTACCTCATGGAGCGGTTCAATCTCGAATAACCTCATGGAGCCTATGCCAACGAAT
+GACAGCGCCCAACAATGCACCGCCACCGCAAAGAGCACCGGCGAGCGGTGCCAGAACCCGGCCGTCAAAGGATGGGAC
+GTGTGCCGTTTCCACGGTGCCGGCTCGCCGAAGAATGAGACGACGGGAGGCGCCCCGGTGAAGCACGGCCGCTACTCG
+GCGAAGCGGCGAGAGAGCCTCCAGGAGAAGCTCCAACAGTACCGAGAGGAGGACGACCCGGCCGAGCTGTGGGAGGAG
+CTGGCCCTCCTCCGAGCGGTGCTCCAGGAGTGGCTCGCCGAGGTGGAGGAGATCGACCCCGAGACGGTGGGCGTGATC
+CTCGACCTCCAGGGCTCGATTCGCCGCACCCTCGACACGATCAACAAGATCCAAACGAGGAGCGCACTCACGGCCGCC
+GAGGTGGAGTACCTCCAGGCGAAGGTTGCGGACCTCTTCCGGACTTACGTACCCCGAGAGAATCGGGACGATGCACTC
+AATGAACTCAAACAACTGACCGAGGCCGATGGACCCCGAACGAACTGACTCCAACGCCCTCTCCAGGTTCACCCGAGG
+CGTAGAGGAGCACATGGAGACGAGCGTGAATCCTCTTGCAACCCCTCTCTCCGACCGTGAACTCGCCTCAATTGCATG
+GCCGGGGGAGGACTGGAGCGGCCTCTCGCCGGAGGCGTGCGAGAGGGCCATACGTCAACATCTCAAATAACCCTCAAC
+TGACCAATGGACCCCGAGCAAACTACCCCGCCCGAGGATGCCGTGGAGGGATTTCTCGACGGCGTAGCGGAGCGCGTG
+ACCGATGGGATGGGCACCCGACACGTTGCCCAACTCCTCCCCGAGGAATACCCCAGGGAGCCGGACCCTCCCGACGTG
+TGGAAAGACGAGGAGGCGATGAACGAGTGGATCGACCAGCTCCCCGACCGTGACGAGGTAATCGTTCTCCGTATCGTC
+AACACGCCCCCAGAAGATCAGCAATTCAAGAACAAAACCCGACCCCCAAACTCATGACTGACGCACCCGAAAAGCCTC
+TCAATAGCTTTCTCGACGGCGTAGAGCACGCCCTCCAGGACGAAGAGGAGACGCCCTGGATCGTATACGGCCCGAGGT
+GGGCGCAGGAAGGTCAAGGCGCCGAGGAGCCACCGGAGGACCTGGAGAACCCGGTATGGGCACCCTCGACCGGATGGA
+TGGAGAAAGGCGAGGCCCCAATCGGAGAGGCCGACTCCGGCGAGACGCTCGCCATGTACGCACCGGACAGCATGGAAG
+AGTTGGGCGTAAATAGATCCTCTAAGAGCGGATAAATGGGCCGCCTCCAGGGGGAGAGCCCATTCTTTCCGATCTGAG
+GCGAGCCTCCGGCGTGTACGTACGACGTATGTACAGGAGACTCACGTTAGAGCCCTGTCTCGCCCTCCTCGACGGCCT
+GGAGCATCCACCGGCGAACAACCCACGACATACTCCGGCCCTCCTCTTCGCAAACCTCCTGGAAGGCATCTCGGAGGT
+TCTCCGGCACCCGAGCGTTGAACTTCACTTCGTCCCCTTCCTGGAGGGCGCCTCGGCTGGCGGCCGAGGGATCGGCGT
+TCGTGTCGCTCTTTGACTCCAGAGCACCGCCGAGCGGATCGCTCGTGTCCTCTGTGTCGGATTCGCCGGAAGATGGTG
+GCATGGAGAGGCTGGTGGTTGCTTCCGTTCTGTGAGTCTGTGAGGACCGTGTACGTACGACGTACTCACGAAAGGAGC
+TCGCCCACGTCTCGGAGAAGCTGGTGGACCTCCTCCCGTGCGGTATCGTCGCTCCCATCCAGGACCGTACGCCCCTCC
+GAGAGGCTCCGAGCGTACGCGACACGGAAGGTGAACCCATCCAGGAGGGGAAGCCCTCGGCCGGCGAGAACCTCCTCC
+AGCTCCTCCGACAGCGACGTGCGAACGTCTCTCTGTGAGGCGATGAACGCGGCCTGGAGGCCGGCGCCGGTATGATCG
+GCGAGCACGTCCAAAAACTCGGCCGTGCCCCACAAGTCTAGTCCGCTCGGCCGTACCGGGACGAGGGCAAGATCCGCA
+ACGGAGAGGACCGCTCCGGTGCGTTCATCCAGGCGAGCGGGACTGTCTACCACGACAACCTCGGCGCCCTCAACGTGA
+GGCGTGAGTGAGTCCTCTGTACGTACGTGCTCAACGGGAGGCCCATCGTAGCCCTCCGGCGTCCTCCGGCTCCAGTCC
+ACAACGGAGCCCTGTGGATCGGCGTCTACAATCTTTGCCGAGTAGCCGCTCCGGTGGGCCACGACGCCGAGGTGAACG
+GCGATGGTGGTTTTGCCGGAGCCCCCTTTCGGATTGACACAGGCGAGCGTAAGAGGCATGGCCCTGTGAGTACGTGGT
+GAGGACGGAAGACGTACAGACTATGCCACCAGCTCCCGAGATGCAAAACTCCACGCTCGGAAGAGGCCCTCCGGCGAG
+CGTTGCTCCGAAGTAATTCTCCTGGTGCCACCGGAGTAATTCTCTCCGTTGCTCCGAGGTAACGCTCCCCGTCCCTCA
+CCGAAGGAATCGAGACGTTGCTAAAAATCTGGTACCAGTCCAATTCGGCTGTGGACAGTCGTTCTAACTCTTTTCGCA
+GAAGTACACATCTTCATTTTCTGTTATTCCCATCCTCTCGACGTTCTCCCGACCCACCACCTCAGGGGCAGGGCACTT
+GGTCACCTCGAAGCCGGCCTCTTCAAGTCGATCTTTGTAGTCGGGACCGTAGCGCCTCACATGGTTCCATTGACCAAA
+GAGACGTTCCCTCTCTTCTGGGTCTGTTACCGAAGGGTCCTCAAAGGTCTCTTCCGCAGTGATCGGCACTTGCAGAAC
+AGCCCAACCCTCCGGCTCAAGCACTCGATGAAGCTCGTGCATGGCTTTCTTATCCTCCGGTACATGCTCTAAGACATG
+GCTTGCGTAGATAACGTCGAATGACCCATCGGGGTACTGTATACCGGTCACATCCACCTTCTCCATGGCTTTCTCCTC
+GTCTATGTCTCCAGACAGGTAGTCGATACTTTCTTCTTCCCTGAGAGCTTCTGCGAAAGGACCCGGAGCTATGTGGAG
+CATCCTCAACGTGGTGGATCTATCGAATAGGTCCGTATGATCGTGAAAGAACACCCAGTCTAGCCGATGGCGCTCCAA
+CGACCCGCAAAACGGACACATTGCGTCGGGGCGTGGATCAACACCAAACGGCTTGAACTTCCGTGCATAGCTCTGACA
+AACAGGACAGTACCGGGATCTCCCAAAGTACTTAACCCTCTCGTATGCCTGACGCAGGTTACCGTGCTGAGATTCAGG
+AATAGCTTGCTTCAGGATTTTCTTTGCTGTGTCCTTCATCAGTACAAATTTCTTTAGGAGGAAGAACCGTTTTCTGTA
+ATACAATGGATCTCCGCTTGGTTTACAATCTGCCAAAATCTGATCCCCTCCCGAAGTAGAAAGCGTCCGCTCCGACCC
+AAACCTCGAGCCGGGACGTTGGCGTTAGTTGAGCGGTGCGGTGGCGTCCTCTAGGAGCTCCTCGGCGCGTGCCGTGGA
+GAGGGAGGTGATGCCGCCGGCCGTGACGCCCTGAACCTTCGTGGTGGCGAAGCTCCCGGCCGTGGCAACCTTCACCGA
+GCGGAAGGCGATGGGGAGGCCGTTGCACTCGGCGAGGCGCACCGTATCGGCGCCGGCCGTGTACTTGTGCCCGTTGAC
+TGTGGAACGAGAGGGGGAAGGACTGGAGTTGTTCATAATGCTTGCTGTATCAGTGAGCGCCCCGTGCCGTGTGTCTGC
+CAGGACTGGACGGCACGGGGCTTTTTTAGTGAGTGGGGCGAGACTGCCTCCCCGTAATGCACCAAGTTACACCGTAAA
+GGTGTATCTTTCGTTCCGAGATGGAATGTGAAGAATACACCGCTCTAGTGAAACAGTAGGTACACCGCTCCGGTACAA
+GCCTCCGACGAAGCGACACACGCCCTATGCCGACTTCCGATCCGATGCCTAACTCGGCACTCACTTACGAGGAACTGA
+AGGACAAGGCCCACCAGCTCGCCAAAGATGGGCCGACATACGAGGAGATCGCCGAGGAGCTCGACGTGACGAAAAGCG
+CGGTAGCCCAAGCCGTGACCACGGCCGGCCCCAAGTTTCACCGGCTCCAGATTCGGATTGTGGAGCTTCTCTCCGACG
+TGGAGGTGGAGCGGCGAGAGGCGTTCGTTCTACACCCCAACGACTGACCGAGGCGATGCCTGGACTCTCCTACCCCTT
+CGTGTACGAGTGTACCAATTGCGGCGAGGAGACAACCATCACCCGCACCGAGGCGCGTGATCTCGCCGTCAACCCTGA
+CTCGATAAACGCCCTGGAGATTGTACTCCAGGGGCGCGGCTGGCTCCGAGACGAGATGGAGGGGCTCCTCTGGTGCCC
+TAGTTGTGCCGAGGGCGAACTCTCTACGTAAATAAAAGACCCTTCCGAAAAGGACAGTTTTCCGAAGTGCCCCTCCAC
+GCCCACATATTCTGCACATGACTGACCTACAACCGACCGACCGGAGCCCCGAGACGCCAGCCGAGCTCCCCGAGGGCA
+TCACCCTGGAGGACGCCGAGCGGATCACCGAGCTCGCCGAGGAGGACCGCCGGCCGTCTACTCGGCGCGTGTACCGCT
+CCAAGTGGAGTCTCTTCGCTTCCTGGTGCGAGGGCCGGGACGCCGATCCCCTGCCGGCCTCCGAGGAGCTTCTCTCGG
+CGTACCTGGCCGAGCGTGCCGAGGAGGTAAGCCTCTCGACCATCCGACAGGACGTTGCGGCCGTGAAGTGGATGCACG
+AACGGCGCGGCCTGGAGTCCCCAACTGAGGGCGCCGGCATTGGGCGCGTCCTGGATGGGATCGCCCAAACGAGCGACC
+CGACAGGCGGCCGAGGCAAAAAGCAAGCGGCACTCACCGAGCATATTCGGAAGATGGTGGAGGCCCTCCCTCTGGAGG
+CGCCGGCGCCCGACGAAGGCGTGGCGGCCGAGGCGCGGCACCTAAGAGCCCTCCGTGACCGGGCGATTCTCCTGGTGG
+GATACGCCGGGGCGTTTCGCCGCTCGGAGCTCGCCACAATTCGCTCGGAGGACGTGAGCCGAGGCGCGAAGGGCATGG
+AGATCCATGTGCCGGAGACGAAAACCGATCCCCGCACCGTGGGCATTACCTACGCCGAGGATGCCTCTCTCTGCCCGG
+TGCGTGCCCTCGGCGAGTGGACGGGCGCGGCCGGCATCGAAGAGGGACCGATCTTCCGAGCTGTTCCCCGCTCGGCGA
+AGATCGCCACGGGCGAGGAGGCCGAGCCGATCACTGGAAAGACGGTGCGGAACGTGATCGGAGACGCGGCCGAGGATG
+CCGGCCTCGACCCCGAGCGCATGGCCGGCCACTCGCTCCGACGTGGACACATCACGCAAGGCGCCCTCCACGGCGCGG
+GACTGGATCGGCTGATGAAGCAAGCGGGACACGCCGACCCCAGGACCACGGCCGAGTACGTGGAGGACGCTCGCCGCA
+TGGAGACGACCACGGCGCAAGACTTGGGGCTCTAACGACTCCGATCTGAAAACAATCTCATGACCGATACCCTCAACG
+GACTAAAAGACCCCGACGTGAAGGCGGCCGCCGAGGAGCTGGTGGTGAAGGATGGGAATGGAGATTCCTCCCCCCTCC
+GAGACGGCTATCGAAGATACCATACGCTTACCCCGTTTGAACTCCGAGCGGTGCGAGGGCGCCTCATGCAGCTCGCCG
+AGCGAGCTGGTGGCCTGGATAAGCTCAACGAATCGGAGGCTCCACTGGAAAAGGCGAAGGAAGAAGGAGTAACGACAT
+GGGTTCACCGAAGCGCTGCCCATCATACCTTCAAAGCATACGCGGCCGCTTGCACGCACCTTCTCGACTGGAGCGAAT
+ACGACTGGAACTGGCCCTACATCTTGGAGGATGCCGAGAAGATCCGAGGCCATGCCGAACGCATGGAGACGGCACTCA
+ACGCCATCCCAGAAGAGGCTGGATGTACGGCCGTGTTTCGCCGTGCCGCCCGATATGCAACTTATAGCCCCGAGCGCC
+ACGAAGAGGCGTGGCGAGAATACAAGGTGAGCAAGATGGTATCAGAGACGCGAGCCAAGTTTGAGACGGTGCCCGAGG
+CGTGGGACGATCCCGAAAGTGTAGAGCACCGAAAAGCCCGCCGGCCGTACGAAAAGGCTGGATGGAGTGGGGCGAGAG
+AGGGAGGCCGAGAGGAACTGGAGGCCCTGACCGATGCAATCCTCTGGACACGCAAAGATTGAACGGCCTGCCGTTCAA
+TTTAACCCCGGATACTTCCCTGGTTTAACCCATAATACCTCACACAACGACGAAAGGCACCCGCCGTCCTATAAGCTA
+GGTGCCTTCCGTTCCGAGCCCTCACATACAGCCTGATGGAGCGCGAGCCCCGAGACTGTATCTGAGGAGCGTTTCGTA
+TTTGTGCCAACTGTGACCGATGGGATCATGGAGCGTTCCGACACGCCCCGATGTGATGCCTTCCTCGGCGTCAAACTT
+CCCAGGTCTCTCAAACGAGAGGCTCGGGAGGCGGCCGAGAACCAGGGCATCACCCTTTCGGAGATGGTTCGCCGTCAA
+CTCCAGGAGCTCCGCTCCAAAGAGGCGGCTGCATAATCCATAGACGTGCCCCGACTCGCCGGAAATTCCTTGGACGGA
+GGGCAAGCCGGGGCACACCATAGATCAGCGACGACCTATGAAGCACACAGAAGAGAAGCAACGCGGTTCCCCAAAACT
+CTGTTACGAGGAGCTGTTCGGCGAGCCGGCCCTCGGCGATAGCCCCGAAGAGGTGCCTAAAGAGGCGCCCCAGGAGAC
+GGCCGAGCCGGAGCGGAAAAGCCCGTACGAGGTGGGCAACCCTTCCGGCTCGCCTCCAGACCCGAGGCCGCTCCTCGG
+CGCCCCACGGCCGGCTCGGGAGGCATACAAGCGGCTGCATCCGGTGGCTTACCAGTACGCCTCCGATCACTTCCAAGT
+AATGATCGGCGTACGGAAGGCACTCCAGCGAGCACACAAGGCGGCCGAGCGTGCCGGAGGGCTGGAGGTATGATAGAC
+GCCGATAAGCTAAAGGAACGGCTCGGCGCCTCCGAGCACCGCCGTATCCTCGGCCGTTGTGGATTCGACATAAGCGGC
+GAGCGCGGTACGGACCTGGAGGGCATCCTCGGCCCGAGTGCCCTCGGCGAGGGCGACTCCGGTAACTTCGCCGTCAAC
+CTGGAGGAGGGCCTCGTGAAGGATTGGGGCTCGACCGGATACCAGGGCGATGTTCTCGACGTGGTACAGGACACGCAA
+CGCCTCGACTTTCAAGAGGCCCTCCAGTGGATCGCCGAGGAGCTCGATCTGGATGCCGATGCCCTCCAATCTGAGAAC
+GGCTCCACCAGCTCCTCCAAGAGCACACGCTCGGCGCCGAGAGGCGACGGGAGGGCCAACGGCCGCCCCGAGATGCCC
+GAGGCATCCAATGGGCTCCCTGAGCCTCCAGAGAACCCCGAGCCGGTAGTGACACACGAGCAAGTCTCCAACTGGCAT
+GGCCGGCTCATGGGCGAAGGAGAGGCGCCTCGTGCCGCTCGCCAATACCTTGTGGGCCGAGCTGTGACCGAGGGCACA
+ATGAGAGCGGCCCACATTGGGCTCGCCCATAGCCCCGGCGACAACCGAGCCGAGTGGTGGATCATGATTCCCATTCCT
+CGGCGCGACCTGGAGGAGGCGCCCGTGGTGGCCGTGAAGGGATTCGGATTCGATCCCGAGGCCGGAGGCTGGAAGCGC
+AAAGACGGGCGCAAGATTCCCAGAAACGCGGGCTCGGCCGCCTTCCTGAATCTCGTGGACGCGACCCGAGACACCGAC
+TCGGCCGTGGTGGTATGCGAGGGCGAACTGGATGCCCTCTCAGCCTACGCCCAGGGCTTTCATGCGGTAAGCGGCACG
+GCCGGAGCTGGCACGTTCAACCCTGAATGGGCGCGACTAATCGCCGAGATGGAGCCGGCCCAGGAGAACGGCGTGGTG
+GTGGCCTACGACGGCGACGAAAAGGGGCGAAGCAACGCCCCCGATACGGCCGAGGCCCTCCACGGCGCCGGCCTGGAG
+CCTCATGTGGCCTCTCTGCCCGATGGCAAAGACGTGAACGACGTGCTGGTGGAGGGAGGCTCCACAGACCTCCACGCC
+CATCTCACCGAGGCCGAGCCCTACACGCTACCGGAGCCGGAGCTGGAAGTATCTGCACAAACGCAGACCGAAAAAAGA
+GAGGAAAGCGGCCGAGAGTATGAGCCGTTTCCCATCGGTGCCCTTCCTGACGCGGTGGAGAAGTATGTGCGAGCCTCC
+ACTCGTGCCCTCGGCGAGGAGATGCCGCCGGCGATGGTGGGCGTGCCGACCCTTTCGGTGCTCGCCGGAGCCATTGGC
+AACTCCGCAAAGCTCCGGCTCAAAAAGTCCTGGACCGAACCCGCGACCCTCTGGAGCGCAATCGTTGCGCCGAGCGGC
+TCCACGAAGTCCCCGGCGTTCTCTCATGCCCTCCGGCCGATCTACAAGCGAGAGGCCGAGGCCAAAAAGGAGTACGAA
+CGCGAGCTTGCCGACTGGAAAGCCCAGGAGGACCCCGACCCCCGCGATAAGCCCACCAGGACCCGGTTCCGTACTGGA
+GACGCTACGCCGGAGGCTGTGGTGAAGATTCTGGAGGAGAACCCTCGGGGCGTGCTCCTGGCCCGAGATGAGCTCGGC
+GCCTGGATCGGATCGTTCGACCGCTACGTGAACGGTGCGGCCGATCTCCAATTCTGGATCGAAGTGTGGGGAGGCATC
+CAAGCCTCTAGGGACCGAGCCGGCGAAGGGAATACGACCATCACCGATCCGGTGGTGCCCGTGACCGGGACGATCCAA
+CCCGGCACCCTAAAGGAGAAGCTCGGCGAGATCCACTTCGATACTGGATTCGCCTCCCGGCTCATTCTCTGCCAACCT
+CCAACCCGGCCGAAGCGGTGGACGGAGGCCGACGTAAGCGAGACGGTGCGCGTGATTTACGAGAAGCTCCTCCAGCTC
+CTTTACGATACTCCGAGCGGGATGGAGGTGGGCCTCTCCCCAGGTGCAAAAGAGCTCTGGATCGACTACTACAACTCG
+GCGAACGCCTCCCTGGAGGATCGGCCGGAAGGCCCGCTCCGAGCGGTGGCGGCGAAGGGCATCACGCACACCGCACGG
+CTCGCCCTGGTGCTGCATCGGTGCCGACAGGCGAGTGGCGAGGTGCCCACGGGCGAGGACTCTACGGCGCCCGTAACT
+GAGGAGACGATGCAAGGCGCCCTCCGGCTCGGCGAGTGGCTCACTGAGGAGACGCTCCGAGTGTACCAGGATCACCAG
+CTCGGCCGGGAGGCCCTTCCTCCCATCCGTCGATTCCTGGTGAACCTCCCCGAGCGGTTCAAAACGAGCGAGGCCCTG
+GAGATCGCCGAGGCTGACGACATTCCCGAGCGGACTTCTAAGAAGTGGCTCAGTGATCTCGTGGAGTCTGGTGATCTC
+GACCGGATACGAC" } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_1" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 138 ,
+            seq-data
+              ncbieaa "MNDPDMDGREAARKLYGAPDSTDQNNPDSMPHPSKRKANRHEREIVKIAEAKGME
+AERAYASNGESLGEVEACDCLVRGRDSDVMDALRIQAKRRKSIASYLEPPEGTDCVVVREDRADNLVVLDLEDFLDLV
+TDTEE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 23 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 137 ,
+                        id
+                          local
+                            str "S_ruber2_3_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_2" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 292 ,
+            seq-data
+              ncbieaa "MNTTTPNLLTAYQTKRLAEHSEKMERAFKILNGGRALGLEMLDLDVLGGFRARST
+PNDPGESVVAYAQQGAKGSNGNLVTAGTGFTVIRRDEDHEPLERLLVTVGYDTEAGREMINVLDRTEAEVLSPADTAI
+EMTEEDIYPLEEIAEMFAPLQATAKYCEGLGAGTLPFLEGVLGELIPSYGHGIERDGTLYVISDETGTLELIRPDGTI
+LPVGHSMNEPNEELDGEREEIIRPRIEELREQIETRREEALEEMTAKEREGFYMAENERGRRLDPEEWMDFMPDAEDL
+MGS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 24 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 291 ,
+                        id
+                          local
+                            str "S_ruber2_3_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_3" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 68 ,
+            seq-data
+              ncbieaa "MQRPQFYTDPMLGDDPLDRKINKAAVTRAWILRHPYYNYRHAPPDADAEEYARRQ
+SELQATSLSHLLN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 25 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 67 ,
+                        id
+                          local
+                            str "S_ruber2_3_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_4" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 32 ,
+            seq-data
+              ncbieaa "MPEPELALLLVGILCSHVGPPASYLMERFNLE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 26 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 31 ,
+                        id
+                          local
+                            str "S_ruber2_3_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_5" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 178 ,
+            seq-data
+              ncbieaa "MEPMPTNDSAQQCTATAKSTGERCQNPAVKGWDVCRFHGAGSPKNETTGGAPVKH
+GRYSAKRRESLQEKLQQYREEDDPAELWEELALLRAVLQEWLAEVEEIDPETVGVILDLQGSIRRTLDTINKIQTRSA
+LTAAEVEYLQAKVADLFRTYVPRENRDDALNELKQLTEADGPRTN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 27 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 177 ,
+                        id
+                          local
+                            str "S_ruber2_3_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_6" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 65 ,
+            seq-data
+              ncbieaa "MDPERTDSNALSRFTRGVEEHMETSVNPLATPLSDRELASIAWPGEDWSGLSPEA
+CERAIRQHLK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 28 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 64 ,
+                        id
+                          local
+                            str "S_ruber2_3_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_7" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 94 ,
+            seq-data
+              ncbieaa "MDPEQTTPPEDAVEGFLDGVAERVTDGMGTRHVAQLLPEEYPREPDPPDVWKDEE
+AMNEWIDQLPDRDEVIVLRIVNTPPEDQQFKNKTRPPNS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 29 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 93 ,
+                        id
+                          local
+                            str "S_ruber2_3_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_8" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 97 ,
+            seq-data
+              ncbieaa "MTDAPEKPLNSFLDGVEHALQDEEETPWIVYGPRWAQEGQGAEEPPEDLENPVWA
+PSTGWMEKGEAPIGEADSGETLAMYAPDSMEELGVNRSSKSG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 30 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 96 ,
+                        id
+                          local
+                            str "S_ruber2_3_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_9" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 89 ,
+            seq-data
+              ncbieaa "MPPSSGESDTEDTSDPLGGALESKSDTNADPSAASRGALQEGDEVKFNARVPENL
+RDAFQEVCEEEGRSMSWVVRRWMLQAVEEGETGL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 31 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 88 ,
+                        id
+                          local
+                            str "S_ruber2_3_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_10" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 205 ,
+            seq-data
+              ncbieaa "MPLTLACVNPKGGSGKTTIAVHLGVVAHRSGYSAKIVDADPQGSVVDWSRRTPEG
+YDGPPVEHVRTEDSLTPHVEGAEVVVVDSPARLDERTGAVLSVADLALVPVRPSGLDLWGTAEFLDVLADHTGAGLQA
+AFIASQRDVRTSLSEELEEVLAGRGLPLLDGFTFRVAYARSLSEGRTVLDGSDDTAREEVHQLLRDVGELLS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 32 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 204 ,
+                        id
+                          local
+                            str "S_ruber2_3_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_11" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00011 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 251 ,
+            seq-data
+              ncbieaa "MKDTAKKILKQAIPESQHGNLRQAYERVKYFGRSRYCPVCQSYARKFKPFGVDPR
+PDAMCPFCGSLERHRLDWVFFHDHTDLFDRSTTLRMLHIAPGPFAEALREEESIDYLSGDIDEEKAMEKVDVTGIQYP
+DGSFDVIYASHVLEHVPEDKKAMHELHRVLEPEGWAVLQVPITAEETFEDPSVTDPEERERLFGQWNHVRRYGPDYKD
+RLEEAGFEVTKCPAPEVVGRENVERMGITENEDVYFCEKS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 33 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 250 ,
+                        id
+                          local
+                            str "S_ruber2_3_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_12" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00012 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 81 ,
+            seq-data
+              ncbieaa "MNNSSPSPSRSTVNGHKYTAGADTVRLAECNGLPIAFRSVKVATAGSFATTKVQG
+VTAGGITSLSTARAEELLEDATAPLN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 34 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 80 ,
+                        id
+                          local
+                            str "S_ruber2_3_12" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_13" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00013 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 78 ,
+            seq-data
+              ncbieaa "MPNSALTYEELKDKAHQLAKDGPTYEEIAEELDVTKSAVAQAVTTAGPKFHRLQI
+RIVELLSDVEVERREAFVLHPND" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 35 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 77 ,
+                        id
+                          local
+                            str "S_ruber2_3_13" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_14" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00014 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 69 ,
+            seq-data
+              ncbieaa "MPGLSYPFVYECTNCGEETTITRTEARDLAVNPDSINALEIVLQGRGWLRDEMEG
+LLWCPSCAEGELST" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 36 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 68 ,
+                        id
+                          local
+                            str "S_ruber2_3_14" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_15" } ,
+          descr {
+            title "Tyrosine recombinase XerC [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 343 ,
+            seq-data
+              ncbieaa "MTDLQPTDRSPETPAELPEGITLEDAERITELAEEDRRPSTRRVYRSKWSLFASW
+CEGRDADPLPASEELLSAYLAERAEEVSLSTIRQDVAAVKWMHERRGLESPTEGAGIGRVLDGIAQTSDPTGGRGKKQ
+AALTEHIRKMVEALPLEAPAPDEGVAAEARHLRALRDRAILLVGYAGAFRRSELATIRSEDVSRGAKGMEIHVPETKT
+DPRTVGITYAEDASLCPVRALGEWTGAAGIEEGPIFRAVPRSAKIATGEEAEPITGKTVRNVIGDAAEDAGLDPERMA
+GHSLRRGHITQGALHGAGLDRLMKQAGHADPRTTAEYVEDARRMETTTAQDLGL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 37 ,
+                    data
+                      prot {
+                        name {
+                          "Tyrosine recombinase XerC" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 342 ,
+                        id
+                          local
+                            str "S_ruber2_3_15" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_16" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00016 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 234 ,
+            seq-data
+              ncbieaa "MTDTLNGLKDPDVKAAAEELVVKDGNGDSSPLRDGYRRYHTLTPFELRAVRGRLM
+QLAERAGGLDKLNESEAPLEKAKEEGVTTWVHRSAAHHTFKAYAAACTHLLDWSEYDWNWPYILEDAEKIRGHAERME
+TALNAIPEEAGCTAVFRRAARYATYSPERHEEAWREYKVSKMVSETRAKFETVPEAWDDPESVEHRKARRPYEKAGWS
+GAREGGREELEALTDAILWTRKD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 38 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 233 ,
+                        id
+                          local
+                            str "S_ruber2_3_16" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_17" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00017 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 54 ,
+            seq-data
+              ncbieaa "MERSDTPRCDAFLGVKLPRSLKREAREAAENQGITLSEMVRRQLQELRSKEAAA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 39 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 53 ,
+                        id
+                          local
+                            str "S_ruber2_3_17" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_18" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00018 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 115 ,
+            seq-data
+              ncbieaa "MKHTEEKQRGSPKLCYEELFGEPALGDSPEEVPKEAPQETAEPERKSPYEVGNPS
+GSPPDPRPLLGAPRPAREAYKRLHPVAYQYASDHFQVMIGVRKALQRAHKAAERAGGLEV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 40 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 114 ,
+                        id
+                          local
+                            str "S_ruber2_3_18" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_19" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00019 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 188 ,
+            seq-data
+              ncbieaa "MGEPNVGRSHCALGHSSAHKVLASGTRRLSFAHEPAMPVGDLLVCHYRLGVLWRL
+REPIGCLGHLGAAVGPPVASRRRACALGGAGGAVLRLEGIGIQIELLGDPLEGLLKVEALRVLYHVENIALVSGRAPI
+LHEALLQVDGEVTGVALAEGTRAEDALQVRTALAAYVESTTAEDTAVLGGAEPFL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 41 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 187 ,
+                        id
+                          local
+                            str "S_ruber2_3_19" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_20" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00020 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 66 ,
+            seq-data
+              ncbieaa "MGVEVCGASLHQHVVHVFAIGQRGHMRLQAGAVEGLGRIGGVASPLFVAVVGHHH
+AVLLGRLHLGD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 42 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 65 ,
+                        id
+                          local
+                            str "S_ruber2_3_20" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_21" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00021 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 224 ,
+            seq-data
+              ncbieaa "MDRPGHGHHRIGDGRIPFAGSVPRGLDASPHFDPELEIGRTVHVAVERSDPGAEL
+ISGQEHAPRVLLQNLHHSLRRSVSSTEPGPGGLIAGVGVLLGFPVGKLAFVLLFGLGLSLVDRPEGMRERRGLRGAAR
+RNDCAPEGRGFGPGLFEPELCGVANGSGEHRKGRHAHHRRRHLLAEGTSGGSHILLHRVRKGTDGKRLILSAAFLSFF
+GLRLCRYFQLRLR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 43 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 223 ,
+                        id
+                          local
+                            str "S_ruber2_3_21" } } } } } } ,
+        seq {
+          id {
+            local
+              str "S_ruber2_3_22" } ,
+          descr {
+            title "hypothetical protein IHHOHBLL_00022 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 151 ,
+            seq-data
+              ncbieaa "MILVHSERLLSEPLAEPEGALHRLLSYGRRRVLARGHLATRLSAPMQHQGEPCGV
+RDALRRHRSERAFRPILQGGVRRVVVVDPELFCTWGEAHLHPARSIVKELEELLVNHAHRLAYVGLRPPLRPGWRLAE
+NEPGGESSIEVDLAELLL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 44 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 150 ,
+                        id
+                          local
+                            str "S_ruber2_3_22" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_1" ,
+                location
+                  int {
+                    from 299 ,
+                    to 715 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_2" ,
+                location
+                  int {
+                    from 786 ,
+                    to 1664 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_3" ,
+                location
+                  int {
+                    from 1749 ,
+                    to 1955 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_4" ,
+                location
+                  int {
+                    from 1959 ,
+                    to 2057 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_5" ,
+                location
+                  int {
+                    from 2062 ,
+                    to 2598 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_6" ,
+                location
+                  int {
+                    from 2579 ,
+                    to 2776 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_7" ,
+                location
+                  int {
+                    from 2791 ,
+                    to 3075 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_8" ,
+                location
+                  int {
+                    from 3072 ,
+                    to 3365 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_9" ,
+                location
+                  int {
+                    from 3455 ,
+                    to 3724 ,
+                    strand minus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_10" ,
+                location
+                  int {
+                    from 3786 ,
+                    to 4403 ,
+                    strand minus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_11" ,
+                location
+                  int {
+                    from 4642 ,
+                    to 5397 ,
+                    strand minus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_12" ,
+                location
+                  int {
+                    from 5539 ,
+                    to 5784 ,
+                    strand minus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00012" } } } } ,
+              {
+                id
+                  local
+                    id 13 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_13" ,
+                location
+                  int {
+                    from 6027 ,
+                    to 6263 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00013" } } } } ,
+              {
+                id
+                  local
+                    id 14 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_14" ,
+                location
+                  int {
+                    from 6272 ,
+                    to 6481 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00014" } } } } ,
+              {
+                id
+                  local
+                    id 15 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_15" ,
+                location
+                  int {
+                    from 6546 ,
+                    to 7577 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "protein motif:HAMAP:MF_01808" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "xerC" ,
+                        locus-tag "IHHOHBLL_00015" } } } } ,
+              {
+                id
+                  local
+                    id 16 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_16" ,
+                location
+                  int {
+                    from 7602 ,
+                    to 8306 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00016" } } } } ,
+              {
+                id
+                  local
+                    id 17 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_17" ,
+                location
+                  int {
+                    from 8506 ,
+                    to 8670 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00017" } } } } ,
+              {
+                id
+                  local
+                    id 18 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_18" ,
+                location
+                  int {
+                    from 8750 ,
+                    to 9097 ,
+                    strand plus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00018" } } } } ,
+              {
+                id
+                  local
+                    id 19 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_19" ,
+                location
+                  int {
+                    from 9112 ,
+                    to 9678 ,
+                    strand minus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00019" } } } } ,
+              {
+                id
+                  local
+                    id 20 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_20" ,
+                location
+                  int {
+                    from 9997 ,
+                    to 10197 ,
+                    strand minus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00020" } } } } ,
+              {
+                id
+                  local
+                    id 21 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_21" ,
+                location
+                  int {
+                    from 10222 ,
+                    to 10896 ,
+                    strand minus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00021" } } } } ,
+              {
+                id
+                  local
+                    id 22 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "S_ruber2_3_22" ,
+                location
+                  int {
+                    from 10906 ,
+                    to 11361 ,
+                    strand minus ,
+                    id
+                      local
+                        str "S_ruber2_3" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IHHOHBLL_00022" } } } } } } } } } }

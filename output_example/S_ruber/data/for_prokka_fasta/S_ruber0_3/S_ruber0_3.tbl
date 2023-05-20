@@ -1,0 +1,255 @@
+>Feature S_ruber0_3
+99	3044	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	EHJJOEDH_00001
+			product	Sensor histidine kinase RcsC
+3564	4430	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00002
+			product	hypothetical protein
+6089	4626	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00003
+			product	hypothetical protein
+7133	6606	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00004
+			product	hypothetical protein
+8383	7274	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00005
+			product	hypothetical protein
+8699	8851	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00006
+			product	hypothetical protein
+9783	9283	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00007
+			product	hypothetical protein
+10178	10405	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00008
+			product	hypothetical protein
+10402	10824	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG2402
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P95004
+			locus_tag	EHJJOEDH_00009
+			product	23S rRNA-specific endonuclease VapC20
+11423	10854	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00010
+			product	hypothetical protein
+12658	11894	CDS
+			db_xref	COG:COG2197
+			gene	nreC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7WZY4
+			locus_tag	EHJJOEDH_00011
+			product	Oxygen regulatory protein NreC
+13820	13002	CDS
+			gene	rcsB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00981
+			locus_tag	EHJJOEDH_00012
+			product	Transcriptional regulatory protein RcsB
+13979	14230	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00013
+			product	hypothetical protein
+14976	14134	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00014
+			product	hypothetical protein
+15491	15075	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00015
+			product	hypothetical protein
+16179	15577	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00016
+			product	hypothetical protein
+16884	16270	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00017
+			product	hypothetical protein
+18120	17182	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00018
+			product	hypothetical protein
+19990	18590	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00019
+			product	hypothetical protein
+20563	20048	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00020
+			product	hypothetical protein
+21809	20610	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00021
+			product	hypothetical protein
+22200	22784	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00022
+			product	hypothetical protein
+23562	22888	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00023
+			product	hypothetical protein
+23682	23810	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00024
+			product	hypothetical protein
+25016	25351	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00025
+			product	hypothetical protein
+25469	25888	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00026
+			product	hypothetical protein
+29139	30026	CDS
+			gene	parA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:B8GW31
+			locus_tag	EHJJOEDH_00027
+			product	Chromosome partitioning protein ParA
+30083	30364	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00028
+			product	hypothetical protein
+31277	32248	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00029
+			product	hypothetical protein
+32422	32258	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00030
+			product	hypothetical protein
+33882	32926	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00031
+			product	hypothetical protein
+34069	34689	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00032
+			product	hypothetical protein
+34884	35855	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00033
+			product	hypothetical protein
+36001	38292	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00034
+			product	hypothetical protein
+39267	38737	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00035
+			product	hypothetical protein
+39731	39856	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00036
+			product	hypothetical protein
+39853	40869	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00037
+			product	hypothetical protein
+41324	41629	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00038
+			product	hypothetical protein
+41630	42370	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00039
+			product	hypothetical protein
+42428	43006	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00040
+			product	hypothetical protein
+43003	45177	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG1203
+			gene	cas3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q1CW46
+			locus_tag	EHJJOEDH_00041
+			product	Putative CRISPR-associated nuclease/helicase Cas3
+45192	46496	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00042
+			product	hypothetical protein
+46547	47605	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00043
+			product	hypothetical protein
+47839	49069	repeat_region
+			note	CRISPR with 19 repeat units
+			rpt_family	CRISPR
+			rpt_type	direct
+			rpt_unit_seq	CTTCTAATCGCACCTTTGAGGTATTGAAAG
+49202	49621	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00044
+			product	hypothetical protein
+49671	50189	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00045
+			product	hypothetical protein
+50474	51814	CDS
+			EC_number	3.1.-.-
+			gene	cas1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01470
+			locus_tag	EHJJOEDH_00046
+			product	CRISPR-associated endonuclease Cas1
+52031	52294	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG1343
+			gene	cas2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9X2B6
+			locus_tag	EHJJOEDH_00047
+			product	CRISPR-associated endoribonuclease Cas2
+52832	54199	repeat_region
+			note	CRISPR with 21 repeat units
+			rpt_family	CRISPR
+			rpt_type	direct
+			rpt_unit_seq	CTCCTAATCGCACCTTTGAGGTATTGAAAG
+54296	55453	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00048
+			product	hypothetical protein
+55650	55345	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00049
+			product	hypothetical protein
+55665	56390	CDS
+			gene	xerC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	EHJJOEDH_00050
+			product	Tyrosine recombinase XerC
+56620	60291	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	EHJJOEDH_00051
+			product	Sensor histidine kinase RcsC
+60365	60853	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EHJJOEDH_00052
+			product	hypothetical protein
+65221	61322	CDS
+			EC_number	3.5.1.44
+			gene	cheB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00099
+			locus_tag	EHJJOEDH_00053
+			product	Protein-glutamate methylesterase/protein-glutamine glutaminase

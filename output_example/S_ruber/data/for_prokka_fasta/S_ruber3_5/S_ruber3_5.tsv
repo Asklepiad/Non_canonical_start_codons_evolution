@@ -1,0 +1,3193 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NHIKOAIL_00001	CDS	1575	dnaA_1			Chromosomal replication initiator protein DnaA
+NHIKOAIL_00002	CDS	1134	dnaN			Beta sliding clamp
+NHIKOAIL_00003	CDS	996				hypothetical protein
+NHIKOAIL_00004	CDS	636				hypothetical protein
+NHIKOAIL_00005	CDS	927				hypothetical protein
+NHIKOAIL_00006	CDS	924				hypothetical protein
+NHIKOAIL_00007	CDS	675	rpe	5.1.3.1		Ribulose-phosphate 3-epimerase
+NHIKOAIL_00008	CDS	108				hypothetical protein
+NHIKOAIL_00009	CDS	279	csoR_1		COG1937	Copper-sensing transcriptional repressor CsoR
+NHIKOAIL_00010	CDS	624				hypothetical protein
+NHIKOAIL_00011	CDS	1053				hypothetical protein
+NHIKOAIL_00012	CDS	336	yajC		COG1862	Sec translocon accessory complex subunit YajC
+NHIKOAIL_00013	CDS	1248	ribBA_1		COG0108	Riboflavin biosynthesis protein RibBA
+NHIKOAIL_00014	CDS	165				hypothetical protein
+NHIKOAIL_00015	CDS	2490				hypothetical protein
+NHIKOAIL_00016	CDS	483	nusB		COG0781	Transcription antitermination protein NusB
+NHIKOAIL_00017	CDS	663	pphA	3.1.3.16	COG0639	Serine/threonine-protein phosphatase 1
+NHIKOAIL_00018	CDS	1095	ychF		COG0012	Ribosome-binding ATPase YchF
+NHIKOAIL_00019	CDS	852				hypothetical protein
+NHIKOAIL_00020	CDS	1260	lolC_1		COG4591	Lipoprotein-releasing system transmembrane protein LolC
+NHIKOAIL_00021	CDS	822	yitD	4.4.1.19	COG1809	Phosphosulfolactate synthase
+NHIKOAIL_00022	CDS	237	rpmB		COG0227	50S ribosomal protein L28
+NHIKOAIL_00023	CDS	165	rpmG		COG0267	50S ribosomal protein L33
+NHIKOAIL_00024	CDS	150				hypothetical protein
+NHIKOAIL_00025	tRNA	75				tRNA-Pro(tgg)
+NHIKOAIL_00026	tRNA	73				tRNA-Cys(gca)
+NHIKOAIL_00027	CDS	2625				hypothetical protein
+NHIKOAIL_00028	CDS	864				hypothetical protein
+NHIKOAIL_00029	CDS	1242	undec1A	4.1.1.-		Cysteine/Cysteine sulfinic acid decarboxylase
+NHIKOAIL_00030	CDS	294				hypothetical protein
+NHIKOAIL_00031	CDS	567	gmk	2.7.4.8	COG0194	Guanylate kinase
+NHIKOAIL_00032	CDS	885				hypothetical protein
+NHIKOAIL_00033	tRNA	91				tRNA-Ser(gga)
+NHIKOAIL_00034	CDS	570	frr		COG0233	Ribosome-recycling factor
+NHIKOAIL_00035	CDS	780	pyrH	2.7.4.22	COG0528	Uridylate kinase
+NHIKOAIL_00036	CDS	831	tsf		COG0264	Elongation factor Ts
+NHIKOAIL_00037	CDS	963				hypothetical protein
+NHIKOAIL_00038	CDS	390	rpsI			30S ribosomal protein S9
+NHIKOAIL_00039	CDS	447	rplM		COG0102	50S ribosomal protein L13
+NHIKOAIL_00040	CDS	504				hypothetical protein
+NHIKOAIL_00041	CDS	198	rpmF			50S ribosomal protein L32
+NHIKOAIL_00042	CDS	1017	plsX	2.3.1.274	COG0416	Phosphate acyltransferase
+NHIKOAIL_00043	CDS	1005	fabH	2.3.1.180	COG0332	3-oxoacyl-[acyl-carrier-protein] synthase 3
+NHIKOAIL_00044	CDS	939	fabD	2.3.1.39		Malonyl CoA-acyl carrier protein transacylase
+NHIKOAIL_00045	CDS	807				hypothetical protein
+NHIKOAIL_00046	CDS	750	fabG_1	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+NHIKOAIL_00047	CDS	1437	crhR	3.6.4.13		RNA helicase CrhR
+NHIKOAIL_00048	CDS	222				hypothetical protein
+NHIKOAIL_00049	CDS	459				hypothetical protein
+NHIKOAIL_00050	CDS	570				hypothetical protein
+NHIKOAIL_00051	CDS	207				hypothetical protein
+NHIKOAIL_00052	CDS	1068		3.4.11.-		Aminopeptidase 2
+NHIKOAIL_00053	CDS	1461				hypothetical protein
+NHIKOAIL_00054	tRNA	75				tRNA-Val(tac)
+NHIKOAIL_00055	tRNA	74				tRNA-Gly(ccc)
+NHIKOAIL_00056	CDS	165	rpmH		COG0230	50S ribosomal protein L34
+NHIKOAIL_00057	CDS	447				hypothetical protein
+NHIKOAIL_00058	CDS	1965	yidC			Membrane protein insertase YidC
+NHIKOAIL_00059	CDS	1386	mnmE	3.6.-.-	COG0486	tRNA modification GTPase MnmE
+NHIKOAIL_00060	CDS	747				hypothetical protein
+NHIKOAIL_00061	CDS	633				hypothetical protein
+NHIKOAIL_00062	CDS	492				hypothetical protein
+NHIKOAIL_00063	CDS	480				hypothetical protein
+NHIKOAIL_00064	CDS	1995	mnmG		COG0445	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+NHIKOAIL_00065	CDS	648	rsmG	2.1.1.170	COG0357	Ribosomal RNA small subunit methyltransferase G
+NHIKOAIL_00066	CDS	861			COG1073	putative protein
+NHIKOAIL_00067	CDS	3429	mfd	3.6.4.-		Transcription-repair-coupling factor
+NHIKOAIL_00068	CDS	357				hypothetical protein
+NHIKOAIL_00069	CDS	336				hypothetical protein
+NHIKOAIL_00070	CDS	360				hypothetical protein
+NHIKOAIL_00071	CDS	927	murQ	4.2.1.126	COG2103	N-acetylmuramic acid 6-phosphate etherase
+NHIKOAIL_00072	CDS	2817				hypothetical protein
+NHIKOAIL_00073	CDS	579				hypothetical protein
+NHIKOAIL_00074	CDS	1239	recF_1		COG1195	DNA replication and repair protein RecF
+NHIKOAIL_00075	CDS	1536	bepA_1	3.4.-.-		Beta-barrel assembly-enhancing protease
+NHIKOAIL_00076	CDS	447	phaJ	4.2.1.119		(R)-specific enoyl-CoA hydratase
+NHIKOAIL_00077	CDS	2550				hypothetical protein
+NHIKOAIL_00078	CDS	630	xerC_1			Tyrosine recombinase XerC
+NHIKOAIL_00079	CDS	216				hypothetical protein
+NHIKOAIL_00080	CDS	483				hypothetical protein
+NHIKOAIL_00081	CDS	393				hypothetical protein
+NHIKOAIL_00082	CDS	339				hypothetical protein
+NHIKOAIL_00083	CDS	747				hypothetical protein
+NHIKOAIL_00084	CDS	246				hypothetical protein
+NHIKOAIL_00085	CDS	2046	glgP	2.4.1.1	COG0058	Glycogen phosphorylase
+NHIKOAIL_00086	CDS	2031	rcsC_1	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00087	CDS	945				hypothetical protein
+NHIKOAIL_00088	CDS	1434	rclA		COG1249	putative pyridine nucleotide-disulfide oxidoreductase RclA
+NHIKOAIL_00089	CDS	1515	zwf	1.1.1.49	COG0364	Glucose-6-phosphate 1-dehydrogenase
+NHIKOAIL_00090	CDS	912		1.1.1.343	COG1023	6-phosphogluconate dehydrogenase, NAD(+)-dependent, decarboxylating
+NHIKOAIL_00091	CDS	2763	tal_1	2.2.1.2		Transaldolase
+NHIKOAIL_00092	CDS	345				hypothetical protein
+NHIKOAIL_00093	CDS	633				hypothetical protein
+NHIKOAIL_00094	CDS	651	bm3R1			HTH-type transcriptional repressor Bm3R1
+NHIKOAIL_00095	CDS	2478				hypothetical protein
+NHIKOAIL_00096	CDS	1101	srpA			Solvent efflux pump periplasmic linker SrpA
+NHIKOAIL_00097	CDS	3051	swrC_1		COG0841	Swarming motility protein SwrC
+NHIKOAIL_00098	CDS	2139	rcsC_2	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00099	CDS	1956	sasA_1	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_00100	CDS	2304		1.18.1.2		Ferredoxin--NADP reductase
+NHIKOAIL_00101	CDS	1533				hypothetical protein
+NHIKOAIL_00102	CDS	1170				hypothetical protein
+NHIKOAIL_00103	CDS	1143				hypothetical protein
+NHIKOAIL_00104	CDS	891				hypothetical protein
+NHIKOAIL_00105	CDS	2874	ppc	4.1.1.31	COG2352	Phosphoenolpyruvate carboxylase
+NHIKOAIL_00106	CDS	507				hypothetical protein
+NHIKOAIL_00107	CDS	3321	rcsC_3	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00108	CDS	918				hypothetical protein
+NHIKOAIL_00109	CDS	609	lemA		COG1704	Protein LemA
+NHIKOAIL_00110	CDS	828				hypothetical protein
+NHIKOAIL_00111	CDS	330				hypothetical protein
+NHIKOAIL_00112	CDS	1077	rlpA_1	4.2.2.-		Endolytic peptidoglycan transglycosylase RlpA
+NHIKOAIL_00113	CDS	717				hypothetical protein
+NHIKOAIL_00114	CDS	831	htpX_1	3.4.24.-	COG0501	Protease HtpX 
+NHIKOAIL_00115	CDS	891				hypothetical protein
+NHIKOAIL_00116	CDS	609				hypothetical protein
+NHIKOAIL_00117	CDS	2397	cadA_1	3.6.3.3		Cadmium-transporting ATPase
+NHIKOAIL_00118	CDS	4119	rcsC_4	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00119	CDS	765	rhaS_1			HTH-type transcriptional activator RhaS
+NHIKOAIL_00120	CDS	969				hypothetical protein
+NHIKOAIL_00121	CDS	642				hypothetical protein
+NHIKOAIL_00122	CDS	600				hypothetical protein
+NHIKOAIL_00123	CDS	501				hypothetical protein
+NHIKOAIL_00124	CDS	462				hypothetical protein
+NHIKOAIL_00125	CDS	453				hypothetical protein
+NHIKOAIL_00126	CDS	6492				hypothetical protein
+NHIKOAIL_00127	CDS	711				hypothetical protein
+NHIKOAIL_00128	CDS	462				hypothetical protein
+NHIKOAIL_00129	CDS	831				hypothetical protein
+NHIKOAIL_00130	CDS	1476				hypothetical protein
+NHIKOAIL_00131	CDS	378	smtB_1		COG0640	Transcriptional repressor SmtB
+NHIKOAIL_00132	CDS	1620				hypothetical protein
+NHIKOAIL_00133	CDS	186				hypothetical protein
+NHIKOAIL_00134	CDS	2658				hypothetical protein
+NHIKOAIL_00135	CDS	264				hypothetical protein
+NHIKOAIL_00136	CDS	315				hypothetical protein
+NHIKOAIL_00137	CDS	1344	mmgC	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+NHIKOAIL_00138	CDS	2595				hypothetical protein
+NHIKOAIL_00139	CDS	726				hypothetical protein
+NHIKOAIL_00140	CDS	651				hypothetical protein
+NHIKOAIL_00141	CDS	873				hypothetical protein
+NHIKOAIL_00142	CDS	570				hypothetical protein
+NHIKOAIL_00143	CDS	474				hypothetical protein
+NHIKOAIL_00144	CDS	216				hypothetical protein
+NHIKOAIL_00145	CDS	834				hypothetical protein
+NHIKOAIL_00146	CDS	507				hypothetical protein
+NHIKOAIL_00147	CDS	1176				hypothetical protein
+NHIKOAIL_00148	CDS	165				hypothetical protein
+NHIKOAIL_00149	CDS	1401		1.13.11.75		Apocarotenoid-15,15'-oxygenase
+NHIKOAIL_00150	CDS	717				hypothetical protein
+NHIKOAIL_00151	CDS	219				hypothetical protein
+NHIKOAIL_00152	CDS	1356	sasA_2	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_00153	CDS	801				hypothetical protein
+NHIKOAIL_00154	CDS	975	nrdB	1.17.4.1	COG0208	Ribonucleoside-diphosphate reductase subunit beta
+NHIKOAIL_00155	CDS	1683	nrdZ	1.17.4.1		Vitamin B12-dependent ribonucleoside-diphosphate reductase
+NHIKOAIL_00156	CDS	447				hypothetical protein
+NHIKOAIL_00157	CDS	1164	yycB		COG2807	putative transporter YycB
+NHIKOAIL_00158	CDS	1704				hypothetical protein
+NHIKOAIL_00159	CDS	522				hypothetical protein
+NHIKOAIL_00160	CDS	708	hmp_1	1.14.15.30	COG1018	3-ketosteroid-9-alpha-monooxygenase, ferredoxin reductase component
+NHIKOAIL_00161	CDS	639				hypothetical protein
+NHIKOAIL_00162	CDS	471				hypothetical protein
+NHIKOAIL_00163	CDS	246				hypothetical protein
+NHIKOAIL_00164	CDS	837				hypothetical protein
+NHIKOAIL_00165	CDS	1044				hypothetical protein
+NHIKOAIL_00166	CDS	1593				hypothetical protein
+NHIKOAIL_00167	CDS	114				hypothetical protein
+NHIKOAIL_00168	CDS	480				hypothetical protein
+NHIKOAIL_00169	CDS	963				hypothetical protein
+NHIKOAIL_00170	CDS	2190	sasA_3	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_00171	CDS	5007	rcsC_5	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00172	CDS	1944				hypothetical protein
+NHIKOAIL_00173	CDS	210				hypothetical protein
+NHIKOAIL_00174	CDS	1620				hypothetical protein
+NHIKOAIL_00175	CDS	879	btuD_1	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+NHIKOAIL_00176	CDS	855				hypothetical protein
+NHIKOAIL_00177	CDS	474				hypothetical protein
+NHIKOAIL_00178	CDS	963	mmuM	2.1.1.10	COG2040	Homocysteine S-methyltransferase
+NHIKOAIL_00179	CDS	456				hypothetical protein
+NHIKOAIL_00180	CDS	1326				hypothetical protein
+NHIKOAIL_00181	CDS	684				hypothetical protein
+NHIKOAIL_00182	CDS	639				hypothetical protein
+NHIKOAIL_00183	CDS	699				hypothetical protein
+NHIKOAIL_00184	CDS	831				hypothetical protein
+NHIKOAIL_00185	CDS	579	resA_1			Thiol-disulfide oxidoreductase ResA
+NHIKOAIL_00186	CDS	393				hypothetical protein
+NHIKOAIL_00187	CDS	1599				hypothetical protein
+NHIKOAIL_00188	CDS	1836				hypothetical protein
+NHIKOAIL_00189	CDS	318				hypothetical protein
+NHIKOAIL_00190	CDS	615				hypothetical protein
+NHIKOAIL_00191	CDS	210				hypothetical protein
+NHIKOAIL_00192	CDS	375				hypothetical protein
+NHIKOAIL_00193	CDS	582				hypothetical protein
+NHIKOAIL_00194	CDS	564				hypothetical protein
+NHIKOAIL_00195	CDS	840				hypothetical protein
+NHIKOAIL_00196	CDS	972				hypothetical protein
+NHIKOAIL_00197	CDS	2310	btuB_1			Vitamin B12 transporter BtuB
+NHIKOAIL_00198	CDS	321				hypothetical protein
+NHIKOAIL_00199	CDS	1032				hypothetical protein
+NHIKOAIL_00200	CDS	843				hypothetical protein
+NHIKOAIL_00201	CDS	1677	rcsC_6	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00202	CDS	651				hypothetical protein
+NHIKOAIL_00203	CDS	138				hypothetical protein
+NHIKOAIL_00204	CDS	897	btuD_2	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+NHIKOAIL_00205	CDS	3672				hypothetical protein
+NHIKOAIL_00206	CDS	159				hypothetical protein
+NHIKOAIL_00207	CDS	1041				hypothetical protein
+NHIKOAIL_00208	CDS	315				hypothetical protein
+NHIKOAIL_00209	CDS	768				IS3 family transposase ISMxa1
+NHIKOAIL_00210	CDS	270				hypothetical protein
+NHIKOAIL_00211	CDS	288				hypothetical protein
+NHIKOAIL_00212	CDS	960				hypothetical protein
+NHIKOAIL_00213	CDS	2070				hypothetical protein
+NHIKOAIL_00214	CDS	186				hypothetical protein
+NHIKOAIL_00215	CDS	111				hypothetical protein
+NHIKOAIL_00216	CDS	534			COG3039	IS5 family transposase ISMac15
+NHIKOAIL_00217	CDS	1452				hypothetical protein
+NHIKOAIL_00218	CDS	639				hypothetical protein
+NHIKOAIL_00219	CDS	366				hypothetical protein
+NHIKOAIL_00220	CDS	390			COG3039	IS5 family transposase IS1648
+NHIKOAIL_00221	CDS	333				hypothetical protein
+NHIKOAIL_00222	CDS	2850				hypothetical protein
+NHIKOAIL_00223	CDS	1107				hypothetical protein
+NHIKOAIL_00224	CDS	585	algU_1		COG1595	RNA polymerase sigma-H factor
+NHIKOAIL_00225	CDS	2040	apc3	6.4.1.8	COG0145	Acetophenone carboxylase gamma subunit
+NHIKOAIL_00226	CDS	489				hypothetical protein
+NHIKOAIL_00227	CDS	297				hypothetical protein
+NHIKOAIL_00228	CDS	177				hypothetical protein
+NHIKOAIL_00229	CDS	414				hypothetical protein
+NHIKOAIL_00230	CDS	1200				hypothetical protein
+NHIKOAIL_00231	CDS	300				hypothetical protein
+NHIKOAIL_00232	CDS	222				hypothetical protein
+NHIKOAIL_00233	CDS	459				hypothetical protein
+NHIKOAIL_00234	CDS	477				hypothetical protein
+NHIKOAIL_00235	CDS	1263				hypothetical protein
+NHIKOAIL_00236	CDS	366				hypothetical protein
+NHIKOAIL_00237	CDS	2469				hypothetical protein
+NHIKOAIL_00238	CDS	498				hypothetical protein
+NHIKOAIL_00239	CDS	1116	chmD_1	1.1.1.364		dTDP-4-oxo-6-deoxy-D-allose reductase
+NHIKOAIL_00240	CDS	1302				hypothetical protein
+NHIKOAIL_00241	CDS	162				hypothetical protein
+NHIKOAIL_00242	CDS	1803	hepA		COG1132	Heterocyst differentiation ATP-binding protein HepA
+NHIKOAIL_00243	CDS	1017				hypothetical protein
+NHIKOAIL_00244	CDS	876				hypothetical protein
+NHIKOAIL_00245	CDS	369				hypothetical protein
+NHIKOAIL_00246	CDS	927				hypothetical protein
+NHIKOAIL_00247	CDS	1041	mshA_1	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_00248	CDS	1014				hypothetical protein
+NHIKOAIL_00249	CDS	951				hypothetical protein
+NHIKOAIL_00250	CDS	1281	mshA_2	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_00251	CDS	888				hypothetical protein
+NHIKOAIL_00252	CDS	921				hypothetical protein
+NHIKOAIL_00253	CDS	876				hypothetical protein
+NHIKOAIL_00254	CDS	1140	mshA_3	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_00255	CDS	1143	mshA_4	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_00256	CDS	1311				hypothetical protein
+NHIKOAIL_00257	CDS	1128	mshA_5	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_00258	CDS	1173	gumH	2.4.1.252	COG0438	GDP-mannose:cellobiosyl-diphosphopolyprenol alpha-mannosyltransferase
+NHIKOAIL_00259	CDS	2574				hypothetical protein
+NHIKOAIL_00260	CDS	570	dapH_1	2.3.1.89		2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase
+NHIKOAIL_00261	CDS	873				hypothetical protein
+NHIKOAIL_00262	CDS	1176				hypothetical protein
+NHIKOAIL_00263	CDS	291				hypothetical protein
+NHIKOAIL_00264	CDS	2046				hypothetical protein
+NHIKOAIL_00265	CDS	147				hypothetical protein
+NHIKOAIL_00266	CDS	879				hypothetical protein
+NHIKOAIL_00267	CDS	1914	msbA	7.5.2.6	COG1132	Lipid A export ATP-binding/permease protein MsbA
+NHIKOAIL_00268	CDS	294				hypothetical protein
+NHIKOAIL_00269	CDS	516				hypothetical protein
+NHIKOAIL_00270	CDS	1899				hypothetical protein
+NHIKOAIL_00271	CDS	165				hypothetical protein
+NHIKOAIL_00272	CDS	966				hypothetical protein
+NHIKOAIL_00273	CDS	300				hypothetical protein
+NHIKOAIL_00274	CDS	579				hypothetical protein
+NHIKOAIL_00275	CDS	1998				hypothetical protein
+NHIKOAIL_00276	CDS	168				hypothetical protein
+NHIKOAIL_00277	CDS	2769				hypothetical protein
+NHIKOAIL_00278	CDS	1629	pal_1			Peptidoglycan-associated lipoprotein
+NHIKOAIL_00279	CDS	489				hypothetical protein
+NHIKOAIL_00280	CDS	153				hypothetical protein
+NHIKOAIL_00281	CDS	1839				hypothetical protein
+NHIKOAIL_00282	CDS	390				hypothetical protein
+NHIKOAIL_00283	CDS	396				hypothetical protein
+NHIKOAIL_00284	CDS	321				hypothetical protein
+NHIKOAIL_00285	CDS	183				hypothetical protein
+NHIKOAIL_00286	CDS	297				hypothetical protein
+NHIKOAIL_00287	CDS	402				hypothetical protein
+NHIKOAIL_00288	CDS	222				hypothetical protein
+NHIKOAIL_00289	CDS	1218				IS200/IS605 family transposase ISEc42
+NHIKOAIL_00290	CDS	1614	groL_1		COG0459	60 kDa chaperonin
+NHIKOAIL_00291	CDS	1485	phoB	3.1.3.1	COG1785	Alkaline phosphatase 3
+NHIKOAIL_00292	CDS	1083	lplJ	6.3.1.20	COG0095	Lipoate-protein ligase LplJ
+NHIKOAIL_00293	CDS	456				hypothetical protein
+NHIKOAIL_00294	CDS	231				hypothetical protein
+NHIKOAIL_00295	CDS	519				hypothetical protein
+NHIKOAIL_00296	CDS	345	fdxA_1		COG1146	Ferredoxin-1
+NHIKOAIL_00297	CDS	240				hypothetical protein
+NHIKOAIL_00298	CDS	651				hypothetical protein
+NHIKOAIL_00299	CDS	1539		1.14.13.-	COG2072	Baeyer-Villiger monooxygenase
+NHIKOAIL_00300	CDS	1029				hypothetical protein
+NHIKOAIL_00301	CDS	330				hypothetical protein
+NHIKOAIL_00302	CDS	3036				TonB-dependent receptor P3
+NHIKOAIL_00303	CDS	1380				hypothetical protein
+NHIKOAIL_00304	CDS	3912				hypothetical protein
+NHIKOAIL_00305	CDS	1026				hypothetical protein
+NHIKOAIL_00306	CDS	1032				hypothetical protein
+NHIKOAIL_00307	CDS	408				hypothetical protein
+NHIKOAIL_00308	CDS	1410				hypothetical protein
+NHIKOAIL_00309	CDS	426				hypothetical protein
+NHIKOAIL_00310	CDS	414				hypothetical protein
+NHIKOAIL_00311	CDS	393				hypothetical protein
+NHIKOAIL_00312	CDS	1083				hypothetical protein
+NHIKOAIL_00313	CDS	1389				hypothetical protein
+NHIKOAIL_00314	CDS	1713				hypothetical protein
+NHIKOAIL_00315	CDS	1542				hypothetical protein
+NHIKOAIL_00316	CDS	453				hypothetical protein
+NHIKOAIL_00317	CDS	390			COG3039	IS5 family transposase IS1648
+NHIKOAIL_00318	CDS	333				hypothetical protein
+NHIKOAIL_00319	CDS	291				hypothetical protein
+NHIKOAIL_00320	CDS	243				hypothetical protein
+NHIKOAIL_00321	CDS	333				hypothetical protein
+NHIKOAIL_00322	CDS	393				hypothetical protein
+NHIKOAIL_00323	CDS	624				hypothetical protein
+NHIKOAIL_00324	CDS	561				hypothetical protein
+NHIKOAIL_00325	CDS	942				hypothetical protein
+NHIKOAIL_00326	CDS	1263	wecA_1	2.7.8.33		Undecaprenyl-phosphate alpha-N-acetylglucosaminyl 1-phosphate transferase
+NHIKOAIL_00327	CDS	1620				hypothetical protein
+NHIKOAIL_00328	CDS	1077				hypothetical protein
+NHIKOAIL_00329	CDS	2103	recG	3.6.4.12		ATP-dependent DNA helicase RecG
+NHIKOAIL_00330	CDS	726				hypothetical protein
+NHIKOAIL_00331	CDS	1515	cpdA_1	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+NHIKOAIL_00332	CDS	525				hypothetical protein
+NHIKOAIL_00333	CDS	294				hypothetical protein
+NHIKOAIL_00334	CDS	453				hypothetical protein
+NHIKOAIL_00335	CDS	684				hypothetical protein
+NHIKOAIL_00336	CDS	2031	tkt	2.2.1.1		Transketolase
+NHIKOAIL_00337	CDS	681	tal_2	2.2.1.2	COG0176	Transaldolase
+NHIKOAIL_00338	CDS	1623	sglT_1			Sodium/glucose cotransporter
+NHIKOAIL_00339	CDS	990				hypothetical protein
+NHIKOAIL_00340	CDS	1074				hypothetical protein
+NHIKOAIL_00341	CDS	384				hypothetical protein
+NHIKOAIL_00342	CDS	276				hypothetical protein
+NHIKOAIL_00343	CDS	1341				hypothetical protein
+NHIKOAIL_00344	CDS	1164	pimB_1	2.4.1.346	COG0438	GDP-mannose-dependent alpha-(1-6)-phosphatidylinositol monomannoside mannosyltransferase
+NHIKOAIL_00345	CDS	897				hypothetical protein
+NHIKOAIL_00346	CDS	510				hypothetical protein
+NHIKOAIL_00347	CDS	777				hypothetical protein
+NHIKOAIL_00348	CDS	1005				hypothetical protein
+NHIKOAIL_00349	CDS	465				hypothetical protein
+NHIKOAIL_00350	CDS	891	ephA	3.3.2.10		Epoxide hydrolase A
+NHIKOAIL_00351	CDS	318				hypothetical protein
+NHIKOAIL_00352	CDS	375				hypothetical protein
+NHIKOAIL_00353	CDS	1767				hypothetical protein
+NHIKOAIL_00354	CDS	990				hypothetical protein
+NHIKOAIL_00355	CDS	144				hypothetical protein
+NHIKOAIL_00356	CDS	693	lptB_1	3.6.3.-	COG1137	Lipopolysaccharide export system ATP-binding protein LptB
+NHIKOAIL_00357	CDS	279				hypothetical protein
+NHIKOAIL_00358	CDS	2409				hypothetical protein
+NHIKOAIL_00359	CDS	3492				hypothetical protein
+NHIKOAIL_00360	CDS	435				hypothetical protein
+NHIKOAIL_00361	CDS	1824	recQ	3.6.4.12	COG0514	ATP-dependent DNA helicase RecQ
+NHIKOAIL_00362	CDS	1386				hypothetical protein
+NHIKOAIL_00363	CDS	2727				hypothetical protein
+NHIKOAIL_00364	CDS	2610	lysA	4.1.1.20		Diaminopimelate decarboxylase
+NHIKOAIL_00365	CDS	507				hypothetical protein
+NHIKOAIL_00366	CDS	768				putative protein
+NHIKOAIL_00367	CDS	483	umuD	3.4.21.-	COG1974	Protein UmuD
+NHIKOAIL_00368	CDS	1281	umuC		COG0389	Protein UmuC
+NHIKOAIL_00369	CDS	1647				hypothetical protein
+NHIKOAIL_00370	CDS	3192	tolB_1			Tol-Pal system protein TolB
+NHIKOAIL_00371	CDS	1860	nosZ	1.7.2.4		Nitrous-oxide reductase
+NHIKOAIL_00372	CDS	660				hypothetical protein
+NHIKOAIL_00373	CDS	1392	nosD			putative ABC transporter binding protein NosD
+NHIKOAIL_00374	CDS	681	yxlF_1	3.6.3.-	COG1131	putative ABC transporter ATP-binding protein YxlF
+NHIKOAIL_00375	CDS	795				hypothetical protein
+NHIKOAIL_00376	CDS	711				hypothetical protein
+NHIKOAIL_00377	CDS	309				hypothetical protein
+NHIKOAIL_00378	CDS	204				hypothetical protein
+NHIKOAIL_00379	CDS	522	cbaB	1.9.3.1	COG1622	Cytochrome c oxidase subunit 2
+NHIKOAIL_00380	CDS	1674	cbaA	1.9.3.1	COG0843	Cytochrome c oxidase subunit 1
+NHIKOAIL_00381	CDS	618				hypothetical protein
+NHIKOAIL_00382	CDS	810	nagR		COG2188	HTH-type transcriptional repressor NagR
+NHIKOAIL_00383	CDS	1200				hypothetical protein
+NHIKOAIL_00384	CDS	921				hypothetical protein
+NHIKOAIL_00385	CDS	597				hypothetical protein
+NHIKOAIL_00386	CDS	222				hypothetical protein
+NHIKOAIL_00387	CDS	219				hypothetical protein
+NHIKOAIL_00388	CDS	1515	fixN	1.9.3.1	COG3278	Cytochrome c oxidase subunit 1 , bacteroid
+NHIKOAIL_00389	CDS	597				hypothetical protein
+NHIKOAIL_00390	CDS	780				hypothetical protein
+NHIKOAIL_00391	CDS	2136	copA_1	7.2.2.8		Copper-exporting P-type ATPase
+NHIKOAIL_00392	CDS	1455	gloB	3.1.2.6		Hydroxyacylglutathione hydrolase
+NHIKOAIL_00393	CDS	765				hypothetical protein
+NHIKOAIL_00394	CDS	750	zupT_1			Zinc transporter ZupT
+NHIKOAIL_00395	CDS	513	dps1	1.16.-.-	COG0783	DNA protection during starvation protein 1
+NHIKOAIL_00396	CDS	3144	mdtB_1			Multidrug resistance protein MdtB
+NHIKOAIL_00397	CDS	501				hypothetical protein
+NHIKOAIL_00398	CDS	714	tenA	3.5.99.2	COG0819	Aminopyrimidine aminohydrolase
+NHIKOAIL_00399	CDS	3336	rcsC_7	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00400	CDS	624				hypothetical protein
+NHIKOAIL_00401	CDS	210				hypothetical protein
+NHIKOAIL_00402	CDS	2355	copA_2	7.2.2.8	COG2217	Copper-exporting P-type ATPase
+NHIKOAIL_00403	CDS	3579	cheB_1	3.5.1.44		Protein-glutamate methylesterase/protein-glutamine glutaminase
+NHIKOAIL_00404	CDS	813	uppP	3.6.1.27		Undecaprenyl-diphosphatase
+NHIKOAIL_00405	CDS	216				hypothetical protein
+NHIKOAIL_00406	CDS	816				hypothetical protein
+NHIKOAIL_00407	CDS	1299	der		COG1160	GTPase Der
+NHIKOAIL_00408	CDS	780				hypothetical protein
+NHIKOAIL_00409	CDS	705				hypothetical protein
+NHIKOAIL_00410	CDS	1035	pqiB		COG3008	Intermembrane transport protein PqiB
+NHIKOAIL_00411	CDS	768	mkl_1		COG1127	putative ribonucleotide transport ATP-binding protein mkl
+NHIKOAIL_00412	CDS	1116				hypothetical protein
+NHIKOAIL_00413	CDS	414				hypothetical protein
+NHIKOAIL_00414	CDS	687	pal_2			Peptidoglycan-associated lipoprotein
+NHIKOAIL_00415	CDS	984	iolU	1.1.1.371	COG0673	scyllo-inositol 2-dehydrogenase (NADP(+)) IolU
+NHIKOAIL_00416	CDS	1389	pncB2	6.3.4.21	COG1488	Nicotinate phosphoribosyltransferase pncB2
+NHIKOAIL_00417	CDS	2811				hypothetical protein
+NHIKOAIL_00418	CDS	525	mmpR5			HTH-type transcriptional regulator MmpR5
+NHIKOAIL_00419	CDS	2373				hypothetical protein
+NHIKOAIL_00420	CDS	2982	btuB_2			Vitamin B12 transporter BtuB
+NHIKOAIL_00421	CDS	3429	rcsC_8	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00422	CDS	192				hypothetical protein
+NHIKOAIL_00423	CDS	1620				hypothetical protein
+NHIKOAIL_00424	CDS	1083	ccpA		COG1609	Catabolite control protein A
+NHIKOAIL_00425	CDS	2997	susC			TonB-dependent receptor SusC
+NHIKOAIL_00426	CDS	1644	susD			Starch-binding protein SusD
+NHIKOAIL_00427	CDS	1446				hypothetical protein
+NHIKOAIL_00428	CDS	4029	glgB_1	2.4.1.18		1,4-alpha-glucan branching enzyme GlgB
+NHIKOAIL_00429	CDS	417				hypothetical protein
+NHIKOAIL_00430	CDS	1884	tvaII_1	3.2.1.135		Neopullulanase 2
+NHIKOAIL_00431	CDS	456				hypothetical protein
+NHIKOAIL_00432	CDS	711				hypothetical protein
+NHIKOAIL_00433	CDS	1260				hypothetical protein
+NHIKOAIL_00434	CDS	3186				TonB-dependent receptor P26
+NHIKOAIL_00435	CDS	1626				hypothetical protein
+NHIKOAIL_00436	CDS	2625	chb	3.2.1.52		Chitobiase
+NHIKOAIL_00437	CDS	288				hypothetical protein
+NHIKOAIL_00438	CDS	1026	purR		COG1609	HTH-type transcriptional repressor PurR
+NHIKOAIL_00439	CDS	1131				hypothetical protein
+NHIKOAIL_00440	CDS	1845				hypothetical protein
+NHIKOAIL_00441	CDS	2913	nagZ	3.2.1.52		Beta-hexosaminidase
+NHIKOAIL_00442	CDS	915	murK	2.7.1.-	COG2971	N-acetylmuramic acid/N-acetylglucosamine kinase
+NHIKOAIL_00443	CDS	1554	sglT_2			Sodium/glucose cotransporter
+NHIKOAIL_00444	CDS	171				hypothetical protein
+NHIKOAIL_00445	CDS	240				hypothetical protein
+NHIKOAIL_00446	CDS	348				hypothetical protein
+NHIKOAIL_00447	CDS	366				hypothetical protein
+NHIKOAIL_00448	tRNA	76				tRNA-Met(cat)
+NHIKOAIL_00449	CDS	471				hypothetical protein
+NHIKOAIL_00450	CDS	1542				hypothetical protein
+NHIKOAIL_00451	CDS	1194	kbl	2.3.1.29	COG0156	2-amino-3-ketobutyrate coenzyme A ligase
+NHIKOAIL_00452	CDS	987				putative epimerase/dehydratase
+NHIKOAIL_00453	CDS	498	decR		COG1522	DNA-binding transcriptional activator DecR
+NHIKOAIL_00454	CDS	1341	glnA	6.3.1.2		Glutamine synthetase
+NHIKOAIL_00455	CDS	1299	purB	4.3.2.2	COG0015	Adenylosuccinate lyase
+NHIKOAIL_00456	CDS	1863		3.2.1.28	COG3387	Trehalase
+NHIKOAIL_00457	CDS	510				hypothetical protein
+NHIKOAIL_00458	CDS	498				hypothetical protein
+NHIKOAIL_00459	CDS	348				hypothetical protein
+NHIKOAIL_00460	CDS	1173				hypothetical protein
+NHIKOAIL_00461	CDS	2184	btuB_3			Vitamin B12 transporter BtuB
+NHIKOAIL_00462	CDS	375	nqo7	7.1.1.-	COG0838	NADH-quinone oxidoreductase subunit 7
+NHIKOAIL_00463	CDS	642	ndhK	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit K, chloroplastic
+NHIKOAIL_00464	CDS	705	ndhJ	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit J, chloroplastic
+NHIKOAIL_00465	CDS	1356	nqo4	7.1.1.-	COG0649	NADH-quinone oxidoreductase subunit 4
+NHIKOAIL_00466	CDS	678				hypothetical protein
+NHIKOAIL_00467	CDS	1362	nqo1	7.1.1.-	COG1894	NADH-quinone oxidoreductase subunit 1
+NHIKOAIL_00468	CDS	441				hypothetical protein
+NHIKOAIL_00469	CDS	1740				hypothetical protein
+NHIKOAIL_00470	CDS	339				hypothetical protein
+NHIKOAIL_00471	CDS	384				hypothetical protein
+NHIKOAIL_00472	CDS	651				hypothetical protein
+NHIKOAIL_00473	CDS	1704	nadE	6.3.5.1	COG0171	Glutamine-dependent NAD(+) synthetase
+NHIKOAIL_00474	CDS	738	lspA_1	3.4.23.36		Lipoprotein signal peptidase
+NHIKOAIL_00475	CDS	1815	lepA	3.6.5.-	COG0481	Elongation factor 4
+NHIKOAIL_00476	CDS	873				hypothetical protein
+NHIKOAIL_00477	CDS	1179				hypothetical protein
+NHIKOAIL_00478	CDS	978				hypothetical protein
+NHIKOAIL_00479	CDS	1050	kefC_1			Glutathione-regulated potassium-efflux system protein KefC
+NHIKOAIL_00480	CDS	516				hypothetical protein
+NHIKOAIL_00481	CDS	789				hypothetical protein
+NHIKOAIL_00482	CDS	1200				hypothetical protein
+NHIKOAIL_00483	CDS	510	dhfrIII	1.5.1.3		Dihydrofolate reductase type 3
+NHIKOAIL_00484	CDS	1455	aam	3.5.1.13	COG0154	Acylamidase
+NHIKOAIL_00485	CDS	1086				hypothetical protein
+NHIKOAIL_00486	CDS	756	btsR_1		COG3279	Transcriptional regulatory protein BtsR
+NHIKOAIL_00487	CDS	1797	tolB_2			Tol-Pal system protein TolB
+NHIKOAIL_00488	CDS	1140				hypothetical protein
+NHIKOAIL_00489	CDS	1260				hypothetical protein
+NHIKOAIL_00490	CDS	885	thyA	2.1.1.45	COG0207	Thymidylate synthase
+NHIKOAIL_00491	CDS	288				hypothetical protein
+NHIKOAIL_00492	CDS	384	apaG		COG2967	Protein ApaG
+NHIKOAIL_00493	CDS	759	cysH	1.8.4.8	COG0175	Phosphoadenosine phosphosulfate reductase
+NHIKOAIL_00494	CDS	1899	korA	1.2.7.3	COG0674	2-oxoglutarate oxidoreductase subunit KorA
+NHIKOAIL_00495	CDS	1365				hypothetical protein
+NHIKOAIL_00496	CDS	411				hypothetical protein
+NHIKOAIL_00497	CDS	435				hypothetical protein
+NHIKOAIL_00498	CDS	1083				hypothetical protein
+NHIKOAIL_00499	CDS	597	yhbO	3.1.2.-	COG0693	Protein/nucleic acid deglycase 2
+NHIKOAIL_00500	CDS	333				hypothetical protein
+NHIKOAIL_00501	CDS	405			COG3039	IS5 family transposase ISMra2
+NHIKOAIL_00502	CDS	396				hypothetical protein
+NHIKOAIL_00503	CDS	1098	opuAA_1	7.6.2.9	COG4175	Glycine betaine transport ATP-binding protein OpuAA
+NHIKOAIL_00504	CDS	885	opuAB		COG4176	Glycine betaine transport system permease protein OpuAB
+NHIKOAIL_00505	CDS	996				hypothetical protein
+NHIKOAIL_00506	CDS	1020				hypothetical protein
+NHIKOAIL_00507	CDS	1275				hypothetical protein
+NHIKOAIL_00508	CDS	1008				hypothetical protein
+NHIKOAIL_00509	CDS	1242	pbuE		COG2814	Purine efflux pump PbuE
+NHIKOAIL_00510	CDS	2835				hypothetical protein
+NHIKOAIL_00511	CDS	1599				hypothetical protein
+NHIKOAIL_00512	CDS	1152				hypothetical protein
+NHIKOAIL_00513	CDS	1101				hypothetical protein
+NHIKOAIL_00514	CDS	711	phoU_1		COG0704	Phosphate-specific transport system accessory protein PhoU 
+NHIKOAIL_00515	CDS	1212	pimB_2	2.4.1.346	COG0438	GDP-mannose-dependent alpha-(1-6)-phosphatidylinositol monomannoside mannosyltransferase
+NHIKOAIL_00516	CDS	1236	mgtA	2.4.1.-	COG0438	GDP-mannose-dependent alpha-mannosyltransferase
+NHIKOAIL_00517	CDS	2619				hypothetical protein
+NHIKOAIL_00518	CDS	372				hypothetical protein
+NHIKOAIL_00519	CDS	699				hypothetical protein
+NHIKOAIL_00520	CDS	2946	uvrA_1		COG0178	UvrABC system protein A
+NHIKOAIL_00521	CDS	1170	yliI	1.1.5.-	COG2133	Aldose sugar dehydrogenase YliI
+NHIKOAIL_00522	CDS	822				hypothetical protein
+NHIKOAIL_00523	CDS	963				hypothetical protein
+NHIKOAIL_00524	CDS	621				hypothetical protein
+NHIKOAIL_00525	CDS	1242	cpg2	3.4.17.11		Carboxypeptidase G2
+NHIKOAIL_00526	CDS	1047				hypothetical protein
+NHIKOAIL_00527	CDS	3243	ileS	6.1.1.5	COG0060	Isoleucine--tRNA ligase
+NHIKOAIL_00528	CDS	477	dksA			RNA polymerase-binding transcription factor DksA
+NHIKOAIL_00529	CDS	609	ruvA	3.6.4.12	COG0632	Holliday junction ATP-dependent DNA helicase RuvA
+NHIKOAIL_00530	CDS	978	prs2	2.7.6.1		Putative ribose-phosphate pyrophosphokinase 2
+NHIKOAIL_00531	CDS	378				hypothetical protein
+NHIKOAIL_00532	CDS	444				hypothetical protein
+NHIKOAIL_00533	CDS	798	mutM	3.2.2.23	COG0266	Formamidopyrimidine-DNA glycosylase
+NHIKOAIL_00534	CDS	741				hypothetical protein
+NHIKOAIL_00535	CDS	1026	zapE			Cell division protein ZapE
+NHIKOAIL_00536	CDS	1827	typA		COG1217	GTP-binding protein TypA/BipA
+NHIKOAIL_00537	CDS	576				hypothetical protein
+NHIKOAIL_00538	CDS	972	dnaJ_1		COG0484	Chaperone protein DnaJ
+NHIKOAIL_00539	CDS	1521	accA1		COG4770	Acetyl-/propionyl-coenzyme A carboxylase alpha chain
+NHIKOAIL_00540	CDS	708				hypothetical protein
+NHIKOAIL_00541	CDS	1026				hypothetical protein
+NHIKOAIL_00542	CDS	5964	rcsC_9	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00543	CDS	213				hypothetical protein
+NHIKOAIL_00544	CDS	225				hypothetical protein
+NHIKOAIL_00545	CDS	2151	kinE	2.7.13.3	COG2202	Sporulation kinase E
+NHIKOAIL_00546	CDS	3216	mdtB_2			Multidrug resistance protein MdtB
+NHIKOAIL_00547	CDS	429				hypothetical protein
+NHIKOAIL_00548	CDS	1251	mdtA_1			Multidrug resistance protein MdtA
+NHIKOAIL_00549	CDS	1491	ttgC		COG1538	putative efflux pump outer membrane protein TtgC
+NHIKOAIL_00550	CDS	678	rutR		COG1309	HTH-type transcriptional regulator RutR
+NHIKOAIL_00551	CDS	489	ppiB	5.2.1.8	COG0652	putative peptidyl-prolyl cis-trans isomerase
+NHIKOAIL_00552	CDS	1371	oah1	2.5.1.-	COG2873	O-acetyl-L-homoserine sulfhydrylase 1
+NHIKOAIL_00553	CDS	1059	metXA	2.3.1.31	COG2021	Homoserine O-acetyltransferase
+NHIKOAIL_00554	CDS	954	thrA_1		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1
+NHIKOAIL_00555	CDS	1125	thrA_2		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1
+NHIKOAIL_00556	CDS	4020	rcsC_10	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00557	CDS	732	sdhB	1.3.5.1	COG0479	Succinate dehydrogenase iron-sulfur subunit
+NHIKOAIL_00558	CDS	1743	sdhA_1	1.3.5.1	COG1053	Succinate dehydrogenase flavoprotein subunit
+NHIKOAIL_00559	CDS	453				hypothetical protein
+NHIKOAIL_00560	CDS	462				hypothetical protein
+NHIKOAIL_00561	CDS	1167	citZ	2.3.3.16	COG0372	Citrate synthase 2
+NHIKOAIL_00562	CDS	1791	rne	3.1.26.12		Ribonuclease E
+NHIKOAIL_00563	CDS	285				hypothetical protein
+NHIKOAIL_00564	CDS	876	phnP	3.1.4.55	COG1235	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase
+NHIKOAIL_00565	CDS	429	yqhS	4.2.1.10	COG0757	3-dehydroquinate dehydratase
+NHIKOAIL_00566	CDS	477				hypothetical protein
+NHIKOAIL_00567	CDS	1698	murJ		COG0728	putative lipid II flippase MurJ
+NHIKOAIL_00568	CDS	567				hypothetical protein
+NHIKOAIL_00569	CDS	720	ndhI	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+NHIKOAIL_00570	CDS	552				hypothetical protein
+NHIKOAIL_00571	CDS	1044	yqeN		COG1466	putative protein YqeN
+NHIKOAIL_00572	CDS	633				hypothetical protein
+NHIKOAIL_00573	tRNA	76				tRNA-Val(cac)
+NHIKOAIL_00574	CDS	561				hypothetical protein
+NHIKOAIL_00575	CDS	405	ywle	3.9.1.2		Protein-arginine-phosphatase
+NHIKOAIL_00576	CDS	258				hypothetical protein
+NHIKOAIL_00577	CDS	789	aviRb	2.1.1.208		23S rRNA (uridine(2479)-2'-O)-methyltransferase
+NHIKOAIL_00578	CDS	1305	gdhA_1	1.4.1.3	COG0334	Glutamate dehydrogenase
+NHIKOAIL_00579	CDS	1995				hypothetical protein
+NHIKOAIL_00580	CDS	1575	nnr		COG0062	Bifunctional NAD(P)H-hydrate repair enzyme Nnr
+NHIKOAIL_00581	CDS	414				hypothetical protein
+NHIKOAIL_00582	CDS	660				hypothetical protein
+NHIKOAIL_00583	CDS	696	rpiA	5.3.1.6	COG0120	Ribose-5-phosphate isomerase A
+NHIKOAIL_00584	CDS	492				hypothetical protein
+NHIKOAIL_00585	CDS	2280	pcrA_1	3.6.4.12		ATP-dependent DNA helicase PcrA
+NHIKOAIL_00586	CDS	921	soj_1	3.6.-.-	COG1192	Sporulation initiation inhibitor protein Soj
+NHIKOAIL_00587	CDS	981	spo0J		COG1475	Stage 0 sporulation protein J
+NHIKOAIL_00588	CDS	696				hypothetical protein
+NHIKOAIL_00589	CDS	1314	bioF	2.3.1.47		8-amino-7-oxononanoate synthase
+NHIKOAIL_00590	CDS	1170	yghO			Protein YghO
+NHIKOAIL_00591	CDS	699	yjjG	3.1.3.5	COG1011	Pyrimidine 5'-nucleotidase YjjG
+NHIKOAIL_00592	CDS	642				hypothetical protein
+NHIKOAIL_00593	CDS	708	purQ	6.3.5.3	COG0047	Phosphoribosylformylglycinamidine synthase subunit PurQ
+NHIKOAIL_00594	CDS	1536				hypothetical protein
+NHIKOAIL_00595	CDS	1632	ltrA_1		COG3344	Group II intron-encoded protein LtrA
+NHIKOAIL_00596	CDS	507	ssb		COG0629	Single-stranded DNA-binding protein
+NHIKOAIL_00597	CDS	816	bphD	3.7.1.8	COG0596	2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase
+NHIKOAIL_00598	CDS	330				hypothetical protein
+NHIKOAIL_00599	CDS	825				hypothetical protein
+NHIKOAIL_00600	CDS	645	udk	2.7.1.48	COG0572	Uridine kinase
+NHIKOAIL_00601	CDS	771	coaX	2.7.1.33	COG1521	Type III pantothenate kinase
+NHIKOAIL_00602	CDS	798	birA	6.3.4.15	COG0340	Bifunctional ligase/repressor BirA
+NHIKOAIL_00603	CDS	837				hypothetical protein
+NHIKOAIL_00604	CDS	834	suhB	3.1.3.25	COG0483	Inositol-1-monophosphatase
+NHIKOAIL_00605	CDS	837	fabI	1.3.1.9	COG0623	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI
+NHIKOAIL_00606	CDS	735				hypothetical protein
+NHIKOAIL_00607	CDS	831				hypothetical protein
+NHIKOAIL_00608	CDS	747				hypothetical protein
+NHIKOAIL_00609	CDS	1311	nupX		COG1972	Putative nucleoside permease NupX
+NHIKOAIL_00610	CDS	2031				hypothetical protein
+NHIKOAIL_00611	CDS	2361	pcrA_2	3.6.4.12	COG0210	ATP-dependent DNA helicase PcrA
+NHIKOAIL_00612	CDS	387				hypothetical protein
+NHIKOAIL_00613	CDS	516				hypothetical protein
+NHIKOAIL_00614	CDS	900				hypothetical protein
+NHIKOAIL_00615	CDS	840	dat	2.6.1.21		D-alanine aminotransferase
+NHIKOAIL_00616	CDS	372				hypothetical protein
+NHIKOAIL_00617	CDS	648	pdxH	1.4.3.5	COG0259	Pyridoxine/pyridoxamine 5'-phosphate oxidase
+NHIKOAIL_00618	CDS	744				hypothetical protein
+NHIKOAIL_00619	CDS	861	putB	1.5.5.2	COG0506	Proline dehydrogenase 2
+NHIKOAIL_00620	CDS	546	ymdB	3.1.1.106	COG2110	O-acetyl-ADP-ribose deacetylase
+NHIKOAIL_00621	CDS	858	COQ3_1	2.1.1.222		Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+NHIKOAIL_00622	CDS	408	IMPDH_1	1.1.1.205		Inosine-5'-monophosphate dehydrogenase
+NHIKOAIL_00623	CDS	1698	pyrG	6.3.4.2		CTP synthase
+NHIKOAIL_00624	CDS	651	lexA_1	3.4.21.88		LexA repressor
+NHIKOAIL_00625	CDS	438	mraZ			Transcriptional regulator MraZ
+NHIKOAIL_00626	CDS	1011	rsmH_1	2.1.1.199	COG0275	Ribosomal RNA small subunit methyltransferase H
+NHIKOAIL_00627	CDS	498				hypothetical protein
+NHIKOAIL_00628	CDS	1947	ftsI	3.4.16.4	COG0768	Peptidoglycan D,D-transpeptidase FtsI
+NHIKOAIL_00629	CDS	1539	murE	6.3.2.13	COG0769	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+NHIKOAIL_00630	CDS	1158	mraY	2.7.8.13	COG0472	Phospho-N-acetylmuramoyl-pentapeptide-transferase
+NHIKOAIL_00631	CDS	1446	murD	6.3.2.9	COG0771	UDP-N-acetylmuramoylalanine--D-glutamate ligase
+NHIKOAIL_00632	CDS	1170	ftsW	2.4.1.129	COG0772	putative peptidoglycan glycosyltransferase FtsW
+NHIKOAIL_00633	CDS	1113	murG_1	2.4.1.227	COG0707	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+NHIKOAIL_00634	CDS	1377	murC	6.3.2.8	COG0773	UDP-N-acetylmuramate--L-alanine ligase
+NHIKOAIL_00635	CDS	780	ftsQ			Cell division protein FtsQ
+NHIKOAIL_00636	CDS	1260	ftsA		COG0849	Cell division protein FtsA
+NHIKOAIL_00637	CDS	1320	ftsZ			Cell division protein FtsZ
+NHIKOAIL_00638	CDS	1695				hypothetical protein
+NHIKOAIL_00639	CDS	573				hypothetical protein
+NHIKOAIL_00640	CDS	1170	tuaC	2.4.-.-	COG0438	Putative teichuronic acid biosynthesis glycosyltransferase TuaC
+NHIKOAIL_00641	CDS	5061				hypothetical protein
+NHIKOAIL_00642	CDS	1140	pglJ	2.4.1.291	COG0438	N-acetylgalactosamine-N,N'-diacetylbacillosaminyl-diphospho-undecaprenol 4-alpha-N-acetylgalactosaminyltransferase
+NHIKOAIL_00643	CDS	1245	mshA_6	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_00644	CDS	1029				hypothetical protein
+NHIKOAIL_00645	CDS	1071	algA_1		COG0662	Alginate biosynthesis protein AlgA
+NHIKOAIL_00646	CDS	699	otsB	3.1.3.12	COG1877	Trehalose-6-phosphate phosphatase
+NHIKOAIL_00647	CDS	1365	otsA	2.4.1.15	COG0380	Trehalose-6-phosphate synthase
+NHIKOAIL_00648	CDS	321				hypothetical protein
+NHIKOAIL_00649	CDS	957	glpQ_1	3.1.4.46	COG0584	Glycerophosphodiester phosphodiesterase
+NHIKOAIL_00650	CDS	2328	dap4	3.4.14.5		Dipeptidyl aminopeptidase 4
+NHIKOAIL_00651	CDS	1260	alr1	5.1.1.1	COG0787	Alanine racemase 1
+NHIKOAIL_00652	CDS	714	phoP_1		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+NHIKOAIL_00653	CDS	1461	sasA_4	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_00654	CDS	2217	dxs_1	2.2.1.7		1-deoxy-D-xylulose-5-phosphate synthase
+NHIKOAIL_00655	CDS	675				hypothetical protein
+NHIKOAIL_00656	CDS	150				hypothetical protein
+NHIKOAIL_00657	CDS	105				hypothetical protein
+NHIKOAIL_00658	CDS	258				hypothetical protein
+NHIKOAIL_00659	CDS	903	cysD	2.7.7.4	COG0175	Sulfate adenylyltransferase subunit 2
+NHIKOAIL_00660	CDS	333				hypothetical protein
+NHIKOAIL_00661	CDS	405			COG3039	IS5 family transposase ISMra2
+NHIKOAIL_00662	CDS	1920	cysNC		COG0529	Bifunctional enzyme CysN/CysC
+NHIKOAIL_00663	CDS	420				hypothetical protein
+NHIKOAIL_00664	CDS	414				hypothetical protein
+NHIKOAIL_00665	CDS	1836				hypothetical protein
+NHIKOAIL_00666	CDS	486				hypothetical protein
+NHIKOAIL_00667	CDS	336				hypothetical protein
+NHIKOAIL_00668	CDS	420				hypothetical protein
+NHIKOAIL_00669	CDS	1029	rfbB	4.2.1.46	COG1088	dTDP-glucose 4,6-dehydratase
+NHIKOAIL_00670	CDS	1008	rfbA	2.7.7.24	COG1209	Glucose-1-phosphate thymidylyltransferase 1
+NHIKOAIL_00671	CDS	561	rmlC	5.1.3.13	COG1898	dTDP-4-dehydrorhamnose 3,5-epimerase
+NHIKOAIL_00672	CDS	909	rfbD	1.1.1.133	COG1091	dTDP-4-dehydrorhamnose reductase
+NHIKOAIL_00673	CDS	3099				hypothetical protein
+NHIKOAIL_00674	CDS	1308				hypothetical protein
+NHIKOAIL_00675	CDS	378				hypothetical protein
+NHIKOAIL_00676	CDS	210				hypothetical protein
+NHIKOAIL_00677	CDS	396				hypothetical protein
+NHIKOAIL_00678	CDS	474				IS630 family transposase ISMae29
+NHIKOAIL_00679	CDS	429				IS630 family transposase ISSac1
+NHIKOAIL_00680	CDS	195				hypothetical protein
+NHIKOAIL_00681	CDS	1491	pglK_1	7.5.2.5	COG1132	Protein glycosylation K
+NHIKOAIL_00682	CDS	1047	pseB	4.2.1.115	COG1086	UDP-N-acetylglucosamine 4,6-dehydratase (inverting)
+NHIKOAIL_00683	CDS	1212	arnB	2.6.1.87		UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase
+NHIKOAIL_00684	CDS	726	kdsB	2.7.7.38		8-amino-3,8-dideoxy-manno-octulosonate cytidylyltransferase
+NHIKOAIL_00685	CDS	1071	murG_2	2.4.1.227		UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+NHIKOAIL_00686	CDS	750	fmt_1	2.1.2.9	COG0223	Methionyl-tRNA formyltransferase
+NHIKOAIL_00687	CDS	1053	pseI	2.5.1.97	COG2089	Pseudaminic acid synthase
+NHIKOAIL_00688	CDS	771				hypothetical protein
+NHIKOAIL_00689	CDS	333				hypothetical protein
+NHIKOAIL_00690	CDS	510				hypothetical protein
+NHIKOAIL_00691	tRNA	78				tRNA-Val(gac)
+NHIKOAIL_00692	CDS	1515				hypothetical protein
+NHIKOAIL_00693	CDS	630	dapH_2	2.3.1.89		2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase
+NHIKOAIL_00694	CDS	1038				hypothetical protein
+NHIKOAIL_00695	CDS	282			COG1662	IS1 family transposase ISSru3
+NHIKOAIL_00696	CDS	411			COG1662	IS1 family transposase ISSru2
+NHIKOAIL_00697	CDS	378				hypothetical protein
+NHIKOAIL_00698	CDS	318				hypothetical protein
+NHIKOAIL_00699	CDS	321				hypothetical protein
+NHIKOAIL_00700	CDS	1113	mshA_7	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_00701	CDS	870				hypothetical protein
+NHIKOAIL_00702	CDS	1164	mshA_8	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_00703	CDS	1152	chmD_2	1.1.1.364		dTDP-4-oxo-6-deoxy-D-allose reductase
+NHIKOAIL_00704	CDS	1206				hypothetical protein
+NHIKOAIL_00705	CDS	990	gnu	5.1.3.26	COG0451	N-acetyl-alpha-D-glucosaminyl-diphospho-ditrans,octacis-undecaprenol 4-epimerase
+NHIKOAIL_00706	CDS	990				hypothetical protein
+NHIKOAIL_00707	CDS	660				hypothetical protein
+NHIKOAIL_00708	CDS	189				hypothetical protein
+NHIKOAIL_00709	CDS	1041	arnA			Bifunctional polymyxin resistance protein ArnA
+NHIKOAIL_00710	CDS	1866	wecA_2	2.7.8.33		Undecaprenyl-phosphate alpha-N-acetylglucosaminyl 1-phosphate transferase
+NHIKOAIL_00711	CDS	1437	wbpA	1.1.1.136	COG0677	UDP-N-acetyl-D-glucosamine 6-dehydrogenase
+NHIKOAIL_00712	CDS	705				hypothetical protein
+NHIKOAIL_00713	CDS	198				hypothetical protein
+NHIKOAIL_00714	CDS	720				hypothetical protein
+NHIKOAIL_00715	CDS	351				hypothetical protein
+NHIKOAIL_00716	CDS	171				hypothetical protein
+NHIKOAIL_00717	CDS	333				hypothetical protein
+NHIKOAIL_00718	CDS	306				hypothetical protein
+NHIKOAIL_00719	CDS	672				hypothetical protein
+NHIKOAIL_00720	CDS	345				hypothetical protein
+NHIKOAIL_00721	CDS	339				hypothetical protein
+NHIKOAIL_00722	CDS	537		5.1.3.2	COG1088	UDP-glucose 4-epimerase
+NHIKOAIL_00723	CDS	276				hypothetical protein
+NHIKOAIL_00724	CDS	372				hypothetical protein
+NHIKOAIL_00725	CDS	321				hypothetical protein
+NHIKOAIL_00726	CDS	354				hypothetical protein
+NHIKOAIL_00727	CDS	243				hypothetical protein
+NHIKOAIL_00728	CDS	183				hypothetical protein
+NHIKOAIL_00729	CDS	90				hypothetical protein
+NHIKOAIL_00730	CDS	261				hypothetical protein
+NHIKOAIL_00731	CDS	156				hypothetical protein
+NHIKOAIL_00732	CDS	117				hypothetical protein
+NHIKOAIL_00733	CDS	693				hypothetical protein
+NHIKOAIL_00734	CDS	558	rfaH_1			Transcription antitermination protein RfaH
+NHIKOAIL_00735	CDS	288				hypothetical protein
+NHIKOAIL_00736	CDS	144				hypothetical protein
+NHIKOAIL_00737	CDS	984	galE1	5.1.3.2	COG1088	UDP-glucose 4-epimerase
+NHIKOAIL_00738	CDS	282				hypothetical protein
+NHIKOAIL_00739	CDS	192				hypothetical protein
+NHIKOAIL_00740	CDS	300				hypothetical protein
+NHIKOAIL_00741	CDS	246				hypothetical protein
+NHIKOAIL_00742	CDS	399				hypothetical protein
+NHIKOAIL_00743	CDS	1134				IS200/IS605 family transposase ISNsp3
+NHIKOAIL_00744	CDS	252				hypothetical protein
+NHIKOAIL_00745	CDS	288				hypothetical protein
+NHIKOAIL_00746	CDS	222				hypothetical protein
+NHIKOAIL_00747	CDS	225				hypothetical protein
+NHIKOAIL_00748	CDS	378				hypothetical protein
+NHIKOAIL_00749	CDS	438				hypothetical protein
+NHIKOAIL_00750	CDS	1515				hypothetical protein
+NHIKOAIL_00751	CDS	507				hypothetical protein
+NHIKOAIL_00752	CDS	144				hypothetical protein
+NHIKOAIL_00753	CDS	384				hypothetical protein
+NHIKOAIL_00754	CDS	432				hypothetical protein
+NHIKOAIL_00755	CDS	153				hypothetical protein
+NHIKOAIL_00756	CDS	819				hypothetical protein
+NHIKOAIL_00757	CDS	1014	glmU			Bifunctional protein GlmU
+NHIKOAIL_00758	CDS	2460	mutS2	3.1.-.-		Endonuclease MutS2
+NHIKOAIL_00759	CDS	966	ghrB	1.1.1.79	COG1052	Glyoxylate/hydroxypyruvate reductase B
+NHIKOAIL_00760	CDS	465				hypothetical protein
+NHIKOAIL_00761	CDS	4107	sasA_5	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_00762	CDS	1257	htpX_2	3.4.24.-		Protease HtpX
+NHIKOAIL_00763	CDS	231				hypothetical protein
+NHIKOAIL_00764	CDS	1188				hypothetical protein
+NHIKOAIL_00765	CDS	411				hypothetical protein
+NHIKOAIL_00766	CDS	201				hypothetical protein
+NHIKOAIL_00767	CDS	1773	treZ	3.2.1.141	COG0296	Malto-oligosyltrehalose trehalohydrolase
+NHIKOAIL_00768	CDS	1521	malQ	2.4.1.25	COG1640	4-alpha-glucanotransferase
+NHIKOAIL_00769	CDS	1749				hypothetical protein
+NHIKOAIL_00770	CDS	534				hypothetical protein
+NHIKOAIL_00771	CDS	540	aroK	2.7.1.71	COG0703	Shikimate kinase
+NHIKOAIL_00772	CDS	798	truA	5.4.99.12	COG0101	tRNA pseudouridine synthase A
+NHIKOAIL_00773	CDS	189				hypothetical protein
+NHIKOAIL_00774	CDS	1308	arcA	3.5.3.6		Arginine deiminase
+NHIKOAIL_00775	CDS	984		1.18.1.2	COG0492	Ferredoxin--NADP reductase
+NHIKOAIL_00776	CDS	492				hypothetical protein
+NHIKOAIL_00777	CDS	1410		1.17.1.9		Formate dehydrogenase, mitochondrial
+NHIKOAIL_00778	CDS	867	sucD	6.2.1.5	COG0074	Succinate--CoA ligase [ADP-forming] subunit alpha
+NHIKOAIL_00779	CDS	1545	gatA	6.3.5.7	COG0154	Glutamyl-tRNA(Gln) amidotransferase subunit A
+NHIKOAIL_00780	CDS	363	tatA			Sec-independent protein translocase protein TatA
+NHIKOAIL_00781	CDS	1086	add	3.5.4.4	COG1816	Adenosine deaminase
+NHIKOAIL_00782	CDS	1293	aroA	2.5.1.19	COG0128	3-phosphoshikimate 1-carboxyvinyltransferase
+NHIKOAIL_00783	CDS	300				hypothetical protein
+NHIKOAIL_00784	CDS	294				hypothetical protein
+NHIKOAIL_00785	CDS	942				hypothetical protein
+NHIKOAIL_00786	CDS	654	uvrY		COG2197	Response regulator UvrY
+NHIKOAIL_00787	CDS	1398				hypothetical protein
+NHIKOAIL_00788	CDS	843				hypothetical protein
+NHIKOAIL_00789	CDS	840				hypothetical protein
+NHIKOAIL_00790	CDS	951	ldh	1.1.1.27	COG0039	L-lactate dehydrogenase
+NHIKOAIL_00791	CDS	1197	ispG	1.17.7.3	COG0821	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)
+NHIKOAIL_00792	CDS	927				hypothetical protein
+NHIKOAIL_00793	CDS	666				hypothetical protein
+NHIKOAIL_00794	CDS	735	lpxH_1	3.6.1.54	COG2908	UDP-2,3-diacylglucosamine hydrolase
+NHIKOAIL_00795	CDS	2376	mrcA		COG5009	Penicillin-binding protein 1A
+NHIKOAIL_00796	CDS	1296	cpdA_2	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+NHIKOAIL_00797	CDS	543				hypothetical protein
+NHIKOAIL_00798	CDS	855	ispE	2.7.1.148	COG1947	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+NHIKOAIL_00799	CDS	960	thrB	2.7.1.39	COG0083	Homoserine kinase
+NHIKOAIL_00800	CDS	2466	thrA_3		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1
+NHIKOAIL_00801	CDS	855	MTAP	2.4.2.1		S-methyl-5'-thioadenosine phosphorylase
+NHIKOAIL_00802	CDS	405			COG3039	IS5 family transposase ISMra2
+NHIKOAIL_00803	CDS	333				hypothetical protein
+NHIKOAIL_00804	CDS	1197	gpsB			Cell cycle protein GpsB
+NHIKOAIL_00805	CDS	759			COG0325	Pyridoxal phosphate homeostasis protein
+NHIKOAIL_00806	CDS	186				hypothetical protein
+NHIKOAIL_00807	CDS	2547				hypothetical protein
+NHIKOAIL_00808	CDS	513	msrC	1.8.4.14	COG1956	Free methionine-R-sulfoxide reductase
+NHIKOAIL_00809	CDS	285				hypothetical protein
+NHIKOAIL_00810	CDS	174				hypothetical protein
+NHIKOAIL_00811	CDS	267				hypothetical protein
+NHIKOAIL_00812	CDS	942				hypothetical protein
+NHIKOAIL_00813	CDS	708	hmp_2	1.14.15.30	COG1018	3-ketosteroid-9-alpha-monooxygenase, ferredoxin reductase component
+NHIKOAIL_00814	CDS	381				hypothetical protein
+NHIKOAIL_00815	CDS	1191				hypothetical protein
+NHIKOAIL_00816	CDS	678	kefC_2			Glutathione-regulated potassium-efflux system protein KefC
+NHIKOAIL_00817	CDS	315				hypothetical protein
+NHIKOAIL_00818	CDS	486				hypothetical protein
+NHIKOAIL_00819	CDS	399				hypothetical protein
+NHIKOAIL_00820	CDS	789				hypothetical protein
+NHIKOAIL_00821	CDS	393				hypothetical protein
+NHIKOAIL_00822	CDS	384				hypothetical protein
+NHIKOAIL_00823	CDS	249				hypothetical protein
+NHIKOAIL_00824	CDS	1041		1.1.1.1	COG1063	putative zinc-binding alcohol dehydrogenase
+NHIKOAIL_00825	CDS	1068	tdh_1	1.1.1.103		L-threonine 3-dehydrogenase
+NHIKOAIL_00826	CDS	438				hypothetical protein
+NHIKOAIL_00827	CDS	819				hypothetical protein
+NHIKOAIL_00828	CDS	519	dinG_1	3.1.-.-		3'-5' exonuclease DinG
+NHIKOAIL_00829	CDS	513				Single-stranded DNA-binding protein
+NHIKOAIL_00830	CDS	1554		4.3.1.23	COG2986	Tyrosine ammonia-lyase
+NHIKOAIL_00831	CDS	2568	pcrA_3	3.6.4.12		ATP-dependent DNA helicase PcrA
+NHIKOAIL_00832	CDS	90				hypothetical protein
+NHIKOAIL_00833	CDS	435				hypothetical protein
+NHIKOAIL_00834	CDS	1254		1.6.3.5		Renalase
+NHIKOAIL_00835	CDS	1521	hutH	4.3.1.3	COG2986	Histidine ammonia-lyase
+NHIKOAIL_00836	CDS	1383				hypothetical protein
+NHIKOAIL_00837	CDS	1113	mdtE_1			Multidrug resistance protein MdtE
+NHIKOAIL_00838	CDS	3147	bepE			Efflux pump membrane transporter BepE
+NHIKOAIL_00839	CDS	1344	bepC			Outer membrane efflux protein BepC
+NHIKOAIL_00840	CDS	852	hisG	2.4.2.17	COG0040	ATP phosphoribosyltransferase
+NHIKOAIL_00841	CDS	264	hisE	3.6.1.31	COG0140	Phosphoribosyl-ATP pyrophosphatase
+NHIKOAIL_00842	CDS	600				hypothetical protein
+NHIKOAIL_00843	CDS	195				hypothetical protein
+NHIKOAIL_00844	CDS	363				hypothetical protein
+NHIKOAIL_00845	CDS	447				hypothetical protein
+NHIKOAIL_00846	CDS	204	xseB	3.1.11.6		Exodeoxyribonuclease 7 small subunit
+NHIKOAIL_00847	CDS	774	fabG_2	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+NHIKOAIL_00848	CDS	1140				hypothetical protein
+NHIKOAIL_00849	CDS	1230	xseA	3.1.11.6	COG1570	Exodeoxyribonuclease 7 large subunit
+NHIKOAIL_00850	CDS	540		3.1.3.48		Putative low molecular weight protein-tyrosine-phosphatase
+NHIKOAIL_00851	CDS	873		2.7.1.-		putative ketoamine kinase
+NHIKOAIL_00852	CDS	312	nqrF_1	7.2.1.1		Na(+)-translocating NADH-quinone reductase subunit F
+NHIKOAIL_00853	CDS	225				hypothetical protein
+NHIKOAIL_00854	CDS	1050		1.13.11.63		beta-carotene 15,15'-dioxygenase
+NHIKOAIL_00855	CDS	1476	crtN_1	1.3.8.-		4,4'-diapophytoene desaturase (4,4'-diaponeurosporene-forming)
+NHIKOAIL_00856	CDS	705	scdA		COG2846	Iron-sulfur cluster repair protein ScdA
+NHIKOAIL_00857	CDS	1383	hemN	1.3.98.3		Oxygen-independent coproporphyrinogen III oxidase
+NHIKOAIL_00858	CDS	174				hypothetical protein
+NHIKOAIL_00859	CDS	750				hypothetical protein
+NHIKOAIL_00860	CDS	489	iscR			HTH-type transcriptional regulator IscR
+NHIKOAIL_00861	CDS	747	lytR_1		COG3279	Sensory transduction protein LytR
+NHIKOAIL_00862	CDS	1140				hypothetical protein
+NHIKOAIL_00863	CDS	738				hypothetical protein
+NHIKOAIL_00864	CDS	969	yadG		COG1131	putative ABC transporter ATP-binding protein YadG
+NHIKOAIL_00865	CDS	837				hypothetical protein
+NHIKOAIL_00866	CDS	2211				hypothetical protein
+NHIKOAIL_00867	CDS	210				hypothetical protein
+NHIKOAIL_00868	CDS	309				hypothetical protein
+NHIKOAIL_00869	CDS	1080	bioB	2.8.1.6		Biotin synthase
+NHIKOAIL_00870	CDS	891				hypothetical protein
+NHIKOAIL_00871	CDS	399				hypothetical protein
+NHIKOAIL_00872	CDS	2274	rcsC_11	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00873	CDS	939	RBKS	2.7.1.15		Ribokinase
+NHIKOAIL_00874	CDS	429				hypothetical protein
+NHIKOAIL_00875	CDS	855				hypothetical protein
+NHIKOAIL_00876	CDS	642	maf	3.6.1.9	COG0424	dTTP/UTP pyrophosphatase
+NHIKOAIL_00877	CDS	858	soj_2	3.6.-.-	COG1192	Chromosome-partitioning ATPase Soj
+NHIKOAIL_00878	CDS	327				hypothetical protein
+NHIKOAIL_00879	CDS	1458				hypothetical protein
+NHIKOAIL_00880	CDS	1191	scmP_1	3.5.1.-	COG1473	N-acetylcysteine deacetylase
+NHIKOAIL_00881	CDS	657				hypothetical protein
+NHIKOAIL_00882	CDS	564		3.2.2.-	COG1611	Putative cytokinin riboside 5'-monophosphate phosphoribohydrolase
+NHIKOAIL_00883	CDS	561				hypothetical protein
+NHIKOAIL_00884	CDS	1185	roxA	1.14.11.47	COG2850	50S ribosomal protein L16 3-hydroxylase
+NHIKOAIL_00885	CDS	189				hypothetical protein
+NHIKOAIL_00886	CDS	189				hypothetical protein
+NHIKOAIL_00887	CDS	702				hypothetical protein
+NHIKOAIL_00888	CDS	327				hypothetical protein
+NHIKOAIL_00889	CDS	1299	glyA	2.1.2.1	COG0112	Serine hydroxymethyltransferase
+NHIKOAIL_00890	CDS	600	pyrE_1	2.4.2.10	COG0461	Orotate phosphoribosyltransferase
+NHIKOAIL_00891	CDS	861	tatC		COG0805	Sec-independent protein translocase protein TatC
+NHIKOAIL_00892	CDS	1656				hypothetical protein
+NHIKOAIL_00893	CDS	192				hypothetical protein
+NHIKOAIL_00894	CDS	612	COQ5_1	2.1.1.163		2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+NHIKOAIL_00895	CDS	438				hypothetical protein
+NHIKOAIL_00896	tRNA	77				tRNA-Arg(tcg)
+NHIKOAIL_00897	CDS	900			COG0589	Universal stress protein/MSMEI_3859
+NHIKOAIL_00898	CDS	2844	lptD_1			LPS-assembly protein LptD
+NHIKOAIL_00899	CDS	984	glkA	2.7.1.2		Glucokinase
+NHIKOAIL_00900	CDS	297				hypothetical protein
+NHIKOAIL_00901	CDS	1290	eno	4.2.1.11		Enolase
+NHIKOAIL_00902	CDS	1356				hypothetical protein
+NHIKOAIL_00903	CDS	1386				hypothetical protein
+NHIKOAIL_00904	CDS	1362				hypothetical protein
+NHIKOAIL_00905	CDS	792	glgA	2.4.1.21		Glycogen synthase
+NHIKOAIL_00906	CDS	627	natA_1	7.2.2.4	COG4555	ABC transporter ATP-binding protein NatA
+NHIKOAIL_00907	CDS	375				hypothetical protein
+NHIKOAIL_00908	CDS	861				hypothetical protein
+NHIKOAIL_00909	CDS	975				hypothetical protein
+NHIKOAIL_00910	CDS	999	lipA	2.8.1.8	COG0320	Lipoyl synthase
+NHIKOAIL_00911	CDS	555				hypothetical protein
+NHIKOAIL_00912	CDS	1716	nfdA_1	3.5.1.91		N-substituted formamide deformylase
+NHIKOAIL_00913	CDS	1389	lat	2.6.1.36	COG0160	putative L-lysine-epsilon aminotransferase
+NHIKOAIL_00914	CDS	1719	recN		COG0497	DNA repair protein RecN
+NHIKOAIL_00915	CDS	3483	secA			Protein translocase subunit SecA
+NHIKOAIL_00916	CDS	903				hypothetical protein
+NHIKOAIL_00917	CDS	948	xerC_2		COG4973	Tyrosine recombinase XerC
+NHIKOAIL_00918	CDS	375				hypothetical protein
+NHIKOAIL_00919	CDS	1083	corA		COG0598	Cobalt/magnesium transport protein CorA
+NHIKOAIL_00920	CDS	573				hypothetical protein
+NHIKOAIL_00921	CDS	1047				hypothetical protein
+NHIKOAIL_00922	CDS	741				hypothetical protein
+NHIKOAIL_00923	CDS	879	mscS_1		COG0668	Small-conductance mechanosensitive channel
+NHIKOAIL_00924	CDS	861				hypothetical protein
+NHIKOAIL_00925	CDS	1833				hypothetical protein
+NHIKOAIL_00926	CDS	1833				hypothetical protein
+NHIKOAIL_00927	CDS	2130	hppA1	7.2.3.-	COG3808	Putative K(+)-stimulated pyrophosphate-energized sodium pump
+NHIKOAIL_00928	CDS	567	pth	3.1.1.29	COG0193	Peptidyl-tRNA hydrolase
+NHIKOAIL_00929	CDS	696				hypothetical protein
+NHIKOAIL_00930	CDS	948	prs	2.7.6.1	COG0462	Ribose-phosphate pyrophosphokinase
+NHIKOAIL_00931	tRNA	74				tRNA-Gln(ttg)
+NHIKOAIL_00932	CDS	1284	MRI1	5.3.1.23		Methylthioribose-1-phosphate isomerase
+NHIKOAIL_00933	CDS	1422	bepA_2	3.4.-.-		Beta-barrel assembly-enhancing protease
+NHIKOAIL_00934	CDS	624				hypothetical protein
+NHIKOAIL_00935	CDS	306	nfuA			Fe/S biogenesis protein NfuA
+NHIKOAIL_00936	CDS	1125				Iron-sulfur cluster carrier protein
+NHIKOAIL_00937	CDS	963	ppx2	3.6.1.11	COG0248	Exopolyphosphatase 2
+NHIKOAIL_00938	CDS	843	prmC_1	2.1.1.297		Release factor glutamine methyltransferase
+NHIKOAIL_00939	CDS	735	ubiE	2.1.1.163	COG2226	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+NHIKOAIL_00940	CDS	1143				ISAs1 family transposase ISChth1
+NHIKOAIL_00941	CDS	825				hypothetical protein
+NHIKOAIL_00942	CDS	984	pfkA	2.7.1.11	COG0205	ATP-dependent 6-phosphofructokinase 1
+NHIKOAIL_00943	CDS	966				hypothetical protein
+NHIKOAIL_00944	CDS	681	aat	2.3.2.6		Leucyl/phenylalanyl-tRNA--protein transferase
+NHIKOAIL_00945	CDS	516				hypothetical protein
+NHIKOAIL_00946	CDS	1005	auaH	1.1.1.394		Aurachin B dehydrogenase
+NHIKOAIL_00947	CDS	231				hypothetical protein
+NHIKOAIL_00948	CDS	252				hypothetical protein
+NHIKOAIL_00949	CDS	300				hypothetical protein
+NHIKOAIL_00950	CDS	426				hypothetical protein
+NHIKOAIL_00951	CDS	654				hypothetical protein
+NHIKOAIL_00952	CDS	1020	mcpQ		COG0840	Methyl-accepting chemotaxis protein McpQ
+NHIKOAIL_00953	CDS	1026				hypothetical protein
+NHIKOAIL_00954	CDS	3390	rcsC_12	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00955	CDS	261				hypothetical protein
+NHIKOAIL_00956	CDS	2445	rcsC_13	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00957	CDS	2091	rcsC_14	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00958	CDS	2478	hdc	4.1.1.22		Histidine decarboxylase
+NHIKOAIL_00959	CDS	486	fruA		COG1299	PTS system fructose-specific EIIABC component
+NHIKOAIL_00960	CDS	1308	hisS	6.1.1.21	COG0124	Histidine--tRNA ligase
+NHIKOAIL_00961	CDS	1236				hypothetical protein
+NHIKOAIL_00962	CDS	429				hypothetical protein
+NHIKOAIL_00963	CDS	1365				hypothetical protein
+NHIKOAIL_00964	CDS	1455				hypothetical protein
+NHIKOAIL_00965	CDS	1269				hypothetical protein
+NHIKOAIL_00966	CDS	2562	btuB_4			Vitamin B12 transporter BtuB
+NHIKOAIL_00967	CDS	210				hypothetical protein
+NHIKOAIL_00968	CDS	1869	glgB_2	2.4.1.18	COG0296	1,4-alpha-glucan branching enzyme GlgB
+NHIKOAIL_00969	CDS	3381		2.7.1.8		Glucosamine kinase
+NHIKOAIL_00970	CDS	2037	glgE2	2.4.99.16	COG0366	Alpha-1,4-glucan:maltose-1-phosphate maltosyltransferase 2
+NHIKOAIL_00971	CDS	2184	glgX	3.2.1.-	COG1523	Glycogen operon protein GlgX 
+NHIKOAIL_00972	CDS	1098	gfo	1.1.99.28		Glucose--fructose oxidoreductase
+NHIKOAIL_00973	CDS	1866				hypothetical protein
+NHIKOAIL_00974	CDS	2658				hypothetical protein
+NHIKOAIL_00975	CDS	384	divK_1			Polar-differentiation response regulator DivK
+NHIKOAIL_00976	CDS	651				hypothetical protein
+NHIKOAIL_00977	CDS	678	kefC_3			Glutathione-regulated potassium-efflux system protein KefC
+NHIKOAIL_00978	tRNA	76				tRNA-Met(cat)
+NHIKOAIL_00979	CDS	309				hypothetical protein
+NHIKOAIL_00980	CDS	1188				hypothetical protein
+NHIKOAIL_00981	CDS	822				hypothetical protein
+NHIKOAIL_00982	CDS	867				hypothetical protein
+NHIKOAIL_00983	CDS	804				hypothetical protein
+NHIKOAIL_00984	CDS	1830				hypothetical protein
+NHIKOAIL_00985	CDS	417	groS_1			10 kDa chaperonin
+NHIKOAIL_00986	CDS	93				hypothetical protein
+NHIKOAIL_00987	CDS	750	pgl	3.1.1.31	COG0363	6-phosphogluconolactonase
+NHIKOAIL_00988	CDS	1059	sasA_6	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_00989	CDS	747	mshB	3.5.1.103		1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase
+NHIKOAIL_00990	CDS	213				hypothetical protein
+NHIKOAIL_00991	CDS	945	btuF_1			Vitamin B12-binding protein
+NHIKOAIL_00992	CDS	543				hypothetical protein
+NHIKOAIL_00993	CDS	1191				hypothetical protein
+NHIKOAIL_00994	CDS	1977	btuB_5			Vitamin B12 transporter BtuB
+NHIKOAIL_00995	CDS	396				hypothetical protein
+NHIKOAIL_00996	CDS	1956	rcsC_15	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_00997	CDS	849	dhmA2	3.8.1.5		Haloalkane dehalogenase 2
+NHIKOAIL_00998	CDS	960				hypothetical protein
+NHIKOAIL_00999	CDS	684				hypothetical protein
+NHIKOAIL_01000	CDS	702				hypothetical protein
+NHIKOAIL_01001	CDS	648				hypothetical protein
+NHIKOAIL_01002	CDS	1137			COG4663	Monocarboxylate 2-oxoacid-binding periplasmic protein
+NHIKOAIL_01003	CDS	726		1.-.-.-		putative oxidoreductase
+NHIKOAIL_01004	CDS	795				hypothetical protein
+NHIKOAIL_01005	CDS	777	trmH_1	2.1.1.34		tRNA (guanosine(18)-2'-O)-methyltransferase
+NHIKOAIL_01006	CDS	1623				hypothetical protein
+NHIKOAIL_01007	CDS	492				hypothetical protein
+NHIKOAIL_01008	CDS	207				hypothetical protein
+NHIKOAIL_01009	CDS	1347	rsmB	2.1.1.176	COG0144	Ribosomal RNA small subunit methyltransferase B
+NHIKOAIL_01010	CDS	1194				hypothetical protein
+NHIKOAIL_01011	CDS	564				hypothetical protein
+NHIKOAIL_01012	CDS	750				hypothetical protein
+NHIKOAIL_01013	CDS	315				hypothetical protein
+NHIKOAIL_01014	CDS	561				hypothetical protein
+NHIKOAIL_01015	CDS	99				hypothetical protein
+NHIKOAIL_01016	CDS	351				hypothetical protein
+NHIKOAIL_01017	CDS	2076	ligA	6.5.1.2	COG0272	DNA ligase
+NHIKOAIL_01018	CDS	183				hypothetical protein
+NHIKOAIL_01019	CDS	612				hypothetical protein
+NHIKOAIL_01020	CDS	3561	smc_1		COG1196	Chromosome partition protein Smc
+NHIKOAIL_01021	CDS	1116				hypothetical protein
+NHIKOAIL_01022	CDS	900	mcp3		COG0840	Methyl-accepting chemotaxis protein 3
+NHIKOAIL_01023	CDS	870				hypothetical protein
+NHIKOAIL_01024	CDS	420				hypothetical protein
+NHIKOAIL_01025	CDS	1176				hypothetical protein
+NHIKOAIL_01026	CDS	108				hypothetical protein
+NHIKOAIL_01027	CDS	3117				hypothetical protein
+NHIKOAIL_01028	CDS	1158				hypothetical protein
+NHIKOAIL_01029	CDS	1794	ggt	3.4.19.13	COG0405	Glutathione hydrolase proenzyme
+NHIKOAIL_01030	CDS	423				hypothetical protein
+NHIKOAIL_01031	CDS	1533	purF	2.4.2.14	COG0034	Amidophosphoribosyltransferase
+NHIKOAIL_01032	CDS	468				hypothetical protein
+NHIKOAIL_01033	CDS	1371				hypothetical protein
+NHIKOAIL_01034	CDS	1383				hypothetical protein
+NHIKOAIL_01035	CDS	249				hypothetical protein
+NHIKOAIL_01036	CDS	1224	ald	1.4.1.1	COG0686	Alanine dehydrogenase
+NHIKOAIL_01037	CDS	921				hypothetical protein
+NHIKOAIL_01038	CDS	618				hypothetical protein
+NHIKOAIL_01039	CDS	1545	lysS	6.1.1.6		Lysine--tRNA ligase
+NHIKOAIL_01040	CDS	972	pal_3			Peptidoglycan-associated lipoprotein
+NHIKOAIL_01041	CDS	255	rpsT		COG0268	30S ribosomal protein S20
+NHIKOAIL_01042	CDS	897				hypothetical protein
+NHIKOAIL_01043	CDS	501				hypothetical protein
+NHIKOAIL_01044	CDS	312				hypothetical protein
+NHIKOAIL_01045	CDS	315				hypothetical protein
+NHIKOAIL_01046	CDS	1239	atpB			ATP synthase subunit a
+NHIKOAIL_01047	CDS	231	atpE			ATP synthase subunit c
+NHIKOAIL_01048	CDS	510	atpF			ATP synthase subunit b, sodium ion specific
+NHIKOAIL_01049	CDS	573	atpH			ATP synthase subunit delta
+NHIKOAIL_01050	CDS	1656	atpA	7.1.2.2	COG0056	ATP synthase subunit alpha
+NHIKOAIL_01051	CDS	927	atpG		COG0224	ATP synthase gamma chain
+NHIKOAIL_01052	tRNA	92				tRNA-Ser(gct)
+NHIKOAIL_01053	CDS	1479				hypothetical protein
+NHIKOAIL_01054	CDS	1266	recD2	3.6.4.12		ATP-dependent RecD-like DNA helicase
+NHIKOAIL_01055	CDS	1221				hypothetical protein
+NHIKOAIL_01056	CDS	807	btuF_2			Vitamin B12-binding protein
+NHIKOAIL_01057	CDS	1071				hypothetical protein
+NHIKOAIL_01058	CDS	1476	mpl	6.3.2.45	COG0773	UDP-N-acetylmuramate--L-alanyl-gamma-D-glutamyl-meso-2,6-diaminoheptandioate ligase
+NHIKOAIL_01059	CDS	1206				hypothetical protein
+NHIKOAIL_01060	CDS	3927	mdtB_3			Multidrug resistance protein MdtB
+NHIKOAIL_01061	CDS	1155	mdtE_2			Multidrug resistance protein MdtE
+NHIKOAIL_01062	CDS	1683				hypothetical protein
+NHIKOAIL_01063	CDS	702				hypothetical protein
+NHIKOAIL_01064	CDS	1344	ubiB_1	2.7.-.-		protein kinase UbiB
+NHIKOAIL_01065	CDS	639				hypothetical protein
+NHIKOAIL_01066	CDS	1305	ynjE	2.8.1.1	COG2897	Thiosulfate sulfurtransferase YnjE
+NHIKOAIL_01067	CDS	432	yccU		COG1832	putative protein YccU
+NHIKOAIL_01068	CDS	2592	leuS	6.1.1.4		Leucine--tRNA ligase
+NHIKOAIL_01069	CDS	759	bshB1	3.5.1.-	COG2120	N-acetyl-alpha-D-glucosaminyl L-malate deacetylase 1
+NHIKOAIL_01070	CDS	657				hypothetical protein
+NHIKOAIL_01071	CDS	579	efp		COG0231	Elongation factor P
+NHIKOAIL_01072	CDS	630	accB		COG0511	Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+NHIKOAIL_01073	CDS	1368	accC	6.3.4.14	COG0439	Biotin carboxylase
+NHIKOAIL_01074	CDS	1215		2.6.1.1	COG0436	Aspartate/prephenate aminotransferase
+NHIKOAIL_01075	CDS	1248				hypothetical protein
+NHIKOAIL_01076	CDS	537				hypothetical protein
+NHIKOAIL_01077	CDS	1617				hypothetical protein
+NHIKOAIL_01078	CDS	1068				hypothetical protein
+NHIKOAIL_01079	CDS	798				hypothetical protein
+NHIKOAIL_01080	CDS	2697	tolB_3			Tol-Pal system protein TolB
+NHIKOAIL_01081	CDS	795				hypothetical protein
+NHIKOAIL_01082	CDS	777	ybfF	3.1.-.-	COG0596	Esterase YbfF
+NHIKOAIL_01083	CDS	804	fabG_3	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+NHIKOAIL_01084	CDS	1005				hypothetical protein
+NHIKOAIL_01085	tRNA	74				tRNA-Arg(cct)
+NHIKOAIL_01086	CDS	201				hypothetical protein
+NHIKOAIL_01087	CDS	750	dinG_2	3.1.-.-		3'-5' exonuclease DinG
+NHIKOAIL_01088	CDS	471				hypothetical protein
+NHIKOAIL_01089	CDS	840	soj_3	3.6.-.-	COG1192	Sporulation initiation inhibitor protein Soj
+NHIKOAIL_01090	CDS	1017				hypothetical protein
+NHIKOAIL_01091	CDS	555				hypothetical protein
+NHIKOAIL_01092	CDS	654	dgk	2.7.1.113	COG1428	Deoxyguanosine kinase
+NHIKOAIL_01093	CDS	270				hypothetical protein
+NHIKOAIL_01094	CDS	684				hypothetical protein
+NHIKOAIL_01095	CDS	1161	carA	6.3.5.5	COG0505	Carbamoyl-phosphate synthase small chain
+NHIKOAIL_01096	CDS	2829	carB	6.3.5.5	COG0458	Carbamoyl-phosphate synthase large chain
+NHIKOAIL_01097	CDS	840				hypothetical protein
+NHIKOAIL_01098	CDS	738	psd	4.1.1.65		Phosphatidylserine decarboxylase proenzyme
+NHIKOAIL_01099	CDS	876				hypothetical protein
+NHIKOAIL_01100	CDS	279	purS	6.3.5.3	COG1828	Phosphoribosylformylglycinamidine synthase subunit PurS
+NHIKOAIL_01101	CDS	339	clpS			ATP-dependent Clp protease adapter protein ClpS
+NHIKOAIL_01102	CDS	1203	tolB_4			Tol-Pal system protein TolB
+NHIKOAIL_01103	CDS	210	cspG		COG1278	Cold shock-like protein CspG
+NHIKOAIL_01104	CDS	213				hypothetical protein
+NHIKOAIL_01105	CDS	201				hypothetical protein
+NHIKOAIL_01106	CDS	843	dapD	2.3.1.117		2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase
+NHIKOAIL_01107	CDS	159				hypothetical protein
+NHIKOAIL_01108	CDS	1968	dnaG	2.7.7.-	COG0358	DNA primase
+NHIKOAIL_01109	CDS	1842				hypothetical protein
+NHIKOAIL_01110	CDS	699	puuD	3.5.1.94	COG2071	Gamma-glutamyl-gamma-aminobutyrate hydrolase PuuD
+NHIKOAIL_01111	CDS	330				hypothetical protein
+NHIKOAIL_01112	CDS	462				hypothetical protein
+NHIKOAIL_01113	CDS	738				hypothetical protein
+NHIKOAIL_01114	CDS	1398				hypothetical protein
+NHIKOAIL_01115	CDS	1674				hypothetical protein
+NHIKOAIL_01116	CDS	312				hypothetical protein
+NHIKOAIL_01117	CDS	4782	dnaE2	2.7.7.7		Error-prone DNA polymerase
+NHIKOAIL_01118	CDS	1143	xylA	5.3.1.5		Xylose isomerase
+NHIKOAIL_01119	CDS	1503	xylB	2.7.1.17	COG1070	Xylulose kinase
+NHIKOAIL_01120	CDS	1167				hypothetical protein
+NHIKOAIL_01121	CDS	2031				hypothetical protein
+NHIKOAIL_01122	CDS	828	lgt	2.5.1.145	COG0682	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase
+NHIKOAIL_01123	CDS	348				hypothetical protein
+NHIKOAIL_01124	CDS	1689	argS	6.1.1.19		Arginine--tRNA ligase
+NHIKOAIL_01125	CDS	135				hypothetical protein
+NHIKOAIL_01126	CDS	321				hypothetical protein
+NHIKOAIL_01127	CDS	1371	rarA		COG2256	Replication-associated recombination protein A
+NHIKOAIL_01128	CDS	861		2.8.1.1	COG2897	Putative thiosulfate sulfurtransferase
+NHIKOAIL_01129	CDS	564				hypothetical protein
+NHIKOAIL_01130	CDS	1347	siaT		COG1593	Sialic acid TRAP transporter permease protein SiaT
+NHIKOAIL_01131	CDS	1698				hypothetical protein
+NHIKOAIL_01132	CDS	870				hypothetical protein
+NHIKOAIL_01133	CDS	645	yhfK	4.-.-.-	COG0702	putative sugar epimerase YhfK
+NHIKOAIL_01134	CDS	852				hypothetical protein
+NHIKOAIL_01135	CDS	894	COQ3_2	2.1.1.222		Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+NHIKOAIL_01136	CDS	2553				hypothetical protein
+NHIKOAIL_01137	CDS	1317				hypothetical protein
+NHIKOAIL_01138	CDS	1803	pglK_2	7.5.2.5	COG1132	Protein glycosylation K
+NHIKOAIL_01139	CDS	879				hypothetical protein
+NHIKOAIL_01140	CDS	891				hypothetical protein
+NHIKOAIL_01141	CDS	1182	mshA_9	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_01142	CDS	963				hypothetical protein
+NHIKOAIL_01143	CDS	993				hypothetical protein
+NHIKOAIL_01144	CDS	1074	nrnA	3.1.-.-	COG0618	Bifunctional oligoribonuclease and PAP phosphatase NrnA
+NHIKOAIL_01145	CDS	1071	pdxA2	1.1.1.408	COG1995	D-threonate 4-phosphate dehydrogenase
+NHIKOAIL_01146	CDS	684	ftsE		COG2884	Cell division ATP-binding protein FtsE
+NHIKOAIL_01147	CDS	990				hypothetical protein
+NHIKOAIL_01148	CDS	480				hypothetical protein
+NHIKOAIL_01149	CDS	378				hypothetical protein
+NHIKOAIL_01150	CDS	1557				hypothetical protein
+NHIKOAIL_01151	CDS	519				hypothetical protein
+NHIKOAIL_01152	CDS	1023	hemB	4.2.1.24	COG0113	Delta-aminolevulinic acid dehydratase
+NHIKOAIL_01153	CDS	1551	cysS	6.1.1.16	COG0215	Cysteine--tRNA ligase
+NHIKOAIL_01154	CDS	357				hypothetical protein
+NHIKOAIL_01155	CDS	672				hypothetical protein
+NHIKOAIL_01156	CDS	321	yidD			Putative membrane protein insertion efficiency factor
+NHIKOAIL_01157	CDS	384	hisI	3.5.4.19		Phosphoribosyl-AMP cyclohydrolase
+NHIKOAIL_01158	CDS	1437	putP		COG0591	High-affinity proline transporter PutP
+NHIKOAIL_01159	CDS	150				hypothetical protein
+NHIKOAIL_01160	CDS	621				hypothetical protein
+NHIKOAIL_01161	CDS	1362	steT		COG0531	Serine/threonine exchanger SteT
+NHIKOAIL_01162	CDS	495	crtK-2		COG3476	Tryptophan-rich protein TspO
+NHIKOAIL_01163	CDS	1530				hypothetical protein
+NHIKOAIL_01164	CDS	204				hypothetical protein
+NHIKOAIL_01165	CDS	426				hypothetical protein
+NHIKOAIL_01166	CDS	930				hypothetical protein
+NHIKOAIL_01167	CDS	1176	rip3		COG0517	Putative zinc metalloprotease Rip3
+NHIKOAIL_01168	CDS	1431	pyk	2.7.1.40	COG0469	Pyruvate kinase
+NHIKOAIL_01169	CDS	2973	cpoB_1			Cell division coordinator CpoB
+NHIKOAIL_01170	CDS	2028	ftsH_1	3.4.24.-		ATP-dependent zinc metalloprotease FtsH
+NHIKOAIL_01171	CDS	375	rpsL			30S ribosomal protein S12
+NHIKOAIL_01172	CDS	474	rpsG			30S ribosomal protein S7
+NHIKOAIL_01173	CDS	2121	fusA_1		COG0480	Elongation factor G
+NHIKOAIL_01174	CDS	1191	tufA_1		COG0050	Elongation factor Tu-A
+NHIKOAIL_01175	CDS	312	rpsJ		COG0051	30S ribosomal protein S10
+NHIKOAIL_01176	CDS	627	rplC			50S ribosomal protein L3
+NHIKOAIL_01177	CDS	648	rplD			50S ribosomal protein L4
+NHIKOAIL_01178	CDS	300	rplW			50S ribosomal protein L23
+NHIKOAIL_01179	CDS	852	rplB		COG0090	50S ribosomal protein L2
+NHIKOAIL_01180	CDS	294	rpsS		COG0185	30S ribosomal protein S19
+NHIKOAIL_01181	CDS	366	rplV		COG0091	50S ribosomal protein L22
+NHIKOAIL_01182	CDS	711	rpsC		COG0092	30S ribosomal protein S3
+NHIKOAIL_01183	CDS	438	rplP		COG0197	50S ribosomal protein L16
+NHIKOAIL_01184	CDS	210	rpmC			50S ribosomal protein L29
+NHIKOAIL_01185	CDS	309	rpsQ			30S ribosomal protein S17
+NHIKOAIL_01186	CDS	369	rplN		COG0093	50S ribosomal protein L14
+NHIKOAIL_01187	CDS	372	rplX			50S ribosomal protein L24
+NHIKOAIL_01188	CDS	576	rplE		COG0094	50S ribosomal protein L5
+NHIKOAIL_01189	CDS	270	rpsN2		COG0199	Alternate 30S ribosomal protein S14
+NHIKOAIL_01190	CDS	402	rpsH		COG0096	30S ribosomal protein S8
+NHIKOAIL_01191	CDS	555	rplF			50S ribosomal protein L6
+NHIKOAIL_01192	CDS	360	rplR			50S ribosomal protein L18
+NHIKOAIL_01193	CDS	528	rpsE		COG0098	30S ribosomal protein S5
+NHIKOAIL_01194	CDS	471	rplO			50S ribosomal protein L15
+NHIKOAIL_01195	CDS	1332	secY		COG0201	Protein translocase subunit SecY
+NHIKOAIL_01196	CDS	825	map	3.4.11.18	COG0024	Methionine aminopeptidase 1
+NHIKOAIL_01197	CDS	222	infA			Translation initiation factor IF-1
+NHIKOAIL_01198	CDS	384	rpsM		COG0099	30S ribosomal protein S13
+NHIKOAIL_01199	CDS	405	rpsK			30S ribosomal protein S11
+NHIKOAIL_01200	CDS	603	rpsD		COG0522	30S ribosomal protein S4
+NHIKOAIL_01201	CDS	987	rpoA	2.7.7.6	COG0202	DNA-directed RNA polymerase subunit alpha
+NHIKOAIL_01202	CDS	594				hypothetical protein
+NHIKOAIL_01203	CDS	2241	relA	2.7.6.5	COG0317	GTP pyrophosphokinase
+NHIKOAIL_01204	CDS	381	ihfB			Integration host factor subunit beta
+NHIKOAIL_01205	CDS	432	yrrK	3.1.-.-	COG0816	Putative pre-16S rRNA nuclease
+NHIKOAIL_01206	CDS	1041				hypothetical protein
+NHIKOAIL_01207	CDS	540		2.7.7.53	COG0537	AP-4-A phosphorylase
+NHIKOAIL_01208	CDS	834	yciV	3.1.13.-	COG0613	5'-3' exoribonuclease
+NHIKOAIL_01209	CDS	471	ribH	2.5.1.78	COG0054	6,7-dimethyl-8-ribityllumazine synthase
+NHIKOAIL_01210	tRNA	76				tRNA-His(gtg)
+NHIKOAIL_01211	tRNA	78				tRNA-Glu(ttc)
+NHIKOAIL_01212	CDS	1152				hypothetical protein
+NHIKOAIL_01213	CDS	237				hypothetical protein
+NHIKOAIL_01214	CDS	678				hypothetical protein
+NHIKOAIL_01215	CDS	561	msrA2	1.8.4.11		Peptide methionine sulfoxide reductase MsrA 2
+NHIKOAIL_01216	CDS	429	ndk	2.7.4.6		Nucleoside diphosphate kinase
+NHIKOAIL_01217	CDS	1236				hypothetical protein
+NHIKOAIL_01218	CDS	246				hypothetical protein
+NHIKOAIL_01219	CDS	1434	dac	3.4.16.4		D-alanyl-D-alanine carboxypeptidase
+NHIKOAIL_01220	CDS	468				hypothetical protein
+NHIKOAIL_01221	CDS	897	dapA_1	4.3.3.7	COG0329	4-hydroxy-tetrahydrodipicolinate synthase
+NHIKOAIL_01222	CDS	741	dapB	1.17.1.8		4-hydroxy-tetrahydrodipicolinate reductase
+NHIKOAIL_01223	tRNA	74				tRNA-Ala(ggc)
+NHIKOAIL_01224	CDS	1392	phr	4.1.99.3	COG0415	Deoxyribodipyrimidine photo-lyase
+NHIKOAIL_01225	CDS	267				hypothetical protein
+NHIKOAIL_01226	CDS	114				hypothetical protein
+NHIKOAIL_01227	CDS	204				hypothetical protein
+NHIKOAIL_01228	CDS	1410				hypothetical protein
+NHIKOAIL_01229	CDS	549				hypothetical protein
+NHIKOAIL_01230	CDS	1260				hypothetical protein
+NHIKOAIL_01231	CDS	426				hypothetical protein
+NHIKOAIL_01232	CDS	249				hypothetical protein
+NHIKOAIL_01233	CDS	516				hypothetical protein
+NHIKOAIL_01234	tmRNA	367	ssrA			transfer-messenger RNA, SsrA
+NHIKOAIL_01235	CDS	846	mazG	3.6.1.8	COG1694	Nucleoside triphosphate pyrophosphohydrolase
+NHIKOAIL_01236	CDS	603				hypothetical protein
+NHIKOAIL_01237	CDS	405				hypothetical protein
+NHIKOAIL_01238	CDS	504				hypothetical protein
+NHIKOAIL_01239	CDS	1248	acdA	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+NHIKOAIL_01240	CDS	582	dps	1.16.-.-	COG0783	DNA protection during starvation protein
+NHIKOAIL_01241	CDS	2589	topA	5.6.2.1	COG0550	DNA topoisomerase 1
+NHIKOAIL_01242	CDS	975	rsgA	3.6.1.-	COG1162	Small ribosomal subunit biogenesis GTPase RsgA
+NHIKOAIL_01243	CDS	279				hypothetical protein
+NHIKOAIL_01244	CDS	243				hypothetical protein
+NHIKOAIL_01245	CDS	1980	rcsC_16	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_01246	CDS	1428	cbs	4.2.1.22	COG0031	Putative cystathionine beta-synthase
+NHIKOAIL_01247	CDS	1086				hypothetical protein
+NHIKOAIL_01248	CDS	1179	sucC	6.2.1.5	COG0045	Succinate--CoA ligase [ADP-forming] subunit beta
+NHIKOAIL_01249	CDS	1107				hypothetical protein
+NHIKOAIL_01250	CDS	1293	hutI_1	3.5.2.7		Imidazolonepropionase
+NHIKOAIL_01251	CDS	1221	hutI_2	3.5.2.7		Imidazolonepropionase
+NHIKOAIL_01252	CDS	780				hypothetical protein
+NHIKOAIL_01253	CDS	393				hypothetical protein
+NHIKOAIL_01254	CDS	1416				hypothetical protein
+NHIKOAIL_01255	CDS	1206	kamA	5.4.3.2	COG1509	L-lysine 2,3-aminomutase
+NHIKOAIL_01256	CDS	219				hypothetical protein
+NHIKOAIL_01257	CDS	327				hypothetical protein
+NHIKOAIL_01258	CDS	1002	ddl_1	6.3.2.4		D-alanine--D-alanine ligase
+NHIKOAIL_01259	CDS	315				hypothetical protein
+NHIKOAIL_01260	CDS	1614				hypothetical protein
+NHIKOAIL_01261	CDS	2397	ppsA	2.7.9.2		Phosphoenolpyruvate synthase
+NHIKOAIL_01262	CDS	1278	ahcY	3.3.1.1	COG0499	Adenosylhomocysteinase
+NHIKOAIL_01263	CDS	219				hypothetical protein
+NHIKOAIL_01264	CDS	723	alaS_1	6.1.1.7	COG0013	Alanine--tRNA ligase
+NHIKOAIL_01265	CDS	783				hypothetical protein
+NHIKOAIL_01266	CDS	2109		3.5.1.93		Glutaryl-7-aminocephalosporanic-acid acylase
+NHIKOAIL_01267	CDS	477				hypothetical protein
+NHIKOAIL_01268	CDS	345	fdxA_2		COG1146	Ferredoxin-1
+NHIKOAIL_01269	CDS	1035	ruvB	3.6.4.12	COG2255	Holliday junction ATP-dependent DNA helicase RuvB
+NHIKOAIL_01270	CDS	1515	rpoN		COG1508	RNA polymerase sigma-54 factor
+NHIKOAIL_01271	CDS	798				hypothetical protein
+NHIKOAIL_01272	CDS	1515	sufS	2.8.1.7	COG0520	Cysteine desulfurase SufS
+NHIKOAIL_01273	CDS	2124	fusA_2		COG0480	Elongation factor G
+NHIKOAIL_01274	CDS	492				hypothetical protein
+NHIKOAIL_01275	CDS	606				hypothetical protein
+NHIKOAIL_01276	CDS	765	fabG_4	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+NHIKOAIL_01277	CDS	702	OSGEPL1	2.3.1.234		tRNA N6-adenosine threonylcarbamoyltransferase, mitochondrial
+NHIKOAIL_01278	CDS	846	accD	2.1.3.15	COG0777	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta
+NHIKOAIL_01279	CDS	2391				hypothetical protein
+NHIKOAIL_01280	CDS	1074				hypothetical protein
+NHIKOAIL_01281	CDS	1839				hypothetical protein
+NHIKOAIL_01282	CDS	366				hypothetical protein
+NHIKOAIL_01283	CDS	2076	uvrB			UvrABC system protein B
+NHIKOAIL_01284	CDS	1227	metC_1	4.4.1.13	COG0626	Cystathionine beta-lyase
+NHIKOAIL_01285	CDS	255				hypothetical protein
+NHIKOAIL_01286	CDS	1368	pdp	2.4.2.2		Pyrimidine-nucleoside phosphorylase
+NHIKOAIL_01287	CDS	789				hypothetical protein
+NHIKOAIL_01288	CDS	486				hypothetical protein
+NHIKOAIL_01289	CDS	951				hypothetical protein
+NHIKOAIL_01290	CDS	603				hypothetical protein
+NHIKOAIL_01291	CDS	513	moaC	4.6.1.17	COG0315	Cyclic pyranopterin monophosphate synthase
+NHIKOAIL_01292	CDS	1641	nfdA_2	3.5.1.91		N-substituted formamide deformylase
+NHIKOAIL_01293	CDS	4476	gltB	1.4.7.1		Ferredoxin-dependent glutamate synthase 1
+NHIKOAIL_01294	CDS	1479	gltD	1.4.1.13	COG0493	Glutamate synthase [NADPH] small chain
+NHIKOAIL_01295	CDS	453	dtd	3.1.1.96	COG1490	D-aminoacyl-tRNA deacylase
+NHIKOAIL_01296	CDS	612		3.6.1.66		dITP/XTP pyrophosphatase
+NHIKOAIL_01297	CDS	213				hypothetical protein
+NHIKOAIL_01298	CDS	3732	kgd	2.2.1.5	COG0508	Multifunctional 2-oxoglutarate metabolism enzyme
+NHIKOAIL_01299	CDS	1020	oleD	1.1.1.412	COG0451	2-alkyl-3-oxoalkanoate reductase
+NHIKOAIL_01300	CDS	762	walR		COG0745	Transcriptional regulatory protein WalR
+NHIKOAIL_01301	CDS	267				hypothetical protein
+NHIKOAIL_01302	CDS	438				hypothetical protein
+NHIKOAIL_01303	CDS	783	recO			DNA repair protein RecO
+NHIKOAIL_01304	CDS	651	lexA_2	3.4.21.88		LexA repressor
+NHIKOAIL_01305	CDS	627				hypothetical protein
+NHIKOAIL_01306	CDS	1452	cry			Cryptochrome DASH
+NHIKOAIL_01307	CDS	162				hypothetical protein
+NHIKOAIL_01308	tRNA	74				tRNA-Ala(cgc)
+NHIKOAIL_01309	CDS	672				hypothetical protein
+NHIKOAIL_01310	CDS	3132	mdtC			Multidrug resistance protein MdtC
+NHIKOAIL_01311	CDS	1362	mdtA_2			Multidrug resistance protein MdtA
+NHIKOAIL_01312	CDS	612	yigZ		COG1739	IMPACT family member YigZ
+NHIKOAIL_01313	CDS	447	rnhA	3.1.26.4	COG0328	Ribonuclease H
+NHIKOAIL_01314	CDS	1020	obg	3.6.5.-		GTPase Obg
+NHIKOAIL_01315	CDS	987				hypothetical protein
+NHIKOAIL_01316	CDS	1143	egtE	4.4.-.-		hercynylcysteine sulfoxide lyase
+NHIKOAIL_01317	CDS	729				hypothetical protein
+NHIKOAIL_01318	CDS	1140	rluD	5.4.99.23	COG0564	Ribosomal large subunit pseudouridine synthase D
+NHIKOAIL_01319	CDS	501				hypothetical protein
+NHIKOAIL_01320	CDS	525				hypothetical protein
+NHIKOAIL_01321	CDS	1704				hypothetical protein
+NHIKOAIL_01322	CDS	414	mecI			Methicillin resistance regulatory protein MecI
+NHIKOAIL_01323	CDS	714				hypothetical protein
+NHIKOAIL_01324	CDS	894		3.5.3.18	COG1834	N(G),N(G)-dimethylarginine dimethylaminohydrolase
+NHIKOAIL_01325	CDS	849				hypothetical protein
+NHIKOAIL_01326	CDS	945	btuD_3	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+NHIKOAIL_01327	CDS	942	mscS_2		COG0668	Small-conductance mechanosensitive channel
+NHIKOAIL_01328	CDS	1197	pgk/tpi		COG0126	Bifunctional PGK/TIM
+NHIKOAIL_01329	CDS	1005	gap	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase
+NHIKOAIL_01330	CDS	717				hypothetical protein
+NHIKOAIL_01331	CDS	1380	atoC_1		COG2204	Regulatory protein AtoC
+NHIKOAIL_01332	CDS	744	lolD_1	3.6.3.-	COG1136	Lipoprotein-releasing system ATP-binding protein LolD
+NHIKOAIL_01333	CDS	642	lon_1	3.4.21.53		Lon protease
+NHIKOAIL_01334	CDS	858	ytnP	3.1.1.-	COG0491	putative quorum-quenching lactonase YtnP
+NHIKOAIL_01335	CDS	258				hypothetical protein
+NHIKOAIL_01336	CDS	1173				hypothetical protein
+NHIKOAIL_01337	CDS	624				hypothetical protein
+NHIKOAIL_01338	CDS	1899		6.2.1.3	COG1022	Long-chain-fatty-acid--CoA ligase FadD15
+NHIKOAIL_01339	CDS	2409	fadN	1.1.1.35	COG1024	putative 3-hydroxyacyl-CoA dehydrogenase
+NHIKOAIL_01340	CDS	1206	fadA	2.3.1.16	COG0183	3-ketoacyl-CoA thiolase
+NHIKOAIL_01341	CDS	747		1.-.-.-		putative oxidoreductase
+NHIKOAIL_01342	CDS	2631	fadE	1.3.8.7	COG1960	Acyl-coenzyme A dehydrogenase
+NHIKOAIL_01343	CDS	855	fadH	1.3.1.34	COG1028	putative 2,4-dienoyl-CoA reductase
+NHIKOAIL_01344	CDS	744				hypothetical protein
+NHIKOAIL_01345	CDS	1386	hemY	1.3.3.4	COG1232	Protoporphyrinogen oxidase
+NHIKOAIL_01346	CDS	195				hypothetical protein
+NHIKOAIL_01347	CDS	153				hypothetical protein
+NHIKOAIL_01348	CDS	1683		2.1.3.1	COG4799	Methylmalonyl-CoA carboxyltransferase 12S subunit
+NHIKOAIL_01349	CDS	438	yhfA		COG1765	Protein YhfA
+NHIKOAIL_01350	CDS	567				hypothetical protein
+NHIKOAIL_01351	CDS	693				hypothetical protein
+NHIKOAIL_01352	CDS	765	rbn	3.1.26.11		Ribonuclease BN
+NHIKOAIL_01353	CDS	1068	sdsA_1	2.5.1.84		All-trans-nonaprenyl-diphosphate synthase (geranyl-diphosphate specific)
+NHIKOAIL_01354	CDS	1026	hmuU		COG0609	Hemin transport system permease protein HmuU
+NHIKOAIL_01355	CDS	963	btuF_3			Vitamin B12-binding protein
+NHIKOAIL_01356	CDS	1539	atoC_2		COG2204	Regulatory protein AtoC
+NHIKOAIL_01357	CDS	918	deoC	4.1.2.4	COG0274	Deoxyribose-phosphate aldolase
+NHIKOAIL_01358	CDS	1590	aldA	1.2.1.3		Putative aldehyde dehydrogenase AldA
+NHIKOAIL_01359	CDS	765	betB	1.2.1.8		NAD/NADP-dependent betaine aldehyde dehydrogenase
+NHIKOAIL_01360	CDS	537				hypothetical protein
+NHIKOAIL_01361	CDS	1413	ddc	4.1.1.86	COG0076	L-2,4-diaminobutyrate decarboxylase
+NHIKOAIL_01362	CDS	1077	mnmC	2.1.1.61		tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC
+NHIKOAIL_01363	CDS	1140	thiO	1.4.3.19	COG0665	Glycine oxidase
+NHIKOAIL_01364	CDS	243				hypothetical protein
+NHIKOAIL_01365	CDS	822	thiG	2.8.1.10	COG2022	Thiazole synthase
+NHIKOAIL_01366	CDS	633	thiE_1	2.5.1.3		Thiamine-phosphate synthase
+NHIKOAIL_01367	CDS	873	thiD	2.7.1.49		Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+NHIKOAIL_01368	tRNA	75				tRNA-Arg(gcg)
+NHIKOAIL_01369	CDS	645				hypothetical protein
+NHIKOAIL_01370	CDS	2241	rcsC_17	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_01371	CDS	528	glpE	2.8.1.1		Thiosulfate sulfurtransferase GlpE
+NHIKOAIL_01372	CDS	294				hypothetical protein
+NHIKOAIL_01373	CDS	1557				hypothetical protein
+NHIKOAIL_01374	CDS	2175				hypothetical protein
+NHIKOAIL_01375	CDS	1680	ltrA_2		COG3344	Group II intron-encoded protein LtrA
+NHIKOAIL_01376	CDS	924	yngG	4.1.3.4	COG0119	Hydroxymethylglutaryl-CoA lyase YngG
+NHIKOAIL_01377	CDS	837	lpxH_2	3.6.1.54		UDP-2,3-diacylglucosamine hydrolase
+NHIKOAIL_01378	CDS	1014				hypothetical protein
+NHIKOAIL_01379	CDS	1590				hypothetical protein
+NHIKOAIL_01380	CDS	726				hypothetical protein
+NHIKOAIL_01381	CDS	957	yxlF_2	3.6.3.-	COG1131	putative ABC transporter ATP-binding protein YxlF
+NHIKOAIL_01382	CDS	1131	proB	2.7.2.11	COG0263	Glutamate 5-kinase
+NHIKOAIL_01383	CDS	1281	proA	1.2.1.41	COG0014	Gamma-glutamyl phosphate reductase
+NHIKOAIL_01384	CDS	852				hypothetical protein
+NHIKOAIL_01385	CDS	1650	kefC_4			Glutathione-regulated potassium-efflux system protein KefC
+NHIKOAIL_01386	CDS	1077				hypothetical protein
+NHIKOAIL_01387	CDS	2913	gcvP	1.4.4.2		Glycine dehydrogenase (decarboxylating)
+NHIKOAIL_01388	CDS	279				hypothetical protein
+NHIKOAIL_01389	CDS	1437		4.1.1.105	COG0076	Tryptophan decarboxylase
+NHIKOAIL_01390	CDS	1197				hypothetical protein
+NHIKOAIL_01391	CDS	690	hdl IVa	3.8.1.2		(S)-2-haloacid dehalogenase 4A
+NHIKOAIL_01392	CDS	5181				hypothetical protein
+NHIKOAIL_01393	CDS	2244	bamA_1		COG4775	Outer membrane protein assembly factor BamA
+NHIKOAIL_01394	CDS	1110				hypothetical protein
+NHIKOAIL_01395	CDS	2118				hypothetical protein
+NHIKOAIL_01396	CDS	660	dck	2.7.1.74	COG1428	Deoxyadenosine/deoxycytidine kinase
+NHIKOAIL_01397	CDS	513				hypothetical protein
+NHIKOAIL_01398	CDS	966		1.1.1.184		Aldo/keto reductase
+NHIKOAIL_01399	CDS	1176	csd_1	2.8.1.7		putative cysteine desulfurase
+NHIKOAIL_01400	CDS	2310	metE	2.1.1.14	COG0620	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase
+NHIKOAIL_01401	CDS	996	thadh	4.3.1.16		L-threo-3-hydroxyaspartate ammonia-lyase
+NHIKOAIL_01402	CDS	288				hypothetical protein
+NHIKOAIL_01403	CDS	1365				hypothetical protein
+NHIKOAIL_01404	CDS	1356	epsF		COG1459	Type II secretion system protein F
+NHIKOAIL_01405	CDS	2133				hypothetical protein
+NHIKOAIL_01406	CDS	477				IS630 family transposase ISMae29
+NHIKOAIL_01407	CDS	666				IS630 family transposase ISMae29
+NHIKOAIL_01408	CDS	537				hypothetical protein
+NHIKOAIL_01409	CDS	606				hypothetical protein
+NHIKOAIL_01410	CDS	1062				hypothetical protein
+NHIKOAIL_01411	CDS	1302				hypothetical protein
+NHIKOAIL_01412	CDS	2211				hypothetical protein
+NHIKOAIL_01413	CDS	993				hypothetical protein
+NHIKOAIL_01414	CDS	1422	sctC			Type 3 secretion system secretin
+NHIKOAIL_01415	CDS	801				hypothetical protein
+NHIKOAIL_01416	CDS	288	gatC	6.3.5.-	COG0721	Glutamyl-tRNA(Gln) amidotransferase subunit C
+NHIKOAIL_01417	CDS	480				hypothetical protein
+NHIKOAIL_01418	CDS	360				hypothetical protein
+NHIKOAIL_01419	CDS	1041				hypothetical protein
+NHIKOAIL_01420	CDS	318				hypothetical protein
+NHIKOAIL_01421	CDS	1755				hypothetical protein
+NHIKOAIL_01422	CDS	633	upp	2.4.2.9		Uracil phosphoribosyltransferase
+NHIKOAIL_01423	CDS	363				hypothetical protein
+NHIKOAIL_01424	CDS	1953				hypothetical protein
+NHIKOAIL_01425	CDS	345	algA_2		COG0662	Alginate biosynthesis protein AlgA
+NHIKOAIL_01426	CDS	588	def	3.5.1.88	COG0242	Peptide deformylase
+NHIKOAIL_01427	CDS	666	COQ5_2	2.1.1.163		2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+NHIKOAIL_01428	CDS	804	hmuV_1	3.6.3.-	COG4559	Hemin import ATP-binding protein HmuV
+NHIKOAIL_01429	CDS	597	yvqK	2.5.1.17	COG2096	Corrinoid adenosyltransferase
+NHIKOAIL_01430	CDS	1311				hypothetical protein
+NHIKOAIL_01431	CDS	969	iaaA_1	3.4.19.5	COG1446	Isoaspartyl peptidase
+NHIKOAIL_01432	CDS	2043	btuB_6			Vitamin B12 transporter BtuB
+NHIKOAIL_01433	CDS	1317				hypothetical protein
+NHIKOAIL_01434	CDS	789	ycfH	3.1.-.-	COG0084	putative metal-dependent hydrolase YcfH
+NHIKOAIL_01435	CDS	2004	dnaK		COG0443	Chaperone protein DnaK
+NHIKOAIL_01436	CDS	606	pgsA	2.7.8.5		CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+NHIKOAIL_01437	CDS	675	pyrE_2	2.4.2.10		Orotate phosphoribosyltransferase
+NHIKOAIL_01438	CDS	1239	pncC	3.5.1.42	COG1058	Nicotinamide-nucleotide amidohydrolase PncC
+NHIKOAIL_01439	CDS	984	pikAII	2.3.1.239		Narbonolide/10-deoxymethynolide synthase PikA2, modules 3 and 4
+NHIKOAIL_01440	CDS	426	osmC	1.11.1.15	COG1764	Peroxiredoxin OsmC
+NHIKOAIL_01441	CDS	852	mscS_3		COG0668	Small-conductance mechanosensitive channel
+NHIKOAIL_01442	CDS	1089				hypothetical protein
+NHIKOAIL_01443	CDS	483				hypothetical protein
+NHIKOAIL_01444	CDS	660				hypothetical protein
+NHIKOAIL_01445	CDS	378				hypothetical protein
+NHIKOAIL_01446	CDS	573	resA_2			Thiol-disulfide oxidoreductase ResA
+NHIKOAIL_01447	CDS	360				hypothetical protein
+NHIKOAIL_01448	CDS	1824	pepF1	3.4.24.-		Oligoendopeptidase F, plasmid
+NHIKOAIL_01449	CDS	639	cmoM	2.1.1.-		tRNA 5-carboxymethoxyuridine methyltransferase
+NHIKOAIL_01450	CDS	960				hypothetical protein
+NHIKOAIL_01451	CDS	909				hypothetical protein
+NHIKOAIL_01452	CDS	693				hypothetical protein
+NHIKOAIL_01453	CDS	2628	clpC		COG0542	Negative regulator of genetic competence ClpC/MecB
+NHIKOAIL_01454	CDS	372			COG0316	Protein
+NHIKOAIL_01455	CDS	663				hypothetical protein
+NHIKOAIL_01456	CDS	1581				hypothetical protein
+NHIKOAIL_01457	CDS	2424	tolB_5			Tol-Pal system protein TolB
+NHIKOAIL_01458	CDS	1353				hypothetical protein
+NHIKOAIL_01459	CDS	630				hypothetical protein
+NHIKOAIL_01460	CDS	519				hypothetical protein
+NHIKOAIL_01461	CDS	474	guaD	3.5.4.3	COG0590	Guanine deaminase
+NHIKOAIL_01462	CDS	1194		2.6.1.1		Aspartate aminotransferase
+NHIKOAIL_01463	CDS	816				hypothetical protein
+NHIKOAIL_01464	CDS	1002	cysQ_1	3.1.3.7	COG1218	3'(2'),5'-bisphosphate nucleotidase CysQ
+NHIKOAIL_01465	CDS	471				hypothetical protein
+NHIKOAIL_01466	CDS	1170				hypothetical protein
+NHIKOAIL_01467	CDS	1203	nhaS3			High-affinity Na(+)/H(+) antiporter NhaS3
+NHIKOAIL_01468	CDS	2544				hypothetical protein
+NHIKOAIL_01469	CDS	717			COG1136	putative ABC transporter ATP-binding protein
+NHIKOAIL_01470	CDS	1443				hypothetical protein
+NHIKOAIL_01471	CDS	1977				hypothetical protein
+NHIKOAIL_01472	CDS	969	pyrB	2.1.3.2	COG0540	Aspartate carbamoyltransferase
+NHIKOAIL_01473	CDS	600	pyrR_1			Bifunctional protein PyrR
+NHIKOAIL_01474	CDS	933			COG1721	putative protein
+NHIKOAIL_01475	CDS	591				hypothetical protein
+NHIKOAIL_01476	CDS	1329				hypothetical protein
+NHIKOAIL_01477	CDS	1260				hypothetical protein
+NHIKOAIL_01478	CDS	324			COG1534	RNA-binding protein
+NHIKOAIL_01479	CDS	912				hypothetical protein
+NHIKOAIL_01480	CDS	828	cysQ_2	3.1.3.7		3'(2'),5'-bisphosphate nucleotidase CysQ
+NHIKOAIL_01481	CDS	732	rnc	3.1.26.3	COG0571	Ribonuclease 3
+NHIKOAIL_01482	CDS	1368	gabD1	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] 1
+NHIKOAIL_01483	CDS	1002				hypothetical protein
+NHIKOAIL_01484	CDS	933				hypothetical protein
+NHIKOAIL_01485	CDS	705				hypothetical protein
+NHIKOAIL_01486	CDS	642				hypothetical protein
+NHIKOAIL_01487	CDS	678	pspB	3.1.3.3	COG0406	Putative phosphoserine phosphatase 2
+NHIKOAIL_01488	CDS	1425	menF_1	5.4.4.2		Isochorismate synthase MenF
+NHIKOAIL_01489	CDS	1776	menD	2.2.1.9	COG1165	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase
+NHIKOAIL_01490	CDS	900				hypothetical protein
+NHIKOAIL_01491	CDS	915	menA	2.5.1.74	COG1575	1,4-dihydroxy-2-naphthoate octaprenyltransferase
+NHIKOAIL_01492	CDS	1107	ykfB	5.1.1.20	COG4948	L-Ala-D/L-Glu epimerase
+NHIKOAIL_01493	CDS	1365	menE_1	6.2.1.26	COG0318	2-succinylbenzoate--CoA ligase
+NHIKOAIL_01494	CDS	612				hypothetical protein
+NHIKOAIL_01495	CDS	1116	rcsC_18	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_01496	CDS	450				hypothetical protein
+NHIKOAIL_01497	CDS	342				hypothetical protein
+NHIKOAIL_01498	CDS	591				hypothetical protein
+NHIKOAIL_01499	CDS	2148	lptD_2			LPS-assembly protein LptD
+NHIKOAIL_01500	CDS	786	lptB_2	3.6.3.-	COG1137	Lipopolysaccharide export system ATP-binding protein LptB
+NHIKOAIL_01501	CDS	1839	glmS	2.6.1.16	COG0449	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+NHIKOAIL_01502	CDS	1074	prfA		COG0216	Peptide chain release factor 1
+NHIKOAIL_01503	CDS	384				hypothetical protein
+NHIKOAIL_01504	CDS	213	rpsR			30S ribosomal protein S18
+NHIKOAIL_01505	CDS	450	rplI			50S ribosomal protein L9
+NHIKOAIL_01506	CDS	1149	mccB	4.4.1.1	COG0626	Cystathionine gamma-lyase
+NHIKOAIL_01507	CDS	1695	dnaA_2			Chromosomal replication initiator protein DnaA
+NHIKOAIL_01508	CDS	1146	hpd	1.13.11.27	COG3185	4-hydroxyphenylpyruvate dioxygenase
+NHIKOAIL_01509	CDS	708				hypothetical protein
+NHIKOAIL_01510	CDS	1014	acuI	1.3.1.84	COG0604	putative acrylyl-CoA reductase AcuI
+NHIKOAIL_01511	CDS	1227	puuB	1.4.3.-		Gamma-glutamylputrescine oxidoreductase
+NHIKOAIL_01512	CDS	480				hypothetical protein
+NHIKOAIL_01513	CDS	3177				hypothetical protein
+NHIKOAIL_01514	CDS	297			COG0776	DNA-binding protein HU
+NHIKOAIL_01515	CDS	1314				hypothetical protein
+NHIKOAIL_01516	CDS	675				hypothetical protein
+NHIKOAIL_01517	CDS	417				hypothetical protein
+NHIKOAIL_01518	CDS	1596	norR_1			Anaerobic nitric oxide reductase transcription regulator NorR
+NHIKOAIL_01519	CDS	429				hypothetical protein
+NHIKOAIL_01520	CDS	426	sufE		COG2166	Cysteine desulfuration protein SufE
+NHIKOAIL_01521	CDS	1257	csd_2	2.8.1.7		putative cysteine desulfurase
+NHIKOAIL_01522	CDS	1341	sufD		COG0719	FeS cluster assembly protein SufD
+NHIKOAIL_01523	CDS	771	sufC		COG0396	putative ATP-dependent transporter SufC
+NHIKOAIL_01524	CDS	1464	sufB		COG0719	FeS cluster assembly protein SufB
+NHIKOAIL_01525	CDS	333			COG0316	Protein
+NHIKOAIL_01526	CDS	108				hypothetical protein
+NHIKOAIL_01527	CDS	402				hypothetical protein
+NHIKOAIL_01528	CDS	504				hypothetical protein
+NHIKOAIL_01529	CDS	483				hypothetical protein
+NHIKOAIL_01530	CDS	468				hypothetical protein
+NHIKOAIL_01531	CDS	1122	hemW		COG0635	Heme chaperone HemW
+NHIKOAIL_01532	CDS	1011				hypothetical protein
+NHIKOAIL_01533	CDS	1176				hypothetical protein
+NHIKOAIL_01534	CDS	1116		2.3.1.-	COG3424	Alpha-pyrone synthesis polyketide synthase-like Pks18
+NHIKOAIL_01535	CDS	2523				hypothetical protein
+NHIKOAIL_01536	CDS	1239	scmP_2	3.5.1.-	COG1473	N-acetylcysteine deacetylase
+NHIKOAIL_01537	CDS	2157				hypothetical protein
+NHIKOAIL_01538	CDS	1665				hypothetical protein
+NHIKOAIL_01539	CDS	954	yrbG		COG0530	Inner membrane protein YrbG
+NHIKOAIL_01540	CDS	804	cdd	3.5.4.5		Cytidine deaminase
+NHIKOAIL_01541	CDS	345				hypothetical protein
+NHIKOAIL_01542	CDS	267				hypothetical protein
+NHIKOAIL_01543	CDS	381				hypothetical protein
+NHIKOAIL_01544	CDS	138				hypothetical protein
+NHIKOAIL_01545	CDS	1497				hypothetical protein
+NHIKOAIL_01546	CDS	1296				hypothetical protein
+NHIKOAIL_01547	CDS	2295	btuD_4	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+NHIKOAIL_01548	CDS	888	panC	6.3.2.1	COG0414	Pantothenate synthetase
+NHIKOAIL_01549	CDS	429	panD	4.1.1.11		Aspartate 1-decarboxylase
+NHIKOAIL_01550	CDS	855	mmgB	1.1.1.157	COG1250	putative 3-hydroxybutyryl-CoA dehydrogenase
+NHIKOAIL_01551	CDS	963			COG1702	PhoH-like protein
+NHIKOAIL_01552	CDS	858	dapF	5.1.1.7	COG0253	Diaminopimelate epimerase
+NHIKOAIL_01553	CDS	2076	surA_1	5.2.1.8		Chaperone SurA
+NHIKOAIL_01554	CDS	912	mtfA			Protein MtfA
+NHIKOAIL_01555	CDS	1242	kynU	3.7.1.3		Kynureninase
+NHIKOAIL_01556	CDS	261	rpmA		COG0211	50S ribosomal protein L27
+NHIKOAIL_01557	CDS	408				hypothetical protein
+NHIKOAIL_01558	CDS	663	ycgM		COG0179	putative protein YcgM
+NHIKOAIL_01559	CDS	606				hypothetical protein
+NHIKOAIL_01560	CDS	1047	ltaA	4.1.2.49		L-allo-threonine aldolase
+NHIKOAIL_01561	CDS	480	greA		COG0782	Transcription elongation factor GreA
+NHIKOAIL_01562	CDS	882	ykfA	3.4.16.-	COG1619	putative murein peptide carboxypeptidase
+NHIKOAIL_01563	CDS	318	lapA			Lipopolysaccharide assembly protein A
+NHIKOAIL_01564	CDS	1101				hypothetical protein
+NHIKOAIL_01565	CDS	624				hypothetical protein
+NHIKOAIL_01566	CDS	678				hypothetical protein
+NHIKOAIL_01567	CDS	924	crtM	2.5.1.96		4,4'-diapophytoene synthase
+NHIKOAIL_01568	CDS	867				hypothetical protein
+NHIKOAIL_01569	CDS	687				putative protein
+NHIKOAIL_01570	CDS	558	dcd	3.5.4.13	COG0717	dCTP deaminase
+NHIKOAIL_01571	CDS	291				hypothetical protein
+NHIKOAIL_01572	CDS	939	dapA_2	4.3.3.7	COG0329	4-hydroxy-tetrahydrodipicolinate synthase
+NHIKOAIL_01573	CDS	831	zupT_2		COG0428	Zinc transporter ZupT
+NHIKOAIL_01574	CDS	348				hypothetical protein
+NHIKOAIL_01575	CDS	546				hypothetical protein
+NHIKOAIL_01576	CDS	741	clpP_1	3.4.21.92	COG0740	ATP-dependent Clp protease proteolytic subunit
+NHIKOAIL_01577	CDS	933	hel		COG2503	Lipoprotein E
+NHIKOAIL_01578	CDS	1692		3.1.-.-	COG0322	Putative bifunctional exonuclease/endonuclease protein
+NHIKOAIL_01579	CDS	1674	ppx	3.6.1.11	COG0248	Exopolyphosphatase
+NHIKOAIL_01580	CDS	495	nuoJ	7.1.1.-	COG0839	NADH-quinone oxidoreductase subunit J
+NHIKOAIL_01581	CDS	306	nuoK	7.1.1.-	COG0713	NADH-quinone oxidoreductase subunit K
+NHIKOAIL_01582	CDS	1998	nuoL	7.1.1.-	COG1009	NADH-quinone oxidoreductase subunit L
+NHIKOAIL_01583	CDS	1635	nuoM	7.1.1.-	COG1008	NADH-quinone oxidoreductase subunit M
+NHIKOAIL_01584	CDS	291	phhB	4.2.1.96	COG2154	Putative pterin-4-alpha-carbinolamine dehydratase
+NHIKOAIL_01585	CDS	1500	ndhB_1	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic
+NHIKOAIL_01586	CDS	555				hypothetical protein
+NHIKOAIL_01587	CDS	1680	norR_2			Anaerobic nitric oxide reductase transcription regulator NorR
+NHIKOAIL_01588	CDS	1338				hypothetical protein
+NHIKOAIL_01589	CDS	1605				hypothetical protein
+NHIKOAIL_01590	CDS	549				hypothetical protein
+NHIKOAIL_01591	CDS	2019				hypothetical protein
+NHIKOAIL_01592	CDS	1953	pknD	2.7.11.1		Serine/threonine-protein kinase PknD
+NHIKOAIL_01593	CDS	1455	alkH	1.2.1.3		Aldehyde dehydrogenase
+NHIKOAIL_01594	CDS	627	pncA	3.5.1.19	COG1335	Nicotinamidase
+NHIKOAIL_01595	CDS	1590			COG0645	putative protein
+NHIKOAIL_01596	CDS	2160	fadJ		COG1024	Fatty acid oxidation complex subunit alpha
+NHIKOAIL_01597	CDS	1302	fadI	2.3.1.16	COG0183	3-ketoacyl-CoA thiolase FadI
+NHIKOAIL_01598	CDS	762	rlmB	2.1.1.185	COG0566	23S rRNA (guanosine-2'-O-)-methyltransferase RlmB
+NHIKOAIL_01599	CDS	1950				hypothetical protein
+NHIKOAIL_01600	CDS	1575	glpD	1.1.5.3		Aerobic glycerol-3-phosphate dehydrogenase
+NHIKOAIL_01601	CDS	1212				hypothetical protein
+NHIKOAIL_01602	CDS	1836				hypothetical protein
+NHIKOAIL_01603	CDS	291				hypothetical protein
+NHIKOAIL_01604	CDS	795	dasC		COG0395	Diacetylchitobiose uptake system permease protein DasC
+NHIKOAIL_01605	CDS	867	sugA		COG1175	Trehalose transport system permease protein SugA
+NHIKOAIL_01606	CDS	1119	ugpC_1	7.6.2.10	COG3839	sn-glycerol-3-phosphate import ATP-binding protein UgpC
+NHIKOAIL_01607	CDS	1116	ugpC_2	7.6.2.10	COG3839	sn-glycerol-3-phosphate import ATP-binding protein UgpC
+NHIKOAIL_01608	CDS	1581	glpK	2.7.1.30	COG0554	Glycerol kinase
+NHIKOAIL_01609	CDS	912	rhaS_2			HTH-type transcriptional activator RhaS
+NHIKOAIL_01610	CDS	981	gpsA_1	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+NHIKOAIL_01611	CDS	1071	fbp_1	3.1.3.11	COG0158	Fructose-1,6-bisphosphatase class 1
+NHIKOAIL_01612	CDS	765				hypothetical protein
+NHIKOAIL_01613	CDS	795	paaF	4.2.1.17	COG1024	2,3-dehydroadipyl-CoA hydratase
+NHIKOAIL_01614	CDS	1977	leuC_1	4.2.1.33		3-isopropylmalate dehydratase large subunit
+NHIKOAIL_01615	CDS	810				hypothetical protein
+NHIKOAIL_01616	CDS	1014	purM	6.3.3.1	COG0150	Phosphoribosylformylglycinamidine cyclo-ligase
+NHIKOAIL_01617	CDS	690	plsY	2.3.1.275	COG0344	Glycerol-3-phosphate acyltransferase
+NHIKOAIL_01618	CDS	1035	gpsA_2	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+NHIKOAIL_01619	CDS	651				hypothetical protein
+NHIKOAIL_01620	CDS	2334	gyrA_1	5.6.2.2	COG0188	DNA gyrase subunit A
+NHIKOAIL_01621	CDS	1932	gyrB_1	5.6.2.2	COG0187	DNA gyrase subunit B
+NHIKOAIL_01622	tRNA	77				tRNA-Lys(ctt)
+NHIKOAIL_01623	CDS	348				hypothetical protein
+NHIKOAIL_01624	CDS	168				hypothetical protein
+NHIKOAIL_01625	CDS	615				hypothetical protein
+NHIKOAIL_01626	CDS	537				hypothetical protein
+NHIKOAIL_01627	CDS	1065				hypothetical protein
+NHIKOAIL_01628	CDS	177				hypothetical protein
+NHIKOAIL_01629	CDS	186				hypothetical protein
+NHIKOAIL_01630	CDS	1155				hypothetical protein
+NHIKOAIL_01631	CDS	177				hypothetical protein
+NHIKOAIL_01632	CDS	783	hdpA_1	3.1.3.-		Dihydroxyacetone phosphatase
+NHIKOAIL_01633	CDS	342				hypothetical protein
+NHIKOAIL_01634	CDS	513				hypothetical protein
+NHIKOAIL_01635	CDS	747	scpB			Segregation and condensation protein B
+NHIKOAIL_01636	CDS	750	rluB	5.4.99.22	COG1187	Ribosomal large subunit pseudouridine synthase B
+NHIKOAIL_01637	CDS	1527	guaB	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase
+NHIKOAIL_01638	CDS	1059		3.4.11.18		Methionine aminopeptidase 1, mitochondrial
+NHIKOAIL_01639	CDS	1320				hypothetical protein
+NHIKOAIL_01640	CDS	996	miaA	2.5.1.75	COG0324	tRNA dimethylallyltransferase
+NHIKOAIL_01641	CDS	822				Green-light absorbing proteorhodopsin
+NHIKOAIL_01642	CDS	705				hypothetical protein
+NHIKOAIL_01643	CDS	1533	crtN_2	1.3.8.2		4,4'-diapophytoene desaturase (4,4'-diapolycopene-forming)
+NHIKOAIL_01644	CDS	231				hypothetical protein
+NHIKOAIL_01645	CDS	639	kynB	3.5.1.9	COG1878	Kynurenine formamidase
+NHIKOAIL_01646	CDS	1215				hypothetical protein
+NHIKOAIL_01647	CDS	909	xerC_3			Tyrosine recombinase XerC
+NHIKOAIL_01648	CDS	1047	xerD		COG4974	Tyrosine recombinase XerD
+NHIKOAIL_01649	CDS	915				hypothetical protein
+NHIKOAIL_01650	CDS	372				hypothetical protein
+NHIKOAIL_01651	CDS	1029	tdh_2	1.1.1.103		L-threonine 3-dehydrogenase
+NHIKOAIL_01652	CDS	1368	ribBA_2	3.5.4.25		Riboflavin biosynthesis protein RibBA
+NHIKOAIL_01653	CDS	846				hypothetical protein
+NHIKOAIL_01654	CDS	1041	degA		COG1609	HTH-type transcriptional regulator DegA
+NHIKOAIL_01655	CDS	975	purC	6.3.2.6	COG0152	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+NHIKOAIL_01656	CDS	840	ramA	3.5.1.100		(R)-stereoselective amidase
+NHIKOAIL_01657	CDS	501	bcp	1.11.1.15	COG1225	Putative peroxiredoxin
+NHIKOAIL_01658	CDS	1251	lolC_2		COG4591	Lipoprotein-releasing system transmembrane protein LolC
+NHIKOAIL_01659	CDS	1689	rocA	1.2.1.88	COG1012	1-pyrroline-5-carboxylate dehydrogenase
+NHIKOAIL_01660	CDS	471				hypothetical protein
+NHIKOAIL_01661	CDS	930				hypothetical protein
+NHIKOAIL_01662	CDS	2628				hypothetical protein
+NHIKOAIL_01663	CDS	1335				hypothetical protein
+NHIKOAIL_01664	tRNA	75				tRNA-Pro(ggg)
+NHIKOAIL_01665	CDS	1221				hypothetical protein
+NHIKOAIL_01666	CDS	780				hypothetical protein
+NHIKOAIL_01667	CDS	579	rsmH_2	2.1.1.199		Ribosomal RNA small subunit methyltransferase H
+NHIKOAIL_01668	CDS	1083	aroB	4.2.3.4	COG0337	3-dehydroquinate synthase
+NHIKOAIL_01669	CDS	4842				hypothetical protein
+NHIKOAIL_01670	CDS	2229	rnr	3.1.13.1	COG0557	Ribonuclease R
+NHIKOAIL_01671	CDS	1335				hypothetical protein
+NHIKOAIL_01672	CDS	756				hypothetical protein
+NHIKOAIL_01673	CDS	1062	recA		COG0468	Protein RecA
+NHIKOAIL_01674	CDS	909				hypothetical protein
+NHIKOAIL_01675	CDS	789				hypothetical protein
+NHIKOAIL_01676	CDS	2106				hypothetical protein
+NHIKOAIL_01677	CDS	384	divK_2			Polar-differentiation response regulator DivK
+NHIKOAIL_01678	CDS	381				hypothetical protein
+NHIKOAIL_01679	CDS	645				hypothetical protein
+NHIKOAIL_01680	CDS	747	glpQ_2	3.1.4.46	COG0584	Glycerophosphodiester phosphodiesterase
+NHIKOAIL_01681	CDS	1122	dinB	2.7.7.7	COG0389	DNA polymerase IV
+NHIKOAIL_01682	CDS	855				hypothetical protein
+NHIKOAIL_01683	CDS	222				hypothetical protein
+NHIKOAIL_01684	CDS	1125				hypothetical protein
+NHIKOAIL_01685	tRNA	91				tRNA-Ser(cga)
+NHIKOAIL_01686	CDS	2886	alaS_2	6.1.1.7	COG0013	Alanine--tRNA ligase
+NHIKOAIL_01687	CDS	621		3.2.2.-	COG2094	Putative 3-methyladenine DNA glycosylase
+NHIKOAIL_01688	CDS	912				hypothetical protein
+NHIKOAIL_01689	CDS	1191	thlA	2.3.1.9	COG0183	Acetyl-CoA acetyltransferase
+NHIKOAIL_01690	CDS	2106				hypothetical protein
+NHIKOAIL_01691	CDS	2598				hypothetical protein
+NHIKOAIL_01692	CDS	5694				hypothetical protein
+NHIKOAIL_01693	CDS	2424	mtgA	2.4.1.129		Biosynthetic peptidoglycan transglycosylase
+NHIKOAIL_01694	CDS	1356		2.7.1.165	COG2379	D-glycerate 2-kinase
+NHIKOAIL_01695	CDS	1044				hypothetical protein
+NHIKOAIL_01696	CDS	684	thiE_2	2.5.1.3		Thiamine-phosphate synthase
+NHIKOAIL_01697	CDS	744				hypothetical protein
+NHIKOAIL_01698	CDS	972	hemC	2.5.1.61	COG0181	Porphobilinogen deaminase
+NHIKOAIL_01699	CDS	1440	hemA	1.2.1.70	COG0373	Glutamyl-tRNA reductase
+NHIKOAIL_01700	CDS	720	pfs	3.2.2.30	COG0775	Aminodeoxyfutalosine nucleosidase
+NHIKOAIL_01701	CDS	2139	metG	6.1.1.10	COG0073	Methionine--tRNA ligase
+NHIKOAIL_01702	CDS	366				hypothetical protein
+NHIKOAIL_01703	CDS	609	hisB		COG0131	Histidine biosynthesis bifunctional protein HisB
+NHIKOAIL_01704	CDS	819	proC	1.5.1.2	COG0345	Pyrroline-5-carboxylate reductase
+NHIKOAIL_01705	CDS	657	hisH	4.3.2.10		Imidazole glycerol phosphate synthase subunit HisH
+NHIKOAIL_01706	CDS	93				hypothetical protein
+NHIKOAIL_01707	CDS	210	scoF		COG1278	Cold shock protein ScoF
+NHIKOAIL_01708	CDS	783	hisA	5.3.1.16	COG0106	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase
+NHIKOAIL_01709	CDS	807	hisF	4.3.2.10	COG0107	Imidazole glycerol phosphate synthase subunit HisF
+NHIKOAIL_01710	CDS	324				hypothetical protein
+NHIKOAIL_01711	CDS	459				hypothetical protein
+NHIKOAIL_01712	CDS	540	ytlP	3.1.4.58		RNA 2',3'-cyclic phosphodiesterase
+NHIKOAIL_01713	CDS	642	lolA			Outer-membrane lipoprotein carrier protein
+NHIKOAIL_01714	CDS	1191				hypothetical protein
+NHIKOAIL_01715	CDS	945	mdh	1.1.1.37	COG0039	Malate dehydrogenase
+NHIKOAIL_01716	CDS	975			COG0053	putative cation efflux system protein
+NHIKOAIL_01717	CDS	1164	rutD_1	3.5.1.-		Putative aminoacrylate hydrolase RutD
+NHIKOAIL_01718	CDS	1002	yajO	1.1.-.-	COG0667	1-deoxyxylulose-5-phosphate synthase YajO
+NHIKOAIL_01719	CDS	507				hypothetical protein
+NHIKOAIL_01720	CDS	693	msrA_1	1.8.4.11		Peptide methionine sulfoxide reductase MsrA
+NHIKOAIL_01721	CDS	1545	abgT		COG2978	p-aminobenzoyl-glutamate transport protein
+NHIKOAIL_01722	CDS	423				hypothetical protein
+NHIKOAIL_01723	CDS	261				hypothetical protein
+NHIKOAIL_01724	CDS	1902	uvrC		COG0322	UvrABC system protein C
+NHIKOAIL_01725	CDS	333				hypothetical protein
+NHIKOAIL_01726	CDS	630				hypothetical protein
+NHIKOAIL_01727	CDS	750				hypothetical protein
+NHIKOAIL_01728	CDS	237				hypothetical protein
+NHIKOAIL_01729	tRNA	97				tRNA-Gln(ctg)
+NHIKOAIL_01730	CDS	1728				hypothetical protein
+NHIKOAIL_01731	CDS	207				hypothetical protein
+NHIKOAIL_01732	CDS	837				hypothetical protein
+NHIKOAIL_01733	CDS	738	tolQ_1			Tol-Pal system protein TolQ
+NHIKOAIL_01734	CDS	408	tolR			Tol-Pal system protein TolR
+NHIKOAIL_01735	CDS	285				hypothetical protein
+NHIKOAIL_01736	CDS	1551	comM		COG0606	Competence protein ComM
+NHIKOAIL_01737	CDS	570				hypothetical protein
+NHIKOAIL_01738	CDS	744				hypothetical protein
+NHIKOAIL_01739	CDS	645	COQ5_3	2.1.1.163		2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+NHIKOAIL_01740	CDS	570				hypothetical protein
+NHIKOAIL_01741	CDS	2622	actP	7.2.2.9		Copper-transporting P-type ATPase
+NHIKOAIL_01742	CDS	354				hypothetical protein
+NHIKOAIL_01743	CDS	741				hypothetical protein
+NHIKOAIL_01744	CDS	1158				hypothetical protein
+NHIKOAIL_01745	CDS	948	ywlC	2.7.7.87	COG0009	Threonylcarbamoyl-AMP synthase
+NHIKOAIL_01746	CDS	465				hypothetical protein
+NHIKOAIL_01747	CDS	246				hypothetical protein
+NHIKOAIL_01748	CDS	1974	gshA	6.3.2.2		Glutamate--cysteine ligase
+NHIKOAIL_01749	CDS	1722	lapB			Lipopolysaccharide assembly protein B
+NHIKOAIL_01750	CDS	792				hypothetical protein
+NHIKOAIL_01751	CDS	1197				hypothetical protein
+NHIKOAIL_01752	CDS	1419	lpd	1.8.1.4	COG1249	Dihydrolipoyl dehydrogenase
+NHIKOAIL_01753	CDS	1680				hypothetical protein
+NHIKOAIL_01754	CDS	225				hypothetical protein
+NHIKOAIL_01755	CDS	198				hypothetical protein
+NHIKOAIL_01756	CDS	1650				hypothetical protein
+NHIKOAIL_01757	CDS	552	dnaJ_2			Chaperone protein DnaJ
+NHIKOAIL_01758	CDS	2712	mutS		COG0249	DNA mismatch repair protein MutS
+NHIKOAIL_01759	CDS	690				hypothetical protein
+NHIKOAIL_01760	CDS	423				hypothetical protein
+NHIKOAIL_01761	CDS	678				hypothetical protein
+NHIKOAIL_01762	CDS	945	nadK	2.7.1.23	COG0061	NAD kinase
+NHIKOAIL_01763	tRNA	75				tRNA-Phe(gaa)
+NHIKOAIL_01764	CDS	1407	fumC	4.2.1.2	COG0114	Fumarate hydratase class II
+NHIKOAIL_01765	CDS	1560				hypothetical protein
+NHIKOAIL_01766	CDS	240				hypothetical protein
+NHIKOAIL_01767	CDS	1095	gldA	1.1.1.6		Glycerol dehydrogenase
+NHIKOAIL_01768	CDS	300				hypothetical protein
+NHIKOAIL_01769	CDS	1113				hypothetical protein
+NHIKOAIL_01770	CDS	1125	gcvT	2.1.2.10	COG0404	Aminomethyltransferase
+NHIKOAIL_01771	CDS	738	comB	3.1.3.71	COG2045	putative 2-phosphosulfolactate phosphatase
+NHIKOAIL_01772	CDS	2757				hypothetical protein
+NHIKOAIL_01773	CDS	1140	purK	6.3.4.18	COG0026	N5-carboxyaminoimidazole ribonucleotide synthase
+NHIKOAIL_01774	CDS	477	purE	5.4.99.18	COG0041	N5-carboxyaminoimidazole ribonucleotide mutase
+NHIKOAIL_01775	CDS	2076				hypothetical protein
+NHIKOAIL_01776	CDS	1239	tyrS	6.1.1.1	COG0162	Tyrosine--tRNA ligase
+NHIKOAIL_01777	CDS	465	smpB		COG0691	SsrA-binding protein
+NHIKOAIL_01778	CDS	816	mqnA	4.2.1.151		Chorismate dehydratase
+NHIKOAIL_01779	CDS	357	rplS		COG0335	50S ribosomal protein L19
+NHIKOAIL_01780	CDS	726	trmD	2.1.1.228		tRNA (guanine-N(1)-)-methyltransferase
+NHIKOAIL_01781	CDS	597	rimM			Ribosome maturation factor RimM
+NHIKOAIL_01782	CDS	618				hypothetical protein
+NHIKOAIL_01783	CDS	1386	ffh		COG0541	Signal recognition particle protein
+NHIKOAIL_01784	CDS	579	ygfA	6.3.3.2	COG0212	5-formyltetrahydrofolate cyclo-ligase
+NHIKOAIL_01785	CDS	672				hypothetical protein
+NHIKOAIL_01786	CDS	1320				hypothetical protein
+NHIKOAIL_01787	CDS	1314		3.4.24.-	COG0612	putative zinc protease
+NHIKOAIL_01788	CDS	2781	polA	2.7.7.7	COG0258	DNA polymerase I
+NHIKOAIL_01789	CDS	678	gph_1	3.1.3.18		Phosphoglycolate phosphatase
+NHIKOAIL_01790	CDS	2811	rcsC_19	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_01791	CDS	654	purN	2.1.2.2	COG0299	Phosphoribosylglycinamide formyltransferase
+NHIKOAIL_01792	CDS	1587	purH		COG0138	Bifunctional purine biosynthesis protein PurH
+NHIKOAIL_01793	CDS	1008	mreB			Cell shape-determining protein MreB
+NHIKOAIL_01794	CDS	822				hypothetical protein
+NHIKOAIL_01795	CDS	564	hslV	3.4.25.2	COG5405	ATP-dependent protease subunit HslV
+NHIKOAIL_01796	CDS	1110				hypothetical protein
+NHIKOAIL_01797	CDS	1446	hslU		COG1220	ATP-dependent protease ATPase subunit HslU
+NHIKOAIL_01798	CDS	366				hypothetical protein
+NHIKOAIL_01799	CDS	852				hypothetical protein
+NHIKOAIL_01800	CDS	657	caiE			Carnitine operon protein CaiE
+NHIKOAIL_01801	CDS	1008				hypothetical protein
+NHIKOAIL_01802	CDS	1488	sdcS			Sodium-dependent dicarboxylate transporter SdcS
+NHIKOAIL_01803	tRNA	74				tRNA-Thr(tgt)
+NHIKOAIL_01804	CDS	660				hypothetical protein
+NHIKOAIL_01805	CDS	474	ispF	4.6.1.12	COG0245	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+NHIKOAIL_01806	CDS	753	ispD	2.7.7.60	COG1211	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+NHIKOAIL_01807	CDS	1050	queA	2.4.99.17		S-adenosylmethionine:tRNA ribosyltransferase-isomerase
+NHIKOAIL_01808	CDS	957				hypothetical protein
+NHIKOAIL_01809	CDS	1713	QRSL1	6.3.5.7		Glutamyl-tRNA(Gln) amidotransferase subunit A, chloroplastic/mitochondrial
+NHIKOAIL_01810	CDS	603				hypothetical protein
+NHIKOAIL_01811	CDS	1254				hypothetical protein
+NHIKOAIL_01812	CDS	1656	prfC		COG4108	Peptide chain release factor 3
+NHIKOAIL_01813	CDS	444				hypothetical protein
+NHIKOAIL_01814	CDS	1275				hypothetical protein
+NHIKOAIL_01815	CDS	789				hypothetical protein
+NHIKOAIL_01816	CDS	1239				hypothetical protein
+NHIKOAIL_01817	CDS	1509	trpE	4.1.3.27	COG0147	Anthranilate synthase component 1
+NHIKOAIL_01818	CDS	480				hypothetical protein
+NHIKOAIL_01819	CDS	1035	trpS	6.1.1.2	COG0180	Tryptophan--tRNA ligase
+NHIKOAIL_01820	CDS	603	pabA	2.6.1.85	COG0512	Aminodeoxychorismate/anthranilate synthase component 2
+NHIKOAIL_01821	CDS	1035	trpD	2.4.2.18	COG0547	Anthranilate phosphoribosyltransferase
+NHIKOAIL_01822	CDS	813	trpC	4.1.1.48	COG0134	Indole-3-glycerol phosphate synthase
+NHIKOAIL_01823	CDS	666	trpF	5.3.1.24	COG0135	N-(5'-phosphoribosyl)anthranilate isomerase
+NHIKOAIL_01824	CDS	1221	trpB	4.2.1.20	COG0133	Tryptophan synthase beta chain
+NHIKOAIL_01825	CDS	837	trpA	4.2.1.20	COG0159	Tryptophan synthase alpha chain
+NHIKOAIL_01826	CDS	1149				hypothetical protein
+NHIKOAIL_01827	CDS	375				hypothetical protein
+NHIKOAIL_01828	CDS	1950	deaD	3.6.4.13		ATP-dependent RNA helicase DeaD
+NHIKOAIL_01829	CDS	1044				hypothetical protein
+NHIKOAIL_01830	CDS	945				hypothetical protein
+NHIKOAIL_01831	CDS	426				hypothetical protein
+NHIKOAIL_01832	CDS	1023	icd_1	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]
+NHIKOAIL_01833	CDS	462				hypothetical protein
+NHIKOAIL_01834	CDS	609				hypothetical protein
+NHIKOAIL_01835	CDS	282				hypothetical protein
+NHIKOAIL_01836	CDS	747	tolQ_2			Tol-Pal system protein TolQ
+NHIKOAIL_01837	CDS	1677	polX		COG1387	DNA polymerase/3'-5' exonuclease PolX
+NHIKOAIL_01838	CDS	1968				hypothetical protein
+NHIKOAIL_01839	CDS	1992	acsA	6.2.1.1	COG0365	Acetyl-coenzyme A synthetase
+NHIKOAIL_01840	CDS	1848	menF_2	5.4.4.2		Isochorismate synthase MenF
+NHIKOAIL_01841	CDS	1023	ppsC	2.3.1.41		Phthiocerol synthesis polyketide synthase type I PpsC
+NHIKOAIL_01842	CDS	1257	nemA	1.3.1.-	COG1902	N-ethylmaleimide reductase
+NHIKOAIL_01843	CDS	774	yhhW	1.13.11.24	COG1741	Quercetin 2,3-dioxygenase
+NHIKOAIL_01844	CDS	210				hypothetical protein
+NHIKOAIL_01845	CDS	3510	icmF		COG1703	Fused isobutyryl-CoA mutase
+NHIKOAIL_01846	CDS	786				hypothetical protein
+NHIKOAIL_01847	CDS	492	mrpE		COG1863	Na(+)/H(+) antiporter subunit E
+NHIKOAIL_01848	CDS	1569	mrpD		COG0651	Na(+)/H(+) antiporter subunit D
+NHIKOAIL_01849	CDS	357	mrpC		COG1006	Na(+)/H(+) antiporter subunit C
+NHIKOAIL_01850	CDS	435	mrpB		COG2111	Na(+)/H(+) antiporter subunit B
+NHIKOAIL_01851	CDS	2385	mrpA		COG1009	Na(+)/H(+) antiporter subunit A
+NHIKOAIL_01852	CDS	405				hypothetical protein
+NHIKOAIL_01853	CDS	312				hypothetical protein
+NHIKOAIL_01854	CDS	288				hypothetical protein
+NHIKOAIL_01855	CDS	561				hypothetical protein
+NHIKOAIL_01856	CDS	348				hypothetical protein
+NHIKOAIL_01857	CDS	270				hypothetical protein
+NHIKOAIL_01858	CDS	2307				hypothetical protein
+NHIKOAIL_01859	CDS	1065	hemE	4.1.1.37	COG0407	Uroporphyrinogen decarboxylase
+NHIKOAIL_01860	CDS	870				hypothetical protein
+NHIKOAIL_01861	CDS	654				hypothetical protein
+NHIKOAIL_01862	CDS	939				hypothetical protein
+NHIKOAIL_01863	CDS	1314				hypothetical protein
+NHIKOAIL_01864	CDS	525	sigE		COG1595	ECF RNA polymerase sigma factor SigE
+NHIKOAIL_01865	CDS	1422	tpl	4.1.99.2	COG3033	Tyrosine phenol-lyase
+NHIKOAIL_01866	CDS	1089	ansA	3.5.1.1	COG0252	L-asparaginase 1
+NHIKOAIL_01867	CDS	588	hpt	2.4.2.8	COG0634	Hypoxanthine-guanine phosphoribosyltransferase
+NHIKOAIL_01868	CDS	1407	tilS	6.3.4.19		tRNA(Ile)-lysidine synthase
+NHIKOAIL_01869	CDS	1986	mutL			DNA mismatch repair protein MutL
+NHIKOAIL_01870	CDS	201				hypothetical protein
+NHIKOAIL_01871	CDS	819				hypothetical protein
+NHIKOAIL_01872	CDS	396				hypothetical protein
+NHIKOAIL_01873	CDS	1005				hypothetical protein
+NHIKOAIL_01874	tRNA	75				tRNA-Arg(ccg)
+NHIKOAIL_01875	CDS	354				hypothetical protein
+NHIKOAIL_01876	CDS	1713				hypothetical protein
+NHIKOAIL_01877	CDS	765				hypothetical protein
+NHIKOAIL_01878	CDS	1431	yeeO_1		COG0534	putative FMN/FAD exporter YeeO
+NHIKOAIL_01879	CDS	222				hypothetical protein
+NHIKOAIL_01880	CDS	525	yfkM	3.2.-.-	COG0693	General stress protein 18
+NHIKOAIL_01881	CDS	105				hypothetical protein
+NHIKOAIL_01882	CDS	618	sodA	1.15.1.1		Superoxide dismutase [Mn]
+NHIKOAIL_01883	CDS	303				hypothetical protein
+NHIKOAIL_01884	CDS	1065				hypothetical protein
+NHIKOAIL_01885	CDS	1059				hypothetical protein
+NHIKOAIL_01886	CDS	216	csp			Cold shock protein
+NHIKOAIL_01887	CDS	1305				hypothetical protein
+NHIKOAIL_01888	CDS	2337				hypothetical protein
+NHIKOAIL_01889	CDS	960				hypothetical protein
+NHIKOAIL_01890	CDS	192				hypothetical protein
+NHIKOAIL_01891	CDS	744	argB_1	2.7.2.8		Acetylglutamate kinase
+NHIKOAIL_01892	CDS	2112	caiA	1.3.8.13		Crotonobetainyl-CoA reductase
+NHIKOAIL_01893	CDS	861	pyrF	4.1.1.23	COG0284	Orotidine 5'-phosphate decarboxylase
+NHIKOAIL_01894	CDS	387				hypothetical protein
+NHIKOAIL_01895	CDS	930				hypothetical protein
+NHIKOAIL_01896	CDS	912				hypothetical protein
+NHIKOAIL_01897	CDS	273				hypothetical protein
+NHIKOAIL_01898	CDS	1680				hypothetical protein
+NHIKOAIL_01899	CDS	1272	mdtG			Multidrug resistance protein MdtG
+NHIKOAIL_01900	CDS	1317	hemL	5.4.3.8	COG0001	Glutamate-1-semialdehyde 2,1-aminomutase
+NHIKOAIL_01901	CDS	573				hypothetical protein
+NHIKOAIL_01902	CDS	1344	hemH_1	4.99.1.1		Ferrochelatase
+NHIKOAIL_01903	CDS	984	hemF	1.3.3.3		Oxygen-dependent coproporphyrinogen-III oxidase
+NHIKOAIL_01904	CDS	699	rluA	5.4.99.28	COG0564	Dual-specificity RNA pseudouridine synthase RluA
+NHIKOAIL_01905	CDS	1029	ord	1.4.1.26		2,4-diaminopentanoate dehydrogenase
+NHIKOAIL_01906	CDS	930	thrA_4		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1
+NHIKOAIL_01907	CDS	999				hypothetical protein
+NHIKOAIL_01908	CDS	546	spmB			Spore maturation protein B
+NHIKOAIL_01909	CDS	1554	dacC	3.4.16.4	COG2027	D-alanyl-D-alanine carboxypeptidase DacC
+NHIKOAIL_01910	CDS	1509	dapE_1	3.5.1.18		Succinyl-diaminopimelate desuccinylase
+NHIKOAIL_01911	CDS	513				hypothetical protein
+NHIKOAIL_01912	CDS	234				hypothetical protein
+NHIKOAIL_01913	CDS	489				hypothetical protein
+NHIKOAIL_01914	CDS	222				hypothetical protein
+NHIKOAIL_01915	CDS	1389				hypothetical protein
+NHIKOAIL_01916	CDS	1353	gltP		COG1301	Proton/glutamate-aspartate symporter
+NHIKOAIL_01917	CDS	1452				hypothetical protein
+NHIKOAIL_01918	CDS	4347	rpoC	2.7.7.6	COG0086	DNA-directed RNA polymerase subunit beta'
+NHIKOAIL_01919	CDS	3864	rpoB	2.7.7.6	COG0085	DNA-directed RNA polymerase subunit beta
+NHIKOAIL_01920	CDS	384	rplL		COG0222	50S ribosomal protein L7/L12
+NHIKOAIL_01921	CDS	537	rplJ		COG0244	50S ribosomal protein L10
+NHIKOAIL_01922	CDS	714	rplA			50S ribosomal protein L1
+NHIKOAIL_01923	CDS	441	rplK		COG0080	50S ribosomal protein L11
+NHIKOAIL_01924	CDS	558	nusG		COG0250	Transcription termination/antitermination protein NusG
+NHIKOAIL_01925	CDS	186	secE			Protein translocase subunit SecE
+NHIKOAIL_01926	tRNA	76				tRNA-Trp(cca)
+NHIKOAIL_01927	CDS	1191	tufA_2		COG0050	Elongation factor Tu-A
+NHIKOAIL_01928	CDS	1785				hypothetical protein
+NHIKOAIL_01929	CDS	312				hypothetical protein
+NHIKOAIL_01930	CDS	243				hypothetical protein
+NHIKOAIL_01931	CDS	1608				hypothetical protein
+NHIKOAIL_01932	CDS	126				hypothetical protein
+NHIKOAIL_01933	CDS	822	scpA		COG1354	Segregation and condensation protein A
+NHIKOAIL_01934	CDS	1014	galE	5.1.3.2	COG1087	UDP-glucose 4-epimerase
+NHIKOAIL_01935	CDS	2139	pnp_1	2.7.7.8	COG1185	Polyribonucleotide nucleotidyltransferase
+NHIKOAIL_01936	CDS	267	rpsO			30S ribosomal protein S15
+NHIKOAIL_01937	CDS	936	ribF			Bifunctional riboflavin kinase/FMN adenylyltransferase
+NHIKOAIL_01938	CDS	399	rbfA		COG0858	30S ribosome-binding factor
+NHIKOAIL_01939	CDS	3090	infB			Translation initiation factor IF-2
+NHIKOAIL_01940	CDS	1611	nusA			Transcription termination/antitermination protein NusA
+NHIKOAIL_01941	CDS	468	rimP			Ribosome maturation factor RimP
+NHIKOAIL_01942	CDS	1050	prfB			Peptide chain release factor 2
+NHIKOAIL_01943	CDS	1203	dapX	2.6.1.-	COG0436	putative N-acetyl-LL-diaminopimelate aminotransferase
+NHIKOAIL_01944	CDS	1488	aldHT	1.2.1.5		Aldehyde dehydrogenase, thermostable
+NHIKOAIL_01945	CDS	309				hypothetical protein
+NHIKOAIL_01946	CDS	351				hypothetical protein
+NHIKOAIL_01947	CDS	738				hypothetical protein
+NHIKOAIL_01948	CDS	1422		1.1.1.38		NAD-dependent malic enzyme
+NHIKOAIL_01949	CDS	2616	pnp_2	2.7.7.8		Polyribonucleotide nucleotidyltransferase
+NHIKOAIL_01950	CDS	684	cmk	2.7.4.25		Cytidylate kinase
+NHIKOAIL_01951	CDS	615				hypothetical protein
+NHIKOAIL_01952	CDS	564	trmH_2	2.1.1.34	COG0566	tRNA (guanosine(18)-2'-O)-methyltransferase
+NHIKOAIL_01953	CDS	2022	bhbA	5.4.99.2		Methylmalonyl-CoA mutase
+NHIKOAIL_01954	CDS	2154	mutB	5.4.99.2	COG1884	Methylmalonyl-CoA mutase large subunit
+NHIKOAIL_01955	CDS	1038		3.6.-.-	COG1703	putative GTPase
+NHIKOAIL_01956	CDS	501				hypothetical protein
+NHIKOAIL_01957	CDS	2367	glnS	6.1.1.18	COG0008	Glutamine--tRNA ligase
+NHIKOAIL_01958	CDS	1467	gltX	6.1.1.17	COG0008	Glutamate--tRNA ligase
+NHIKOAIL_01959	CDS	2001	surA_2	5.2.1.8		Chaperone SurA
+NHIKOAIL_01960	CDS	870				hypothetical protein
+NHIKOAIL_01961	CDS	1395	surA_3	5.2.1.8		Chaperone SurA
+NHIKOAIL_01962	CDS	996	ravA	3.6.3.-		ATPase RavA
+NHIKOAIL_01963	CDS	771	fpr	1.18.1.2	COG1018	Ferredoxin--NADP reductase
+NHIKOAIL_01964	CDS	567				hypothetical protein
+NHIKOAIL_01965	CDS	804				hypothetical protein
+NHIKOAIL_01966	CDS	405				hypothetical protein
+NHIKOAIL_01967	CDS	1407	pepP	3.4.11.9	COG0006	Xaa-Pro aminopeptidase
+NHIKOAIL_01968	CDS	3426	addA	3.6.4.12		ATP-dependent helicase/nuclease subunit A
+NHIKOAIL_01969	CDS	3093	rexB	3.6.4.12		ATP-dependent helicase/deoxyribonuclease subunit B
+NHIKOAIL_01970	CDS	546				hypothetical protein
+NHIKOAIL_01971	CDS	300				hypothetical protein
+NHIKOAIL_01972	CDS	1392				hypothetical protein
+NHIKOAIL_01973	CDS	321				hypothetical protein
+NHIKOAIL_01974	CDS	528				hypothetical protein
+NHIKOAIL_01975	CDS	3597				hypothetical protein
+NHIKOAIL_01976	tRNA	73				tRNA-Met(cat)
+NHIKOAIL_01977	tRNA	74				tRNA-Thr(ggt)
+NHIKOAIL_01978	tRNA	73				tRNA-Gly(tcc)
+NHIKOAIL_01979	tRNA	85				tRNA-Tyr(gta)
+NHIKOAIL_01980	CDS	1053				hypothetical protein
+NHIKOAIL_01981	CDS	405	msrB_1	1.8.4.12	COG0229	Peptide methionine sulfoxide reductase MsrB
+NHIKOAIL_01982	CDS	2052	ftsH_2	3.4.24.-		ATP-dependent zinc metalloprotease FtsH
+NHIKOAIL_01983	CDS	1980	acs	6.2.1.1	COG0365	Acetyl-coenzyme A synthetase
+NHIKOAIL_01984	CDS	1101				hypothetical protein
+NHIKOAIL_01985	CDS	369				hypothetical protein
+NHIKOAIL_01986	CDS	630				hypothetical protein
+NHIKOAIL_01987	CDS	855	flA	2.5.1.63	COG1912	5'-fluoro-5'-deoxy-adenosine synthase
+NHIKOAIL_01988	CDS	1272				hypothetical protein
+NHIKOAIL_01989	CDS	1401	sasA_7	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_01990	CDS	1320	purA	6.3.4.4	COG0104	Adenylosuccinate synthetase
+NHIKOAIL_01991	CDS	912	secF		COG0341	Protein translocase subunit SecF
+NHIKOAIL_01992	CDS	1965	secD			Protein translocase subunit SecD
+NHIKOAIL_01993	CDS	264				hypothetical protein
+NHIKOAIL_01994	CDS	855		3.1.1.23	COG2267	Monoacylglycerol lipase
+NHIKOAIL_01995	CDS	744			COG2968	26 kDa periplasmic immunogenic protein
+NHIKOAIL_01996	CDS	1563	asnS	6.1.1.22	COG0017	Asparagine--tRNA ligase
+NHIKOAIL_01997	CDS	864				hypothetical protein
+NHIKOAIL_01998	CDS	1638	pckA_1	4.1.1.49	COG1866	Phosphoenolpyruvate carboxykinase (ATP)
+NHIKOAIL_01999	CDS	156				hypothetical protein
+NHIKOAIL_02000	tRNA	75				tRNA-Gly(gcc)
+NHIKOAIL_02001	CDS	525				hypothetical protein
+NHIKOAIL_02002	CDS	1092	asd2	1.2.1.11	COG0136	Aspartate-semialdehyde dehydrogenase 2
+NHIKOAIL_02003	CDS	894	folD		COG0190	Bifunctional protein FolD protein
+NHIKOAIL_02004	CDS	1035				hypothetical protein
+NHIKOAIL_02005	CDS	420				hypothetical protein
+NHIKOAIL_02006	CDS	819	surE	3.1.3.5	COG0496	5'-nucleotidase SurE
+NHIKOAIL_02007	CDS	834	panB	2.1.2.11	COG0413	3-methyl-2-oxobutanoate hydroxymethyltransferase
+NHIKOAIL_02008	CDS	540	skp		COG2825	Chaperone protein Skp
+NHIKOAIL_02009	CDS	525				hypothetical protein
+NHIKOAIL_02010	CDS	2535	bamA_2		COG4775	Outer membrane protein assembly factor BamA
+NHIKOAIL_02011	CDS	831	uppS	2.5.1.31		Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)
+NHIKOAIL_02012	CDS	1443		3.4.24.-	COG0750	Putative zinc metalloprotease
+NHIKOAIL_02013	CDS	1206	dxr	1.1.1.267	COG0743	1-deoxy-D-xylulose 5-phosphate reductoisomerase
+NHIKOAIL_02014	CDS	1884	cpoB_2			Cell division coordinator CpoB
+NHIKOAIL_02015	CDS	1278				hypothetical protein
+NHIKOAIL_02016	CDS	555				hypothetical protein
+NHIKOAIL_02017	CDS	444				hypothetical protein
+NHIKOAIL_02018	CDS	924	rmlD	1.1.1.133		dTDP-4-dehydrorhamnose reductase
+NHIKOAIL_02019	CDS	1287	serS	6.1.1.11	COG0172	Serine--tRNA ligase
+NHIKOAIL_02020	CDS	189				hypothetical protein
+NHIKOAIL_02021	CDS	1086	fbp_2	3.1.3.11	COG0158	Fructose-1,6-bisphosphatase class 1
+NHIKOAIL_02022	CDS	669	fbiD	2.7.7.68		Phosphoenolpyruvate guanylyltransferase
+NHIKOAIL_02023	CDS	1170	iscS	2.8.1.7	COG1104	Cysteine desulfurase IscS
+NHIKOAIL_02024	CDS	1320	murA	2.5.1.7	COG0766	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+NHIKOAIL_02025	CDS	3582				hypothetical protein
+NHIKOAIL_02026	CDS	924				hypothetical protein
+NHIKOAIL_02027	CDS	1293	purD	6.3.4.13	COG0151	Phosphoribosylamine--glycine ligase
+NHIKOAIL_02028	CDS	1296				hypothetical protein
+NHIKOAIL_02029	CDS	987				hypothetical protein
+NHIKOAIL_02030	CDS	648		3.5.1.104	COG0726	Peptidoglycan-N-acetylglucosamine deacetylase
+NHIKOAIL_02031	CDS	2733	acn	4.2.1.3	COG1048	Aconitate hydratase A
+NHIKOAIL_02032	CDS	336				hypothetical protein
+NHIKOAIL_02033	CDS	3060	smc_2			Chromosome partition protein Smc
+NHIKOAIL_02034	CDS	432				hypothetical protein
+NHIKOAIL_02035	CDS	594				hypothetical protein
+NHIKOAIL_02036	CDS	468	yqeY		COG1610	putative protein YqeY
+NHIKOAIL_02037	CDS	1815	ptsI	2.7.3.9	COG1080	Phosphoenolpyruvate-protein phosphotransferase
+NHIKOAIL_02038	CDS	270	ptsH		COG1925	Phosphocarrier protein HPr
+NHIKOAIL_02039	CDS	999	sdsA_2	2.5.1.84		All-trans-nonaprenyl-diphosphate synthase (geranyl-diphosphate specific)
+NHIKOAIL_02040	CDS	639	adk	2.7.4.3	COG0563	Adenylate kinase
+NHIKOAIL_02041	CDS	522				hypothetical protein
+NHIKOAIL_02042	CDS	513				hypothetical protein
+NHIKOAIL_02043	CDS	276				hypothetical protein
+NHIKOAIL_02044	CDS	1056				hypothetical protein
+NHIKOAIL_02045	CDS	1242	ispH	1.17.7.4	COG0761	4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+NHIKOAIL_02046	CDS	744	desVI	2.1.1.234		dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucopyranose
+NHIKOAIL_02047	CDS	1371	dapE_2	3.5.1.18		Succinyl-diaminopimelate desuccinylase
+NHIKOAIL_02048	tRNA	90				tRNA-Leu(caa)
+NHIKOAIL_02049	CDS	1116				hypothetical protein
+NHIKOAIL_02050	CDS	456				hypothetical protein
+NHIKOAIL_02051	CDS	1200	yciC		COG0523	Putative metal chaperone YciC
+NHIKOAIL_02052	CDS	2403	btuB_7			Vitamin B12 transporter BtuB
+NHIKOAIL_02053	CDS	381				hypothetical protein
+NHIKOAIL_02054	CDS	462				hypothetical protein
+NHIKOAIL_02055	CDS	441	rppH	3.6.1.-		RNA pyrophosphohydrolase
+NHIKOAIL_02056	CDS	426	hdpA_2	3.1.3.-		Dihydroxyacetone phosphatase
+NHIKOAIL_02057	CDS	159				hypothetical protein
+NHIKOAIL_02058	CDS	495				hypothetical protein
+NHIKOAIL_02059	CDS	1116			COG3385	IS4 family transposase ISAtsp3
+NHIKOAIL_02060	CDS	228				hypothetical protein
+NHIKOAIL_02061	CDS	195				hypothetical protein
+NHIKOAIL_02062	CDS	501				hypothetical protein
+NHIKOAIL_02063	CDS	738				hypothetical protein
+NHIKOAIL_02064	CDS	501				hypothetical protein
+NHIKOAIL_02065	CDS	1656				hypothetical protein
+NHIKOAIL_02066	CDS	807				hypothetical protein
+NHIKOAIL_02067	CDS	864				hypothetical protein
+NHIKOAIL_02068	tRNA	76				tRNA-Asp(gtc)
+NHIKOAIL_02069	CDS	240				hypothetical protein
+NHIKOAIL_02070	CDS	390	nqrF_2	7.2.1.1		Na(+)-translocating NADH-quinone reductase subunit F
+NHIKOAIL_02071	CDS	549	idi	5.3.3.2	COG1443	Isopentenyl-diphosphate Delta-isomerase
+NHIKOAIL_02072	CDS	351				hypothetical protein
+NHIKOAIL_02073	CDS	834				hypothetical protein
+NHIKOAIL_02074	CDS	1527	gatB	6.3.5.-	COG0064	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B
+NHIKOAIL_02075	CDS	1416				hypothetical protein
+NHIKOAIL_02076	CDS	573	olsG	2.1.1.344		Ornithine lipid N-methyltransferase
+NHIKOAIL_02077	CDS	783	tpiA	5.3.1.1	COG0149	Triosephosphate isomerase
+NHIKOAIL_02078	CDS	1083	fbaB	4.1.2.13	COG1830	Fructose-bisphosphate aldolase class 1
+NHIKOAIL_02079	CDS	906				hypothetical protein
+NHIKOAIL_02080	CDS	1812	ftsH_3	3.4.24.-		ATP-dependent zinc metalloprotease FtsH
+NHIKOAIL_02081	CDS	1845	ade_1	3.5.4.2		Adenine deaminase
+NHIKOAIL_02082	CDS	1374	ade_2	3.5.4.2		Adenine deaminase
+NHIKOAIL_02083	CDS	1344	hutI_3	3.5.2.7		Imidazolonepropionase
+NHIKOAIL_02084	CDS	1098	nadA	2.5.1.72	COG0379	Quinolinate synthase A
+NHIKOAIL_02085	CDS	936	nadC	2.4.2.19	COG0157	Nicotinate-nucleotide pyrophosphorylase [carboxylating]
+NHIKOAIL_02086	CDS	1497	nadB	1.4.3.16	COG0029	L-aspartate oxidase
+NHIKOAIL_02087	CDS	414				hypothetical protein
+NHIKOAIL_02088	CDS	3333				hypothetical protein
+NHIKOAIL_02089	CDS	1413				hypothetical protein
+NHIKOAIL_02090	CDS	993				hypothetical protein
+NHIKOAIL_02091	CDS	3333				hypothetical protein
+NHIKOAIL_02092	CDS	984				hypothetical protein
+NHIKOAIL_02093	CDS	327				hypothetical protein
+NHIKOAIL_02094	CDS	693				hypothetical protein
+NHIKOAIL_02095	CDS	765				hypothetical protein
+NHIKOAIL_02096	CDS	432				hypothetical protein
+NHIKOAIL_02097	CDS	852		3.5.1.77		N-carbamoyl-D-amino acid hydrolase
+NHIKOAIL_02098	CDS	477				hypothetical protein
+NHIKOAIL_02099	CDS	228				hypothetical protein
+NHIKOAIL_02100	CDS	1941				hypothetical protein
+NHIKOAIL_02101	CDS	1284	glgC	2.7.7.27	COG0448	Glucose-1-phosphate adenylyltransferase
+NHIKOAIL_02102	CDS	1230	glgM	2.4.1.342	COG0438	Alpha-maltose-1-phosphate synthase
+NHIKOAIL_02103	CDS	225				hypothetical protein
+NHIKOAIL_02104	CDS	369				hypothetical protein
+NHIKOAIL_02105	CDS	264				hypothetical protein
+NHIKOAIL_02106	CDS	1185		3.4.11.25		Beta-peptidyl aminopeptidase BapA
+NHIKOAIL_02107	CDS	576	algU_2		COG1595	RNA polymerase sigma-H factor
+NHIKOAIL_02108	CDS	126				hypothetical protein
+NHIKOAIL_02109	CDS	468				hypothetical protein
+NHIKOAIL_02110	CDS	1755				hypothetical protein
+NHIKOAIL_02111	CDS	681				hypothetical protein
+NHIKOAIL_02112	CDS	525				hypothetical protein
+NHIKOAIL_02113	CDS	645				hypothetical protein
+NHIKOAIL_02114	CDS	1290				hypothetical protein
+NHIKOAIL_02115	CDS	675	tal_3	2.2.1.2	COG0176	Transaldolase
+NHIKOAIL_02116	CDS	1395		3.1.-.-	COG1236	Ribonuclease
+NHIKOAIL_02117	CDS	2958			COG0247	putative protein
+NHIKOAIL_02118	CDS	1680				hypothetical protein
+NHIKOAIL_02119	CDS	531				hypothetical protein
+NHIKOAIL_02120	CDS	693	pcm_1	2.1.1.77	COG2518	Protein-L-isoaspartate O-methyltransferase
+NHIKOAIL_02121	CDS	801	cdaA	2.7.7.85	COG1624	Cyclic di-AMP synthase CdaA
+NHIKOAIL_02122	CDS	927	folP	2.5.1.15	COG0294	Dihydropteroate synthase
+NHIKOAIL_02123	CDS	1542				hypothetical protein
+NHIKOAIL_02124	CDS	840	sigA			RNA polymerase sigma factor SigA
+NHIKOAIL_02125	CDS	732				hypothetical protein
+NHIKOAIL_02126	CDS	1506			COG2067	Putative outer membrane protein
+NHIKOAIL_02127	CDS	1251				hypothetical protein
+NHIKOAIL_02128	CDS	975				hypothetical protein
+NHIKOAIL_02129	CDS	876	ftsX		COG2177	Cell division protein FtsX
+NHIKOAIL_02130	CDS	861	pheA			Bifunctional chorismate mutase/prephenate dehydratase
+NHIKOAIL_02131	CDS	438				hypothetical protein
+NHIKOAIL_02132	CDS	1587				hypothetical protein
+NHIKOAIL_02133	CDS	648				hypothetical protein
+NHIKOAIL_02134	CDS	837				hypothetical protein
+NHIKOAIL_02135	CDS	1299				hypothetical protein
+NHIKOAIL_02136	CDS	453	dut	3.6.1.23		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+NHIKOAIL_02137	CDS	1917	dtpB			Dipeptide and tripeptide permease B
+NHIKOAIL_02138	CDS	1890	aspS	6.1.1.12		Aspartate--tRNA ligase
+NHIKOAIL_02139	CDS	459				hypothetical protein
+NHIKOAIL_02140	CDS	351				hypothetical protein
+NHIKOAIL_02141	CDS	1998	dxs_2	2.2.1.7		1-deoxy-D-xylulose-5-phosphate synthase
+NHIKOAIL_02142	CDS	714				hypothetical protein
+NHIKOAIL_02143	CDS	804	cpdA_3	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+NHIKOAIL_02144	CDS	1398	pdhC	2.3.1.12	COG0508	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex
+NHIKOAIL_02145	CDS	984	bfmBAB	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta
+NHIKOAIL_02146	CDS	1413				hypothetical protein
+NHIKOAIL_02147	CDS	762	ppm1	2.4.1.-		Polyprenol monophosphomannose synthase
+NHIKOAIL_02148	CDS	1236	icd_2	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP]
+NHIKOAIL_02149	CDS	648	nudL	3.6.1.-		putative Nudix hydrolase NudL
+NHIKOAIL_02150	CDS	1194	norW	1.18.1.-		Nitric oxide reductase FlRd-NAD(+) reductase
+NHIKOAIL_02151	CDS	210				hypothetical protein
+NHIKOAIL_02152	CDS	570	betI_1			HTH-type transcriptional regulator BetI
+NHIKOAIL_02153	CDS	1413				hypothetical protein
+NHIKOAIL_02154	CDS	1092	macA_1		COG0845	Macrolide export protein MacA
+NHIKOAIL_02155	CDS	3246	swrC_2		COG0841	Swarming motility protein SwrC
+NHIKOAIL_02156	CDS	306				hypothetical protein
+NHIKOAIL_02157	CDS	252				hypothetical protein
+NHIKOAIL_02158	CDS	615				hypothetical protein
+NHIKOAIL_02159	CDS	630				hypothetical protein
+NHIKOAIL_02160	CDS	771				hypothetical protein
+NHIKOAIL_02161	CDS	756	linX	1.1.1.-		2,5-dichloro-2,5-cyclohexadiene-1,4-diol dehydrogenase LinX
+NHIKOAIL_02162	CDS	945				hypothetical protein
+NHIKOAIL_02163	CDS	924	gpmI_1	5.4.2.12		2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+NHIKOAIL_02164	CDS	2226	dpp7_1	3.4.14.-		Dipeptidyl-peptidase 7
+NHIKOAIL_02165	CDS	2079	dpp7_2	3.4.14.-		Dipeptidyl-peptidase 7
+NHIKOAIL_02166	tRNA	86				tRNA-Leu(tag)
+NHIKOAIL_02167	CDS	513				hypothetical protein
+NHIKOAIL_02168	CDS	711				hypothetical protein
+NHIKOAIL_02169	CDS	435				hypothetical protein
+NHIKOAIL_02170	CDS	339				hypothetical protein
+NHIKOAIL_02171	CDS	345				hypothetical protein
+NHIKOAIL_02172	CDS	2409				hypothetical protein
+NHIKOAIL_02173	CDS	2031				hypothetical protein
+NHIKOAIL_02174	CDS	192				hypothetical protein
+NHIKOAIL_02175	CDS	270				hypothetical protein
+NHIKOAIL_02176	CDS	1503	yodF		COG0591	putative symporter YodF
+NHIKOAIL_02177	CDS	1002				hypothetical protein
+NHIKOAIL_02178	CDS	546	ppa_1	3.6.1.1		Inorganic pyrophosphatase
+NHIKOAIL_02179	CDS	669				hypothetical protein
+NHIKOAIL_02180	CDS	987	egtD	2.1.1.44	COG4301	Histidine N-alpha-methyltransferase
+NHIKOAIL_02181	CDS	852	yeeZ		COG0451	Protein YeeZ
+NHIKOAIL_02182	CDS	801				hypothetical protein
+NHIKOAIL_02183	CDS	1113				hypothetical protein
+NHIKOAIL_02184	CDS	3573				hypothetical protein
+NHIKOAIL_02185	CDS	1308				hypothetical protein
+NHIKOAIL_02186	CDS	2163				hypothetical protein
+NHIKOAIL_02187	CDS	1215	rcsC_20	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02188	CDS	3036	tolB_6			Tol-Pal system protein TolB
+NHIKOAIL_02189	CDS	465				hypothetical protein
+NHIKOAIL_02190	CDS	1581				hypothetical protein
+NHIKOAIL_02191	CDS	1347				hypothetical protein
+NHIKOAIL_02192	CDS	1794				hypothetical protein
+NHIKOAIL_02193	CDS	1338	nagA	3.2.1.49		Alpha-N-acetylgalactosaminidase
+NHIKOAIL_02194	CDS	1050				hypothetical protein
+NHIKOAIL_02195	CDS	1878	sglT_3			Sodium/glucose cotransporter
+NHIKOAIL_02196	CDS	1302	kbaZ		COG4573	D-tagatose-1,6-bisphosphate aldolase subunit KbaZ
+NHIKOAIL_02197	CDS	1212	agaS	3.5.99.-	COG2222	D-galactosamine-6-phosphate deaminase AgaS
+NHIKOAIL_02198	CDS	1059	lacD	4.1.2.40		Tagatose 1,6-diphosphate aldolase
+NHIKOAIL_02199	CDS	999	pfkB	2.7.1.11	COG0524	ATP-dependent 6-phosphofructokinase
+NHIKOAIL_02200	CDS	1506				SusD-like protein P38
+NHIKOAIL_02201	CDS	3018				TonB-dependent receptor P3
+NHIKOAIL_02202	CDS	774	srlR		COG1349	Glucitol operon repressor
+NHIKOAIL_02203	CDS	447				hypothetical protein
+NHIKOAIL_02204	CDS	306				hypothetical protein
+NHIKOAIL_02205	CDS	741	ppa_2	3.6.1.1		Inorganic pyrophosphatase
+NHIKOAIL_02206	CDS	2946	btuB_8			Vitamin B12 transporter BtuB
+NHIKOAIL_02207	CDS	1779	cpdA_4	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+NHIKOAIL_02208	CDS	1773				hypothetical protein
+NHIKOAIL_02209	CDS	1035				hypothetical protein
+NHIKOAIL_02210	CDS	333				hypothetical protein
+NHIKOAIL_02211	CDS	666				hypothetical protein
+NHIKOAIL_02212	CDS	426				hypothetical protein
+NHIKOAIL_02213	CDS	816				hypothetical protein
+NHIKOAIL_02214	CDS	636				hypothetical protein
+NHIKOAIL_02215	CDS	396				hypothetical protein
+NHIKOAIL_02216	CDS	306				hypothetical protein
+NHIKOAIL_02217	CDS	1116				hypothetical protein
+NHIKOAIL_02218	tRNA	89				tRNA-Leu(cag)
+NHIKOAIL_02219	CDS	2073	dpp5_1	3.4.14.-	COG1506	Dipeptidyl-peptidase 5
+NHIKOAIL_02220	tRNA	74				tRNA-Asn(gtt)
+NHIKOAIL_02221	CDS	498				hypothetical protein
+NHIKOAIL_02222	CDS	759	fabG_5	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+NHIKOAIL_02223	CDS	1545	phrB	4.1.99.13	COG3046	(6-4) photolyase
+NHIKOAIL_02224	CDS	954	cysK	2.5.1.47		Cysteine synthase
+NHIKOAIL_02225	CDS	438				hypothetical protein
+NHIKOAIL_02226	CDS	294	cysO		COG1977	Sulfur carrier protein CysO
+NHIKOAIL_02227	CDS	141				hypothetical protein
+NHIKOAIL_02228	CDS	1218	moeZ		COG0476	putative adenylyltransferase/sulfurtransferase MoeZ
+NHIKOAIL_02229	CDS	1338				hypothetical protein
+NHIKOAIL_02230	CDS	372				hypothetical protein
+NHIKOAIL_02231	CDS	2694	valS	6.1.1.9	COG0525	Valine--tRNA ligase
+NHIKOAIL_02232	CDS	654	ideR		COG1321	Iron-dependent repressor IdeR
+NHIKOAIL_02233	CDS	1368				hypothetical protein
+NHIKOAIL_02234	CDS	318				hypothetical protein
+NHIKOAIL_02235	CDS	2829	rcsC_21	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02236	CDS	804				hypothetical protein
+NHIKOAIL_02237	CDS	180				hypothetical protein
+NHIKOAIL_02238	CDS	621				hypothetical protein
+NHIKOAIL_02239	CDS	810				hypothetical protein
+NHIKOAIL_02240	CDS	558				hypothetical protein
+NHIKOAIL_02241	CDS	357				hypothetical protein
+NHIKOAIL_02242	CDS	2454				hypothetical protein
+NHIKOAIL_02243	CDS	1440	ndhB_2	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic
+NHIKOAIL_02244	CDS	393				hypothetical protein
+NHIKOAIL_02245	CDS	771	dnaJ_3			Chaperone protein DnaJ
+NHIKOAIL_02246	CDS	1611	crtI	1.3.99.31	COG1233	Phytoene desaturase (lycopene-forming)
+NHIKOAIL_02247	CDS	804				hypothetical protein
+NHIKOAIL_02248	CDS	2826	rcsC_22	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02249	CDS	1233	aroC	4.2.3.5	COG0082	Chorismate synthase
+NHIKOAIL_02250	CDS	1545	degQ	3.4.21.107	COG0265	Periplasmic pH-dependent serine endoprotease DegQ
+NHIKOAIL_02251	CDS	3228	rcsC_23	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02252	CDS	219				hypothetical protein
+NHIKOAIL_02253	CDS	924	acuC_1			Acetoin utilization protein AcuC
+NHIKOAIL_02254	CDS	912	prmC_2	2.1.1.297	COG2890	Release factor glutamine methyltransferase
+NHIKOAIL_02255	CDS	288	acyP	3.6.1.7	COG1254	Acylphosphatase
+NHIKOAIL_02256	CDS	837	phhA	1.14.16.1	COG3186	Phenylalanine-4-hydroxylase
+NHIKOAIL_02257	CDS	213				hypothetical protein
+NHIKOAIL_02258	CDS	600				hypothetical protein
+NHIKOAIL_02259	CDS	588	nadD	2.7.7.18	COG1057	Nicotinate-nucleotide adenylyltransferase
+NHIKOAIL_02260	CDS	855	bamD			Outer membrane protein assembly factor BamD
+NHIKOAIL_02261	CDS	1695				hypothetical protein
+NHIKOAIL_02262	CDS	1581	guaA	6.3.5.2		GMP synthase [glutamine-hydrolyzing]
+NHIKOAIL_02263	CDS	375	gcvH		COG0509	Glycine cleavage system H protein
+NHIKOAIL_02264	CDS	495	coaD	2.7.7.3	COG0669	Phosphopantetheine adenylyltransferase
+NHIKOAIL_02265	CDS	615	prmC_3	2.1.1.297		Release factor glutamine methyltransferase
+NHIKOAIL_02266	CDS	939				hypothetical protein
+NHIKOAIL_02267	CDS	462				hypothetical protein
+NHIKOAIL_02268	CDS	732	pdxJ	2.6.99.2	COG0854	Pyridoxine 5'-phosphate synthase
+NHIKOAIL_02269	CDS	915	era		COG1159	GTPase Era
+NHIKOAIL_02270	CDS	1179	pdxB	1.1.1.290	COG0111	Erythronate-4-phosphate dehydrogenase
+NHIKOAIL_02271	CDS	783				hypothetical protein
+NHIKOAIL_02272	CDS	309				hypothetical protein
+NHIKOAIL_02273	CDS	642				hypothetical protein
+NHIKOAIL_02274	CDS	1149	bshA	2.4.1.-	COG0438	N-acetyl-alpha-D-glucosaminyl L-malate synthase
+NHIKOAIL_02275	CDS	651	gloC	3.1.2.6	COG0491	Hydroxyacylglutathione hydrolase GloC
+NHIKOAIL_02276	CDS	1434				hypothetical protein
+NHIKOAIL_02277	CDS	669	rsmI	2.1.1.198	COG0313	Ribosomal RNA small subunit methyltransferase I
+NHIKOAIL_02278	CDS	597				hypothetical protein
+NHIKOAIL_02279	CDS	2937				hypothetical protein
+NHIKOAIL_02280	CDS	333				hypothetical protein
+NHIKOAIL_02281	CDS	474	ybeY	3.1.-.-	COG0319	Endoribonuclease YbeY
+NHIKOAIL_02282	CDS	321	hpf			Ribosome hibernation promoting factor
+NHIKOAIL_02283	CDS	960	metF	1.5.1.20	COG0685	5,10-methylenetetrahydrofolate reductase
+NHIKOAIL_02284	CDS	612				hypothetical protein
+NHIKOAIL_02285	CDS	300				hypothetical protein
+NHIKOAIL_02286	CDS	450				hypothetical protein
+NHIKOAIL_02287	CDS	702	qoxC	1.10.3.-		Quinol oxidase subunit 3
+NHIKOAIL_02288	CDS	1746	caaA	1.9.3.1	COG0843	Cytochrome c oxidase polypeptide I+III
+NHIKOAIL_02289	CDS	948	ctaC	1.9.3.1	COG1622	Cytochrome c oxidase subunit 2
+NHIKOAIL_02290	CDS	744				hypothetical protein
+NHIKOAIL_02291	CDS	1263				hypothetical protein
+NHIKOAIL_02292	CDS	651				hypothetical protein
+NHIKOAIL_02293	CDS	606				hypothetical protein
+NHIKOAIL_02294	CDS	1521				hypothetical protein
+NHIKOAIL_02295	CDS	3423				hypothetical protein
+NHIKOAIL_02296	CDS	654				hypothetical protein
+NHIKOAIL_02297	CDS	2367	btuB_9			Vitamin B12 transporter BtuB
+NHIKOAIL_02298	CDS	432				hypothetical protein
+NHIKOAIL_02299	CDS	558	msrB_2	1.8.4.12		Peptide methionine sulfoxide reductase MsrB
+NHIKOAIL_02300	CDS	405				hypothetical protein
+NHIKOAIL_02301	CDS	1140	pfp	2.7.1.90		Pyrophosphate--fructose 6-phosphate 1-phosphotransferase
+NHIKOAIL_02302	CDS	1158			COG0327	GTP cyclohydrolase 1 type 2 
+NHIKOAIL_02303	CDS	777				hypothetical protein
+NHIKOAIL_02304	CDS	384				hypothetical protein
+NHIKOAIL_02305	CDS	558	nudF	3.6.1.13	COG0494	ADP-ribose pyrophosphatase
+NHIKOAIL_02306	CDS	462				hypothetical protein
+NHIKOAIL_02307	CDS	720	rsmE	2.1.1.193	COG1385	Ribosomal RNA small subunit methyltransferase E
+NHIKOAIL_02308	CDS	1827	bamA_3			Outer membrane protein assembly factor BamA
+NHIKOAIL_02309	CDS	387				hypothetical protein
+NHIKOAIL_02310	CDS	1065	mutY	3.2.2.31		Adenine DNA glycosylase
+NHIKOAIL_02311	CDS	525				hypothetical protein
+NHIKOAIL_02312	CDS	486				hypothetical protein
+NHIKOAIL_02313	CDS	291	groS_2		COG0234	10 kDa chaperonin
+NHIKOAIL_02314	CDS	1686	groL_2		COG0459	60 kDa chaperonin
+NHIKOAIL_02315	CDS	2751	pat	2.3.1.-	COG0454	Peptidyl-lysine N-acetyltransferase Pat
+NHIKOAIL_02316	CDS	207				hypothetical protein
+NHIKOAIL_02317	CDS	669				hypothetical protein
+NHIKOAIL_02318	CDS	1686				hypothetical protein
+NHIKOAIL_02319	CDS	294				hypothetical protein
+NHIKOAIL_02320	CDS	1110	rlmN	2.1.1.192		putative dual-specificity RNA methyltransferase RlmN
+NHIKOAIL_02321	CDS	1308	hisD	1.1.1.23	COG0141	Histidinol dehydrogenase
+NHIKOAIL_02322	CDS	1125	hisC	2.6.1.9	COG0079	Histidinol-phosphate aminotransferase
+NHIKOAIL_02323	CDS	603				hypothetical protein
+NHIKOAIL_02324	CDS	1644	bshC	6.-.-.-	COG4365	Putative cysteine ligase BshC
+NHIKOAIL_02325	CDS	666				hypothetical protein
+NHIKOAIL_02326	CDS	870	punA	2.4.2.1		Purine nucleoside phosphorylase 1
+NHIKOAIL_02327	CDS	1242				hypothetical protein
+NHIKOAIL_02328	CDS	669	recX			Regulatory protein RecX
+NHIKOAIL_02329	CDS	948				hypothetical protein
+NHIKOAIL_02330	CDS	2607				hypothetical protein
+NHIKOAIL_02331	CDS	1203				hypothetical protein
+NHIKOAIL_02332	CDS	555				hypothetical protein
+NHIKOAIL_02333	CDS	285				hypothetical protein
+NHIKOAIL_02334	CDS	501	rlpA_2	4.2.2.-		Endolytic peptidoglycan transglycosylase RlpA
+NHIKOAIL_02335	CDS	2505				hypothetical protein
+NHIKOAIL_02336	CDS	435				hypothetical protein
+NHIKOAIL_02337	CDS	186				hypothetical protein
+NHIKOAIL_02338	CDS	1791	ilvI	2.2.1.6	COG0028	Acetolactate synthase isozyme 3 large subunit
+NHIKOAIL_02339	CDS	648				hypothetical protein
+NHIKOAIL_02340	CDS	1047	ilvC	1.1.1.86	COG0059	Ketol-acid reductoisomerase (NADP(+))
+NHIKOAIL_02341	CDS	1098	leuB	1.1.1.85	COG0473	3-isopropylmalate dehydrogenase
+NHIKOAIL_02342	CDS	1641	leuA	2.3.3.13	COG0119	2-isopropylmalate synthase
+NHIKOAIL_02343	CDS	1410	leuC_2	4.2.1.33	COG0065	3-isopropylmalate dehydratase large subunit
+NHIKOAIL_02344	CDS	480				hypothetical protein
+NHIKOAIL_02345	CDS	618	leuD1	4.2.1.33	COG0066	3-isopropylmalate dehydratase small subunit 1
+NHIKOAIL_02346	CDS	1719	ilvD	4.2.1.9	COG0129	Dihydroxy-acid dehydratase
+NHIKOAIL_02347	CDS	1599	cimA	2.3.1.182	COG0119	(R)-citramalate synthase
+NHIKOAIL_02348	CDS	474				hypothetical protein
+NHIKOAIL_02349	CDS	291				hypothetical protein
+NHIKOAIL_02350	CDS	813				hypothetical protein
+NHIKOAIL_02351	CDS	420				hypothetical protein
+NHIKOAIL_02352	CDS	1125				hypothetical protein
+NHIKOAIL_02353	CDS	792	mtnP	2.4.2.28	COG0005	S-methyl-5'-thioadenosine phosphorylase
+NHIKOAIL_02354	CDS	3024				hypothetical protein
+NHIKOAIL_02355	CDS	624				hypothetical protein
+NHIKOAIL_02356	CDS	1860			COG1132	putative ABC transporter ATP-binding protein
+NHIKOAIL_02357	CDS	969	rnz	3.1.26.11	COG1234	Ribonuclease Z
+NHIKOAIL_02358	CDS	1800	yheI	3.6.3.-	COG1132	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI
+NHIKOAIL_02359	CDS	600				hypothetical protein
+NHIKOAIL_02360	CDS	2577	bamA_4			Outer membrane protein assembly factor BamA
+NHIKOAIL_02361	CDS	1008				hypothetical protein
+NHIKOAIL_02362	CDS	1017	hprK	2.7.11.-	COG1493	HPr kinase/phosphorylase
+NHIKOAIL_02363	CDS	996				hypothetical protein
+NHIKOAIL_02364	CDS	924	fmt_2	2.1.2.9	COG0223	Methionyl-tRNA formyltransferase
+NHIKOAIL_02365	CDS	975	ftsY		COG0552	Signal recognition particle receptor FtsY
+NHIKOAIL_02366	CDS	603				hypothetical protein
+NHIKOAIL_02367	CDS	333	atl_1		COG3695	DNA base-flipping protein
+NHIKOAIL_02368	CDS	501				hypothetical protein
+NHIKOAIL_02369	CDS	540				hypothetical protein
+NHIKOAIL_02370	CDS	1479				hypothetical protein
+NHIKOAIL_02371	CDS	3066				TonB-dependent receptor P3
+NHIKOAIL_02372	CDS	339	atl_2		COG3695	DNA base-flipping protein
+NHIKOAIL_02373	CDS	1587				hypothetical protein
+NHIKOAIL_02374	CDS	2895				TonB-dependent receptor P26
+NHIKOAIL_02375	CDS	1032	murB	1.3.1.98		UDP-N-acetylenolpyruvoylglucosamine reductase
+NHIKOAIL_02376	CDS	987	draG	3.2.2.24	COG1397	ADP-ribosyl-[dinitrogen reductase] glycohydrolase
+NHIKOAIL_02377	CDS	669				hypothetical protein
+NHIKOAIL_02378	CDS	753	ccmC		COG0755	Heme exporter protein C
+NHIKOAIL_02379	CDS	282				hypothetical protein
+NHIKOAIL_02380	CDS	432				hypothetical protein
+NHIKOAIL_02381	CDS	438				hypothetical protein
+NHIKOAIL_02382	CDS	1419			COG2239	Magnesium transporter MgtE
+NHIKOAIL_02383	CDS	810	rsmA	2.1.1.182	COG0030	Ribosomal RNA small subunit methyltransferase A
+NHIKOAIL_02384	CDS	1107			COG4867	putative protein
+NHIKOAIL_02385	CDS	1200				hypothetical protein
+NHIKOAIL_02386	CDS	1257	ddl_2	6.3.2.4		D-alanine--D-alanine ligase
+NHIKOAIL_02387	CDS	1293	pyrC	3.5.2.3	COG0044	Dihydroorotase
+NHIKOAIL_02388	CDS	2727	gyrA_2	5.6.2.2	COG0188	DNA gyrase subunit A
+NHIKOAIL_02389	CDS	2859				hypothetical protein
+NHIKOAIL_02390	CDS	660				hypothetical protein
+NHIKOAIL_02391	CDS	1419	pgcA	5.4.2.2		Phosphoglucomutase
+NHIKOAIL_02392	CDS	708	lolD_2	3.6.3.-	COG1136	Lipoprotein-releasing system ATP-binding protein LolD
+NHIKOAIL_02393	CDS	726				hypothetical protein
+NHIKOAIL_02394	CDS	126				hypothetical protein
+NHIKOAIL_02395	CDS	240				hypothetical protein
+NHIKOAIL_02396	CDS	396				hypothetical protein
+NHIKOAIL_02397	CDS	1428	pntB	7.1.1.1	COG1282	NAD(P) transhydrogenase subunit beta
+NHIKOAIL_02398	CDS	321	pntA	7.1.1.1	COG3288	NAD(P) transhydrogenase subunit alpha
+NHIKOAIL_02399	CDS	1158	pntAA	7.1.1.1	COG3288	NAD(P) transhydrogenase subunit alpha part 1
+NHIKOAIL_02400	CDS	1110	serC	2.6.1.52		Phosphoserine aminotransferase
+NHIKOAIL_02401	CDS	486	fkpB	5.2.1.8	COG1047	FKBP-type 16 kDa peptidyl-prolyl cis-trans isomerase
+NHIKOAIL_02402	CDS	540			COG2335	Immunogenic protein MPT70
+NHIKOAIL_02403	CDS	969		1.13.11.63		beta-carotene 15,15'-dioxygenase
+NHIKOAIL_02404	CDS	1356	ndh	1.6.99.3	COG1252	NADH dehydrogenase
+NHIKOAIL_02405	CDS	522				hypothetical protein
+NHIKOAIL_02406	CDS	606				hypothetical protein
+NHIKOAIL_02407	CDS	1242	argG	6.3.4.5		Argininosuccinate synthase
+NHIKOAIL_02408	CDS	1134				hypothetical protein
+NHIKOAIL_02409	CDS	1065	lysY	1.2.1.-	COG0002	[LysW]-L-2-aminoadipate 6-phosphate reductase
+NHIKOAIL_02410	CDS	1188	lysJ	2.6.1.-	COG4992	[LysW]-aminoadipate semialdehyde transaminase
+NHIKOAIL_02411	CDS	1059	argF'	2.1.3.9	COG0078	N-acetylornithine carbamoyltransferase
+NHIKOAIL_02412	CDS	804	argB_2	2.7.2.8	COG0548	Acetylglutamate kinase
+NHIKOAIL_02413	CDS	1083	dapE_3	3.5.1.18		Succinyl-diaminopimelate desuccinylase
+NHIKOAIL_02414	CDS	1314	argH	4.3.2.1	COG0165	Argininosuccinate lyase
+NHIKOAIL_02415	CDS	798				hypothetical protein
+NHIKOAIL_02416	CDS	444				hypothetical protein
+NHIKOAIL_02417	CDS	471				hypothetical protein
+NHIKOAIL_02418	CDS	2859				hypothetical protein
+NHIKOAIL_02419	CDS	327				hypothetical protein
+NHIKOAIL_02420	CDS	207				hypothetical protein
+NHIKOAIL_02421	CDS	252				hypothetical protein
+NHIKOAIL_02422	CDS	777	COQ5_4	2.1.1.163		2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+NHIKOAIL_02423	CDS	1011			COG0330	putative protein
+NHIKOAIL_02424	CDS	915	qmcA		COG0330	Protein QmcA
+NHIKOAIL_02425	CDS	597				hypothetical protein
+NHIKOAIL_02426	CDS	771	yfiH	1.10.3.-	COG1496	Polyphenol oxidase
+NHIKOAIL_02427	CDS	969				hypothetical protein
+NHIKOAIL_02428	CDS	1776	recJ	3.1.-.-	COG0608	Single-stranded-DNA-specific exonuclease RecJ
+NHIKOAIL_02429	CDS	1407	rho_1	3.6.4.-		Transcription termination factor Rho
+NHIKOAIL_02430	CDS	3243	tri1	3.4.21.-	COG0793	Tricorn protease 
+NHIKOAIL_02431	CDS	747	gph_2	3.1.3.18	COG0546	Phosphoglycolate phosphatase
+NHIKOAIL_02432	CDS	546	pal_4			Peptidoglycan-associated lipoprotein
+NHIKOAIL_02433	CDS	921				hypothetical protein
+NHIKOAIL_02434	CDS	1779			COG0659	putative sulfate transporter
+NHIKOAIL_02435	CDS	672				hypothetical protein
+NHIKOAIL_02436	CDS	537				hypothetical protein
+NHIKOAIL_02437	CDS	285				hypothetical protein
+NHIKOAIL_02438	CDS	2544				hypothetical protein
+NHIKOAIL_02439	CDS	279				hypothetical protein
+NHIKOAIL_02440	CDS	285				hypothetical protein
+NHIKOAIL_02441	CDS	2601	btuB_10			Vitamin B12 transporter BtuB
+NHIKOAIL_02442	CDS	1575	pccB	6.4.1.3	COG4799	Propionyl-CoA carboxylase beta chain
+NHIKOAIL_02443	CDS	1755				hypothetical protein
+NHIKOAIL_02444	CDS	702	fliA			RNA polymerase sigma factor FliA
+NHIKOAIL_02445	CDS	1011				hypothetical protein
+NHIKOAIL_02446	CDS	2763				hypothetical protein
+NHIKOAIL_02447	CDS	513				hypothetical protein
+NHIKOAIL_02448	CDS	2127	susB	3.2.1.3		Glucan 1,4-alpha-glucosidase SusB
+NHIKOAIL_02449	CDS	675				hypothetical protein
+NHIKOAIL_02450	CDS	363				hypothetical protein
+NHIKOAIL_02451	CDS	504				hypothetical protein
+NHIKOAIL_02452	CDS	1461	gdhA_2	1.4.1.3	COG0334	Glutamate dehydrogenase
+NHIKOAIL_02453	CDS	1935	nhaP2			K(+)/H(+) antiporter NhaP2
+NHIKOAIL_02454	CDS	2304				hypothetical protein
+NHIKOAIL_02455	CDS	2343	potE_1			Putrescine transporter PotE
+NHIKOAIL_02456	CDS	2265				hypothetical protein
+NHIKOAIL_02457	CDS	1347	yhdG_1		COG0531	putative amino acid permease YhdG
+NHIKOAIL_02458	CDS	765				hypothetical protein
+NHIKOAIL_02459	CDS	663	trkA_1		COG0569	Trk system potassium uptake protein TrkA
+NHIKOAIL_02460	CDS	1362	yhdG_2		COG0531	putative amino acid permease YhdG
+NHIKOAIL_02461	CDS	207				hypothetical protein
+NHIKOAIL_02462	CDS	615				hypothetical protein
+NHIKOAIL_02463	CDS	1635				hypothetical protein
+NHIKOAIL_02464	CDS	681	ktrA		COG0569	Ktr system potassium uptake protein A
+NHIKOAIL_02465	CDS	1476	ntpJ			Potassium/sodium uptake protein NtpJ
+NHIKOAIL_02466	CDS	1341	trkA_2		COG0569	Trk system potassium uptake protein TrkA
+NHIKOAIL_02467	CDS	1500	trkH		COG0168	Trk system potassium uptake protein TrkH
+NHIKOAIL_02468	CDS	2211	potE_2			Putrescine transporter PotE
+NHIKOAIL_02469	CDS	2136	potE_3			Putrescine transporter PotE
+NHIKOAIL_02470	CDS	3468	rcsC_24	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02471	CDS	858	aroE	1.1.1.25	COG0169	Shikimate dehydrogenase (NADP(+))
+NHIKOAIL_02472	CDS	2475	lon_2	3.4.21.53		Lon protease
+NHIKOAIL_02473	CDS	870				hypothetical protein
+NHIKOAIL_02474	CDS	387				hypothetical protein
+NHIKOAIL_02475	CDS	423				hypothetical protein
+NHIKOAIL_02476	CDS	462				hypothetical protein
+NHIKOAIL_02477	CDS	738	acr1	1.2.1.-	COG3320	Fatty acyl-CoA reductase
+NHIKOAIL_02478	CDS	483				hypothetical protein
+NHIKOAIL_02479	CDS	1842		3.6.3.-	COG1132	Putative multidrug export ATP-binding/permease protein
+NHIKOAIL_02480	CDS	276				hypothetical protein
+NHIKOAIL_02481	CDS	705				hypothetical protein
+NHIKOAIL_02482	CDS	600	comR			HTH-type transcriptional repressor ComR
+NHIKOAIL_02483	CDS	1215	tdcB	4.3.1.19	COG1171	L-threonine ammonia-lyase
+NHIKOAIL_02484	CDS	285				hypothetical protein
+NHIKOAIL_02485	CDS	2259				hypothetical protein
+NHIKOAIL_02486	CDS	780				hypothetical protein
+NHIKOAIL_02487	CDS	1317	yeeO_2		COG0534	putative FMN/FAD exporter YeeO
+NHIKOAIL_02488	CDS	711	phoP_2		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+NHIKOAIL_02489	CDS	1068	sphX		COG0226	Protein SphX
+NHIKOAIL_02490	CDS	966	pstC		COG0573	Phosphate transport system permease protein PstC
+NHIKOAIL_02491	CDS	888	pstA		COG0581	Phosphate transport system permease protein PstA
+NHIKOAIL_02492	CDS	882	pstB	7.3.2.1	COG1117	Phosphate import ATP-binding protein PstB
+NHIKOAIL_02493	CDS	738	phoU_2		COG0704	Phosphate-specific transport system accessory protein PhoU 
+NHIKOAIL_02494	CDS	1677				hypothetical protein
+NHIKOAIL_02495	CDS	7077				hypothetical protein
+NHIKOAIL_02496	tRNA	75				tRNA-Gln(ctg)
+NHIKOAIL_02497	CDS	891	plsC	2.3.1.51	COG0204	1-acyl-sn-glycerol-3-phosphate acyltransferase
+NHIKOAIL_02498	CDS	1194	ribD		COG0117	Riboflavin biosynthesis protein RibD
+NHIKOAIL_02499	CDS	654	ribE	2.5.1.9	COG0307	Riboflavin synthase
+NHIKOAIL_02500	CDS	219				hypothetical protein
+NHIKOAIL_02501	CDS	1140				hypothetical protein
+NHIKOAIL_02502	CDS	624				hypothetical protein
+NHIKOAIL_02503	CDS	1638				hypothetical protein
+NHIKOAIL_02504	CDS	1020	adh	1.1.1.1		Alcohol dehydrogenase
+NHIKOAIL_02505	CDS	1224	ymfD			Bacillibactin exporter
+NHIKOAIL_02506	CDS	1392	nplT	3.2.1.135		Neopullulanase
+NHIKOAIL_02507	CDS	603				hypothetical protein
+NHIKOAIL_02508	tRNA	75				tRNA-Lys(ttt)
+NHIKOAIL_02509	tRNA	87				tRNA-Leu(gag)
+NHIKOAIL_02510	CDS	978				hypothetical protein
+NHIKOAIL_02511	CDS	390				hypothetical protein
+NHIKOAIL_02512	CDS	792				IS481 family transposase ISRhsp3
+NHIKOAIL_02513	CDS	1269				IS256 family transposase ISPeth3
+NHIKOAIL_02514	CDS	312				hypothetical protein
+NHIKOAIL_02515	CDS	393				hypothetical protein
+NHIKOAIL_02516	CDS	453				hypothetical protein
+NHIKOAIL_02517	CDS	639	xerC_4			Tyrosine recombinase XerC
+NHIKOAIL_02518	CDS	3030				hypothetical protein
+NHIKOAIL_02519	CDS	327				hypothetical protein
+NHIKOAIL_02520	CDS	462				hypothetical protein
+NHIKOAIL_02521	CDS	564				hypothetical protein
+NHIKOAIL_02522	CDS	378	smtB_2		COG0640	Transcriptional repressor SmtB
+NHIKOAIL_02523	CDS	2478	cadA_2	3.6.3.3		Cadmium-transporting ATPase
+NHIKOAIL_02524	CDS	606				hypothetical protein
+NHIKOAIL_02525	CDS	1188				hypothetical protein
+NHIKOAIL_02526	CDS	1173				hypothetical protein
+NHIKOAIL_02527	CDS	1968	cadA_3	3.6.3.3		Cadmium-transporting ATPase
+NHIKOAIL_02528	CDS	519	lspA_2	3.4.23.36		Lipoprotein signal peptidase
+NHIKOAIL_02529	CDS	1599	mmcO_1	1.16.3.1	COG2132	Multicopper oxidase MmcO
+NHIKOAIL_02530	CDS	390				hypothetical protein
+NHIKOAIL_02531	CDS	582				hypothetical protein
+NHIKOAIL_02532	CDS	114				hypothetical protein
+NHIKOAIL_02533	CDS	351	glnB_1		COG0347	Nitrogen regulatory protein P-II
+NHIKOAIL_02534	CDS	3123	czcA_1			Cobalt-zinc-cadmium resistance protein CzcA
+NHIKOAIL_02535	CDS	1353	mdtA_3			Multidrug resistance protein MdtA
+NHIKOAIL_02536	CDS	1386	czcC_1			Cobalt-zinc-cadmium resistance protein CzcC
+NHIKOAIL_02537	CDS	477				hypothetical protein
+NHIKOAIL_02538	CDS	1569	mmcO_2	1.16.3.1	COG2132	Multicopper oxidase MmcO
+NHIKOAIL_02539	CDS	3381	cusA		COG3696	Cation efflux system protein CusA
+NHIKOAIL_02540	CDS	1182	cusB			Cation efflux system protein CusB
+NHIKOAIL_02541	CDS	1317	czcC_2			Cobalt-zinc-cadmium resistance protein CzcC
+NHIKOAIL_02542	CDS	1353	garB	1.8.1.16		Glutathione amide reductase
+NHIKOAIL_02543	CDS	759				hypothetical protein
+NHIKOAIL_02544	CDS	219				hypothetical protein
+NHIKOAIL_02545	CDS	1674	merA_1	1.16.1.1		Mercuric reductase
+NHIKOAIL_02546	CDS	651				hypothetical protein
+NHIKOAIL_02547	CDS	414				hypothetical protein
+NHIKOAIL_02548	CDS	411	zntR		COG0789	HTH-type transcriptional regulator ZntR
+NHIKOAIL_02549	CDS	429				hypothetical protein
+NHIKOAIL_02550	CDS	417				hypothetical protein
+NHIKOAIL_02551	CDS	387				hypothetical protein
+NHIKOAIL_02552	CDS	543				hypothetical protein
+NHIKOAIL_02553	CDS	861				hypothetical protein
+NHIKOAIL_02554	CDS	2460	copA_3	7.2.2.8		Copper-exporting P-type ATPase
+NHIKOAIL_02555	CDS	219	copZ			Copper chaperone CopZ
+NHIKOAIL_02556	CDS	876	rutD_2	3.5.1.-		Putative aminoacrylate hydrolase RutD
+NHIKOAIL_02557	CDS	270				hypothetical protein
+NHIKOAIL_02558	CDS	192				hypothetical protein
+NHIKOAIL_02559	CDS	2529	copA_4	7.2.2.8	COG2217	Copper-exporting P-type ATPase
+NHIKOAIL_02560	CDS	216	merP			Mercuric transport protein periplasmic component
+NHIKOAIL_02561	CDS	438				ISL3 family transposase ISStma11
+NHIKOAIL_02562	CDS	690				hypothetical protein
+NHIKOAIL_02563	CDS	1959				hypothetical protein
+NHIKOAIL_02564	CDS	1065				hypothetical protein
+NHIKOAIL_02565	CDS	1086				hypothetical protein
+NHIKOAIL_02566	CDS	1257	tetA			Tetracycline resistance protein, class B
+NHIKOAIL_02567	CDS	270				hypothetical protein
+NHIKOAIL_02568	CDS	165				hypothetical protein
+NHIKOAIL_02569	CDS	915				hypothetical protein
+NHIKOAIL_02570	CDS	1173	cfa	2.1.1.79	COG2230	Cyclopropane-fatty-acyl-phospholipid synthase
+NHIKOAIL_02571	CDS	1149				hypothetical protein
+NHIKOAIL_02572	CDS	429				hypothetical protein
+NHIKOAIL_02573	CDS	1173	thi4	2.4.2.59		Thiamine thiazole synthase
+NHIKOAIL_02574	CDS	1932	copB_1	7.2.2.8		Copper-exporting P-type ATPase B
+NHIKOAIL_02575	CDS	96				hypothetical protein
+NHIKOAIL_02576	CDS	723				hypothetical protein
+NHIKOAIL_02577	CDS	636				hypothetical protein
+NHIKOAIL_02578	CDS	402				hypothetical protein
+NHIKOAIL_02579	CDS	732	COQ5_5	2.1.1.163		2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+NHIKOAIL_02580	CDS	453				hypothetical protein
+NHIKOAIL_02581	CDS	258				hypothetical protein
+NHIKOAIL_02582	CDS	687				hypothetical protein
+NHIKOAIL_02583	CDS	759				hypothetical protein
+NHIKOAIL_02584	CDS	450				hypothetical protein
+NHIKOAIL_02585	CDS	327				hypothetical protein
+NHIKOAIL_02586	CDS	327				hypothetical protein
+NHIKOAIL_02587	CDS	2478				hypothetical protein
+NHIKOAIL_02588	CDS	1920	dsbD_1	1.8.1.8	COG4232	Thiol:disulfide interchange protein DsbD
+NHIKOAIL_02589	CDS	675	resA_3			Thiol-disulfide oxidoreductase ResA
+NHIKOAIL_02590	CDS	642	resA_4			Thiol-disulfide oxidoreductase ResA
+NHIKOAIL_02591	CDS	543				hypothetical protein
+NHIKOAIL_02592	CDS	1389			COG0701	Putative permease
+NHIKOAIL_02593	CDS	432	petE			Plastocyanin
+NHIKOAIL_02594	CDS	156				hypothetical protein
+NHIKOAIL_02595	CDS	729	copB_2			Copper resistance protein B
+NHIKOAIL_02596	CDS	1944	copA_5			Copper resistance protein A
+NHIKOAIL_02597	CDS	384				hypothetical protein
+NHIKOAIL_02598	CDS	1029				hypothetical protein
+NHIKOAIL_02599	CDS	279	csoR_2		COG1937	Copper-sensing transcriptional repressor CsoR
+NHIKOAIL_02600	CDS	1593				hypothetical protein
+NHIKOAIL_02601	CDS	1548				hypothetical protein
+NHIKOAIL_02602	CDS	1359	xerC_5			Tyrosine recombinase XerC
+NHIKOAIL_02603	CDS	675				hypothetical protein
+NHIKOAIL_02604	CDS	759				hypothetical protein
+NHIKOAIL_02605	CDS	513				hypothetical protein
+NHIKOAIL_02606	CDS	1488				hypothetical protein
+NHIKOAIL_02607	CDS	978				hypothetical protein
+NHIKOAIL_02608	CDS	1398				hypothetical protein
+NHIKOAIL_02609	CDS	1209				hypothetical protein
+NHIKOAIL_02610	CDS	1863	uvrD	3.6.4.12	COG0210	DNA helicase II
+NHIKOAIL_02611	CDS	1959	recF_2			DNA replication and repair protein RecF
+NHIKOAIL_02612	CDS	321				hypothetical protein
+NHIKOAIL_02613	CDS	690	pcm_2	2.1.1.77	COG2518	Protein-L-isoaspartate O-methyltransferase
+NHIKOAIL_02614	CDS	3258	rep	3.6.4.12		ATP-dependent DNA helicase Rep
+NHIKOAIL_02615	CDS	786				queuosine precursor transporter
+NHIKOAIL_02616	CDS	1158				hypothetical protein
+NHIKOAIL_02617	CDS	942	ilvE	2.6.1.42	COG0115	Branched-chain-amino-acid aminotransferase
+NHIKOAIL_02618	CDS	762		2.4.1.54		Undecaprenyl-phosphate mannosyltransferase
+NHIKOAIL_02619	CDS	510				hypothetical protein
+NHIKOAIL_02620	CDS	1557				hypothetical protein
+NHIKOAIL_02621	CDS	948				hypothetical protein
+NHIKOAIL_02622	CDS	2322	rcsC_25	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02623	CDS	474				hypothetical protein
+NHIKOAIL_02624	CDS	1047				hypothetical protein
+NHIKOAIL_02625	CDS	2472				hypothetical protein
+NHIKOAIL_02626	CDS	1161				hypothetical protein
+NHIKOAIL_02627	CDS	837	btsR_2		COG3279	Transcriptional regulatory protein BtsR
+NHIKOAIL_02628	CDS	1053	sfnG	1.14.14.35		FMNH(2)-dependent dimethylsulfone monooxygenase
+NHIKOAIL_02629	CDS	948				hypothetical protein
+NHIKOAIL_02630	CDS	1482	cry2		COG0415	Cryptochrome-like protein cry2
+NHIKOAIL_02631	CDS	444				hypothetical protein
+NHIKOAIL_02632	CDS	675	COQ5_6	2.1.1.163		2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+NHIKOAIL_02633	CDS	1188	uctC	2.8.3.19		Acetyl-CoA:oxalate CoA-transferase
+NHIKOAIL_02634	CDS	1440	glyQS	6.1.1.14		Glycine--tRNA ligase
+NHIKOAIL_02635	CDS	162				hypothetical protein
+NHIKOAIL_02636	CDS	777				hypothetical protein
+NHIKOAIL_02637	CDS	1122	rho_2	3.6.4.-	COG1158	Transcription termination factor Rho
+NHIKOAIL_02638	CDS	777		3.1.1.10		Tropinesterase
+NHIKOAIL_02639	CDS	1632	murF	6.3.2.10		UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+NHIKOAIL_02640	CDS	309				hypothetical protein
+NHIKOAIL_02641	CDS	393				hypothetical protein
+NHIKOAIL_02642	CDS	1137	acuC_2			Acetoin utilization protein AcuC
+NHIKOAIL_02643	CDS	774				hypothetical protein
+NHIKOAIL_02644	CDS	444				hypothetical protein
+NHIKOAIL_02645	CDS	417		3.1.-.-	COG0824	Putative esterase
+NHIKOAIL_02646	CDS	1002	accA	2.1.3.15	COG0825	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha
+NHIKOAIL_02647	CDS	843				hypothetical protein
+NHIKOAIL_02648	CDS	543		1.5.1.37		Flavin reductase
+NHIKOAIL_02649	CDS	1167	dnaJ_4		COG0484	Chaperone protein DnaJ
+NHIKOAIL_02650	CDS	663	grpE			Protein GrpE
+NHIKOAIL_02651	CDS	1092	hrcA		COG1420	Heat-inducible transcription repressor HrcA
+NHIKOAIL_02652	CDS	1806				hypothetical protein
+NHIKOAIL_02653	CDS	1572	gpmI_2	5.4.2.12		2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+NHIKOAIL_02654	CDS	849	nth	4.2.99.18		Endonuclease III
+NHIKOAIL_02655	CDS	1233				hypothetical protein
+NHIKOAIL_02656	CDS	450				hypothetical protein
+NHIKOAIL_02657	CDS	447				hypothetical protein
+NHIKOAIL_02658	CDS	1290				hypothetical protein
+NHIKOAIL_02659	CDS	1005				hypothetical protein
+NHIKOAIL_02660	CDS	1551				hypothetical protein
+NHIKOAIL_02661	CDS	1197	metC_2	4.4.1.13	COG0626	Cystathionine beta-lyase
+NHIKOAIL_02662	CDS	492				hypothetical protein
+NHIKOAIL_02663	CDS	1533	menE_2	6.2.1.26		2-succinylbenzoate--CoA ligase
+NHIKOAIL_02664	CDS	294				hypothetical protein
+NHIKOAIL_02665	CDS	1410	algC	5.4.2.2	COG1109	Phosphomannomutase/phosphoglucomutase
+NHIKOAIL_02666	CDS	993	ctaA	1.3.-.-		Heme A synthase
+NHIKOAIL_02667	CDS	951	ctaB1	2.5.1.141	COG0109	Protoheme IX farnesyltransferase 1
+NHIKOAIL_02668	CDS	966	lnrL	3.6.3.-	COG1131	Linearmycin resistance ATP-binding protein LnrL
+NHIKOAIL_02669	CDS	783				hypothetical protein
+NHIKOAIL_02670	CDS	603	rnhB	3.1.26.4	COG0164	Ribonuclease HII
+NHIKOAIL_02671	CDS	1593	pckA_2	4.1.1.49	COG1866	Phosphoenolpyruvate carboxykinase (ATP)
+NHIKOAIL_02672	CDS	1446				hypothetical protein
+NHIKOAIL_02673	CDS	1638	ade_3	3.5.4.2	COG1001	Adenine deaminase
+NHIKOAIL_02674	CDS	1326	thrC	4.2.3.1	COG0498	Threonine synthase
+NHIKOAIL_02675	CDS	492				hypothetical protein
+NHIKOAIL_02676	tRNA	78				tRNA-Pro(cgg)
+NHIKOAIL_02677	CDS	1899		6.2.1.3	COG1022	Long-chain-fatty-acid--CoA ligase FadD15
+NHIKOAIL_02678	CDS	1101	pyrD	1.3.5.2	COG0167	Dihydroorotate dehydrogenase (quinone)
+NHIKOAIL_02679	CDS	813	yddE	5.1.-.-	COG0384	putative isomerase YddE
+NHIKOAIL_02680	CDS	3054	tolB_7			Tol-Pal system protein TolB
+NHIKOAIL_02681	CDS	1941	mrdA	3.4.16.4	COG0768	Peptidoglycan D,D-transpeptidase MrdA
+NHIKOAIL_02682	CDS	1263	mrdB	2.4.1.129	COG0772	Peptidoglycan glycosyltransferase MrdB
+NHIKOAIL_02683	CDS	1374	nrgA			Ammonium transporter
+NHIKOAIL_02684	CDS	3051	uvrA_2			UvrABC system protein A
+NHIKOAIL_02685	CDS	423	yccF		COG3304	Inner membrane protein YccF
+NHIKOAIL_02686	CDS	450				hypothetical protein
+NHIKOAIL_02687	CDS	1068				hypothetical protein
+NHIKOAIL_02688	CDS	1968				hypothetical protein
+NHIKOAIL_02689	CDS	1467	merA_2	1.16.1.1		Mercuric reductase
+NHIKOAIL_02690	CDS	453				hypothetical protein
+NHIKOAIL_02691	CDS	1554	rcsC_26	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02692	CDS	441				hypothetical protein
+NHIKOAIL_02693	CDS	1560				hypothetical protein
+NHIKOAIL_02694	CDS	435				hypothetical protein
+NHIKOAIL_02695	CDS	489				hypothetical protein
+NHIKOAIL_02696	CDS	285				hypothetical protein
+NHIKOAIL_02697	CDS	294				hypothetical protein
+NHIKOAIL_02698	CDS	1092	fbpC2	7.2.2.7	COG3842	Fe(3+) ions import ATP-binding protein FbpC 2
+NHIKOAIL_02699	CDS	1590				hypothetical protein
+NHIKOAIL_02700	CDS	1083	fbpA			Fe(3+)-binding periplasmic protein
+NHIKOAIL_02701	CDS	2034	dpp5_2	3.4.14.-	COG1506	Dipeptidyl-peptidase 5
+NHIKOAIL_02702	CDS	1173	mshA_10	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_02703	CDS	981	iolS	1.1.1.-	COG0667	Aldo-keto reductase IolS
+NHIKOAIL_02704	CDS	549				hypothetical protein
+NHIKOAIL_02705	CDS	2244	katG2	1.11.1.21	COG0376	Catalase-peroxidase 2
+NHIKOAIL_02706	CDS	909	oxyR			Hydrogen peroxide-inducible genes activator
+NHIKOAIL_02707	CDS	951	rgtE	2.4.1.-	COG0463	Dodecaprenyl-phosphate galacturonate synthase
+NHIKOAIL_02708	CDS	1959	gyrB_2	5.6.2.2	COG0187	DNA gyrase subunit B
+NHIKOAIL_02709	CDS	1851	glgB_3	2.4.1.18		1,4-alpha-glucan branching enzyme GlgB
+NHIKOAIL_02710	CDS	519				hypothetical protein
+NHIKOAIL_02711	CDS	660				hypothetical protein
+NHIKOAIL_02712	CDS	1368	hflX		COG2262	GTPase HflX
+NHIKOAIL_02713	CDS	2112				hypothetical protein
+NHIKOAIL_02714	CDS	966				hypothetical protein
+NHIKOAIL_02715	CDS	2772	btuB_11			Vitamin B12 transporter BtuB
+NHIKOAIL_02716	CDS	567	trmR	2.1.1.-		tRNA 5-hydroxyuridine methyltransferase
+NHIKOAIL_02717	CDS	846				hypothetical protein
+NHIKOAIL_02718	CDS	1569	cheB_2	3.5.1.44		Protein-glutamate methylesterase/protein-glutamine glutaminase
+NHIKOAIL_02719	CDS	483	tsaE		COG0802	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+NHIKOAIL_02720	CDS	1308	fpgS	6.3.2.17		Folylpolyglutamate synthase
+NHIKOAIL_02721	CDS	1230				hypothetical protein
+NHIKOAIL_02722	CDS	1545				hypothetical protein
+NHIKOAIL_02723	CDS	1533				hypothetical protein
+NHIKOAIL_02724	CDS	855				hypothetical protein
+NHIKOAIL_02725	CDS	1194	anmK	2.7.1.170	COG2377	Anhydro-N-acetylmuramic acid kinase
+NHIKOAIL_02726	CDS	1083	thiL	2.7.4.16	COG0611	Thiamine-monophosphate kinase
+NHIKOAIL_02727	CDS	372				hypothetical protein
+NHIKOAIL_02728	CDS	2589				hypothetical protein
+NHIKOAIL_02729	CDS	1503	atpD	7.1.2.2	COG0055	ATP synthase subunit beta
+NHIKOAIL_02730	CDS	450	atpC		COG0355	ATP synthase epsilon chain
+NHIKOAIL_02731	CDS	2031				hypothetical protein
+NHIKOAIL_02732	CDS	510				hypothetical protein
+NHIKOAIL_02733	CDS	1167	dthadh	4.3.1.27		D-threo-3-hydroxyaspartate dehydratase
+NHIKOAIL_02734	CDS	1029				hypothetical protein
+NHIKOAIL_02735	CDS	720				hypothetical protein
+NHIKOAIL_02736	CDS	1689		2.7.7.-	COG0617	CC-adding tRNA nucleotidyltransferase
+NHIKOAIL_02737	CDS	735	COQ3_3	2.1.1.222		Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+NHIKOAIL_02738	CDS	1740				hypothetical protein
+NHIKOAIL_02739	CDS	156				hypothetical protein
+NHIKOAIL_02740	CDS	1227	glpA	1.1.5.3	COG0578	Anaerobic glycerol-3-phosphate dehydrogenase subunit A
+NHIKOAIL_02741	CDS	1356				hypothetical protein
+NHIKOAIL_02742	CDS	495	IMPDH_2	1.1.1.205		Inosine-5'-monophosphate dehydrogenase
+NHIKOAIL_02743	CDS	933				hypothetical protein
+NHIKOAIL_02744	CDS	1629				hypothetical protein
+NHIKOAIL_02745	CDS	2091				hypothetical protein
+NHIKOAIL_02746	CDS	606				hypothetical protein
+NHIKOAIL_02747	CDS	1746	sdhA_2	1.3.5.1		Succinate dehydrogenase flavoprotein subunit
+NHIKOAIL_02748	CDS	801	cpdA_5	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+NHIKOAIL_02749	CDS	2064				hypothetical protein
+NHIKOAIL_02750	CDS	2574	btuB_12			Vitamin B12 transporter BtuB
+NHIKOAIL_02751	CDS	747				hypothetical protein
+NHIKOAIL_02752	CDS	996	resA_5			Thiol-disulfide oxidoreductase ResA
+NHIKOAIL_02753	CDS	822				hypothetical protein
+NHIKOAIL_02754	CDS	1422	hutI_4	3.5.2.7		Imidazolonepropionase
+NHIKOAIL_02755	CDS	228	cspC			Cold shock-like protein CspC
+NHIKOAIL_02756	CDS	1482	phoA	3.1.3.1	COG1785	Alkaline phosphatase 4
+NHIKOAIL_02757	CDS	807	fetB		COG0390	putative iron export permease protein FetB
+NHIKOAIL_02758	CDS	693	opuAA_2	7.6.2.9	COG4175	Glycine betaine transport ATP-binding protein OpuAA
+NHIKOAIL_02759	CDS	462			COG2259	putative membrane protein
+NHIKOAIL_02760	CDS	402	crcB		COG0239	Putative fluoride ion transporter CrcB
+NHIKOAIL_02761	CDS	165				hypothetical protein
+NHIKOAIL_02762	CDS	414	arsC	1.20.4.4	COG0394	Arsenate reductase
+NHIKOAIL_02763	CDS	297				hypothetical protein
+NHIKOAIL_02764	CDS	1161	acr3		COG0798	Arsenical-resistance protein Acr3
+NHIKOAIL_02765	CDS	813	arsM	2.1.1.137		Arsenite methyltransferase
+NHIKOAIL_02766	CDS	339				hypothetical protein
+NHIKOAIL_02767	CDS	699				hypothetical protein
+NHIKOAIL_02768	CDS	573				hypothetical protein
+NHIKOAIL_02769	CDS	180				hypothetical protein
+NHIKOAIL_02770	CDS	759				hypothetical protein
+NHIKOAIL_02771	CDS	1263				hypothetical protein
+NHIKOAIL_02772	CDS	480				hypothetical protein
+NHIKOAIL_02773	CDS	429				hypothetical protein
+NHIKOAIL_02774	CDS	222				hypothetical protein
+NHIKOAIL_02775	tRNA	74				tRNA-Thr(cgt)
+NHIKOAIL_02776	CDS	756	opuCA		COG1125	Glycine betaine/carnitine/choline transport ATP-binding protein OpuCA
+NHIKOAIL_02777	CDS	1536				hypothetical protein
+NHIKOAIL_02778	CDS	435				hypothetical protein
+NHIKOAIL_02779	CDS	1506				hypothetical protein
+NHIKOAIL_02780	CDS	1509				hypothetical protein
+NHIKOAIL_02781	CDS	1509				hypothetical protein
+NHIKOAIL_02782	CDS	1494				hypothetical protein
+NHIKOAIL_02783	CDS	729	btuD_5	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+NHIKOAIL_02784	CDS	570				hypothetical protein
+NHIKOAIL_02785	CDS	954				hypothetical protein
+NHIKOAIL_02786	CDS	1569				hypothetical protein
+NHIKOAIL_02787	CDS	933				hypothetical protein
+NHIKOAIL_02788	CDS	297				hypothetical protein
+NHIKOAIL_02789	CDS	1497		3.4.17.19	COG2317	Thermostable carboxypeptidase 1
+NHIKOAIL_02790	CDS	1476	sasA_8	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_02791	CDS	738	phoP_3		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+NHIKOAIL_02792	CDS	1359	aroH	2.5.1.54	COG3200	Phospho-2-dehydro-3-deoxyheptonate aldolase
+NHIKOAIL_02793	CDS	1071	ysdC	3.4.11.-	COG1363	Putative aminopeptidase YsdC
+NHIKOAIL_02794	CDS	711	phoP_4		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+NHIKOAIL_02795	CDS	741	cusR		COG0745	Transcriptional regulatory protein CusR
+NHIKOAIL_02796	CDS	1431	rtcB	6.5.1.-	COG1690	RNA-splicing ligase RtcB
+NHIKOAIL_02797	CDS	1152	mnmA	2.8.1.13		tRNA-specific 2-thiouridylase MnmA
+NHIKOAIL_02798	CDS	399	yabJ	3.5.99.10	COG0251	2-iminobutanoate/2-iminopropanoate deaminase
+NHIKOAIL_02799	CDS	573				hypothetical protein
+NHIKOAIL_02800	CDS	1287				hypothetical protein
+NHIKOAIL_02801	CDS	744				hypothetical protein
+NHIKOAIL_02802	CDS	255				hypothetical protein
+NHIKOAIL_02803	CDS	597				hypothetical protein
+NHIKOAIL_02804	CDS	744				hypothetical protein
+NHIKOAIL_02805	CDS	564				hypothetical protein
+NHIKOAIL_02806	CDS	606				hypothetical protein
+NHIKOAIL_02807	CDS	1380	radA	3.6.4.-	COG1066	DNA repair protein RadA
+NHIKOAIL_02808	CDS	699	mlaE		COG0767	Intermembrane phospholipid transport system permease protein MlaE
+NHIKOAIL_02809	CDS	771	mkl_2		COG1127	putative ribonucleotide transport ATP-binding protein mkl
+NHIKOAIL_02810	CDS	933				hypothetical protein
+NHIKOAIL_02811	CDS	1209				hypothetical protein
+NHIKOAIL_02812	CDS	1410	tgs1	2.3.1.20		putative diacyglycerol O-acyltransferase tgs1
+NHIKOAIL_02813	CDS	483				hypothetical protein
+NHIKOAIL_02814	CDS	444				hypothetical protein
+NHIKOAIL_02815	CDS	318				hypothetical protein
+NHIKOAIL_02816	CDS	162				hypothetical protein
+NHIKOAIL_02817	CDS	2595				hypothetical protein
+NHIKOAIL_02818	CDS	1767	rcsC_27	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02819	CDS	834				hypothetical protein
+NHIKOAIL_02820	CDS	1356				hypothetical protein
+NHIKOAIL_02821	CDS	1689				hypothetical protein
+NHIKOAIL_02822	CDS	279				hypothetical protein
+NHIKOAIL_02823	CDS	477	tadA	3.5.4.33	COG0590	tRNA-specific adenosine deaminase
+NHIKOAIL_02824	CDS	1140	dusB	1.3.1.-		tRNA-dihydrouridine synthase B
+NHIKOAIL_02825	CDS	288				hypothetical protein
+NHIKOAIL_02826	CDS	789				hypothetical protein
+NHIKOAIL_02827	CDS	1284				hypothetical protein
+NHIKOAIL_02828	CDS	657	natA_2	7.2.2.4	COG4555	ABC transporter ATP-binding protein NatA
+NHIKOAIL_02829	CDS	1263				hypothetical protein
+NHIKOAIL_02830	CDS	510	algU_3		COG1595	RNA polymerase sigma-H factor
+NHIKOAIL_02831	CDS	606				hypothetical protein
+NHIKOAIL_02832	CDS	1353				hypothetical protein
+NHIKOAIL_02833	CDS	159				hypothetical protein
+NHIKOAIL_02834	CDS	627		1.1.99.3		Gluconate 2-dehydrogenase subunit 3
+NHIKOAIL_02835	CDS	1734	mpdB	1.1.1.400		2-methyl-1,2-propanediol dehydrogenase
+NHIKOAIL_02836	CDS	1968	nagB	3.5.99.6		Glucosamine-6-phosphate deaminase
+NHIKOAIL_02837	CDS	969				hypothetical protein
+NHIKOAIL_02838	CDS	1176				hypothetical protein
+NHIKOAIL_02839	CDS	756				hypothetical protein
+NHIKOAIL_02840	CDS	1413	iolG	1.1.1.369		Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase
+NHIKOAIL_02841	CDS	1005	iolE	4.2.1.44		Inosose dehydratase
+NHIKOAIL_02842	CDS	312				hypothetical protein
+NHIKOAIL_02843	CDS	2514				hypothetical protein
+NHIKOAIL_02844	CDS	702				hypothetical protein
+NHIKOAIL_02845	CDS	1212				hypothetical protein
+NHIKOAIL_02846	CDS	1473	proS	6.1.1.15	COG0442	Proline--tRNA ligase
+NHIKOAIL_02847	CDS	1386				hypothetical protein
+NHIKOAIL_02848	CDS	1614				hypothetical protein
+NHIKOAIL_02849	CDS	1041	mltG	4.2.2.-	COG1559	Endolytic murein transglycosylase
+NHIKOAIL_02850	CDS	1005	tsaD	2.3.1.234	COG0533	tRNA N6-adenosine threonylcarbamoyltransferase
+NHIKOAIL_02851	CDS	510				hypothetical protein
+NHIKOAIL_02852	CDS	468				hypothetical protein
+NHIKOAIL_02853	CDS	468	rsfS			Ribosomal silencing factor RsfS
+NHIKOAIL_02854	CDS	372				hypothetical protein
+NHIKOAIL_02855	CDS	360				hypothetical protein
+NHIKOAIL_02856	CDS	540				hypothetical protein
+NHIKOAIL_02857	CDS	2160	btuB_13			Vitamin B12 transporter BtuB
+NHIKOAIL_02858	CDS	321				hypothetical protein
+NHIKOAIL_02859	CDS	771	lipB	2.3.1.181	COG0321	Octanoyltransferase
+NHIKOAIL_02860	CDS	7773				hypothetical protein
+NHIKOAIL_02861	CDS	1203	lysDH	1.4.1.18		Lysine 6-dehydrogenase
+NHIKOAIL_02862	CDS	714	recR		COG0353	Recombination protein RecR
+NHIKOAIL_02863	CDS	345			COG0718	Nucleoid-associated protein
+NHIKOAIL_02864	CDS	2187				hypothetical protein
+NHIKOAIL_02865	CDS	477				hypothetical protein
+NHIKOAIL_02866	CDS	210				hypothetical protein
+NHIKOAIL_02867	CDS	708	tdk	2.7.1.21		Thymidine kinase
+NHIKOAIL_02868	CDS	651				hypothetical protein
+NHIKOAIL_02869	CDS	1197				hypothetical protein
+NHIKOAIL_02870	CDS	597				hypothetical protein
+NHIKOAIL_02871	CDS	903	catM			HTH-type transcriptional regulator CatM
+NHIKOAIL_02872	CDS	807				hypothetical protein
+NHIKOAIL_02873	CDS	750				hypothetical protein
+NHIKOAIL_02874	CDS	1872				hypothetical protein
+NHIKOAIL_02875	CDS	597				hypothetical protein
+NHIKOAIL_02876	CDS	642				hypothetical protein
+NHIKOAIL_02877	CDS	1077				hypothetical protein
+NHIKOAIL_02878	CDS	978				hypothetical protein
+NHIKOAIL_02879	CDS	759	cobB	2.3.1.286	COG0846	NAD-dependent protein deacylase
+NHIKOAIL_02880	CDS	1005				hypothetical protein
+NHIKOAIL_02881	CDS	876			COG1721	putative protein
+NHIKOAIL_02882	CDS	2241	rcsC_28	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02883	CDS	1512	miaB	2.8.4.3		tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase
+NHIKOAIL_02884	CDS	555				hypothetical protein
+NHIKOAIL_02885	CDS	933				hypothetical protein
+NHIKOAIL_02886	CDS	336				hypothetical protein
+NHIKOAIL_02887	CDS	846				hypothetical protein
+NHIKOAIL_02888	CDS	570				hypothetical protein
+NHIKOAIL_02889	CDS	747	sigD		COG1191	RNA polymerase sigma-D factor
+NHIKOAIL_02890	CDS	318				hypothetical protein
+NHIKOAIL_02891	CDS	771	ylxH		COG0455	Flagellum site-determining protein YlxH
+NHIKOAIL_02892	CDS	1350				hypothetical protein
+NHIKOAIL_02893	CDS	2163	flhA		COG1298	Flagellar biosynthesis protein FlhA
+NHIKOAIL_02894	CDS	1062	flhB		COG1377	Flagellar biosynthetic protein FlhB
+NHIKOAIL_02895	CDS	777	spaR		COG4791	Surface presentation of antigens protein SpaR
+NHIKOAIL_02896	CDS	270				hypothetical protein
+NHIKOAIL_02897	CDS	855	fliP		COG1338	Flagellar biosynthetic protein FliP
+NHIKOAIL_02898	CDS	618				hypothetical protein
+NHIKOAIL_02899	CDS	753				hypothetical protein
+NHIKOAIL_02900	CDS	1119	fliM		COG1868	Flagellar motor switch protein FliM
+NHIKOAIL_02901	CDS	558				hypothetical protein
+NHIKOAIL_02902	CDS	777	motB		COG1360	Motility protein B
+NHIKOAIL_02903	CDS	822	pomA		COG1291	Chemotaxis protein PomA
+NHIKOAIL_02904	CDS	1959				hypothetical protein
+NHIKOAIL_02905	CDS	645				hypothetical protein
+NHIKOAIL_02906	CDS	1896				hypothetical protein
+NHIKOAIL_02907	CDS	621				hypothetical protein
+NHIKOAIL_02908	CDS	2718				hypothetical protein
+NHIKOAIL_02909	CDS	684				hypothetical protein
+NHIKOAIL_02910	CDS	1101	cheB1	3.1.1.61	COG2201	Protein-glutamate methylesterase/protein-glutamine glutaminase 1
+NHIKOAIL_02911	CDS	1920				hypothetical protein
+NHIKOAIL_02912	CDS	990				hypothetical protein
+NHIKOAIL_02913	CDS	372	cheY		COG0784	Chemotaxis protein CheY 
+NHIKOAIL_02914	CDS	870	cheR1	2.1.1.80		Chemotaxis protein methyltransferase 1
+NHIKOAIL_02915	CDS	555				hypothetical protein
+NHIKOAIL_02916	CDS	1302	flgE		COG1749	Flagellar hook protein FlgE
+NHIKOAIL_02917	CDS	402				hypothetical protein
+NHIKOAIL_02918	CDS	723				hypothetical protein
+NHIKOAIL_02919	CDS	1743				hypothetical protein
+NHIKOAIL_02920	CDS	690				hypothetical protein
+NHIKOAIL_02921	CDS	462				hypothetical protein
+NHIKOAIL_02922	CDS	1329	yscN	7.1.2.2		putative ATP synthase YscN
+NHIKOAIL_02923	CDS	936				hypothetical protein
+NHIKOAIL_02924	CDS	1098	fliG		COG1536	Flagellar motor switch protein FliG
+NHIKOAIL_02925	CDS	1599				hypothetical protein
+NHIKOAIL_02926	CDS	321	fliE			Flagellar hook-basal body complex protein FliE
+NHIKOAIL_02927	CDS	321				hypothetical protein
+NHIKOAIL_02928	CDS	501	flgC		COG1558	Flagellar basal-body rod protein FlgC
+NHIKOAIL_02929	CDS	339				hypothetical protein
+NHIKOAIL_02930	CDS	762	sasA_9	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_02931	CDS	1539	ntrC		COG2204	DNA-binding transcriptional regulator NtrC
+NHIKOAIL_02932	CDS	360				hypothetical protein
+NHIKOAIL_02933	CDS	408				hypothetical protein
+NHIKOAIL_02934	CDS	1485	fliD		COG1345	B-type flagellar hook-associated protein 2
+NHIKOAIL_02935	CDS	315				hypothetical protein
+NHIKOAIL_02936	CDS	4584	rcsC_29	2.7.13.3		Sensor histidine kinase RcsC
+NHIKOAIL_02937	CDS	495				hypothetical protein
+NHIKOAIL_02938	CDS	849				hypothetical protein
+NHIKOAIL_02939	CDS	1302	flaB		COG1344	Flagellin B
+NHIKOAIL_02940	CDS	1011				hypothetical protein
+NHIKOAIL_02941	CDS	960	flgL		COG1344	Flagellar hook-associated protein 3
+NHIKOAIL_02942	CDS	1806				hypothetical protein
+NHIKOAIL_02943	CDS	537				hypothetical protein
+NHIKOAIL_02944	CDS	513				hypothetical protein
+NHIKOAIL_02945	CDS	1164	flgI			Flagellar P-ring protein
+NHIKOAIL_02946	CDS	648	flgH			Flagellar L-ring protein
+NHIKOAIL_02947	CDS	729				hypothetical protein
+NHIKOAIL_02948	CDS	789	flgG		COG4786	Flagellar basal-body rod protein FlgG
+NHIKOAIL_02949	CDS	726	flgF		COG4787	Flagellar basal-body rod protein FlgF
+NHIKOAIL_02950	CDS	789				hypothetical protein
+NHIKOAIL_02951	CDS	2904				TonB-dependent receptor P3
+NHIKOAIL_02952	CDS	1488				hypothetical protein
+NHIKOAIL_02953	CDS	2907				hypothetical protein
+NHIKOAIL_02954	CDS	2634				hypothetical protein
+NHIKOAIL_02955	CDS	1422	norR_3			Anaerobic nitric oxide reductase transcription regulator NorR
+NHIKOAIL_02956	CDS	564				hypothetical protein
+NHIKOAIL_02957	CDS	1086		3.5.1.26		N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase
+NHIKOAIL_02958	CDS	1056				hypothetical protein
+NHIKOAIL_02959	CDS	444				hypothetical protein
+NHIKOAIL_02960	CDS	495				hypothetical protein
+NHIKOAIL_02961	CDS	2265	purL	6.3.5.3	COG0046	Phosphoribosylformylglycinamidine synthase subunit PurL
+NHIKOAIL_02962	CDS	345	trxA			Thioredoxin 1
+NHIKOAIL_02963	CDS	1071	trxB	1.8.1.9	COG0492	Thioredoxin reductase
+NHIKOAIL_02964	CDS	396				hypothetical protein
+NHIKOAIL_02965	CDS	1806	ywrD	2.3.2.2	COG0405	Glutathione hydrolase-like YwrD proenzyme
+NHIKOAIL_02966	CDS	351				hypothetical protein
+NHIKOAIL_02967	CDS	408				hypothetical protein
+NHIKOAIL_02968	CDS	2301				hypothetical protein
+NHIKOAIL_02969	CDS	813			COG3385	IS4 family transposase ISAtsp3
+NHIKOAIL_02970	CDS	720				hypothetical protein
+NHIKOAIL_02971	CDS	1785				hypothetical protein
+NHIKOAIL_02972	CDS	1074	mshA_11	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+NHIKOAIL_02973	CDS	774			COG0217	putative transcriptional regulatory protein
+NHIKOAIL_02974	CDS	540	ruvC	3.1.22.4		Crossover junction endodeoxyribonuclease RuvC
+NHIKOAIL_02975	CDS	276				hypothetical protein
+NHIKOAIL_02976	CDS	285				hypothetical protein
+NHIKOAIL_02977	CDS	951	btuD_6	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+NHIKOAIL_02978	CDS	1302	yhaP		COG1668	putative protein YhaP
+NHIKOAIL_02979	CDS	1536	tig	5.2.1.8	COG0544	Trigger factor
+NHIKOAIL_02980	CDS	735	clpP_2	3.4.21.92	COG0740	ATP-dependent Clp protease proteolytic subunit
+NHIKOAIL_02981	tRNA	74				tRNA-Glu(ctc)
+NHIKOAIL_02982	CDS	1029	prsA	5.2.1.8		Foldase protein PrsA
+NHIKOAIL_02983	CDS	450		2.3.1.-		Acetyltransferase
+NHIKOAIL_02984	CDS	657	yedJ		COG1418	putative protein YedJ
+NHIKOAIL_02985	CDS	576				hypothetical protein
+NHIKOAIL_02986	CDS	1140				hypothetical protein
+NHIKOAIL_02987	CDS	765	fabG_6	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+NHIKOAIL_02988	CDS	807	catD	3.1.1.24	COG0596	3-oxoadipate enol-lactonase 2
+NHIKOAIL_02989	CDS	519				hypothetical protein
+NHIKOAIL_02990	CDS	426				hypothetical protein
+NHIKOAIL_02991	CDS	1299				hypothetical protein
+NHIKOAIL_02992	CDS	1833	ubiB_2	2.7.-.-		protein kinase UbiB
+NHIKOAIL_02993	rRNA	105				5S ribosomal RNA
+NHIKOAIL_02994	rRNA	2930				23S ribosomal RNA
+NHIKOAIL_02995	tRNA	74				tRNA-Ala(tgc)
+NHIKOAIL_02996	tRNA	76				tRNA-Ile(gat)
+NHIKOAIL_02997	rRNA	1535				16S ribosomal RNA
+NHIKOAIL_02998	CDS	867				hypothetical protein
+NHIKOAIL_02999	CDS	513	pyrR_2			Bifunctional protein pyrR
+NHIKOAIL_03000	CDS	1029	nanM	5.1.3.24		N-acetylneuraminate epimerase
+NHIKOAIL_03001	CDS	1284	hemH_2	4.99.1.1		Ferrochelatase
+NHIKOAIL_03002	CDS	1077				hypothetical protein
+NHIKOAIL_03003	CDS	597				hypothetical protein
+NHIKOAIL_03004	CDS	684				hypothetical protein
+NHIKOAIL_03005	CDS	906				hypothetical protein
+NHIKOAIL_03006	CDS	1410	ycf3			Photosystem I assembly protein Ycf3
+NHIKOAIL_03007	CDS	666	tmk	2.7.4.9	COG0125	Thymidylate kinase
+NHIKOAIL_03008	CDS	543				hypothetical protein
+NHIKOAIL_03009	CDS	597				hypothetical protein
+NHIKOAIL_03010	CDS	1050				hypothetical protein
+NHIKOAIL_03011	CDS	966		5.1.3.2	COG1088	UDP-glucose 4-epimerase
+NHIKOAIL_03012	CDS	1389	tuaD	1.1.1.22	COG1004	UDP-glucose 6-dehydrogenase TuaD
+NHIKOAIL_03013	CDS	645	resA_6			Thiol-disulfide oxidoreductase ResA
+NHIKOAIL_03014	CDS	2238	dsbD_2	1.8.1.8		Thiol:disulfide interchange protein DsbD
+NHIKOAIL_03015	CDS	237				hypothetical protein
+NHIKOAIL_03016	CDS	312				hypothetical protein
+NHIKOAIL_03017	CDS	396				hypothetical protein
+NHIKOAIL_03018	CDS	3201				hypothetical protein
+NHIKOAIL_03019	CDS	99				hypothetical protein
+NHIKOAIL_03020	CDS	1434				hypothetical protein
+NHIKOAIL_03021	CDS	771				hypothetical protein
+NHIKOAIL_03022	CDS	321				hypothetical protein
+NHIKOAIL_03023	CDS	1515	norM		COG0534	Multidrug resistance protein NorM
+NHIKOAIL_03024	CDS	840				hypothetical protein
+NHIKOAIL_03025	CDS	621				hypothetical protein
+NHIKOAIL_03026	CDS	2802				hypothetical protein
+NHIKOAIL_03027	CDS	1245	dap	3.4.11.19		D-aminopeptidase
+NHIKOAIL_03028	CDS	321				hypothetical protein
+NHIKOAIL_03029	CDS	435				hypothetical protein
+NHIKOAIL_03030	CDS	1398				hypothetical protein
+NHIKOAIL_03031	CDS	1140				hypothetical protein
+NHIKOAIL_03032	CDS	738	lytR_2		COG3279	Sensory transduction protein LytR
+NHIKOAIL_03033	CDS	2121	btuB_14		COG4206	Vitamin B12 transporter BtuB
+NHIKOAIL_03034	CDS	678				hypothetical protein
+NHIKOAIL_03035	CDS	936	hmuT		COG4558	Hemin-binding periplasmic protein HmuT
+NHIKOAIL_03036	CDS	1158	btuC			Vitamin B12 import system permease protein BtuC
+NHIKOAIL_03037	CDS	1266				hypothetical protein
+NHIKOAIL_03038	CDS	822	hmuV_2	3.6.3.-	COG4559	Hemin import ATP-binding protein HmuV
+NHIKOAIL_03039	CDS	1068	hemS		COG3720	Hemin transport protein HemS
+NHIKOAIL_03040	CDS	423				hypothetical protein
+NHIKOAIL_03041	CDS	699	cmoA	2.1.3.-		Carboxy-S-adenosyl-L-methionine synthase
+NHIKOAIL_03042	CDS	1923	btuB_15		COG4206	Vitamin B12 transporter BtuB
+NHIKOAIL_03043	CDS	342				hypothetical protein
+NHIKOAIL_03044	CDS	2202				hypothetical protein
+NHIKOAIL_03045	CDS	966				hypothetical protein
+NHIKOAIL_03046	CDS	822				hypothetical protein
+NHIKOAIL_03047	CDS	1266	fabF_1	2.3.1.179		3-oxoacyl-[acyl-carrier-protein] synthase 2
+NHIKOAIL_03048	CDS	411		3.1.2.-	COG2050	Putative esterase
+NHIKOAIL_03049	CDS	951	mhqO_1	1.13.11.-	COG0346	Putative ring-cleaving dioxygenase MhqO
+NHIKOAIL_03050	CDS	657				hypothetical protein
+NHIKOAIL_03051	CDS	1443	tvaII_2	3.2.1.135		Neopullulanase 2
+NHIKOAIL_03052	CDS	456				hypothetical protein
+NHIKOAIL_03053	CDS	1608				hypothetical protein
+NHIKOAIL_03054	CDS	2478	priA	3.6.4.-		primosomal protein N'
+NHIKOAIL_03055	CDS	528	rfaH_2			Transcription antitermination protein RfaH
+NHIKOAIL_03056	CDS	2538				hypothetical protein
+NHIKOAIL_03057	CDS	660	hxpA	3.1.3.22	COG0637	Hexitol phosphatase A
+NHIKOAIL_03058	CDS	2514				hypothetical protein
+NHIKOAIL_03059	CDS	636				hypothetical protein
+NHIKOAIL_03060	CDS	1467				hypothetical protein
+NHIKOAIL_03061	CDS	291				hypothetical protein
+NHIKOAIL_03062	CDS	1224	fabF_2	2.3.1.179		3-oxoacyl-[acyl-carrier-protein] synthase 2
+NHIKOAIL_03063	CDS	237	acpA		COG0236	Acyl carrier protein
+NHIKOAIL_03064	CDS	1161	metK	2.5.1.6	COG0192	S-adenosylmethionine synthase
+NHIKOAIL_03065	CDS	633				hypothetical protein
+NHIKOAIL_03066	CDS	573	sigW_1		COG1595	ECF RNA polymerase sigma factor SigW
+NHIKOAIL_03067	CDS	699				hypothetical protein
+NHIKOAIL_03068	CDS	1194				hypothetical protein
+NHIKOAIL_03069	CDS	1074				hypothetical protein
+NHIKOAIL_03070	CDS	1035	iaaA_2	3.4.19.5	COG1446	Isoaspartyl peptidase
+NHIKOAIL_03071	CDS	666	sigW_2		COG1595	ECF RNA polymerase sigma factor SigW
+NHIKOAIL_03072	CDS	324				hypothetical protein
+NHIKOAIL_03073	CDS	96				hypothetical protein
+NHIKOAIL_03074	CDS	1746				hypothetical protein
+NHIKOAIL_03075	CDS	2559				hypothetical protein
+NHIKOAIL_03076	CDS	894	menB	4.1.3.36	COG0447	1,4-dihydroxy-2-naphthoyl-CoA synthase
+NHIKOAIL_03077	CDS	1098				hypothetical protein
+NHIKOAIL_03078	CDS	1239	lhgD	1.1.5.-	COG0579	L-2-hydroxyglutarate dehydrogenase
+NHIKOAIL_03079	CDS	561				hypothetical protein
+NHIKOAIL_03080	CDS	876	egtC	3.5.1.118		Gamma-glutamyl-hercynylcysteine sulfoxide hydrolase
+NHIKOAIL_03081	CDS	759	rosB	2.6.1.114		8-demethyl-8-aminoriboflavin-5'-phosphate synthase
+NHIKOAIL_03082	CDS	675				hypothetical protein
+NHIKOAIL_03083	CDS	804				IS110 family transposase ISOt5
+NHIKOAIL_03084	CDS	603				hypothetical protein
+NHIKOAIL_03085	CDS	525				hypothetical protein
+NHIKOAIL_03086	CDS	711	msrA_2	1.8.4.11		Peptide methionine sulfoxide reductase MsrA
+NHIKOAIL_03087	CDS	657	msrA_3	1.8.4.11		Peptide methionine sulfoxide reductase MsrA
+NHIKOAIL_03088	CDS	1434				hypothetical protein
+NHIKOAIL_03089	CDS	687		1.-.-.-		putative oxidoreductase
+NHIKOAIL_03090	CDS	1629				hypothetical protein
+NHIKOAIL_03091	CDS	750				hypothetical protein
+NHIKOAIL_03092	CDS	750		1.-.-.-		putative oxidoreductase
+NHIKOAIL_03093	CDS	369				hypothetical protein
+NHIKOAIL_03094	CDS	1494				hypothetical protein
+NHIKOAIL_03095	CDS	1026	ndhA	7.1.1.-	COG1005	NAD(P)H-quinone oxidoreductase subunit 1
+NHIKOAIL_03096	CDS	549				hypothetical protein
+NHIKOAIL_03097	CDS	648	betI_2			HTH-type transcriptional regulator BetI
+NHIKOAIL_03098	CDS	1050	cysM	2.5.1.47	COG0031	Cysteine synthase B
+NHIKOAIL_03099	CDS	105				hypothetical protein
+NHIKOAIL_03100	CDS	690	devR_1		COG2197	DNA-binding transcriptional activator DevR/DosR
+NHIKOAIL_03101	CDS	762	devR_2		COG2197	DNA-binding transcriptional activator DevR/DosR
+NHIKOAIL_03102	CDS	702	phoR	2.7.13.3	COG0642	Alkaline phosphatase synthesis sensor protein PhoR
+NHIKOAIL_03103	CDS	600	coaE	2.7.1.24		Dephospho-CoA kinase
+NHIKOAIL_03104	CDS	345		3.9.1.-	COG0537	Purine nucleoside phosphoramidase
+NHIKOAIL_03105	CDS	414	queD	4.1.2.50	COG0720	6-carboxy-5,6,7,8-tetrahydropterin synthase
+NHIKOAIL_03106	CDS	657	folE	3.5.4.16	COG0302	GTP cyclohydrolase 1
+NHIKOAIL_03107	CDS	699		1.1.1.325		Sepiapterin reductase
+NHIKOAIL_03108	CDS	516				hypothetical protein
+NHIKOAIL_03109	CDS	552				hypothetical protein
+NHIKOAIL_03110	CDS	459				hypothetical protein
+NHIKOAIL_03111	CDS	1170	argE	3.5.1.16	COG0624	Acetylornithine deacetylase
+NHIKOAIL_03112	CDS	669	nfi	3.1.21.7	COG1515	Endonuclease V
+NHIKOAIL_03113	tRNA	75				tRNA-Val(gac)
+NHIKOAIL_03114	CDS	1971	thrS	6.1.1.3	COG0441	Threonine--tRNA ligase
+NHIKOAIL_03115	CDS	603	infC		COG0290	Translation initiation factor IF-3
+NHIKOAIL_03116	CDS	189	rpmI		COG0291	50S ribosomal protein L35
+NHIKOAIL_03117	CDS	348	rplT			50S ribosomal protein L20
+NHIKOAIL_03118	CDS	1011	pheS	6.1.1.20	COG0016	Phenylalanine--tRNA ligase alpha subunit
+NHIKOAIL_03119	CDS	2493	pheT	6.1.1.20	COG0072	Phenylalanine--tRNA ligase beta subunit
+NHIKOAIL_03120	CDS	390				hypothetical protein
+NHIKOAIL_03121	CDS	366	zapA			Cell division protein ZapA
+NHIKOAIL_03122	CDS	1143			COG0488	putative ABC transporter ATP-binding protein
+NHIKOAIL_03123	CDS	1254				hypothetical protein
+NHIKOAIL_03124	CDS	1170				hypothetical protein
+NHIKOAIL_03125	CDS	1725	hutI_5	3.5.2.7		Imidazolonepropionase
+NHIKOAIL_03126	CDS	231				hypothetical protein
+NHIKOAIL_03127	CDS	522				hypothetical protein
+NHIKOAIL_03128	CDS	561	resA_7		COG0526	Thiol-disulfide oxidoreductase ResA
+NHIKOAIL_03129	CDS	555	resA_8			Thiol-disulfide oxidoreductase ResA
+NHIKOAIL_03130	CDS	351				hypothetical protein
+NHIKOAIL_03131	CDS	1110	rlmL	2.1.1.264		Ribosomal RNA large subunit methyltransferase K/L
+NHIKOAIL_03132	CDS	1836				hypothetical protein
+NHIKOAIL_03133	CDS	507				hypothetical protein
+NHIKOAIL_03134	CDS	1845				hypothetical protein
+NHIKOAIL_03135	CDS	1356	czcC_3			Cobalt-zinc-cadmium resistance protein CzcC
+NHIKOAIL_03136	CDS	1110				hypothetical protein
+NHIKOAIL_03137	CDS	3291	czcA_2			Cobalt-zinc-cadmium resistance protein CzcA
+NHIKOAIL_03138	CDS	339	glnB_2		COG0347	Nitrogen regulatory protein P-II
+NHIKOAIL_03139	CDS	495				hypothetical protein
+NHIKOAIL_03140	CDS	396				hypothetical protein
+NHIKOAIL_03141	CDS	744	mprA		COG0745	Response regulator MprA
+NHIKOAIL_03142	CDS	1506	sasA_10	2.7.-.-		Adaptive-response sensory-kinase SasA
+NHIKOAIL_03143	CDS	1971				hypothetical protein
+NHIKOAIL_03144	CDS	2691	clpB		COG0542	Chaperone protein ClpB
+NHIKOAIL_03145	CDS	660				hypothetical protein
+NHIKOAIL_03146	CDS	366				hypothetical protein
+NHIKOAIL_03147	CDS	471				hypothetical protein
+NHIKOAIL_03148	CDS	1806	bmrA	3.6.3.-	COG1132	Multidrug resistance ABC transporter ATP-binding/permease protein BmrA
+NHIKOAIL_03149	CDS	399				hypothetical protein
+NHIKOAIL_03150	CDS	2511				hypothetical protein
+NHIKOAIL_03151	CDS	765	yknY	3.6.3.-	COG1136	putative ABC transporter ATP-binding protein YknY
+NHIKOAIL_03152	CDS	1365	macA_2		COG0845	Macrolide export protein MacA
+NHIKOAIL_03153	CDS	1413	tolC			Outer membrane protein TolC
+NHIKOAIL_03154	CDS	1221	macB_1	3.6.3.-		Macrolide export ATP-binding/permease protein MacB
+NHIKOAIL_03155	CDS	1245	macB_2	3.6.3.-	COG0577	Macrolide export ATP-binding/permease protein MacB
+NHIKOAIL_03156	CDS	1185				hypothetical protein
+NHIKOAIL_03157	CDS	435				hypothetical protein
+NHIKOAIL_03158	CDS	366				hypothetical protein
+NHIKOAIL_03159	CDS	774	btsR_3		COG3279	Transcriptional regulatory protein BtsR
+NHIKOAIL_03160	CDS	1272				hypothetical protein
+NHIKOAIL_03161	tRNA	88				tRNA-Ser(tga)
+NHIKOAIL_03162	CDS	288				hypothetical protein
+NHIKOAIL_03163	CDS	465				hypothetical protein
+NHIKOAIL_03164	CDS	270				hypothetical protein
+NHIKOAIL_03165	CDS	6606				hypothetical protein
+NHIKOAIL_03166	CDS	3177				hypothetical protein
+NHIKOAIL_03167	CDS	1911				hypothetical protein
+NHIKOAIL_03168	CDS	411				hypothetical protein
+NHIKOAIL_03169	CDS	1095				hypothetical protein
+NHIKOAIL_03170	CDS	927				hypothetical protein
+NHIKOAIL_03171	CDS	336				hypothetical protein
+NHIKOAIL_03172	CDS	294				hypothetical protein
+NHIKOAIL_03173	CDS	879				hypothetical protein
+NHIKOAIL_03174	CDS	687				hypothetical protein
+NHIKOAIL_03175	CDS	972				hypothetical protein
+NHIKOAIL_03176	CDS	1899				hypothetical protein
+NHIKOAIL_03177	CDS	1122				hypothetical protein
+NHIKOAIL_03178	CDS	111				hypothetical protein
+NHIKOAIL_03179	CDS	1149	xerC_6			Tyrosine recombinase XerC
+NHIKOAIL_03180	CDS	1521				hypothetical protein
+NHIKOAIL_03181	CDS	3156				TonB-dependent receptor P3
+NHIKOAIL_03182	CDS	1518				hypothetical protein
+NHIKOAIL_03183	CDS	954				hypothetical protein
+NHIKOAIL_03184	CDS	105				hypothetical protein
+NHIKOAIL_03185	CDS	1038		1.6.3.5	COG3380	Renalase
+NHIKOAIL_03186	CDS	429				hypothetical protein
+NHIKOAIL_03187	CDS	612				hypothetical protein
+NHIKOAIL_03188	CDS	489				hypothetical protein
+NHIKOAIL_03189	CDS	327				hypothetical protein
+NHIKOAIL_03190	CDS	969	mhqO_2	1.13.11.-	COG0346	Putative ring-cleaving dioxygenase MhqO
+NHIKOAIL_03191	CDS	267				hypothetical protein
+NHIKOAIL_03192	CDS	381				hypothetical protein

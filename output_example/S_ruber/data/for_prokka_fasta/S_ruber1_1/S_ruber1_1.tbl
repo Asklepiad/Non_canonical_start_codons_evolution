@@ -1,0 +1,521 @@
+>Feature S_ruber1_1
+162	1388	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISPeth3
+			locus_tag	PMFBLBLO_00001
+			product	IS256 family transposase ISPeth3
+3705	1732	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00002
+			product	hypothetical protein
+3790	3954	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00003
+			product	hypothetical protein
+4758	5141	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00004
+			product	hypothetical protein
+5498	8041	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	PMFBLBLO_00005
+			product	Sensor histidine kinase RcsC
+8463	9038	CDS
+			db_xref	COG:COG4974
+			gene	xerD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A2P6
+			locus_tag	PMFBLBLO_00006
+			product	Tyrosine recombinase XerD
+9346	9456	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00007
+			product	hypothetical protein
+9738	9971	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00008
+			product	hypothetical protein
+10163	10279	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00009
+			product	hypothetical protein
+11875	10481	CDS
+			gene	csbC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P46333
+			locus_tag	PMFBLBLO_00010
+			product	putative metabolite transport protein CsbC
+12820	11927	CDS
+			EC_number	2.7.1.4
+			db_xref	COG:COG0524
+			gene	scrK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26420
+			locus_tag	PMFBLBLO_00011
+			product	Fructokinase
+14433	12841	CDS
+			EC_number	3.2.1.80
+			db_xref	COG:COG1621
+			gene	sacC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05656
+			locus_tag	PMFBLBLO_00012
+			product	Levanase
+15482	14466	CDS
+			db_xref	COG:COG1609
+			gene	ccpA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P46828
+			locus_tag	PMFBLBLO_00013
+			product	Catabolite control protein A
+17440	15707	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00014
+			product	hypothetical protein
+20755	17522	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:T2KM18
+			locus_tag	PMFBLBLO_00015
+			product	TonB-dependent receptor P26
+20918	20727	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00016
+			product	hypothetical protein
+21586	21383	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00017
+			product	hypothetical protein
+22021	22299	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISSru3
+			locus_tag	PMFBLBLO_00018
+			product	IS1 family transposase ISSru3
+22263	22739	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISSru3
+			locus_tag	PMFBLBLO_00019
+			product	IS1 family transposase ISSru3
+22950	22750	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00020
+			product	hypothetical protein
+23438	23016	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00021
+			product	hypothetical protein
+23556	23801	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00022
+			product	hypothetical protein
+23850	24191	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00023
+			product	hypothetical protein
+26327	25296	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00024
+			product	hypothetical protein
+27989	27468	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00025
+			product	hypothetical protein
+28902	28027	CDS
+			EC_number	3.6.-.-
+			db_xref	COG:COG1192
+			gene	soj
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37522
+			locus_tag	PMFBLBLO_00026
+			product	Sporulation initiation inhibitor protein Soj
+29446	29592	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00027
+			product	hypothetical protein
+30077	30379	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00028
+			product	hypothetical protein
+30956	31975	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00029
+			product	hypothetical protein
+32161	33279	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00030
+			product	hypothetical protein
+33429	33815	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00031
+			product	hypothetical protein
+34614	34384	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00032
+			product	hypothetical protein
+34861	34688	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00033
+			product	hypothetical protein
+35250	35618	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00034
+			product	hypothetical protein
+36679	35903	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISOt5
+			locus_tag	PMFBLBLO_00035
+			product	IS110 family transposase ISOt5
+36912	36721	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00036
+			product	hypothetical protein
+37507	38088	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00037
+			product	hypothetical protein
+38205	38507	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00038
+			product	hypothetical protein
+38623	38994	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00039
+			product	hypothetical protein
+39400	39534	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00040
+			product	hypothetical protein
+40059	39544	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00041
+			product	hypothetical protein
+40663	40148	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00042
+			product	hypothetical protein
+41299	40949	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00043
+			product	hypothetical protein
+42129	41839	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00044
+			product	hypothetical protein
+42897	48680	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00045
+			product	hypothetical protein
+49243	48677	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00046
+			product	hypothetical protein
+49262	49816	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00047
+			product	hypothetical protein
+50281	49892	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00048
+			product	hypothetical protein
+50751	50356	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00049
+			product	hypothetical protein
+50881	51159	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00050
+			product	hypothetical protein
+52006	51161	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00051
+			product	hypothetical protein
+52216	57381	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00052
+			product	hypothetical protein
+57430	59472	repeat_region
+			note	CRISPR with 34 repeat units
+			rpt_family	CRISPR
+			rpt_type	direct
+			rpt_unit_seq	GGGTCTATCCCCGTGTGTACGGGGCTACC
+60242	59838	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00053
+			product	hypothetical protein
+61119	60220	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG1518
+			gene	ygbT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q46896
+			locus_tag	PMFBLBLO_00054
+			product	CRISPR-associated endonuclease Cas1
+62071	61256	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00055
+			product	hypothetical protein
+62839	62099	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00056
+			product	hypothetical protein
+64104	62839	CDS
+			gene	casC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q46899
+			locus_tag	PMFBLBLO_00057
+			product	CRISPR system Cascade subunit CasC
+64632	64162	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00058
+			product	hypothetical protein
+66445	64925	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00059
+			product	hypothetical protein
+66951	66538	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00060
+			product	hypothetical protein
+67290	66991	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00061
+			product	hypothetical protein
+70055	67449	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG1203
+			gene	ygcB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P38036
+			locus_tag	PMFBLBLO_00062
+			product	CRISPR-associated endonuclease/helicase Cas3
+70730	70269	CDS
+			EC_number	3.1.-.-
+			gene	dinG
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02206
+			locus_tag	PMFBLBLO_00063
+			product	3'-5' exonuclease DinG
+70963	73126	repeat_region
+			note	CRISPR with 36 repeat units
+			rpt_family	CRISPR
+			rpt_type	direct
+			rpt_unit_seq	GGGTCTATCTCCGCGTGTGCGGAGTTACC
+73143	74879	repeat_region
+			note	CRISPR with 29 repeat units
+			rpt_family	CRISPR
+			rpt_type	direct
+			rpt_unit_seq	GGGTCTATCTCCGCGTGTGCGGAGTTACC
+75269	75985	CDS
+			gene	xerC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	PMFBLBLO_00064
+			product	Tyrosine recombinase XerC
+76281	76532	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00065
+			product	hypothetical protein
+76544	76879	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00066
+			product	hypothetical protein
+76935	77054	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00067
+			product	hypothetical protein
+77386	81891	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	PMFBLBLO_00068
+			product	Sensor histidine kinase RcsC
+82052	82501	CDS
+			gene	divK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7BBW0
+			locus_tag	PMFBLBLO_00069
+			product	Polar-differentiation response regulator DivK
+82978	82532	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00070
+			product	hypothetical protein
+83396	82923	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00071
+			product	hypothetical protein
+83901	84068	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00072
+			product	hypothetical protein
+84254	84715	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00073
+			product	hypothetical protein
+84845	86173	CDS
+			gene	czcC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13509
+			locus_tag	PMFBLBLO_00074
+			product	Cobalt-zinc-cadmium resistance protein CzcC
+86333	87775	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00075
+			product	hypothetical protein
+87923	91168	CDS
+			db_xref	COG:COG3696
+			gene	cusA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P38054
+			locus_tag	PMFBLBLO_00076
+			product	Cation efflux system protein CusA
+91851	91618	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00077
+			product	hypothetical protein
+92331	92131	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00078
+			product	hypothetical protein
+92455	92673	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00079
+			product	hypothetical protein
+92991	93104	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00080
+			product	hypothetical protein
+93138	93677	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00081
+			product	hypothetical protein
+93690	93908	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00082
+			product	hypothetical protein
+97213	94091	CDS
+			gene	czcA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13511
+			locus_tag	PMFBLBLO_00083
+			product	Cobalt-zinc-cadmium resistance protein CzcA
+98854	97283	CDS
+			gene	mdtA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01422
+			locus_tag	PMFBLBLO_00084
+			product	Multidrug resistance protein MdtA
+99272	98907	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00085
+			product	hypothetical protein
+100606	99272	CDS
+			gene	czcC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13509
+			locus_tag	PMFBLBLO_00086
+			product	Cobalt-zinc-cadmium resistance protein CzcC
+100798	100610	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00087
+			product	hypothetical protein
+100915	101688	CDS
+			gene	czcR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q44006
+			locus_tag	PMFBLBLO_00088
+			product	Transcriptional activator protein CzcR
+101721	103121	CDS
+			EC_number	2.7.-.-
+			gene	sasA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01837
+			locus_tag	PMFBLBLO_00089
+			product	Adaptive-response sensory-kinase SasA
+103785	103360	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00090
+			product	hypothetical protein
+104249	103782	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00091
+			product	hypothetical protein
+104425	105231	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00092
+			product	hypothetical protein
+105373	106272	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00093
+			product	hypothetical protein
+106604	106497	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00094
+			product	hypothetical protein
+108454	107189	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00095
+			product	hypothetical protein
+109132	108716	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00096
+			product	hypothetical protein
+109610	109828	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00097
+			product	hypothetical protein
+109934	110332	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00098
+			product	hypothetical protein
+110923	110507	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00099
+			product	hypothetical protein
+111195	110920	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00100
+			product	hypothetical protein
+111859	111551	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00101
+			product	hypothetical protein
+112604	112053	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00102
+			product	hypothetical protein
+112662	112913	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00103
+			product	hypothetical protein
+113324	114199	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00104
+			product	hypothetical protein
+114374	114084	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00105
+			product	hypothetical protein
+114735	114953	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00106
+			product	hypothetical protein
+116124	115063	CDS
+			db_xref	COG:COG0468
+			gene	recA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P62209
+			locus_tag	PMFBLBLO_00107
+			product	Protein RecA
+117222	116623	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00108
+			product	hypothetical protein
+118005	117454	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	PMFBLBLO_00109
+			product	hypothetical protein

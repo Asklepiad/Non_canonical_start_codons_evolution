@@ -1,0 +1,69 @@
+# S_ruber.proteinortho.tsv statistics:
+# number of groups that contains at least p% species:
+# p	species	groups	genes in groups
+0%	0	5163 (100%)	25445 (100%)	
+20%	1	5163 (100%)	25445 (100%)	
+30%	2	3521 (68.19%)	23769 (93.41%)	
+40%	3	3157 (61.14%)	23026 (90.49%)	
+50%	4	2900 (56.16%)	22237 (87.39%)	
+70%	5	2758 (53.41%)	21638 (85.03%)	
+80%	6	2666 (51.63%)	21134 (83.05%)	
+90%	7	2593 (50.22%)	20684 (81.28%)	
+100%	8	2463 (47.7%)	19762 (77.66%)	
+# NOTE: p=100% correspond to the core proteome and p=0% to all groups
+# groups that contains only one species:
+single	8	1642 (31.8%)	1676 (6.58%)	
+# number of groups for each input species:
+S_ruber3.fasta	3327	64.43%
+S_ruber1.fasta	3312	64.14%
+S_ruber6.fasta	3204	62.05%
+S_ruber0.fasta	3144	60.89%
+S_ruber2.fasta	3118	60.39%
+S_ruber4.fasta	3082	59.69%
+S_ruber5.fasta	3032	58.72%
+S_ruber7.fasta	3002	58.14%
+
+# ----------------------------------
+# graph file statistics:
+
+# The adjacency matrix, the number of edges between 2 species
+# file	S_ruber0.fasta	S_ruber1.fasta	S_ruber2.fasta	S_ruber3.fasta	S_ruber4.fasta	S_ruber5.fasta	S_ruber6.fasta	S_ruber7.fasta	
+S_ruber0.fasta	0	2662	2658	2680	2610	2658	2674	2636
+S_ruber1.fasta	2662	0	2709	2910	2735	2826	2798	2824
+S_ruber2.fasta	2658	2709	0	2738	2625	2764	2822	2722
+S_ruber3.fasta	2680	2910	2738	0	2736	2725	2849	2685
+S_ruber4.fasta	2610	2735	2625	2736	0	2626	2625	2600
+S_ruber5.fasta	2658	2826	2764	2725	2626	0	2802	2886
+S_ruber6.fasta	2674	2798	2822	2849	2625	2802	0	2782
+S_ruber7.fasta	2636	2824	2722	2685	2600	2886	2782	0
+
+# file	average number of edges
+S_ruber0.fasta	2322.25	
+S_ruber1.fasta	2433	
+S_ruber2.fasta	2379.75	
+S_ruber3.fasta	2415.375	
+S_ruber4.fasta	2319.625	
+S_ruber5.fasta	2410.875	
+S_ruber6.fasta	2419	
+S_ruber7.fasta	2391.875	
+
+# The 2-path matrix, the number of paths between 2 species of length 2
+# file	S_ruber0.fasta	S_ruber1.fasta	S_ruber2.fasta	S_ruber3.fasta	S_ruber4.fasta	S_ruber5.fasta	S_ruber6.fasta	S_ruber7.fasta	
+S_ruber0.fasta(0)	49309444	44575096	43468380	44103920	42443058	44126428	44216790	43844420
+S_ruber1.fasta(1)	89150192	54163306	45616499	45289154	44128931	45665192	46007771	45255152
+S_ruber2.fasta(2)	86936760	91232998	51803578	45068978	43580877	44837834	44695793	44660942
+S_ruber3.fasta(3)	88207840	90578308	90137956	53384491	43756375	45831476	45322256	45639024
+S_ruber4.fasta(4)	84886116	88257862	87161754	87512750	49215147	44236440	44425536	43976396
+S_ruber5.fasta(5)	88252856	91330384	89675668	91662952	88472880	53192637	45500275	44450109
+S_ruber6.fasta(6)	88433580	92015542	89391586	90644512	88851072	91000550	53540918	45192837
+S_ruber7.fasta(7)	87688840	90510304	89321884	91278048	87952792	88900218	90385674	52370501
+
+# file	average number of 2-paths
+S_ruber0.fasta(0)	82858203.5
+S_ruber1.fasta(1)	85904862
+S_ruber2.fasta(2)	84457773
+S_ruber3.fasta(3)	85425857.125
+S_ruber4.fasta(4)	82788796.625
+S_ruber5.fasta(5)	85311018.125
+S_ruber6.fasta(6)	85532929.25
+S_ruber7.fasta(7)	84801032.625

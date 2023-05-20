@@ -1,0 +1,236 @@
+>Feature S_ruber6_3
+87	296	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00001
+			product	hypothetical protein
+491	1834	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00002
+			product	hypothetical protein
+2658	1981	CDS
+			db_xref	COG:COG1961
+			gene	hin
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	GHBHKFGM_00003
+			product	DNA-invertase hin
+3750	3169	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00004
+			product	hypothetical protein
+4282	4064	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00005
+			product	hypothetical protein
+4295	4597	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00006
+			product	hypothetical protein
+4875	5543	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00007
+			product	hypothetical protein
+6221	5778	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00008
+			product	hypothetical protein
+8168	6690	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00009
+			product	hypothetical protein
+8758	8324	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00010
+			product	hypothetical protein
+9175	9387	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00011
+			product	hypothetical protein
+10169	10450	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00012
+			product	hypothetical protein
+11906	12463	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00013
+			product	hypothetical protein
+13030	12764	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00014
+			product	hypothetical protein
+13182	13018	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00015
+			product	hypothetical protein
+13592	13224	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00016
+			product	hypothetical protein
+13730	14608	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00017
+			product	hypothetical protein
+14803	15642	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00018
+			product	hypothetical protein
+16075	15866	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00019
+			product	hypothetical protein
+16186	16371	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00020
+			product	hypothetical protein
+16631	16873	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00021
+			product	hypothetical protein
+16898	17512	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00022
+			product	hypothetical protein
+17642	18277	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00023
+			product	hypothetical protein
+18901	18218	CDS
+			gene	resA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01319
+			locus_tag	GHBHKFGM_00024
+			product	Thiol-disulfide oxidoreductase ResA
+19002	19631	CDS
+			EC_number	3.6.-.-
+			db_xref	COG:COG1192
+			gene	soj
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q72H90
+			locus_tag	GHBHKFGM_00025
+			product	Chromosome-partitioning ATPase Soj
+19638	19871	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00026
+			product	hypothetical protein
+19905	20375	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00027
+			product	hypothetical protein
+20335	20514	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00028
+			product	hypothetical protein
+20707	21474	CDS
+			db_xref	COG:COG3039
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISMac15
+			locus_tag	GHBHKFGM_00029
+			product	IS5 family transposase ISMac15
+21495	21665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00030
+			product	hypothetical protein
+25540	23891	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00031
+			product	hypothetical protein
+26662	26865	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00032
+			product	hypothetical protein
+26849	27466	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00033
+			product	hypothetical protein
+27853	28077	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00034
+			product	hypothetical protein
+29202	36932	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00035
+			product	hypothetical protein
+37027	41067	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00036
+			product	hypothetical protein
+41213	41004	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00037
+			product	hypothetical protein
+41543	46219	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00038
+			product	hypothetical protein
+46419	47483	CDS
+			gene	apu
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16950
+			locus_tag	GHBHKFGM_00039
+			product	Amylopullulanase
+48096	47521	CDS
+			db_xref	COG:COG4974
+			gene	xerD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A2P6
+			locus_tag	GHBHKFGM_00040
+			product	Tyrosine recombinase XerD
+48601	51438	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00041
+			product	hypothetical protein
+52478	51672	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00042
+			product	hypothetical protein
+52682	54217	CDS
+			gene	tolB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00671
+			locus_tag	GHBHKFGM_00043
+			product	Tol-Pal system protein TolB
+54230	54520	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00044
+			product	hypothetical protein
+55060	54818	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00045
+			product	hypothetical protein
+55505	55320	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00046
+			product	hypothetical protein
+55616	55795	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00047
+			product	hypothetical protein
+56178	56759	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00048
+			product	hypothetical protein
+57387	57139	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00049
+			product	hypothetical protein
+57481	57720	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00050
+			product	hypothetical protein
+57826	58596	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00051
+			product	hypothetical protein
+58677	59792	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00052
+			product	hypothetical protein
+60279	60776	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	GHBHKFGM_00053
+			product	hypothetical protein
+61250	60777	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISMae27
+			locus_tag	GHBHKFGM_00054
+			product	IS630 family transposase ISMae27

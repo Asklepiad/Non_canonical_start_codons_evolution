@@ -1,0 +1,61 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+ELDEJJAC_00001	CDS	573				hypothetical protein
+ELDEJJAC_00002	CDS	147				hypothetical protein
+ELDEJJAC_00003	CDS	1062	xerC_1			Tyrosine recombinase XerC
+ELDEJJAC_00004	CDS	528				hypothetical protein
+ELDEJJAC_00005	CDS	264				hypothetical protein
+ELDEJJAC_00006	CDS	240				hypothetical protein
+ELDEJJAC_00007	CDS	126				hypothetical protein
+ELDEJJAC_00008	CDS	678				hypothetical protein
+ELDEJJAC_00009	CDS	1341				hypothetical protein
+ELDEJJAC_00010	CDS	1737				hypothetical protein
+ELDEJJAC_00011	CDS	1545				hypothetical protein
+ELDEJJAC_00012	CDS	2382				hypothetical protein
+ELDEJJAC_00013	CDS	99				hypothetical protein
+ELDEJJAC_00014	CDS	165				hypothetical protein
+ELDEJJAC_00015	CDS	774				hypothetical protein
+ELDEJJAC_00016	CDS	852				hypothetical protein
+ELDEJJAC_00017	CDS	900				hypothetical protein
+ELDEJJAC_00018	CDS	1038	xerC_2			Tyrosine recombinase XerC
+ELDEJJAC_00019	CDS	885				hypothetical protein
+ELDEJJAC_00020	CDS	1128				hypothetical protein
+ELDEJJAC_00021	CDS	1437				hypothetical protein
+ELDEJJAC_00022	CDS	573				hypothetical protein
+ELDEJJAC_00023	CDS	669				hypothetical protein
+ELDEJJAC_00024	CDS	423				hypothetical protein
+ELDEJJAC_00025	CDS	642				hypothetical protein
+ELDEJJAC_00026	CDS	225				hypothetical protein
+ELDEJJAC_00027	CDS	738				hypothetical protein
+ELDEJJAC_00028	CDS	156				hypothetical protein
+ELDEJJAC_00029	CDS	258				hypothetical protein
+ELDEJJAC_00030	CDS	363				hypothetical protein
+ELDEJJAC_00031	CDS	1083				hypothetical protein
+ELDEJJAC_00032	CDS	468				hypothetical protein
+ELDEJJAC_00033	CDS	504				hypothetical protein
+ELDEJJAC_00034	CDS	1296	umuC		COG0389	Protein UmuC
+ELDEJJAC_00035	CDS	921	dinB_1	2.7.7.7		DNA polymerase IV
+ELDEJJAC_00036	CDS	315	dinB_2	2.7.7.7		DNA polymerase IV
+ELDEJJAC_00037	CDS	111				hypothetical protein
+ELDEJJAC_00038	CDS	360				hypothetical protein
+ELDEJJAC_00039	CDS	354				hypothetical protein
+ELDEJJAC_00040	CDS	525				hypothetical protein
+ELDEJJAC_00041	CDS	261				hypothetical protein
+ELDEJJAC_00042	CDS	1125				hypothetical protein
+ELDEJJAC_00043	CDS	600				hypothetical protein
+ELDEJJAC_00044	CDS	1386	czcC			Cobalt-zinc-cadmium resistance protein CzcC
+ELDEJJAC_00045	CDS	1284	czcB			Cobalt-zinc-cadmium resistance protein CzcB
+ELDEJJAC_00046	CDS	3123	czcA			Cobalt-zinc-cadmium resistance protein CzcA
+ELDEJJAC_00047	CDS	213				hypothetical protein
+ELDEJJAC_00048	CDS	675				hypothetical protein
+ELDEJJAC_00049	CDS	126				hypothetical protein
+ELDEJJAC_00050	CDS	129				hypothetical protein
+ELDEJJAC_00051	CDS	216				hypothetical protein
+ELDEJJAC_00052	CDS	1827	copA			Copper resistance protein A
+ELDEJJAC_00053	CDS	732	copB_1			Copper resistance protein B
+ELDEJJAC_00054	CDS	864				hypothetical protein
+ELDEJJAC_00055	CDS	2103	copB_2	7.2.2.8		Copper-exporting P-type ATPase B
+ELDEJJAC_00056	CDS	525	senX3	2.7.13.3		Sensor-like histidine kinase senX3
+ELDEJJAC_00057	CDS	2085				hypothetical protein
+ELDEJJAC_00058	CDS	813				hypothetical protein
+ELDEJJAC_00059	CDS	2142				hypothetical protein
+ELDEJJAC_00060	CDS	390				hypothetical protein

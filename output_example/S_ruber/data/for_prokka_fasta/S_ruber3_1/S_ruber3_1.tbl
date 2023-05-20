@@ -1,0 +1,190 @@
+>Feature S_ruber3_1
+51	242	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00001
+			product	hypothetical protein
+569	712	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00002
+			product	hypothetical protein
+845	2080	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00003
+			product	hypothetical protein
+2391	2747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00004
+			product	hypothetical protein
+3503	2952	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00005
+			product	hypothetical protein
+3529	3903	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00006
+			product	hypothetical protein
+4445	4834	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00007
+			product	hypothetical protein
+4864	5238	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00008
+			product	hypothetical protein
+6230	5829	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00009
+			product	hypothetical protein
+6530	6357	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00010
+			product	hypothetical protein
+6884	6621	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00011
+			product	hypothetical protein
+9476	9895	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00012
+			product	hypothetical protein
+10387	10097	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00013
+			product	hypothetical protein
+11353	11159	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00014
+			product	hypothetical protein
+13365	12961	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00015
+			product	hypothetical protein
+14789	13572	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00016
+			product	hypothetical protein
+16349	15009	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00017
+			product	hypothetical protein
+16855	16490	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00018
+			product	hypothetical protein
+17029	17853	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00019
+			product	hypothetical protein
+17798	18025	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00020
+			product	hypothetical protein
+18509	19357	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00021
+			product	hypothetical protein
+19670	19416	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00022
+			product	hypothetical protein
+21396	20431	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00023
+			product	hypothetical protein
+25800	22219	CDS
+			EC_number	2.7.13.3
+			gene	rcsC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	IBCMJOAG_00024
+			product	Sensor histidine kinase RcsC
+26282	26596	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00025
+			product	hypothetical protein
+26837	27481	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISMxa1
+			locus_tag	IBCMJOAG_00026
+			product	IS3 family transposase ISMxa1
+27808	27972	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00027
+			product	hypothetical protein
+28953	27982	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00028
+			product	hypothetical protein
+30147	29866	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00029
+			product	hypothetical protein
+31091	30204	CDS
+			gene	parA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:B8GW31
+			locus_tag	IBCMJOAG_00030
+			product	Chromosome partitioning protein ParA
+31759	31878	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00031
+			product	hypothetical protein
+32844	32716	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00032
+			product	hypothetical protein
+35359	35039	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00033
+			product	hypothetical protein
+36848	36684	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00034
+			product	hypothetical protein
+36903	37256	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00035
+			product	hypothetical protein
+37320	37826	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00036
+			product	hypothetical protein
+37850	38194	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00037
+			product	hypothetical protein
+38815	38949	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00038
+			product	hypothetical protein
+39623	41452	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00039
+			product	hypothetical protein
+42426	42124	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00040
+			product	hypothetical protein
+42714	44012	CDS
+			db_xref	COG:COG0389
+			gene	umuC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04152
+			locus_tag	IBCMJOAG_00041
+			product	Protein UmuC
+44110	44463	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00042
+			product	hypothetical protein
+46231	45557	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00043
+			product	hypothetical protein
+46858	46643	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00044
+			product	hypothetical protein
+47257	46949	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IBCMJOAG_00045
+			product	hypothetical protein
