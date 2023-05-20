@@ -181,10 +181,17 @@ We had 3 hypotheses about the dependence of the distribution of start codons on:
 2. phylogeny
 3. belonging of bacteria to specialists and generalists.
 
+Legend for 2 next graphs:
+
+<img src="https://github.com/Asklepiad/BI_project_2022/blob/70317aee65f2a7542109ef7703e7dfe572e885bd/illustrations/Legend.png" width="100" height="150">
+
+![Distribution of non-canonical SCs proportion](https://github.com/Asklepiad/BI_project_2022/blob/9d955615c341f85593b28e52a1c52d3ef0429291/illustrations/Taxons_start.png)
 Hypotheses 1 and 3 were not confirmed: no correlation was found between the representation of start codons depending on the size of the genome and whether the bacterium belongs to generalists and specialists. But we were able to identify some dependencies in the analysis of the distribution of start codons in bacteria grouped by taxa. Representatives of taxon Pseudomonadota had a lower percentage of genes with non-canonical start codons compared to representatives of taxon Bacillota considered in this work.
 
 #### Distribution of start codons in genes with different COG category analysis. 
 We analyzed the distribution of genes by COGs within each organism (we took all the genes with a certain start codon (ATG, GTG, TTG) and looked at what proportion of them belonged to one or another COG) (the relative percentage was calculated).
+
+![Proportion of SCs vs COG function (Vibrio campbellii)](https://github.com/Asklepiad/BI_project_2022/blob/2abc62e1049d4e2f8fe6b04b3f917f008ebb4d7f/illustrations/V_campbelli_cog_sc_eb_short.png)
 
 In genes responsible for: 
 * amino acid metabolism
