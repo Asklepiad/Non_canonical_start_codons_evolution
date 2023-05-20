@@ -1,11 +1,7 @@
 # Non-canonical start-codons and where to find them
 Project about evolution of non-canonical start-codons in bacteria and connections between gene function and its start-codon.
 
-## Short description
-
 ## Table of content
-
-[Short description](https://github.com/Asklepiad/BI_project_2022/tree/main#short-description)
 
 [Structure of repository](https://github.com/Asklepiad/BI_project_2022/tree/main#structure-of-repository)
 
@@ -90,8 +86,8 @@ The principal scheme of pipeline is on the figure below. ![pipeline of investiga
 ##### Master scripts
 
 There are two master scripts in pipeline for two modes of computing. 
-- The more flexible variant is ```folder_creators_server0.sh```. It creates all appropriate directories and subdirectories for one bacteria in input. Use script ```server_executor_start_codons.sbatch``` for the running commands on servers with slurm.
-- The more common way is using ```json.sh```.
+- The more flexible variant is ```folder_creators_server0.sh```. It creates all appropriate directories and subdirectories for one bacteria in input. Use script ```server_executor_start_codons.sbatch``` for the running commands on servers with slurm. Despite of script name it may be used both on server and locally (name's first part has only historical meaning))
+- The more common way is using one ```json.sh``` script to rule them all.
 - In addition you can use parts of pipeline separately. 
 
 ##### Pipeline parts properly
@@ -118,6 +114,16 @@ There are two master scripts in pipeline for two modes of computing.
 - ```environments_script_01.sh``` creates conda virtual environments. If you want to have another virtual environments, or want to set them manually, or run all programms from base conda environment (we highly recommend not to do that), you need to rewrite running scripts and environments names in```folder_creators_server0.sh``` .
 
 - ```local_statscript.R```  - local analog for semi-hand (target organism name must be written handly) computing statistics of ```Statscript.R```. It is convinient to run script in RStudio.
+
+##### Sbatch scripts
+
+For working on the server with slurm **(ссылка на мануал)** we have prepared some sbatch scripts. You need to customize some points of script and add some new ones, if you need (time, as example).
+
+- ```server_executor_start_codons.sbatch``` runs ```json.sh``` script, which starts analyz of all bacteria in input file.
+
+- ```one_genome.sbatch``` runs ```server_executor_start_codons.sbatch```, which starts to analyze only one bacteria.
+
+- ```executor_partial.sbatch``` runs one script from pipeline. It may be useful, if you have some exceptions with one of the "terminal" scripts (```Statscript.R``` or ```Ete3_maker_10.py```).
 
 ### Installation
 
@@ -156,6 +162,8 @@ There are slughtly different options, when you run master-script ```folder_creat
 > Example: ```./folder_creators_server0.sh "S_ruber.json" "muscle" 75 "bogdan.sotnikov.1999@mail.ru" 24```
 
 ### Example input and output
+
+
 
 ### Additional info
 
