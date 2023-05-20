@@ -21,8 +21,6 @@ Project about evolution of non-canonical start-codons in bacteria and connection
 
 [Example input and output](https://github.com/Asklepiad/BI_project_2022/tree/main#example-input-and-output)
 
-[Additional info](https://github.com/Asklepiad/BI_project_2022/tree/main#additional-info)
-
 [Results and discussion](https://github.com/Asklepiad/BI_project_2022/tree/main#results-and-discussion)
 
 [Future plans](https://github.com/Asklepiad/BI_project_2022/tree/main#future-plans)
@@ -169,8 +167,6 @@ We demonstrated example of alalyzis of one bacteria.
 
 - Output is located in output_example folder. It has two folders: figures contents pictures phylogenetical trees (in the same-name subdirectory) and plots; data contents table with data, json intermediate files, tools' outputs, alignments, phylogenetical trees in Newick format and many others. More information you may find in `./output_example/S_ruber/data` folder's readme file.
 
-### Additional info
-
 ### Problems and errors
 
 There are now problems with ete3 executing on server (local version works good). It will be solved in future (or we will replace ete3 to another tree visualizer).
@@ -232,14 +228,14 @@ This observation provides us with a good basis for further analysis of the prefe
 
 ## Links
 
-[PROKKA github](https://github.com/tseemann/prokka)
-[Proteinortho gitlub] (https://gitlab.com/paulklemm_PHD/proteinortho)
-[MUSCLE v.5 website](https://www.drive5.com/muscle/)
-[PRANK website](http://wasabiapp.org/software/prank/)
-[Modeltest-ng github](https://github.com/ddarriba/modeltest)
-[RAxML-ng github](https://github.com/amkozlov/raxml-ng)
-[PanACoTA github](https://github.com/gem-pasteur/PanACoTA)
-[Conda version archive](https://repo.anaconda.com/archive/)
+- [PROKKA github](https://github.com/tseemann/prokka)
+- [Proteinortho gitlub](https://gitlab.com/paulklemm_PHD/proteinortho)
+- [MUSCLE v.5 website](https://www.drive5.com/muscle/)
+- [PRANK website](http://wasabiapp.org/software/prank/)
+- [Modeltest-ng github](https://github.com/ddarriba/modeltest)
+- [RAxML-ng github](https://github.com/amkozlov/raxml-ng)
+- [PanACoTA github](https://github.com/gem-pasteur/PanACoTA)
+- [Conda version archive](https://repo.anaconda.com/archive/)
 
 ## Authors
 
