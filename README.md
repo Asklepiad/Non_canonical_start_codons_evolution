@@ -163,7 +163,11 @@ There are slughtly different options, when you run master-script ```folder_creat
 
 ### Example input and output
 
+We demonstrated example of alalyzis of one bacteria.
 
+- Input You need all pipeline scripts (except sbatch files, if you run it on local machine), `./data/bigcog` folder with all files and `./data/file_complete_genomes.json` or `/data/jsons/<Bacteria_of_interest.json>` files. If you have file_complete_genomes.json you may use `Organisms_parsing02.py` for parsing it. Script will create `/data/jsons/` folder with 34 json files, one of them will be `S_ruber.json`. Then you will need run the following command from the scripts directory: ```./folder_creators_server0.sh "S_ruber.json" "muscle" 75 "<your e-mail>" <number of your threads> 2>sruber.err```
+
+- Output is located in output_example folder. It has two folders: figures contents pictures phylogenetical trees (in the same-name subdirectory) and plots; data contents table with data, json intermediate files, tools' outputs, alignments, phylogenetical trees in Newick format and many others. More information you may find in `./output_example/S_ruber/data` folder's readme file.
 
 ### Additional info
 
