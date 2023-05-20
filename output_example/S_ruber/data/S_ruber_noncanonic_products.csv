@@ -1,0 +1,143 @@
+"","Var1","Freq"
+"1","(R)-stereoselective amidase",8
+"2","2-succinyl-5-enolpyruvyl-6-hydroxy-3- cyclohexene-1-carboxylate synthase",8
+"3","2,3-bisphosphoglycerate-independent phosphoglycerate mutase",6
+"4","2,4-diaminopentanoate dehydrogenase",8
+"5","3-dehydroquinate dehydratase",7
+"6","3-dehydroquinate dehydratase 1",1
+"7","3-ketosteroid-9-alpha-monooxygenase, ferredoxin reductase component",2
+"8","3'-5' exonuclease DinG",9
+"9","3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA",8
+"10","30S ribosomal protein S12",8
+"11","30S ribosomal protein S3",8
+"12","4-alpha-glucanotransferase",8
+"13","60 kDa chaperonin",1
+"14","Acetyl-CoA:oxalate CoA-transferase",8
+"15","Acylamidase",8
+"16","Adaptive-response sensory-kinase SasA",8
+"17","Aldo-keto reductase IolS",8
+"18","Alkaline phosphatase 4",8
+"19","Alkaline phosphatase synthesis sensor protein PhoR",3
+"20","Alkaline phosphatase synthesis transcriptional regulatory protein PhoP",16
+"21","Anthranilate phosphoribosyltransferase",8
+"22","Arginine deiminase",8
+"23","ATP-dependent zinc metalloprotease FtsH",8
+"24","Autoinducer 2 sensor kinase/phosphatase LuxQ",1
+"25","Bifunctional aspartokinase/homoserine dehydrogenase 1",8
+"26","Biosynthetic peptidoglycan transglycosylase",4
+"27","Catabolite control protein A",8
+"28","CDP-paratose 2-epimerase",1
+"29","Cell division ATP-binding protein FtsE",8
+"30","Cell division protein FtsX",8
+"31","Cryptochrome DASH",8
+"32","CTP synthase",8
+"33","Cyclic di-AMP synthase CdaA",8
+"34","Cytidylate kinase",8
+"35","D-alanine--D-alanine ligase",8
+"36","D-glycerate 2-kinase",8
+"37","D-inositol-3-phosphate glycosyltransferase",16
+"38","Decarbamoylnovobiocin carbamoyltransferase",1
+"39","Deoxyribodipyrimidine photo-lyase",8
+"40","Dephospho-CoA kinase",8
+"41","DNA mismatch repair protein MutL",8
+"42","Dodecaprenyl-phosphate galacturonate synthase",8
+"43","Dual-specificity RNA pseudouridine synthase RluA",8
+"44","Elongation factor Tu",2
+"45","Endolytic murein transglycosylase",8
+"46","Endonuclease III",8
+"47","Endoribonuclease YbeY",8
+"48","Erythronate-4-phosphate dehydrogenase",8
+"49","FKBP-type 16 kDa peptidyl-prolyl cis-trans isomerase",8
+"50","Flagellar biosynthesis protein FlhA",8
+"51","Flagellar biosynthetic protein FliP",8
+"52","Flagellar hook-associated protein 1",4
+"53","GDP-6-deoxy-D-mannose reductase",1
+"54","GDP-mannose-dependent alpha-(1-6)-phosphatidylinositol monomannoside mannosyltransferase",8
+"55","GDP-mannose:cellobiosyl-diphosphopolyprenol alpha-mannosyltransferase",2
+"56","GDP-perosamine synthase",2
+"57","Glucitol operon repressor",3
+"58","Glutamine--tRNA ligase",8
+"59","Glycerophosphodiester phosphodiesterase",8
+"60","GTPase Der",8
+"61","GTPase HflX",8
+"62","Heat-inducible transcription repressor HrcA",8
+"63","Heme chaperone HemW",8
+"64","Hemin import ATP-binding protein HmuV",1
+"65","Heterocyst differentiation ATP-binding protein HepA",1
+"66","Histidine ammonia-lyase",1
+"67","Histidine--tRNA ligase",8
+"68","HTH-type transcriptional activator RhaR",1
+"69","hypothetical protein",897
+"70","Indole-3-glycerol phosphate synthase",8
+"71","Iron(3+)-hydroxamate import ATP-binding protein FhuC",7
+"72","IS1634 family transposase ISSpu7",1
+"73","IS630 family transposase ISMae29",1
+"74","IS630 family transposase ISPna1",1
+"75","Isochorismate synthase MenF",8
+"76","Lipoprotein E",8
+"77","Lipoprotein-releasing system ATP-binding protein LolD",8
+"78","Lipoprotein-releasing system transmembrane protein LolC",8
+"79","LPS-assembly protein LptD",8
+"80","Membrane protein insertase YidC",8
+"81","Methyl-accepting chemotaxis protein McpQ",2
+"82","Multidrug resistance protein NorM",8
+"83","Multifunctional 2-oxoglutarate metabolism enzyme",8
+"84","N-acetylmuramic acid/N-acetylglucosamine kinase",8
+"85","Na(+)/H(+) antiporter subunit B",8
+"86","Na(+)/H(+) antiporter subunit E",8
+"87","NAD/NADP-dependent betaine aldehyde dehydrogenase",8
+"88","Neopullulanase 2",5
+"89","Nicotinate-nucleotide pyrophosphorylase [carboxylating]",8
+"90","Ornithine lipid N-methyltransferase",8
+"91","Outer membrane protein assembly factor BamA",8
+"92","Peptide chain release factor 3",8
+"93","Peptide methionine sulfoxide reductase MsrA",1
+"94","Peptide methionine sulfoxide reductase MsrA 2",7
+"95","Peptidoglycan O-acetyltransferase",1
+"96","Phenylalanine--tRNA ligase beta subunit",8
+"97","PhoH-like protein",8
+"98","Phosphatidylserine decarboxylase proenzyme",8
+"99","Phosphopentomutase",2
+"100","Polyphenol oxidase",8
+"101","Polyprenol monophosphomannose synthase",8
+"102","primosomal protein N'",8
+"103","Protease HtpX",8
+"104","Protein GrpE",8
+"105","Protein UmuC",11
+"106","Purine efflux pump PbuE",8
+"107","putative ABC transporter ATP-binding protein",8
+"108","putative GTPase",8
+"109","Putative K(+)-stimulated pyrophosphate-energized sodium pump",8
+"110","Putative multidrug export ATP-binding/permease protein",1
+"111","putative murein peptide carboxypeptidase",8
+"112","Putative pre-16S rRNA nuclease",8
+"113","putative transporter YycB",8
+"114","Putative transposase InsK for insertion sequence element IS150",1
+"115","Pyridoxine 5'-phosphate synthase",8
+"116","queuosine precursor transporter",8
+"117","Replicative DNA helicase",1
+"118","Ribokinase",8
+"119","Ribosome maturation factor RimP",8
+"120","Sensor histidine kinase RcsC",25
+"121","Sensor-like histidine kinase senX3",1
+"122","Sensory transduction protein LytR",8
+"123","Shikimate dehydrogenase (NADP(+))",8
+"124","Single-stranded-DNA-specific exonuclease RecJ",8
+"125","Small-conductance mechanosensitive channel",7
+"126","Sodium/glucose cotransporter",1
+"127","Sulfate permease CysP",1
+"128","Threonine synthase",8
+"129","Threonylcarbamoyl-AMP synthase",8
+"130","Tol-Pal system protein TolQ",8
+"131","TonB-dependent receptor P26",1
+"132","Transcription-repair-coupling factor",8
+"133","Translation initiation factor IF-3",8
+"134","tRNA 5-carboxymethoxyuridine methyltransferase",8
+"135","tRNA N6-adenosine threonylcarbamoyltransferase, mitochondrial",8
+"136","Tropinesterase",8
+"137","Tyrosine recombinase XerC",6
+"138","Ubiquinone biosynthesis O-methyltransferase, mitochondrial",6
+"139","Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase",1
+"140","Undecaprenyl-phosphate mannosyltransferase",8
+"141","Vitamin B12 transporter BtuB",1
+"142","Zinc transporter ZupT",16

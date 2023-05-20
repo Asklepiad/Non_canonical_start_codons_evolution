@@ -1,0 +1,327 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:54 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 54 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:54 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:55 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::54 proteins have invalid IDs.
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_1 (length 69)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_2 (length 447)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_3 (length 225)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_4 (length 193)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_5 (length 72)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_6 (length 100)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_7 (length 222)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_8 (length 147)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_9 (length 492)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_10 (length 144)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_11 (length 70)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_12 (length 93)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_13 (length 185)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_14 (length 88)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_15 (length 54)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_16 (length 122)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_17 (length 292)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_18 (length 279)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_19 (length 69)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_20 (length 61)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_21 (length 80)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_22 (length 204)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_23 (length 211)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_24 (length 227)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_25 (length 209)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_26 (length 77)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_27 (length 156)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_28 (length 59)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_29 (length 255)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_30 (length 56)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_31 (length 549)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_32 (length 67)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_33 (length 205)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_34 (length 74)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_35 (length 2576)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_36 (length 1346)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_37 (length 69)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_38 (length 1558)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_39 (length 354)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_40 (length 191)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_41 (length 945)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_42 (length 268)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_43 (length 511)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_44 (length 96)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_45 (length 80)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_46 (length 61)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_47 (length 59)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_48 (length 193)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_49 (length 82)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_50 (length 79)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_51 (length 256)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_52 (length 371)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_53 (length 165)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_54 (length 157)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 54 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3 (length 61373)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::54 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:87-296	GHBHKFGM_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:491-1834	GHBHKFGM_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	DNA-invertase hin	S_ruber6_3:c2658-1981	GHBHKFGM_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c3750-3169	GHBHKFGM_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c4282-4064	GHBHKFGM_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:4295-4597	GHBHKFGM_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:4875-5543	GHBHKFGM_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c6221-5778	GHBHKFGM_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c8168-6690	GHBHKFGM_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c8758-8324	GHBHKFGM_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:9175-9387	GHBHKFGM_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:10169-10450	GHBHKFGM_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:11906-12463	GHBHKFGM_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c13030-12764	GHBHKFGM_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c13182-13018	GHBHKFGM_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c13592-13224	GHBHKFGM_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:13730-14608	GHBHKFGM_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:14803-15642	GHBHKFGM_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c16075-15866	GHBHKFGM_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:16186-16371	GHBHKFGM_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:16631-16873	GHBHKFGM_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:16898-17512	GHBHKFGM_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:17642-18277	GHBHKFGM_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	Thiol-disulfide oxidoreductase ResA	S_ruber6_3:c18901-18218	GHBHKFGM_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	Chromosome-partitioning ATPase Soj	S_ruber6_3:19002-19631	GHBHKFGM_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:19638-19871	GHBHKFGM_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:19905-20375	GHBHKFGM_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:20335-20514	GHBHKFGM_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	IS5 family transposase ISMac15	S_ruber6_3:20707-21474	GHBHKFGM_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:21495-21665	GHBHKFGM_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c25540-23891	GHBHKFGM_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:26662-26865	GHBHKFGM_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:26849-27466	GHBHKFGM_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:27853-28077	GHBHKFGM_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:29202-36932	GHBHKFGM_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:37027-41067	GHBHKFGM_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c41213-41004	GHBHKFGM_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:41543-46219	GHBHKFGM_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	Amylopullulanase	S_ruber6_3:46419-47483	GHBHKFGM_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	Tyrosine recombinase XerD	S_ruber6_3:c48096-47521	GHBHKFGM_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:48601-51438	GHBHKFGM_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c52478-51672	GHBHKFGM_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	Tol-Pal system protein TolB	S_ruber6_3:52682-54217	GHBHKFGM_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:54230-54520	GHBHKFGM_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c55060-54818	GHBHKFGM_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c55505-55320	GHBHKFGM_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:55616-55795	GHBHKFGM_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:56178-56759	GHBHKFGM_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:c57387-57139	GHBHKFGM_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:57481-57720	GHBHKFGM_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:57826-58596	GHBHKFGM_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:58677-59792	GHBHKFGM_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	hypothetical protein	S_ruber6_3:60279-60776	GHBHKFGM_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:CDS	IS630 family transposase ISMae27	S_ruber6_3:c61250-60777	GHBHKFGM_00054
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3 (length 61373)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3 (length 61373)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3 (length 61373)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3 (length 61373)
+
+DiscRep_ALL:MISSING_PROJECT::55 sequences do not include project.
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3 (length 61373)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_1 (length 69)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_2 (length 447)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_3 (length 225)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_4 (length 193)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_5 (length 72)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_6 (length 100)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_7 (length 222)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_8 (length 147)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_9 (length 492)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_10 (length 144)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_11 (length 70)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_12 (length 93)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_13 (length 185)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_14 (length 88)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_15 (length 54)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_16 (length 122)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_17 (length 292)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_18 (length 279)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_19 (length 69)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_20 (length 61)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_21 (length 80)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_22 (length 204)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_23 (length 211)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_24 (length 227)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_25 (length 209)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_26 (length 77)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_27 (length 156)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_28 (length 59)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_29 (length 255)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_30 (length 56)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_31 (length 549)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_32 (length 67)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_33 (length 205)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_34 (length 74)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_35 (length 2576)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_36 (length 1346)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_37 (length 69)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_38 (length 1558)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_39 (length 354)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_40 (length 191)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_41 (length 945)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_42 (length 268)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_43 (length 511)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_44 (length 96)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_45 (length 80)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_46 (length 61)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_47 (length 59)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_48 (length 193)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_49 (length 82)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_50 (length 79)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_51 (length 256)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_52 (length 371)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_53 (length 165)
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3_54 (length 157)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../S_ruber/data/for_prokka_fasta/S_ruber6_3/S_ruber6_3:S_ruber6_3 (length 61373)
+

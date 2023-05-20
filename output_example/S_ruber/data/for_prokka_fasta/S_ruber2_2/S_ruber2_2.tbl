@@ -1,0 +1,93 @@
+>Feature S_ruber2_2
+580	335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00001
+			product	hypothetical protein
+801	1016	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00002
+			product	hypothetical protein
+1077	1679	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00003
+			product	hypothetical protein
+1843	2028	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00004
+			product	hypothetical protein
+2113	2436	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00005
+			product	hypothetical protein
+2433	4754	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00006
+			product	hypothetical protein
+5134	5409	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00007
+			product	hypothetical protein
+5464	5769	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00008
+			product	hypothetical protein
+5766	5927	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00009
+			product	hypothetical protein
+6043	6525	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00010
+			product	hypothetical protein
+6614	7414	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00011
+			product	hypothetical protein
+7411	8040	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00012
+			product	hypothetical protein
+8074	8235	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00013
+			product	hypothetical protein
+8240	8518	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00014
+			product	hypothetical protein
+8560	9270	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00015
+			product	hypothetical protein
+9314	9628	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00016
+			product	hypothetical protein
+9641	11467	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00017
+			product	hypothetical protein
+11506	11910	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00018
+			product	hypothetical protein
+12437	11919	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00019
+			product	hypothetical protein
+12787	12503	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00020
+			product	hypothetical protein
+13474	12818	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00021
+			product	hypothetical protein
+14330	13812	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00022
+			product	hypothetical protein
+14645	14400	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	LDJHEKMD_00023
+			product	hypothetical protein

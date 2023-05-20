@@ -1,0 +1,270 @@
+>Feature S_ruber0_2
+897	325	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00001
+			product	hypothetical protein
+1474	1620	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00002
+			product	hypothetical protein
+2701	1640	CDS
+			gene	xerC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	ELDEJJAC_00003
+			product	Tyrosine recombinase XerC
+3477	2950	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00004
+			product	hypothetical protein
+3810	3547	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00005
+			product	hypothetical protein
+3948	4187	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00006
+			product	hypothetical protein
+4607	4482	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00007
+			product	hypothetical protein
+4923	5600	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00008
+			product	hypothetical protein
+5852	7192	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00009
+			product	hypothetical protein
+9195	7459	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00010
+			product	hypothetical protein
+10736	9192	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00011
+			product	hypothetical protein
+13422	11041	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00012
+			product	hypothetical protein
+13978	13880	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00013
+			product	hypothetical protein
+14150	13986	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00014
+			product	hypothetical protein
+15073	14300	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00015
+			product	hypothetical protein
+16258	15407	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00016
+			product	hypothetical protein
+17234	16335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00017
+			product	hypothetical protein
+18335	17298	CDS
+			gene	xerC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	ELDEJJAC_00018
+			product	Tyrosine recombinase XerC
+19219	18335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00019
+			product	hypothetical protein
+20573	19446	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00020
+			product	hypothetical protein
+22632	21196	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00021
+			product	hypothetical protein
+22793	23365	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00022
+			product	hypothetical protein
+23444	24112	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00023
+			product	hypothetical protein
+25062	24640	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00024
+			product	hypothetical protein
+25520	26161	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00025
+			product	hypothetical protein
+26148	26372	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00026
+			product	hypothetical protein
+26533	27270	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00027
+			product	hypothetical protein
+28342	28497	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00028
+			product	hypothetical protein
+29258	29001	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00029
+			product	hypothetical protein
+29791	29429	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00030
+			product	hypothetical protein
+30929	32011	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00031
+			product	hypothetical protein
+32157	32624	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00032
+			product	hypothetical protein
+32784	33287	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00033
+			product	hypothetical protein
+33601	34896	CDS
+			db_xref	COG:COG0389
+			gene	umuC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04152
+			locus_tag	ELDEJJAC_00034
+			product	Protein UmuC
+35006	35926	CDS
+			EC_number	2.7.7.7
+			gene	dinB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01113
+			locus_tag	ELDEJJAC_00035
+			product	DNA polymerase IV
+35877	36191	CDS
+			EC_number	2.7.7.7
+			gene	dinB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01113
+			locus_tag	ELDEJJAC_00036
+			product	DNA polymerase IV
+36394	36284	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00037
+			product	hypothetical protein
+36734	36375	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00038
+			product	hypothetical protein
+36857	37210	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00039
+			product	hypothetical protein
+37778	37254	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00040
+			product	hypothetical protein
+37801	38061	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00041
+			product	hypothetical protein
+38183	39307	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00042
+			product	hypothetical protein
+39373	39972	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00043
+			product	hypothetical protein
+40142	41527	CDS
+			gene	czcC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13509
+			locus_tag	ELDEJJAC_00044
+			product	Cobalt-zinc-cadmium resistance protein CzcC
+41611	42894	CDS
+			gene	czcB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13510
+			locus_tag	ELDEJJAC_00045
+			product	Cobalt-zinc-cadmium resistance protein CzcB
+42977	46099	CDS
+			gene	czcA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13511
+			locus_tag	ELDEJJAC_00046
+			product	Cobalt-zinc-cadmium resistance protein CzcA
+46199	46411	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00047
+			product	hypothetical protein
+46510	47184	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00048
+			product	hypothetical protein
+47358	47483	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00049
+			product	hypothetical protein
+47587	47715	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00050
+			product	hypothetical protein
+47972	48187	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00051
+			product	hypothetical protein
+48460	50286	CDS
+			gene	copA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12374
+			locus_tag	ELDEJJAC_00052
+			product	Copper resistance protein A
+50331	51062	CDS
+			gene	copB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12375
+			locus_tag	ELDEJJAC_00053
+			product	Copper resistance protein B
+51116	51979	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00054
+			product	hypothetical protein
+52095	54197	CDS
+			EC_number	7.2.2.8
+			gene	copB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05425
+			locus_tag	ELDEJJAC_00055
+			product	Copper-exporting P-type ATPase B
+54242	54766	CDS
+			EC_number	2.7.13.3
+			gene	senX3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WGK5
+			locus_tag	ELDEJJAC_00056
+			product	Sensor-like histidine kinase senX3
+57074	54990	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00057
+			product	hypothetical protein
+58153	57341	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00058
+			product	hypothetical protein
+60542	58401	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00059
+			product	hypothetical protein
+61034	60645	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELDEJJAC_00060
+			product	hypothetical protein

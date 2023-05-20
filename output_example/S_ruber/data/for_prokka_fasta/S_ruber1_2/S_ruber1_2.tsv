@@ -1,0 +1,16 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+CDBOIKMB_00001	CDS	1227	dnaC	3.6.4.12	COG0305	Replicative DNA helicase
+CDBOIKMB_00002	CDS	1803	dnaG	2.7.7.-		DNA primase
+CDBOIKMB_00003	CDS	792				Iron-sulfur cluster carrier protein
+CDBOIKMB_00004	CDS	444				hypothetical protein
+CDBOIKMB_00005	CDS	186				hypothetical protein
+CDBOIKMB_00006	CDS	183				hypothetical protein
+CDBOIKMB_00007	CDS	1020				hypothetical protein
+	repeat_region	305				
+CDBOIKMB_00008	CDS	1398				hypothetical protein
+CDBOIKMB_00009	CDS	513				hypothetical protein
+CDBOIKMB_00010	CDS	555				hypothetical protein
+CDBOIKMB_00011	CDS	231				hypothetical protein
+CDBOIKMB_00012	CDS	762				hypothetical protein
+CDBOIKMB_00013	CDS	318				hypothetical protein
+CDBOIKMB_00014	CDS	2160				hypothetical protein

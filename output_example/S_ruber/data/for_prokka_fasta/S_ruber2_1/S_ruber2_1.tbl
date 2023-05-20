@@ -1,0 +1,249 @@
+>Feature S_ruber2_1
+278	1003	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00001
+			product	hypothetical protein
+1452	2306	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00002
+			product	hypothetical protein
+3754	3167	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00003
+			product	hypothetical protein
+3869	4729	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00004
+			product	hypothetical protein
+4814	5773	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00005
+			product	hypothetical protein
+6188	9598	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00006
+			product	hypothetical protein
+9576	11339	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00007
+			product	hypothetical protein
+11684	11478	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00008
+			product	hypothetical protein
+11821	12129	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00009
+			product	hypothetical protein
+12514	12371	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00010
+			product	hypothetical protein
+12720	12538	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00011
+			product	hypothetical protein
+14338	12791	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00012
+			product	hypothetical protein
+14849	14619	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00013
+			product	hypothetical protein
+17047	15149	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00014
+			product	hypothetical protein
+18125	17157	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00015
+			product	hypothetical protein
+19617	18853	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00016
+			product	hypothetical protein
+20763	19669	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00017
+			product	hypothetical protein
+21557	22132	CDS
+			db_xref	COG:COG4973
+			gene	xerC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A8P6
+			locus_tag	HPHGLPOA_00018
+			product	Tyrosine recombinase XerC
+23717	23172	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00019
+			product	hypothetical protein
+24175	23816	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00020
+			product	hypothetical protein
+24666	24403	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00021
+			product	hypothetical protein
+25009	25206	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00022
+			product	hypothetical protein
+25749	25522	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00023
+			product	hypothetical protein
+25955	27904	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00024
+			product	hypothetical protein
+28750	29325	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00025
+			product	hypothetical protein
+29689	30249	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00026
+			product	hypothetical protein
+30863	32212	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00027
+			product	hypothetical protein
+33406	32726	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00028
+			product	hypothetical protein
+33724	33458	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00029
+			product	hypothetical protein
+34905	33721	CDS
+			EC_number	2.7.7.7
+			db_xref	COG:COG0389
+			gene	dinB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q47155
+			locus_tag	HPHGLPOA_00030
+			product	DNA polymerase IV
+34991	35476	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00031
+			product	hypothetical protein
+36579	35653	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00032
+			product	hypothetical protein
+37356	37670	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00033
+			product	hypothetical protein
+38083	37547	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00034
+			product	hypothetical protein
+38405	38677	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00035
+			product	hypothetical protein
+39736	39350	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00036
+			product	hypothetical protein
+40680	40432	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00037
+			product	hypothetical protein
+41324	40677	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00038
+			product	hypothetical protein
+41960	41673	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00039
+			product	hypothetical protein
+42295	44586	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00040
+			product	hypothetical protein
+44783	45241	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00041
+			product	hypothetical protein
+45495	46664	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00042
+			product	hypothetical protein
+47297	47776	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00043
+			product	hypothetical protein
+48330	47998	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00044
+			product	hypothetical protein
+50653	50159	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00045
+			product	hypothetical protein
+51586	51870	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00046
+			product	hypothetical protein
+51920	52132	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00047
+			product	hypothetical protein
+54109	54876	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00048
+			product	hypothetical protein
+55854	54988	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00049
+			product	hypothetical protein
+58822	55922	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00050
+			product	hypothetical protein
+59544	58894	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00051
+			product	hypothetical protein
+60819	59587	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00052
+			product	hypothetical protein
+61923	63674	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00053
+			product	hypothetical protein
+64456	65454	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00054
+			product	hypothetical protein
+65945	70465	CDS
+			EC_number	3.6.4.-
+			gene	rapA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01821
+			locus_tag	HPHGLPOA_00055
+			product	RNA polymerase-associated protein RapA
+70583	71395	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00056
+			product	hypothetical protein
+71456	74539	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00057
+			product	hypothetical protein
+74782	75495	CDS
+			gene	xerC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	HPHGLPOA_00058
+			product	Tyrosine recombinase XerC
+75633	75842	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HPHGLPOA_00059
+			product	hypothetical protein

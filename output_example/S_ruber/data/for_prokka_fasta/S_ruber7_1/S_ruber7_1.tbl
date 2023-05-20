@@ -1,0 +1,137 @@
+>Feature S_ruber7_1
+1	1011	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00001
+			product	hypothetical protein
+1500	2798	CDS
+			db_xref	COG:COG0389
+			gene	umuC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04152
+			locus_tag	IPKNLIHJ_00002
+			product	Protein UmuC
+3022	6297	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00003
+			product	hypothetical protein
+6352	7497	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00004
+			product	hypothetical protein
+7589	7747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00005
+			product	hypothetical protein
+8235	8002	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00006
+			product	hypothetical protein
+9026	8790	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00007
+			product	hypothetical protein
+9481	9341	CDS
+			gene	xerD_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01807
+			locus_tag	IPKNLIHJ_00008
+			product	Tyrosine recombinase XerD
+9991	10449	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00009
+			product	hypothetical protein
+10560	11018	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00010
+			product	hypothetical protein
+11738	11163	CDS
+			db_xref	COG:COG4974
+			gene	xerD_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O31206
+			locus_tag	IPKNLIHJ_00011
+			product	Tyrosine recombinase XerD
+12254	14605	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00012
+			product	hypothetical protein
+15792	14839	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00013
+			product	hypothetical protein
+16826	15870	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00014
+			product	hypothetical protein
+17715	16921	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00015
+			product	hypothetical protein
+17785	18021	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00016
+			product	hypothetical protein
+18011	19828	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00017
+			product	hypothetical protein
+19934	20131	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00018
+			product	hypothetical protein
+20942	20271	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00019
+			product	hypothetical protein
+21360	21091	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00020
+			product	hypothetical protein
+22285	21488	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00021
+			product	hypothetical protein
+23525	23214	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00022
+			product	hypothetical protein
+24088	23582	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00023
+			product	hypothetical protein
+24951	24283	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00024
+			product	hypothetical protein
+28127	24981	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00025
+			product	hypothetical protein
+28463	28239	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00026
+			product	hypothetical protein
+29091	28456	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00027
+			product	hypothetical protein
+29322	29209	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00028
+			product	hypothetical protein
+29599	29279	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00029
+			product	hypothetical protein
+31013	29658	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00030
+			product	hypothetical protein
+33632	31188	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00031
+			product	hypothetical protein
+33901	34917	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPKNLIHJ_00032
+			product	hypothetical protein

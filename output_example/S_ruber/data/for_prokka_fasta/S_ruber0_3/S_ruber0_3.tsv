@@ -1,0 +1,56 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+EHJJOEDH_00001	CDS	2946	rcsC_1	2.7.13.3		Sensor histidine kinase RcsC
+EHJJOEDH_00002	CDS	867				hypothetical protein
+EHJJOEDH_00003	CDS	1464				hypothetical protein
+EHJJOEDH_00004	CDS	528				hypothetical protein
+EHJJOEDH_00005	CDS	1110				hypothetical protein
+EHJJOEDH_00006	CDS	153				hypothetical protein
+EHJJOEDH_00007	CDS	501				hypothetical protein
+EHJJOEDH_00008	CDS	228				hypothetical protein
+EHJJOEDH_00009	CDS	423		3.1.-.-	COG2402	23S rRNA-specific endonuclease VapC20
+EHJJOEDH_00010	CDS	570				hypothetical protein
+EHJJOEDH_00011	CDS	765	nreC		COG2197	Oxygen regulatory protein NreC
+EHJJOEDH_00012	CDS	819	rcsB			Transcriptional regulatory protein RcsB
+EHJJOEDH_00013	CDS	252				hypothetical protein
+EHJJOEDH_00014	CDS	843				hypothetical protein
+EHJJOEDH_00015	CDS	417				hypothetical protein
+EHJJOEDH_00016	CDS	603				hypothetical protein
+EHJJOEDH_00017	CDS	615				hypothetical protein
+EHJJOEDH_00018	CDS	939				hypothetical protein
+EHJJOEDH_00019	CDS	1401				hypothetical protein
+EHJJOEDH_00020	CDS	516				hypothetical protein
+EHJJOEDH_00021	CDS	1200				hypothetical protein
+EHJJOEDH_00022	CDS	585				hypothetical protein
+EHJJOEDH_00023	CDS	675				hypothetical protein
+EHJJOEDH_00024	CDS	129				hypothetical protein
+EHJJOEDH_00025	CDS	336				hypothetical protein
+EHJJOEDH_00026	CDS	420				hypothetical protein
+EHJJOEDH_00027	CDS	888	parA			Chromosome partitioning protein ParA
+EHJJOEDH_00028	CDS	282				hypothetical protein
+EHJJOEDH_00029	CDS	972				hypothetical protein
+EHJJOEDH_00030	CDS	165				hypothetical protein
+EHJJOEDH_00031	CDS	957				hypothetical protein
+EHJJOEDH_00032	CDS	621				hypothetical protein
+EHJJOEDH_00033	CDS	972				hypothetical protein
+EHJJOEDH_00034	CDS	2292				hypothetical protein
+EHJJOEDH_00035	CDS	531				hypothetical protein
+EHJJOEDH_00036	CDS	126				hypothetical protein
+EHJJOEDH_00037	CDS	1017				hypothetical protein
+EHJJOEDH_00038	CDS	306				hypothetical protein
+EHJJOEDH_00039	CDS	741				hypothetical protein
+EHJJOEDH_00040	CDS	579				hypothetical protein
+EHJJOEDH_00041	CDS	2175	cas3	3.1.-.-	COG1203	Putative CRISPR-associated nuclease/helicase Cas3
+EHJJOEDH_00042	CDS	1305				hypothetical protein
+EHJJOEDH_00043	CDS	1059				hypothetical protein
+	repeat_region	1231				
+EHJJOEDH_00044	CDS	420				hypothetical protein
+EHJJOEDH_00045	CDS	519				hypothetical protein
+EHJJOEDH_00046	CDS	1341	cas1	3.1.-.-		CRISPR-associated endonuclease Cas1
+EHJJOEDH_00047	CDS	264	cas2	3.1.-.-	COG1343	CRISPR-associated endoribonuclease Cas2
+	repeat_region	1368				
+EHJJOEDH_00048	CDS	1158				hypothetical protein
+EHJJOEDH_00049	CDS	306				hypothetical protein
+EHJJOEDH_00050	CDS	726	xerC			Tyrosine recombinase XerC
+EHJJOEDH_00051	CDS	3672	rcsC_2	2.7.13.3		Sensor histidine kinase RcsC
+EHJJOEDH_00052	CDS	489				hypothetical protein
+EHJJOEDH_00053	CDS	3900	cheB	3.5.1.44		Protein-glutamate methylesterase/protein-glutamine glutaminase

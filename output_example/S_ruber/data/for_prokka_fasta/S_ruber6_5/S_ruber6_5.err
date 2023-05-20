@@ -1,0 +1,127 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:14 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 14 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:14 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:15 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::14 proteins have invalid IDs.
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_1 (length 54)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_2 (length 102)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_3 (length 716)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_4 (length 184)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_5 (length 276)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_6 (length 231)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_7 (length 261)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_8 (length 225)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_9 (length 123)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_10 (length 628)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_11 (length 94)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_12 (length 218)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_13 (length 83)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_14 (length 76)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 14 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5 (length 11229)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::14 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:23-187	CPHOJEGO_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:270-578	CPHOJEGO_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	DNA primase	S_ruber6_5:575-2725	CPHOJEGO_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:3217-3771	CPHOJEGO_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:3740-4570	CPHOJEGO_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:4563-5258	CPHOJEGO_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:5292-6077	CPHOJEGO_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:6070-6747	CPHOJEGO_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:6768-7139	CPHOJEGO_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:7132-9018	CPHOJEGO_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:c9359-9075	CPHOJEGO_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:c10046-9390	CPHOJEGO_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:c10596-10345	CPHOJEGO_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:CDS	hypothetical protein	S_ruber6_5:10767-10997	CPHOJEGO_00014
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5 (length 11229)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5 (length 11229)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5 (length 11229)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5 (length 11229)
+
+DiscRep_ALL:MISSING_PROJECT::15 sequences do not include project.
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5 (length 11229)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_1 (length 54)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_2 (length 102)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_3 (length 716)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_4 (length 184)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_5 (length 276)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_6 (length 231)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_7 (length 261)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_8 (length 225)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_9 (length 123)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_10 (length 628)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_11 (length 94)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_12 (length 218)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_13 (length 83)
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5_14 (length 76)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../S_ruber/data/for_prokka_fasta/S_ruber6_5/S_ruber6_5:S_ruber6_5 (length 11229)
+

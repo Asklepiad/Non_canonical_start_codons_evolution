@@ -1,0 +1,197 @@
+>Feature S_ruber3_4
+74	2398	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00001
+			product	hypothetical protein
+2818	3036	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00002
+			product	hypothetical protein
+3067	3249	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00003
+			product	hypothetical protein
+3249	3566	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00004
+			product	hypothetical protein
+3628	4107	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00005
+			product	hypothetical protein
+4117	4362	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00006
+			product	hypothetical protein
+4366	5181	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00007
+			product	hypothetical protein
+5178	5780	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00008
+			product	hypothetical protein
+5798	6436	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00009
+			product	hypothetical protein
+6513	6929	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00010
+			product	hypothetical protein
+7001	7180	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00011
+			product	hypothetical protein
+7206	8597	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00012
+			product	hypothetical protein
+8620	9240	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00013
+			product	hypothetical protein
+9267	9593	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00014
+			product	hypothetical protein
+10505	9633	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00015
+			product	hypothetical protein
+10746	10597	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00016
+			product	hypothetical protein
+11269	11054	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00017
+			product	hypothetical protein
+11706	11332	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00018
+			product	hypothetical protein
+12250	12035	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00019
+			product	hypothetical protein
+12881	12243	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02040
+			locus_tag	OFJFHAAL_00020
+			product	Iron-sulfur cluster carrier protein
+12993	13199	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00021
+			product	hypothetical protein
+13227	13517	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00022
+			product	hypothetical protein
+13536	13763	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00023
+			product	hypothetical protein
+13760	14056	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00024
+			product	hypothetical protein
+14340	15359	CDS
+			gene	tolB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00671
+			locus_tag	OFJFHAAL_00025
+			product	Tol-Pal system protein TolB
+16593	15931	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00026
+			product	hypothetical protein
+17564	17803	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00027
+			product	hypothetical protein
+17920	18681	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00028
+			product	hypothetical protein
+18715	18984	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00029
+			product	hypothetical protein
+19097	20224	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00030
+			product	hypothetical protein
+20452	21306	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00031
+			product	hypothetical protein
+21332	22420	CDS
+			gene	xerC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	OFJFHAAL_00032
+			product	Tyrosine recombinase XerC
+22456	23034	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00033
+			product	hypothetical protein
+23000	23182	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00034
+			product	hypothetical protein
+24379	23138	CDS
+			EC_number	3.6.4.12
+			gene	ruvB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00016
+			locus_tag	OFJFHAAL_00035
+			product	Holliday junction ATP-dependent DNA helicase RuvB
+24704	26107	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00036
+			product	hypothetical protein
+26916	26308	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00037
+			product	hypothetical protein
+27414	27115	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00038
+			product	hypothetical protein
+27757	27470	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00039
+			product	hypothetical protein
+28150	27797	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00040
+			product	hypothetical protein
+28514	28194	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00041
+			product	hypothetical protein
+28909	28625	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00042
+			product	hypothetical protein
+29154	29005	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00043
+			product	hypothetical protein
+29237	29518	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00044
+			product	hypothetical protein
+29700	29909	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00045
+			product	hypothetical protein
+29914	30225	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00046
+			product	hypothetical protein
+30225	30986	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	OFJFHAAL_00047
+			product	hypothetical protein

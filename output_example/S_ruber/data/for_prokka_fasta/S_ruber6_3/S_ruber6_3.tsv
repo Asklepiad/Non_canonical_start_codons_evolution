@@ -1,0 +1,55 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+GHBHKFGM_00001	CDS	210				hypothetical protein
+GHBHKFGM_00002	CDS	1344				hypothetical protein
+GHBHKFGM_00003	CDS	678	hin		COG1961	DNA-invertase hin
+GHBHKFGM_00004	CDS	582				hypothetical protein
+GHBHKFGM_00005	CDS	219				hypothetical protein
+GHBHKFGM_00006	CDS	303				hypothetical protein
+GHBHKFGM_00007	CDS	669				hypothetical protein
+GHBHKFGM_00008	CDS	444				hypothetical protein
+GHBHKFGM_00009	CDS	1479				hypothetical protein
+GHBHKFGM_00010	CDS	435				hypothetical protein
+GHBHKFGM_00011	CDS	213				hypothetical protein
+GHBHKFGM_00012	CDS	282				hypothetical protein
+GHBHKFGM_00013	CDS	558				hypothetical protein
+GHBHKFGM_00014	CDS	267				hypothetical protein
+GHBHKFGM_00015	CDS	165				hypothetical protein
+GHBHKFGM_00016	CDS	369				hypothetical protein
+GHBHKFGM_00017	CDS	879				hypothetical protein
+GHBHKFGM_00018	CDS	840				hypothetical protein
+GHBHKFGM_00019	CDS	210				hypothetical protein
+GHBHKFGM_00020	CDS	186				hypothetical protein
+GHBHKFGM_00021	CDS	243				hypothetical protein
+GHBHKFGM_00022	CDS	615				hypothetical protein
+GHBHKFGM_00023	CDS	636				hypothetical protein
+GHBHKFGM_00024	CDS	684	resA			Thiol-disulfide oxidoreductase ResA
+GHBHKFGM_00025	CDS	630	soj	3.6.-.-	COG1192	Chromosome-partitioning ATPase Soj
+GHBHKFGM_00026	CDS	234				hypothetical protein
+GHBHKFGM_00027	CDS	471				hypothetical protein
+GHBHKFGM_00028	CDS	180				hypothetical protein
+GHBHKFGM_00029	CDS	768			COG3039	IS5 family transposase ISMac15
+GHBHKFGM_00030	CDS	171				hypothetical protein
+GHBHKFGM_00031	CDS	1650				hypothetical protein
+GHBHKFGM_00032	CDS	204				hypothetical protein
+GHBHKFGM_00033	CDS	618				hypothetical protein
+GHBHKFGM_00034	CDS	225				hypothetical protein
+GHBHKFGM_00035	CDS	7731				hypothetical protein
+GHBHKFGM_00036	CDS	4041				hypothetical protein
+GHBHKFGM_00037	CDS	210				hypothetical protein
+GHBHKFGM_00038	CDS	4677				hypothetical protein
+GHBHKFGM_00039	CDS	1065	apu			Amylopullulanase
+GHBHKFGM_00040	CDS	576	xerD		COG4974	Tyrosine recombinase XerD
+GHBHKFGM_00041	CDS	2838				hypothetical protein
+GHBHKFGM_00042	CDS	807				hypothetical protein
+GHBHKFGM_00043	CDS	1536	tolB			Tol-Pal system protein TolB
+GHBHKFGM_00044	CDS	291				hypothetical protein
+GHBHKFGM_00045	CDS	243				hypothetical protein
+GHBHKFGM_00046	CDS	186				hypothetical protein
+GHBHKFGM_00047	CDS	180				hypothetical protein
+GHBHKFGM_00048	CDS	582				hypothetical protein
+GHBHKFGM_00049	CDS	249				hypothetical protein
+GHBHKFGM_00050	CDS	240				hypothetical protein
+GHBHKFGM_00051	CDS	771				hypothetical protein
+GHBHKFGM_00052	CDS	1116				hypothetical protein
+GHBHKFGM_00053	CDS	498				hypothetical protein
+GHBHKFGM_00054	CDS	474				IS630 family transposase ISMae27

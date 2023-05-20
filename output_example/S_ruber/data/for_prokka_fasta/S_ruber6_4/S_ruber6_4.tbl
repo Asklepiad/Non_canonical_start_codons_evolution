@@ -1,0 +1,196 @@
+>Feature S_ruber6_4
+70	2679	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00001
+			product	hypothetical protein
+2968	3534	CDS
+			db_xref	COG:COG1961
+			gene	hin
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	IPAHHKAL_00002
+			product	DNA-invertase hin
+4451	3549	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00003
+			product	hypothetical protein
+4950	4438	CDS
+			gene	socA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0A0H3CCP8
+			locus_tag	IPAHHKAL_00004
+			product	Antitoxin SocA
+5848	5462	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00005
+			product	hypothetical protein
+7233	5929	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00006
+			product	hypothetical protein
+7599	7246	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00007
+			product	hypothetical protein
+7898	7665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00008
+			product	hypothetical protein
+8059	9237	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00009
+			product	hypothetical protein
+9329	9928	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00010
+			product	hypothetical protein
+10001	12154	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00011
+			product	hypothetical protein
+12234	14552	CDS
+			EC_number	3.6.4.12
+			gene	rep
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01920
+			locus_tag	IPAHHKAL_00012
+			product	ATP-dependent DNA helicase Rep
+14533	15417	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00013
+			product	hypothetical protein
+15527	17884	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00014
+			product	hypothetical protein
+18661	18233	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00015
+			product	hypothetical protein
+19801	19289	CDS
+			gene	mmpR5
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:I6Y8F7
+			locus_tag	IPAHHKAL_00016
+			product	HTH-type transcriptional regulator MmpR5
+21349	20471	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00017
+			product	hypothetical protein
+25393	21452	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00018
+			product	hypothetical protein
+28789	25778	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00019
+			product	hypothetical protein
+29823	28969	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00020
+			product	hypothetical protein
+31365	29977	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00021
+			product	hypothetical protein
+32165	31446	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00022
+			product	hypothetical protein
+35194	32174	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00023
+			product	hypothetical protein
+36688	35246	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00024
+			product	hypothetical protein
+38218	36740	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00025
+			product	hypothetical protein
+39743	38211	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00026
+			product	hypothetical protein
+39901	39686	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00027
+			product	hypothetical protein
+40179	39928	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00028
+			product	hypothetical protein
+40829	40182	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02040
+			locus_tag	IPAHHKAL_00029
+			product	Iron-sulfur cluster carrier protein
+41096	41392	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00030
+			product	hypothetical protein
+41358	41687	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00031
+			product	hypothetical protein
+42115	43719	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00032
+			product	hypothetical protein
+44354	44569	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00033
+			product	hypothetical protein
+44594	45121	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00034
+			product	hypothetical protein
+45227	46978	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00035
+			product	hypothetical protein
+47705	47355	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00036
+			product	hypothetical protein
+48409	49185	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00037
+			product	hypothetical protein
+49320	50501	CDS
+			EC_number	2.7.7.7
+			db_xref	COG:COG0389
+			gene	dinB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q47155
+			locus_tag	IPAHHKAL_00038
+			product	DNA polymerase IV
+50776	50594	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00039
+			product	hypothetical protein
+50842	51516	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00040
+			product	hypothetical protein
+51680	53509	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00041
+			product	hypothetical protein
+54189	54007	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00042
+			product	hypothetical protein
+55023	54199	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00043
+			product	hypothetical protein
+55446	55027	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00044
+			product	hypothetical protein
+56058	55579	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IPAHHKAL_00045
+			product	hypothetical protein

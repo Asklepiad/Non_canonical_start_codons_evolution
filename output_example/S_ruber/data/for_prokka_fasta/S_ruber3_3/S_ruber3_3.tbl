@@ -1,0 +1,287 @@
+>Feature S_ruber3_3
+617	366	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00001
+			product	hypothetical protein
+1283	618	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00002
+			product	hypothetical protein
+1477	1938	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00003
+			product	hypothetical protein
+2095	2406	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00004
+			product	hypothetical protein
+3527	4078	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00005
+			product	hypothetical protein
+4310	4909	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00006
+			product	hypothetical protein
+5408	6469	CDS
+			db_xref	COG:COG0468
+			gene	recA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7G6
+			locus_tag	ELOOLMND_00007
+			product	Protein RecA
+7158	7448	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00008
+			product	hypothetical protein
+8276	7311	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00009
+			product	hypothetical protein
+8938	8687	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00010
+			product	hypothetical protein
+9741	10049	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00011
+			product	hypothetical protein
+10378	10653	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00012
+			product	hypothetical protein
+10650	11066	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00013
+			product	hypothetical protein
+11639	11241	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00014
+			product	hypothetical protein
+11963	11745	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00015
+			product	hypothetical protein
+12407	12538	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00016
+			product	hypothetical protein
+12937	14400	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00017
+			product	hypothetical protein
+14426	14602	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00018
+			product	hypothetical protein
+16197	15334	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00019
+			product	hypothetical protein
+17181	16375	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00020
+			product	hypothetical protein
+17357	17824	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00021
+			product	hypothetical protein
+17821	18246	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00022
+			product	hypothetical protein
+19885	18485	CDS
+			EC_number	2.7.-.-
+			gene	sasA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01837
+			locus_tag	ELOOLMND_00023
+			product	Adaptive-response sensory-kinase SasA
+20691	19918	CDS
+			gene	czcR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q44006
+			locus_tag	ELOOLMND_00024
+			product	Transcriptional activator protein CzcR
+20808	20996	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00025
+			product	hypothetical protein
+21000	22334	CDS
+			gene	czcC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13509
+			locus_tag	ELOOLMND_00026
+			product	Cobalt-zinc-cadmium resistance protein CzcC
+22334	22699	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00027
+			product	hypothetical protein
+22752	24323	CDS
+			gene	mdtA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01422
+			locus_tag	ELOOLMND_00028
+			product	Multidrug resistance protein MdtA
+24393	27515	CDS
+			gene	czcA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13511
+			locus_tag	ELOOLMND_00029
+			product	Cobalt-zinc-cadmium resistance protein CzcA
+27916	27698	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00030
+			product	hypothetical protein
+28474	27929	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00031
+			product	hypothetical protein
+28879	29115	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00032
+			product	hypothetical protein
+29755	29988	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00033
+			product	hypothetical protein
+30044	30559	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00034
+			product	hypothetical protein
+33797	30438	CDS
+			db_xref	COG:COG3696
+			gene	cusA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P38054
+			locus_tag	ELOOLMND_00035
+			product	Cation efflux system protein CusA
+35273	33846	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00036
+			product	hypothetical protein
+36776	35448	CDS
+			gene	czcC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13509
+			locus_tag	ELOOLMND_00037
+			product	Cobalt-zinc-cadmium resistance protein CzcC
+37367	36906	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00038
+			product	hypothetical protein
+37379	37702	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00039
+			product	hypothetical protein
+38137	38697	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00040
+			product	hypothetical protein
+38642	39088	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00041
+			product	hypothetical protein
+39688	39119	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00042
+			product	hypothetical protein
+44214	39742	CDS
+			EC_number	2.7.13.3
+			gene	rcsC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	ELOOLMND_00043
+			product	Sensor histidine kinase RcsC
+45157	44429	CDS
+			gene	xerC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	ELOOLMND_00044
+			product	Tyrosine recombinase XerC
+45788	46069	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00045
+			product	hypothetical protein
+46070	46327	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00046
+			product	hypothetical protein
+47018	46560	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00047
+			product	hypothetical protein
+47979	47467	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00048
+			product	hypothetical protein
+49626	48385	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00049
+			product	hypothetical protein
+50221	49739	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00050
+			product	hypothetical protein
+53834	50400	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00051
+			product	hypothetical protein
+54099	55106	CDS
+			gene	xerC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	ELOOLMND_00052
+			product	Tyrosine recombinase XerC
+55537	55806	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00053
+			product	hypothetical protein
+55793	56326	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00054
+			product	hypothetical protein
+56471	56641	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00055
+			product	hypothetical protein
+57170	56967	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00056
+			product	hypothetical protein
+57446	57192	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00057
+			product	hypothetical protein
+57625	57867	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00058
+			product	hypothetical protein
+58196	57864	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00059
+			product	hypothetical protein
+58225	58356	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00060
+			product	hypothetical protein
+58555	59046	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00061
+			product	hypothetical protein
+59174	59085	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00062
+			product	hypothetical protein
+59472	59323	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00063
+			product	hypothetical protein
+60000	59785	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00064
+			product	hypothetical protein
+60399	60091	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ELOOLMND_00065
+			product	hypothetical protein

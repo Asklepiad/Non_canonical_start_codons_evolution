@@ -1,0 +1,291 @@
+>Feature S_ruber6_1
+20	1045	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00001
+			product	hypothetical protein
+1009	1713	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00002
+			product	hypothetical protein
+3787	2957	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00003
+			product	hypothetical protein
+5356	3965	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00004
+			product	hypothetical protein
+6059	5412	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00005
+			product	hypothetical protein
+6895	6284	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00006
+			product	hypothetical protein
+7600	7878	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISSru2
+			locus_tag	EMDEPFKO_00007
+			product	IS1 family transposase ISSru2
+8813	9490	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00008
+			product	hypothetical protein
+9571	10011	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00009
+			product	hypothetical protein
+10384	11673	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00010
+			product	hypothetical protein
+12546	13556	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00011
+			product	hypothetical protein
+13792	14610	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00012
+			product	hypothetical protein
+14607	15131	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00013
+			product	hypothetical protein
+15263	15937	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00014
+			product	hypothetical protein
+17886	17125	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00015
+			product	hypothetical protein
+21791	18510	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	EMDEPFKO_00016
+			product	Sensor histidine kinase RcsC
+23131	26904	CDS
+			EC_number	3.5.1.44
+			gene	cheB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00099
+			locus_tag	EMDEPFKO_00017
+			product	Protein-glutamate methylesterase/protein-glutamine glutaminase
+27783	27343	CDS
+			gene	divK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7BBW0
+			locus_tag	EMDEPFKO_00018
+			product	Polar-differentiation response regulator DivK
+32797	27941	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	EMDEPFKO_00019
+			product	Sensor histidine kinase RcsC
+33800	33012	CDS
+			gene	xerC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	EMDEPFKO_00020
+			product	Tyrosine recombinase XerC
+34671	34162	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00021
+			product	hypothetical protein
+35860	34952	CDS
+			EC_number	1.1.1.133
+			db_xref	COG:COG1091
+			gene	rfbD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26392
+			locus_tag	EMDEPFKO_00022
+			product	dTDP-4-dehydrorhamnose reductase
+36433	35873	CDS
+			EC_number	5.1.3.13
+			db_xref	COG:COG1898
+			gene	rmlC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9HU21
+			locus_tag	EMDEPFKO_00023
+			product	dTDP-4-dehydrorhamnose 3,5-epimerase
+37401	36463	CDS
+			EC_number	2.7.7.24
+			db_xref	COG:COG1209
+			gene	rmlA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26393
+			locus_tag	EMDEPFKO_00024
+			product	Glucose-1-phosphate thymidylyltransferase
+38589	37522	CDS
+			EC_number	4.2.1.46
+			db_xref	COG:COG1088
+			gene	rffG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27830
+			locus_tag	EMDEPFKO_00025
+			product	dTDP-glucose 4,6-dehydratase 2
+39467	38712	CDS
+			db_xref	COG:COG3279
+			gene	ypdB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AE39
+			locus_tag	EMDEPFKO_00026
+			product	Transcriptional regulatory protein YpdB
+40323	39601	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00027
+			product	hypothetical protein
+40812	40342	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00028
+			product	hypothetical protein
+42037	40877	CDS
+			EC_number	2.4.1.250
+			gene	mshA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01695
+			locus_tag	EMDEPFKO_00029
+			product	D-inositol-3-phosphate glycosyltransferase
+43283	42096	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00030
+			product	hypothetical protein
+44118	43327	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00031
+			product	hypothetical protein
+45428	44115	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00032
+			product	hypothetical protein
+46490	45480	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00033
+			product	hypothetical protein
+46789	46553	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00034
+			product	hypothetical protein
+48364	46910	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00035
+			product	hypothetical protein
+49630	48395	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00036
+			product	hypothetical protein
+51831	49651	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00037
+			product	hypothetical protein
+52698	51874	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00038
+			product	hypothetical protein
+53163	54002	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00039
+			product	hypothetical protein
+54028	55527	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00040
+			product	hypothetical protein
+55739	56722	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00041
+			product	hypothetical protein
+56772	57170	CDS
+			db_xref	COG:COG0745
+			gene	mprA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0R3I8
+			locus_tag	EMDEPFKO_00042
+			product	Response regulator MprA
+61800	57295	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	EMDEPFKO_00043
+			product	Sensor histidine kinase RcsC
+63056	61938	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00044
+			product	hypothetical protein
+63560	63709	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00045
+			product	hypothetical protein
+64370	64816	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00046
+			product	hypothetical protein
+65549	65833	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00047
+			product	hypothetical protein
+66997	65906	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00048
+			product	hypothetical protein
+68227	67232	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00049
+			product	hypothetical protein
+69093	68728	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00050
+			product	hypothetical protein
+69267	70091	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00051
+			product	hypothetical protein
+70579	70872	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00052
+			product	hypothetical protein
+72524	71553	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00053
+			product	hypothetical protein
+73454	73633	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00054
+			product	hypothetical protein
+74661	73774	CDS
+			gene	parA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:B8GW31
+			locus_tag	EMDEPFKO_00055
+			product	Chromosome partitioning protein ParA
+77817	77542	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00056
+			product	hypothetical protein
+80665	80315	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00057
+			product	hypothetical protein
+81959	81849	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EMDEPFKO_00058
+			product	hypothetical protein
+82935	83426	CDS
+			db_xref	COG:COG3344
+			gene	ltrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A3U1
+			locus_tag	EMDEPFKO_00059
+			product	Group II intron-encoded protein LtrA
+84155	83877	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISSru2
+			locus_tag	EMDEPFKO_00060
+			product	IS1 family transposase ISSru2

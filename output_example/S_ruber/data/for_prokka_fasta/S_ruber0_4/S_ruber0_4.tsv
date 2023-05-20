@@ -1,0 +1,89 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+DNKIMDIL_00001	CDS	510	trxB	1.8.1.9	COG0492	Thioredoxin reductase
+DNKIMDIL_00002	CDS	432				hypothetical protein
+DNKIMDIL_00003	CDS	717				hypothetical protein
+DNKIMDIL_00004	CDS	309				hypothetical protein
+DNKIMDIL_00005	CDS	276				hypothetical protein
+DNKIMDIL_00006	CDS	324				hypothetical protein
+DNKIMDIL_00007	CDS	399				hypothetical protein
+DNKIMDIL_00008	CDS	219				hypothetical protein
+DNKIMDIL_00009	CDS	1146	xerC_1			Tyrosine recombinase XerC
+DNKIMDIL_00010	CDS	2364				hypothetical protein
+DNKIMDIL_00011	CDS	222				hypothetical protein
+DNKIMDIL_00012	CDS	1956				hypothetical protein
+DNKIMDIL_00013	CDS	3921	rcsC_1	2.7.13.3		Sensor histidine kinase RcsC
+DNKIMDIL_00014	CDS	246				hypothetical protein
+DNKIMDIL_00015	CDS	4989	rcsC_2	2.7.13.3		Sensor histidine kinase RcsC
+DNKIMDIL_00016	CDS	762	xerC_2			Tyrosine recombinase XerC
+DNKIMDIL_00017	CDS	3063	sbcC			Nuclease SbcCD subunit C
+DNKIMDIL_00018	CDS	1152	sbcD			Nuclease SbcCD subunit D
+DNKIMDIL_00019	CDS	4410				hypothetical protein
+DNKIMDIL_00020	CDS	5691				hypothetical protein
+DNKIMDIL_00021	CDS	90				hypothetical protein
+DNKIMDIL_00022	CDS	90				hypothetical protein
+DNKIMDIL_00023	CDS	1341				Deoxyguanosinetriphosphate triphosphohydrolase-like protein
+DNKIMDIL_00024	CDS	1428				hypothetical protein
+DNKIMDIL_00025	CDS	2184				hypothetical protein
+DNKIMDIL_00026	CDS	2598				hypothetical protein
+DNKIMDIL_00027	CDS	3882				hypothetical protein
+DNKIMDIL_00028	CDS	162				hypothetical protein
+DNKIMDIL_00029	CDS	690				hypothetical protein
+DNKIMDIL_00030	CDS	1341				hypothetical protein
+DNKIMDIL_00031	CDS	3540	addA	3.1.-.-	COG1074	ATP-dependent helicase/nuclease subunit A
+DNKIMDIL_00032	CDS	3186	rexB	3.6.4.12		ATP-dependent helicase/deoxyribonuclease subunit B
+DNKIMDIL_00033	CDS	606				hypothetical protein
+DNKIMDIL_00034	CDS	318				hypothetical protein
+DNKIMDIL_00035	CDS	744				hypothetical protein
+DNKIMDIL_00036	CDS	660				hypothetical protein
+DNKIMDIL_00037	CDS	987				hypothetical protein
+DNKIMDIL_00038	CDS	246				hypothetical protein
+DNKIMDIL_00039	CDS	351				hypothetical protein
+DNKIMDIL_00040	CDS	402				hypothetical protein
+DNKIMDIL_00041	CDS	753	parA			Chromosome partitioning protein ParA
+DNKIMDIL_00042	CDS	954				hypothetical protein
+DNKIMDIL_00043	CDS	687				hypothetical protein
+DNKIMDIL_00044	CDS	1323	xerC_3			Tyrosine recombinase XerC
+DNKIMDIL_00045	CDS	1653				hypothetical protein
+DNKIMDIL_00046	CDS	432				hypothetical protein
+DNKIMDIL_00047	CDS	2403	btuB			Vitamin B12 transporter BtuB
+DNKIMDIL_00048	CDS	465				hypothetical protein
+DNKIMDIL_00049	CDS	645				hypothetical protein
+DNKIMDIL_00050	CDS	627				hypothetical protein
+DNKIMDIL_00051	CDS	225				hypothetical protein
+DNKIMDIL_00052	CDS	1902	tolB			Tol-Pal system protein TolB
+DNKIMDIL_00053	CDS	174				hypothetical protein
+DNKIMDIL_00054	CDS	1584				hypothetical protein
+DNKIMDIL_00055	CDS	513				hypothetical protein
+DNKIMDIL_00056	CDS	618	resA_1			Thiol-disulfide oxidoreductase ResA
+DNKIMDIL_00057	CDS	492				hypothetical protein
+DNKIMDIL_00058	CDS	378				hypothetical protein
+DNKIMDIL_00059	CDS	630	resA_2			Thiol-disulfide oxidoreductase ResA
+DNKIMDIL_00060	CDS	2019	dsbD	1.8.1.8	COG4232	Thiol:disulfide interchange protein DsbD
+DNKIMDIL_00061	CDS	951				hypothetical protein
+DNKIMDIL_00062	CDS	570				hypothetical protein
+DNKIMDIL_00063	CDS	1125				hypothetical protein
+DNKIMDIL_00064	CDS	1671	mggB	3.1.3.-	COG0737	Mannosylglucosyl-3-phosphoglycerate phosphatase
+DNKIMDIL_00065	CDS	477				hypothetical protein
+DNKIMDIL_00066	CDS	171				hypothetical protein
+DNKIMDIL_00067	CDS	105				hypothetical protein
+DNKIMDIL_00068	CDS	1374	prpD2	4.2.1.79	COG2079	2-methylcitrate dehydratase 2
+DNKIMDIL_00069	CDS	846				hypothetical protein
+DNKIMDIL_00070	CDS	513	dps1	1.16.-.-	COG0783	DNA protection during starvation protein 1
+DNKIMDIL_00071	CDS	489				hypothetical protein
+DNKIMDIL_00072	CDS	603				hypothetical protein
+DNKIMDIL_00073	CDS	1662				hypothetical protein
+DNKIMDIL_00074	CDS	735				hypothetical protein
+DNKIMDIL_00075	CDS	855				hypothetical protein
+DNKIMDIL_00076	CDS	456				hypothetical protein
+DNKIMDIL_00077	CDS	861	thiD	2.7.1.49		Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+DNKIMDIL_00078	CDS	960				hypothetical protein
+DNKIMDIL_00079	CDS	270				hypothetical protein
+DNKIMDIL_00080	CDS	468				hypothetical protein
+DNKIMDIL_00081	CDS	2307	feoB		COG0370	Fe(2+) transporter FeoB
+DNKIMDIL_00082	CDS	654				hypothetical protein
+DNKIMDIL_00083	CDS	90				hypothetical protein
+DNKIMDIL_00084	CDS	672				hypothetical protein
+DNKIMDIL_00085	CDS	651				hypothetical protein
+DNKIMDIL_00086	CDS	120				hypothetical protein
+DNKIMDIL_00087	CDS	210				hypothetical protein
+DNKIMDIL_00088	CDS	345	trxA			Thioredoxin 1

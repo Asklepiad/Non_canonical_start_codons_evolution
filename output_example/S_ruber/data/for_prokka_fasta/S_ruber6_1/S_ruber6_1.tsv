@@ -1,0 +1,61 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+EMDEPFKO_00001	CDS	1026				hypothetical protein
+EMDEPFKO_00002	CDS	705				hypothetical protein
+EMDEPFKO_00003	CDS	831				hypothetical protein
+EMDEPFKO_00004	CDS	1392				hypothetical protein
+EMDEPFKO_00005	CDS	648				hypothetical protein
+EMDEPFKO_00006	CDS	612				hypothetical protein
+EMDEPFKO_00007	CDS	279			COG1662	IS1 family transposase ISSru2
+EMDEPFKO_00008	CDS	678				hypothetical protein
+EMDEPFKO_00009	CDS	441				hypothetical protein
+EMDEPFKO_00010	CDS	1290				hypothetical protein
+EMDEPFKO_00011	CDS	1011				hypothetical protein
+EMDEPFKO_00012	CDS	819				hypothetical protein
+EMDEPFKO_00013	CDS	525				hypothetical protein
+EMDEPFKO_00014	CDS	675				hypothetical protein
+EMDEPFKO_00015	CDS	762				hypothetical protein
+EMDEPFKO_00016	CDS	3282	rcsC_1	2.7.13.3		Sensor histidine kinase RcsC
+EMDEPFKO_00017	CDS	3774	cheB	3.5.1.44		Protein-glutamate methylesterase/protein-glutamine glutaminase
+EMDEPFKO_00018	CDS	441	divK			Polar-differentiation response regulator DivK
+EMDEPFKO_00019	CDS	4857	rcsC_2	2.7.13.3		Sensor histidine kinase RcsC
+EMDEPFKO_00020	CDS	789	xerC			Tyrosine recombinase XerC
+EMDEPFKO_00021	CDS	510				hypothetical protein
+EMDEPFKO_00022	CDS	909	rfbD	1.1.1.133	COG1091	dTDP-4-dehydrorhamnose reductase
+EMDEPFKO_00023	CDS	561	rmlC	5.1.3.13	COG1898	dTDP-4-dehydrorhamnose 3,5-epimerase
+EMDEPFKO_00024	CDS	939	rmlA	2.7.7.24	COG1209	Glucose-1-phosphate thymidylyltransferase
+EMDEPFKO_00025	CDS	1068	rffG	4.2.1.46	COG1088	dTDP-glucose 4,6-dehydratase 2
+EMDEPFKO_00026	CDS	756	ypdB		COG3279	Transcriptional regulatory protein YpdB
+EMDEPFKO_00027	CDS	723				hypothetical protein
+EMDEPFKO_00028	CDS	471				hypothetical protein
+EMDEPFKO_00029	CDS	1161	mshA	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+EMDEPFKO_00030	CDS	1188				hypothetical protein
+EMDEPFKO_00031	CDS	792				hypothetical protein
+EMDEPFKO_00032	CDS	1314				hypothetical protein
+EMDEPFKO_00033	CDS	1011				hypothetical protein
+EMDEPFKO_00034	CDS	237				hypothetical protein
+EMDEPFKO_00035	CDS	1455				hypothetical protein
+EMDEPFKO_00036	CDS	1236				hypothetical protein
+EMDEPFKO_00037	CDS	2181				hypothetical protein
+EMDEPFKO_00038	CDS	825				hypothetical protein
+EMDEPFKO_00039	CDS	840				hypothetical protein
+EMDEPFKO_00040	CDS	1500				hypothetical protein
+EMDEPFKO_00041	CDS	984				hypothetical protein
+EMDEPFKO_00042	CDS	399	mprA		COG0745	Response regulator MprA
+EMDEPFKO_00043	CDS	4506	rcsC_3	2.7.13.3		Sensor histidine kinase RcsC
+EMDEPFKO_00044	CDS	1119				hypothetical protein
+EMDEPFKO_00045	CDS	150				hypothetical protein
+EMDEPFKO_00046	CDS	447				hypothetical protein
+EMDEPFKO_00047	CDS	285				hypothetical protein
+EMDEPFKO_00048	CDS	1092				hypothetical protein
+EMDEPFKO_00049	CDS	996				hypothetical protein
+EMDEPFKO_00050	CDS	366				hypothetical protein
+EMDEPFKO_00051	CDS	825				hypothetical protein
+EMDEPFKO_00052	CDS	294				hypothetical protein
+EMDEPFKO_00053	CDS	972				hypothetical protein
+EMDEPFKO_00054	CDS	180				hypothetical protein
+EMDEPFKO_00055	CDS	888	parA			Chromosome partitioning protein ParA
+EMDEPFKO_00056	CDS	276				hypothetical protein
+EMDEPFKO_00057	CDS	351				hypothetical protein
+EMDEPFKO_00058	CDS	111				hypothetical protein
+EMDEPFKO_00059	CDS	492	ltrA		COG3344	Group II intron-encoded protein LtrA
+EMDEPFKO_00060	CDS	279			COG1662	IS1 family transposase ISSru2

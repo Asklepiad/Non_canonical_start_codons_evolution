@@ -1,0 +1,415 @@
+>Feature S_ruber0_4
+63	572	CDS
+			EC_number	1.8.1.9
+			db_xref	COG:COG0492
+			gene	trxB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q05741
+			locus_tag	DNKIMDIL_00001
+			product	Thioredoxin reductase
+1216	1647	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00002
+			product	hypothetical protein
+1846	2562	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00003
+			product	hypothetical protein
+2788	3096	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00004
+			product	hypothetical protein
+3452	3727	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00005
+			product	hypothetical protein
+3817	4140	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00006
+			product	hypothetical protein
+4725	4327	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00007
+			product	hypothetical protein
+5064	4846	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00008
+			product	hypothetical protein
+5198	6343	CDS
+			gene	xerC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	DNKIMDIL_00009
+			product	Tyrosine recombinase XerC
+8918	6555	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00010
+			product	hypothetical protein
+10499	10278	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00011
+			product	hypothetical protein
+10936	12891	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00012
+			product	hypothetical protein
+17349	13429	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	DNKIMDIL_00013
+			product	Sensor histidine kinase RcsC
+17676	17921	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00014
+			product	hypothetical protein
+23113	18125	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	DNKIMDIL_00015
+			product	Sensor histidine kinase RcsC
+24263	23502	CDS
+			gene	xerC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	DNKIMDIL_00016
+			product	Tyrosine recombinase XerC
+27549	24487	CDS
+			gene	sbcC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7A5S6
+			locus_tag	DNKIMDIL_00017
+			product	Nuclease SbcCD subunit C
+28756	27605	CDS
+			gene	sbcD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A6QGP7
+			locus_tag	DNKIMDIL_00018
+			product	Nuclease SbcCD subunit D
+33220	28811	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00019
+			product	hypothetical protein
+38907	33217	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00020
+			product	hypothetical protein
+39001	38912	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00021
+			product	hypothetical protein
+39090	39001	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00022
+			product	hypothetical protein
+40430	39090	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01212
+			locus_tag	DNKIMDIL_00023
+			product	Deoxyguanosinetriphosphate triphosphohydrolase-like protein
+41966	40539	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00024
+			product	hypothetical protein
+44185	42002	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00025
+			product	hypothetical protein
+47036	44439	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00026
+			product	hypothetical protein
+51043	47162	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00027
+			product	hypothetical protein
+51243	51082	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00028
+			product	hypothetical protein
+52006	51317	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00029
+			product	hypothetical protein
+53474	52134	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00030
+			product	hypothetical protein
+57171	53632	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG1074
+			gene	addA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A2RH77
+			locus_tag	DNKIMDIL_00031
+			product	ATP-dependent helicase/nuclease subunit A
+60441	57256	CDS
+			EC_number	3.6.4.12
+			gene	rexB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01453
+			locus_tag	DNKIMDIL_00032
+			product	ATP-dependent helicase/deoxyribonuclease subunit B
+61216	60611	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00033
+			product	hypothetical protein
+61694	61377	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00034
+			product	hypothetical protein
+62915	62172	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00035
+			product	hypothetical protein
+63624	62965	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00036
+			product	hypothetical protein
+64758	63772	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00037
+			product	hypothetical protein
+64956	65201	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00038
+			product	hypothetical protein
+65356	65706	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00039
+			product	hypothetical protein
+66794	66393	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00040
+			product	hypothetical protein
+67546	66794	CDS
+			gene	parA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:B8GW31
+			locus_tag	DNKIMDIL_00041
+			product	Chromosome partitioning protein ParA
+68005	68958	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00042
+			product	hypothetical protein
+70244	69558	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00043
+			product	hypothetical protein
+70328	71650	CDS
+			gene	xerC_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	DNKIMDIL_00044
+			product	Tyrosine recombinase XerC
+72524	74176	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00045
+			product	hypothetical protein
+74834	75265	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00046
+			product	hypothetical protein
+75563	77965	CDS
+			gene	btuB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01531
+			locus_tag	DNKIMDIL_00047
+			product	Vitamin B12 transporter BtuB
+78139	78603	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00048
+			product	hypothetical protein
+78763	79407	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00049
+			product	hypothetical protein
+79783	80409	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00050
+			product	hypothetical protein
+80703	80479	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00051
+			product	hypothetical protein
+81325	83226	CDS
+			gene	tolB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00671
+			locus_tag	DNKIMDIL_00052
+			product	Tol-Pal system protein TolB
+83168	83341	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00053
+			product	hypothetical protein
+83559	85142	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00054
+			product	hypothetical protein
+85444	85956	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00055
+			product	hypothetical protein
+86185	86802	CDS
+			gene	resA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01319
+			locus_tag	DNKIMDIL_00056
+			product	Thiol-disulfide oxidoreductase ResA
+86859	87350	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00057
+			product	hypothetical protein
+87492	87869	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00058
+			product	hypothetical protein
+87920	88549	CDS
+			gene	resA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01319
+			locus_tag	DNKIMDIL_00059
+			product	Thiol-disulfide oxidoreductase ResA
+88691	90709	CDS
+			EC_number	1.8.1.8
+			db_xref	COG:COG4232
+			gene	dsbD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P36655
+			locus_tag	DNKIMDIL_00060
+			product	Thiol:disulfide interchange protein DsbD
+90762	91712	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00061
+			product	hypothetical protein
+91904	92473	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00062
+			product	hypothetical protein
+92912	94036	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00063
+			product	hypothetical protein
+94085	95755	CDS
+			EC_number	3.1.3.-
+			db_xref	COG:COG0737
+			gene	mggB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A9BJC1
+			locus_tag	DNKIMDIL_00064
+			product	Mannosylglucosyl-3-phosphoglycerate phosphatase
+96367	95891	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00065
+			product	hypothetical protein
+96869	96699	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00066
+			product	hypothetical protein
+97072	96968	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00067
+			product	hypothetical protein
+97210	98583	CDS
+			EC_number	4.2.1.79
+			db_xref	COG:COG2079
+			gene	prpD2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8NSL3
+			locus_tag	DNKIMDIL_00068
+			product	2-methylcitrate dehydratase 2
+98637	99482	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00069
+			product	hypothetical protein
+99736	100248	CDS
+			EC_number	1.16.-.-
+			db_xref	COG:COG0783
+			gene	dps1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8RPQ1
+			locus_tag	DNKIMDIL_00070
+			product	DNA protection during starvation protein 1
+100341	100829	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00071
+			product	hypothetical protein
+102122	101520	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00072
+			product	hypothetical protein
+104015	102354	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00073
+			product	hypothetical protein
+104809	104075	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00074
+			product	hypothetical protein
+105946	105092	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00075
+			product	hypothetical protein
+106448	105993	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00076
+			product	hypothetical protein
+107405	106545	CDS
+			EC_number	2.7.1.49
+			gene	thiD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99124
+			locus_tag	DNKIMDIL_00077
+			product	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+107716	108675	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00078
+			product	hypothetical protein
+108774	109043	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00079
+			product	hypothetical protein
+109093	109560	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00080
+			product	hypothetical protein
+109560	111866	CDS
+			db_xref	COG:COG0370
+			gene	feoB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8GNS3
+			locus_tag	DNKIMDIL_00081
+			product	Fe(2+) transporter FeoB
+112741	112088	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00082
+			product	hypothetical protein
+113263	113352	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00083
+			product	hypothetical protein
+113656	114327	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00084
+			product	hypothetical protein
+114437	115087	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00085
+			product	hypothetical protein
+115414	115295	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00086
+			product	hypothetical protein
+115530	115739	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DNKIMDIL_00087
+			product	hypothetical protein
+115804	116148	CDS
+			gene	trxA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A4L2
+			locus_tag	DNKIMDIL_00088
+			product	Thioredoxin 1

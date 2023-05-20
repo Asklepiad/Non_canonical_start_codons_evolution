@@ -1,0 +1,91 @@
+>Feature S_ruber2_3
+300	716	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00001
+			product	hypothetical protein
+787	1665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00002
+			product	hypothetical protein
+1750	1956	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00003
+			product	hypothetical protein
+1960	2058	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00004
+			product	hypothetical protein
+2063	2599	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00005
+			product	hypothetical protein
+2580	2777	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00006
+			product	hypothetical protein
+2792	3076	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00007
+			product	hypothetical protein
+3073	3366	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00008
+			product	hypothetical protein
+3725	3456	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00009
+			product	hypothetical protein
+4404	3787	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00010
+			product	hypothetical protein
+5398	4643	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00011
+			product	hypothetical protein
+5785	5540	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00012
+			product	hypothetical protein
+6028	6264	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00013
+			product	hypothetical protein
+6273	6482	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00014
+			product	hypothetical protein
+6547	7578	CDS
+			gene	xerC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	IHHOHBLL_00015
+			product	Tyrosine recombinase XerC
+7603	8307	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00016
+			product	hypothetical protein
+8507	8671	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00017
+			product	hypothetical protein
+8751	9098	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00018
+			product	hypothetical protein
+9679	9113	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00019
+			product	hypothetical protein
+10198	9998	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00020
+			product	hypothetical protein
+10897	10223	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00021
+			product	hypothetical protein
+11362	10907	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	IHHOHBLL_00022
+			product	hypothetical protein

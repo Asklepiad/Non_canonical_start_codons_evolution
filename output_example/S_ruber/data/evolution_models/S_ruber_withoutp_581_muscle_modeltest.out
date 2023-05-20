@@ -1,0 +1,180 @@
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            8
+  #sites:           591
+  #patterns:        19
+  Max. thread mem:  0 MB
+
+Output:
+  Log:           ../S_ruber/data/evolution_models/S_ruber_withoutp_581_muscle_modeltest.log
+  Starting tree: ../S_ruber/data/evolution_models/S_ruber_withoutp_581_muscle_modeltest.tree
+  Results:       ../S_ruber/data/evolution_models/S_ruber_withoutp_581_muscle_modeltest.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          1/4
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY                4      -869.5632      1847.6173         0.0000    0.7893
+       2  F81                3      -875.2423      1852.5937         4.9764    0.0656
+       3  HKY+G4             5      -869.5638      1854.0002         6.3830    0.0324
+       4  HKY+I              5      -869.5646      1854.0019         6.3846    0.0324
+       5  TrN                5      -869.8401      1854.5528         6.9356    0.0246
+       6  TPM3uf             5      -870.2234      1855.3195         7.7022    0.0168
+       7  TPM2uf             5      -870.2954      1855.4635         7.8462    0.0156
+       8  TPM1uf             5      -871.0859      1857.0446         9.4273    0.0071
+       9  F81+G4             4      -875.2430      1858.9768        11.3595    0.0027
+      10  F81+I              4      -875.2439      1858.9786        11.3614    0.0027
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              HKY
+lnL:                -869.5632
+Frequencies:        0.2081 0.2786 0.3593 0.1540
+Subst. Rates:       1.0000 7.9566 1.0000 1.0000 7.9566 1.0000 
+Inv. sites prop:    -
+Gamma shape:        -
+Score:              1847.6173
+Weight:             0.7893
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0381
+Gamma:              0.0380
+Gamma-Inv:          0.0015
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0213
+Alpha:              93.2511
+Alpha-P.Inv:        93.2614
+P.Inv-Alpha:        0.0213
+Frequencies:        0.2081 0.2786 0.3593 0.1540 
+
+Commands:
+  > phyml  -i ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa -m 010010 -f m -v 0 -a 0 -c 1 -o tlr
+  > raxmlHPC-SSE3 -s ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa -c 1 -m GTRCATX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa --model HKY
+  > paup -s ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa
+  > iqtree -s ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa -m HKY
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY                4      -869.5632      1773.1264         0.0000    0.2464
+       2  HKY+G4             5      -869.5638      1775.1276         2.0012    0.0906
+       3  HKY+I              5      -869.5646      1775.1292         2.0028    0.0905
+       4  TrN                5      -869.8401      1775.6801         2.5537    0.0687
+       5  TPM3uf             5      -870.2234      1776.4468         3.3204    0.0468
+       6  TPM2uf             5      -870.2954      1776.5908         3.4644    0.0436
+       7  TIM2               6      -869.3645      1776.7290         3.6026    0.0407
+       8  HKY+I+G4           6      -869.5652      1777.1303         4.0040    0.0333
+       9  TrN+I              6      -869.7184      1777.4367         4.3103    0.0286
+      10  TrN+G4             6      -869.8336      1777.6673         4.5409    0.0254
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              HKY
+lnL:                -869.5632
+Frequencies:        0.2081 0.2786 0.3593 0.1540
+Subst. Rates:       1.0000 7.9566 1.0000 1.0000 7.9566 1.0000 
+Inv. sites prop:    -
+Gamma shape:        -
+Score:              1773.1264
+Weight:             0.2464
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.2045
+Gamma:              0.1960
+Gamma-Inv:          0.0713
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0216
+Alpha:              92.9931
+Alpha-P.Inv:        93.0829
+P.Inv-Alpha:        0.0214
+Frequencies:        0.2081 0.2785 0.3596 0.1538 
+
+Commands:
+  > phyml  -i ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa -m 010010 -f m -v 0 -a 0 -c 1 -o tlr
+  > raxmlHPC-SSE3 -s ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa -c 1 -m GTRCATX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa --model HKY
+  > paup -s ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa
+  > iqtree -s ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa -m HKY
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY                4      -869.5632      1774.1264         0.0000    0.2460
+       2  HKY+G4             5      -869.5638      1776.1276         2.0012    0.0904
+       3  HKY+I              5      -869.5646      1776.1292         2.0028    0.0904
+       4  TrN                5      -869.8401      1776.6801         2.5537    0.0686
+       5  TPM3uf             5      -870.2234      1777.4468         3.3204    0.0468
+       6  TPM2uf             5      -870.2954      1777.5908         3.4644    0.0435
+       7  TIM2               6      -869.3645      1777.7290         3.6026    0.0406
+       8  HKY+I+G4           6      -869.5652      1778.1303         4.0040    0.0332
+       9  TrN+I              6      -869.7184      1778.4367         4.3103    0.0285
+      10  TrN+G4             6      -869.8336      1778.6673         4.5409    0.0254
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              HKY
+lnL:                -869.5632
+Frequencies:        0.2081 0.2786 0.3593 0.1540
+Subst. Rates:       1.0000 7.9566 1.0000 1.0000 7.9566 1.0000 
+Inv. sites prop:    -
+Gamma shape:        -
+Score:              1774.1264
+Weight:             0.2460
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.2042
+Gamma:              0.1957
+Gamma-Inv:          0.0712
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0216
+Alpha:              92.9931
+Alpha-P.Inv:        93.0829
+P.Inv-Alpha:        0.0214
+Frequencies:        0.2081 0.2785 0.3596 0.1538 
+
+Commands:
+  > phyml  -i ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa -m 010010 -f m -v 0 -a 0 -c 1 -o tlr
+  > raxmlHPC-SSE3 -s ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa -c 1 -m GTRCATX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa --model HKY
+  > paup -s ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa
+  > iqtree -s ../S_ruber/data/multialignments/S_ruber_withoutp_581.afa -m HKY
+Done

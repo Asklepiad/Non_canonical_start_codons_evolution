@@ -1,0 +1,46 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+IPAHHKAL_00001	CDS	2610				hypothetical protein
+IPAHHKAL_00002	CDS	567	hin		COG1961	DNA-invertase hin
+IPAHHKAL_00003	CDS	903				hypothetical protein
+IPAHHKAL_00004	CDS	513	socA			Antitoxin SocA
+IPAHHKAL_00005	CDS	387				hypothetical protein
+IPAHHKAL_00006	CDS	1305				hypothetical protein
+IPAHHKAL_00007	CDS	354				hypothetical protein
+IPAHHKAL_00008	CDS	234				hypothetical protein
+IPAHHKAL_00009	CDS	1179				hypothetical protein
+IPAHHKAL_00010	CDS	600				hypothetical protein
+IPAHHKAL_00011	CDS	2154				hypothetical protein
+IPAHHKAL_00012	CDS	2319	rep	3.6.4.12		ATP-dependent DNA helicase Rep
+IPAHHKAL_00013	CDS	885				hypothetical protein
+IPAHHKAL_00014	CDS	2358				hypothetical protein
+IPAHHKAL_00015	CDS	429				hypothetical protein
+IPAHHKAL_00016	CDS	513	mmpR5			HTH-type transcriptional regulator MmpR5
+IPAHHKAL_00017	CDS	879				hypothetical protein
+IPAHHKAL_00018	CDS	3942				hypothetical protein
+IPAHHKAL_00019	CDS	3012				hypothetical protein
+IPAHHKAL_00020	CDS	855				hypothetical protein
+IPAHHKAL_00021	CDS	1389				hypothetical protein
+IPAHHKAL_00022	CDS	720				hypothetical protein
+IPAHHKAL_00023	CDS	3021				hypothetical protein
+IPAHHKAL_00024	CDS	1443				hypothetical protein
+IPAHHKAL_00025	CDS	1479				hypothetical protein
+IPAHHKAL_00026	CDS	1533				hypothetical protein
+IPAHHKAL_00027	CDS	216				hypothetical protein
+IPAHHKAL_00028	CDS	252				hypothetical protein
+IPAHHKAL_00029	CDS	648				Iron-sulfur cluster carrier protein
+IPAHHKAL_00030	CDS	297				hypothetical protein
+IPAHHKAL_00031	CDS	330				hypothetical protein
+IPAHHKAL_00032	CDS	1605				hypothetical protein
+IPAHHKAL_00033	CDS	216				hypothetical protein
+IPAHHKAL_00034	CDS	528				hypothetical protein
+IPAHHKAL_00035	CDS	1752				hypothetical protein
+IPAHHKAL_00036	CDS	351				hypothetical protein
+IPAHHKAL_00037	CDS	777				hypothetical protein
+IPAHHKAL_00038	CDS	1182	dinB	2.7.7.7	COG0389	DNA polymerase IV
+IPAHHKAL_00039	CDS	183				hypothetical protein
+IPAHHKAL_00040	CDS	675				hypothetical protein
+IPAHHKAL_00041	CDS	1830				hypothetical protein
+IPAHHKAL_00042	CDS	183				hypothetical protein
+IPAHHKAL_00043	CDS	825				hypothetical protein
+IPAHHKAL_00044	CDS	420				hypothetical protein
+IPAHHKAL_00045	CDS	480				hypothetical protein

@@ -1,0 +1,44 @@
+"x"
+"1" "Basic statistics:
+Number of genes = 24689
+Number of ortologus rows = 5039
+Number of ortologus rows without paralogs = 5039
+All genes start-codon distribution: ATG 22465
+                                    GTG 2063
+                                    TTG 161"
+"2" "Core, shell and cloud (partitions):
+There are 19440 genes in core.
+Core genes' start-codon distribution: ATG 0.91 
+                                      GTG 0.085 
+                                      TTG 0.005
+There are 2766 genes in shell.                                      
+Shell genes' start-codon distribution: ATG 0.911 
+                                       GTG 0.079 
+                                       TTG 0.01
+There are 1608 genes in cloud.
+Cloud genes' start-codon distribution: ATG 0.892 
+                                       GTG 0.091 
+                                       TTG 0.016"
+"3" "Core, shell and cloud (absolute):
+Core genes' start-codon number: ATG 17696 
+                                GTG 1645 
+                                TTG 99
+Shell genes' start-codon number: ATG 2521 
+                                 GTG 218 
+                                 TTG 27
+Cloud genes' start-codon number: ATG 1435 
+                                 GTG 147 
+                                 TTG 26"
+"4" "Unformity of ortologus rows:
+There are 23647 uniform rows. It is 95.8 percents of all ortologus rows.
+Core genes contains 18632 uniform rows. It is 95.8 percents.
+Shell genes contains 2609 uniform rows. It is 94.3 percents.
+Cloud genes contains 1608 uniform rows. It is 100 percents.
+Percent of uniform rows with non-canonical start-codon in core is 7.4
+Percent of uniform rows with non-canonical start-codon in shell is 6.2
+Percent of uniform rows with non-canonical start-codon in cloud is 10.8"
+"5" "Additional data about start codons:
+There are 0.116 percents of core ortologus rows with at least one start-codon
+There are 0.121 percents of shell ortologus rows with at least one start-codon
+There are 0.108 percents of cloud ortologus rows with at least one start-codon"
+"6" "The number of rows without cogs (or with cog 'S') is equal 1813 or 36 percents"

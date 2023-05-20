@@ -1,0 +1,283 @@
+>Feature S_ruber3_2
+28	261	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00001
+			product	hypothetical protein
+699	307	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00002
+			product	hypothetical protein
+1318	947	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00003
+			product	hypothetical protein
+1907	1482	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00004
+			product	hypothetical protein
+3320	1911	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00005
+			product	hypothetical protein
+3733	3326	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00006
+			product	hypothetical protein
+5021	3990	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00007
+			product	hypothetical protein
+7124	5532	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00008
+			product	hypothetical protein
+7683	7528	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00009
+			product	hypothetical protein
+8137	7748	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00010
+			product	hypothetical protein
+9057	8542	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00011
+			product	hypothetical protein
+9755	9318	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00012
+			product	hypothetical protein
+10772	10221	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00013
+			product	hypothetical protein
+11215	11042	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00014
+			product	hypothetical protein
+11489	11235	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00015
+			product	hypothetical protein
+12335	11712	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00016
+			product	hypothetical protein
+14579	14367	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00017
+			product	hypothetical protein
+14911	14627	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00018
+			product	hypothetical protein
+17967	17794	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00019
+			product	hypothetical protein
+19264	18590	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00020
+			product	hypothetical protein
+20828	19671	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00021
+			product	hypothetical protein
+21632	21099	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00022
+			product	hypothetical protein
+24015	21757	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00023
+			product	hypothetical protein
+24364	24651	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00024
+			product	hypothetical protein
+25000	25647	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00025
+			product	hypothetical protein
+25644	25892	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00026
+			product	hypothetical protein
+26588	26974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00027
+			product	hypothetical protein
+28256	28789	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00028
+			product	hypothetical protein
+28980	28666	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00029
+			product	hypothetical protein
+29759	30685	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00030
+			product	hypothetical protein
+30928	31131	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00031
+			product	hypothetical protein
+31435	32616	CDS
+			EC_number	2.7.7.7
+			db_xref	COG:COG0389
+			gene	dinB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q47155
+			locus_tag	ILAIMGLD_00032
+			product	DNA polymerase IV
+32830	32720	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00033
+			product	hypothetical protein
+32950	33639	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00034
+			product	hypothetical protein
+34878	34600	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00035
+			product	hypothetical protein
+35705	34875	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00036
+			product	hypothetical protein
+37291	35900	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00037
+			product	hypothetical protein
+37994	37347	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00038
+			product	hypothetical protein
+38830	38219	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00039
+			product	hypothetical protein
+39932	40609	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00040
+			product	hypothetical protein
+40690	41130	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00041
+			product	hypothetical protein
+41425	42792	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00042
+			product	hypothetical protein
+43545	44675	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00043
+			product	hypothetical protein
+44911	45729	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00044
+			product	hypothetical protein
+45726	46250	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00045
+			product	hypothetical protein
+46382	47056	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00046
+			product	hypothetical protein
+47720	47577	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00047
+			product	hypothetical protein
+48196	47906	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00048
+			product	hypothetical protein
+49005	48244	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00049
+			product	hypothetical protein
+52904	49716	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	ILAIMGLD_00050
+			product	Sensor histidine kinase RcsC
+53153	53767	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00051
+			product	hypothetical protein
+58459	53597	CDS
+			EC_number	2.7.13.3
+			gene	rcsC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00979
+			locus_tag	ILAIMGLD_00052
+			product	Sensor histidine kinase RcsC
+58940	58821	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00053
+			product	hypothetical protein
+59347	59012	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00054
+			product	hypothetical protein
+59612	59313	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00055
+			product	hypothetical protein
+60491	59808	CDS
+			gene	xerC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	ILAIMGLD_00056
+			product	Tyrosine recombinase XerC
+60549	62429	CDS
+			EC_number	2.3.1.269
+			gene	lnt
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01148
+			locus_tag	ILAIMGLD_00057
+			product	Apolipoprotein N-acyltransferase
+62587	63723	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00058
+			product	hypothetical protein
+63765	64532	CDS
+			db_xref	COG:COG3279
+			gene	btsR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFT5
+			locus_tag	ILAIMGLD_00059
+			product	Transcriptional regulatory protein BtsR
+64835	65113	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00060
+			product	hypothetical protein
+65455	65171	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00061
+			product	hypothetical protein
+65862	65491	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00062
+			product	hypothetical protein
+66255	65989	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00063
+			product	hypothetical protein
+66537	66259	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00064
+			product	hypothetical protein
+67086	66817	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00065
+			product	hypothetical protein
+67181	67083	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	ILAIMGLD_00066
+			product	hypothetical protein

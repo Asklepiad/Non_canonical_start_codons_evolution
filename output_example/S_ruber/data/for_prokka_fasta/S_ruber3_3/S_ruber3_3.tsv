@@ -1,0 +1,66 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+ELOOLMND_00001	CDS	252				hypothetical protein
+ELOOLMND_00002	CDS	666				hypothetical protein
+ELOOLMND_00003	CDS	462				hypothetical protein
+ELOOLMND_00004	CDS	312				hypothetical protein
+ELOOLMND_00005	CDS	552				hypothetical protein
+ELOOLMND_00006	CDS	600				hypothetical protein
+ELOOLMND_00007	CDS	1062	recA		COG0468	Protein RecA
+ELOOLMND_00008	CDS	291				hypothetical protein
+ELOOLMND_00009	CDS	966				hypothetical protein
+ELOOLMND_00010	CDS	252				hypothetical protein
+ELOOLMND_00011	CDS	309				hypothetical protein
+ELOOLMND_00012	CDS	276				hypothetical protein
+ELOOLMND_00013	CDS	417				hypothetical protein
+ELOOLMND_00014	CDS	399				hypothetical protein
+ELOOLMND_00015	CDS	219				hypothetical protein
+ELOOLMND_00016	CDS	132				hypothetical protein
+ELOOLMND_00017	CDS	1464				hypothetical protein
+ELOOLMND_00018	CDS	177				hypothetical protein
+ELOOLMND_00019	CDS	864				hypothetical protein
+ELOOLMND_00020	CDS	807				hypothetical protein
+ELOOLMND_00021	CDS	468				hypothetical protein
+ELOOLMND_00022	CDS	426				hypothetical protein
+ELOOLMND_00023	CDS	1401	sasA	2.7.-.-		Adaptive-response sensory-kinase SasA
+ELOOLMND_00024	CDS	774	czcR			Transcriptional activator protein CzcR
+ELOOLMND_00025	CDS	189				hypothetical protein
+ELOOLMND_00026	CDS	1335	czcC_1			Cobalt-zinc-cadmium resistance protein CzcC
+ELOOLMND_00027	CDS	366				hypothetical protein
+ELOOLMND_00028	CDS	1572	mdtA			Multidrug resistance protein MdtA
+ELOOLMND_00029	CDS	3123	czcA			Cobalt-zinc-cadmium resistance protein CzcA
+ELOOLMND_00030	CDS	219				hypothetical protein
+ELOOLMND_00031	CDS	546				hypothetical protein
+ELOOLMND_00032	CDS	237				hypothetical protein
+ELOOLMND_00033	CDS	234				hypothetical protein
+ELOOLMND_00034	CDS	516				hypothetical protein
+ELOOLMND_00035	CDS	3360	cusA		COG3696	Cation efflux system protein CusA
+ELOOLMND_00036	CDS	1428				hypothetical protein
+ELOOLMND_00037	CDS	1329	czcC_2			Cobalt-zinc-cadmium resistance protein CzcC
+ELOOLMND_00038	CDS	462				hypothetical protein
+ELOOLMND_00039	CDS	324				hypothetical protein
+ELOOLMND_00040	CDS	561				hypothetical protein
+ELOOLMND_00041	CDS	447				hypothetical protein
+ELOOLMND_00042	CDS	570				hypothetical protein
+ELOOLMND_00043	CDS	4473	rcsC	2.7.13.3		Sensor histidine kinase RcsC
+ELOOLMND_00044	CDS	729	xerC_1			Tyrosine recombinase XerC
+ELOOLMND_00045	CDS	282				hypothetical protein
+ELOOLMND_00046	CDS	258				hypothetical protein
+ELOOLMND_00047	CDS	459				hypothetical protein
+ELOOLMND_00048	CDS	513				hypothetical protein
+ELOOLMND_00049	CDS	1242				hypothetical protein
+ELOOLMND_00050	CDS	483				hypothetical protein
+ELOOLMND_00051	CDS	3435				hypothetical protein
+ELOOLMND_00052	CDS	1008	xerC_2			Tyrosine recombinase XerC
+ELOOLMND_00053	CDS	270				hypothetical protein
+ELOOLMND_00054	CDS	534				hypothetical protein
+ELOOLMND_00055	CDS	171				hypothetical protein
+ELOOLMND_00056	CDS	204				hypothetical protein
+ELOOLMND_00057	CDS	255				hypothetical protein
+ELOOLMND_00058	CDS	243				hypothetical protein
+ELOOLMND_00059	CDS	333				hypothetical protein
+ELOOLMND_00060	CDS	132				hypothetical protein
+ELOOLMND_00061	CDS	492				hypothetical protein
+ELOOLMND_00062	CDS	90				hypothetical protein
+ELOOLMND_00063	CDS	150				hypothetical protein
+ELOOLMND_00064	CDS	216				hypothetical protein
+ELOOLMND_00065	CDS	309				hypothetical protein
