@@ -28,7 +28,7 @@
 
 [Ete3_maker_10.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#ete3_maker_10.py)
 
-[Additional scripts](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#additional scripts)
+[Additional scripts](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#additional-scripts)
 
 [Notebooks](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#notebooks)
 
