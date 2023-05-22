@@ -2,6 +2,39 @@
 
 ## Table of content
 
+[Master scripts](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#master-scripts)
+
+[Parts of pipeline](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#parts-of-pipeline)
+
+[Parsing_NCBI_1.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#parsing_NCBI_1.py)
+
+[prokka_annotate2.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#prokka_annotate2.sh)
+
+[First_table_creating3.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#first_table_creating3.py)
+
+[proteinortho_script4.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#proteinortho_script4.sh)
+
+[Muscle_preparing_5.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#muscle_preparing_5.py)
+
+[Statscript.R](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#statscript.R)
+
+[muscle_align6.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#muscle_align6.sh)
+
+[prank_align6.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#prank_align6.sh)
+
+[modeltree_maker7.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#modeltree_maker7.sh)
+
+[raxml_tree8.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#raxml_tree8.sh)
+
+[Ete3_maker_10.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#ete3_maker_10.py)
+
+[Additional scripts](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#additional scripts)
+
+[Notebooks](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#notebooks)
+
+
+https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#master-scripts
+
 ## Master scripts
 
 ## Parts of pipeline
@@ -20,7 +53,7 @@
 ```Statscript.R``` - computes different statistics, creates figures and a short report.
 ### muscle_align6.sh
 ```muscle_align6.sh``` or ```prank_align6.sh``` aligns sequences. You can read more about the MUSCLE and PRANK aligners respectively on the [MUSCLE v.5 website](https://www.drive5.com/muscle/) and [PRANK website](http://wasabiapp.org/software/prank/). We used version 5.1 and v.170427 of MUSCLE and PRANK respectively.
-### ```modeltree_maker7.sh```
+### modeltree_maker7.sh
 ```modeltree_maker7.sh``` **(сделать ссылки)** - chooses the best evolution model for further tree creating. You can read more about the modeltest-ng tool on [its github](https://github.com/ddarriba/modeltest). We used version 0.1.7.
 ### raxml_tree8.sh
 ```raxml_tree8.sh``` **(сделать ссылки)** - creates phylogenetic trees in Newick format. You can read more about the RAxML-ng tool on [its github](https://github.com/amkozlov/raxml-ng). We used version 1.1.0.
