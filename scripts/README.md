@@ -2,6 +2,10 @@
 
 ## Table of content
 
+## Master scripts
+
+## Parts of pipeline
+
 ### Parsing_NCBI_1.py
 ```Parsing_NCBI_1.py``` - creates a list of genbank assemblies with annotations and data about plasmid files (it is important because information about the type of DNA molecules will vanish on the next stage).
 ### prokka_annotate2.sh
@@ -22,3 +26,7 @@
 ```raxml_tree8.sh``` **(сделать ссылки)** - creates phylogenetic trees in Newick format. You can read more about the RAxML-ng tool on [its github](https://github.com/amkozlov/raxml-ng). We used version 1.1.0.
 ### Ete3_maker_10.py
 ```Ete3_maker_10.py``` - visualizes phylogenetic trees (*unavailable in server version now*)
+
+## Additional scripts
+
+## Notebooks
