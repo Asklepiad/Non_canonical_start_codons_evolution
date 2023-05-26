@@ -6,33 +6,33 @@
 
 [Parts of pipeline](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#parts-of-pipeline)
 
-[Parsing_NCBI_1.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#parsing_NCBI_1.py)
+[Parsing_NCBI_1.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#parsing_NCBI_1py)
 
-[prokka_annotate2.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#prokka_annotate2.sh)
+[prokka_annotate2.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#prokka_annotate2sh)
 
-[First_table_creating3.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#first_table_creating3.py)
+[First_table_creating3.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#first_table_creating3py)
 
-[proteinortho_script4.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#proteinortho_script4.sh)
+[proteinortho_script4.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#proteinortho_script4sh)
 
-[Muscle_preparing_5.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#muscle_preparing_5.py)
+[Muscle_preparing_5.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#muscle_preparing_5py)
 
-[Statscript.R](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#statscript.R)
+[Statscript.R](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#statscriptR)
 
-[muscle_align6.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#muscle_align6.sh)
+[muscle_align6.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#muscle_align6sh)
 
-[prank_align6.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#prank_align6.sh)
+[prank_align6.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#prank_align6sh)
 
-[modeltree_maker7.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#modeltree_maker7.sh)
+[modeltree_maker7.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#modeltree_maker7sh)
 
-[raxml_tree8.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#raxml_tree8.sh)
+[raxml_tree8.sh](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#raxml_tree8sh)
 
-[Ete3_maker_10.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#ete3_maker_10.py)
+[Ete3_maker_10.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#ete3_maker_10py)
 
 [Additional scripts](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#additional-scripts)
 
-[check_strains.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#check_strains.py)
+[check_strains.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#check_strainspy)
 
-[download_strains.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#download_strains.py)
+[download_strains.py](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#download_strainspy)
 
 [Notebooks](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#notebooks)
 
