@@ -41,17 +41,23 @@
 ## Parts of pipeline
 
 #### ```Parsing_NCBI_1.py```
-> Short description. Сreates a list of genbank assemblies with annotations and data about plasmid files (it is important because information about the type of DNA molecules will vanish on the next stage).
+> Short description. 
+
+Сreates a list of genbank assemblies with annotations and data about plasmid files (it is important because information about the type of DNA molecules will vanish on the next stage).
 
 > Input. 
-> 1. Path to json file, which named equally to organism of interest name's long form.
-> 2. Your e-mail address.
+
+1. Path to json file, which named equally to organism of interest name's long form.
+2. Your e-mail address.
 
 > Output. 
-> 1. Content of "for_prokka_fasta" folder (fasta files for given assemblies).
-> 2. Two json files with the data about which file contents plasmid fasta and which has chromosomal one.
 
-Detailed description. Script finds all links to scaffold and complete genome assemblies, checks them for unicity, collected all annotations for assemblies (gbk files). On the next stage it saved sequences into fasta files for reannotating on the further stage. In addition script creates two json files, which content data about DNA source of each fasta file: if it is a chromosome or plasmid.
+1. Content of "for_prokka_fasta" folder (fasta files for given assemblies).
+2. Two json files with the data about which file contents plasmid fasta and which has chromosomal one.
+
+> Detailed description. 
+
+Script finds all links to scaffold and complete genome assemblies, checks them for unicity, collected all annotations for assemblies (gbk files). On the next stage it saved sequences into fasta files for reannotating on the further stage. In addition script creates two json files, which content data about DNA source of each fasta file: if it is a chromosome or plasmid.
 
 #### ```prokka_annotate2.sh```
 Consistently reannotates assemblies. You can read more about the Prokka tool on [its github](https://github.com/tseemann/prokka). We used version 1.14.6.
