@@ -36,19 +36,19 @@ Project about the evolution of non-canonical start-codons in bacteria and connec
 ## Structure of repository
 > Data
 
-All data for reproducing our investigation and json file for test run are situated in the `data` folder. You can read a more detailed description of the folder content in the `data` folder [readme]()  (*in development*).
+All data for reproducing our investigation and json file for test run are situated in the `data` folder. You can read a more detailed description of the folder content in the `data` folder [readme](./data/README.md)  (*in development*).
 
 > Scripts
 
-Conda environment creator for pipeline, master script, all components of pipeline, some additional scripts and requirements file are located in the `scripts` folder. You can read a more detailed description of the folder content in the `scripts` folder [readme]()  (*in development*).
+Conda environment creator for pipeline, master script, all components of pipeline, some additional scripts and requirements file are located in the `scripts` folder. You can read a more detailed description of the folder content in the `scripts` folder [readme](./scripts/README.md)  (*in development*).
 
 > Test output
 
-The test running on *Salinibacter ruber* results are situated in the `test output` folder (*in development*). You can read a more detailed description of the folder content in  the `test output` folder [readme]()  (*in development*).
+The test running on *Salinibacter ruber* results are situated in the `output_example` folder (*in development*). You can read a more detailed description of the folder content in  the `output_example` folder [readme](./output_example/README.md)  (*in development*).
 
 > Illustrations
 
-The images for illustrating the repositry's readme files are located in the `illustrations` folder (*in development*). You can read a more detailed description of the folder content in  the `illustrations` folder [readme]()  (*in development*).
+The images for illustrating the repositry's readme files are located in the `illustrations` folder (*in development*). You can read a more detailed description of the folder content in  the `illustrations` folder [readme](./illustrations/README.md)  (*in development*).
 
 ## Introduction
 
