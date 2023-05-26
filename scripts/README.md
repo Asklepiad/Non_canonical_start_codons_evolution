@@ -60,27 +60,123 @@
 Script finds all links to scaffold and complete genome assemblies, checks them for unicity, collected all annotations for assemblies (gbk files). On the next stage it saved sequences into fasta files for reannotating on the further stage. In addition script creates two json files, which content data about DNA source of each fasta file: if it is a chromosome or plasmid.
 
 #### ```prokka_annotate2.sh```
+> Short description. 
+
 Consistently reannotates assemblies. You can read more about the Prokka tool on [its github](https://github.com/tseemann/prokka). We used version 1.14.6.
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
+
 #### ```First_table_creating3.py```
+> Short description. 
+
 Creates a table about gene features and fasta files with all genes.
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
 #### ```proteinortho_script4.sh```
+> Short description. 
+
 Computes ortologous rows and creates a table with information about them. You can read more about the Proteinortho tool on [its gitlub](https://gitlab.com/paulklemm_PHD/proteinortho). We used version 6.1.7.
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
+
 #### ```Muscle_preparing_5.py```
+> Short description. 
+
 Creates two big summary tables about genes and ortologous rows.
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
+
 #### ```Statscript.R```
+> Short description. 
+
 Computes different statistics, creates figures and a short report.
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
+
 #### ```muscle_align6.sh``` or ```prank_align6.sh```
+> Short description. 
+
 Aligns sequences. You can read more about the MUSCLE and PRANK aligners respectively on the [MUSCLE v.5 website](https://www.drive5.com/muscle/) and [PRANK website](http://wasabiapp.org/software/prank/). We used version 5.1 and v.170427 of MUSCLE and PRANK respectively.
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
+
 #### ```modeltree_maker7.sh```
+> Short description. 
+
 Chooses the best evolution model for further tree creating. You can read more about the modeltest-ng tool on [its github](https://github.com/ddarriba/modeltest). We used version 0.1.7.
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
+
 #### ```raxml_tree8.sh```
+> Short description. 
+
 Creates phylogenetic trees in Newick format. You can read more about the RAxML-ng tool on [its github](https://github.com/amkozlov/raxml-ng). We used version 1.1.0.
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
+
 #### ```Ete3_maker_10.py```
+> Short description. 
+
 Visualizes phylogenetic trees (*unavailable in server version now*)
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
 
 ## Additional scripts
 
 #### ```check_strains.py```
+> Short description. 
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
 Script check_strains.py takes a path to alignments as input. First, the function loops through each file with alignments and for each file extracts the most present start codon in the aligned genes. 
 Then the script creates a dictionary, where the key is the name of the strain (assembly), and the value is the number of genes whose start codon is minor in relation to the majority in the orthological rows. And next it is created a dictionary, where the key is the name of the strain (assembly), and the value is the list of values: number of genes with gaps at the beginning in the strain, number of all genes in the strain and number of genes whose start codon is minor in relation to the majority in its orthological rows.
 After this, the function creates the dataframe, where for each strain, in addition to information about the above three parameters in the dictionary, the percentage of genes with gaps and minor start codons from the total number of genes in the strain is indicated.
@@ -88,6 +184,14 @@ We have established a threshold: assemblies whose percentage of genes with gaps 
 Also, when the function is executed, 2 graphs of the distribution of the percentage of genes with gaps at the beginning and the percentage of genes with minor start codons for each strain are drawn.
 
 #### ```download_strains.py```
+> Short description. 
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
 Script download_strains.py accepts a list with the names of bacteria, downloads genome-wide and scaffold assemblies of bacteria, and creates a dataframe, where for each bacterium its Taxonomy ID in NCBI, the number of genome-wide assemblies, the number of scaffold assemblies and the total number of genome-wide and scaffold assemblies are indicated.
 Next, the script divides all bacteria into 3 groups:
 1 - bacteria with more than 100 whole genome assemblies in NCBI; 
