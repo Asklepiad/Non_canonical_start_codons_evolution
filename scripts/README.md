@@ -62,4 +62,23 @@ https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#master-
 
 ## Additional scripts
 
+```check_strains.py```
+Script check_strains.py takes a path to alignments as input. First, the function loops through each file with alignments and for each file extracts the most present start codon in the aligned genes. 
+Then the script creates a dictionary, where the key is the name of the strain (assembly), and the value is the number of genes whose start codon is minor in relation to the majority in the orthological rows. And next it is created a dictionary, where the key is the name of the strain (assembly), and the value is the list of values: number of genes with gaps at the beginning in the strain, number of all genes in the strain and number of genes whose start codon is minor in relation to the majority in its orthological rows.
+After this, the function creates the dataframe, where for each strain, in addition to information about the above three parameters in the dictionary, the percentage of genes with gaps and minor start codons from the total number of genes in the strain is indicated.
+We have established a threshold: assemblies whose percentage of genes with gaps at the beginning and genes with minor start codons is higher than the median plus 2 standard deviation are written to a separate list that is printed when the function is executed, and subsequently excluded from the analysis (as they are classified by us as low-quality assemblies). 
+Also, when the function is executed, 2 graphs of the distribution of the percentage of genes with gaps at the beginning and the percentage of genes with minor start codons for each strain are drawn.
+
+```download_strains.py```
+Script download_strains.py accepts a list with the names of bacteria, downloads genome-wide and scaffold assemblies of bacteria, and creates a dataframe, where for each bacterium its Taxonomy ID in NCBI, the number of genome-wide assemblies, the number of scaffold assemblies and the total number of genome-wide and scaffold assemblies are indicated.
+Next, the script divides all bacteria into 3 groups:
+1 - bacteria with more than 100 whole genome assemblies in NCBI; 
+2 - bacteria with less than 100 whole genome assemblies in NCBI, but more than 100 whole genome plus scaffold assemblies; 
+3 - bacteria with less than 100 whole genomes plus scaffold assemblies in NCBI.
+
+Then a dictionary is created, where the key is the name of the bacterium, and the value is the list of assembly IDs for each bacterium from groups 2 (all whole genome assemblies and part of scaffold assemblies up to a total number of assemblies equal to 100) and 3 (all scaffold assemblies in NCBI).
+Bacteria from group 1 (with more than 100 whole genome assemblies) are run through the PanACoTA pipeline to filter out related assemblies using the Mash genetic distance. Then, if there are less than 100 strains left after filtering, the script downloads data for all filtered assemblies; if more than 100 strains are left after filtering, the script downloads 100 random filtered assemblies.
+
+As a result the script returns a json file with lists of required amount Taxonomy IDs in NCBI for each bacterium.
+
 ## Notebooks
