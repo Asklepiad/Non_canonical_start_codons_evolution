@@ -91,9 +91,15 @@ Creates a table about gene features and fasta files with all genes.
 
 > Input. 
 
-> Output. 
+1. Short name of the bacteria
+
+> Output.
+
+1. Table with data about each gene: id, assembly, nucleotide sequence, aminoacid sequence, type od DNA molecule (plasmid or chromosome), start-codone, protein product of gene (if known), COG (functionality category of gene), coordinates of start and end of the gene on chromosome, strand, length of gene, special variable for filtering uncomplete sequences, accssory status to each of 25 COG categories.
+2. Fasta files of each selected assembly for further analysis.
 
 > Detailed description.
+
 
 #### ```proteinortho_script4.sh```
 > Short description. 
