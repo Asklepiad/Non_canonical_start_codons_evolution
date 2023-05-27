@@ -62,14 +62,27 @@ Script finds all links to scaffold and complete genome assemblies, checks them f
 #### ```prokka_annotate2.sh```
 > Short description. 
 
-Consistently reannotates assemblies. You can read more about the Prokka tool on [its github](https://github.com/tseemann/prokka). We used version 1.14.6.
+Consistently reannotates assemblies. 
 
 > Input. 
 
+1. Short name of the bacteria (first letter of genus name, underscore, specie's name or first nine letters of specie's name, if it longer). The shortening of specie's name implemented because long second name lead to the errors.
+
 > Output. 
+
+Annotations (with gbk extensions) in `<organism_annotate>` directory
+
+> Version and options.
+
+We used version 1.14.6. 
+
+Options:
+
+1. ```cpus 0``` means prokka will use all available threads. If you want to change behavior of prokka, you may create new bash variable in prokka script (and mention it in  `folder_creators_server0.sh`) or explicitly write number of cpus in prokka script.
 
 > Detailed description.
 
+You can read more about the Prokka tool on [its github](https://github.com/tseemann/prokka).
 
 #### ```First_table_creating3.py```
 > Short description. 
