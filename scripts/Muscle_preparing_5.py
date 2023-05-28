@@ -51,7 +51,7 @@ print(f"Ortorow number creation = {orto_number - preparing_finish}")
 orto_rows_list = orto_rows.index
 df1 = pd.read_csv(f"../{folder_name}/data/First_table.csv")
 
-#Filling orto_row column (sounds like an oxymoron)
+# Filling orto_row column (sounds like an oxymoron)
 assemblies = orto_rows.columns[3:-1]
 row_assigner = pd.melt(orto_rows, id_vars=["ortologus_row"], value_vars=assemblies)
 row_assigner = row_assigner.query("value != '*'")
