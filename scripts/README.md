@@ -223,6 +223,7 @@ Creates phylogenetic trees in Newick format. We used version 1.1.0.
 
 > Detailed description.
 
+Creates two new directories: ```../<organism>/data/raxml
 You can read more about the RAxML-ng tool on [its github](https://github.com/amkozlov/raxml-ng).
 
 #### ```Ete3_maker_10.py```
