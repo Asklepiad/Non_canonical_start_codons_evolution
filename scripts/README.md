@@ -70,7 +70,7 @@ Consistently reannotates assemblies.
 
 > Output. 
 
-Annotations (with gbk extensions) in `<organism_annotate>` directory
+Annotations (with gbk extensions) in `../<organism>/data/<organism>_annotate` directory.
 
 > Version and options.
 
@@ -85,6 +85,7 @@ Options:
 You can read more about the Prokka tool on [its github](https://github.com/tseemann/prokka).
 
 #### ```First_table_creating3.py```
+
 > Short description. 
 
 Creates a table about gene features and fasta files with all genes.
@@ -100,33 +101,58 @@ Creates a table about gene features and fasta files with all genes.
 
 > Detailed description.
 
-Script pasrses assemblies annotations (gbk files from prokka) and creates big table, where samples are genes and features are some characteristics (described in point one of this scripts's `output`). Table is in csv format. Table's detailed desxription you can find in `../data` folder's readme file. For assigning functional category(ies) for each gene script uses COG tables from `../data/bigcog/` folder.
-In addition script wtites fasta files for each assembly. It needs for further ortologous groups construction.
+Script pasrses assemblies annotations (gbk files from prokka) and creates big table, where samples are genes and features are some characteristics (described in point one of this scripts's `output`). Table is in csv format. Table's detailed desxription you can find in `../output_example/data` folder's readme file. For assigning functional category(ies) for each gene script uses COG tables from `../data/bigcog/` folder.
+In addition script wtites fasta files for each assembly in the `../<organism>/data/orto_rows/` directory. It needs for further ortologous groups construction.
 
 
 #### ```proteinortho_script4.sh```
 > Short description. 
 
-Computes ortologous rows and creates a table with information about them. You can read more about the Proteinortho tool on [its gitlub](https://gitlab.com/paulklemm_PHD/proteinortho). We used version 6.1.7.
+Computes ortologous rows (OR) and creates a table with information about them. 
 
 > Input. 
 
+1. The short name of the bacteria.
+2. Identity percent of best blast hits (our default value is 75, which is a standart, when you work with strains from one specie).
+
 > Output. 
 
-> Detailed description.
+1. Files `S_ruber.proteinortho-graph`, `S_ruber.proteinortho-graph.summary`, `S_ruber.proteinortho.html`, `S_ruber.blast-graph` and `S_ruber.proteinortho.tsv`. We are interested in the last one. More detailed description about each of them you can find in readme of the `../output_example/data` folder.
 
+> Options.
+
+1. ```--debug``` gives detailed information for bug tracking
+2. ```--selfblast``` detects paralogs without orthologs
+3. ```--singles``` prints singletones into the output file
+4. ```--identity``` percent of best blast hits
+
+> Detailed description.
+You can read more about the Proteinortho tool on [its gitlub](https://gitlab.com/paulklemm_PHD/proteinortho). We used version 6.1.7.
 
 #### ```Muscle_preparing_5.py```
 > Short description. 
 
-Creates two big summary tables about genes and ortologous rows.
+Creates two big summary tables about genes and ORs. Writes fasta files from ORs with different start-codons for further analysis.
 
 > Input. 
 
+1. Path to json file, which named equally to organism of interest name's long form.
+
 > Output. 
 
-> Detailed description.
+1. Fasta files for alignment in `../<organism>/data/multialignments`
+2. Table with data about each gene (upgraded version of `First_table_creating3` output).
+3. Table with data about each OR.
+4. Shortened version of the previous one for one kind of analysis.
 
+> Detailed description.
+Script filters ORs with paralogs, assigns OR number for each gene, collects data about start codons proportion in each OR. On the next stage script evaluates uniformity of the OR. It considers uniform, only if all start codons in a row are same. Then script writes All non-uniform rows sequences into the `../<organism>/data/multialignments` folder. 
+
+At the end script combined three tables with data:
+- Upgraded version of `First.table.csv` with extended data about each non-paralogous gene.
+- Table with data about each OR and its shortened version, from which was excluded information about source of gene in it (number of assembly).
+
+Script has some primitive time-logging, which was explored, when we imporoved the effectiveness of code (first version works *378 minutes and 14 seconds* on one of the bacteria before upgrading and *58 seconds* after upgrading).
 
 #### ```Statscript.R```
 > Short description. 
