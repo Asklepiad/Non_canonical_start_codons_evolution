@@ -82,6 +82,7 @@ Options:
 
 > Detailed description.
 
+Creates the folders `../<organism>/data/<organism>_annotate/` and `../<organism>/data/for_prokka_fasta/`
 You can read more about the Prokka tool on [its github](https://github.com/tseemann/prokka).
 
 #### ```First_table_creating3.py```
@@ -127,6 +128,8 @@ Computes ortologous rows (OR) and creates a table with information about them.
 4. ```--identity``` percent of best blast hits
 
 > Detailed description.
+
+Creates the folder `../<organism>/data/multialignments/`
 You can read more about the Proteinortho tool on [its gitlub](https://gitlab.com/paulklemm_PHD/proteinortho). We used version 6.1.7.
 
 #### ```Muscle_preparing_5.py```
@@ -169,19 +172,26 @@ Computes different statistics, creates figures and a short report.
 #### ```muscle_align6.sh``` or ```prank_align6.sh```
 > Short description. 
 
-Aligns sequences. You can read more about the MUSCLE and PRANK aligners respectively on the [MUSCLE v.5 website](https://www.drive5.com/muscle/) and [PRANK website](http://wasabiapp.org/software/prank/). We used version 5.1 and v.170427 of MUSCLE and PRANK respectively.
+Aligns sequences. We used version 5.1 and v.170427 of MUSCLE and PRANK respectively.
 
 > Input. 
 
+1. The short name of the bacteria. (for both MUSCLE and PRANK)
+2. Number of threads (for MUSCLE only). Default value from sbatch script is 24.
+
 > Output. 
 
-> Detailed description.
+1. Alignments in fasta format in the `../<organism>/data/multialignments/` folder.
 
+> Detailed description. 
+
+Creates the folder `../<organism>/data/evolution_models/`
+You can read more about the MUSCLE and PRANK aligners respectively on the [MUSCLE v.5 website](https://www.drive5.com/muscle/) and [PRANK website](http://wasabiapp.org/software/prank/).
 
 #### ```modeltree_maker7.sh```
 > Short description. 
 
-Chooses the best evolution model for further tree creating. You can read more about the modeltest-ng tool on [its github](https://github.com/ddarriba/modeltest). We used version 0.1.7.
+Chooses the best evolution model for further tree creating.  We used version 0.1.7.
 
 > Input. 
 
@@ -189,11 +199,12 @@ Chooses the best evolution model for further tree creating. You can read more ab
 
 > Detailed description.
 
+You can read more about the modeltest-ng tool on [its github](https://github.com/ddarriba/modeltest).
 
 #### ```raxml_tree8.sh```
 > Short description. 
 
-Creates phylogenetic trees in Newick format. You can read more about the RAxML-ng tool on [its github](https://github.com/amkozlov/raxml-ng). We used version 1.1.0.
+Creates phylogenetic trees in Newick format. We used version 1.1.0.
 
 > Input. 
 
@@ -201,6 +212,7 @@ Creates phylogenetic trees in Newick format. You can read more about the RAxML-n
 
 > Detailed description.
 
+You can read more about the RAxML-ng tool on [its github](https://github.com/amkozlov/raxml-ng).
 
 #### ```Ete3_maker_10.py```
 > Short description. 
