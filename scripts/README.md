@@ -243,9 +243,17 @@ Visualizes phylogenetic trees (*unavailable in server version now*)
 #### ```check_strains.py```
 > Short description. 
 
+The script analyzes all alignments and displays lists of assemblies in which a large number of genes, when aligned within orthologous rows, had gaps at the beginning and had a minor start codon in relation to the majority.
+
 > Input. 
 
+Path to alignments.
+
 > Output. 
+
+2 lists: 
+* a list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had gaps at the beginning;
+* a list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had a minor start codon in relation to the majority.
 
 > Detailed description.
 
@@ -258,9 +266,15 @@ Also, when the function is executed, 2 graphs of the distribution of the percent
 #### ```download_strains.py```
 > Short description. 
 
+The script checks the number of available complete genome and scaffold assemblies for the input organisms, filters the assemblies if necessary using the PanACoTA pipeline, and saves the json file, where each bacterium corresponds to a list of assembly IDs.
+
 > Input. 
 
+List of bacteria and your mail in NCBI.
+
 > Output. 
+
+Json file ("id_lists.json") with lists of assemblies ID's for each bacterium.
 
 > Detailed description.
 
