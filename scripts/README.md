@@ -200,7 +200,7 @@ Chooses the best evolution model for further tree creating.  We used version 0.1
 
 > Output. 
 
-1. Files in the ```../<organism>/data/evolution_models/``` folder: tree file, out file and ckp file
+1. Files in the ```../<organism>/data/evolution_models/``` folder: tree file with phylogenetic tree in Newick format, out data about model, log file and ckp file.
 
 > Detailed description.
 
@@ -213,7 +213,13 @@ Creates phylogenetic trees in Newick format. We used version 1.1.0.
 
 > Input. 
 
+1. The short name of the bacteria.
+2. Aligner used om the previous step.
+3. Number of threads (for MUSCLE only). Default value from sbatch script is 24.
+
 > Output. 
+
+
 
 > Detailed description.
 
