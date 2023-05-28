@@ -186,7 +186,7 @@ for source in tqdm(set(df1["p_c_unity"])):
     subset = df1[df1["p_c_unity"] == source]
     with open (f"../{folder_name}/data/orto_rows/{folder_name}{str(source)}.fasta", "w") as protein_fasta:
         for index, row in subset.iterrows():
-#            if row['type_of_the_gene'] != "pseudogene":
+#            if row['type_of_the_gene'] != "pseudogene":   # This row will be useful again, when pseudogens will appear in our annotations
             protein_fasta.write(">")
             protein_fasta.write(row["id"])
             protein_fasta.write("_")
