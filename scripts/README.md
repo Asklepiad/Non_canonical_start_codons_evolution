@@ -100,6 +100,9 @@ Creates a table about gene features and fasta files with all genes.
 
 > Detailed description.
 
+Script pasrses assemblies annotations (gbk files from prokka) and creates big table, where samples are genes and features are some characteristics (described in point one of this scripts's `output`). Table is in csv format. Table's detailed desxription you can find in `../data` folder's readme file. For assigning functional category(ies) for each gene script uses COG tables from `../data/bigcog/` folder.
+In addition script wtites fasta files for each assembly. It needs for further ortologous groups construction.
+
 
 #### ```proteinortho_script4.sh```
 > Short description. 
