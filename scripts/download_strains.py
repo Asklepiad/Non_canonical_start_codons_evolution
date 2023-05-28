@@ -27,34 +27,7 @@ arguments = parser.parse_args()
 all_species = arguments.file
 Entrez.email = arguments.mail
 
-
-#Entrez.email = "valeriyakudr98@gmail.com"
-Entrez.api_key = "a676bc7d097855d36e502959d6ef43aa4e08"
-
-
-
-#generalists = ['Acinetobacter baumannii', 'Acinetobacter indicus', 'Agrobacterium tumefaciens', 'Bacillus cereus',
-#               'Bacillus megaterium', 'Bacillus pumilus', 'Bacillus subtilis', 'Bacillus thuringiensis', 
-#               'Clostridium botulinum', 'Enterococcus faecalis', 'Escherichia coli', 'Klebsiella pneumoniae', 
-#               'Lactococcus lactis', 'Mycobacterium avium', 'Pseudomonas aeruginosa', 'Pseudomonas fluorescens', 
-#               'Pseudomonas putida', 'Stenotrophomonas maltophilia']
-
-#specialists = ['Bacillus altitudinis', 'Bifidobacterium bifidum', 'Burkholderia cenocepacia', 
-#               'Candidatus Carsonella ruddii', 'Chlamydia trachomatis', 'Corynebacterium diphtheriae', 
-#               'Corynebacterium pseudotuberculosis', 'Cupriavidus taiwanensis', 'Enterobacter hormaechei',
-#               'Francisella tularensis', 'Histophilus somni', 'Levilactobacillus brevis', 'Lactobacillus johnsonii', 
-#               'Lactobacillus salivarius', 'Leptospira interrogans', 'Mesoplasma florum', 'Morganella morganii', 
-#               'Mycoplasma bovis', 'Neisseria gonorrhoeae', 'Neisseria meningitidis', 'Paenibacillus larvae', 
-#               'Pantoea ananatis', 'Pediococcus acidilactici', 'Porphyromonas gingivalis', 
-#               'Propionibacterium freudenreichii', 'Rhodopseudomonas palustris', 'Riemerella anatipestifer',
-#               'Salinibacter ruber', 'Staphylococcus haemolyticus', 'Staphylococcus simulans', 'Vibrio anguillarum',
-#               'Vibrio campbellii', 'Vibrio cholerae', 'Weissella cibaria', 'Xanthomonas campestris', 
-#               'Xylella fastidiosa', 'Zymomonas mobilis']
-
-#all_species = generalists + specialists
-
 parser = argparse.ArgumentParser()
-
 parser.add_argument("file", type=argparse.FileType("r"), nargs="*", default=sys.stdin)
 
 arguments = parser.parse_args()
@@ -112,13 +85,14 @@ for row in range(len(assembly_df)):
 
 # Divide all bacteria into 3 groups
 
-many_complete_genomes_id = []
+many_complete_genomes = [] # the bacterium has more than 100 complete genome assemblies
+complete_scaffolds_100 = [] # the bacterium has less than 100 complete genome assemblies, but more than 100 complete genome plus scaffold assemblies
+complete_scaffolds_less = [] # the bacterium has less than 100 complete genome plus scaffold assemblies
+
+many_complete_genomes_id = [] 
 complete_scaffolds_100_id = []
 complete_scaffolds_less_id = []
 
-many_complete_genomes = []
-complete_scaffolds_100 = []
-complete_scaffolds_less = []
 
 for row in range(len(assembly_df)):
   if assembly_df.iloc[row, 2] > 100:
@@ -137,7 +111,6 @@ for row in range(len(assembly_df)):
 # Download genomes
 
 # Dict of ID lists by each bacteria:
-
 id_lists_dict = {}
 
 # Complete genome + scaffolds < 100
@@ -169,7 +142,8 @@ for bact_2 in complete_scaffolds_100:
   id_lists_dict[bact_2].append(search_record_4['IdList'])
 
 print(id_lists_dict)
-# After panacota
+
+# Bacteria with more than 100 complete genome assemblies were filtered out by the PanACoTA pipeline (to remove close assemblies by Mash genetic distance) and 100 random assemblies were taken
 
 # Read json file with 100 random strains for each bacteria
 with open("file_complete_genomes.json", "r") as f:
@@ -182,8 +156,6 @@ for key, value in tqdm(file_results_cut.items()):
   bact_id = key.split('-')[1]
   back_name = '_'.join(assembly_df[assembly_df['Taxonomy_ID'] == bact_id]['Species'].values[0].split(' '))
   assembly_100_dict[back_name] = []
-  # print(back_name)
-  # print(len(value))
 
   for strain in value:
     strain_name = strain.split('tmp_files/')[1].split('.')[0]
