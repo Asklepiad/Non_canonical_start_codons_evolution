@@ -58,5 +58,3 @@ conda run -n python_start_codons python3 Config_tree_maker_9.py "$short_name" "$
 echo "script 9 done"
 conda run -n python_start_codons python3 Ete3_maker_10.py "$short_name"
 echo "script 10 done"
-#conda run -n base python3 Correcting_short_alns10.py "$short_name" "$aligner"
-#echo "script 10 done"
