@@ -195,7 +195,12 @@ Chooses the best evolution model for further tree creating.  We used version 0.1
 
 > Input. 
 
+1. The short name of the bacteria.
+2. Aligner used om the previous step.
+
 > Output. 
+
+1. Files in the ```../<organism>/data/evolution_models/``` folder: tree file, out file and ckp file
 
 > Detailed description.
 
