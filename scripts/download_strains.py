@@ -47,22 +47,24 @@ count_scaffolds = {}
 id_dict = {}
 
 for spec in tqdm(all_species):
-  search_handle_1 = Entrez.esearch(db="assembly", term=spec)
-  search_record_1 = Entrez.read(search_handle_1)
-  count = int(search_record_1["Count"])
+  search_handle = Entrez.esearch(db="assembly", term=spec)
+  search_record = Entrez.read(search_handle)
+  count = int(search_record["Count"])
 
-  search_handle_2 = Entrez.esearch(db="assembly", term=f'{spec}[orgn] AND ("complete genome"[filter] AND "latest refseq"[filter])', retmax=count)
-  search_record_2 = Entrez.read(search_handle_2)
-  count_complete_genome[spec] = len(search_record_2["IdList"])
+  search_handle_complete = Entrez.esearch(db="assembly", term=f'{spec}[orgn] AND ("complete genome"[filter] 
+                                          AND "latest refseq"[filter])', retmax=count)
+  search_record_complete = Entrez.read(search_handle_complete)
+  count_complete_genome[spec] = len(search_record_complete["IdList"])
 
-  search_handle_2 = Entrez.esearch(db="assembly", term=f'{spec}[orgn] AND ("scaffold level"[filter] AND "latest refseq"[filter])', retmax=count)
-  search_record_2 = Entrez.read(search_handle_2)
-  count_scaffolds[spec] = len(search_record_2["IdList"])
+  search_handle_scaffold = Entrez.esearch(db="assembly", term=f'{spec}[orgn] AND ("scaffold level"[filter] 
+                                          AND "latest refseq"[filter])', retmax=count)
+  search_record_scaffold = Entrez.read(search_handle_scaffold)
+  count_scaffolds[spec] = len(search_record_scaffold["IdList"])
 
-  search_handle_3 = Entrez.esearch(db="taxonomy", term=spec)
-  search_record_3 = Entrez.read(search_handle_3)
-  if len(search_record_3['IdList']) == 1:
-    id_dict[spec] = search_record_3['IdList'][0]
+  search_handle_tax = Entrez.esearch(db="taxonomy", term=spec)
+  search_record_tax = Entrez.read(search_handle_tax)
+  if len(search_record_tax['IdList']) == 1:
+    id_dict[spec] = search_record_tax['IdList'][0]
   else:
     id_dict[spec] = 'NA'
 
