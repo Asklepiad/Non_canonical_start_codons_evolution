@@ -78,7 +78,8 @@ for d in (id_dict, count_complete_genome, count_scaffolds):
 
 assembly_df = pd.DataFrame.from_dict(dd, orient='index')
 assembly_df = assembly_df.reset_index() 
-assembly_df.rename(columns = {'index': 'Species',0: "Taxonomy_ID", 1: "Complete_genome", 2: "Scaffolds"}, inplace = True)
+assembly_df.rename(columns = {'index': 'Species',0: "Taxonomy_ID", 1: "Complete_genome", 2: "Scaffolds"}, 
+                   inplace = True)
 
 assembly_df['Complete_scaffolds'] = 0
 for row in range(len(assembly_df)):
@@ -117,31 +118,34 @@ id_lists_dict = {}
 
 # Complete genome + scaffolds < 100
 for bact in complete_scaffolds_less:
-  search_handle_1 = Entrez.esearch(db="assembly", term= bact)
-  search_record_1 = Entrez.read(search_handle_1)
-  count = int(search_record_1["Count"])
+  search_handle_small = Entrez.esearch(db="assembly", term= bact)
+  search_record_small = Entrez.read(search_handle_small)
+  count_small = int(search_record_small["Count"])
 
-  search_handle_2 = Entrez.esearch(db="assembly", term= f'{bact}[orgn] AND (("complete genome"[filter] OR "scaffold level"[filter]) AND "latest refseq"[filter])', retmax=count)
-  search_record_2 = Entrez.read(search_handle_2)
-  id_lists_dict[bact] = search_record_2['IdList']
+  search_handle_small_2 = Entrez.esearch(db="assembly", term= f'{bact}[orgn] AND (("complete genome"[filter] OR "scaffold level"[filter]) 
+                                   AND "latest refseq"[filter])', retmax=count_small)
+  search_record_small_2 = Entrez.read(search_handle_small_2)
+  id_lists_dict[bact] = search_record_small_2['IdList']
 
 
 # Complete genome + scaffolds > 100
 for bact_2 in complete_scaffolds_100:
-  search_handle_1 = Entrez.esearch(db="assembly", term= bact_2)
-  search_record_1 = Entrez.read(search_handle_1)
-  count = int(search_record_1["Count"])
+  search_handle_middle = Entrez.esearch(db="assembly", term= bact_2)
+  search_record_middle = Entrez.read(search_handle_middle)
+  count_middle = int(search_record_middle["Count"])
 
   # Complete genomes
-  search_handle_3 = Entrez.esearch(db="assembly", term= f'{bact_2}[orgn] AND ("complete genome"[filter] AND "latest refseq"[filter])', retmax=count)
-  search_record_3 = Entrez.read(search_handle_3)
-  id_lists_dict[bact_2] = search_record_3['IdList']
+  search_handle_middle_1 = Entrez.esearch(db="assembly", term= f'{bact_2}[orgn] AND ("complete genome"[filter] 
+                                   AND "latest refseq"[filter])', retmax=count_middle)
+  search_record_middle_1 = Entrez.read(search_handle_middle_1)
+  id_lists_dict[bact_2] = search_record_middle_1['IdList']
 
   # Scaffolds
   count_scaff = 100 - assembly_df[assembly_df['Species'] == bact_2]['Complete_genome']
-  search_handle_4 = Entrez.esearch(db="assembly", term= f'{bact_2}[orgn] AND ("scaffold level"[filter] AND "latest refseq"[filter])', retmax=count_scaff)
-  search_record_4 = Entrez.read(search_handle_4)
-  id_lists_dict[bact_2].append(search_record_4['IdList'])
+  search_handle_middle_2 = Entrez.esearch(db="assembly", term= f'{bact_2}[orgn] AND ("scaffold level"[filter] 
+                                   AND "latest refseq"[filter])', retmax=count_scaff)
+  search_record_middle_2 = Entrez.read(search_handle_middle_2)
+  id_lists_dict[bact_2].append(search_record_middle_2['IdList'])
 
 print(id_lists_dict)
 
