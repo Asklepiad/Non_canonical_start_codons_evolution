@@ -122,8 +122,8 @@ for bact in complete_scaffolds_less:
   search_record_small = Entrez.read(search_handle_small)
   count_small = int(search_record_small["Count"])
 
-  search_handle_small_2 = Entrez.esearch(db="assembly", term= f'{bact}[orgn] AND (("complete genome"[filter] OR "scaffold level"[filter]) 
-                                   AND "latest refseq"[filter])', retmax=count_small)
+  search_handle_small_2 = Entrez.esearch(db="assembly", term= f'{bact}[orgn] AND (("complete genome"[filter] 
+                                         OR "scaffold level"[filter]) AND "latest refseq"[filter])', retmax=count_small)
   search_record_small_2 = Entrez.read(search_handle_small_2)
   id_lists_dict[bact] = search_record_small_2['IdList']
 
