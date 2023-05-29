@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Uploading the data
-
 import os
 import sys
 import argparse
@@ -145,9 +143,6 @@ assembly_stata.columns = ["atg_number"]
 df1 = df1.merge(assembly_stata, on="p_c_unity")
 k = assembly_stata["atg_number"].median()
 df1 = df1.query("atg_number > @k/2")
-
-# For recoding COGs from ids to categories I have downloaded tsvs with all categories and appropriate COGs and have created python dictionary.
-# Firstly I have uploaded tsvs to folder on google drive.
 
 # Creating cog dictionary
 cog_dict = {}
