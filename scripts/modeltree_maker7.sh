@@ -13,8 +13,6 @@ then
                 echo "prank"
                 echo $f
                 g=${f#../${input}/data/multialignments/};
-                #echo "$g";
-                #echo "prank";
                 modeltest-ng static -i ${f} -o ../${input}/data/evolution_models/${g%.best.fas}_modeltest;
         done
 elif [ "$radiobutton" = "muscle" ]
@@ -23,8 +21,6 @@ then
                 echo "muscle"
                 echo $f
                 g=${f#../${input}/data/multialignments/};
-                #echo "$g";
-                #echo "muscle";
                 modeltest-ng static -i ${f} -o ../${input}/data/evolution_models/${g%.afa}_muscle_modeltest;
         done
 fi

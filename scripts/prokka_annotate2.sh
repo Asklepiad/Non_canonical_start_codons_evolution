@@ -26,7 +26,6 @@ fi
 curr_dir3="../${mask}/data/for_prokka_fasta"
 for f in $(ls ${curr_dir3}/${mask}*.fasta); do
 	g=$(echo ${f#${curr_dir3}/});
-	#echo ${g%.fasta};
         prokka --outdir ${f%.fasta} --cpus 0 --prefix ${g%.fasta} ${f};
 done
 
