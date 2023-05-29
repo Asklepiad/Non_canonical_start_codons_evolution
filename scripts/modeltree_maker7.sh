@@ -1,9 +1,12 @@
 #!/bin/bash
 
+
+# Reads arguments
 input=$1
 radiobutton=$2
 
-echo $radiobutton
+
+# Choosing the best evolution model for phylogenetic tree
 if [ "$radiobutton" = "prank" ]
 then
         for f in $(ls ../${input}/data/multialignments/*_prank.best.fas); do
