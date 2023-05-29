@@ -200,7 +200,7 @@ Chooses the best evolution model for further tree creating.  We used version 0.1
 
 > Output. 
 
-1. Files in the ```../<organism>/data/evolution_models/``` folder: tree file with phylogenetic tree in Newick format, out data about model, log file and ckp file.
+1. Files in the ```../<organism>/data/evolution_models/``` folder: tree file with phylogenetic tree in Newick format, out data about model, log file and ckp (checkpoint) file.
 
 > Detailed description.
 
@@ -215,28 +215,33 @@ Creates phylogenetic trees in Newick format. We used version 1.1.0.
 
 1. The short name of the bacteria.
 2. Aligner used om the previous step.
-3. Number of threads (for MUSCLE only). Default value from sbatch script is 24.
+3. Number of threads. Default value from sbatch script is 24.
 
 > Output. 
 
-
+1. Files: bestmodel (optimized model parameters for the best-scoring ML tree), startree (starting tree(s) used for maximal likelihood (ML) inference), mltrees(ML trees for each starting tree), besttree (best-scoring ML tree), log file and rba (compressed alignment).
 
 > Detailed description.
 
-Creates two new directories: ```../<organism>/data/raxml
+Creates two new directories: ```../<organism>/data/raxmlng_trees``` and ```../<organism>/data/configs```.
 You can read more about the RAxML-ng tool on [its github](https://github.com/amkozlov/raxml-ng).
 
 #### ```Ete3_maker_10.py```
-> Short description. 
+> Short description.
 
 Visualizes phylogenetic trees (*unavailable in server version now*)
 
 > Input. 
 
+1. The short name of the bacteria.
+
 > Output. 
+
+Phylogenetic tree's image is in the ```../<organism>/figures/trees/``` folder
 
 > Detailed description.
 
+Draws phylogenetic trees. Each ATG-related genes has red color, GTG-related - has green color and TTG-realted - has blue color.
 
 ## Additional scripts
 
