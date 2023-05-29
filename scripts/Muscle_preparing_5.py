@@ -52,7 +52,7 @@ orto_rows_list = orto_rows.index
 df1 = pd.read_csv(f"../{folder_name}/data/First_table.csv")
 
 # Filling orto_row column (sounds like an oxymoron)
-assemblies = orto_rows.columns[3:-1]
+assemblies = orto_rows.columns.drop(['Species', 'Genes', 'Alg.-Conn.', 'ortologus_row'])
 row_assigner = pd.melt(orto_rows, id_vars=["ortologus_row"], value_vars=assemblies)
 row_assigner = row_assigner.query("value != '*'")
 row_assigner["value"] = row_assigner["value"].str[:14]
@@ -114,13 +114,10 @@ sc_freqs = time.time()
 print(f"Computing of start-codons in each ortologus row = {sc_freqs - ortorow_sc}")
 
 # Computing uniformity of start-codon per ortologus row
-start_codons["uniformity"] = "NA"
-for row in range(len(start_codons)):
-    if len(set(start_codons.iloc[row, 1])) == 1:
-        start_codons.iloc[row, 5] = "same"
-    else:
-        start_codons.iloc[row, 5] = "different"
-unif_comp=time.time()
+uniform = []
+start_codons.start_codons.apply(lambda x: uniform.append("different") if len(x) > 1 else uniform.append("same"))
+uniformity = pd.Series(uniform)
+start_codons["uniformity"] = uniformity
 print(f"Computing of uniformity = {unif_comp - sc_freqs}")
 
 # Constructing table withh all data about the ortologus rows (including pararows)
