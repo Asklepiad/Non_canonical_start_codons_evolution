@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Uploading the data
-
 import os
 import sys
 import argparse
