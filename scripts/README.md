@@ -295,3 +295,15 @@ Bacteria from group 1 (with more than 100 whole genome assemblies) are run throu
 As a result the script returns a json file with lists of required amount Taxonomy IDs in NCBI for each bacterium.
 
 ## Notebooks
+
+#### ```Organisms_parsing02.ipynb```
+
+#### ```Parsing_NCBI_1.ipynb```
+
+#### ```First_table_creating3.ipynb```
+
+#### ```Muscle_preparing_5.ipynb```
+
+#### ```Parsing_NCBI_1.ipynb```
+
+#### ```Ete3_maker_10.ipynb```
