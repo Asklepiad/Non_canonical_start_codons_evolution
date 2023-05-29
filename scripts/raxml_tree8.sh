@@ -1,20 +1,29 @@
 #!/bin/bash
 
+
+# Reads arguments
 mask=$1
 radiobutton=$2
 threads=$3
+
+
+# Creates directory for storing phylogenetic trees
 curr_dir1="../${mask}/data/raxmlng_trees"
 if [[ ! -e ${curr_dir1} ]]
 then
         mkdir ${curr_dir1};
 fi
 
+
+# Creates directory for storing config files for iTOL visualisation
 curr_dir2="../${mask}/data/configs"
 if [[ ! -e ${curr_dir2} ]]
 then
         mkdir ${curr_dir2};
 fi
 
+
+# Creates directories for the next stages of pipeline, when we wiil recompute data and will have more confindent start codons.
 curr_dir3="../${mask}/data/new_multialignments"
 if [[ ! -e ${curr_dir3} ]]
 then
@@ -39,6 +48,8 @@ then
         mkdir ${curr_dir6};
 fi
 
+
+# Creating phylogenetic trees
 if [ "$radiobutton" = "prank" ]
 then
         for f in $(ls ../${mask}/data/evolution_models/*prank_modeltest.out); do
