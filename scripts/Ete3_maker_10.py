@@ -27,7 +27,7 @@ for doc in pretrees:
 
 for tree in trees:
     mask = tree.split(".")[0]
-    visualisation = ete3.Tree(os.path.join(prepath, tree))
+    visualisation = ete3.Tree(f"{prepath}{tree}")
     D_leaf_color = {"ATG":"red", "GTG":"green", "TTG":"blue"}
     for node in visualisation.traverse():
         node.img_style['size'] = 0

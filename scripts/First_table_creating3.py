@@ -149,7 +149,7 @@ cog_dict = {}
 current_path = "../data/bigcog/"
 cog_cats = os.listdir(current_path)
 for cog_cat in tqdm(cog_cats):
-    table = pd.read_csv(os.path.join(current_path, cog_cat), sep="\t")
+    table = pd.read_csv(f"{current_path}{cog_cat}", sep="\t")
     if len(table.Cat):
         cat = table.Cat.tolist()
         cat_ful = list(map(lambda x: x.split(" "),cat))

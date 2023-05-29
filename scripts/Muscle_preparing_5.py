@@ -24,7 +24,7 @@ parser.add_argument("json_path", type=str)
 arguments = parser.parse_args()
 
 json_path = arguments.json_path
-with open(os.path.join("../data/jsons", json_path), "r") as json_organism:
+with open(f"../data/jsons/{json_path}", "r") as json_organism:
     json_organism = json.load(json_organism)
 
 organism_name = json_organism[0]
