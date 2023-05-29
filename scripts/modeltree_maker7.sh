@@ -1,8 +1,12 @@
 #!/bin/bash
 
+
+# Reads arguments
 input=$1
 radiobutton=$2
 
+
+# Choosing the best evolution model for phylogenetic tree
 echo $radiobutton
 if [ "$radiobutton" = "prank" ]
 then
