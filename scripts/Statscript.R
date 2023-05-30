@@ -48,7 +48,6 @@ org_short = arguments$org_short
 
 # Uploading the data ####
 
-#org_short <- "B_bifidum"  # For starting from RStudio
 print(getwd())
 path <- glue("../{org_short}/data/")
 setwd(path)
@@ -83,8 +82,6 @@ summary_rows$uniformity <- as.factor(summary_rows$uniformity)
 summary_rows$start_codone <- as.factor(summary_rows$start_codone)
 summary_rows$type_of_DNA_source <- as.factor(summary_rows$type_of_DNA_source)
 summary_rows$p_c_unity <- as.factor(summary_rows$p_c_unity)
-#summary_rows$new_sc <- as.factor(summary_rows$new_sc)
-#summary_rows$new_length = as.numeric(lapply(summary_rows$new_als, str_length))
 # Dividing to three subsets by gene group    ####
 core_genes = subset(summary_rows, gene_group=="core")
 shell_genes = subset(summary_rows, gene_group=="shell")
@@ -285,17 +282,6 @@ cog_columns_ttg <- summary_rows %>%                          # Choosing ttg
   select(2:(ncol(.)-1))
 # Creating function
 cog_names <- sapply(colnames(cog_columns_all), function(x) cog_hash[[x]])
-#cog_names <- c("unknown", "transcription", "cell_cycle", "aminoacid", "inorganic", "motility", 
-#               "carbohydrate", "lipid", "protein_posttrans", "translation_and_ribosomes", 
-#               "mobilome", "cytosceleton", "secondary_metabolites", "vesiculs_and_secretion",
-#               "extracel", "chromatine", "general_function_only", "defense", "nucleotide", 
-#               "rna_proc_and_mod",  "energy", "cell_wall", "signal_transduction", "coensime", "repl_reco_repa")
-
-#cog_names <- c("translation_and_ribosomes", "rna_proc_and_mod", "transcription", "repl_reco_repa", "chromatine", 
-#               "cell_cycle", "defense", "signal_transduction", "cell_wall", "motility", 
-#               "cytosceleton", "extracel", "vesiculs_and_secretion", "protein_posttrans", "mobilome",
-#               "energy", "carbohydrate", "aminoacid", "nucleotide", "coensime", 
-#               "lipid", "inorganic", "secondary_metabolites", "general_function_only", "unknown")
 cog_stat_fun <- function(tibble){
   cog_stat <- sapply(tibble, 
          function(x) round(sum(x == 1)/nrow(tibble), 5))
@@ -347,14 +333,6 @@ cog_sc_eb <- ggplot(cog_pivot)+   # Потом сохранить в перем�
         axis.text=element_text(size=20),
         axis.title=element_text(size=24,face="bold"),
         axis.title.x = element_text(vjust = 13))
-  #scale_x_discrete(labels=c("rna_proc_and_mod", "energy", "cell_cycle", 
-  #                          "aminoacid", "nucleotide", "carbohydrate", 
-   #                         "coensime", "lipid", "translation_and_ribosomes",
-    #                        "transcription", "repl_reco_repa", 
-     #                       "cell_wall", "inorganic", "protein_posttrans", 
-      #                      "motility", "secondary_metabolites", "general_function_only",
-       #                     "unknown", "signal_transduction", "vesiculs_and_secretion", 
-        #                    "defense", "extracel", "mobilome"))
 cog_sc_eb
 ggsave(glue("../figures/{org_short}_cog_sc_eb.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
@@ -371,17 +349,9 @@ cog_sc_eb_short <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сох�
   theme(axis.text.x = element_text(angle = 45))+
   theme(axis.text=element_text(size=15),
         axis.title=element_text(size=24,face="bold"))
-  #scale_x_discrete(labels=c("rna_proc_and_mod", "energy", "cell_cycle", 
-   #                         "aminoacid", "nucleotide", "carbohydrate", 
-    #                        "coensime", "lipid", "translation_and_ribosomes",
-     #                       "transcription", "repl_reco_repa", 
-      #                      "cell_wall", "inorganic", "protein_posttrans", 
-       #                     "motility", "secondary_metabolites", "general_function_only",
-        #                    "signal_transduction", "vesiculs_and_secretion", "defense", 
-         #                   "extracel", "mobilome"))
 cog_sc_eb_short
 ggsave(glue("../figures/{org_short}_cog_sc_eb_short.png"),  width = 30, height = 20, units = "cm", dpi = 700)
-### COG formal test (exact Fisher) #####
+
 #### Function for COG formal ######
 cog_formal_atg <- sapply(cog_columns_atg, 
                      function(x) sum(x == 1))
@@ -396,36 +366,12 @@ cog_formal <- as.data.frame(cbind(cog_formal_atg,
 cog_formal_without_zeros <- cog_formal %>%     # Initialisation of shorted dataset
   filter(cog_formal_atg+cog_formal_gtg+cog_formal_ttg > 0)
 write.csv(cog_formal_without_zeros, glue("{org_short}_cogs.csv"))
-#fi <- fisher.test(cog_formal_without_zeros, simulate.p.value = TRUE, B=150000)   # Computings for absolute values
-#hi <- chisq.test(cog_formal_without_zeros)
-#hi$expected
-#mosaicplot(cog_formal_without_zeros, color=T, shade=T, xlab="Start-codon", ylab="Function")
-#cfwz <- mutate(rowwise(cog_formal_without_zeros), total = sum(c_across(1:3)))    
-#
-#cfwz_percents <- cfwz %>%   # Dataset with realtive data (percents)
-#  transmute(atg = cog_formal_atg/total,
-#            gtg = cog_formal_gtg/total,
-#            ttg = cog_formal_ttg/total)
-#chisq.test(cfwz_percents)   # One bad idea
-
-#b <- cog_formal_without_zeros %>%
-#  table() %>%
-
-#d <- summary_rows %>% 
-#  select(start_codone, J) %>% 
-#  table %>% 
-#  CrossTable(prop.r = FALSE, prop.c = FALSE, prop.t = FALSE, prop.chisq = FALSE, fisher = TRUE, simulate.p.value=TRUE)
-
 
 cfwz_percents <- cog_formal_without_zeros %>%   # Dataset with realtive data (percents)
   transmute(atg = (cog_formal_atg/sum(cog_formal_atg)),
             gtg = (cog_formal_gtg/sum(cog_formal_gtg)),
             ttg = (cog_formal_ttg/sum(cog_formal_ttg)),
             total = (cog_formal_atg + cog_formal_gtg + cog_formal_ttg)/(sum(cog_formal_atg) + sum(cog_formal_gtg + cog_formal_ttg)))
-#chisq.test(cfwz_percents)   # One bad idea
-#cfwz_percents <- t(cfwz_percents)
-#sapply(c(1:3), function(x) chisq.test(rbind(cfwz_percents[x, ], cfwz_percents[4, ])))
-
 
 ## Part of non-canonic-starts in orto-rows
 atg_content <- ggplot(start_codons2)+
@@ -437,113 +383,13 @@ ggsave(glue("../figures/{org_short}_gtg_content.png"),  width = 30, height = 20,
 ttg_content <- ggplot(start_codons2)+
   geom_point(aes(x=Species, y=TTG), alpha=0.1, color="blue")
 ggsave(glue("../figures/{org_short}_ttg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+
 ## Cogs in non-canons per assembly
 assembly_list <- unique(summary_rows$p_c_unity)
 cog_list <- colnames(cog_columns_all)
 
 smth <- nrow(subset(summary_rows, p_c_unity==0 & S==1 & start_codone!="ATG"))/nrow(subset(summary_rows, p_c_unity==0 & S==1))
 
-
-# Length of non-uniform ####
-## Are there any difference between uniform and non-uniform length diff into ortorologus rows
-# normalised_median_deviation <- function(vector){
-#   med = median(vector)
-#   square_distances = sapply(vector, function(x) (med - x)**2)
-#   result = ((sum(square_distances)/(length(vector - 1)))**(1/2))/med
-#   return(result)
-# }
-# 
-# # Choosing non-uniform genes
-# non_unif_summary_rows <- summary_rows %>% 
-#   filter(uniformity == "different")
-# 
-# # Counting mdn
-# non_uni <- non_unif_summary_rows %>% 
-#   group_by(ortologus_row) %>% 
-#   summarise(max_length=max(length),
-#             med_length=median(length),
-#             mdn=normalised_median_deviation(length))
-# View(non_uni)
-# 
-# # Choosing uniform genes
-# unif_summary_rows <- summary_rows %>% 
-#   filter(uniformity == "same", Genes>1)
-# 
-# # Counting mdn
-# 
-# uni <- unif_summary_rows %>% 
-#   group_by(ortologus_row) %>% 
-#   summarise(max_length=max(length),
-#             med_length=median(length),
-#             mdn=normalised_median_deviation(length))
-# View(uni)
-# 
-# shapiro.test(non_uni$mdn)
-# shapiro.test(uni$mdn)
-# # The data is strongly unnormal distributed
-# median(non_uni$mdn)
-# median(uni$mdn)
-# # How many percent of rows have deviation more than 10%
-# length(non_uni$mdn[non_uni$mdn>0.1])/length(non_uni$mdn)
-# length(non_uni$mdn[uni$mdn>0.1])/length(uni$mdn)
-# # How many percent of rows haven't deviation
-# length(non_uni$mdn[non_uni$mdn==0])/length(non_uni$mdn)
-# length(non_uni$mdn[uni$mdn==0])/length(uni$mdn)
-# # Formal test
-# wilcox.test(non_uni$mdn, uni$mdn)
-# 
-# ## Is removing of short sequences removed diversity too?
-# pre_non <- non_unif_summary_rows %>% 
-#   group_by(ortologus_row) %>% 
-#   summarise(max_codon=(max(table(start_codone))/sum(table(start_codone))),
-#             codone_name_pre=names(table(start_codone))[which.max(table(start_codone))])
-# post_non <- non_unif_summary_rows %>%
-#   group_by(ortologus_row) %>%
-#   filter(length>=median(length)) %>% 
-#   summarise(max_codon=(max(table(start_codone))/sum(table(start_codone))),
-#             codone_name_post=names(table(start_codone))[which.max(table(start_codone))])
-# diversity_changing <- left_join(pre_non, post_non, by="ortologus_row") %>% 
-#   mutate(difference=max_codon.y-max_codon.x) %>% 
-#   mutate(codone_differs=ifelse(codone_name_pre==codone_name_post, "No", "Yes"))
-# 
-# 
-# # Alternative start-codons
-# 
-# ## Changing in length after new alignment
-# # Choosing non-uniform genes
-# non_unif_summary_rows <- summary_rows %>% 
-#   filter(uniformity == "different")
-# 
-# # Counting mdn
-# non_uni <- non_unif_summary_rows %>% 
-#   group_by(ortologus_row) %>% 
-#   summarise(max_length_before=max(length),
-#             med_length_before=median(length),
-#             mdn_before=normalised_median_deviation(length),
-#             max_length_after=max(new_length),
-#             med_length_after=median(new_length),
-#             mdn_after=normalised_median_deviation(new_length),
-#             mdn_change=mdn_before-mdn_after)
-# View(non_uni)
-# 
-# # Comparing maximal frequent start-codons per row before and after length increasing, and after correcting
-# pre_post_corr_non <- non_unif_summary_rows %>% 
-#   group_by(ortologus_row) %>% 
-#   summarise(max_codon_pre=(max(table(start_codone))/sum(table(start_codone))),
-#             codone_name_pre=names(table(start_codone))[which.max(table(start_codone))],
-#             max_codon_post=(max(table(new_sc))/sum(table(new_sc))),
-#             codone_name_post=names(table(new_sc))[which.max(table(new_sc))],
-#             max_codon_corr=(max(table(new_sc_c))/sum(table(new_sc_c))),
-#             codone_name_corr=names(table(new_sc_c))[which.max(table(new_sc_c))],
-#             change_pre_post=max_codon_post-max_codon_pre,
-#             change_pre_corr=max_codon_corr-max_codon_pre,
-#             is_diff_pre_post=(codone_name_pre!=codone_name_post),
-#             is_diff_pre_corr=(codone_name_pre!=codone_name_corr))
-# View(pre_post_corr_non)
-# 
-# ggplot(summary_rows)+
-#   geom_histogram(aes(x=delta), binwidth = 50)
-# 
 # Gene group proportion visualisation
 prop_gene_group <- start_codons2 %>% 
   group_by(gene_group, start_type) %>%
@@ -578,11 +424,10 @@ ggsave(glue("../figures/{org_short}_or_bar_rel.png"),  width = 30, height = 20, 
 
 half_blood_gene <- summary_rows %>%
   filter(ortologus_row==297)
-#half_blood_gene$product
 
 
-# Lera ####  
-# Сделать нормальные подписи и прочие украшательства
+# Additional statistics ####  
+
 distr_scs_common = as.data.frame(table(summary_rows$start_codone))
 genes_col_abs <- ggplot(distr_scs_common, aes(x=Var1, y=Freq, fill=Var1))+
   geom_bar(stat="identity")
@@ -605,51 +450,51 @@ U_curve_wod <- ggplot(start_codons2, aes(x=Species, fill=scs_perrow))+
         axis.title=element_text(size=24,face="bold"))
 ggsave(glue("../figures/{org_short}_UC_wod.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
-cog_abs_nc <- summary_rows %>%    # Сколько и каких когов (абс) у неканоник
+cog_abs_nc <- summary_rows %>%    # COG number and types (abs) in non-canonical SCs
   filter(start_codone != "ATG") %>% 
   select(S:L) %>% 
   summarise_all(sum)
 
-cog_perc_nc <- summary_rows %>%    # Сколько и каких когов (%) у неканоник
+cog_perc_nc <- summary_rows %>%    # COG number and types (%) in non-canonical SCs
   filter(start_codone != "ATG") %>% 
   select(S:L) %>% 
   summarise_all(mean)
 
-cog_abs_atg <- summary_rows %>%         # Сколько и каких когов (абс) у каноник
+cog_abs_atg <- summary_rows %>%         # COG number and types (abs) in canonical SCs
   filter(start_codone == "ATG") %>% 
   select(S:L) %>% 
   summarise_all(sum)   
 
-cog_perc_atg <- summary_rows %>%         # Сколько и каких когов (%) у каноник
+cog_perc_atg <- summary_rows %>%         # COG number and types (%) in canonical SCs
   filter(start_codone == "ATG") %>% 
   select(S:L) %>% 
   summarise_all(mean)  
 
-cog_abs_gtg <- summary_rows %>%         # Сколько и каких когов (абс) у GTG
+cog_abs_gtg <- summary_rows %>%         # COG number and types (abs) in GTG
   filter(start_codone == "GTG") %>% 
   select(S:L) %>% 
   summarise_all(sum)   
 
-cog_perc_gtg <- summary_rows %>%         # Сколько и каких когов (%) у GTG
+cog_perc_gtg <- summary_rows %>%         # COG number and types (%) in GTG
   filter(start_codone == "GTG") %>% 
   select(S:L) %>% 
   summarise_all(mean)  
 
-cog_abs_ttg <- summary_rows %>%         # Сколько и каких когов (абс) у TTG
+cog_abs_ttg <- summary_rows %>%         # COG number and types (abs) in TTG
   filter(start_codone == "TTG") %>% 
   select(S:L) %>% 
   summarise_all(sum)   
 
-cog_perc_ttg <- summary_rows %>%         # Сколько и каких когов (%) у TTG
+cog_perc_ttg <- summary_rows %>%         # COG number and types (%) in TTG
   filter(start_codone == "TTG") %>% 
   select(S:L) %>% 
   summarise_all(mean)  
 
-cog_abs_all <- summary_rows %>%         # Сколько и каких когов (абс) у всех
+cog_abs_all <- summary_rows %>%         # COG number and types (abs) in all SCs
   select(S:L) %>% 
   summarise_all(sum)   
 
-cog_perc_all <- summary_rows %>%         # Сколько и каких когов (%) у всех
+cog_perc_all <- summary_rows %>%         # COG number and types (%) in all SCs
   select(S:L) %>% 
   summarise_all(mean)
 
@@ -677,7 +522,7 @@ rows_numbers <- start_codons2 %>%
   filter(Species >= Genes) %>% 
   nrow
 
-# Lavrenty idea ####
+# Formal test for evaluating COG-SC interactions ####
 
 ass_cog_atg <- summary_rows %>% 
   filter(start_codone == "ATG") %>% 

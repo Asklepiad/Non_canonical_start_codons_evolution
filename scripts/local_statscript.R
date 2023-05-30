@@ -1,17 +1,6 @@
 #!/usr/bin/Rscript --vanilla
 print(getwd())
 
-#install.packages("ggplot2",repos = "http://cran.us.r-project.org")
-#install.packages("dplyr",repos = "http://cran.us.r-project.org")
-#install.packages("fastR2",repos = "http://cran.us.r-project.org")
-#install.packages("gmodels",repos = "http://cran.us.r-project.org")
-#install.packages("stringr",repos = "http://cran.us.r-project.org")
-#install.packages("argparser",repos = "http://cran.us.r-project.org")
-#install.packages("glue",repos = "http://cran.us.r-project.org")
-#install.packages("reshape2",repos = "http://cran.us.r-project.org")
-#install.packages("car",repos = "http://cran.us.r-project.org")
-#install.packages("hash",repos = "http://cran.us.r-project.org")
-
 package_installer <- function(package){
   if (!require(package, character.only=T, quietly=T)) {
     install.packages(package, repos = "http://cran.us.r-project.org")
@@ -30,16 +19,6 @@ lapply(c("ggplot2",
          "hash",
          "readr"), package_installer)
 
-library(ggplot2)
-library(car)
-library(gmodels)
-library(stringr)
-library(argparser)
-library(glue)
-library(reshape2)
-library(dplyr)
-library(fastR2)
-library(hash)
 
 #parser <- arg_parser("Takes folder name")
 #parser <- add_argument(parser, arg="org_short", type="character", help="Folder name (short organism name)")
@@ -635,8 +614,8 @@ half_blood_gene <- summary_rows %>%
 #half_blood_gene$product
 
 
-# Lera ####  
-# Сделать нормальные подписи и прочие украшательства
+# Additional statistics ####  
+
 distr_scs_common = as.data.frame(table(summary_rows$start_codone))
 genes_col_abs <- ggplot(distr_scs_common, aes(x=Var1, y=Freq, fill=Var1))+
   geom_bar(stat="identity")+
@@ -746,7 +725,7 @@ rows_numbers <- start_codons2 %>%
   filter(Species >= Genes) %>% 
   nrow
 
-# Lavrenty idea ####
+# Formal test for evaluating COG-SC interactions ####
 
 ass_cog_atg <- summary_rows %>% 
   filter(start_codone == "ATG") %>% 
