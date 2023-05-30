@@ -168,19 +168,27 @@ Computes different statistics, creates figures and a short report.
 
 > Output. 
 
-1. Short report with statistical data about bacteria: number of genes and ORs, distributions of SCs, proportion of each SCs, SC-cog relationships, data about pangenome fractions distribution for each type of SCs, uniformity of the ORs.
-2. Csv table with data of gene number with each SC in each assembly. On the next stage of analysis these table from all species of interest will be used in common boxplot creation.
-3. Non-canonical genes' products' list.
-4. Csv table with data about genes' COGs distribution.
-5. Csv table with proporions of each COG in all SCs with confident intervals (CI).
-6. Csv table with number of each COG-SC pair (except genes with unknown function).
-7. Csv table with data about number and percent of SCs.
-8. Csv table with information about statistical difference between SCs realtive proportions for given COG.
+1. `<organism>_statistical_short_report.txt` Short report with statistical data about bacteria: number of genes and ORs, distributions of SCs, proportion of each SCs, SC-cog relationships, data about pangenome fractions distribution for each type of SCs, uniformity of the ORs.
+2. `<organism>_for_common_boxplot.csv` Csv table with data of gene number with each SC in each assembly. On the next stage of analysis these table from all species of interest will be used in common boxplot creation.
+3. `<organism>_noncanonic_products.csv` Non-canonical genes' products' list.
+4. `<organism>_C_psittaci_COG_precomputed.csv` Csv table with data about genes' COGs distribution.
+5. `<organism>_C_psittaci_COG_start.csv` Csv table with proporions of each COG in all SCs with confident intervals (CI).
+6. `<organism>_cogs.csv` Csv table with number of each COG-SC pair (except genes with unknown function).
+7. `<organism>_cog_stat_per_sc.csv` Csv table with data about number and percent of SCs.
+8. `<organism>_cog_sc_mwu.csv` Csv table with information about statistical difference between SCs realtive proportions for given COG.
 9. Figures and plots.
 
 > Detailed description.
 
+Script used information from tables about genes (`summary_rows_prokka.csv`) and ORs (`start_codons2_prokka.csv`) in the folder of the appropriate organism.
 
+On the next stage script computes pangenome statistics (proportion of core, shell and cloud), connections between SCs, uniformity of the ORs and pangenome fractions.
+
+Then script creates gene frequency spectrum, draws boxplots and violinplots. In addition script creates errorbars for relationship between SCs and pangenome fractions, and between SCs and COGs. Script also draws barplots, boxplots, spectrs and other visualisations of the data.
+
+After this computations script evaluates proportions of COGs with different grouping variables, frequencies of ortologous rows with given number of genes with given SC. Then script computes if SCs relative proportion in one COG is different in different types of SCs.
+
+And as a final accord, script creates short statistical report about an organism.
 
 #### ```muscle_align6.sh``` or ```prank_align6.sh```
 > Short description. 
@@ -306,6 +314,10 @@ Then a dictionary is created, where the key is the name of the bacterium, and th
 Bacteria from group 1 (with more than 100 whole genome assemblies) are run through the PanACoTA pipeline to filter out related assemblies using the Mash genetic distance. Then, if there are less than 100 strains left after filtering, the script downloads data for all filtered assemblies; if more than 100 strains are left after filtering, the script downloads 100 random filtered assemblies.
 
 As a result the script returns a json file with lists of required amount Taxonomy IDs in NCBI for each bacterium.
+
+#### ```local_statscript.R```
+
+Script is basically equal to server version `Statscript.R` The difference is script created for running in RStudio and has another way for installing dependecies. In addition, it doesn't takes variables a-la argparse mode - the name of bacteria needs to be explicitely passed into the text of script.
 
 ## Notebooks
 
