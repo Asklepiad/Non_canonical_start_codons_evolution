@@ -317,9 +317,11 @@ As a result the script returns a json file with lists of required amount Taxonom
 
 #### ```local_statscript.R```
 
-Script is basically equal to server version `Statscript.R` The difference is script created for running in RStudio and has another way for installing dependecies. In addition, it doesn't takes variables a-la argparse mode - the name of bacteria needs to be explicitely passed into the text of script.
+Script is basically equal to server version [`Statscript.R`](https://github.com/Asklepiad/BI_project_2022/tree/main/scripts#statscriptr). The difference is script created for running in RStudio and has another way for installing dependecies. In addition, it doesn't takes variables a-la argparse mode - the name of bacteria needs to be explicitely passed into the text of script.
 
 ## Notebooks
+
+Some parts of pipeline may be runned from jupyter-notebooks. Functionality is equal to corresponding scripts, except there is no argparse functionality in notebooks (user need to print variables manually) and there are slightly another ways used.
 
 #### ```Organisms_parsing02.ipynb```
 
