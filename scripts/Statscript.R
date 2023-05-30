@@ -165,44 +165,40 @@ common_tables <- lapply(pc_levels, function(x) prop.table(table(subset(summary_r
 common_atg <- sapply(common_tables, function(x) x["ATG"])
 common_gtg <- sapply(common_tables, function(x) x["GTG"])
 common_ttg <- sapply(common_tables, function(x) x["TTG"])
-###common_other <- sapply(common_tables, function(x) x["Other"])
+
 common_atg_stats <- c(mean(common_atg, na.rm=T), mean(common_atg, na.rm=T)-1.96*se(common_atg), mean(common_atg, na.rm=T)+1.96*se(common_atg))
 common_gtg_stats <- c(mean(common_gtg, na.rm=T), mean(common_gtg, na.rm=T)-1.96*se(common_gtg), mean(common_gtg, na.rm=T)+1.96*se(common_gtg))
 common_ttg_stats <- c(mean(common_ttg, na.rm=T), mean(common_ttg, na.rm=T)-1.96*se(common_ttg), mean(common_ttg, na.rm=T)+1.96*se(common_ttg))
-###common_other_stats <- c(mean(common_other, na.rm=T), mean(common_other, na.rm=T)-1.96*se(common_other), mean(common_other, na.rm=T)+1.96*se(common_other))
 
 # core data
 core_tables <- lapply(pc_levels, function(x) prop.table(table(subset(summary_rows, p_c_unity==x & gene_group=="core")$start_codone)))
 core_atg <- sapply(core_tables, function(x) x["ATG"])
 core_gtg <- sapply(core_tables, function(x) x["GTG"])
 core_ttg <- sapply(core_tables, function(x) x["TTG"])
-###core_other <- sapply(core_tables, function(x) x["Other"])
+
 core_atg_stats <- c(mean(core_atg, na.rm=T), mean(core_atg, na.rm=T)-1.96*se(core_atg), mean(core_atg, na.rm=T)+1.96*se(core_atg))
 core_gtg_stats <- c(mean(core_gtg, na.rm=T), mean(core_gtg, na.rm=T)-1.96*se(core_gtg), mean(core_gtg, na.rm=T)+1.96*se(core_gtg))
 core_ttg_stats <- c(mean(core_ttg, na.rm=T), mean(core_ttg, na.rm=T)-1.96*se(core_ttg), mean(core_ttg, na.rm=T)+1.96*se(core_ttg))
-###core_other_stats <- c(mean(core_other, na.rm=T), mean(core_other, na.rm=T)-1.96*se(core_other), mean(core_other, na.rm=T)+1.96*se(core_other))
 
 # shell data
 shell_tables <- lapply(pc_levels, function(x) prop.table(table(subset(summary_rows, p_c_unity==x & gene_group=="shell")$start_codone)))
 shell_atg <- sapply(shell_tables, function(x) x["ATG"])
 shell_gtg <- sapply(shell_tables, function(x) x["GTG"])
 shell_ttg <- sapply(shell_tables, function(x) x["TTG"])
-###shell_other <- sapply(shell_tables, function(x) x["Other"])
+
 shell_atg_stats <- c(mean(shell_atg, na.rm=T), mean(shell_atg, na.rm=T)-1.96*se(shell_atg), mean(shell_atg, na.rm=T)+1.96*se(shell_atg))
 shell_gtg_stats <- c(mean(shell_gtg, na.rm=T), mean(shell_gtg, na.rm=T)-1.96*se(shell_gtg), mean(shell_gtg, na.rm=T)+1.96*se(shell_gtg))
 shell_ttg_stats <- c(mean(shell_ttg, na.rm=T), mean(shell_ttg, na.rm=T)-1.96*se(shell_ttg), mean(shell_ttg, na.rm=T)+1.96*se(shell_ttg))
-###shell_other_stats <- c(mean(shell_other, na.rm=T), mean(shell_other, na.rm=T)-1.96*se(shell_other), mean(shell_other, na.rm=T)+1.96*se(shell_other))
 
 # cloud data
 cloud_tables <- lapply(pc_levels, function(x) prop.table(table(subset(summary_rows, p_c_unity==x & gene_group=="cloud")$start_codone)))
 cloud_atg <- sapply(cloud_tables, function(x) x["ATG"])
 cloud_gtg <- sapply(cloud_tables, function(x) x["GTG"])
 cloud_ttg <- sapply(cloud_tables, function(x) x["TTG"])
-###cloud_other <- sapply(cloud_tables, function(x) x["Other"])
+
 cloud_atg_stats <- c(mean(cloud_atg, na.rm=T), mean(cloud_atg, na.rm=T)-1.96*se(cloud_atg), mean(cloud_atg, na.rm=T)+1.96*se(cloud_atg))
 cloud_gtg_stats <- c(mean(cloud_gtg, na.rm=T), mean(cloud_gtg, na.rm=T)-1.96*se(cloud_gtg), mean(cloud_gtg, na.rm=T)+1.96*se(cloud_gtg))
 cloud_ttg_stats <- c(mean(cloud_ttg, na.rm=T), mean(cloud_ttg, na.rm=T)-1.96*se(cloud_ttg), mean(cloud_ttg, na.rm=T)+1.96*se(cloud_ttg))
-###cloud_other_stats <- c(mean(cloud_other, na.rm=T), mean(cloud_other, na.rm=T)-1.96*se(cloud_other), mean(cloud_other, na.rm=T)+1.96*se(cloud_other))
 
 # Visualizing cshc vs scs ####
 error_bar_df <- as.data.frame(rbind(common_atg_stats, common_gtg_stats, 
@@ -248,10 +244,8 @@ unif_nc_table <- table(unif_nc$product)   # List of the genes with uniform non-c
 
 list_ncs <- unique(as.data.frame(unif_nc_table))
 write.csv(list_ncs, glue("./{org_short}_noncanonic_products.csv"))
-write.csv(list_ncs, glue("./{org_short}_noncanonic_products.csv"))
 
 # COG statistics ####
-# hash
 cog_hash <- hash()
 cog_abbreviations <- LETTERS
 cog_descriptions <- c("rna_proc_and_mod", "chromatin", "energy", "cell_cycle", 
@@ -452,50 +446,60 @@ ggsave(glue("../figures/{org_short}_UC_wod.png"),  width = 30, height = 20, unit
 
 cog_abs_nc <- summary_rows %>%    # COG number and types (abs) in non-canonical SCs
   filter(start_codone != "ATG") %>% 
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(sum)
 
 cog_perc_nc <- summary_rows %>%    # COG number and types (%) in non-canonical SCs
   filter(start_codone != "ATG") %>% 
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(mean)
 
 cog_abs_atg <- summary_rows %>%         # COG number and types (abs) in canonical SCs
   filter(start_codone == "ATG") %>% 
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(sum)   
 
 cog_perc_atg <- summary_rows %>%         # COG number and types (%) in canonical SCs
   filter(start_codone == "ATG") %>% 
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(mean)  
 
 cog_abs_gtg <- summary_rows %>%         # COG number and types (abs) in GTG
   filter(start_codone == "GTG") %>% 
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(sum)   
 
 cog_perc_gtg <- summary_rows %>%         # COG number and types (%) in GTG
   filter(start_codone == "GTG") %>% 
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(mean)  
 
 cog_abs_ttg <- summary_rows %>%         # COG number and types (abs) in TTG
   filter(start_codone == "TTG") %>% 
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(sum)   
 
 cog_perc_ttg <- summary_rows %>%         # COG number and types (%) in TTG
   filter(start_codone == "TTG") %>% 
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(mean)  
 
 cog_abs_all <- summary_rows %>%         # COG number and types (abs) in all SCs
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(sum)   
 
 cog_perc_all <- summary_rows %>%         # COG number and types (%) in all SCs
-  select(S:L) %>% 
+  select(length:ortologus_row) %>% 
+  select(2:(ncol(.)-1)) %>% 
   summarise_all(mean)
 
 cog_abs_perc <- as.data.frame(rbind(cog_abs_nc, cog_perc_nc, cog_abs_atg, cog_perc_atg, 
@@ -507,12 +511,12 @@ rownames(cog_abs_perc) <- c("cog_abs_nc", "cog_perc_nc", "cog_abs_atg", "cog_per
 cog_abs_perc <- t(cog_abs_perc)
 write.csv(cog_abs_perc, glue("./{org_short}_cog_stat_per_sc.csv"))
 
-have_cogs_absolute <- summary_rows %>%         # Сколько генов с когом S
+have_cogs_absolute <- summary_rows %>%         # Number of genes without known function
   select(S) %>% 
   table()
 names(have_cogs_absolute) <- c("Have cogs", "Haven't cogs")
 
-rows_wcogs <- summary_rows %>%    # Число рядов, которым не приписалось ни одного кога
+rows_wcogs <- summary_rows %>%    # Number of ortologous rows without cogs
   group_by(ortologus_row) %>% 
   summarise("cognot" = sum(S)/n()) %>% 
   filter(cognot == 1) %>% 
