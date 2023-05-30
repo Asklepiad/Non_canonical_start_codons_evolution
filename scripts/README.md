@@ -321,16 +321,4 @@ Script is basically equal to server version [`Statscript.R`](https://github.com/
 
 ## Notebooks
 
-Some parts of pipeline may be runned from jupyter-notebooks. Functionality is equal to corresponding scripts, except there is no argparse functionality in notebooks (user need to print variables manually) and there are slightly another ways used.
-
-#### ```Organisms_parsing02.ipynb```
-
-#### ```Parsing_NCBI_1.ipynb```
-
-#### ```First_table_creating3.ipynb```
-
-#### ```Muscle_preparing_5.ipynb```
-
-#### ```Parsing_NCBI_1.ipynb```
-
-#### ```Ete3_maker_10.ipynb```
+Some parts of pipeline may be runned from jupyter-notebooks. Functionality is equal to corresponding scripts, except there is no argparse functionality in notebooks (user need to print variables manually) and there are slightly another ways used. Detailed information about functionality, input and output may be found in the appropriate sections for py scripts [```Organisms_parsing02.ipynb```](), [```Parsing_NCBI_1.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#parsing_NCBI_1py), [```First_table_creating3.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#first_table_creating3py), [```Muscle_preparing_5.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#muscle_preparing_5py), [```Ete3_maker_10.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#ete3_maker_10py).
