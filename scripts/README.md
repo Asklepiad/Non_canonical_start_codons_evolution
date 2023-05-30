@@ -164,9 +164,22 @@ Computes different statistics, creates figures and a short report.
 
 > Input. 
 
+1. Short name of the bacteria
+
 > Output. 
 
+1. Short report with statistical data about bacteria: number of genes and ORs, distributions of SCs, proportion of each SCs, SC-cog relationships, data about pangenome fractions distribution for each type of SCs, uniformity of the ORs.
+2. Csv table with data of gene number with each SC in each assembly. On the next stage of analysis these table from all species of interest will be used in common boxplot creation.
+3. Non-canonical genes' products' list.
+4. Csv table with data about genes' COGs distribution.
+5. Csv table with proporions of each COG in all SCs with confident intervals (CI).
+6. Csv table with number of each COG-SC pair (except genes with unknown function).
+7. Csv table with data about number and percent of SCs.
+8. Csv table with information about statistical difference between SCs realtive proportions for given COG.
+9. Figures and plots.
+
 > Detailed description.
+
 
 
 #### ```muscle_align6.sh``` or ```prank_align6.sh```
