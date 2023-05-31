@@ -318,24 +318,24 @@ As a result the script returns a json file with lists of required amount Taxonom
 
 #### ```Organisms_parsing02.py```
 
-> Short description. 
+> Description. 
+
+Script parsed json file with data about each organism of interest and its links to assemblies in NCBI. The script is half-additional, because it is a necessary part of `json.sh` pipeline, but unnecessary of `folder_creators`.
 
 > Input. 
 
+1. Path to json file with assembly links for each bacteria.
+
 > Output. 
 
-> Detailed description.
+1. Creates `jsons` folder in the `../data/` directory and creates single json files for each bacteria from input json in it.
 
 
 #### ```environments_script_01.sh```
 
-> Short description. 
+> Description. 
 
-> Input. 
-
-> Output. 
-
-> Detailed description.
+Script creates environments on server or local machine with conda. It is helpful for reproducibility, because script downloads exactly those tools version, which were used in original investigation.
 
 
 #### ```local_statscript.R```
