@@ -315,9 +315,42 @@ Bacteria from group 1 (with more than 100 whole genome assemblies) are run throu
 
 As a result the script returns a json file with lists of required amount Taxonomy IDs in NCBI for each bacterium.
 
+
+#### ```Organisms_parsing02.py```
+
+> Short description. 
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
+
+#### ```environments_script_01.sh```
+
+> Short description. 
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
+
+
 #### ```local_statscript.R```
 
 Script is basically equal to server version [`Statscript.R`](https://github.com/Asklepiad/BI_project_2022/tree/main/scripts#statscriptr). The difference is script created for running in RStudio and has another way for installing dependecies. In addition, it doesn't takes variables a-la argparse mode - the name of bacteria needs to be explicitely passed into the text of script.
+
+#### ```environments_script_01.sh```
+
+> Short description. 
+
+> Input. 
+
+> Output. 
+
+> Detailed description.
 
 ## Notebooks
 
