@@ -342,15 +342,23 @@ As a result the script returns a json file with lists of required amount Taxonom
 
 Script is basically equal to server version [`Statscript.R`](https://github.com/Asklepiad/BI_project_2022/tree/main/scripts#statscriptr). The difference is script created for running in RStudio and has another way for installing dependecies. In addition, it doesn't takes variables a-la argparse mode - the name of bacteria needs to be explicitely passed into the text of script.
 
-#### ```environments_script_01.sh```
+#### ```common_statistics.R```
 
-> Short description. 
+> Description. 
+
+Computes statistics by all dataset of bacterias. Draws barplots and boxplots which rebuts SCs distribution between bacterial species.
 
 > Input. 
 
+1. Path to folder with data about all organisms bolxplots.
+2. Path to folder with shortened data about ortologous rows of all organisms.
+3. List of bacterias' name.
+
 > Output. 
 
-> Detailed description.
+1. `barplot_common_2scs.png` - barplot with proportions of GTG and TTG SCs. Bars grouped by phylogeny.
+2. `barplot_common_2scs_size.png"` - barplot with proportions of GTG and TTG SCs. Bars grouped by genome size.
+3. `boxplot_common_2scs.png` - boxplot with data about number of different SCs in assemblies of different organisms.
 
 ## Notebooks
 
