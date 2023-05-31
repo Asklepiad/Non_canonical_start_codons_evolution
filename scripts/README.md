@@ -273,13 +273,13 @@ The script analyzes all alignments and displays lists of assemblies in which a l
 
 > Input. 
 
-Path to alignments.
+1. Path to alignments.
 
 > Output. 
 
 2 lists: 
-* a list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had gaps at the beginning;
-* a list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had a minor start codon in relation to the majority.
+1. A list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had gaps at the beginning;
+2. A list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had a minor start codon in relation to the majority.
 
 > Detailed description.
 
@@ -296,11 +296,12 @@ The script checks the number of available complete genome and scaffold assemblie
 
 > Input. 
 
-List of bacteria and your mail in NCBI.
+1. List of bacteria.
+2. Your mail in NCBI.
 
 > Output. 
 
-Json file ("id_lists.json") with lists of assemblies ID's for each bacterium.
+1. Json file ("id_lists.json") with lists of assemblies ID's for each bacterium.
 
 > Detailed description.
 
