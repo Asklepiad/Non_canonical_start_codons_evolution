@@ -266,7 +266,7 @@ Draws phylogenetic trees. Each ATG-related genes has red color, GTG-related - ha
 
 ## Additional scripts
 
-#### ```check_strains.py```
+#### ```Check_strains_04.py```
 > Short description. 
 
 The script analyzes all alignments and displays lists of assemblies in which a large number of genes, when aligned within orthologous rows, had gaps at the beginning and had a minor start codon in relation to the majority.
@@ -289,7 +289,7 @@ After this, the function creates the dataframe, where for each strain, in additi
 We have established a threshold: assemblies whose percentage of genes with gaps at the beginning and genes with minor start codons is higher than the median plus 2 standard deviation are written to a separate list that is printed when the function is executed, and subsequently excluded from the analysis (as they are classified by us as low-quality assemblies). 
 Also, when the function is executed, 2 graphs of the distribution of the percentage of genes with gaps at the beginning and the percentage of genes with minor start codons for each strain are drawn.
 
-#### ```download_strains.py```
+#### ```Download_strains_03.py```
 > Short description. 
 
 The script checks the number of available complete genome and scaffold assemblies for the input organisms, filters the assemblies if necessary using the PanACoTA pipeline, and saves the json file, where each bacterium corresponds to a list of assembly IDs.
