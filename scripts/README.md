@@ -38,6 +38,12 @@
 
 ## Master scripts
 
+There are two modes of pipeline working:
+
+- You can start pipeline from parsing "big" json file, which is output of `Download_strains_03.py`. Then you will serially run the pipeline on each bacteria from json. You need to use `json.sh` script for it.
+**Вставить картинку и пример команды**
+- On another way, you may run pipeline on one given bacteria. It may be realized by running `folder_creators_server0.sh`.
+
 ## Parts of pipeline
 
 #### ```Parsing_NCBI_1.py```
