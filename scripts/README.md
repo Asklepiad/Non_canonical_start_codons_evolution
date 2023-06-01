@@ -38,6 +38,12 @@
 
 ## Master scripts
 
+There are two modes of pipeline working:
+
+- You can start pipeline from parsing "big" json file, which is output of `Download_strains_03.py`. Then you will serially run the pipeline on each bacteria from json. You need to use `json.sh` script for it.
+**Вставить картинку и пример команды**
+- On another way, you may run pipeline on one given bacteria. It may be realized by running `folder_creators_server0.sh`.
+
 ## Parts of pipeline
 
 #### ```Parsing_NCBI_1.py```
@@ -266,20 +272,20 @@ Draws phylogenetic trees. Each ATG-related genes has red color, GTG-related - ha
 
 ## Additional scripts
 
-#### ```check_strains.py```
+#### ```Check_strains_04.py```
 > Short description. 
 
 The script analyzes all alignments and displays lists of assemblies in which a large number of genes, when aligned within orthologous rows, had gaps at the beginning and had a minor start codon in relation to the majority.
 
 > Input. 
 
-Path to alignments.
+1. Path to alignments.
 
 > Output. 
 
 2 lists: 
-* a list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had gaps at the beginning;
-* a list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had a minor start codon in relation to the majority.
+1. A list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had gaps at the beginning;
+2. A list with the names of assemblies in which a large number of genes, when aligned within orthologous rows, had a minor start codon in relation to the majority.
 
 > Detailed description.
 
@@ -289,18 +295,19 @@ After this, the function creates the dataframe, where for each strain, in additi
 We have established a threshold: assemblies whose percentage of genes with gaps at the beginning and genes with minor start codons is higher than the median plus 2 standard deviation are written to a separate list that is printed when the function is executed, and subsequently excluded from the analysis (as they are classified by us as low-quality assemblies). 
 Also, when the function is executed, 2 graphs of the distribution of the percentage of genes with gaps at the beginning and the percentage of genes with minor start codons for each strain are drawn.
 
-#### ```download_strains.py```
+#### ```Download_strains_03.py```
 > Short description. 
 
 The script checks the number of available complete genome and scaffold assemblies for the input organisms, filters the assemblies if necessary using the PanACoTA pipeline, and saves the json file, where each bacterium corresponds to a list of assembly IDs.
 
 > Input. 
 
-List of bacteria and your mail in NCBI.
+1. List of bacteria.
+2. Your mail in NCBI.
 
 > Output. 
 
-Json file ("id_lists.json") with lists of assemblies ID's for each bacterium.
+1. Json file ("id_lists.json") with lists of assemblies ID's for each bacterium.
 
 > Detailed description.
 
@@ -315,9 +322,50 @@ Bacteria from group 1 (with more than 100 whole genome assemblies) are run throu
 
 As a result the script returns a json file with lists of required amount Taxonomy IDs in NCBI for each bacterium.
 
+
+#### ```Organisms_parsing02.py```
+
+> Description. 
+
+Script parsed json file with data about each organism of interest and its links to assemblies in NCBI. The script is half-additional, because it is a necessary part of `json.sh` pipeline, but unnecessary of `folder_creators`.
+
+> Input. 
+
+1. Path to json file with assembly links for each bacteria.
+
+> Output. 
+
+1. Creates `jsons` folder in the `../data/` directory and creates single json files for each bacteria from input json in it.
+
+
+#### ```environments_script_01.sh```
+
+> Description. 
+
+Script creates environments on server or local machine with conda. It is helpful for reproducibility, because script downloads exactly those tools version, which were used in original investigation.
+
+
 #### ```local_statscript.R```
 
 Script is basically equal to server version [`Statscript.R`](https://github.com/Asklepiad/BI_project_2022/tree/main/scripts#statscriptr). The difference is script created for running in RStudio and has another way for installing dependecies. In addition, it doesn't takes variables a-la argparse mode - the name of bacteria needs to be explicitely passed into the text of script.
+
+#### ```common_statistics.R```
+
+> Description. 
+
+Computes statistics by all dataset of bacterias. Draws barplots and boxplots which rebuts SCs distribution between bacterial species.
+
+> Input. 
+
+1. Path to folder with data about all organisms bolxplots.
+2. Path to folder with shortened data about ortologous rows of all organisms.
+3. List of bacterias' name.
+
+> Output. 
+
+1. `barplot_common_2scs.png` - barplot with proportions of GTG and TTG SCs. Bars grouped by phylogeny.
+2. `barplot_common_2scs_size.png"` - barplot with proportions of GTG and TTG SCs. Bars grouped by genome size.
+3. `boxplot_common_2scs.png` - boxplot with data about number of different SCs in assemblies of different organisms.
 
 ## Notebooks
 

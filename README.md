@@ -103,15 +103,15 @@ There are two master scripts in the pipeline for two modes of computing.
 
 ##### Additional scripts
 
-- ```check_strains.py``` finds "bad" assemblies with many genes in ortologous rows with gaps on start positions. The script will be implemented in the extended version of the pipeline, as part of the "believer" module.
+- ```Check_strains_04.py``` finds "bad" assemblies with many genes in ortologous rows with gaps on start positions. The script will be implemented in the extended version of the pipeline, as part of the "believer" module.
 
-- ```download_strains_before.py``` downloads genomes from NCBI, dividing organisms by the number of assemblies. The script's work's result is an input for a PanACoTa pipeline which excludes evolutionary close organisms. You can read more about PanACoTA on [its github](https://github.com/gem-pasteur/PanACoTA).
-
-- ```download_strains_after.py``` processed an output of the PanACoTA pipeline, returns json file with a dictionary, where the key is bacteria's name, and value is a list of links.
+- ```Download_strains_03.py``` downloads genomes from NCBI, dividing organisms by the number of assemblies. The script's work's result is an input for a PanACoTa pipeline which excludes evolutionary close organisms. You can read more about PanACoTA on [its github](https://github.com/gem-pasteur/PanACoTA). Then script processed an output of the PanACoTA pipeline, returns json file with a dictionary, where the key is bacteria's name, and value is a list of links.
 
 - ```environments_script_01.sh``` creates conda virtual environments. If you want to use another virtual environment, or want to set them manually, or run all programmes from the base conda environment (we highly recommend not to do that), you need to rewrite running scripts and environments names in```folder_creators_server0.sh``` .
 
 - ```local_statscript.R```  - local analogue for semi-hand (target organism name must be written handly) computing statistics of ```Statscript.R```. It is convenient to run the script in RStudio.
+
+- ```common_statistics.R``` - computes statistics by all dataset of bacterias. Draws barplots and boxplots which rebuts SCs distribution between bacterial species.
 
 ##### Sbatch scripts
 
