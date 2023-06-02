@@ -5,4 +5,4 @@ The file `file_complete_genomes.json` is the result of the pipeline PanACoTA: ea
 
 The file `id_lists.json` contains information about the assemblies of bacteria selected for analysis: each bacterium corresponds to a list of assembly IDs that were used in the work.
 
-Repository `bigcog` contains files that ...
+Repository `bigcog` contains files with lists of COG IDs for each category.
