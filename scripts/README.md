@@ -107,7 +107,7 @@ conda run -n python_start_codons python3 Parsing_NCBI_1.py "S_ruber.json" "vibri
 
 > Input. 
 
-1. Realtive path to json file, which named equally to organism of interest name's long form (<name_of_bacteria>.json).
+1. Realtive path to json file, which named equally to organism of interest name's short form (<name_of_bacteria>.json).
 2. Your e-mail address.
 
 > Output. 
@@ -217,7 +217,7 @@ You can read more about the Proteinortho tool on [its gitlub](https://gitlab.com
 > Example.
 
 ```bash
-conda run -n python_start_codons python3 Muscle_preparing_5.py "S_ruber"
+conda run -n python_start_codons python3 Muscle_preparing_5.py "S_ruber.json"
 ```
 
 > Short description. 
@@ -226,7 +226,7 @@ Creates two big summary tables about genes and ORs. Writes fasta files from ORs 
 
 > Input. 
 
-1. Path to json file, which named equally to organism of interest name's long form.
+1. Path to json file, which named equally to organism of interest name's short form (<organisms_name>.json).
 
 > Output. 
 
