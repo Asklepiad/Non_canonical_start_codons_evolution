@@ -52,7 +52,7 @@ The more detailed description will be below.
 > Example.
 
 ```bash
-
+./json.sh "../data/id_lists.json" "muscle" 75 "vibrio.choleri.1854@gmail.com" 24
 ```
 
 > Input. 
@@ -73,7 +73,7 @@ In fact results of running are equivalent to `folder_creators_server0.sh`, but f
 > Example.
 
 ```bash
-
+./folder_creators_server0.sh "S_ruber.json" "muscle" 75 "vibrio.choleri.1854@gmail.com" 24
 ```
 
 > Input. 
@@ -98,7 +98,7 @@ Directory, which named equivalently to shortened bacteria name. Contents two sub
 > Example.
 
 ```bash
-
+conda run -n python_start_codons python3 Parsing_NCBI_1.py "S_ruber.json" "vibrio.choleri.1854@gmail.com"
 ```
 
 > Short description. 
@@ -107,7 +107,7 @@ Directory, which named equivalently to shortened bacteria name. Contents two sub
 
 > Input. 
 
-1. Path to json file, which named equally to organism of interest name's long form.
+1. Realtive path to json file, which named equally to organism of interest name's long form (<name_of_bacteria>.json).
 2. Your e-mail address.
 
 > Output. 
@@ -124,7 +124,7 @@ Script finds all links to scaffold and complete genome assemblies, checks them f
 > Example.
 
 ```bash
-
+conda run -n prokka_start_codons ./prokka_annotate2.sh "S_ruber"
 ```
 
 > Short description. 
@@ -157,7 +157,7 @@ You can read more about the Prokka tool on [its github](https://github.com/tseem
 > Example.
 
 ```bash
-
+conda run -n python_start_codons python3 First_table_creating3.py "S_ruber"
 ```
 
 > Short description. 
@@ -184,7 +184,7 @@ In addition script wtites fasta files for each assembly in the `../<organism>/da
 > Example.
 
 ```bash
-
+conda run -n proteinortho_start_codons ./proteinortho_script4.sh "S_ruber" "75"
 ```
 
 > Short description. 
@@ -217,7 +217,7 @@ You can read more about the Proteinortho tool on [its gitlub](https://gitlab.com
 > Example.
 
 ```bash
-
+conda run -n python_start_codons python3 Muscle_preparing_5.py "S_ruber"
 ```
 
 > Short description. 
@@ -249,7 +249,7 @@ Script has some primitive time-logging, which was explored, when we imporoved th
 > Example.
 
 ```bash
-
+conda run -n R_start_codons Rscript Statscript.R "S_ruber"
 ```
 
 > Short description. 
@@ -286,10 +286,14 @@ And as a final accord, script creates short statistical report about an organism
 
 #### ```muscle_align6.sh``` or ```prank_align6.sh```
 
-> Example.
+> Examples.
 
 ```bash
+conda run -n muscle_start_codons ./muscle_align6.sh "S_ruber" "8"
+```
 
+```bash
+conda run -n prank_start_codons ./prank_align6.sh "S_ruber"
 ```
 
 > Short description. 
@@ -315,7 +319,7 @@ You can read more about the MUSCLE and PRANK aligners respectively on the [MUSCL
 > Example.
 
 ```bash
-
+conda run -n modeltest_start_codons ./modeltree_maker7.sh "S_ruber" "muscle"
 ```
 
 > Short description. 
@@ -340,7 +344,7 @@ You can read more about the modeltest-ng tool on [its github](https://github.com
 > Example.
 
 ```bash
-
+conda run -n raxml_start_codons ./raxml_tree8.sh "S_ruber" "muscle" "8"
 ```
 
 > Short description. 
@@ -367,7 +371,7 @@ You can read more about the RAxML-ng tool on [its github](https://github.com/amk
 > Example.
 
 ```bash
-
+conda run -n python_start_codons python3 Ete3_maker_10.py "S_ruber"
 ```
 
 > Short description.
