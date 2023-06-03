@@ -41,15 +41,19 @@
 There are two modes of pipeline working:
 
 - You can start pipeline from parsing "big" json file, which is output of `Download_strains_03.py`. Then you will serially run the pipeline on each bacteria from json. You need to use `json.sh` script for it.
-**пример команды**
 - On another way, you may run pipeline on one given bacteria. It may be realized by running `folder_creators_server0.sh`.
-**пример команды**
 
 ![Big and small pipelines](../illustrations/big_small_pipeline.png)
 
 The more detailed description will be below.
 
 #### `json.sh`
+
+> Example.
+
+```bash
+
+```
 
 > Input. 
 
@@ -65,6 +69,12 @@ No explicit output. Runs `Organisms_parsing02.py` and `folder_creators_server0.s
 In fact results of running are equivalent to `folder_creators_server0.sh`, but for more than one specie.
 
 #### `folder_creators_server0.sh`
+
+> Example.
+
+```bash
+
+```
 
 > Input. 
 
@@ -84,6 +94,13 @@ Directory, which named equivalently to shortened bacteria name. Contents two sub
 ## Parts of pipeline
 
 #### ```Parsing_NCBI_1.py```
+
+> Example.
+
+```bash
+
+```
+
 > Short description. 
 
 Сreates a list of genbank assemblies with annotations and data about plasmid files (it is important because information about the type of DNA molecules will vanish on the next stage).
@@ -103,6 +120,13 @@ Directory, which named equivalently to shortened bacteria name. Contents two sub
 Script finds all links to scaffold and complete genome assemblies, checks them for unicity, collected all annotations for assemblies (gbk files). On the next stage it saved sequences into fasta files for reannotating on the further stage. In addition script creates two json files, which content data about DNA source of each fasta file: if it is a chromosome or plasmid.
 
 #### ```prokka_annotate2.sh```
+
+> Example.
+
+```bash
+
+```
+
 > Short description. 
 
 Consistently reannotates assemblies. 
@@ -130,6 +154,12 @@ You can read more about the Prokka tool on [its github](https://github.com/tseem
 
 #### ```First_table_creating3.py```
 
+> Example.
+
+```bash
+
+```
+
 > Short description. 
 
 Creates a table about gene features and fasta files with all genes.
@@ -150,6 +180,13 @@ In addition script wtites fasta files for each assembly in the `../<organism>/da
 
 
 #### ```proteinortho_script4.sh```
+
+> Example.
+
+```bash
+
+```
+
 > Short description. 
 
 Computes ortologous rows (OR) and creates a table with information about them. 
@@ -176,6 +213,13 @@ Creates the folder `../<organism>/data/multialignments/`
 You can read more about the Proteinortho tool on [its gitlub](https://gitlab.com/paulklemm_PHD/proteinortho). We used version 6.1.7.
 
 #### ```Muscle_preparing_5.py```
+
+> Example.
+
+```bash
+
+```
+
 > Short description. 
 
 Creates two big summary tables about genes and ORs. Writes fasta files from ORs with different start-codons for further analysis.
@@ -201,6 +245,13 @@ At the end script combined three tables with data:
 Script has some primitive time-logging, which was explored, when we imporoved the effectiveness of code (first version works *378 minutes and 14 seconds* on one of the bacteria before upgrading and *58 seconds* after upgrading).
 
 #### ```Statscript.R```
+
+> Example.
+
+```bash
+
+```
+
 > Short description. 
 
 Computes different statistics, creates figures and a short report.
@@ -234,6 +285,13 @@ After this computations script evaluates proportions of COGs with different grou
 And as a final accord, script creates short statistical report about an organism.
 
 #### ```muscle_align6.sh``` or ```prank_align6.sh```
+
+> Example.
+
+```bash
+
+```
+
 > Short description. 
 
 Aligns sequences. We used version 5.1 and v.170427 of MUSCLE and PRANK respectively.
@@ -253,6 +311,13 @@ Creates the folder `../<organism>/data/evolution_models/`
 You can read more about the MUSCLE and PRANK aligners respectively on the [MUSCLE v.5 website](https://www.drive5.com/muscle/) and [PRANK website](http://wasabiapp.org/software/prank/).
 
 #### ```modeltree_maker7.sh```
+
+> Example.
+
+```bash
+
+```
+
 > Short description. 
 
 Chooses the best evolution model for further tree creating.  We used version 0.1.7.
@@ -271,6 +336,13 @@ Chooses the best evolution model for further tree creating.  We used version 0.1
 You can read more about the modeltest-ng tool on [its github](https://github.com/ddarriba/modeltest).
 
 #### ```raxml_tree8.sh```
+
+> Example.
+
+```bash
+
+```
+
 > Short description. 
 
 Creates phylogenetic trees in Newick format. We used version 1.1.0.
@@ -291,6 +363,13 @@ Creates two new directories: ```../<organism>/data/raxmlng_trees``` and ```../<o
 You can read more about the RAxML-ng tool on [its github](https://github.com/amkozlov/raxml-ng).
 
 #### ```Ete3_maker_10.py```
+
+> Example.
+
+```bash
+
+```
+
 > Short description.
 
 Visualizes phylogenetic trees (*unavailable in server version now*)
@@ -310,6 +389,7 @@ Draws phylogenetic trees. Each ATG-related genes has red color, GTG-related - ha
 ## Additional scripts
 
 #### ```Check_strains_04.py```
+
 > Short description. 
 
 The script analyzes all alignments and displays lists of assemblies in which a large number of genes, when aligned within orthologous rows, had gaps at the beginning and had a minor start codon in relation to the majority.
@@ -333,6 +413,7 @@ We have established a threshold: assemblies whose percentage of genes with gaps 
 Also, when the function is executed, 2 graphs of the distribution of the percentage of genes with gaps at the beginning and the percentage of genes with minor start codons for each strain are drawn.
 
 #### ```Download_strains_03.py```
+
 > Short description. 
 
 The script checks the number of available complete genome and scaffold assemblies for the input organisms, filters the assemblies if necessary using the PanACoTA pipeline, and saves the json file, where each bacterium corresponds to a list of assembly IDs.
@@ -406,4 +487,4 @@ Computes statistics by all dataset of bacterias. Draws barplots and boxplots whi
 
 ## Notebooks
 
-Some parts of pipeline may be runned from jupyter-notebooks. Functionality is equal to corresponding scripts, except there is no argparse functionality in notebooks (user need to print variables manually) and there are slightly another ways used. Detailed information about functionality, input and output may be found in the appropriate sections for py scripts [```Organisms_parsing02.ipynb```](), [```Parsing_NCBI_1.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#parsing_NCBI_1py), [```First_table_creating3.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#first_table_creating3py), [```Muscle_preparing_5.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#muscle_preparing_5py), [```Ete3_maker_10.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#ete3_maker_10py).
+Some parts of pipeline may be runned from jupyter-notebooks. Functionality is equal to corresponding scripts, except there is no argparse functionality in notebooks (user need to print variables manually) and there are slightly another ways used. Detailed information about functionality, input and output may be found in the appropriate sections for py scripts [```Organisms_parsing02.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#organisms_parsing02ipynb), [```Parsing_NCBI_1.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#parsing_NCBI_1py), [```First_table_creating3.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#first_table_creating3py), [```Muscle_preparing_5.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#muscle_preparing_5py), [```Ete3_maker_10.ipynb```](https://github.com/Asklepiad/BI_project_2022/blob/main/scripts/README.md#ete3_maker_10py).
