@@ -45,13 +45,13 @@ There are two modes of pipeline working:
 - On another way, you may run pipeline on one given bacteria. It may be realized by running `folder_creators_server0.sh`.
 **Вставить картинку и пример команды**
 
-The more detailed description will 
+The more detailed description will be below.
 
 #### `json.sh`
 
 > Input. 
 
-1. Path to json file.
+1. Path to *many bacterias* json file.
 2. Aligner (muscle or prank in current realisation)
 3. Identity percent of best blast hits in proteinortho.
 4. Your e-mail
@@ -60,10 +60,23 @@ The more detailed description will
 > Output.
 
 No explicit output. Runs `Organisms_parsing02.py` and `folder_creators_server0.sh` (the last one described in the section below)
-In fact results of running are equivalent to 
+In fact results of running are equivalent to `folder_creators_server0.sh`, but for more than one specie.
 
 #### `folder_creators_server0.sh`
 
+> Input. 
+
+1. Path to *one bacteria* json file.
+2. Aligner (muscle or prank in current realisation)
+3. Identity percent of best blast hits in proteinortho.
+4. Your e-mail
+5. Number of threads for parallelising some of tools.
+
+> Output.
+
+Directory, which named equivalently to shortened bacteria name. Contents two subdirectories:
+1. THe data folder contents csvs, alignments, different fasta files, temporary jsons, results of tools' computings etc
+2. The figures folder contents plots and phylogenetic trees (in separate directory).
 
 
 ## Parts of pipeline
