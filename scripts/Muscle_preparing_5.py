@@ -13,6 +13,8 @@ import json
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
+import warnings
+warnings.filterwarnings("ignore")
 
 # Preparing
 start = time.time()
@@ -118,6 +120,7 @@ uniform = []
 start_codons.start_codons.apply(lambda x: uniform.append("different") if len(x) > 1 else uniform.append("same"))
 uniformity = pd.Series(uniform)
 start_codons["uniformity"] = uniformity
+unif_comp = time.time()
 print(f"Computing of uniformity = {unif_comp - sc_freqs}")
 
 # Constructing table withh all data about the ortologus rows (including pararows)
