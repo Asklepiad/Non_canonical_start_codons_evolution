@@ -45,6 +45,8 @@ There are two modes of pipeline working:
 - On another way, you may run pipeline on one given bacteria. It may be realized by running `folder_creators_server0.sh`.
 **пример команды**
 
+![Big and small pipelines](./illustrations/big_small_pipeline.png)
+
 The more detailed description will be below.
 
 #### `json.sh`
