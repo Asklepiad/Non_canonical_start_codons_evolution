@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 import pandas as pd
 import json
@@ -20,9 +18,6 @@ from tqdm import tqdm
 from collections import defaultdict
 
 
-# In[2]:
-
-
 parser = argparse.ArgumentParser()
 
 parser.add_argument("file", type=argparse.FileType("r"), nargs="*", default=sys.stdin)
@@ -34,21 +29,10 @@ all_species = arguments.file
 Entrez.email = arguments.mail
 
 
-# In[3]:
-
-
-with open ("../data/all_species.txt", "r") as a_s:
-    species = a_s.read()
-Entrez.email = "vibrio.choleri.1854@gmail.com"
-
-
-# In[4]:
-
+with open (all_species, "r") as all_species_file:
+    species = all_species_file.read()
 
 all_species = species.split(", ")
-
-
-# In[5]:
 
 
 # Count number of strains for each bacteria
@@ -78,14 +62,12 @@ for spec in tqdm(all_species):
         id_dict[spec] = 'NA'
 
 
-# In[6]:
-
 
 # Create dataframe with number of strains
 
 dd = defaultdict(list)
-for d in (id_dict, count_complete_genome, count_scaffolds):
-    for key, value in d.items():
+for all_dicts in (id_dict, count_complete_genome, count_scaffolds):
+    for key, value in all_dicts.items():
         dd[key].append(value)
 
 assembly_df = pd.DataFrame.from_dict(dd, orient='index')
@@ -95,8 +77,6 @@ assembly_df.rename(columns = {'index': 'Species',0: "Taxonomy_ID", 1: "Complete_
 
 assembly_df['Complete_scaffolds'] = assembly_df['Complete_genome'] + assembly_df['Scaffolds']
 
-
-# In[33]:
 
 
 # Divide all bacteria into 3 groups
@@ -117,8 +97,6 @@ assembly_df.apply(lambda x: complete_scaffolds_less_id.append(x['Taxonomy_ID']) 
 assembly_df.apply(lambda x: complete_scaffolds_less.append(x['Species']) if ((x['Complete_scaffolds'] > 20) & (x['Complete_scaffolds'] < 100)) else None, axis=1)
 
 
-# In[ ]:
-
 
 # Download genomes
 
@@ -136,8 +114,6 @@ for bact in complete_scaffolds_less:
     search_record_small_2 = Entrez.read(search_handle_small_2)
     id_lists_dict[bact] = search_record_small_2['IdList']
 
-
-# In[ ]:
 
 
 # Complete genome + scaffolds > 100
@@ -162,17 +138,13 @@ for bact_2 in complete_scaffolds_100:
 print(id_lists_dict)
 
 
-# In[ ]:
-
 
 # Bacteria with more than 100 complete genome assemblies were filtered out by the PanACoTA pipeline (to remove close assemblies by Mash genetic distance) and 100 random assemblies were taken
 
 # Read json file with 100 random strains for each bacteria
-with open("file_complete_genomes.json", "r") as f:
-    file_results_cut = json.load(f)
+with open("file_complete_genomes.json", "r") as file_complete:
+    file_results_cut = json.load(file_complete)
 
-
-# In[ ]:
 
 
 # Dict: bacteria - list of esearch results for each bacteria
@@ -180,8 +152,8 @@ assembly_100_dict = {}
 
 for key, value in tqdm(file_results_cut.items()):
     bact_id = key.split('-')[1]
-    back_name = '_'.join(assembly_df[assembly_df['Taxonomy_ID'] == bact_id]['Species'].values[0].split(' '))
-    assembly_100_dict[back_name] = []
+    bact_name = '_'.join(assembly_df[assembly_df['Taxonomy_ID'] == bact_id]['Species'].values[0].split(' '))
+    assembly_100_dict[bact_name] = []
 
     for strain in value:
         strain_name = strain.split('tmp_files/')[1].split('.')[0]
@@ -191,8 +163,6 @@ for key, value in tqdm(file_results_cut.items()):
 
         assembly_100_dict[back_name].append(search_record_1)
 
-
-# In[ ]:
 
 
 # Add all bacteria to dict:
@@ -207,8 +177,6 @@ for key, value in assembly_100_dict.items():
             id_lists_dict[key].append(res['IdList'][0])
             id_lists_dict[key].append(res['IdList'][1])
 
-
-# In[ ]:
 
 
 # Save dict in json format
