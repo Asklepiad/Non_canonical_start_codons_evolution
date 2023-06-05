@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
-
 
 from collections import defaultdict
 from Bio import AlignIO
@@ -14,9 +12,6 @@ import os
 import argparse
 
 
-# In[ ]:
-
-
 parser = argparse.ArgumentParser()
 parser.add_argument("path", type=str)
 parser.add_argument("aligner", type=str)
@@ -26,13 +21,6 @@ path_to_alignments = arguments.path
 aligner = arguments.aligner
 
 
-# In[30]:
-
-
-path_to_alignments = "../F_varium1/data/multialignments/"
-aligner = "prank"
-# path_to_alignments = "../S_ruber/data/multialignments/"
-# aligner = "muscle"
 if aligner == "prank":
     num1 = 9
     word = ".best.fas"
@@ -41,23 +29,14 @@ elif aligner == "muscle":
     word = ".afa"
 list_align_files = [align for align in os.listdir(path_to_alignments) if align[-num1:] == word]
 
+
 all_genes_in_strain = {}
 strain_gap_dict = {}
 bad_strains_dict = {}
 
 
-# In[31]:
-
-
-list_align_files
-
-
-# In[33]:
-
-
 for align_file in list_align_files:
     alignment = AlignIO.read(f"{path_to_alignments}{align_file}", "fasta")
-    #alignment = AlignIO.read(open(path_to_alignments + align_file), "fasta")
     alignment_length = alignment.get_alignment_length()
 
     atg_cnt = 0
@@ -68,13 +47,13 @@ for align_file in list_align_files:
     for record in alignment: 
 
     # Write number of genes in each strain
-        if record.id[15:] in all_genes_in_strain:
+        if record.id[15:] in all_genes_in_strain: # the first 15 letters in the name of the gene is the identifier of the gene, after it comes the name of the strain
             all_genes_in_strain[record.id[15:]] += 1
         else:
             all_genes_in_strain[record.id[15:]] = 1
 
     # Check gaps
-        if record.seq[:3] == '---':
+        if record.seq[:3] == '---': # the first 3 letters in the alignment is the start codon
             if record.id[15:] in strain_gap_dict:
                 strain_gap_dict[record.id[15:]] += 1
             else:
@@ -103,18 +82,14 @@ for align_file in list_align_files:
                 bad_strains_dict[record.id[15:]] = 1
 
 
-# In[34]:
-
 
 # Combining dicts
 dd = defaultdict(list)
-for d in (strain_gap_dict, all_genes_in_strain, bad_strains_dict):
-    for key, value in d.items():
+for all_dicts in (strain_gap_dict, all_genes_in_strain, bad_strains_dict):
+    for key, value in all_dicts.items():
         dd[key].append(value)
 
-
-# In[40]:
-
+        
 
 # Make dataframe
 strain_df = pd.DataFrame.from_dict(dd, orient='index')
@@ -132,8 +107,6 @@ for row in range(len(strain_df)):
     strain_df['Proportion_minor'] = strain_df['Minor_start'] / strain_df['All'] * 100
 
 
-# In[53]:
-
 
 # Medians and std
 med_gaps = strain_df['Proportion_gaps'].median()
@@ -147,8 +120,6 @@ list_many_minors_strain = []
 strain_df.apply(lambda x: list_many_gaps_strain.append(x['Strain']) if (x['Proportion_gaps'] > (med_gaps + 2 * std_gaps)) else None, axis=1)
 strain_df.apply(lambda x: list_many_minors_strain.append(x['Strain']) if (x['Proportion_minor'] > (med_minor + 2 * std_minor)) else None, axis=1)
 
-
-# In[54]:
 
 
 # Barplots
