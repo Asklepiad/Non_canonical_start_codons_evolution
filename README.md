@@ -34,17 +34,18 @@ Project about the evolution of non-canonical start-codons in bacteria and connec
 [Feedback](https://github.com/Asklepiad/BI_project_2022/tree/main#feedback)
 
 ## Structure of repository
-> Data
-
-All data for reproducing our investigation and json file for test run are situated in the `data` folder. You can read a more detailed description of the folder content in the `data` folder [readme](./data/README.md).
 
 > Scripts
 
-Conda environment creator for pipeline, master script, all components of pipeline, some additional scripts and requirements file are located in the `scripts` folder. You can read a more detailed description of the folder content in the `scripts` folder [readme](./scripts/README.md)  (*in development*).
+Conda environment creator for pipeline, master script, all components of pipeline, some additional scripts and requirements file are located in the `scripts` folder. You can read a more detailed description of the folder content in the `scripts` folder [readme](./scripts/README.md).
+
+> Data
+
+All data for reproducing our investigation and json file for test run are situated in the `data` folder. You can read a short description of the folder content in the `data` folder [readme](./data/README.md).
 
 > Test output
 
-The test running on *Salinibacter ruber* results are situated in the `output_example` folder . You can read a more detailed description of the folder content in  the `output_example` folder [readme 1](./output_example/S_ruber/data/README.md) and [readme 2](./output_example/S_ruber/figures/README.md).
+The test running on *Salinibacter ruber* results are situated in the `output_example` folder . You can read a short description of the folder content in  the `output_example` folder [readme](./output_example/S_ruber/data/README.md).
 
 > Illustrations
 
