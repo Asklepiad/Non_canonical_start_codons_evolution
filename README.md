@@ -36,7 +36,7 @@ Project about the evolution of non-canonical start-codons in bacteria and connec
 ## Structure of repository
 > Data
 
-All data for reproducing our investigation and json file for test run are situated in the `data` folder. You can read a more detailed description of the folder content in the `data` folder [readme](./data/README.md)  (*in development*).
+All data for reproducing our investigation and json file for test run are situated in the `data` folder. You can read a more detailed description of the folder content in the `data` folder [readme](./data/README.md).
 
 > Scripts
 
@@ -44,11 +44,11 @@ Conda environment creator for pipeline, master script, all components of pipelin
 
 > Test output
 
-The test running on *Salinibacter ruber* results are situated in the `output_example` folder (*in development*). You can read a more detailed description of the folder content in  the `output_example` folder [readme](./output_example/README.md)  (*in development*).
+The test running on *Salinibacter ruber* results are situated in the `output_example` folder . You can read a more detailed description of the folder content in  the `output_example` folder [readme 1](./output_example/S_ruber/data/README.md) and [readme 2](./output_example/S_ruber/figures/README.md).
 
 > Illustrations
 
-The images for illustrating the repositry's readme files are located in the `illustrations` folder (*in development*). You can read a more detailed description of the folder content in  the `illustrations` folder [readme](./illustrations/README.md)  (*in development*).
+The images for illustrating the repositry's readme files are located in the `illustrations` folder.
 
 ## Introduction
 
