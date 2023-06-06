@@ -28,11 +28,11 @@ for doc in pretrees:
 for tree in trees:
     mask = tree.split(".")[0]
     visualisation = ete3.Tree(f"{prepath}{tree}")
-    D_leaf_color = {"ATG":"red", "GTG":"green", "TTG":"blue"}
+    d_leaf_color = {"ATG":"red", "GTG":"green", "TTG":"blue"}
     for node in visualisation.traverse():
         node.img_style['size'] = 0
         if node.is_leaf():
-            color = D_leaf_color.get(node.name[-3:], None)
+            color = d_leaf_color.get(node.name[-3:], None)
             if color:
                 name_face = ete3.TextFace(node.name, fgcolor=color, fsize=10)
                 node.add_face(name_face, column=1, position='branch-right')
