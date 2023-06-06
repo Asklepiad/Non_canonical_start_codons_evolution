@@ -51,7 +51,7 @@ print(f"Ortorow number creation = {orto_number - preparing_finish}")
 
 # Uploading first csv-table and creating a new column in it
 orto_rows_list = orto_rows.index
-df1 = pd.read_csv(f"../{folder_name}/data/First_table.csv")
+genes_table = pd.read_csv(f"../{folder_name}/data/First_table.csv")
 
 # Filling orto_row column (sounds like an oxymoron)
 assemblies = orto_rows.columns.drop(['Species', 'Genes', 'Alg.-Conn.', 'ortologus_row'])
@@ -62,7 +62,7 @@ row_assigner
 row_assigner.drop(["variable"], axis="columns", inplace=True)
 row_assigner.columns = ["ortologus_row", "id"]
 row_assigner
-df1 = df1.merge(row_assigner, on="id")
+genes_table = genes_table.merge(row_assigner, on="id")
 sec_orto_number = time.time()
 print(f"Second ortorow number creation = {sec_orto_number - orto_number}")
 
@@ -71,12 +71,12 @@ print("Number of the paralogs =", sum(orto_rows.query("Genes > Species").Genes) 
 
 # Creating a subset without pararows
 pararows_numbers = orto_rows.query("Genes > Species").ortologus_row
-df1 = df1.query("ortologus_row not in @pararows_numbers").query("ortologus_row != 0")
+genes_table = genes_table.query("ortologus_row not in @pararows_numbers").query("ortologus_row != 0")
 paralogs_deleting = time.time()
 print(f"Paralogs deleting = {paralogs_deleting - sec_orto_number}")
 
 # Compiling data about start-codons of ortologus rows
-start_codon_per_row = df1.groupby("ortologus_row", as_index=False).agg({"start_codone": ".".join})
+start_codon_per_row = genes_table.groupby("ortologus_row", as_index=False).agg({"start_codone": ".".join})
 start_codon_per_row["start_codone"]
 orr_start_list = []
 for number in tqdm(range(len(start_codon_per_row))):
@@ -130,12 +130,12 @@ print(f"First merging = {first_merging - sc_freqs}")
 
 # Creating a table, combining data about gene and its start-codone
 strain_gene_row = start_codons2[["Species", "Genes", "ortologus_row", "uniformity", "ATG", "GTG", "TTG"]]   # Other codons deleted
-summary_rows = df1.merge(strain_gene_row, on="ortologus_row")
+summary_rows = genes_table.merge(strain_gene_row, on="ortologus_row")
 second_merging = time.time()
 print(f"Second merging = {second_merging - first_merging}")
 
 # Assigning cog to orto_row
-row_cog = row_assigner.merge(df1[["id", "cog"]], on="id").groupby("ortologus_row").agg({"cog": "max"})
+row_cog = row_assigner.merge(genes_table[["id", "cog"]], on="id").groupby("ortologus_row").agg({"cog": "max"})
 start_codons2 = start_codons2.merge(row_cog, on="ortologus_row")
 
 # Adding organism_name to datasets
