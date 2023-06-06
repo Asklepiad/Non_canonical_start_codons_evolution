@@ -119,7 +119,7 @@ for record_number in tqdm(range(len(gb_records))):
             ## Column 8 -- number of molecule (for identification and further plasmid marking)
             p_c_unity.append(gb_records[record_number][1])
             
-df1 = pd.DataFrame(
+genes_table = pd.DataFrame(
     {
         "id": pd.Series(locus_tag),
         "source": pd.Series(source),
@@ -138,11 +138,11 @@ df1 = pd.DataFrame(
 )
 
 # Filtering incomplete assemblies
-assembly_stata = pd.DataFrame(df1.groupby("p_c_unity").apply(lambda x: x.query("start_codone == 'ATG'").shape[0]), )
+assembly_stata = pd.DataFrame(genes_table.groupby("p_c_unity").apply(lambda x: x.query("start_codone == 'ATG'").shape[0]), )
 assembly_stata.columns = ["atg_number"]
-df1 = df1.merge(assembly_stata, on="p_c_unity")
+genes_table = genes_table.merge(assembly_stata, on="p_c_unity")
 k = assembly_stata["atg_number"].median()
-df1 = df1.query("atg_number > @k/2")
+genes_table = genes_table.query("atg_number > @k/2")
 
 # Creating cog dictionary
 cog_dict = {}
@@ -170,15 +170,15 @@ for key in tqdm(cog_dict.keys()):   # Passing over COG categories
             cog_list.append(0)              # Mark it
         else:                               
             cog_list.append(1)              # Else mark another
-    df1[key] = pd.Series(cog_list)   # Creating 25 new columns
+    genes_table[key] = pd.Series(cog_list)   # Creating 25 new columns
 
 
 
-df1.to_csv(f"../{folder_name}/data/First_table.csv", index=False)
+genes_table.to_csv(f"../{folder_name}/data/First_table.csv", index=False)
 
 
-for source in tqdm(set(df1["p_c_unity"])):
-    subset = df1[df1["p_c_unity"] == source]
+for source in tqdm(set(genes_table["p_c_unity"])):
+    subset = genes_table[genes_table["p_c_unity"] == source]
     with open (f"../{folder_name}/data/orto_rows/{folder_name}{str(source)}.fasta", "w") as protein_fasta:
         for index, row in subset.iterrows():
 #            if row['type_of_the_gene'] != "pseudogene":   # This row will be useful again, when pseudogens will appear in our annotations
