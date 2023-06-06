@@ -68,7 +68,7 @@ print("variables_ok")
 # Taking ids for fetching. It collected all non-duplicated links in nucleotide database from assembly database.
 links = []
 links_checked = []
-n = 0
+num_link = 0
 for complete_id in tqdm(complete_ids):
     link_handle = Entrez.elink(dbfrom=db_search, db=db_current, from_uid=complete_id)
     link_record = Entrez.read(link_handle)
@@ -81,7 +81,7 @@ for complete_id in tqdm(complete_ids):
                 cumulative = 1
             else:
                 cumulative = 0
-        n += cumulative
+        num_link += cumulative
 print("linking_ok")
 
 # Collecting data about assemblies
@@ -94,7 +94,7 @@ print("fetching_ok")
 
 dna_type, tuples, source_list = [], [], [] # Creating list for identyfing the number of every assemblie DNA molecules (chromosome and any plasmids)
 orglist = re.split(" |_", organism)
-if len(orglist[-1]) < 10:
+if len(orglist[-1]) < 10:   # 10 means only first nine letters (or lesser) will be in shortened name of bacteria. The cause of this approach is Prokka's bug.
     last_letter = len(orglist[-1])
 else:
     last_letter = 9
