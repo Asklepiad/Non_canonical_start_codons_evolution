@@ -22,7 +22,7 @@ aligner = arguments.aligner
 
 
 if aligner == "prank":
-    num1 = 9
+    num1 = 9 # The number of characters to take from the end
     word = ".best.fas"
 elif aligner == "muscle":
     num1 = 4
