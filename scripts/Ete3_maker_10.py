@@ -4,7 +4,6 @@
 import ete3
 import argparse
 import os
-import shutil
 import matplotlib.pyplot as plt
 
 
@@ -28,7 +27,7 @@ for doc in pretrees:
 for tree in trees:
     mask = tree.split(".")[0]
     visualisation = ete3.Tree(f"{prepath}{tree}")
-    d_leaf_color = {"ATG":"red", "GTG":"green", "TTG":"blue"}
+    d_leaf_color = {"ATG": "red", "GTG": "green", "TTG": "blue"}
     for node in visualisation.traverse():
         node.img_style['size'] = 0
         if node.is_leaf():
@@ -39,4 +38,3 @@ for tree in trees:
     ts = ete3.TreeStyle()
     ts.show_leaf_name = False
     visualisation.render(f"../{folder}/figures/trees/{mask}_ete3.png", tree_style=ts, dpi=300)
-

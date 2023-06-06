@@ -4,10 +4,8 @@
 import os
 import sys
 import argparse
-import shutil
 import re
 import json
-from itertools import chain
 
 parser = argparse.ArgumentParser()
 parser.add_argument("json_path", type=str)
@@ -30,4 +28,3 @@ for bac, ids in organism_list.items():
         new_file = json.dumps(jdir)
         with open(f"../data/jsons/{name}.json", "w") as jspc2:
             jspc2.write(new_file)
-

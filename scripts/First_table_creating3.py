@@ -2,28 +2,19 @@
 # coding: utf-8
 
 import os
-import sys
 import argparse
-import shutil
 import json
 import re
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-from Bio.Seq import Seq
 from itertools import chain
 from Bio import SeqIO
-from Bio.SeqRecord import SeqRecord
 
 parser = argparse.ArgumentParser()
-
 parser.add_argument("folder_name", type=str)
-#parser.add_argument("cog_source", type=str, default="https://www.ncbi.nlm.nih.gov/research/cog/cogcategory/")
-
 arguments = parser.parse_args()
-
 folder_name = arguments.folder_name
-#cog_url = arguments.cog_source
 
 # Function for parsing assembly number
 def get_assembly_number(pre_pattern1, string):
@@ -35,9 +26,9 @@ def get_assembly_number(pre_pattern1, string):
 
 
 # Uploading the data 
-current_path = f"../{folder_name}/data/{folder_name}_annotate/" # Path directory
+current_path = f"../{folder_name}/data/{folder_name}_annotate/"  # Path directory
 pre_pattern1 = f"{folder_name}"
-gb_records= []  # Reasserting the gb_records list
+gb_records = []  # Reasserting the gb_records list
 gbk_files = os.listdir(current_path)
 
 for gbk in tqdm(gbk_files):
@@ -56,22 +47,22 @@ plasmid_code = dict(zip(tuples, dna_type))
 
 # Parsing
 locus_tag, start_codone, source, n_sequence, aa_sequence, DNA_source, \
-product, cog, p_c_unity, first_n, last_n, strand_n, \
-length_n = [], [], [], [], [], [], [], [], [], [], [], [], []
+    product, cog, p_c_unity, first_n, last_n, strand_n, \
+    length_n = [], [], [], [], [], [], [], [], [], [], [], [], []
 for record_number in tqdm(range(len(gb_records))):
     for feature_number in range(1, len(gb_records[record_number][0].features)):
         if gb_records[record_number][0].features[feature_number].type == "CDS":
             
-            ## Column 1 -- uniq id
+            # Column 1 -- uniq id
             if 'locus_tag' in gb_records[record_number][0].features[feature_number].qualifiers.keys():
                 locus_tag.append(gb_records[record_number][0].features[feature_number].qualifiers['locus_tag'][0])
             else:
                 locus_tag.append("absent")
                 
-            ## Column 2 -- source
+            # Column 2 -- source
             source.append(gb_records[record_number][0].name)
             
-            ## Column 3 -- nucleotide sequence & 7 -- start-codone
+            # Column 3 -- nucleotide sequence & 7 -- start-codone
             first = gb_records[record_number][0].features[feature_number].location.start
             last = gb_records[record_number][0].features[feature_number].location.end
             strand = gb_records[record_number][0].features[feature_number].location.strand
@@ -90,13 +81,13 @@ for record_number in tqdm(range(len(gb_records))):
             else:
                 n_sequence.append("absent")
                 
-            ## Column 4 -- aminoacid sequence
+            # Column 4 -- aminoacid sequence
             if 'translation' in gb_records[record_number][0].features[feature_number].qualifiers.keys():
                 aa_sequence.append(gb_records[record_number][0].features[feature_number].qualifiers['translation'][0])
             else:
                 aa_sequence.append("absent")
             
-            ## Column 5 -- plasmid or chromosome
+            # Column 5 -- plasmid or chromosome
             index = re.search(r"[\d]+?_[\d]+$", gb_records[record_number][0].name)
             pc_key = tuple([int(i) for i in index.group().split("_")])
             if plasmid_code[pc_key] == "plasmid":
@@ -110,13 +101,13 @@ for record_number in tqdm(range(len(gb_records))):
             else:
                 product.append("absent")
                 
-            ## Column 7 -- COG number
+            # Column 7 -- COG number
             if 'db_xref' in gb_records[record_number][0].features[feature_number].qualifiers.keys():
                 cog.append(gb_records[record_number][0].features[feature_number].qualifiers["db_xref"][0][4:])
             else:
                 cog.append("absent")
             
-            ## Column 8 -- number of molecule (for identification and further plasmid marking)
+            # Column 8 -- number of molecule (for identification and further plasmid marking)
             p_c_unity.append(gb_records[record_number][1])
             
 genes_table = pd.DataFrame(
@@ -152,9 +143,9 @@ for cog_cat in tqdm(cog_cats):
     table = pd.read_csv(f"{current_path}{cog_cat}", sep="\t")
     if len(table.Cat):
         cat = table.Cat.tolist()
-        cat_ful = list(map(lambda x: x.split(" "),cat))
+        cat_ful = list(map(lambda x: x.split(" "), cat))
         cat_ful_single = list(chain.from_iterable(cat_ful))
-        key = max(cat_ful_single, key = cat_ful_single.count)
+        key = max(cat_ful_single, key=cat_ful_single.count)
         value = table.COG.tolist()
         cog_dict[key] = value
 cog_dict["S"].append("absent")
@@ -173,15 +164,14 @@ for key in tqdm(cog_dict.keys()):   # Passing over COG categories
     genes_table[key] = pd.Series(cog_list)   # Creating 25 new columns
 
 
-
 genes_table.to_csv(f"../{folder_name}/data/First_table.csv", index=False)
 
 
 for source in tqdm(set(genes_table["p_c_unity"])):
     subset = genes_table[genes_table["p_c_unity"] == source]
-    with open (f"../{folder_name}/data/orto_rows/{folder_name}{str(source)}.fasta", "w") as protein_fasta:
+    with open(f"../{folder_name}/data/orto_rows/{folder_name}{str(source)}.fasta", "w") as protein_fasta:
         for index, row in subset.iterrows():
-#            if row['type_of_the_gene'] != "pseudogene":   # This row will be useful again, when pseudogens will appear in our annotations
+            #  if row['type_of_the_gene'] != "pseudogene":   # This row will be useful again, when pseudogens will appear in our annotations
             protein_fasta.write(">")
             protein_fasta.write(row["id"])
             protein_fasta.write("_")
@@ -189,4 +179,3 @@ for source in tqdm(set(genes_table["p_c_unity"])):
             protein_fasta.write("\n")
             protein_fasta.write(row["aa_sequence"])
             protein_fasta.write("\n")
-

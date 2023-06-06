@@ -8,7 +8,6 @@ import sys
 import re
 import time
 import argparse
-import shutil
 import json
 import numpy as np
 import pandas as pd
@@ -20,12 +19,10 @@ warnings.filterwarnings("ignore")
 start = time.time()
 
 parser = argparse.ArgumentParser()
-
 parser.add_argument("json_path", type=str)
-
 arguments = parser.parse_args()
-
 json_path = arguments.json_path
+
 with open(f"../data/jsons/{json_path}", "r") as json_organism:
     json_organism = json.load(json_organism)
 
@@ -43,9 +40,9 @@ print(f"Preparing time = {preparing_finish - start}")
 
 # ### Orto rows with singletons, but without paralog-containing rows
 # Uploading and modificating orto rows tables
-orto_rows = pd.read_csv(f"../{folder_name}/data/{folder_name}.proteinortho.tsv", sep="\t") # Uploading dataframe with orto rows
-orto_rows = orto_rows.rename(columns = {"# Species": "Species"})
-orto_rows["ortologus_row"] = orto_rows.index + 1 # Creating ortorows numbers
+orto_rows = pd.read_csv(f"../{folder_name}/data/{folder_name}.proteinortho.tsv", sep="\t")  # Uploading dataframe with orto rows
+orto_rows = orto_rows.rename(columns={"# Species": "Species"})
+orto_rows["ortologus_row"] = orto_rows.index + 1  # Creating ortorows numbers
 orto_number = time.time()
 print(f"Ortorow number creation = {orto_number - preparing_finish}")
 
@@ -58,10 +55,10 @@ assemblies = orto_rows.columns.drop(['Species', 'Genes', 'Alg.-Conn.', 'ortologu
 row_assigner = pd.melt(orto_rows, id_vars=["ortologus_row"], value_vars=assemblies)
 row_assigner = row_assigner.query("value != '*'")
 row_assigner["value"] = row_assigner["value"].str[:14]
-row_assigner
+
 row_assigner.drop(["variable"], axis="columns", inplace=True)
 row_assigner.columns = ["ortologus_row", "id"]
-row_assigner
+
 genes_table = genes_table.merge(row_assigner, on="id")
 sec_orto_number = time.time()
 print(f"Second ortorow number creation = {sec_orto_number - orto_number}")
@@ -77,7 +74,7 @@ print(f"Paralogs deleting = {paralogs_deleting - sec_orto_number}")
 
 # Compiling data about start-codons of ortologus rows
 start_codon_per_row = genes_table.groupby("ortologus_row", as_index=False).agg({"start_codone": ".".join})
-start_codon_per_row["start_codone"]
+
 orr_start_list = []
 for number in tqdm(range(len(start_codon_per_row))):
     orr_start_list.append(start_codon_per_row.iloc[number, 1].split("."))
@@ -94,11 +91,10 @@ ortorow_sc = time.time()
 print(f"Start-codons of ortologus row detecting = {ortorow_sc - paralogs_deleting}")
 
 
-
 # Computing frequencies of exact start-codons
 start_codons.sort_values("ortologus_row", inplace=True)
 for row in tqdm(range(len(start_codons))):
-    freqs = pd.Series(start_codons["start_codons"][row]).value_counts() # If it will be need to visualize percents, use normalize=True in brackets
+    freqs = pd.Series(start_codons["start_codons"][row]).value_counts()  # If it will be needed to visualize percents, use normalize=True in brackets
     rowlength = len(start_codons["start_codons"][row])
     if "ATG" in freqs:
         start_codons["ATG"][row] = freqs["ATG"]
@@ -150,9 +146,9 @@ uniq_cog = start_codons2[["ortologus_row", "ATG", "GTG", "TTG", "uniformity", "S
 non_uniform_or_list = list(set(start_codons2.query("uniformity == 'different'").ortologus_row))
 for orto_row in tqdm(non_uniform_or_list):
     subset = summary_rows.query("ortologus_row == @orto_row")
-    with open (f"../{folder_name}/data/multialignments/{folder_name}_withoutp_{str(orto_row)}.fasta", "w") as nucleotide_fasta:
+    with open(f"../{folder_name}/data/multialignments/{folder_name}_withoutp_{str(orto_row)}.fasta", "w") as nucleotide_fasta:
         for index, row in subset.iterrows():
-            #if row['type_of_the_gene'] != "pseudogene":
+            # if row['type_of_the_gene'] != "pseudogene":
             nucleotide_fasta.write(">")
             nucleotide_fasta.write(row["id"])
             nucleotide_fasta.write("_")

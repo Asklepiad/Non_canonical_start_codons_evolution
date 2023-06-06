@@ -1,28 +1,12 @@
 #!/usr/bin/env python:
-# coding: utf-8
-
-# Installing packages
-#get_ipython().system('pip3 install pandas')
-#get_ipython().system('pip3 install biopython')
 
 # Importing packages
-import Bio
-import math
 import os
 import sys
 import argparse
-import shutil
 import re
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from Bio.Seq import Seq
 from Bio import SeqIO
-from Bio.Data import CodonTable
-from Bio.SeqRecord import SeqRecord
 from Bio import Entrez
-from itertools import chain
 from tqdm import tqdm
 import json
 
@@ -51,12 +35,13 @@ if type(complete_ids[len(complete_ids)-1]) == list:
 
 def extract_insdc(links): 
     linkset = [ls for ls in links[0]['LinkSetDb'] if
-              ls['LinkName'] == 'assembly_nuccore_insdc']
+               ls['LinkName'] == 'assembly_nuccore_insdc']
     if 0 != len(linkset):
         uids = [link['Id'] for link in linkset[0]['Link']]
     else:
         uids = 0
     return uids
+
 
 # Creating a variables for futher work with links
 organism = organism_name
@@ -77,7 +62,7 @@ for complete_id in tqdm(complete_ids):
         for uid in uids:
             if uid not in links_checked:    # Checking for duplicates
                 links_checked.append(uid)
-                links.append((uid, n))
+                links.append((uid, num_link))
                 cumulative = 1
             else:
                 cumulative = 0
@@ -92,7 +77,7 @@ for link in tqdm(links):
     gb_records.append((gb_record, link[1]))
 print("fetching_ok")
 
-dna_type, tuples, source_list = [], [], [] # Creating list for identyfing the number of every assemblie DNA molecules (chromosome and any plasmids)
+dna_type, tuples, source_list = [], [], []  # Creating list for identyfing the number of every assemblie DNA molecules (chromosome and any plasmids)
 orglist = re.split(" |_", organism)
 if len(orglist[-1]) < 10:   # 10 means only first nine letters (or lesser) will be in shortened name of bacteria. The cause of this approach is Prokka's bug.
     last_letter = len(orglist[-1])
@@ -100,16 +85,16 @@ else:
     last_letter = 9
 name = f"{orglist[0][0]}_{orglist[-1][:last_letter]}"
 for rec in tqdm(gb_records):
-    source = rec[1] # Number of assembly
+    source = rec[1]  # Number of assembly
     if "plasmid" in rec[0].description:
         dna_type.append("plasmid")
     else:
         dna_type.append("chromosome")
     source_list.append(source) 
-    number = source_list.count(source) # Counting the DNA molecule of assembly
+    number = source_list.count(source)  # Counting the DNA molecule of assembly
     tuples.append((source, number))
     mask = f"{name}{source}_{number}"
-    with open (f"../{name}/data/for_prokka_fasta/{mask}.fasta", "w") as for_prokka_fasta:  # It is firstly needed to have a directory
+    with open(f"../{name}/data/for_prokka_fasta/{mask}.fasta", "w") as for_prokka_fasta:  # It is firstly needed to have a directory
         for_prokka_fasta.write(">")
         for_prokka_fasta.write(mask)
         for_prokka_fasta.write("\n")
