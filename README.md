@@ -256,4 +256,4 @@ This observation provides us with a good basis for further analysis of the prefe
 
 ## Feedback
 
-You can read about any problems or ideas about project improvements on **(вставить контакты)**
+You can write us about any problems or ideas about project improvements on telegram @Asklepiad and @Lears7
