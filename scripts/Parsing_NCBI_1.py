@@ -86,23 +86,25 @@ else:
 name = f"{orglist[0][0]}_{orglist[-1][:last_letter]}"
 
 for rec in tqdm(gb_records):
-    if "comment" in rec[0].annotations.keys():
-        if rec[0].annotations["comment"] == "Please be aware that the annotation is done automatically with\nlittle or no manual curation.":
-            source = rec[1]  # Number of assembly
-            if "plasmid" in rec[0].description:
-                dna_type.append("plasmid")
-            else:
-                dna_type.append("chromosome")
-            source_list.append(source) 
-            number = source_list.count(source)  # Counting the DNA molecule of assembly
-            tuples.append((source, number))
-            mask = f"{name}{source}_{number}"
-            with open(f"../{name}/data/for_prokka_fasta/{mask}.fasta", "w") as for_prokka_fasta:  # It is firstly needed to have a directory
-                for_prokka_fasta.write(">")
-                for_prokka_fasta.write(mask)
-                for_prokka_fasta.write("\n")
-                for_prokka_fasta.write(str(rec[0].seq))
-                for_prokka_fasta.write("\n")
+    try:
+        source = rec[1]  # Number of assembly
+        if "plasmid" in rec[0].description:
+            dna_type.append("plasmid")
+        else:
+            dna_type.append("chromosome")
+        source_list.append(source) 
+        number = source_list.count(source)  # Counting the DNA molecule of assembly
+        tuples.append((source, number))
+        mask = f"{name}{source}_{number}"
+        with open(f"../{name}/data/for_prokka_fasta/{mask}.fasta", "w") as for_prokka_fasta:  # It is firstly needed to have a directory
+            for_prokka_fasta.write(">")
+            for_prokka_fasta.write(mask)
+            for_prokka_fasta.write("\n")
+            for_prokka_fasta.write(str(rec[0].seq))
+            for_prokka_fasta.write("\n")
+    except Bio.Seq.UndefinedSequenceError:
+        print(f"Mistake in {rec[0].name}")
+        continue
 
 # Saving plasmid_code
 jsonpc1 = json.dumps(tuples)
