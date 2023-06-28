@@ -70,7 +70,7 @@ ggplot(subset(barplots_comm, start_codon!="ATG"))+     #   Phylogenetic barplot
   xlab(label = "Specie")+
   ylab(label = "Proportion of start-codon")+
   labs("fill" = "Legend")
-ggsave("../data/barplot_common_2scs.png",  width = 40, height = 20, units = "cm", dpi = 600)
+ggsave("../data/barplot_common_2scs_phy.png",  width = 40, height = 20, units = "cm", dpi = 600)
 
 mean_of_org <- sum_of_ass %>% 
   group_by(specie) %>% 
@@ -90,7 +90,7 @@ ggplot(subset(barplots_comm, start_codon!="ATG"))+     #   Genome size barplot
   xlab(label = "Specie")+
   ylab(label = "Proportion of start-codon")+
   labs("fill" = "Legend")
-ggsave("../data/barplot_common_2scs.png",  width = 40, height = 20, units = "cm", dpi = 600)
+ggsave("../data/barplot_common_2scs_size.png",  width = 40, height = 20, units = "cm", dpi = 600)
 
 # Cog common stats ####
 
