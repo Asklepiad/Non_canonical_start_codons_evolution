@@ -52,7 +52,7 @@ def download_links(db_search, db_current, complete_id, timer, num_link):
             for uid in uids:
                 if uid not in links_checked:  # Checking for duplicates
                     links_checked.append(uid)
-                    links.append((uid, n))
+                    links.append((uid, num_link))
                     cumulative = 1
                 else:
                     cumulative = 0
