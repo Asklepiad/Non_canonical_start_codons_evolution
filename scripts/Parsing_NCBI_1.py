@@ -56,7 +56,7 @@ def download_links(db_search, db_current, complete_id, timer, num_link):
                     cumulative = 1
                 else:
                     cumulative = 0
-            n += cumulative
+            num_link += cumulative
 
 def forced_download_links(db_search, db_current, complete_id, timer, level, num_link):   # Наверное, это можно реализовать декоратором
     try:
