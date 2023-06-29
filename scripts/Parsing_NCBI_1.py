@@ -5,6 +5,7 @@ import os
 import sys
 import argparse
 import re
+import Bio
 from Bio import SeqIO
 from Bio import Entrez
 from tqdm import tqdm
