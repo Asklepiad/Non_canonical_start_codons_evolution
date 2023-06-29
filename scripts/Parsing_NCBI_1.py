@@ -43,6 +43,31 @@ def extract_insdc(links):
         uids = 0
     return uids
 
+def download_links(db_search, db_current, complete_id, timer, num_link):
+    if timer > 0:
+        link_handle = Entrez.elink(dbfrom=db_search, db=db_current, from_uid=complete_id)
+        link_record = Entrez.read(link_handle)
+        uids = extract_insdc(link_record)
+        if uids != 0:
+            for uid in uids:
+                if uid not in links_checked:  # Checking for duplicates
+                    links_checked.append(uid)
+                    links.append((uid, n))
+                    cumulative = 1
+                else:
+                    cumulative = 0
+            n += cumulative
+
+def forced_download_links(db_search, db_current, complete_id, timer, level, num_link):   # Наверное, это можно реализовать декоратором
+    try:
+        download_links(db_search=db_search, db_current=db_current, complete_id=complete_id, timer=timer, num_link=num_link)
+    except RuntimeError:
+        print(f"Problem is with {complete_id}")
+        timer -= 1
+        level += 1
+        print(f"We are on the {level} level now")
+        forced_download_links(db_search, db_current, complete_id, timer, level, num_link)
+
 
 # Creating a variables for futher work with links
 organism = organism_name
@@ -51,23 +76,15 @@ db_current = "nucleotide"
 print("variables_ok")
 
 
-# Taking ids for fetching. It collected all non-duplicated links in nucleotide database from assembly database.
+# Taking ids for fetching. It collected all non-duplicated links in nucleotide databiase from assembly database.
+# We use try-except for excepting problems with network temorary lags, which ruined our code
 links = []
 links_checked = []
 num_link = 0
 for complete_id in tqdm(complete_ids):
-    link_handle = Entrez.elink(dbfrom=db_search, db=db_current, from_uid=complete_id)
-    link_record = Entrez.read(link_handle)
-    uids = extract_insdc(link_record)
-    if uids != 0:
-        for uid in uids:
-            if uid not in links_checked:    # Checking for duplicates
-                links_checked.append(uid)
-                links.append((uid, num_link))
-                cumulative = 1
-            else:
-                cumulative = 0
-        num_link += cumulative
+    timer = 5
+    level = 1
+    forced_download_links(db_search, db_current, complete_id, timer, level, num_link)
 print("linking_ok")
 
 # Collecting data about assemblies
@@ -104,7 +121,7 @@ for rec in tqdm(gb_records):
             for_prokka_fasta.write(str(rec[0].seq))
             for_prokka_fasta.write("\n")
     except Bio.Seq.UndefinedSequenceError:
-        print(f"Mistake in {rec[0].name}")
+        print(f"Mistake is in {rec[0].name}")
         continue
 
 # Saving plasmid_code
