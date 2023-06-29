@@ -57,18 +57,18 @@ def download_links(db_search, db_current, complete_id, timer, num_link):
                 else:
                     cumulative = 0
             num_link += cumulative
-    return n
+    return num_link
 
 def forced_download_links(db_search, db_current, complete_id, timer, level, num_link):   # Наверное, это можно реализовать декоратором
     try:
-        n = download_links(db_search=db_search, db_current=db_current, complete_id=complete_id, timer=timer, num_link=num_link)
+        num_link = download_links(db_search=db_search, db_current=db_current, complete_id=complete_id, timer=timer, num_link=num_link)
     except RuntimeError:
         print(f"Problem is with {complete_id}")
         timer -= 1
         level += 1
         print(f"We are on the {level} level now")
-        forced_download_links(db_search, db_current, complete_id, timer, level, num_link)
-    return n
+        num_link = forced_download_links(db_search, db_current, complete_id, timer, level, num_link)
+    return num_link
 
 # Creating a variables for futher work with links
 organism = organism_name
@@ -85,7 +85,7 @@ num_link = 0
 for complete_id in tqdm(complete_ids):
     timer = 5
     level = 1
-    n = forced_download_links(db_search, db_current, complete_id, timer, level, num_link)
+    num_link = forced_download_links(db_search, db_current, complete_id, timer, level, num_link)
 print("linking_ok")
 
 # Collecting data about assemblies
