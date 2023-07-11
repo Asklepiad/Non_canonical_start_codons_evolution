@@ -79,20 +79,24 @@ url = "https://www.ncbi.nlm.nih.gov/assembly"
 del_ass = []
 big_ass = {}
 def counting_assembles(org_name):
-    response = requests.get(url, params={'term': f'((("chromosome"[Assembly Level]) OR "complete genome"[Assembly Level]) OR "scaffold"[Assembly Level]) AND {org_name}[Organism]'})
-    ass_soup = BeautifulSoup(response.content, "lxml")
-    pre_complete_a = ass_soup.findChildren("a", attrs={"data-value_id": "complete"})[0]
-    complete_a = int(pre_complete_a.find_next_sibling().text[1:-1].replace(",", ""))
-    pre_chrom_a = ass_soup.findChildren("a", attrs={"data-value_id": "chromosome"})[0]
-    chrom_a = int(pre_chrom_a.find_next_sibling().text[1:-1].replace(",", ""))
-    pre_scaff_a = ass_soup.findChildren("a", attrs={"data-value_id": "scaffold"})[0]
-    scaff_a = int(pre_scaff_a.find_next_sibling().text[1:-1].replace(",", ""))
-    ass = complete_a + chrom_a + scaff_a
-    print(f"Organism: {org_name}\nNumber of assemblies: {ass}")
-    if ass < 4:
-        del_ass.append(org_name)
-    else:
-        big_ass[org_name] = ass
+    try:
+        response = requests.get(url, params={'term': f'((("chromosome"[Assembly Level]) OR "complete genome"[Assembly Level]) OR "scaffold"[Assembly Level]) AND {org_name}[Organism]'})
+        ass_soup = BeautifulSoup(response.content, "lxml")
+        pre_complete_a = ass_soup.findChildren("a", attrs={"data-value_id": "complete"})[0]
+        complete_a = int(pre_complete_a.find_next_sibling().text[1:-1].replace(",", ""))
+        pre_chrom_a = ass_soup.findChildren("a", attrs={"data-value_id": "chromosome"})[0]
+        chrom_a = int(pre_chrom_a.find_next_sibling().text[1:-1].replace(",", ""))
+        pre_scaff_a = ass_soup.findChildren("a", attrs={"data-value_id": "scaffold"})[0]
+        scaff_a = int(pre_scaff_a.find_next_sibling().text[1:-1].replace(",", ""))
+        ass = complete_a + chrom_a + scaff_a
+        print(f"Organism: {org_name}\nNumber of assemblies: {ass}")
+        if ass < 4:
+            del_ass.append(org_name)
+        else:
+            big_ass[org_name] = ass
+    except (Exception) as err:
+        print(f"Problem with {org_name}")
+        print(err)
 
 # Executing 
 org_keys = list(gbp_taxids.keys())
