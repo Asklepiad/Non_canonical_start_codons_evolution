@@ -21,8 +21,10 @@ ncbi = NCBITaxa()
 # Parsing argument
 parser = argparse.ArgumentParser()
 parser.add_argument("taxon", type=str)
+parser.add_argument("sp_per_genus", type=int)
 arguments = parser.parse_args()
 taxon = arguments.taxon
+sp_per_genus = arguments.sp_per_genus
 print(f"Counting number of species in {taxon}...")
 
 # Counting number of taxons
@@ -125,14 +127,15 @@ for genus in genuses:
     for specie in big_ass:
         if specie.startswith(genus):
             per_gen_dict[specie] = big_ass[specie]
-    if len(per_gen_dict) >= 2:
-        for repeat in range(2):
+    if len(per_gen_dict) >= sp_per_genus:
+        for repeat in range(sp_per_genus):
             spec = max(per_gen_dict, key=per_gen_dict.get)
             big_result[spec] = per_gen_dict[spec]
             del per_gen_dict[spec]
-    elif len(per_gen_dict) == 1:
-        spec = max(per_gen_dict, key=per_gen_dict.get)
-        big_result[spec] = per_gen_dict[spec]
+    elif len(per_gen_dict) > 0:
+        for repeat in range(len(per_gen_dict)):
+            spec = max(per_gen_dict, key=per_gen_dict.get)
+            big_result[spec] = per_gen_dict[spec]
 print(f"Number of species for further analysis: {len(big_result)}")
 
 json_gbp_s_new = json.dumps(big_result)
