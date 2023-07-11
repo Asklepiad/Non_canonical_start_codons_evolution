@@ -6,6 +6,7 @@ import json
 import time
 import requests
 import argparse
+import numpy as np
 from concurrent.futures import ThreadPoolExecutor
 from threading import Thread
 from tqdm import tqdm
@@ -44,13 +45,19 @@ counter = 1
 while counter > 0:
     counter = 0
     for specie in gpb_species:
-        if specie.startswith("unclassified"):
+        if specie.__contains__("unclassified"):
             gpb_species.remove(specie)
             counter += 1
-        elif specie.startswith("endosymbiont"):
+        elif specie.__contains__("endosymbiont"):
             gpb_species.remove(specie)
             counter += 1
-        elif specie.startswith("Candidatus"):
+        elif specie.__contains__("Candidatus"):
+            gpb_species.remove(specie)
+            counter += 1
+        elif specie.__contains__(" sp."):
+            gpb_species.remove(specie)
+            counter += 1
+        elif specie.__contains__("uncultured"):
             gpb_species.remove(specie)
             counter += 1
 print(f"Number of {taxon} species after first sorting is {len(gpb_species)}")
@@ -108,5 +115,26 @@ with ThreadPoolExecutor(n_threads) as pool:
 
 # Saving results
 json_gbp_s = json.dumps(big_ass)
-with open(f"../data/gpb_species.json", "w") as jsngbps:
+with open(f"../data/pre_gpb_species.json", "w") as jsngbps:
     jsngbps.write(json_gbp_s)
+
+genuses = np.unique([specie.split()[0] for specie in big_ass.keys()])
+big_result = {}
+for genus in genuses:
+    per_gen_dict = {}
+    for specie in big_ass:
+        if specie.startswith(genus):
+            per_gen_dict[specie] = big_ass[specie]
+    if len(per_gen_dict) >= 2:
+        for repeat in range(2):
+            spec = max(per_gen_dict, key=per_gen_dict.get)
+            big_result[spec] = per_gen_dict[spec]
+            del per_gen_dict[spec]
+    elif len(per_gen_dict) == 1:
+        spec = max(per_gen_dict, key=per_gen_dict.get)
+        big_result[spec] = per_gen_dict[spec]
+print(f"Number of species for further analysis: {len(big_result)}")
+
+json_gbp_s_new = json.dumps(big_result)
+with open(f"../data/gpb_species.json", "w") as jsngbps_n:
+    jsngbps_n.write(json_gbp_s_new)
