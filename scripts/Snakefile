@@ -1,6 +1,5 @@
 rule parsing:
-        params:
-                short_name = config["short_name"],
+        params:                
                 mail = config["mail"]
 
         threads: 1
@@ -14,14 +13,11 @@ rule parsing:
 	benchmark: "../{short_name}/benchmark/parsing.txt"                
 
 	shell:	"""
-		mkdir -p ../{params.short_name}/data/for_prokka_fasta/
-		python3 ./Parsing_NCBI_1.py {params.short_name} {params.mail} > {output.logout} 2> {log.logerr}
+		mkdir -p ../{wildcards.short_name}/data/for_prokka_fasta/
+		python3 ./Parsing_NCBI_1.py {wildcards.short_name} {params.mail} > {output.logout} 2> {log.logerr}
 		"""
 
 rule prokka:
-        params:
-                short_name = config["short_name"]
-
         threads: 8
 
         conda: "prokka_start_codons"
@@ -35,14 +31,11 @@ rule prokka:
 	benchmark: "../{short_name}/benchmark/prokka.txt"
 
         shell: 	"""
-		mkdir -p ../{params.short_name}/data/annotate
-		./prokka_annotate2.sh {params.short_name} > {output.logout} 2> {log.logerr}
+		mkdir -p ../{wildcards.short_name}/data/annotate
+		./prokka_annotate2.sh {wildcards.short_name} > {output.logout} 2> {log.logerr}
 		"""
 
 rule first_table:
-        params:
-                short_name = config["short_name"]
-
         threads: 1
 
         conda: 	"python_start_codons"
@@ -55,11 +48,10 @@ rule first_table:
 
 	benchmark: "../{short_name}/benchmark/ft.txt"
 
-        shell: 	"python3 ./First_table_creating3.py {params.short_name} > {output.logout} 2> {log.logerr}"
+        shell: 	"python3 ./First_table_creating3.py {wildcards.short_name} > {output.logout} 2> {log.logerr}"
 
 rule proteinortho:
         params:
-                short_name = config["short_name"],
                 po_parameter = config["po_parameter"]
 
         threads: 8
@@ -74,12 +66,9 @@ rule proteinortho:
 
 	benchmark: "../{short_name}/benchmark/protortho.txt"
 
-        shell: "./proteinortho_script4.sh {params.short_name} {params.po_parameter} > {output.logout} 2> {log.logerr}"
+        shell: "./proteinortho_script4.sh {wildcards.short_name} {params.po_parameter} > {output.logout} 2> {log.logerr}"
 
 rule muscle_prep:
-        params:
-                short_name = config["short_name"]
-
         threads: 1
 
         conda: "python_start_codons"
@@ -92,12 +81,9 @@ rule muscle_prep:
 
 	benchmark: "../{short_name}/benchmark/mp.txt"
 
-        shell: "python3 ./Muscle_preparing_5.py {params.short_name} > {output.logout} 2> {log.logerr}"
+        shell: "python3 ./Muscle_preparing_5.py {wildcards.short_name} > {output.logout} 2> {log.logerr}"
 
 rule statscript:
-        params:
-                short_name = config["short_name"]
-
         threads: 1
 
         conda: "R_start_codons"
@@ -110,12 +96,9 @@ rule statscript:
 
 	benchmark: "../{short_name}/benchmark/stat.txt"
 
-        shell: 	"Rscript Statscript.R {params.short_name} > {output.logout} 2> {log.logerr}"
+        shell: 	"Rscript Statscript.R {wildcards.short_name} > {output.logout} 2> {log.logerr}"
 
 rule muscle:
-        params:
-                short_name = config["short_name"]
-
         threads: 8
 
         conda: 	"muscle_start_codons"
@@ -128,11 +111,10 @@ rule muscle:
 
 	benchmark: "../{short_name}/benchmark/muscle.txt"
 
-        shell: "./muscle_align6.sh {params.short_name} {threads} > {output.logout} 2> {log.logerr}"
+        shell: "./muscle_align6.sh {wildcards.short_name} {threads} > {output.logout} 2> {log.logerr}"
 
 rule modeltest:
         params:
-                short_name = config["short_name"],
                 aligner = config["aligner"]
 
         threads: 8
@@ -147,11 +129,10 @@ rule modeltest:
 
 	benchmark: "../{short_name}/benchmark/modeltest_bench.txt"
 
-        shell: "./modeltree_maker7.sh {params.short_name} {params.aligner} > {output.logout} 2> {log.logerr}"
+        shell: "./modeltree_maker7.sh {wildcards.short_name} {params.aligner} > {output.logout} 2> {log.logerr}"
 
 rule raxml:
         params:
-                short_name = config["short_name"],
                 aligner = config["aligner"]
 
         threads: 8
@@ -166,12 +147,9 @@ rule raxml:
 
 	benchmark: "../{short_name}/benchmark/raxml_bench.txt"
 
-        shell: "./raxml_tree8.sh {params.short_name} {params.aligner} {threads} > {output.logout} 2> {log.logerr}"
+        shell: "./raxml_tree8.sh {wildcards.short_name} {params.aligner} {threads} > {output.logout} 2> {log.logerr}"
 
 rule ete3:
-        params:
-                short_name = config["short_name"]
-
         threads: 1
 
         conda:  "python_start_codons"
@@ -185,6 +163,6 @@ rule ete3:
         benchmark: "../{short_name}/benchmark/ete3_bench.txt"
 
         shell: 	"""
-		mkdir ../{params.short_name}/figures/trees/
-		python3 ./Ete3_maker_10.py {params.short_name} > {output.logout} 2> {log.logerr}
+		mkdir ../{wildcards.short_name}/figures/trees/
+		python3 ./Ete3_maker_10.py {wildcards.short_name} > {output.logout} 2> {log.logerr}
 		"""
