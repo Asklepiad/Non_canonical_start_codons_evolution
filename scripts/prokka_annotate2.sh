@@ -5,7 +5,6 @@
 mask=$1
 
 
-# Creates folder for storing assemblies
 curr_dir1="../${mask}/data/${mask}_annotate"
 if [[ ! -e ${curr_dir1} ]]
 then

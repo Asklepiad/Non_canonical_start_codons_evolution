@@ -3,6 +3,13 @@
 
 # Conda environments
 
+snakemake_check=$(conda env list | grep "snakemake" | wc -l)
+if [[ $snakemake_check -eq 0 ]]
+then
+        conda create -n snakemake
+        conda run -n snakemake -c bioconda snakemake==7.31.0
+fi
+
 prokka_check=$(conda env list | grep "prokka_start_codons" | wc -l)
 if [[ $prokka_check -eq 0 ]]
 then

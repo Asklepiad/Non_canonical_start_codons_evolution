@@ -22,7 +22,7 @@ arguments = parser.parse_args()
 
 json_file_name = arguments.path
 Entrez.email = arguments.mail
-json_path = f"../data/jsons/{json_file_name}"
+json_path = f"../data/jsons/{json_file_name}.json"
 with open(json_path, "r") as json_organism:
     json_organism = json.load(json_organism)
  
