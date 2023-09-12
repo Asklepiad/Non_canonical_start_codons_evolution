@@ -390,6 +390,8 @@ prop_gene_group <- start_codons2 %>%
   summarise(count = n()) %>%
   filter(gene_group != "NA" & is.na(start_type)==FALSE)
 
+# Fisher on steroids ####
+
 # Barplots CShC - number ####
 positions = c("core", "shell", "cloud")
 or_bar_abs <-  ggplot(prop_gene_group) +
