@@ -27,11 +27,11 @@ with open(json_path, "r") as json_organism:
     json_organism = json.load(json_organism)
  
 organism_name = json_organism[0]
-complete_ids = list(json_organism[1].values())[0]
-if type(complete_ids[len(complete_ids)-1]) == list:
-    scaffs = complete_ids[len(complete_ids)-1]
-    del complete_ids[len(complete_ids)-1]
-    complete_ids += scaffs
+pre_complete_ids = list(json_organism[1].values())[0]
+if type(pre_complete_ids[len(pre_complete_ids)-1]) == list:
+    scaffs = pre_complete_ids[len(pre_complete_ids)-1]
+    del pre_complete_ids[len(pre_complete_ids)-1]
+    pre_complete_ids += scaffs
 
 
 def extract_insdc(links): 
@@ -76,13 +76,14 @@ db_search = "assembly"
 db_current = "nucleotide"
 print("variables_ok")
 
-if complete_ids[0][0:3] == "GCF":
-    gcfs = complete_ids.copy()
-    compete_ids = []
-    for gcf in complete_ids:
+if pre_complete_ids[0][0:3] == "GCF":
+    complete_ids = []
+    for gcf in pre_complete_ids:
         search_handle = Entrez.esearch(db_search, gcf)
         search_record = Entrez.read(search_handle)
-        compete_ids.append(search_record["IdList"])
+        complete_ids.append(search_record["IdList"])
+else:
+    complete_ids = pre_complete_ids
 
 # Taking ids for fetching. It collected all non-duplicated links in nucleotide databiase from assembly database.
 # We use try-except for excepting problems with network temorary lags, which ruined our code
