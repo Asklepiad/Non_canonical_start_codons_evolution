@@ -76,6 +76,13 @@ db_search = "assembly"
 db_current = "nucleotide"
 print("variables_ok")
 
+if complete_ids[0][0:3] == "GCF":
+    gcfs = complete_ids.copy()
+    compete_ids = []
+    for gcf in complete_ids:
+        search_handle = Entrez.esearch(db_search, gcf)
+        search_record = Entrez.read(search_handle)
+        compete_ids.append(search_record["IdList"])
 
 # Taking ids for fetching. It collected all non-duplicated links in nucleotide databiase from assembly database.
 # We use try-except for excepting problems with network temorary lags, which ruined our code
