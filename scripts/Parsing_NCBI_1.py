@@ -34,20 +34,31 @@ if type(pre_complete_ids[len(pre_complete_ids)-1]) == list:
     pre_complete_ids += scaffs
 
 
-def extract_insdc(links): 
-    linkset = [ls for ls in links[0]['LinkSetDb'] if
-               ls['LinkName'] == 'assembly_nuccore_insdc']
-    if 0 != len(linkset):
-        uids = [link['Id'] for link in linkset[0]['Link']]
-    else:
-        uids = 0
+def extract_insdc(links, db_search, complete_id):
+    search_handle = Entrez.esummary(db=db_search, id=complete_id)
+    search_record = Entrez.read(search_handle)
+    ass_level = search_record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyStatus']
+    if ass_level in ["Chromosome", "Complete Genome"]:
+        linkset = [ls for ls in links[0]['LinkSetDb'] if
+              ls['LinkName'] == 'assembly_nuccore_insdc']
+        if 0 != len(linkset):
+            uids = [link['Id'] for link in linkset[0]['Link']]
+        else:
+            uids = 0
+    elif ass_level == "Scaffold":
+        linkset = [ls for ls in links[0]['LinkSetDb'] if
+              ls['LinkName'] == 'assembly_nuccore_refseq']
+        if 0 != len(linkset):
+            uids = [link['Id'] for link in linkset[0]['Link']]
+        else:
+            uids = 0
     return uids
 
 def download_links(db_search, db_current, complete_id, timer, num_link):
     if timer > 0:
         link_handle = Entrez.elink(dbfrom=db_search, db=db_current, from_uid=complete_id)
         link_record = Entrez.read(link_handle)
-        uids = extract_insdc(link_record)
+        uids = extract_insdc(link_record, db_search, complete_id)
         if uids != 0:
             for uid in uids:
                 if uid not in links_checked:  # Checking for duplicates

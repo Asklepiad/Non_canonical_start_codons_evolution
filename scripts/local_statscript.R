@@ -410,6 +410,57 @@ prop_gene_group <- start_codons2 %>%
 
 
 # Fisher on steroids ####
+
+# Actual approach
+## Sum of all cogs
+al_sum <- summary_rows %>% 
+  select(length:ortologus_row) %>%
+  select(3:ncol(.)-1) %>%
+  sum
+
+## Proportion of COGs
+prop_cog <- summary_rows %>% 
+  select(length:ortologus_row) %>%
+  select(3:ncol(.)-1) %>% 
+  summarise(across(everything(), function(x) round(sum(x)/al_sum, 4))) %>% 
+  select(where(function(x) sum(x)>0))
+
+## Proportion of start codons and creating reference tibble
+pre_fisher_ref <- tibble(start_codone = c("ATG", "GTG", "TTG"),
+                         count = table(summary_rows$start_codone)) 
+
+
+## Dataset fo further analysis: x -- COGs, y -- start-codons
+pre_fisher <- summary_rows %>% 
+  select(start_codone, length:ortologus_row) %>%
+  select(1, 4:ncol(.)-1)  %>%  # Why 4? Why not 3?
+  group_by(start_codone) %>%
+  summarize(across(1:ncol(.)-1, sum))  %>% # Why we need to use "-1"?
+  select(start_codone, where(~ is.factor(.x) || (is.numeric(.x) && sum(.x)>0)))
+
+
+
+list_sc_num <- list(c(1,2), c(1,3), c(2,3))
+vector_cog <- colnames(prop_cog)
+
+fisher_list <- lapply(list_sc_num, 
+       function(x) lapply(vector_cog, 
+                          function(y) fisher.test(
+                            rbind(as.integer((pre_fisher_ref[x,2] * as.double(prop_cog[y]))[1:2,2]),
+                                  as.vector(pre_fisher[x, y])[[1]]))))
+
+names(fisher_list) <- c("ATG_GTG", "ATG_TTG", "GTG_TTG")
+names(fisher_list[["ATG_GTG"]]) <- vector_cog
+names(fisher_list[["ATG_TTG"]]) <- vector_cog
+names(fisher_list[["GTG_TTG"]]) <- vector_cog
+
+bonf_corr <- length(vector_cog) * length(list_sc_num)
+lapply(c("ATG_GTG", "ATG_TTG", "GTG_TTG"),
+       function(x) lapply(vector_cog, 
+                          function(y) fisher_list[[x]][[y]]["corrected_p_value"] = <подставить нужное>)
+
+fisher.test(matrix(c(15332, 1228, 16875, 1264), nrow=2))
+# Deprecated approach
 pre_fisher <- summary_rows %>% 
   select(start_codone, length:ortologus_row) %>%
   select(1, 4:ncol(.)-1)  %>%  # Why 4? Why not 3?
@@ -455,6 +506,28 @@ fisher_output_list <- lapply(sc_combo, function(x) lapply(cog_combo, function(y)
 
 
 ft$p.value < 0.05/bonf_coeff
+
+# Gene selecting for eggnog-mapper ####
+pre_egg_or <- summary_rows %>% 
+  filter(gene_group == "core") %>% 
+  select(id, source, aa_sequence, ortologus_row, length)
+
+first_part_egg <- pre_egg_or %>% 
+  group_by(ortologus_row) %>% 
+  filter(length==median(length)) %>% 
+  slice_head(n=1) %>% 
+  ungroup
+
+second_part_egg <- pre_egg_or %>% 
+  group_by(ortologus_row) %>% 
+  filter(length!=median(length)) %>% 
+  ungroup
+
+egg_pre_fasta <- rbind(first_part_egg, second_part_egg)
+
+## Fasta creating
+
+
 
 # Barplots CShC - number ####
 positions = c("core", "shell", "cloud")
@@ -698,9 +771,8 @@ write.csv(mwu_df, glue("./data/{org_short}_cog_sc_mwu.csv"))
 # Genes of interest ####
 
 # Choosing core orto-rows from organism with ATG proportion lesser then 0.5
-
-summary_rows_ec = read.csv("../results/E_coli/summary_rows_prokka.csv")
-start_codons2_ec = read.csv("../results/E_coli/start_codons2_prokka.csv")
+summary_rows_ec = read.csv("./results/E_coli/summary_rows_prokka.csv")
+start_codons2_ec = read.csv("./results/E_coli/start_codons2_prokka.csv")
 max_Strain = max(summary_rows_ec$Species)
 summary_rows_ec$gene_group = sapply(summary_rows_ec$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
 start_codons2_ec$gene_group = sapply(start_codons2_ec$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
@@ -722,8 +794,8 @@ E_coli_interest_product2 <- E_coli_interest %>%
 E_coli_interest_products <- intersect(E_coli_interest_product1, E_coli_interest_product2)
 E_coli_interest_products <- E_coli_interest_products[E_coli_interest_products != "hypothetical protein"]
 
-summary_rows_pa = read.csv("../results/P_aeruginos/summary_rows_prokka.csv")
-start_codons2_pa = read.csv("../results/P_aeruginos/start_codons2_prokka.csv")
+summary_rows_pa = read.csv("./results/P_aeruginos/summary_rows_prokka.csv")
+start_codons2_pa = read.csv("./results/P_aeruginos/start_codons2_prokka.csv")
 max_Strain = max(summary_rows_pa$Species)
 summary_rows_pa$gene_group = sapply(summary_rows_pa$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
 start_codons2_pa$gene_group = sapply(start_codons2_pa$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
@@ -745,8 +817,8 @@ P_aeruginos_interest_product2 <- P_aeruginos_interest %>%
 P_aeruginos_interest_products <- intersect(P_aeruginos_interest_product1, P_aeruginos_interest_product2)
 P_aeruginos_interest_products <- P_aeruginos_interest_products[P_aeruginos_interest_products != "hypothetical protein"]
 
-summary_rows_bc = read.csv("../results/B_cereus/summary_rows_prokka.csv")
-start_codons2_bc = read.csv("../results/B_cereus/start_codons2_prokka.csv")
+summary_rows_bc = read.csv("./results/B_cereus/summary_rows_prokka.csv")
+start_codons2_bc = read.csv("./results/B_cereus/start_codons2_prokka.csv")
 max_Strain = max(summary_rows_bc$Species)
 summary_rows_bc$gene_group = sapply(summary_rows_bc$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
 start_codons2_bc$gene_group = sapply(start_codons2_bc$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
@@ -769,12 +841,12 @@ B_cereus_interest_products <- intersect(B_cereus_interest_product1, B_cereus_int
 B_cereus_interest_products <- B_cereus_interest_products[B_cereus_interest_products != "hypothetical protein"]
 
 intersect(intersect(B_cereus_interest_products, P_aeruginos_interest_products), E_coli_interest_products)
-subset(summary_rows, starts_with())
+#subset(summary_rows, starts_with())
 
-# Alignment of "ATP synthase subunit b(eta)"
+# Alignment of "ATP synthase subunit b(eta)" ####
 b_subunit <- summary_rows_ec |> 
   slice(grep("ATP synthase subunit b", product)) |> 
-  select(product, n_sequence)
+  select(product, aa_sequence)
 
 b_subunit$product <-  paste(">", gsub(" ", "_", b_subunit$product), 0:99, sep="_")
 
@@ -785,8 +857,8 @@ fasta_prewriter <- function(x, col1, col2){
   cat("\n")
 }
 
-sink("../data/atp_b.fa")
-apply(b_subunit, 1, function(x) fasta_prewriter(x, "product", "n_sequence"))
+sink("./data/atp_b.fa")
+apply(b_subunit, 1, function(x) fasta_prewriter(x, "product", "aa_sequence"))
 sink()
 
 
