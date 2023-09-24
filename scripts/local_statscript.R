@@ -23,7 +23,7 @@ lapply(c("ggplot2",
 # Uploading the data ####
 
 # For starting from RStudio add your bacteria's short name -- first letter of genus, underscore, first nine (or lesser, if hasn't) letters of specie's name.
-org_short <- "S_ruber"  
+org_short <- "E_coli"  
 print(getwd())
 path <- glue("../results/{org_short}")
 setwd(path)
@@ -408,6 +408,127 @@ prop_gene_group <- start_codons2 %>%
   summarise(count = n()) %>%
   filter(gene_group != "NA" & is.na(start_type)==FALSE)
 
+
+# Fisher on steroids ####
+
+# Actual approach
+## Sum of all cogs
+al_sum <- summary_rows %>% 
+  select(length:ortologus_row) %>%
+  select(3:ncol(.)-1) %>%
+  sum
+
+## Proportion of COGs
+prop_cog <- summary_rows %>% 
+  select(length:ortologus_row) %>%
+  select(3:ncol(.)-1) %>% 
+  summarise(across(everything(), function(x) round(sum(x)/al_sum, 4))) %>% 
+  select(where(function(x) sum(x)>0))
+
+## Proportion of start codons and creating reference tibble
+pre_fisher_ref <- tibble(start_codone = c("ATG", "GTG", "TTG"),
+                         count = table(summary_rows$start_codone)) 
+
+
+## Dataset fo further analysis: x -- COGs, y -- start-codons
+pre_fisher <- summary_rows %>% 
+  select(start_codone, length:ortologus_row) %>%
+  select(1, 4:ncol(.)-1)  %>%  # Why 4? Why not 3?
+  group_by(start_codone) %>%
+  summarize(across(1:ncol(.)-1, sum))  %>% # Why we need to use "-1"?
+  select(start_codone, where(~ is.factor(.x) || (is.numeric(.x) && sum(.x)>0)))
+
+
+
+list_sc_num <- list(c(1,2), c(1,3), c(2,3))
+vector_cog <- colnames(prop_cog)
+
+fisher_list <- lapply(list_sc_num, 
+       function(x) lapply(vector_cog, 
+                          function(y) fisher.test(
+                            rbind(as.integer((pre_fisher_ref[x,2] * as.double(prop_cog[y]))[1:2,2]),
+                                  as.vector(pre_fisher[x, y])[[1]]))))
+
+names(fisher_list) <- c("ATG_GTG", "ATG_TTG", "GTG_TTG")
+names(fisher_list[["ATG_GTG"]]) <- vector_cog
+names(fisher_list[["ATG_TTG"]]) <- vector_cog
+names(fisher_list[["GTG_TTG"]]) <- vector_cog
+
+bonf_corr <- length(vector_cog) * length(list_sc_num)
+lapply(c("ATG_GTG", "ATG_TTG", "GTG_TTG"),
+       function(x) lapply(vector_cog, 
+                          function(y) fisher_list[[x]][[y]]["corrected_p_value"] = <подставить нужное>)
+
+fisher.test(matrix(c(15332, 1228, 16875, 1264), nrow=2))
+# Deprecated approach
+pre_fisher <- summary_rows %>% 
+  select(start_codone, length:ortologus_row) %>%
+  select(1, 4:ncol(.)-1)  %>%  # Why 4? Why not 3?
+  group_by(start_codone) %>%
+  summarize(across(1:ncol(.)-1, sum))  %>% # Why we need to use "-1"?
+  select(start_codone, where(~ is.factor(.x) || (is.numeric(.x) && sum(.x)>0)))
+  
+## Correcting of the counts
+
+freqs <-  table(summary_rows$start_codone)
+
+coefAG <- (freqs["ATG"]/freqs["GTG"])
+coefAT <- (freqs["ATG"]/freqs["TTG"])
+coefGT <- (freqs["GTG"]/freqs["TTG"])
+
+
+
+## Counting the number of combinations
+bonf_coeff <- choose(length(colnames(pre_fisher[2:ncol(pre_fisher)])),2) * choose(length(pre_fisher$start_codone), 2)
+
+## 2-2 matrices
+cog_precombo <- combn(colnames(pre_fisher[2:ncol(pre_fisher)]), 2) # Combinations of all cogs
+cog_combo <- lapply(as.data.frame(cog_precombo), function(x) c(x))
+names(cog_combo) <- sapply(cog_combo, function(x) paste(x[1], x[2], sep="_"))
+sc_precombo <- combn(pre_fisher$start_codone, 2)
+sc_combo <- lapply(as.data.frame(sc_precombo), function(x) x)
+names(sc_combo) <- sapply(sc_combo, function(x) paste(x[1], x[2], sep="_"))
+
+vcog <- c("R","U")
+vscAT <- c("ATG", "TTG")
+vscAG <- c("ATG", "GTG")
+vscGT <- c("GTG", "TTG")
+
+ft <- function(vcog, vsc){pre_fisher %>%
+  filter(start_codone %in% vsc) %>%
+  select(all_of(vcog)) %>%
+  fisher.test
+}
+
+fisher_output_list <- lapply(sc_combo, function(x) lapply(cog_combo, function(y) ft(y, x)))
+
+
+
+
+ft$p.value < 0.05/bonf_coeff
+
+# Gene selecting for eggnog-mapper ####
+pre_egg_or <- summary_rows %>% 
+  filter(gene_group == "core") %>% 
+  select(id, source, aa_sequence, ortologus_row, length)
+
+first_part_egg <- pre_egg_or %>% 
+  group_by(ortologus_row) %>% 
+  filter(length==median(length)) %>% 
+  slice_head(n=1) %>% 
+  ungroup
+
+second_part_egg <- pre_egg_or %>% 
+  group_by(ortologus_row) %>% 
+  filter(length!=median(length)) %>% 
+  ungroup
+
+egg_pre_fasta <- rbind(first_part_egg, second_part_egg)
+
+## Fasta creating
+
+
+
 # Barplots CShC - number ####
 positions = c("core", "shell", "cloud")
 or_bar_abs <-  ggplot(prop_gene_group) +
@@ -646,6 +767,144 @@ mwu_b_list <- lapply(ass_sc_cog_pre_list, cog_posthoc)
 mwu_df <- as.data.frame(do.call("rbind", mwu_b_list))
 write.csv(mwu_df, glue("./data/{org_short}_cog_sc_mwu.csv"))
 
+
+# Genes of interest ####
+
+# Choosing core orto-rows from organism with ATG proportion lesser then 0.5
+summary_rows_ec = read.csv("./results/E_coli/summary_rows_prokka.csv")
+start_codons2_ec = read.csv("./results/E_coli/start_codons2_prokka.csv")
+max_Strain = max(summary_rows_ec$Species)
+summary_rows_ec$gene_group = sapply(summary_rows_ec$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
+start_codons2_ec$gene_group = sapply(start_codons2_ec$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
+E_coli_interest_rows <- summary_rows_ec %>%
+  filter(gene_group == "core") %>%
+  group_by(ortologus_row) %>%
+  summarize(atg_content = (ATG / Genes)) %>%
+  unique %>%
+  filter(atg_content < 0.5) %>%
+  pull(ortologus_row)
+E_coli_interest <- subset(summary_rows_ec, ortologus_row %in% E_coli_interest_rows)
+E_coli_interest_product1 <- unique(E_coli_interest$product)
+E_coli_interest_product2 <- E_coli_interest %>%
+  group_by(product) %>%
+  summarize(atg_content = (ATG / Genes)) %>%
+  unique %>%
+  filter(atg_content < 0.5) %>%
+  pull(product)
+E_coli_interest_products <- intersect(E_coli_interest_product1, E_coli_interest_product2)
+E_coli_interest_products <- E_coli_interest_products[E_coli_interest_products != "hypothetical protein"]
+
+summary_rows_pa = read.csv("./results/P_aeruginos/summary_rows_prokka.csv")
+start_codons2_pa = read.csv("./results/P_aeruginos/start_codons2_prokka.csv")
+max_Strain = max(summary_rows_pa$Species)
+summary_rows_pa$gene_group = sapply(summary_rows_pa$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
+start_codons2_pa$gene_group = sapply(start_codons2_pa$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
+P_aeruginos_interest_rows <- summary_rows_pa %>%
+  filter(gene_group == "core") %>%
+  group_by(ortologus_row) %>%
+  summarize(atg_content = (ATG / Genes)) %>%
+  unique %>%
+  filter(atg_content < 0.5) %>%
+  pull(ortologus_row)
+P_aeruginos_interest <- subset(summary_rows_pa, ortologus_row %in% P_aeruginos_interest_rows)
+P_aeruginos_interest_product1 <- unique(P_aeruginos_interest$product)
+P_aeruginos_interest_product2 <- P_aeruginos_interest %>%
+  group_by(product) %>%
+  summarize(atg_content = (ATG / Genes)) %>%
+  unique %>%
+  filter(atg_content < 0.5) %>%
+  pull(product)
+P_aeruginos_interest_products <- intersect(P_aeruginos_interest_product1, P_aeruginos_interest_product2)
+P_aeruginos_interest_products <- P_aeruginos_interest_products[P_aeruginos_interest_products != "hypothetical protein"]
+
+summary_rows_bc = read.csv("./results/B_cereus/summary_rows_prokka.csv")
+start_codons2_bc = read.csv("./results/B_cereus/start_codons2_prokka.csv")
+max_Strain = max(summary_rows_bc$Species)
+summary_rows_bc$gene_group = sapply(summary_rows_bc$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
+start_codons2_bc$gene_group = sapply(start_codons2_bc$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
+B_cereus_interest_rows <- summary_rows_bc %>%
+  filter(gene_group == "core") %>%
+  group_by(ortologus_row) %>%
+  summarize(atg_content = (ATG / Genes)) %>%
+  unique %>%
+  filter(atg_content < 0.5) %>%
+  pull(ortologus_row)
+B_cereus_interest <- subset(summary_rows_bc, ortologus_row %in% B_cereus_interest_rows)
+B_cereus_interest_product1 <- unique(B_cereus_interest$product)
+B_cereus_interest_product2 <- B_cereus_interest %>%
+  group_by(product) %>%
+  summarize(atg_content = (ATG / Genes)) %>%
+  unique %>%
+  filter(atg_content < 0.5) %>%
+  pull(product)
+B_cereus_interest_products <- intersect(B_cereus_interest_product1, B_cereus_interest_product2)
+B_cereus_interest_products <- B_cereus_interest_products[B_cereus_interest_products != "hypothetical protein"]
+
+intersect(intersect(B_cereus_interest_products, P_aeruginos_interest_products), E_coli_interest_products)
+#subset(summary_rows, starts_with())
+
+# Alignment of "ATP synthase subunit b(eta)" ####
+b_subunit <- summary_rows_ec |> 
+  slice(grep("ATP synthase subunit b", product)) |> 
+  select(product, aa_sequence)
+
+b_subunit$product <-  paste(">", gsub(" ", "_", b_subunit$product), 0:99, sep="_")
+
+fasta_prewriter <- function(x, col1, col2){
+  cat(x[col1])
+  cat("\n")
+  cat(x[col2])
+  cat("\n")
+}
+
+sink("./data/atp_b.fa")
+apply(b_subunit, 1, function(x) fasta_prewriter(x, "product", "aa_sequence"))
+sink()
+
+
+       
+       
+#summary_rows = read.csv("../results/P_aeruginos/summary_rows_prokka.csv")
+#start_codons2 = read.csv("../results/P_aeruginos/start_codons2_prokka.csv")
+#max_Strain = max(summary_rows$Species)
+#start_codons2$gene_group = sapply(start_codons2$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
+#P_aeruginos_interest_rows <- unique(subset(start_codons2, gene_group == "core" & ATG/(ATG + GTG + TTG) < 0.33)$cog)
+#P_aeruginos_interest_cogs <- P_aeruginos_interest_cogs[P_aeruginos_interest_cogs != "absent"]
+#P_aeruginos_interest_products <- unique(subset(summary_rows, cog %in% P_aeruginos_interest_cogs)$product)
+
+#summary_rows = read.csv("../results/B_cereus/summary_rows_prokka.csv")
+#start_codons2 = read.csv("../results/B_cereus/start_codons2_prokka.csv")
+#max_Strain = max(summary_rows$Species)
+#start_codons2$gene_group = sapply(start_codons2$Species, function(x) ifelse(x==max_Strain, "core", ifelse(x==1, "cloud", ifelse((round(max_Strain*0.7,0)>=x) & (x>=round(max_Strain*0.3,0)), "shell", "NA"))))
+#B_cereus_interest_rows <- unique(subset(start_codons2, gene_group == "core" & ATG/(ATG + GTG + TTG) < 0.33)$cog)
+#B_cereus_interest_cogs <- B_cereus_interest_cogs[B_cereus_interest_cogs != "absent"]
+#B_cereus_interest_products <- unique(subset(summary_rows, cog %in% B_cereus_interest_cogs)$product)
+
+consensus_interest_cogs1 <- intersect(intersect(P_aeruginos_interest_products, B_cereus_interest_products), E_coli_interest_products)
+
+summary_rows = read.csv("../results/E_coli/summary_rows_prokka.csv")
+lapply(consensus_interest_cogs1, function(x) prop.table(table(subset(summary_rows, product == x)$start_codone)))
+
+summary_rows = read.csv("../results/P_aeruginos/summary_rows_prokka.csv")
+lapply(consensus_interest_cogs1, function(x) prop.table(table(subset(summary_rows, product == x)$start_codone)))
+
+summary_rows = read.csv("../results/B_cereus/summary_rows_prokka.csv")
+lapply(consensus_interest_cogs1, function(x) prop.table(table(subset(summary_rows, product == x)$start_codone)))
+
+summary_rows %>%
+  filter(product )
+
+#Generation the order of COG names
+#cog_list <- summary_rows %>%  
+#  select(length:ortologus_row) %>% 
+#  select(2:(ncol(.)-1)) %>%
+#  colnames(.)
+
+# Generation of list with start-codon "weight" per COG
+#cog_start_prop_list <- lapply(cog_list, function(x) prop.table(table(subset(summary_rows, summary_rows[x]==1)$start_codone)))
+#names(cog_start_prop_list) <- cog_list
+
+#orto_cores <- subset(start_codons2, gene_group == "core")
 
 # Report ####  
 report_part_basic <- glue("Basic statistics:

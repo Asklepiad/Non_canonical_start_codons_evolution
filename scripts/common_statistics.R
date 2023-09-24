@@ -15,7 +15,7 @@ lapply(c("ggplot2",
          "car",
          "hash",
          "readr"), package_installer)
-
+library(hash)
 options(scipen = 999)
 
 # Boxplot analyzer
@@ -28,7 +28,7 @@ data_joiner <- function(path){
   write_csv(df, file=file.path(path, "combined","combined.csv"))
 }
 
-path = "/home/asklepiad/bioinf/start_codons/BI_project_2022/C_psittaci_folder/boxplots/"
+path = "/home/asklepiad/bioinf/start_codons/BI_project_2022/boxplots/"
 data_joiner(path)
 boxplots_comm <- read_csv(file.path(path, "combined","combined.csv"))
 boxplots_comm$start_codon <- as.factor(boxplots_comm$start_codon)
@@ -103,7 +103,7 @@ start_codons2_joiner <- function(path){
   write_csv(df, file=file.path(path, "combined","combined.csv"))
 }
 
-path="/home/asklepiad/bioinf/start_codons/BI_project_2022/C_psittaci_folder/orto_all"
+path="/home/asklepiad/bioinf/start_codons/BI_project_2022/orto_all"
 start_codons2_joiner(path)
 start_codons2_comm <- read_csv(file.path(path, "combined","combined.csv"))
 start_codons2_comm$scs_perrow <- start_codons2_comm %>% 
@@ -111,14 +111,6 @@ start_codons2_comm$scs_perrow <- start_codons2_comm %>%
   apply(., 1, function(x) ifelse(x[1] >= x[2] & x[1] >= x[3], "ATG",
                                  ifelse(x[2] >= x[3] & x[2] > x[1], "GTG", "TTG")))
 
-start_codons2_comm %>% 
-  select(cog, scs_perrow, organism) %>% 
-  group_by(cog, organism) %>% 
-  summarise(ATG=sum(scs_perrow=="ATG"),
-            GTG=sum(scs_perrow=="GTG"),
-            TTG=sum(scs_perrow=="TTG")) %>% 
-  filter(cog %in% mostly_noncanonical$cog)
-  
 mostly_noncanonical <- start_codons2_comm %>% 
   select(cog, scs_perrow, organism) %>% 
   group_by(cog) %>% 
@@ -128,4 +120,14 @@ mostly_noncanonical <- start_codons2_comm %>%
   mutate(atg_ratio=ATG/(ATG+GTG+TTG),
          total=ATG+GTG+TTG) %>% 
   filter(atg_ratio<0.5)
+
+start_codons2_comm %>% 
+  select(cog, scs_perrow, organism) %>% 
+  group_by(cog, organism) %>% 
+  summarise(ATG=sum(scs_perrow=="ATG"),
+            GTG=sum(scs_perrow=="GTG"),
+            TTG=sum(scs_perrow=="TTG")) %>% 
+  filter(cog %in% mostly_noncanonical$cog)
+  
+
 

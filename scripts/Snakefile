@@ -1,0 +1,168 @@
+rule parsing:
+        params:                
+                mail = config["mail"]
+
+        threads: 1
+
+        conda: "python_start_codons"
+
+	log: 	logerr = "../{short_name}/logs/parsing.err"
+
+	output:	logout = "../{short_name}/logs/parsing.log"
+
+	benchmark: "../{short_name}/benchmark/parsing.txt"                
+
+	shell:	"""
+		mkdir -p ../{wildcards.short_name}/data/for_prokka_fasta/
+		python3 ./Parsing_NCBI_1.py {wildcards.short_name} {params.mail} > {output.logout} 2> {log.logerr}
+		"""
+
+rule prokka:
+        threads: 8
+
+        conda: "prokka_start_codons"
+
+	input: 	"../{short_name}/logs/parsing.log"
+
+	output: logout = "../{short_name}/logs/prokka.log"
+
+	log: 	logerr = "../{short_name}/logs/prokka.err"
+
+	benchmark: "../{short_name}/benchmark/prokka.txt"
+
+        shell: 	"""
+		mkdir -p ../{wildcards.short_name}/data/annotate
+		./prokka_annotate2.sh {wildcards.short_name} > {output.logout} 2> {log.logerr}
+		"""
+
+rule first_table:
+        threads: 1
+
+        conda: 	"python_start_codons"
+
+        input: 	"../{short_name}/logs/prokka.log"
+
+	output: logout = "../{short_name}/logs/ft.log"
+
+        log: 	logerr = "../{short_name}/logs/ft.err"
+
+	benchmark: "../{short_name}/benchmark/ft.txt"
+
+        shell: 	"python3 ./First_table_creating3.py {wildcards.short_name} > {output.logout} 2> {log.logerr}"
+
+rule proteinortho:
+        params:
+                po_parameter = config["po_parameter"]
+
+        threads: 8
+
+        conda: 	"proteinortho_start_codons"
+
+        input:	"../{short_name}/logs/ft.log"
+
+	output: logout = "../{short_name}/logs/protortho.log"
+
+        log: logerr = "../{short_name}/logs/protortho.err"
+
+	benchmark: "../{short_name}/benchmark/protortho.txt"
+
+        shell: "./proteinortho_script4.sh {wildcards.short_name} {params.po_parameter} > {output.logout} 2> {log.logerr}"
+
+rule muscle_prep:
+        threads: 1
+
+        conda: "python_start_codons"
+
+        input: "../{short_name}/logs/protortho.log"
+
+	output: logout = "../{short_name}/logs/mp.log"
+
+        log: logerr = "../{short_name}/logs/mp.err"
+
+	benchmark: "../{short_name}/benchmark/mp.txt"
+
+        shell: "python3 ./Muscle_preparing_5.py {wildcards.short_name} > {output.logout} 2> {log.logerr}"
+
+rule statscript:
+        threads: 1
+
+        conda: "R_start_codons"
+
+        input:	"../{short_name}/logs/mp.log"
+
+	output:	logout = "../{short_name}/logs/stat.log"
+
+        log: 	logerr = "../{short_name}/logs/stat.err"
+
+	benchmark: "../{short_name}/benchmark/stat.txt"
+
+        shell: 	"Rscript Statscript.R {wildcards.short_name} > {output.logout} 2> {log.logerr}"
+
+rule muscle:
+        threads: 8
+
+        conda: 	"muscle_start_codons"
+
+        input:	"../{short_name}/logs/mp.log"
+
+	output: logout = "../{short_name}/logs/muscle.log"
+
+        log: 	logerr = "../{short_name}/logs/muscle.err"
+
+	benchmark: "../{short_name}/benchmark/muscle.txt"
+
+        shell: "./muscle_align6.sh {wildcards.short_name} {threads} > {output.logout} 2> {log.logerr}"
+
+rule modeltest:
+        params:
+                aligner = config["aligner"]
+
+        threads: 8
+
+        conda: "modeltest_start_codons"
+
+        input:	"../{short_name}/logs/muscle.log"
+
+        output:	logout = "../{short_name}/logs/modeltest.log"
+
+        log: 	logerr = "../{short_name}/logs/modeltest.err"
+
+	benchmark: "../{short_name}/benchmark/modeltest_bench.txt"
+
+        shell: "./modeltree_maker7.sh {wildcards.short_name} {params.aligner} > {output.logout} 2> {log.logerr}"
+
+rule raxml:
+        params:
+                aligner = config["aligner"]
+
+        threads: 8
+
+        conda: 	"raxml_start_codons"
+
+        input: 	"../{short_name}/logs/modeltest.log"
+
+        output:	logout = "../{short_name}/logs/raxml.log"
+
+        log: 	logerr = "../{short_name}/logs/raxml.err"
+
+	benchmark: "../{short_name}/benchmark/raxml_bench.txt"
+
+        shell: "./raxml_tree8.sh {wildcards.short_name} {params.aligner} {threads} > {output.logout} 2> {log.logerr}"
+
+rule ete3:
+        threads: 1
+
+        conda:  "python_start_codons"
+
+        input:  "../{short_name}/logs/raxml.log"
+
+        output: logout = "../{short_name}/logs/ete3.log"
+
+        log:    logerr = "../{short_name}/logs/ete3.err"
+
+        benchmark: "../{short_name}/benchmark/ete3_bench.txt"
+
+        shell: 	"""
+		mkdir ../{wildcards.short_name}/figures/trees/
+		python3 ./Ete3_maker_10.py {wildcards.short_name} > {output.logout} 2> {log.logerr}
+		"""
