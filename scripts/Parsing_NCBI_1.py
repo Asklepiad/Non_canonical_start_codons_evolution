@@ -42,7 +42,7 @@ def download_links(db_search, db_current, complete_id, timer, num_link):
     if timer > 0:
         link_handle = Entrez.elink(dbfrom=db_search, db=db_current, from_uid=complete_id)
         link_record = Entrez.read(link_handle)
-        uids = extract_insdc(link_record, db_search, complete_id)
+        uids = extract_insdc(link_record)
         if uids != 0:
             for uid in uids:
                 if uid not in links_checked:  # Checking for duplicates
