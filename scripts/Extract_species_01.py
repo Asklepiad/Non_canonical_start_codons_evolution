@@ -89,7 +89,7 @@ del_ass = []
 big_ass = {}
 def counting_assembles(org_name):
     try:
-        response = requests.get(url, params={'term': f'((("chromosome"[Assembly Level]) OR "complete genome"[Assembly Level]) OR "scaffold"[Assembly Level]) AND {org_name}[Organism]'})
+        response = requests.get(url, params={'term': f'((("chromosome"[Assembly Level]) OR "complete genome"[Assembly Level]) OR "scaffold"[Assembly Level]) AND {org_name}[Organism] AND "latest_refseq"[Properties]'})
         ass_soup = BeautifulSoup(response.content, "lxml")
         pre_complete_a = ass_soup.findChildren("a", attrs={"data-value_id": "complete"})[0]
         complete_a = int(pre_complete_a.find_next_sibling().text[1:-1].replace(",", ""))

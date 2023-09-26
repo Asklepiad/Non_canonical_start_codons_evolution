@@ -28,30 +28,14 @@ with open(json_path, "r") as json_organism:
  
 organism_name = json_organism[0]
 pre_complete_ids = list(json_organism[1].values())[0]
-if type(pre_complete_ids[len(pre_complete_ids)-1]) == list:
-    scaffs = pre_complete_ids[len(pre_complete_ids)-1]
-    del pre_complete_ids[len(pre_complete_ids)-1]
-    pre_complete_ids += scaffs
 
-
-def extract_insdc(links, db_search, complete_id):
-    search_handle = Entrez.esummary(db=db_search, id=complete_id)
-    search_record = Entrez.read(search_handle)
-    ass_level = search_record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyStatus']
-    if ass_level in ["Chromosome", "Complete Genome"]:
-        linkset = [ls for ls in links[0]['LinkSetDb'] if
-              ls['LinkName'] == 'assembly_nuccore_insdc']
-        if 0 != len(linkset):
-            uids = [link['Id'] for link in linkset[0]['Link']]
-        else:
-            uids = 0
-    elif ass_level == "Scaffold":
-        linkset = [ls for ls in links[0]['LinkSetDb'] if
-              ls['LinkName'] == 'assembly_nuccore_refseq']
-        if 0 != len(linkset):
-            uids = [link['Id'] for link in linkset[0]['Link']]
-        else:
-            uids = 0
+def extract_insdc(links): 
+    linkset = [ls for ls in links[0]['LinkSetDb'] if
+               ls['LinkName'] == 'assembly_nuccore_refseq']
+    if 0 != len(linkset):
+        uids = [link['Id'] for link in linkset[0]['Link']]
+    else:
+        uids = 0
     return uids
 
 def download_links(db_search, db_current, complete_id, timer, num_link):
@@ -110,8 +94,8 @@ print("linking_ok")
 # Collecting data about assemblies
 gb_records = []
 for link in tqdm(links):
-    gb_handle = Entrez.efetch(db=db_current, rettype="gb", retmode="text", id=link[0])
-    gb_record = SeqIO.read(gb_handle, 'genbank')
+    gb_handle = Entrez.efetch(db=db_current, rettype="fasta", retmode="text", id=link[0])
+    gb_record = SeqIO.read(gb_handle, 'fasta')
     gb_records.append((gb_record, link[1]))
 print("fetching_ok")
 
