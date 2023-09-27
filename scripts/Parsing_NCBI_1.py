@@ -71,11 +71,25 @@ db_search = "assembly"
 db_current = "nucleotide"
 print("variables_ok")
 
+def gcf_transformer(db_search, gcf, level, timer):
+    if timer > 0:
+        try:
+            search_handle = Entrez.esearch(db_search, gcf)
+            search_record = Entrez.read(search_handle)
+            return search_record
+        except RuntimeError:
+            print(f"Problem is with {gcf}")
+            timer -= 1
+            level += 1
+            print(f"We are on the {level} level now")
+            search_record = gcf_transformer(db_search, gcf, level, timer)
+
 if pre_complete_ids[0][0:3] == "GCF":
     complete_ids = []
-    for gcf in pre_complete_ids:
-        search_handle = Entrez.esearch(db_search, gcf)
-        search_record = Entrez.read(search_handle)
+    for gcf in tqdm(pre_complete_ids):
+        level = 0
+        timer = 5 
+        search_record = gcf_transformer(db_search, gcf, level, timer)
         complete_ids.append(search_record["IdList"])
 else:
     complete_ids = pre_complete_ids
