@@ -120,16 +120,21 @@ core_perc_unif <- round(core_abs_unif/length(core_genes$uniformity), 3)
 shell_perc_unif <- round(shell_abs_unif/length(shell_genes$uniformity), 3)
 cloud_perc_unif <- round(cloud_abs_unif/length(cloud_genes$uniformity), 3)
 # U-curves ####
-## Computing type of start-codone for ortologus row
+## Computing type of start-codone for ortologuos row
 start_codons2$start_type <- as.factor(ifelse(start_codons2$uniformity == "different", "different", # For colorising the U-curve
                                    ifelse(start_codons2$ATG > 0, "ATG",
                                    ifelse(start_codons2$GTG > 0, "GTG", "TTG"))))
 uc_wd <- ggplot(start_codons2, aes(x=Species, fill=start_type))+
   geom_bar()+
-  labs(x="Species in ortologus row",
-       y="Number of rows")+
   theme(axis.text=element_text(size=15),
-        axis.title=element_text(size=24,face="bold"))
+        axis.title=element_text(size=24,face="bold"))+
+  scale_fill_manual(values = c("ATG" = "#F8766D",
+                               "GTG" = "#00BA38",
+                               "TTG" = "#619CFF",
+                               "different" = "#CD9600"))+
+  labs("fill" = "Start codon of ortologus row",
+       x="Species in ortologuos row",
+       y="Number of rows")
 ggsave(glue("../figures/{org_short}_uc_wd.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 row_starts <- table(start_codons2$start_type)
 
@@ -145,14 +150,30 @@ for_bp_of_all <- summary_rows %>%
          number=value)
 write.csv(for_bp_of_all, glue("./{org_short}_for_common_boxplot.csv"))
 all_sc_distr_bp <- ggplot()+
-  geom_boxplot(data=for_bp_of_all, aes(x=specie, y=number, color=start_codon))
+  geom_boxplot(data=for_bp_of_all, aes(x=specie, y=number, color=start_codon))+
+  theme(axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  labs("color" = "Start codon",
+       x = "Specie",
+       y = "Number of genes")
 ggsave(glue("../figures/{org_short}_boxplot_all.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 violins_scs <- ggplot(summary_rows)+
-  geom_violin(aes(x=start_codone, y=Species, fill=start_codone))
+  geom_violin(aes(x=start_codone, y=Species, fill=start_codone))+
+  theme(axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  labs("color" = "Start codon",
+       x = "Start codon",
+       y = "Strains")
 ggsave(glue("../figures/{org_short}_violins_scs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+
 boxplots_scs <- ggplot(summary_rows)+
-  geom_boxplot(aes(x=start_codone, y=Species, color=start_codone))
+  geom_boxplot(aes(x=start_codone, y=Species, color=start_codone))+
+  theme(axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  labs("color" = "Start codon",
+       x = "Start codon",
+       y = "Strains")
 print(getwd())
 ggsave(glue("../figures/{org_short}_boxplots_scs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
@@ -234,7 +255,12 @@ positions <- c("common_atg", "common_gtg",
 cshc_scs <- ggplot(error_bar_df)+    
   geom_pointrange(aes(x=name, y=mean, ymin=lower_ci_bound, ymax=upper_ci_bound, group=start_codone, color=start_codone))+
   scale_x_discrete(limits = positions)+
-  theme(axis.text.x = element_text(angle = 45))
+  theme(axis.text.x = element_text(angle = 45),
+        axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  labs("color" = "Start codon",
+       x = "Pangenome group and start codon",
+       y = "Mean proportion of start codon type")
 ggsave(glue("../figures/{org_short}_CShC_scs_eb.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 # Uniformity and related information ####
@@ -295,7 +321,7 @@ colnames(cog_pivot) <- c("cog_names", "cog_stat_all", "cog_min_all", "cog_max_al
                          "cog_stat_atg", "cog_min_atg", "cog_max_atg",
                          "cog_stat_gtg", "cog_min_gtg", "cog_max_gtg",
                          "cog_stat_ttg", "cog_min_ttg", "cog_max_ttg")
-write.csv(cog_columns_all, glue("./{org_short}_C_psittaci_COG_precomputed.csv"))
+write.csv(cog_columns_all, glue("./{org_short}_COG_precomputed.csv"))
 
 ## Drawing errorbars
 colors <- c("ATG" = "red", "GTG" = "dark green", "TTG" = "blue", "all" = "black")
@@ -309,10 +335,10 @@ ggplot(cog_pivot)+
   theme(axis.text.x = element_text(angle = 45))
 
 cog_pivot_without_s_and_nulls <- cog_pivot %>% 
-  filter(cog_names != "S",
+  filter(cog_names != "unknown",
          cog_stat_all != 0)
 
-write.csv(cog_pivot_without_s_and_nulls, file=glue("./{org_short}_C_psittaci_COG_start.csv"))
+write.csv(cog_pivot_without_s_and_nulls, file=glue("./{org_short}_COG_start.csv"))
 
 cog_sc_eb <- ggplot(cog_pivot)+   # Потом сохранить в переменную с именем, как после графика
   geom_pointrange(aes(x=cog_names, y=cog_stat_all, ymin=cog_min_all, ymax=cog_max_all, color="all"), alpha=1)+
@@ -332,17 +358,20 @@ ggsave(glue("../figures/{org_short}_cog_sc_eb.png"),  width = 30, height = 20, u
 
 
 cog_sc_eb_short <- ggplot(cog_pivot_without_s_and_nulls)+   # Потом сохранить в переменную с именем, как после графика
-  geom_pointrange(aes(x=cog_names, y=cog_stat_all, ymin=cog_min_all, ymax=cog_max_all, color="all"), alpha=1)+
-  geom_pointrange(aes(x=cog_names, y=cog_stat_atg, ymin=cog_min_atg, ymax=cog_max_atg, color="ATG"), alpha=1)+
-  geom_pointrange(aes(x=cog_names, y=cog_stat_gtg, ymin=cog_min_gtg, ymax=cog_max_gtg, color="GTG"), alpha=1)+
-  geom_pointrange(aes(x=cog_names, y=cog_stat_ttg, ymin=cog_min_ttg, ymax=cog_max_ttg, color="TTG"), alpha=1)+
-  labs("color" = "Legend")+
-  xlab(label = "COG")+
-  ylab(label = "COG frequency of all genes")+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_all, ymin=cog_min_all, ymax=cog_max_all, color="all"), size=1.3, alpha=0.6)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_atg, ymin=cog_min_atg, ymax=cog_max_atg, color="ATG"), size=1.3, alpha=0.6)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_gtg, ymin=cog_min_gtg, ymax=cog_max_gtg, color="GTG"), size=1.3, alpha=0.6)+
+  geom_pointrange(aes(x=cog_names, y=cog_stat_ttg, ymin=cog_min_ttg, ymax=cog_max_ttg, color="TTG"), size=1.3, alpha=0.6)+
+  labs("color" = "Legend",
+       x = "COG",
+       y = "Given start-codon's type proportion\nin given COG")+
   scale_color_manual(values = colors)+
-  theme(axis.text.x = element_text(angle = 45))+
-  theme(axis.text=element_text(size=15),
-        axis.title=element_text(size=24,face="bold"))
+  theme(axis.text.x = element_text(angle = 27))+
+  theme(axis.text=element_text(size=23),
+        axis.title=element_text(size=24,face="bold"),
+        axis.title.x = element_text(vjust=12.5),
+        legend.position = "none",
+        plot.margin = margin(,4,-2,, "cm"))
 cog_sc_eb_short
 ggsave(glue("../figures/{org_short}_cog_sc_eb_short.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
@@ -369,14 +398,28 @@ cfwz_percents <- cog_formal_without_zeros %>%   # Dataset with realtive data (pe
 
 ## Part of non-canonic-starts in orto-rows
 atg_content <- ggplot(start_codons2)+
-  geom_point(aes(x=Species, y=ATG), alpha=0.1, color="red")
-ggsave(glue("../figures/{org_short}_atg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+  geom_point(aes(x=Species, y=ATG), alpha=0.1, color="red")+
+  theme(axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  labs(x = "Strains",
+       y = "Percent of ATG in ortologus row")
+ggsave(glue("./figures/{org_short}_atg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+
 gtg_content <- ggplot(start_codons2)+
-  geom_point(aes(x=Species, y=GTG), alpha=0.1, color="green")
-ggsave(glue("../figures/{org_short}_gtg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+  geom_point(aes(x=Species, y=GTG), alpha=0.1, color="green")+
+  theme(axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  labs(x = "Strains",
+       y = "Percent of GTG in ortologus row")
+ggsave(glue("./figures/{org_short}_gtg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+
 ttg_content <- ggplot(start_codons2)+
-  geom_point(aes(x=Species, y=TTG), alpha=0.1, color="blue")
-ggsave(glue("../figures/{org_short}_ttg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
+  geom_point(aes(x=Species, y=TTG), alpha=0.1, color="blue")+
+  theme(axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  labs(x = "Strains",
+       y = "Percent of TTG in ortologus row")
+ggsave(glue("./figures/{org_short}_ttg_content.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 ## Cogs in non-canons per assembly
 assembly_list <- unique(summary_rows$p_c_unity)
@@ -392,29 +435,123 @@ prop_gene_group <- start_codons2 %>%
 
 # Fisher on steroids ####
 
+# Actual approach
+## Sum of all cogs
+al_sum <- summary_rows %>% 
+  select(length:ortologus_row) %>%
+  select(3:ncol(.)-1) %>%
+  sum
+
+## Proportion of COGs
+prop_cog <- summary_rows %>% 
+  select(length:ortologus_row) %>%
+  select(3:ncol(.)-1) %>% 
+  summarise(across(everything(), function(x) round(sum(x)/al_sum, 4))) %>% 
+  select(where(function(x) sum(x)>0))
+
+## Proportion of start codons and creating reference tibble
+pre_fisher_ref <- tibble(start_codone = c("ATG", "GTG", "TTG"),
+                         count = table(summary_rows$start_codone)) 
+
+
+## Dataset fo further analysis: x -- COGs, y -- start-codons
+pre_fisher <- summary_rows %>% 
+  select(start_codone, length:ortologus_row) %>%
+  select(1, 4:ncol(.)-1)  %>%  # Why 4? Why not 3?
+  group_by(start_codone) %>%
+  summarize(across(1:ncol(.)-1, sum))  %>% # Why we need to use "-1"?
+  select(start_codone, where(~ is.factor(.x) || (is.numeric(.x) && sum(.x)>0)))
+
+
+
+list_sc_num <- list(c(1,2), c(1,3), c(2,3))
+vector_cog <- colnames(prop_cog)
+
+fisher_list <- lapply(list_sc_num, 
+                      function(x) lapply(vector_cog, 
+                                         function(y) fisher.test(
+                                           rbind(as.integer((pre_fisher_ref[x,2] * as.double(prop_cog[y]))[1:2,2]),
+                                                 as.vector(pre_fisher[x, y])[[1]]))))
+
+names(fisher_list) <- c("ATG_GTG", "ATG_TTG", "GTG_TTG")
+names(fisher_list[["ATG_GTG"]]) <- vector_cog
+names(fisher_list[["ATG_TTG"]]) <- vector_cog
+names(fisher_list[["GTG_TTG"]]) <- vector_cog
+
+bonf_corr <- length(vector_cog) * length(list_sc_num)
+lapply(c("ATG_GTG", "ATG_TTG", "GTG_TTG"),
+       function(x) lapply(vector_cog, 
+                          function(y) fisher_list[[x]][[y]]["corrected_p_value"] = <подставить нужное>)
+       
+       fisher.test(matrix(c(15332, 1228, 16875, 1264), nrow=2))
+       
+# Gene selecting for eggnog-mapper ####
+pre_egg_or <- summary_rows %>% 
+ filter(gene_group == "core") %>% 
+ select(id, source, aa_sequence, ortologus_row, length)
+
+first_part_egg <- pre_egg_or %>% 
+ group_by(ortologus_row) %>% 
+ filter(length==median(length)) %>% 
+ slice_sample(n=1) %>% 
+ ungroup
+
+second_part_egg <- pre_egg_or %>% 
+ group_by(ortologus_row) %>% 
+ filter(length!=median(length)) %>% 
+ distinct(ortologus_row, aa_sequence, .keep_all = TRUE) %>% 
+ ungroup
+
+egg_pre_fasta <- rbind(first_part_egg, second_part_egg)
+
+## Fasta creating
+egg_fasta <- egg_pre_fasta %>% 
+  select(id, source, aa_sequence) %>% 
+  mutate(name = paste0(">", paste(id, source, sep="__")))
+
+fasta_prewriter <- function(x, col1, col2){
+  cat(x[col1])
+  cat("\n")
+  cat(x[col2])
+  cat("\n")
+}
+
+sink(glue("../{org_short}/data/for_eggnog_{org_short}.fa"))
+apply(egg_fasta, 1, function(x) fasta_prewriter(x, "name", "aa_sequence"))
+sink()
+
 # Barplots CShC - number ####
 positions = c("core", "shell", "cloud")
 or_bar_abs <-  ggplot(prop_gene_group) +
   scale_x_discrete(limits = positions)+
-  geom_col(aes(x = gene_group, y = count, fill = start_type))
+  geom_col(aes(x = gene_group, y = count, fill = start_type))+
+  scale_fill_manual(values = c("ATG" = "#F8766D",
+                               "GTG" = "#00BA38",
+                               "TTG" = "#619CFF",
+                               "different" = "#CD9600"))+
+  theme(axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  labs("fill" = "Start codon",
+       x = "Gene group",
+       y = "Number of ortologus rows")
 ggsave(glue("../figures/{org_short}_or_bar_abs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 or_bar_rel <- ggplot(prop_gene_group, aes(x = gene_group, y = count, fill = start_type)) +
   geom_bar(stat="identity", position="fill")+
   scale_x_discrete(limits = positions)+
   xlab(label = "Pangenome fraction")+
-  ylab(label = "Percent of ortologus rows with same start-codons")+
-  annotate("text", x=c(1, 2, 3, 1, 2, 0.9, 2, 3, 1.1, 3), 
-           y = c(0.75, 0.75, 0.75, 0.17, 0.45, 0.06, 0.17, 0.17, 0.01, 0.05), 
-           label=c("612", "9", "293", "201", "5", "43", "7", "54", "17", "34"),
-           size = 12)+
+  ylab(label = "Percent of ortologus rows \nwith same start-codons")+
   theme(axis.text=element_text(size=20, face="bold"),
         axis.title.x=element_text(size=24,face="bold"),
         axis.title.y=element_text(size=24,face="bold"),
         legend.title = element_text(size=18),
         legend.key.size = unit(1.5, 'cm'),
         legend.text = element_text(size=14))+
-  scale_fill_discrete(name = "Start codon")
+  scale_fill_manual(values = c("ATG" = "#F8766D",
+                               "GTG" = "#00BA38",
+                               "TTG" = "#619CFF",
+                               "different" = "#CD9600"))+
+  labs("fill" = "Start codon")
 ggsave(glue("../figures/{org_short}_or_bar_rel.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 
@@ -426,24 +563,39 @@ half_blood_gene <- summary_rows %>%
 
 distr_scs_common = as.data.frame(table(summary_rows$start_codone))
 genes_col_abs <- ggplot(distr_scs_common, aes(x=Var1, y=Freq, fill=Var1))+
-  geom_bar(stat="identity")
+  geom_bar(stat="identity")+
+  theme(axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  xlab(label = "Start codon")+
+  ylab(label = "Number of genes")+
+  labs("fill" = "Start codon")
 ggsave(glue("../figures/{org_short}_genes_col_abs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 scs_perrow <- start_codons2 %>% 
   select(ATG:TTG) %>% 
   apply(., 1, function(x) ifelse(x[1] >= x[2] & x[1] >= x[3], "ATG",
                                  ifelse(x[2] >= x[3] & x[2] > x[1], "GTG", "TTG")))
+
 or_col_abs <- ggplot(as.data.frame(table(scs_perrow)), aes(x=scs_perrow, y=Freq, fill=scs_perrow))+
-  geom_bar(stat="identity")
+  geom_bar(stat="identity")+
+  theme(axis.text=element_text(size=18),
+        axis.title=element_text(size=24,face="bold"))+
+  xlab(label = "Start codon")+
+  ylab(label = "Number of genes")+
+  labs("fill" = "Start codon")
 ggsave(glue("../figures/{org_short}_OR_col_abs.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 start_codons2$scs_perrow <- scs_perrow
 U_curve_wod <- ggplot(start_codons2, aes(x=Species, fill=scs_perrow))+
   geom_bar()+
   labs(x="Species in ortologus row",
-       y="Number of rows")+
+       y="Number of rows",
+       "fill"="Start codon")+
   theme(axis.text=element_text(size=15),
-        axis.title=element_text(size=24,face="bold"))
+        axis.title=element_text(size=24,face="bold"))+
+  scale_fill_manual(values = c("ATG" = "#F8766D",
+                               "GTG" = "#00BA38",
+                               "TTG" = "#619CFF"))
 ggsave(glue("../figures/{org_short}_UC_wod.png"),  width = 30, height = 20, units = "cm", dpi = 700)
 
 cog_abs_nc <- summary_rows %>%    # COG number and types (abs) in non-canonical SCs
@@ -529,80 +681,80 @@ rows_numbers <- start_codons2 %>%
   nrow
 
 # Formal test for evaluating COG-SC interactions ####
-
-ass_cog_atg <- summary_rows %>% 
-  filter(start_codone == "ATG") %>% 
-  select(p_c_unity, length:ortologus_row) %>% 
-  select(p_c_unity, 3:(ncol(.)-1)) %>% 
-  group_by(p_c_unity) %>% 
-  summarize_all(sum)
-
-ass_cog_gtg <- summary_rows %>% 
-  filter(start_codone == "GTG") %>% 
-  select(p_c_unity, length:ortologus_row) %>% 
-  select(p_c_unity, 3:(ncol(.)-1)) %>%
-  group_by(p_c_unity) %>% 
-  summarize_all(sum)
-
-ass_cog_ttg <- summary_rows %>% 
-  filter(start_codone == "TTG") %>% 
-  select(p_c_unity, length:ortologus_row) %>% 
-  select(p_c_unity, 3:(ncol(.)-1)) %>%
-  group_by(p_c_unity) %>% 
-  summarize_all(sum)
-
-cogs_names <- summary_rows %>%
-  select(length:ortologus_row) %>% 
-  select(2:(ncol(.)-1)) %>%
-  summarise_all(sum) %>% 
-  t %>% 
-  as.data.frame %>% 
-  filter(V1>0) %>% 
-  rownames
-
-coeffs <- c(table(summary_rows$start_codone)[1]/table(summary_rows$start_codone)[3], table(summary_rows$start_codone)[1]/table(summary_rows$start_codone)[2])
-ass_sc_creator <- function(cog){
-  ass_sc <- as.data.frame(cbind(pull(ass_cog_atg[cog]), pull(ass_cog_gtg[cog]), pull(ass_cog_ttg[cog])))
-  colnames(ass_sc) <- c("ATG", "GTG", "TTG")
-  ass_sc$GTG <- ass_sc$GTG*coeffs[2]
-  ass_sc$TTG <- ass_sc$TTG*coeffs[1]
-  return(ass_sc)
-}
-coeffs <- c(table(summary_rows$start_codone)[1]/table(summary_rows$start_codone)[3], table(summary_rows$start_codone)[2]/table(summary_rows$start_codone)[3])
-ass_sc_creator <- function(cog){
-  ass_sc <- as.data.frame(cbind(pull(ass_cog_atg[cog]), pull(ass_cog_gtg[cog]), pull(ass_cog_ttg[cog])))
-  colnames(ass_sc) <- c("ATG", "GTG", "TTG")
-  ass_sc$GTG <- round(ass_sc$GTG/coeffs[2],5)
-  ass_sc$ATG <- round(ass_sc$ATG/coeffs[1],5)
-  return(ass_sc)
-}
-ass_sc_meltor <- function(ass_sc){
-  ass_sc <- melt(ass_sc)
-  names(ass_sc) <- c("start_codone", "count")
-  return(ass_sc)
-}
-cog_posthoc <- function(cog_df){
-  AG <- wilcox.test(cog_df$ATG, cog_df$GTG, exact=FALSE)
-  AT <- wilcox.test(cog_df$ATG, cog_df$TTG, exact=FALSE)
-  GT <- wilcox.test(cog_df$TTG, cog_df$GTG, exact=FALSE)
-  us <- c(AG$statistic[[1]], AT$statistic[[1]], GT$statistic[[1]])
-  ps <- c(AG$p.value, AT$p.value, GT$p.value)
-  aps <- p.adjust(ps, method = "bonferroni")
-  res_df <- data.frame(us, ps, aps)
-  rownames(res_df) <- c("ATG_GTG", "ATG_TTG", "GTG_TTG")
-  return(res_df)
-}
-
-ass_sc_cog_pre_list <- lapply(cogs_names, ass_sc_creator)
-names(ass_sc_cog_pre_list) <- cogs_names
-ass_sc_cog_list <- lapply(ass_sc_cog_pre_list, ass_sc_meltor)
-kw_cogs_data <- lapply(ass_sc_cog_list, function(x) kruskal.test(count ~ start_codone, data = x))
-kw_cogs_pval <- sapply(kw_cogs_data, function(x) x$p.value)
-bh_corr <- p.adjust(kw_cogs_pval, method = "bonferroni")
-bh_corr_v <- bh_corr[bh_corr<0.05]
-mwu_b_list <- lapply(ass_sc_cog_pre_list, cog_posthoc)
-mwu_df <- as.data.frame(do.call("rbind", mwu_b_list))
-write.csv(mwu_df, glue("./{org_short}_cog_sc_mwu.csv"))
+# 
+# ass_cog_atg <- summary_rows %>% 
+#   filter(start_codone == "ATG") %>% 
+#   select(p_c_unity, length:ortologus_row) %>% 
+#   select(p_c_unity, 3:(ncol(.)-1)) %>% 
+#   group_by(p_c_unity) %>% 
+#   summarize_all(sum)
+# 
+# ass_cog_gtg <- summary_rows %>% 
+#   filter(start_codone == "GTG") %>% 
+#   select(p_c_unity, length:ortologus_row) %>% 
+#   select(p_c_unity, 3:(ncol(.)-1)) %>%
+#   group_by(p_c_unity) %>% 
+#   summarize_all(sum)
+# 
+# ass_cog_ttg <- summary_rows %>% 
+#   filter(start_codone == "TTG") %>% 
+#   select(p_c_unity, length:ortologus_row) %>% 
+#   select(p_c_unity, 3:(ncol(.)-1)) %>%
+#   group_by(p_c_unity) %>% 
+#   summarize_all(sum)
+# 
+# cogs_names <- summary_rows %>%
+#   select(length:ortologus_row) %>% 
+#   select(2:(ncol(.)-1)) %>%
+#   summarise_all(sum) %>% 
+#   t %>% 
+#   as.data.frame %>% 
+#   filter(V1>0) %>% 
+#   rownames
+# 
+# coeffs <- c(table(summary_rows$start_codone)[1]/table(summary_rows$start_codone)[3], table(summary_rows$start_codone)[1]/table(summary_rows$start_codone)[2])
+# ass_sc_creator <- function(cog){
+#   ass_sc <- as.data.frame(cbind(pull(ass_cog_atg[cog]), pull(ass_cog_gtg[cog]), pull(ass_cog_ttg[cog])))
+#   colnames(ass_sc) <- c("ATG", "GTG", "TTG")
+#   ass_sc$GTG <- ass_sc$GTG*coeffs[2]
+#   ass_sc$TTG <- ass_sc$TTG*coeffs[1]
+#   return(ass_sc)
+# }
+# coeffs <- c(table(summary_rows$start_codone)[1]/table(summary_rows$start_codone)[3], table(summary_rows$start_codone)[2]/table(summary_rows$start_codone)[3])
+# ass_sc_creator <- function(cog){
+#   ass_sc <- as.data.frame(cbind(pull(ass_cog_atg[cog]), pull(ass_cog_gtg[cog]), pull(ass_cog_ttg[cog])))
+#   colnames(ass_sc) <- c("ATG", "GTG", "TTG")
+#   ass_sc$GTG <- round(ass_sc$GTG/coeffs[2],5)
+#   ass_sc$ATG <- round(ass_sc$ATG/coeffs[1],5)
+#   return(ass_sc)
+# }
+# ass_sc_meltor <- function(ass_sc){
+#   ass_sc <- melt(ass_sc)
+#   names(ass_sc) <- c("start_codone", "count")
+#   return(ass_sc)
+# }
+# cog_posthoc <- function(cog_df){
+#   AG <- wilcox.test(cog_df$ATG, cog_df$GTG, exact=FALSE)
+#   AT <- wilcox.test(cog_df$ATG, cog_df$TTG, exact=FALSE)
+#   GT <- wilcox.test(cog_df$TTG, cog_df$GTG, exact=FALSE)
+#   us <- c(AG$statistic[[1]], AT$statistic[[1]], GT$statistic[[1]])
+#   ps <- c(AG$p.value, AT$p.value, GT$p.value)
+#   aps <- p.adjust(ps, method = "bonferroni")
+#   res_df <- data.frame(us, ps, aps)
+#   rownames(res_df) <- c("ATG_GTG", "ATG_TTG", "GTG_TTG")
+#   return(res_df)
+# }
+# 
+# ass_sc_cog_pre_list <- lapply(cogs_names, ass_sc_creator)
+# names(ass_sc_cog_pre_list) <- cogs_names
+# ass_sc_cog_list <- lapply(ass_sc_cog_pre_list, ass_sc_meltor)
+# kw_cogs_data <- lapply(ass_sc_cog_list, function(x) kruskal.test(count ~ start_codone, data = x))
+# kw_cogs_pval <- sapply(kw_cogs_data, function(x) x$p.value)
+# bh_corr <- p.adjust(kw_cogs_pval, method = "bonferroni")
+# bh_corr_v <- bh_corr[bh_corr<0.05]
+# mwu_b_list <- lapply(ass_sc_cog_pre_list, cog_posthoc)
+# mwu_df <- as.data.frame(do.call("rbind", mwu_b_list))
+# write.csv(mwu_df, glue("./{org_short}_cog_sc_mwu.csv"))
 
 
 # Report ####  
