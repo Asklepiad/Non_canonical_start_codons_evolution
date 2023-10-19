@@ -106,12 +106,25 @@ for complete_id in tqdm(complete_ids):
 print("linking_ok")
 
 # Collecting data about assemblies
+# Fetch with insuring for connection problems
+def fetch_insurance(links, db_current, level, timer):
+    if timer > 0:
+        try:
+            gb_handle = Entrez.efetch(db=db_current, rettype="fasta", retmode="text", id=link[0])
+            gb_record = SeqIO.read(gb_handle, 'fasta')
+            return gb_record, link[1]
+        except RuntimeError:
+            print(f"Problem is with {gcf}")
+            timer -= 1
+            level += 1
+            print(f"We are on the {level} level now")
+            gb_record, link_1 = fetch_insurance(links, db_current, level, timer)
+
 gb_records = []
 for link in tqdm(links):
-    gb_handle = Entrez.efetch(db=db_current, rettype="fasta", retmode="text", id=link[0])
-    gb_record = SeqIO.read(gb_handle, 'fasta')
-    gb_records.append((gb_record, link[1]))
-print("fetching_ok")
+    timer, level = 5, 0
+    gb_record, link_1 = fetch_insurance(links, db_current, level, timer)
+    gb_records.append((gb_record, link_1))
 
 dna_type, tuples, source_list = [], [], []  # Creating list for identyfing the number of every assemblie DNA molecules (chromosome and any plasmids)
 orglist = re.split(" |_", organism)
